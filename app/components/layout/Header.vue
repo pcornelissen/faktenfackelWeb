@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import Menu from '~/components/layout/Menu.vue'
+  import SearchBar from "~/components/layout/SearchBar.vue";
 
   const route = useRoute()
 </script>
@@ -22,6 +23,7 @@
       </div>
       <Menu style="margin-top: 2.5rem"/>
     </div>
+    <search-bar />
   </div>
 </template>
 

@@ -7,7 +7,13 @@ const slug = (route.params.slug as string[]).join('/')
 const categoryPath = `/faktenchecks/${category}`;
 const basePath = route.path;// ``/faktenchecks/${category}/${slug}`;
 
-const {data: post}
+const {data: surround} = await useAsyncData(`${route.path}-surround`, () => {
+  return queryCollectionItemSurroundings('faktenchecks', basePath, {
+    fields: ['description']
+  })
+})
+
+const {data: page}
   = await
   useAsyncData(
     `faktencheck-${slug}`,
@@ -16,8 +22,8 @@ const {data: post}
     })
 
 useSeoMeta({
-  title: post.value?.title,
-  description: post.value?.description
+  title: page.value?.title,
+  description: page.value?.description
 })
 </script>
 
@@ -26,10 +32,22 @@ useSeoMeta({
     Zurück zum Bereich {{ capitalize(category) }}
   </NuxtLink>
   <div>
-    <ContentRenderer
-      v-if="post"
-      :value="post"
-    />
+    <UPage v-if="page">
+      <UPageHeader :title="page.title"/>
+
+      <UPageBody>
+        <ContentRenderer v-if="page.body" :value="page"/>
+
+        <USeparator v-if="surround?.filter(Boolean).length"/>
+
+        <UContentSurround :surround="(surround as any)"/>
+      </UPageBody>
+
+      <template v-if="page?.body?.toc?.links?.length" #right>
+        <UContentToc :links="page.body.toc.links" title="Inhalt" />
+      </template>
+    </UPage>
+
     <div v-else>
       Diese Seite existiert nicht!
     </div>
