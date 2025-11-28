@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint . --fix",
+    "audit": "npm audit fix",
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
