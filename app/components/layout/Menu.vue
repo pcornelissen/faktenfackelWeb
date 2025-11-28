@@ -1,0 +1,50 @@
+<script setup lang="ts">
+  const menuItems = [
+    {name: 'Start', href: '/', active: false},
+    {name: 'Faktenchecks', href: '/faktenchecks', active: false},
+    {name: 'Änderungen', href: '/news', active: false}
+  ]
+  const route = useRoute()
+
+  const path = route.path == '' ? '/' : route.path
+  menuItems.forEach(item => item.active = path == item.href)
+</script>
+
+<template>
+  <nav class="menu">
+    <ul>
+      <li
+        v-for="item in menuItems"
+        :key="item.name"
+      >
+        <a
+          :href="item.href"
+          :class="{ 'item-active': item.active }"
+        >
+          {{ item.name }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+</template>
+
+<style scoped>
+  nav {
+  }
+
+  li {
+    font: 16px/1.5 'Ubuntu-Mono', monospace;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  .item-active {
+    color: #3e6b8b;
+    font-weight: bold;
+  }
+
+  a, a:visited, a:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+</style>

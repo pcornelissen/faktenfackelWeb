@@ -1,13 +1,32 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
 
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/hints',
     '@nuxt/image',
-    '@nuxt/ui'
-  ]
+    '@nuxt/ui',
+    '@nuxt/fonts'
+  ],
+
+  devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
+
+  routeRules: {
+    '/': { prerender: true }
+  },
+  compatibilityDate: '2025-07-15',
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs'
+      }
+    }
+  },
+  fonts: {
+    // Options
+  }
 })
