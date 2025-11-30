@@ -30,7 +30,7 @@ definePageData({
   title: '${title}',
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
-  description: '${post.value?.description}'
+  description: '${post.value?.description}',
 })
 
 const { data: list } = await useAsyncData(route.path, () => {

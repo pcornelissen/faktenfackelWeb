@@ -1,30 +1,47 @@
 <script setup lang="ts">
-import {Icon} from "@iconify/vue";
-import {capitalize} from "~/utils/stringUtils";
+import { Icon } from '@iconify/vue'
+import { capitalize } from '~/utils/stringUtils'
+import type { Post } from '~/utils/contentUtils'
 
 const props = defineProps<{
-  list: any[]
+  list: Post[]
   basePath: string
   href?: string
 }>()
-
 </script>
 
 <template>
   <nav class="navigation">
     <ul>
-      <li v-for="item in props.list" :key="item.path" class="flex flex-row">
-        <Icon icon="mdi:faq" :ssr="true" height="32" />
+      <li
+        v-for="item in props.list"
+        :key="item.path"
+        class="flex flex-row"
+      >
+        <Icon
+          icon="mdi:faq"
+          :ssr="true"
+          height="32"
+        />
         <div class="flex flex-row">
           <div class="flex-auto ml-2">
-            <NuxtLink :to="item.path" class="link">
+            <NuxtLink
+              :to="item.path"
+              class="link"
+            >
               {{ item.title }}
             </NuxtLink>
 
-            <NuxtLink v-for="tag in item.meta.tags" :key="tag" :to="`${props.basePath}/tags/${tag}`" class="tag">
+            <!-- suppress HtmlUnknownTarget -->
+            <NuxtLink
+              v-for="tag in item.meta.tags"
+              :key="tag"
+              :to="`${props.basePath}/tags/${tag}`"
+              class="tag"
+            >
               {{ capitalize(tag) }}
             </NuxtLink>
-            <br/>
+            <br>
             <span class="lastChange">Stand {{ new Date(item.meta['last-change']).toLocaleDateString() }}</span>
           </div>
         </div>
@@ -34,7 +51,6 @@ const props = defineProps<{
 </template>
 
 <style scoped>
-
 li {
   font-size: 1rem;
   margin-bottom: 1rem;

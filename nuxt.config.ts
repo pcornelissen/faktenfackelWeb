@@ -7,34 +7,40 @@ export default defineNuxtConfig({
     '@nuxt/hints',
     '@nuxt/image',
     '@nuxt/ui',
-    '@nuxt/fonts'
+    '@nuxt/fonts',
   ],
 
   devtools: {
     enabled: true,
 
     timeline: {
-      enabled: true
-    }
+      enabled: true,
+    },
   },
   css: ['~/assets/css/main.css'],
   colorMode: {
-    preference: 'light'
+    preference: 'light',
   },
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: true },
   },
   compatibilityDate: '2025-07-15',
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        types: ['node'], // means including @types/node
+      },
+    },
+  },
 
   eslint: {
     config: {
       stylistic: {
-        commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
+        braceStyle: '1tbs',
+      },
+    },
   },
   fonts: {
     // Options
-  }
+  },
 })

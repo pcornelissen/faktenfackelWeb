@@ -1,7 +1,7 @@
 <script setup>
-const props = defineProps("content");
-
+const props = defineProps('content')
 </script>
+
 <template>
   <UCollapsible class="flex flex-col mt-8">
     <UButton

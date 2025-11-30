@@ -4,8 +4,8 @@ export default defineContentConfig({
   collections: {
     faktenchecks: defineCollection({
       type: 'page',
-      source: 'faktenchecks/**/*.md'
+      source: 'faktenchecks/**/*.md',
 
-    })
-  }
+    }),
+  },
 })

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-  const menuItems = [
-    {name: 'Start', href: '/', active: false},
-    {name: 'Faktenchecks', href: '/faktenchecks', active: false},
-    {name: 'Änderungen', href: '/news', active: false}
-  ]
-  const route = useRoute()
+const menuItems = [
+  { name: 'Start', href: '/', active: false },
+  { name: 'Faktenchecks', href: '/faktenchecks', active: false },
+  { name: 'Änderungen', href: '/news', active: false },
+]
+const route = useRoute()
 
-  const path = route.path == '' ? '/' : route.path
-  menuItems.forEach(item => item.active = path == item.href)
+const path = route.path == '' ? '/' : route.path
+menuItems.forEach(item => item.active = path == item.href)
 </script>
 
 <template>

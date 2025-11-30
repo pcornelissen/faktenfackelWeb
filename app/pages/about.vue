@@ -4,7 +4,7 @@ import { definePageData } from '~/utils/contentUtils'
 definePageData({
   title: 'Mehr zu uns - Faktenfackel',
   pageHeading: 'Faktenfackel - Mehr zu uns',
-  pageSubHeading: 'Obligatorische Selbstdarstellung'
+  pageSubHeading: 'Obligatorische Selbstdarstellung',
 })
 </script>
 

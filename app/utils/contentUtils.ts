@@ -29,3 +29,13 @@ export function definePageData(data: PageData) {
   if (data.description)
     useRoute().meta.description = data.description
 }
+
+export type Post = {
+  title: string
+  path: string
+  meta: {
+    'tags': string[]
+    'last-change': string
+    'published': boolean
+  }
+}

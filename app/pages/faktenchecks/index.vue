@@ -6,7 +6,7 @@ import { definePageData } from '~/utils/contentUtils'
 definePageData({
   title: 'Faktenchecks - Faktenfackel',
   pageHeading: 'Faktenfackel - Faktenchecks',
-  pageSubHeading: 'Themenbereiche'
+  pageSubHeading: 'Themenbereiche',
 })
 </script>
 

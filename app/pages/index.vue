@@ -7,7 +7,7 @@ import { definePageData } from '~/utils/contentUtils.ts'
 definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
   pageHeading: 'Faktenfackel - Eine Sammlung von Fakten und Bewertungen',
-  pageSubHeading: 'Wir bringen Licht ins Dunkel'
+  pageSubHeading: 'Wir bringen Licht ins Dunkel',
 })
 </script>
 

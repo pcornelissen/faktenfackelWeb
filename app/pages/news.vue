@@ -5,7 +5,7 @@ import { definePageData } from '~/utils/contentUtils'
 definePageData({
   title: 'Änderungen - Faktenfackel',
   pageHeading: 'Faktenfackel - Änderungen',
-  pageSubHeading: 'Was hat sich in letzter Zeit geändert?'
+  pageSubHeading: 'Was hat sich in letzter Zeit geändert?',
 })
 </script>
 

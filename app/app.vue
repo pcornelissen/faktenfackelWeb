@@ -10,16 +10,16 @@ const image = route.meta.image || '/img/logo.png'
 useHead({
   title: title,
   meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' },
     { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
-    { rel: 'icon', href: '/favicon.png', type: 'image/png' }
+    { rel: 'icon', href: '/favicon.png', type: 'image/png' },
   ],
   htmlAttrs: {
-    lang: 'de-DE'
-  }
+    lang: 'de-DE',
+  },
 })
 
 useSeoMeta({
@@ -29,7 +29,7 @@ useSeoMeta({
   ogDescription: description,
   ogImage: image,
   twitterImage: image,
-  twitterCard: 'summary'
+  twitterCard: 'summary',
 })
 </script>
 

@@ -17,11 +17,13 @@ const props = defineProps<{
         :src="`/img/categories/${props.icon}.png`"
         alt="Bild für ${title}`"
       >
+      <!-- eslint-disable vue/no-v-html -->
       <div
         v-if="props.iconTxt"
         class="text-gray-500 iconTxt"
         v-html="props.iconTxt"
       />
+      <!-- eslint-enable -->
     </div>
     <div class="flex-auto">
       <h2>{{ props.title }}</h2>

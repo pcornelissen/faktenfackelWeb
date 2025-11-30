@@ -1,12 +1,12 @@
 <script setup lang="ts">
-  const {data: navigation} = await useAsyncData('navigation', () => queryCollectionNavigation('faktenchecks'))
-  const {data: files} = await useAsyncData('search', () => queryCollectionSearchSections('faktenchecks'))
+const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('faktenchecks'))
+const { data: files } = await useAsyncData('search', () => queryCollectionSearchSections('faktenchecks'))
 
-  const searchTerm = ref('')
+const searchTerm = ref('')
 </script>
 
 <template>
-  <UContentSearchButton/>
+  <UContentSearchButton />
 
   <UContentSearch
     v-model:search-term="searchTerm"

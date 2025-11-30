@@ -1,16 +1,16 @@
 <script setup lang="ts">
-  import Header from '~/components/layout/Header.vue'
+import Header from '~/components/layout/Header.vue'
 </script>
 
 <template>
-  <Header/>
-  <USeparator color="primary"/>
+  <Header />
+  <USeparator color="primary" />
 
   <UMain class="content">
-    <NuxtPage/>
+    <NuxtPage />
   </UMain>
 
-  <USeparator color="primary"/>
+  <USeparator color="primary" />
 
   <UFooter>
     <template #left>

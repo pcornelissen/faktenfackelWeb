@@ -12,7 +12,7 @@ const basePath = route.path// ``/faktenchecks/${category}/${slug}`;
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('faktenchecks', basePath, {
-    fields: ['description']
+    fields: ['description'],
   })
 })
 
@@ -31,15 +31,15 @@ definePageData({
   title: title + ' - Faktenfackel',
   pageHeading: title,
   pageSubHeading: subTitle as string,
-  description: page.value?.description
+  description: page.value?.description,
 })
 </script>
 
 <template>
-  <NuxtLink :to="categoryPath">
-    Zurück zum Bereich {{ capitalize(category) }}
-  </NuxtLink>
   <div>
+    <NuxtLink :to="categoryPath">
+      Zurück zum Bereich {{ capitalize(category) }}
+    </NuxtLink>
     <UPage v-if="page">
       <UPageHeader :title="page.title" />
 
