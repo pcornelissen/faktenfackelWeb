@@ -21,7 +21,7 @@
     "@nuxt/hints": "^1.0.0-alpha.2",
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.2.1",
-    "better-sqlite3": "^12.4.6",
+    "better-sqlite3": "^12.5.0",
     "eslint": "^9.39.1",
     "nuxt": "^4.2.1",
     "typescript": "^5.9.3",
