@@ -1,9 +1,15 @@
 <script setup lang="ts">
+import Heading from '~/components/layout/Heading.vue'
+
 const props = defineProps<{
   title: string
   subTitle?: string
   href?: string
+  icon?: string
+  iconTxt?: string
 }>()
+
+// Todo: read iconTxt from .link files
 
 function click() {
   const href = props.href
@@ -15,43 +21,25 @@ function click() {
 
 <template>
   <div
-    class="section"
     :class="[href ? 'clickable' : '']"
+    class="section"
     @click="click"
   >
-    <h2>{{ title }}</h2>
-    <div
-      v-if="subTitle"
-      class="subtitle"
-    >
-      {{ subTitle }}
-    </div>
-    <div
-      v-else
-      class="subtitle"
-    >
-&nbsp;
-    </div>
+    <Heading
+      v-bind="props"
+      class="mb-4"
+    />
     <slot />
   </div>
 </template>
 
 <style scoped>
-h2 {
-  margin: 0;
-}
-
-.subtitle {
-  font-size: 0.8rem;
-  margin-bottom: 0.5rem;
-}
-
 .section {
   display: inline-flex;
   flex: content;
   flex-direction: column;
   margin: 0.5rem;
-  padding: 0.5rem;
+  padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   max-width: 30%;

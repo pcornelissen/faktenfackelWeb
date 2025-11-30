@@ -19,9 +19,12 @@ definePageMeta({
         <template #start>
           <SectionsItem
             title="News"
+            sub-title="Letzte Änderungen"
             href="/news"
+            icon="news-medien"
+            icon-txt="<a href=&quot;https://www.flaticon.com/de/kostenlose-icons/nachrichten-medien&quot; title=&quot;Freepik Icon von abstimmung&quot;>Muhammad Yusuf<br/>Freepik</a>"
           >
-            <NewsList :limit=5 />
+            <NewsList :limit="5" />
           </SectionsItem>
         </template>
       </SectionsOverview>
