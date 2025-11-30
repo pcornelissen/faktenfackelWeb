@@ -2,11 +2,12 @@
 import NewsList from '~/news/NewsList.vue'
 import SectionsOverview from '~/components/overview/SectionsOverview.vue'
 import SectionsItem from '~/components/overview/SectionsItem.vue'
+import { definePageData } from '~/utils/contentUtils.ts'
 
-definePageMeta({
+definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
-  pageHeading: 'Faktenfackel',
-  pageSubHeading: 'Letzte Änderungen'
+  pageHeading: 'Faktenfackel - Eine Sammlung von Fakten und Bewertungen',
+  pageSubHeading: 'Wir bringen Licht ins Dunkel'
 })
 </script>
 

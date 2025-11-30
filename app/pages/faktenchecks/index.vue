@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import SectionsOverview from '~/components/overview/SectionsOverview.vue'
 import Heading from '~/components/layout/Heading.vue'
+import { definePageData } from '~/utils/contentUtils'
+
+definePageData({
+  title: 'Faktenchecks - Faktenfackel',
+  pageHeading: 'Faktenfackel - Faktenchecks',
+  pageSubHeading: 'Themenbereiche'
+})
 </script>
 
 <template>

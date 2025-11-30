@@ -1,8 +1,10 @@
 <script setup lang="ts">
-definePageMeta({
-  title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
+import { definePageData } from '~/utils/contentUtils'
+
+definePageData({
+  title: 'Mehr zu uns - Faktenfackel',
   pageHeading: 'Faktenfackel - Mehr zu uns',
-  pageSubHeading: 'Wieso, weshalb, warum'
+  pageSubHeading: 'Obligatorische Selbstdarstellung'
 })
 </script>
 
@@ -48,7 +50,7 @@ definePageMeta({
       </li>
     </ul>
 
-    <h2>Warum Faktenfackel?</h2>
+    <h2>Warum gibt es die Faktenfackel?</h2>
     <p>
       Jeden Tag begegnen einem wilde Behauptungen, und man ist sich sicher, dass das irgendwie nicht stimmen kann.
       Man kann sich nicht jedes Mal erneut auf die Suche machen, warum das jetzt ganz falsch ist oder Tatsachen verdreht
@@ -71,7 +73,7 @@ definePageMeta({
     </p>
     <h2>Wer wir sind</h2>
     <p>
-      Faktenfackel wird von unabhängigen Team von Freiwilligen gefüttert und aktualisiert. Wir kommen aus
+      Faktenfackel wird von einem unabhängigen Team von Freiwilligen gefüttert und aktualisiert. Wir kommen aus
       verschiedenen Bereichen und haben uns der Wahrheitsfindung verschrieben, um den Populisten und Scharlatanen
       mit Fakten und Belegen den Wind aus den Segeln zu nehmen.
     </p>

@@ -1,19 +1,22 @@
 <script setup lang="ts">
+import { capitalize } from '~/utils/stringUtils'
+import { definePageData } from '~/utils/contentUtils'
+
 const route = useRoute()
 
-const category = (route.params.category as string)
+const category = route.params.category as string
 const slug = (route.params.slug as string[]).join('/')
 
-const categoryPath = `/faktenchecks/${category}`;
-const basePath = route.path;// ``/faktenchecks/${category}/${slug}`;
+const categoryPath = `/faktenchecks/${category}`
+const basePath = route.path// ``/faktenchecks/${category}/${slug}`;
 
-const {data: surround} = await useAsyncData(`${route.path}-surround`, () => {
+const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('faktenchecks', basePath, {
     fields: ['description']
   })
 })
 
-const {data: page}
+const { data: page }
   = await
   useAsyncData(
     `faktencheck-${slug}`,
@@ -21,8 +24,13 @@ const {data: page}
       return queryCollection('faktenchecks').path(basePath).first()
     })
 
-useSeoMeta({
-  title: page.value?.title,
+const title = page.value?.title || `Faktencheck`
+const subTitle = page.value?.meta.subTitle || `Faktencheck`
+
+definePageData({
+  title: title + ' - Faktenfackel',
+  pageHeading: title,
+  pageSubHeading: subTitle as string,
   description: page.value?.description
 })
 </script>
@@ -33,18 +41,27 @@ useSeoMeta({
   </NuxtLink>
   <div>
     <UPage v-if="page">
-      <UPageHeader :title="page.title"/>
+      <UPageHeader :title="page.title" />
 
       <UPageBody>
-        <ContentRenderer v-if="page.body" :value="page"/>
+        <ContentRenderer
+          v-if="page.body"
+          :value="page"
+        />
 
-        <USeparator v-if="surround?.filter(Boolean).length"/>
+        <USeparator v-if="surround?.filter(Boolean).length" />
 
-        <UContentSurround :surround="(surround as any)"/>
+        <UContentSurround :surround="(surround as any)" />
       </UPageBody>
 
-      <template v-if="page?.body?.toc?.links?.length" #right>
-        <UContentToc :links="page.body.toc.links" title="Inhalt" />
+      <template
+        v-if="page?.body?.toc?.links?.length"
+        #right
+      >
+        <UContentToc
+          :links="page.body.toc.links"
+          title="Inhalt"
+        />
       </template>
     </UPage>
 
@@ -53,4 +70,3 @@ useSeoMeta({
     </div>
   </div>
 </template>
-

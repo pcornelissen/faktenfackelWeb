@@ -1,27 +1,30 @@
 <script setup lang="ts">
-  import Menu from '~/components/layout/Menu.vue'
-  import SearchBar from "~/components/layout/SearchBar.vue";
+import Menu from '~/components/layout/Menu.vue'
+import SearchBar from '~/components/layout/SearchBar.vue'
 
-  const route = useRoute()
+const route = useRoute()
 </script>
 
 <template>
   <div class="headerRow">
-    <NuxtLink to="/" style="margin-bottom: 0.2rem;">
+    <NuxtLink
+      to="/"
+      style="margin-bottom: 0.2rem;"
+    >
       <NuxtImg
         src="/img/logo.png"
         format="png"
         alt="FaktenFackel Logo"
-        height="120"
-        width="120"
+        height="100"
+        width="100"
       />
     </NuxtLink>
     <div style="flex-grow: 1">
-      <h1>{{ route.meta.title || "Faktenfackel" }}</h1>
+      <h1>{{ route.meta.pageHeading || "Faktenfackel" }}</h1>
       <div class="subTitle">
-        {{ route.meta.subTitle || "Fakenews sind wie Ratten und scheuen das Licht" }}
+        {{ route.meta.pageSubHeading || "Fakenews sind wie Ratten und scheuen das Licht" }}
       </div>
-      <Menu style="margin-top: 2.5rem"/>
+      <Menu />
     </div>
     <search-bar />
   </div>
@@ -44,5 +47,9 @@
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  Menu {
+    margin-top: 1.5rem;
   }
 </style>

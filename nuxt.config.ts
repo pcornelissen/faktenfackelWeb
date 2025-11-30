@@ -10,9 +10,17 @@ export default defineNuxtConfig({
     '@nuxt/fonts'
   ],
 
-  devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  devtools: {
+    enabled: true,
 
+    timeline: {
+      enabled: true
+    }
+  },
+  css: ['~/assets/css/main.css'],
+  colorMode: {
+    preference: 'light'
+  },
   routeRules: {
     '/': { prerender: true }
   },

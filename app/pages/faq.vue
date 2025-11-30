@@ -1,6 +1,8 @@
 <script setup lang="ts">
-definePageMeta({
-  title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
+import { definePageData } from '~/utils/contentUtils'
+
+definePageData({
+  title: 'Häufig gestellte Fragen - Faktenfackel',
   pageHeading: 'Faktenfackel - Häufig gestellte Fragen',
   pageSubHeading: 'Das wollte ich immer schon mal wissen'
 })
