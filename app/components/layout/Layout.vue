@@ -31,6 +31,6 @@ import Header from '~/components/layout/Header.vue'
   .content {
     margin-left: 2rem;
     margin-right: 2rem;
-
+    margin-top: 2rem;
   }
 </style>

@@ -3,7 +3,7 @@ import SectionsOverview from '~/components/overview/SectionsOverview.vue'
 import Heading from '~/components/layout/Heading.vue'
 import { definePageData } from '~/utils/contentUtils'
 
-definePageData({
+await definePageData({
   title: 'Faktenchecks - Faktenfackel',
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
@@ -16,7 +16,7 @@ definePageData({
       class="mt-8"
       title="Faktenchecks"
       icon="fake-news"
-      icon-txt="<a href=&quot;https://www.flaticon.com/de/kostenlose-icons/scherz&quot; title=&quot;Freepik Icon von Scherz Infinite Dendrogram&quot;>Scherz I.D.<br/>Freepik</a>"
+      icon-txt="Freepik Icon von Scherz Infinite Dendrogram"
     />
     <SectionsOverview />
   </div>

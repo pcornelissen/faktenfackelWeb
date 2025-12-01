@@ -9,7 +9,7 @@ const route = useRoute()
   <div class="headerRow">
     <NuxtLink
       to="/"
-      style="margin-bottom: 0.2rem;"
+      class="logo"
     >
       <NuxtImg
         src="/img/logo.png"
@@ -20,9 +20,9 @@ const route = useRoute()
       />
     </NuxtLink>
     <div style="flex-grow: 1">
-      <h1>{{ route.meta.pageHeading || "Faktenfackel" }}</h1>
+      <h1>{{ route.meta.pageHeading }}</h1>
       <div class="subTitle">
-        {{ route.meta.pageSubHeading || "Fakenews sind wie Ratten und scheuen das Licht" }}
+        {{ route.meta.pageSubHeading }}
       </div>
       <Menu />
     </div>
@@ -51,5 +51,10 @@ const route = useRoute()
 
   Menu {
     margin-top: 1.5rem;
+  }
+
+  .logo {
+    margin-bottom: 0.2rem;
+    margin-left: 1.4rem;
   }
 </style>

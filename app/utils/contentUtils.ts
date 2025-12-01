@@ -1,10 +1,3 @@
-interface ContentItem {
-  meta: {
-    published: boolean
-  }
-  path: string
-}
-
 interface PageData {
   title: string
   pageHeading?: string
@@ -12,13 +5,13 @@ interface PageData {
   description?: string
 }
 
-export function filter(list: ContentItem[], category: string) {
+export function filter(list: Post[], category: string) {
   return list
     .filter(item => item.meta.published)
     .filter(item => item.path.startsWith(`/faktenchecks/${category}/`))
 }
 
-export function definePageData(data: PageData) {
+export async function definePageData(data: PageData) {
   definePageMeta({ title: '', pageHeading: '', pageSubHeading: '', description: '' })
   if (data.title)
     useRoute().meta.title = data.title
@@ -28,6 +21,7 @@ export function definePageData(data: PageData) {
     useRoute().meta.pageSubHeading = data.pageSubHeading
   if (data.description)
     useRoute().meta.description = data.description
+  await nextTick()
 }
 
 export type Post = {

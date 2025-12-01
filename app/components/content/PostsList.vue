@@ -76,7 +76,7 @@ li:hover {
 .tag {
   font-size: 0.8rem;
   font-weight: 200;
-  background-color: #aaa;
+  background-color: var(--color-secondary);
   color: #fff;
   padding: 0.2rem 0.4rem;
   margin: 0.2rem 0.4rem;

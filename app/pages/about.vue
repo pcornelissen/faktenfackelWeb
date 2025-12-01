@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
 
-definePageData({
+await definePageData({
   title: 'Mehr zu uns - Faktenfackel',
   pageHeading: 'Faktenfackel - Mehr zu uns',
   pageSubHeading: 'Obligatorische Selbstdarstellung',

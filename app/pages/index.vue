@@ -4,7 +4,7 @@ import SectionsOverview from '~/components/overview/SectionsOverview.vue'
 import SectionsItem from '~/components/overview/SectionsItem.vue'
 import { definePageData } from '~/utils/contentUtils.ts'
 
-definePageData({
+await definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
   pageHeading: 'Faktenfackel - Eine Sammlung von Fakten und Bewertungen',
   pageSubHeading: 'Wir bringen Licht ins Dunkel',
@@ -23,7 +23,7 @@ definePageData({
             sub-title="Letzte Änderungen"
             href="/news"
             icon="news-medien"
-            icon-txt="<a href=&quot;https://www.flaticon.com/de/kostenlose-icons/nachrichten-medien&quot; title=&quot;Freepik Icon von abstimmung&quot;>Muhammad Yusuf<br/>Freepik</a>"
+            icon-txt="Freepik Icon von abstimmung"
           >
             <NewsList :limit="5" />
           </SectionsItem>

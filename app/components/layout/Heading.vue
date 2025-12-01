@@ -16,14 +16,8 @@ const props = defineProps<{
       <img
         :src="`/img/categories/${props.icon}.png`"
         alt="Bild für ${title}`"
+        :title="props.iconTxt"
       >
-      <!-- eslint-disable vue/no-v-html -->
-      <div
-        v-if="props.iconTxt"
-        class="text-gray-500 iconTxt"
-        v-html="props.iconTxt"
-      />
-      <!-- eslint-enable -->
     </div>
     <div class="flex-auto">
       <h2>{{ props.title }}</h2>
@@ -55,10 +49,5 @@ const props = defineProps<{
   .subtitle {
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
-  }
-
-  .iconTxt {
-    font-size: 0.4rem;
-    line-height: 0.4rem;
   }
 </style>

@@ -26,11 +26,11 @@ const { data: post }
 
 const title = post.value?.title || `Faktenchecks im Bereich ${capitalize(category)}`
 
-definePageData({
-  title: '${title}',
+await definePageData({
+  title: title,
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
-  description: '${post.value?.description}',
+  description: post.value?.description,
 })
 
 const { data: list } = await useAsyncData(route.path, () => {

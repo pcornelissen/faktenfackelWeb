@@ -6,7 +6,11 @@ const searchTerm = ref('')
 </script>
 
 <template>
-  <UContentSearchButton />
+  <UContentSearchButton
+    :collapsed="false"
+    label="&nbsp;&nbsp;Suchen&nbsp;&nbsp;&nbsp;"
+    :kbds="[]"
+  />
 
   <UContentSearch
     v-model:search-term="searchTerm"
@@ -15,6 +19,7 @@ const searchTerm = ref('')
     placeholder="Suche nach Faktenchecks"
     :navigation="navigation"
     :fuse="{ resultLimit: 42 }"
+    title="Suche"
   />
 </template>
 

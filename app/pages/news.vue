@@ -2,7 +2,7 @@
 import NewsList from '~/news/NewsList.vue'
 import { definePageData } from '~/utils/contentUtils'
 
-definePageData({
+await definePageData({
   title: 'Änderungen - Faktenfackel',
   pageHeading: 'Faktenfackel - Änderungen',
   pageSubHeading: 'Was hat sich in letzter Zeit geändert?',

@@ -27,7 +27,7 @@ const { data: page }
 const title = page.value?.title || `Faktencheck`
 const subTitle = page.value?.meta.subTitle || `Faktencheck`
 
-definePageData({
+await definePageData({
   title: title + ' - Faktenfackel',
   pageHeading: title,
   pageSubHeading: subTitle as string,
@@ -37,7 +37,15 @@ definePageData({
 
 <template>
   <div>
-    <NuxtLink :to="categoryPath">
+    <NuxtLink
+      :to="categoryPath"
+      style="display: inline-flex;
+    vertical-align: middle;"
+    >
+      <icon
+        name="i-lucide:arrow-left"
+        style="margin-right: 0.5rem;"
+      />
       Zurück zum Bereich {{ capitalize(category) }}
     </NuxtLink>
     <UPage v-if="page">

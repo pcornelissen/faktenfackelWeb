@@ -29,9 +29,6 @@ menuItems.forEach(item => item.active = path == item.href)
 </template>
 
 <style scoped>
-  nav {
-  }
-
   li {
     font: 16px/1.5 'Ubuntu-Mono', monospace;
     display: inline-block;
@@ -39,12 +36,11 @@ menuItems.forEach(item => item.active = path == item.href)
   }
 
   .item-active {
-    color: #3e6b8b;
+    color: var(--color-secondary);
     font-weight: bold;
   }
 
   a, a:visited, a:hover {
-    color: inherit;
     text-decoration: inherit;
   }
 </style>
