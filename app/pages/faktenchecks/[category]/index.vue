@@ -33,11 +33,12 @@ await definePageData({
   description: post.value?.description,
 })
 
-const { data: list } = await useAsyncData(route.path, () => {
+const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('faktenchecks')
     .select('title', 'path', 'meta')
     .all()
 })
+const list = list1.value as Post[]
 </script>
 
 <template>
