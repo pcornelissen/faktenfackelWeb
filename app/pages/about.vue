@@ -18,7 +18,7 @@ await definePageData({
       Das Internet bietet unendliche Möglichkeiten, aber leider auch unzählige Behauptungen, Gerüchte und
       Halbwahrheiten.<br>
       <strong>Wir glauben:</strong> Gute Informationen sind ein Grundstein für eine mündige Gesellschaft. Deshalb
-      haben wir
+      haben wir im Dezember 2025
       Faktenfackel ins Leben gerufen – einer Sammlung, der falsche Aussagen prüft, einordnet und verständlich
       richtigstellt.
     </p>

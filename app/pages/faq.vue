@@ -9,7 +9,15 @@ await definePageData({
 </script>
 
 <template>
-  <div>F A Q</div>
+  <div>
+    <h2>Warum werden direkt Beiträge im Internet verlinkt und die Autoren genannt?</h2>
+    <p>
+      Weil Transparenz wichtig ist. Nur so kann man die Quellen selbst überprüfen und sich eine eigene Meinung
+      bilden.<br>
+      Außerdem ist es fair gegenüber den Autoren, die sich die Mühe gemacht haben, die Inhalte zu erstellen und ihre
+      Meinung in den frei zugänglichen Medien kund tun.
+    </p>
+  </div>
 </template>
 
 <style scoped>
