@@ -47,7 +47,7 @@ function filter(list: Post[]) {
 
 <template>
   <div v-if="list">
-    <NuxtLink :to="`/faktenchecks21 /${category}`">
+    <NuxtLink :to="`/faktenchecks/${category}`">
       Zurück zum Bereich {{ capitalize(category) }}
     </NuxtLink>
     <h1>{{ title }}</h1>
