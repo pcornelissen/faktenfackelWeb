@@ -79,6 +79,19 @@ Dies ist ein [üblicher Vorgang](https://www.lto.de/recht/nachrichten/n/13l11092
 
 Die Löschung der Pressemitteilung des Verfassungsschutzes zur Einstufung der AfD als rechtsextreme Partei ist [kein Beleg dafür, dass die ursprüngliche Einstufung falsch war](https://www.tagesschau.de/inland/innenpolitik/afd-klage-bedeutung-102.html). Vielmehr handelt es sich um eine übliche Praxis, um Verwirrung zu vermeiden und die Kommunikation während eines laufenden Rechtsstreits zu steuern.
 
+### Sind Stillhaltezusagen etwas besonderes
+
+Stillhaltezusagen sind in rechtlichen Auseinandersetzungen **nicht ungewöhnlich**. Sie dienen dazu, den Status quo während eines Rechtsstreits zu bewahren und mögliche negative Auswirkungen auf die betroffene Partei zu minimieren. Solche Zusagen werden häufig in Fällen gegeben, in denen eine Organisation gegen eine Entscheidung einer Behörde Einspruch einlegt.
+
+Es gibt keine Liste mit bisherigen Stillhaltezusagen von Behörden, aber es lassen sich einige Beispiele finden:
+
+- [AfD vs Haldewang 2023](https://www.lto.de/recht/nachrichten/n/afd-verfassungsschutz-vg-koeln-stillhaltezusage-wahlen-haldewang)
+- [Bundesinnenministerium zur Impfflicht (2021)](https://www.lto.de/recht/presseschau/p/Presseschau-2021-12-24-kritik-impfpflicht-netzdg-verspaetung-hoernle-triage)
+- [Stillhaltezusage vom RWE im Hambacher Forst (2018)](https://www.deutschlandfunk.de/buergerinitiative-fuer-hambacher-forst-es-sind-baeume-100.html)
+- [Stillhaltezusage bei Abschiebung von Sami A. (Juli 2018)](https://www.lto.de/recht/justiz/j/abschiebung-bamf-verwaltungsgerichte-stillhaltezusage-sami-a-zwischenverfuegung)
+
+Auch hier sieht man, dass die Zusage nur ein Aufschub ist und kein Eingeständniss, dass die ursprüngliche Entscheidung falsch war.
+
 ### Ist die Stillhaltezusage ist ein Gewinn für die AfD
 
 Die Stillhaltezusage ist kein direkter Gewinn für die AfD, sondern eine Maßnahme, um den Status quo während des Rechtsstreits zu bewahren. Es bedeutet nicht, dass die AfD als rechtsextreme Partei unschuldig ist oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war. Vielmehr handelt es sich um eine juristische Vorsichtsmaßnahme, die in ähnlichen Fällen üblich ist.
