@@ -53,7 +53,7 @@ Er bezeichnet eine Aussage, die nach außen **harmlos oder allgemein klingt**, a
 
 > Zahlencodes, wie "**88**", "**18**", "**444**"
 
-- Die Zahlen verraten auf den ersten Blick nicht, was sie bedeuten und besonders, wenn sie an Begriffe oder Namen angehängt werden, verstehen außenstehende nicht, was gemeint ist.
+- Die Zahlen verraten auf den ersten Blick nicht, was sie bedeuten und besonders, wenn sie an Begriffe oder Namen angehängt werden, verstehen Außenstehende nicht, was gemeint ist.
 - Für die rechte Szene sind diese Codes sehr [wohlbekannt](https://www.kas.de/de/web/extremismus/rechtsextremismus/rechtsextreme-codes) und so ist 88 der Code für "Heil Hitler", 18 für "Adolf Hitler", 444 für "Deutschland den Deutschen". Die Zahlen beziehen sich auf die Stelle im Alphabet. Genutzt werden diese in Benutzernamen, wie in Videospielen, in denen einem dann ein "IchBinDeutsch88" begegnet oder ein Kennzeichen am Auto, wo nach dem Kreiskennzeichen z.B. "...-HH-88" steht.
 
 ## Wozu wird Dog-Whistle-Kommunikation genutzt?
