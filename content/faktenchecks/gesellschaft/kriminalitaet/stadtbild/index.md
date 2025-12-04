@@ -1,0 +1,124 @@
+---
+last-change: 2025-12-03
+title: Merz Aussage zum Stadtbild
+subtitle: Korrekt, oder anbiedern am rechten Rand?
+published: true
+tags: [CDU, Merz, Migranten]
+---
+
+## Was ist passiert?
+Am 14. Oktober 2025, als Merz zum Antrittsbesuch in Brandenburg war, äußerte er sich zum Thema Stadtbild und Kriminalität. Er sagte: „In vielen Städten sieht man mittlerweile ein völlig verändertes Stadtbild, das von Migranten geprägt ist. Das führt zu Unsicherheiten bei den Bürgern.“ Diese Aussage sorgte für Diskussionen in den Medien und der Öffentlichkeit.
+
+### Video zur Rede
+
+Zur besseren Einordnung hier das Video der Fragerunde und darunter die Mitschrift:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qE4Ws_jcJPY?si=xowwxI483cVAwp1y&amp;start=675" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Mitschrift
+(leicht bereinigt um z.B. "Ähm"s und "Ja"s)
+
+**Reporter:** 
+"Frage vom Deutschlandfunk: Herr Bundeskanzler, gestern Scham el Scheich heute früh Kindergarten ist eine große Herausforderung wahrscheinlich für Sie. Eine andere Herausforderung ist die AfD. Also ich erinnere mich, dass Sie 2018, glaube ich, war das in Magdeburg auf dem Parteitag waren bei der CDU und gesagt haben, sie werden die Partei halbieren. Wir haben jetzt 2025, 7 Jahre später, und hier in Brandenburg äh sie bei Umfragen über 30%. Was ist denn Ihr Programm? Was ist denn ihr vorgehen oder was ist sozusagen was haben Sie vor, um dieses Problem zu lösen?" 
+
+**Merz:** 
+"Also jetzt muss ich und das muss mir Herr Wolke nachsehen. Jetzt muss ich kurz etwas Parteipolitisches sagen. 
+
+<details>
+<summary>[[ Anfang der Antwort lesen ]]</summary>
+
+Ich habe diese Aussage 2018 gemacht und seitdem nie wiederholt. Wir waren zu diesem Zeitpunkt mit der CDU noch in der Bundesregierung. Bei der Bundestagswahl 2017 ist die AfD überhaupt erst wieder in den Bundestag gekommen.   
+
+Bei der Bundestagswahl 2021 lag sie bei 10%. Und ich habe das damals gesagt, wenn wir gute Politik machen, geht es diese Partei zu halbieren.  
+
+Wenn sie allerdings in der Wahlperiode von 2021 bis 2025 glatt verdoppelt wurde, dann ist genau das Gegenteil von dem eingetreten, was ich damals für möglich gehalten habe.  
+
+Heute ist die Lage anders. Wir sehen uns mit Rechtspopulismus nicht nur in Deutschland, sondern in großen Teilen der Welt konfrontiert und das ist eine grundlegende Unzufriedenheit mit der Demokratie.  
+
+Das war vor 7-8 Jahren noch etwas anderes. Da ging es um ein Thema. Heute haben wir eine ein ganzes Bündel an Themen und vor allen Dingen eben eine große Unzufriedenheit mit den Mechanismen und mit den Kompromissnotwendigkeiten, die wir in einer Demokratie nun mal haben. 
+
+Deswegen habe ich eben schon auf die erste Frage geantwortet. Das erste ist dafür zu werben, dass eine Demokratie von Kompromissen lebt. Das müssen wir jetzt auch in der Koalition gegenseitig akzeptieren. 
+
+Zum Zweiten zu zeigen, dass auch mit Kompromissen gute Lösungen möglich sind. So und das wird jetzt noch schwieriger werden, als ich das damals eingeschätzt habe.
+
+Damals wäre es nach meiner festen Überzeugung mit der Migrationspolitik auch schneller lösbar geworden. Das ist nicht gemacht worden. 
+
+Vorbei, wir korrigieren es jetzt. So. Und bei der Migration sind wir sehr weit. Wir haben in dieser Bundesregierung die Zahlen August '24, August '25 im Vergleich um 60% nach unten gebracht. 
+</details>
+
+_**Aber wir haben natürlich immer im Stadtbild noch dieses Problem und deswegen ist der Bundesinnenminister ja auch dabei jetzt in sehr großem Umfang auch Rückführungen zu ermöglichen und durchzuführen.**_ 
+
+<details>
+<summary>[[ Ende der Antwort und des Interviews lesen ]]</summary>
+
+Das muss beibehalten werden. Das ist in der Koalition verabredet und wenn dieses Thema weg ist, werden andere trotzdem bleiben. 
+
+Ich habe eben auf Infrastruktur, Pünktlichkeit und, und, und, Daseinsvorsorge, Gesundheitsversorgung hingewiesen. Wir müssen zeigen, dass wir das gut machen. So und dann wird das möglich sein. 
+
+Aber wir werden uns mit diesem Thema Rechts- und Linkspopulismus weiter auseinanderzusetzen haben und insbesondere der Rechtspopulismus macht uns in vielen Demokratien der Welt große Probleme. 
+
+Schauen Sie nur nach Polen, nach Frankreich, schauen Sie in andere Länder, die das alle im Augenblick als große Herausforderung haben. Wir sind da keine Ausnahme."
+
+**Reporter:** "Kurze Nachfrage an der Brandbau halten Sie fest, weil es gibt hier auch gerade bei der Union schon die ersten Auflösungserscheinungen."
+
+**Merz:** "Nein, es gibt keine Auflösungserscheinungen. Dieses Wort gefällt mir nicht, aber wenn Sie es schon verwenden, dann sage ich: "Wir sind die Brandmauer, wir sind diejenigen, die Union, die dafür sorgt, dass dieses Phänomen nicht weiter sich auswächst." Und das ist die Aufgabe, der ich mich auch als Parteivorsitzender der CDU wirklich aus vollster und tiefster Überzeugung verbunden fühle."
+</details>
+
+### Reaktionen
+
+In den allen Medien wurde das Thema divers diskutiert. Neben Kritikern, die Merz vorwerfen, mit dieser Aussage am rechten Rand zu fischen, gibt es auch Stimmen, die seine Aussage als korrekt und realistisch betrachten. 
+
+#### Positive Reaktionen
+
+Positiv aufgenommen wurde die Aussage von vielen Politikern der CDU/CSU und der AfD. So sagte z.B. der CDU-Bundestagsabgeordnete Martin Hohmann: „Merz spricht aus, was viele denken, aber nicht auszusprechen wagen. Das veränderte Stadtbild ist eine Realität, die wir anerkennen müssen.“ 
+
+Im rechten Spektrum liegende Publikationen, wie die Springer Presse gab Umfragen in Auftrag, die wenig überraschend eine breite Zustimmung suggerierten. Diese waren aber im wesentlichen Onlineumfragen, die methodisch nicht sicher gegen automatische Stimmabgaben und damit nicht aussagekräftig sind.
+
+In den Kommentarspalten sozialer Medien fanden sich ebenfalls viele Stimmen, die Merz zustimmten und bei folgenden Beiträgen, die einen echten oder vermuteten Zusammenhang zwischen Migranten und Kriminalität herstellten, die Stadtbild Aussage immer wieder rezitierten.
+
+#### Kritische Reaktionen
+
+Spannenderweise kommt sogar Kritik von der AfD, da z.B. Tino Chrupalla dem Kanzler Merz Doppelmoral vorwirft, da er u.a. für diese Zustände mitverantwortlich sei.
+
+Aus Reihen der SPD, Linken und Grünen kam ebenfalls Kritik, die Merz vorwerfen, mit dieser Aussage Vorurteile zu schüren und das gesellschaftliche Klima zu verschärfen.
+
+In der Bevölkerung gab es ebenfalls sehr viele kritische Reaktionen, die den ausländerfeindlichen Unterton der Aussage bemängelten und Merz vorwarfen, am rechten Rand zu fischen.
+
+#### Merz verteidigt seine Aussage
+
+Merz verteidigte seine Aussage in mehreren Interviews und betonte, dass er lediglich die Realität beschreibe und keine Vorurteile schüren wolle. Er argumentierte, dass es wichtig sei, über Probleme offen zu sprechen, um Lösungen zu finden.
+
+Er verteidigte nicht nur seine Aussage, sondern ging einen Schritt weiter und stellte in den Raum, dass man "nur seine Töchter fragen muss", um zu verstehen, wie unsicher sich viele Menschen in bestimmten Stadtteilen fühlen.
+
+##### Kritik weitet sich aus
+
+Diese Aussage sorgte für weitere Empörung, da viele dies als Versuch sahen, persönliche Ängste zu instrumentalisieren und Vorurteile zu verstärken. 
+
+Dazu wurde seine Aussage in vielen Reaktionen konkretisiert, denn viele Frauen und Frauenverbände wiesen darauf hin, dass sich Frauen natürlich unsicher fühlen, wenn Sie in der Dunkelheit alleine durch bestimmte Stadtteile gehen müssen, unabhängig davon, ob dort viele Migranten leben oder nicht. Denn das Problem sei nicht die Herkunft der Menschen, sondern die Tatsache, dass Frauen Angst haben, wenn Männer sie belästigen oder angreifen könnten, ohne dass dies etwas mit der ethnischen Herkunft der Täter zu tun habe.
+
+## Argumentation
+
+Zusammengefasst, wollte Merz nach eigener Aussage auf ein reales Problem hinweisen, nämlich dass sich viele Menschen in bestimmten Stadtteilen unsicher fühlen hinweisen, aufgrund der "illegalen und kriminellen Migranten", die dort leben würden.
+  
+## Faktencheck
+
+Die Aussage von Merz war entweder wissentlich oder unwissentlich irreführend und bedient Vorurteile gegenüber Migranten. 
+ 
+### "Stadtbild"
+
+Die Aussage, dass Stadtbild sei ein Problem, das durch illegale und kriminelle Migranten negativ beeinflusst wird ist sehr schwierig, da der Aufenthaltsstatus oder die Kriminalität von Menschen nicht durch ihr Aussehen oder ihre bloße Anwesenheit in einem Stadtbild bestimmt werden kann.
+
+Die Anwesenheit von Migranten [führt nicht zu Kriminalität](https://www.ifo.de/publikationen/2025/aufsatz-zeitschrift/steigert-migration-die-kriminalitaet-ein-datenbasierter-blick) [(IFO Institut, 2025, PDF)](https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf) oder Unsicherheit, da nicht die Herkunft das Verhalten bestimmt, sondern die sozialen Umstände. Die Aussage stützt also nur das u.a. von der AfD etablierte Vorurteil, dass alle Migranten kriminell sind und dazu noch den Bürgern "auf der Tasche liegen".
+
+Da eine Erklärung zur Kriminalität von Migranten komplex ist, wurde dafür eine eigene Seite angelegt: [Kriminalität bei Migranten](stadtbild/kriminalitaet-bei-migranten).
+
+### Merz Aussage zum Stadtbild wird auf der Seite des Bundestages entfernt
+
+Das Zitat von Merz wurde von der [offiziellen Seite des Bundeskanzlers](https://www.bundeskanzler.de/bk-de/aktuelles/antrittsbesuch-in-brandenburg-2388984) entfernt (Fragerunde im Anschluss aufklappen, dort ist am Ende ein Bereich mit 2(...)"), wie [CORRECTIV berichtet](https://correctiv.org/faktencheck/hintergrund/2025/10/23/merz-stadtbild-aussage-aus-mitschrift-gestrichen-was-besagt-das-neutralitaetsgebot/), nachdem es für Kontroversen gesorgt hatte. Dies deutet darauf hin, dass die Kritik an der Aussage wohl auch aus Sicht des Bundeskanzlerteams nicht ohne Grund ist.
+
+Neben der Stadtbildaussage, ist auch die unbequeme Frage gelöscht worden, warum die CDU es nicht geschafft hat ihr gestecktes Ziel die AfD zu halbieren. Daher haben wir weiter oben die komplette Mitschrift der Antwort von Merz eingefügt.
+
+In seiner Antwort darauf verweist er darauf, dass Populismus ein Problem ist, nur um dann wenige Sekunden später mit der Stadtbild Aussage genau diesen Populismus zu bedienen.
+
+Auf Nachfrage von Correctiv sei die Löschung eine "normale Reaktion" auf kontroverse Aussagen, um dem Neutralitätsgebot gerecht zu werden. Warum dies durch eine Löschung und nicht durch eine Ergänzung oder Klarstellung geschehen ist, bleibt offen, denn so hat die Öffentlichkeit weniger Möglichkeiten, sich ein ehrliches Bild der Aussagen zu machen.
+
+## Fazit
