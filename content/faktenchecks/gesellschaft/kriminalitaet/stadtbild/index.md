@@ -101,8 +101,7 @@ Zusammengefasst, wollte Merz nach eigener Aussage auf ein reales Problem hinweis
   
 ## Faktencheck
 
-Die Aussage von Merz war entweder wissentlich oder unwissentlich irreführend und bedient Vorurteile gegenüber Migranten. 
-Ein Berufspolitiker verwendet solche Aussagen nicht aus Versehen und auch nicht spontan. Diese Reden sind vorbereitet und werden in der Regel mehrfach überarbeitet, um die gewünschte Wirkung zu erzielen. 
+Die Aussage von Merz war entweder wissentlich oder unwissentlich irreführend und bedient Vorurteile gegenüber Migranten. Ein Berufspolitiker verwendet solche Aussagen nicht aus Versehen und auch nicht spontan. Diese Reden sind vorbereitet und werden in der Regel mehrfach überarbeitet, um die gewünschte Wirkung zu erzielen. 
 
 Die Erklärungen seien versehentlich missverständlich formuliert, sind daher nicht glaubwürdig.
  
@@ -110,7 +109,7 @@ Die Erklärungen seien versehentlich missverständlich formuliert, sind daher ni
 
 Die Aussage, dass Stadtbild sei ein Problem, das durch illegale und kriminelle Migranten negativ beeinflusst wird ist sehr **schwierig**, da der Aufenthaltsstatus oder die **Kriminalität von Menschen nicht durch ihre Hautfarbe** oder ihre bloße Anwesenheit in einem Stadtbild **bestimmt werden kann**. 
 
-Die Verwendung dieses Bildes wird als sogenanntes [Dog-Whistle](/glossar/dog-whistle) kritisiert. 
+Die Verwendung dieses Bildes wird als sogenanntes <Glossar>Dog-Whistle</Glossar> kritisiert. 
 
 Die Anwesenheit von Migranten [führt nicht zu Kriminalität](https://www.ifo.de/publikationen/2025/aufsatz-zeitschrift/steigert-migration-die-kriminalitaet-ein-datenbasierter-blick) [(IFO Institut, 2025, PDF)](https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf) oder Unsicherheit, da nicht die Herkunft das Verhalten bestimmt, sondern die sozialen Umstände. Die Aussage stützt also nur das u.a. von der AfD etablierte Vorurteil, dass alle Migranten kriminell sind und dazu noch den Bürgern "auf der Tasche liegen".
 
