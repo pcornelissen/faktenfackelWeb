@@ -3,7 +3,7 @@ import Heading from '~/components/layout/Heading.vue'
 
 const props = defineProps<{
   title: string
-  subTitle?: string
+  subtitle?: string
   href?: string
   icon?: string
   iconTxt?: string

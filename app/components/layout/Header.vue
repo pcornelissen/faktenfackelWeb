@@ -6,27 +6,30 @@ const route = useRoute()
 </script>
 
 <template>
-  <div class="headerRow">
-    <NuxtLink
-      to="/"
-      class="logo"
-    >
-      <NuxtImg
-        src="/img/logo.png"
-        format="png"
-        alt="FaktenFackel Logo"
-        height="100"
-        width="100"
-      />
-    </NuxtLink>
-    <div style="flex-grow: 1">
-      <h1>{{ route.meta.pageHeading }}</h1>
-      <div class="subTitle">
-        {{ route.meta.pageSubHeading }}
+  <div class="sticky top-0 z-50 bg-white  shadow-md">
+    <div class="headerRow">
+      <NuxtLink
+        to="/"
+        class="logo"
+      >
+        <NuxtImg
+          src="/img/logo.png"
+          format="png"
+          alt="FaktenFackel Logo"
+          height="100"
+          width="100"
+        />
+      </NuxtLink>
+      <div style="flex-grow: 1">
+        <h1>{{ route.meta.pageHeading }}</h1>
+        <div class="subtitle">
+          {{ route.meta.pageSubHeading }}
+        </div>
+        <Menu />
       </div>
-      <Menu />
+      <search-bar />
     </div>
-    <search-bar />
+    <USeparator color="primary" />
   </div>
 </template>
 
@@ -43,7 +46,7 @@ const route = useRoute()
     line-height: 1.5rem;
   }
 
-  .subTitle {
+  .subtitle {
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;

@@ -25,12 +25,12 @@ const { data: page }
     })
 
 const title = page.value?.title || `Faktencheck`
-const subTitle = page.value?.meta.subTitle || `Faktencheck`
+const subtitle = page.value?.meta.subtitle || `Faktencheck`
 
 await definePageData({
   title: title + ' - Faktenfackel',
   pageHeading: title,
-  pageSubHeading: subTitle as string,
+  pageSubHeading: subtitle as string,
   description: page.value?.description,
 })
 </script>

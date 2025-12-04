@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const props = defineProps<{
   title: string
-  subTitle?: string
+  subtitle?: string
   icon?: string
   iconTxt?: string
 }>()
@@ -22,10 +22,10 @@ const props = defineProps<{
     <div class="flex-auto">
       <h2>{{ props.title }}</h2>
       <div
-        v-if="props.subTitle"
+        v-if="props.subtitle"
         class="subtitle"
       >
-        {{ props.subTitle }}
+        {{ props.subtitle }}
       </div>
       <div
         v-else

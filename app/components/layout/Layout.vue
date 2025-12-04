@@ -4,9 +4,8 @@ import Header from '~/components/layout/Header.vue'
 
 <template>
   <Header />
-  <USeparator color="primary" />
 
-  <UMain class="content">
+  <UMain class="content relative overflow-y-auto    ">
     <NuxtPage />
   </UMain>
 
