@@ -17,18 +17,18 @@ Zur besseren Einordnung hier das Video der Fragerunde und darunter die Mitschrif
 #### Mitschrift
 (leicht bereinigt um z.B. "Ähm"s und "Ja"s)
 
-**Reporter:** 
-"Frage vom Deutschlandfunk: Herr Bundeskanzler, gestern Scham el Scheich heute früh Kindergarten ist eine große Herausforderung wahrscheinlich für Sie. Eine andere Herausforderung ist die AfD. Also ich erinnere mich, dass Sie 2018, glaube ich, war das in Magdeburg auf dem Parteitag waren bei der CDU und gesagt haben, sie werden die Partei halbieren. Wir haben jetzt 2025, 7 Jahre später, und hier in Brandenburg äh sie bei Umfragen über 30%. Was ist denn Ihr Programm? Was ist denn ihr vorgehen oder was ist sozusagen was haben Sie vor, um dieses Problem zu lösen?" 
+**Reporter:**
+&raquo; Frage vom Deutschlandfunk: Herr Bundeskanzler, gestern "Scharm asch-Schaich" heute früh Kindergarten ist eine große Herausforderung wahrscheinlich für Sie. Eine andere Herausforderung ist die AfD. Also ich erinnere mich, dass Sie 2018, glaube ich, war das in Magdeburg auf dem Parteitag waren bei der CDU und gesagt haben, sie werden die Partei halbieren. Wir haben jetzt 2025, 7 Jahre später, und hier in Brandenburg äh sie bei Umfragen über 30 %. Was ist denn Ihr Programm? Was ist denn ihr vorgehen oder was ist sozusagen was haben Sie vor, um dieses Problem zu lösen?&laquo;
 
-**Merz:** 
-"Also jetzt muss ich und das muss mir Herr Wolke nachsehen. Jetzt muss ich kurz etwas Parteipolitisches sagen. 
+**Merz:**
+&raquo;Also jetzt muss ich und das muss mir Herr Wolke nachsehen. Jetzt muss ich kurz etwas Parteipolitisches sagen.&laquo; 
 
 <details>
 <summary>[[ Anfang der Antwort lesen ]]</summary>
 
-Ich habe diese Aussage 2018 gemacht und seitdem nie wiederholt. Wir waren zu diesem Zeitpunkt mit der CDU noch in der Bundesregierung. Bei der Bundestagswahl 2017 ist die AfD überhaupt erst wieder in den Bundestag gekommen.   
+&raquo;Ich habe diese Aussage 2018 gemacht und seitdem nie wiederholt. Wir waren zu diesem Zeitpunkt mit der CDU noch in der Bundesregierung. Bei der Bundestagswahl 2017 ist die AfD überhaupt erst wieder in den Bundestag gekommen.   
 
-Bei der Bundestagswahl 2021 lag sie bei 10%. Und ich habe das damals gesagt, wenn wir gute Politik machen, geht es diese Partei zu halbieren.  
+Bei der Bundestagswahl 2021 lag sie bei 10 %. Und ich habe das damals gesagt, wenn wir gute Politik machen, geht es diese Partei zu halbieren.  
 
 Wenn sie allerdings in der Wahlperiode von 2021 bis 2025 glatt verdoppelt wurde, dann ist genau das Gegenteil von dem eingetreten, was ich damals für möglich gehalten habe.  
 
@@ -42,25 +42,25 @@ Zum Zweiten zu zeigen, dass auch mit Kompromissen gute Lösungen möglich sind. 
 
 Damals wäre es nach meiner festen Überzeugung mit der Migrationspolitik auch schneller lösbar geworden. Das ist nicht gemacht worden. 
 
-Vorbei, wir korrigieren es jetzt. So. Und bei der Migration sind wir sehr weit. Wir haben in dieser Bundesregierung die Zahlen August '24, August '25 im Vergleich um 60% nach unten gebracht. 
+Vorbei, wir korrigieren es jetzt. So. Und bei der Migration sind wir sehr weit. Wir haben in dieser Bundesregierung die Zahlen August '24, August '25 im Vergleich um 60 % nach unten gebracht. &laquo;
 </details>
 
-_**Aber wir haben natürlich immer im Stadtbild noch dieses Problem und deswegen ist der Bundesinnenminister ja auch dabei jetzt in sehr großem Umfang auch Rückführungen zu ermöglichen und durchzuführen.**_ 
+&raquo;_**Aber wir haben natürlich immer im Stadtbild noch dieses Problem und deswegen ist der Bundesinnenminister ja auch dabei jetzt in sehr großem Umfang auch Rückführungen zu ermöglichen und durchzuführen.**_&laquo; 
 
 <details>
 <summary>[[ Ende der Antwort und des Interviews lesen ]]</summary>
 
-Das muss beibehalten werden. Das ist in der Koalition verabredet und wenn dieses Thema weg ist, werden andere trotzdem bleiben. 
+&raquo;Das muss beibehalten werden. Das ist in der Koalition verabredet und wenn dieses Thema weg ist, werden andere trotzdem bleiben. 
 
 Ich habe eben auf Infrastruktur, Pünktlichkeit und, und, und, Daseinsvorsorge, Gesundheitsversorgung hingewiesen. Wir müssen zeigen, dass wir das gut machen. So und dann wird das möglich sein. 
 
 Aber wir werden uns mit diesem Thema Rechts- und Linkspopulismus weiter auseinanderzusetzen haben und insbesondere der Rechtspopulismus macht uns in vielen Demokratien der Welt große Probleme. 
 
-Schauen Sie nur nach Polen, nach Frankreich, schauen Sie in andere Länder, die das alle im Augenblick als große Herausforderung haben. Wir sind da keine Ausnahme."
+Schauen Sie nur nach Polen, nach Frankreich, schauen Sie in andere Länder, die das alle im Augenblick als große Herausforderung haben. Wir sind da keine Ausnahme.&laquo;
 
-**Reporter:** "Kurze Nachfrage an der Brandbau halten Sie fest, weil es gibt hier auch gerade bei der Union schon die ersten Auflösungserscheinungen."
+**Reporter:** &raquo;Kurze Nachfrage an der Brandbau halten Sie fest, weil es gibt hier auch gerade bei der Union schon die ersten Auflösungserscheinungen.&laquo;
 
-**Merz:** "Nein, es gibt keine Auflösungserscheinungen. Dieses Wort gefällt mir nicht, aber wenn Sie es schon verwenden, dann sage ich: "Wir sind die Brandmauer, wir sind diejenigen, die Union, die dafür sorgt, dass dieses Phänomen nicht weiter sich auswächst." Und das ist die Aufgabe, der ich mich auch als Parteivorsitzender der CDU wirklich aus vollster und tiefster Überzeugung verbunden fühle."
+**Merz:** &raquo;Nein, es gibt keine Auflösungserscheinungen. Dieses Wort gefällt mir nicht, aber wenn Sie es schon verwenden, dann sage ich: "Wir sind die Brandmauer, wir sind diejenigen, die Union, die dafür sorgt, dass dieses Phänomen nicht weiter sich auswächst." Und das ist die Aufgabe, der ich mich auch als Parteivorsitzender der CDU wirklich aus vollster und tiefster Überzeugung verbunden fühle.&laquo;
 </details>
 
 ### Reaktionen
@@ -69,7 +69,7 @@ In den allen Medien wurde das Thema divers diskutiert. Neben Kritikern, die Merz
 
 #### Positive Reaktionen
 
-Positiv aufgenommen wurde die Aussage von vielen Politikern der CDU/CSU und der AfD. So sagte z.B. der CDU-Bundestagsabgeordnete Martin Hohmann: „Merz spricht aus, was viele denken, aber nicht auszusprechen wagen. Das veränderte Stadtbild ist eine Realität, die wir anerkennen müssen.“ 
+Positiv aufgenommen wurde die Aussage von vielen Politikern der CDU/CSU und der AfD. So sagte z.B. der CDU-Bundestagsabgeordnete Martin Hohmann: &raquo;Merz spricht aus, was viele denken, aber nicht auszusprechen wagen. Das veränderte Stadtbild ist eine Realität, die wir anerkennen müssen.&laquo; 
 
 Im rechten Spektrum liegende Publikationen, wie die Springer Presse gab Umfragen in Auftrag, die wenig überraschend eine breite Zustimmung suggerierten. Diese waren aber im wesentlichen Onlineumfragen, die methodisch nicht sicher gegen automatische Stimmabgaben und damit nicht aussagekräftig sind.
 
@@ -102,23 +102,38 @@ Zusammengefasst, wollte Merz nach eigener Aussage auf ein reales Problem hinweis
 ## Faktencheck
 
 Die Aussage von Merz war entweder wissentlich oder unwissentlich irreführend und bedient Vorurteile gegenüber Migranten. 
- 
-### "Stadtbild"
+Ein Berufspolitiker verwendet solche Aussagen nicht aus Versehen und auch nicht spontan. Diese Reden sind vorbereitet und werden in der Regel mehrfach überarbeitet, um die gewünschte Wirkung zu erzielen. 
 
-Die Aussage, dass Stadtbild sei ein Problem, das durch illegale und kriminelle Migranten negativ beeinflusst wird ist sehr schwierig, da der Aufenthaltsstatus oder die Kriminalität von Menschen nicht durch ihr Aussehen oder ihre bloße Anwesenheit in einem Stadtbild bestimmt werden kann.
+Die Erklärungen seien versehentlich missverständlich formuliert, sind daher nicht glaubwürdig.
+ 
+### Stadtbild als "Dog-Whistle"
+
+Die Aussage, dass Stadtbild sei ein Problem, das durch illegale und kriminelle Migranten negativ beeinflusst wird ist sehr **schwierig**, da der Aufenthaltsstatus oder die **Kriminalität von Menschen nicht durch ihre Hautfarbe** oder ihre bloße Anwesenheit in einem Stadtbild **bestimmt werden kann**. 
+
+Die Verwendung dieses Bildes wird als sogenanntes [Dog-Whistle](/glossar/dog-whistle) kritisiert. 
 
 Die Anwesenheit von Migranten [führt nicht zu Kriminalität](https://www.ifo.de/publikationen/2025/aufsatz-zeitschrift/steigert-migration-die-kriminalitaet-ein-datenbasierter-blick) [(IFO Institut, 2025, PDF)](https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf) oder Unsicherheit, da nicht die Herkunft das Verhalten bestimmt, sondern die sozialen Umstände. Die Aussage stützt also nur das u.a. von der AfD etablierte Vorurteil, dass alle Migranten kriminell sind und dazu noch den Bürgern "auf der Tasche liegen".
 
-Da eine Erklärung zur Kriminalität von Migranten komplex ist, wurde dafür eine eigene Seite angelegt: [Kriminalität bei Migranten](stadtbild/kriminalitaet-bei-migranten).
+Da eine Erklärung "zur Kriminalität von Migranten" komplex ist, wurde dafür eine eigene Seite angelegt: [Kriminalität bei Migranten](stadtbild/kriminalitaet-bei-migranten).
 
-### Merz Aussage zum Stadtbild wird auf der Seite des Bundestages entfernt
+Die "illegalen Migranten" sind nicht durch den ungültigen Aufenthaltstitel auch keine Kriminellen. Verstoß gegen das Aufenthaltsgesetz ist eine Ordnungswidrigkeit und keine Straftat. Diese sind also ähnlich kriminell, wie jemand der 35 km/h in der 30 Zone fährt.
 
-Das Zitat von Merz wurde von der [offiziellen Seite des Bundeskanzlers](https://www.bundeskanzler.de/bk-de/aktuelles/antrittsbesuch-in-brandenburg-2388984) entfernt (Fragerunde im Anschluss aufklappen, dort ist am Ende ein Bereich mit 2(...)"), wie [CORRECTIV berichtet](https://correctiv.org/faktencheck/hintergrund/2025/10/23/merz-stadtbild-aussage-aus-mitschrift-gestrichen-was-besagt-das-neutralitaetsgebot/), nachdem es für Kontroversen gesorgt hatte. Dies deutet darauf hin, dass die Kritik an der Aussage wohl auch aus Sicht des Bundeskanzlerteams nicht ohne Grund ist.
+### Merz Aussage zum Stadtbild wird von der offiziellen Seite des Bundeskanzlers entfernt
 
-Neben der Stadtbildaussage, ist auch die unbequeme Frage gelöscht worden, warum die CDU es nicht geschafft hat ihr gestecktes Ziel die AfD zu halbieren. Daher haben wir weiter oben die komplette Mitschrift der Antwort von Merz eingefügt.
+Normalerweise stehen auf der offiziellen Seite des Bundeskanzlers unter [bundeskanzler.de](https://www.bundeskanzler.de) grundsätzlich alle öffentlichen Auftritte des Kanzlers mit Mitschrift der Reden.
+
+Die Stadtbild-Aussage von Merz aber wurde von der [offiziellen Seite des Bundeskanzlers](https://www.bundeskanzler.de/bk-de/aktuelles/antrittsbesuch-in-brandenburg-2388984) entfernt (Fragerunde im Anschluss aufklappen, dort ist am Ende ein Bereich mit "(...)"), wie [CORRECTIV berichtet](https://correctiv.org/faktencheck/hintergrund/2025/10/23/merz-stadtbild-aussage-aus-mitschrift-gestrichen-was-besagt-das-neutralitaetsgebot/), nachdem es für Kontroversen gesorgt hatte. Dies deutet darauf hin, dass die Kritik an der Aussage wohl auch aus Sicht des Bundeskanzlerteams nicht ohne Grund ist.
+
+Neben der Stadtbild-Aussage, ist auch die vermutlich zu unbequeme Frage gelöscht worden, warum die CDU es nicht geschafft hat ihr gestecktes Ziel die AfD zu halbieren zu erreichen. 
+
+Zur Transparenz haben wir daher weiter in der Einleitung die komplette Mitschrift des Abschnitts und das Video von Merz eingefügt.
 
 In seiner Antwort darauf verweist er darauf, dass Populismus ein Problem ist, nur um dann wenige Sekunden später mit der Stadtbild Aussage genau diesen Populismus zu bedienen.
 
-Auf Nachfrage von Correctiv sei die Löschung eine "normale Reaktion" auf kontroverse Aussagen, um dem Neutralitätsgebot gerecht zu werden. Warum dies durch eine Löschung und nicht durch eine Ergänzung oder Klarstellung geschehen ist, bleibt offen, denn so hat die Öffentlichkeit weniger Möglichkeiten, sich ein ehrliches Bild der Aussagen zu machen.
+Auf Nachfrage von Correctiv sei die Löschung eine "normale Reaktion" auf kontroverse Aussagen, um dem Neutralitätsgebot gerecht zu werden (Siehe [Link von oben](https://correctiv.org/faktencheck/hintergrund/2025/10/23/merz-stadtbild-aussage-aus-mitschrift-gestrichen-was-besagt-das-neutralitaetsgebot/)). 
+
+Warum dies durch eine Löschung und nicht durch eine Ergänzung oder Klarstellung geschehen ist, bleibt offen, denn so hat die Öffentlichkeit weniger Möglichkeiten, sich ein ehrliches Bild der Aussagen zu machen.
+
+### 
 
 ## Fazit

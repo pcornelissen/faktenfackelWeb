@@ -1,17 +1,14 @@
 <script setup lang="ts">
-import { capitalize } from '~/utils/stringUtils'
 import { definePageData } from '~/utils/contentUtils'
 
 const route = useRoute()
 
-const category = route.params.category as string
 const slug = (route.params.slug as string[]).join('/')
 
-const categoryPath = `/faktenchecks/${category}`
-const basePath = route.path// ``/faktenchecks/${category}/${slug}`;
+const basePath = route.path
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('faktenchecks', basePath, {
+  return queryCollectionItemSurroundings('glossar', basePath, {
     fields: ['description'],
   })
 })
@@ -19,21 +16,20 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
 const { data: page }
   = await
   useAsyncData(
-    `faktencheck-${slug}`,
+    `glossar-${slug}`,
     () => {
-      return queryCollection('faktenchecks').path(basePath).first()
+      return queryCollection('glossar').path(basePath).first()
     })
 
-const title = page.value?.title || `Faktencheck`
-const subtitle = page.value?.meta.subtitle || `Faktencheck`
+const title = page.value?.title || `Glossar`
+const subtitle = page.value?.meta.subtitle || ``
 
 await definePageData({
-  title: title + ' - Faktenfackel',
+  title: title + ' - Faktenfackel Glossar',
   pageHeading: title,
   pageSubHeading: subtitle as string,
   description: page.value?.description,
 })
-
 const lastChangeStr = page.value?.meta['last-change'] as string | null || ''
 const lastChange = new Date(lastChangeStr).toLocaleDateString()
 </script>
@@ -41,7 +37,7 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString()
 <template>
   <div>
     <NuxtLink
-      :to="categoryPath"
+      to="/"
       style="display: inline-flex;
     vertical-align: middle;"
     >
@@ -49,8 +45,9 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString()
         name="i-lucide:arrow-left"
         style="margin-right: 0.5rem;"
       />
-      Zurück zum Bereich {{ capitalize(category) }}
+      Zurück zur Startseite
     </NuxtLink>
+
     <UPage v-if="page">
       <UPageHeader
         :title="page.title"

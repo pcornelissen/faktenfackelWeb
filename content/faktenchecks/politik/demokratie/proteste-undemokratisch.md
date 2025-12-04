@@ -13,7 +13,7 @@ In den sozialen Medien kursierten Berichte, die argumentieren, dass diese Protes
 
 ## Zitate
 
-In den Sozialen Medien gibt es eine vielzahl an den immer gleichen Behauptungen. Hier ist eine kleine Auswahl an Beispielen aus den Kommentarspalten:
+In den sozialen Medien gibt es eine vielzahl an den immer gleichen Behauptungen. Hier ist eine kleine Auswahl an Beispielen aus den Kommentarspalten:
 
 - [Beitrag der Linken aus Niedersachsen](https://www.facebook.com/photo?fbid=1308649647960616&set=a.650689587089962)
   - > [Sven Dammann](https://www.facebook.com/sven.dammann.50?comment_id=Y29tbWVudDoxMzA4NjQ5NjkxMjkzOTQ1XzgyOTU5MTIyNjQ0OTAxNA%3D%3D&__cft__[0]=AZVoxHgbGc29kM9NvCL_DFFuIxSaYVEM-CmZiNuMGFwxJm2rN0XwdBfHtF6jf0mdJ3Pa1q1eU06PkHh_E0YS-Ut7ow5EQmVvROnCjJW8Qv4S68VCDfftOJqXoYdOwoxvnJSuPzTjm2gHUQHN1ehhOY0HDuk6HooK7YY-_F3A879YxA&__tn__=R*F)  
@@ -83,7 +83,7 @@ Die AfD ist nicht nur regelmäßig in Print- und TV-Medien präsent, sondern ver
   (2) Für Versammlungen unter freiem Himmel kann dieses Recht durch Gesetz oder auf Grund eines Gesetzes beschränkt werden.  
    -- <cite>[Grundgesetz Artikel 8 - Versammlungsfreiheit](https://www.gesetze-im-internet.de/gg/art_8.html)</cite>
 
- >  (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere Ordnung muß demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über ihr Vermögen öffentlich Rechenschaft geben.  
+ >  (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere Ordnung muss demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über ihr Vermögen öffentlich Rechenschaft geben.  
   -- <cite>[Grundgesetz Artikel 21 - Versammlungsfreiheit](https://www.gesetze-im-internet.de/gg/art_21.html)</cite>
 
  >  Demokratie ist eine Herrschaftsform, in der das Volk die oberste Macht ausübt. Wesentliche Merkmale der Demokratie sind die Wahlen, die Meinungsfreiheit, die Versammlungsfreiheit und die Gewaltenteilung.  
@@ -95,7 +95,7 @@ Die AfD ist nicht nur regelmäßig in Print- und TV-Medien präsent, sondern ver
 
 ### Antifa gefährdet die Demokratie
 
-Ein oft wiederholtes Argument ist, dass die Antifa bzw. "die Linken" eine Gefahr für die Demokratie seien. Grundlage aus den Kommentaren ist, zum einen die Tatsache, dass sie gegen die AfD protestieren und zum anderen, dass es bei  Protesten ständig zu Gewalt kommt.
+Ein oft wiederholtes Argument ist, dass die Antifa bzw. "die Linken" eine Gefahr für die Demokratie seien. Grundlage aus den Kommentaren ist, zum einen die Tatsache, dass sie gegen die AfD protestieren und zum anderen, dass es bei Protesten ständig zu Gewalt kommt.
 
 #### Was ist "die Antifa"?
 
@@ -103,7 +103,7 @@ Es gibt "die Antifa" nicht als einheitliche Organisation. Vielmehr handelt es si
 
 Es ist vergleichbar damit, dass "die Vegetarier" eine Partei oder Gruppierung wären. Hier ist der Widerspruch zur Annahme sehr deutlich. Das Gleiche gilt auch für "die Antifa".
 
-Jeder, der sich gegen Faschismus und rechte Ideologien stellt, kann sich als  Antifa betrachten, da es nur eine Abkürzung für Antifaschisten ist.
+Jeder, der sich gegen Faschismus und rechte Ideologien stellt, kann sich als Antifa betrachten, da es nur eine Abkürzung für Antifaschisten ist.
 
 #### Antifa und das Grundgesetz
  
@@ -116,7 +116,7 @@ Das liegt daran, dass das Grundgesetz:
 -	keine bestimmte Weltanschauung vorschreibt,
 -	aber die freiheitlich-demokratische Grundordnung (FDGO) schützt.
 
-Die FDGO ist absichtlich per Definition gegen faschistische Herrschaftsformen gerichtet.
+Die FDGO ist absichtlich gegen faschistische Herrschaftsformen gerichtet.
 Das wird aber nicht ideologischen Gründen getan, sondern zum Schutz von Freiheit und Menschenwürde.
  
 Die Verfassung wurde 1949 ausdrücklich als Gegenentwurf zum faschistischen Staat der Nationalsozialisten geschaffen.
@@ -137,7 +137,7 @@ Also, ist das Grundgesetz antifaschistisch?
 Im engeren, ideologischen Sinn: Nein.  
 Es vermeidet ideologische Festlegungen und ist politisch neutral formuliert.
 
-Im weiteren, funktionalen und historischen Sinn: **Ja**.  
+Im Weiteren, funktionalen und historischen Sinn: **Ja**.  
 Es wurde als bewusste Lehre aus dem Nationalsozialismus geschaffen und enthält anti-totalitäre, anti-autoritäre und menschenrechtliche Schutzmechanismen, die jede Form faschistischer Herrschaft ausschließen sollen.
 
 #### Antifa ist antidemokratisch?

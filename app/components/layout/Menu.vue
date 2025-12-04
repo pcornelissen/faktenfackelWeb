@@ -2,6 +2,7 @@
 const menuItems = [
   { name: 'Start', href: '/', active: false },
   { name: 'Faktenchecks', href: '/faktenchecks', active: false },
+  { name: 'Glossar', href: '/glossar', active: false },
   { name: 'Änderungen', href: '/news', active: false },
 ]
 const route = useRoute()

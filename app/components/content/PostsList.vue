@@ -7,6 +7,7 @@ const props = defineProps<{
   list: Post[]
   basePath: string
   href?: string
+  icon?: string
 }>()
 </script>
 
@@ -19,7 +20,7 @@ const props = defineProps<{
         class="flex flex-row"
       >
         <Icon
-          icon="mdi:faq"
+          :icon="props.icon ||'mdi:faq'"
           :ssr="true"
           height="32"
         />

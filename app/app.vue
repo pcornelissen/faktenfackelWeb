@@ -1,11 +1,13 @@
-<script setup>
+<script setup lang="ts">
 import Layout from '~/components/layout/Layout.vue'
 
 const route = useRoute()
 
-const title = route.meta.title || 'Faktenfackel'
-const description = route.meta.description || 'Wir bringen Licht ins Dunkel'
-const image = route.meta.image || '/img/logo.png'
+const meta = route.meta
+
+const title = (meta.title || 'Faktenfackel') as string
+const description = (meta.description || 'Wir bringen Licht ins Dunkel') as string
+const image = (meta.image || '/img/logo.png') as string
 
 useHead({
   title: title,

@@ -7,5 +7,10 @@ export default defineContentConfig({
       source: 'faktenchecks/**/*.md',
 
     }),
+    glossar: defineCollection({
+      type: 'page',
+      source: 'glossar/**/*.md',
+
+    }),
   },
 })

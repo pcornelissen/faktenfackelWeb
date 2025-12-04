@@ -90,7 +90,7 @@ Es gibt keine Liste mit bisherigen Stillhaltezusagen von Behörden, aber es lass
 - [Stillhaltezusage vom RWE im Hambacher Forst (2018)](https://www.deutschlandfunk.de/buergerinitiative-fuer-hambacher-forst-es-sind-baeume-100.html)
 - [Stillhaltezusage bei Abschiebung von Sami A. (Juli 2018)](https://www.lto.de/recht/justiz/j/abschiebung-bamf-verwaltungsgerichte-stillhaltezusage-sami-a-zwischenverfuegung)
 
-Auch hier sieht man, dass die Zusage nur ein Aufschub ist und kein Eingeständniss, dass die ursprüngliche Entscheidung falsch war.
+Auch hier sieht man, dass die Zusage nur ein Aufschub ist und kein Eingeständnis, dass die ursprüngliche Entscheidung falsch war.
 
 ### Ist die Stillhaltezusage ist ein Gewinn für die AfD
 
