@@ -12,7 +12,7 @@ Am 14. Oktober 2025, als Merz zum Antrittsbesuch in Brandenburg war, äußerte e
 ### Video zur Rede
 
 Zur besseren Einordnung hier das Video der Fragerunde und darunter die Mitschrift:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qE4Ws_jcJPY?si=xowwxI483cVAwp1y&amp;start=675" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe min-width="560"  max-height="615" style="aspect-ratio: 16 / 9; width: 100%;" src="https://www.youtube.com/embed/qE4Ws_jcJPY?si=xowwxI483cVAwp1y&amp;start=675" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Mitschrift
 (leicht bereinigt um z.B. "Ähm"s und "Ja"s)
@@ -113,7 +113,7 @@ Die Verwendung dieses Bildes wird als sogenanntes <Glossar>Dog-Whistle</Glossar>
 
 Die Anwesenheit von Migranten [führt nicht zu Kriminalität](https://www.ifo.de/publikationen/2025/aufsatz-zeitschrift/steigert-migration-die-kriminalitaet-ein-datenbasierter-blick) [(IFO Institut, 2025, PDF)](https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf) oder Unsicherheit, da nicht die Herkunft das Verhalten bestimmt, sondern die sozialen Umstände. Die Aussage stützt also nur das u.a. von der AfD etablierte Vorurteil, dass alle Migranten kriminell sind und dazu noch den Bürgern "auf der Tasche liegen".
 
-Da eine Erklärung "zur Kriminalität von Migranten" komplex ist, wurde dafür eine eigene Seite angelegt: [Kriminalität bei Migranten](stadtbild/kriminalitaet-bei-migranten).
+Da eine Erklärung "zur Kriminalität von Migranten" komplex ist, wurde dafür eine eigene Seite angelegt: [Kriminalität bei Migranten](../kriminalitaet/anteil-migranten).
 
 Die "illegalen Migranten" sind nicht durch den ungültigen Aufenthaltstitel auch keine Kriminellen. Verstoß gegen das Aufenthaltsgesetz ist eine Ordnungswidrigkeit und keine Straftat. Diese sind also ähnlich kriminell, wie jemand der 35 km/h in der 30 Zone fährt.
 

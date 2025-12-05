@@ -1,12 +1,12 @@
 ---
 last-change: 2025-12-03
-title: "Begriffserklärung: „Dog-Whistle“"
-subtitle: Proteste, wie in Gießen 
+title: "Begriffserklärung: ""Dog-Whistle"""
+subtitle:  
 published: true
 tags: [Glossar, Kommunikation ]
 ---
 
-Ein **„Dog-Whistle“** (wörtlich: *Hundepfeife*) ist ein Begriff aus der Kommunikations- und Politikanalyse.
+Ein **"Dog-Whistle"** (wörtlich: *Hundepfeife*) ist ein Begriff aus der Kommunikations- und Politikanalyse.
 
 Er bezeichnet eine Aussage, die nach außen **harmlos oder allgemein klingt**, aber für eine bestimmte Zielgruppe eine **versteckte, oft ideologisch aufgeladene Bedeutung** hat.
 

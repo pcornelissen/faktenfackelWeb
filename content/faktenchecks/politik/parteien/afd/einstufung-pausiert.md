@@ -16,7 +16,7 @@ als rechtsextrem eingestuft werden könne, was erhebliche Konsequenzen für die 
 möglichen Verbots.
 
 Die AfD reagierte mit einem Einspruch vor dem Verwaltungsgericht Köln gegen den Bericht. Darauf hin hat der
-Verfassungsschutz die Einstufung als gesichert rechtsextrem mit einer ["Stillhaltezusage"](https://www.vg-koeln.nrw.de/behoerde/presse/Pressemitteilungen/05_08052025/index.php) pausiert, bis das Gericht über
+Verfassungsschutz [die Einstufung als gesichert rechtsextrem](https://www.vg-koeln.nrw.de/behoerde/presse/Pressemitteilungen/05_08052025/index.php) mit einer <Glossar>Stillhaltezusage</Glossar> pausiert, bis das Gericht über
 den Einspruch entschieden hat.
 
 Zuvor wurde die AfD als Verdachtsfall eingestuft. Auch hier hatte die AfD Einspruch eingelegt, was jedoch vom
@@ -27,12 +27,12 @@ Oberverwaltungsgerichts Münster im August 2025 abgelehnt wurde.
 In diversen Medien und sozialen Netzwerken wurde die Entscheidung des Verfassungsschutzes als Sieg für die AfD gefeiert.
 Hier einige Beispiele:
 
-### [Zeit Artikel](https://www.facebook.com/share/p/1C23UJXk3f/)
+### [Zeit Artikel bei Facebook zur Einstufung](https://www.facebook.com/share/p/1C23UJXk3f/)
 
 > [Cato der Ältere](https://www.facebook.com/cato.der.altere.2024?comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzEwMjAzOTUzNzAxODc3MzM%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R)  
   Lol eine Institution wurde vorgeführt! Was für eine Blamage 😂
   Egal was kommt die AFD gewinnt
-  uvm.  
+ 
 
 > [Jacqueline Riedel](https://www.facebook.com/profile.php?id=100010672009055&comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzcxMzExMjMzMTE3MjYyOA%3D%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R)
 > 1. Juristisch ist es sehr wohl ein Erfolg:
