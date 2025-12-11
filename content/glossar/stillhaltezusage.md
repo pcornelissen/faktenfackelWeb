@@ -1,7 +1,7 @@
 ---
-last-change: 2025-12-03
-title: "Begriffserklärung: „Stillhaltezusage“"
-subtitle: Proteste, wie in Gießen 
+lastChange: 2025-12-03
+title: "Begriffserklärung: Stillhaltezusage" 
+subject: "Stillhaltezusage"  
 published: true
 tags: [Glossar, Rechtlich, Behörde, Verfahren ]
 ---

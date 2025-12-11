@@ -30,12 +30,12 @@ const props = defineProps<{
               :to="item.path"
               class="link"
             >
-              {{ item.title }}
+              {{ item.subject || item.title }}
             </NuxtLink>
 
             <!-- suppress HtmlUnknownTarget -->
             <NuxtLink
-              v-for="tag in item.meta.tags"
+              v-for="tag in item.tags"
               :key="tag"
               :to="`${props.basePath}/tags/${tag}`"
               class="tag"
@@ -43,7 +43,7 @@ const props = defineProps<{
               {{ capitalize(tag) }}
             </NuxtLink>
             <br>
-            <span class="lastChange">Stand {{ new Date(item.meta['last-change']).toLocaleDateString() }}</span>
+            <span class="lastChange">Stand {{ new Date(item.lastChange).toLocaleDateString() }}</span>
           </div>
         </div>
       </li>

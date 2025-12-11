@@ -11,6 +11,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('glossar', basePath, {
     fields: ['description'],
   })
+    .where('published', '=', '1')
 })
 
 const { data: page }
@@ -22,15 +23,14 @@ const { data: page }
     })
 
 const title = page.value?.title || `Glossar`
-const subtitle = page.value?.meta.subtitle || ``
 
 await definePageData({
   title: title + ' - Faktenfackel Glossar',
   pageHeading: title,
-  pageSubHeading: subtitle as string,
+  pageSubHeading: '',
   description: page.value?.description,
 })
-const lastChangeStr = page.value?.meta['last-change'] as string | null || ''
+const lastChangeStr = page.value?.lastChange as string | null || ''
 const lastChange = new Date(lastChangeStr).toLocaleDateString()
 </script>
 

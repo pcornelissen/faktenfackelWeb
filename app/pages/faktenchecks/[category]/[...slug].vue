@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { capitalize } from '~/utils/stringUtils'
+import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
 
 const route = useRoute()
@@ -13,7 +13,9 @@ const basePath = route.path// ``/faktenchecks/${category}/${slug}`;
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('faktenchecks', basePath, {
     fields: ['description'],
-  })
+  })// FIXME: filter published=true
+    .where('published', '=', '1')
+  // .where('meta', 'LIKE', '%"published": true%')
 })
 
 const { data: page }
@@ -25,7 +27,7 @@ const { data: page }
     })
 
 const title = page.value?.title || `Faktencheck`
-const subtitle = page.value?.meta.subtitle || `Faktencheck`
+const subtitle = page.value?.subtitle || `Faktencheck`
 
 await definePageData({
   title: title + ' - Faktenfackel',
@@ -34,7 +36,17 @@ await definePageData({
   description: page.value?.description,
 })
 
-const lastChangeStr = page.value?.meta['last-change'] as string | null || ''
+console.log('Insta', page.value?.loadInstagramm)
+const loadInstagramm = page.value?.loadInstagramm || false
+if (loadInstagramm) {
+  useHead({
+    script: [{
+      src: 'https://www.instagram.com/embed.js',
+      async: true,
+    }],
+  })
+}
+const lastChangeStr = page.value?.lastChange as string | null || ''
 const lastChange = new Date(lastChangeStr).toLocaleDateString()
 </script>
 

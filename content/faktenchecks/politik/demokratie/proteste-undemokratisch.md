@@ -1,5 +1,5 @@
 ---
-last-change: 2025-12-03
+lastChange: 2025-12-03
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Proteste, wie in Gießen 
 published: true
@@ -7,7 +7,7 @@ tags: [AfD, Generation-Deutschland, Demokratie, Proteste]
 ---
 ## Was ist passiert?
 
-Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. Die Polizei war vor Ort, um die Sicherheit zu gewährleisten und die Veranstaltung zu schützen.
+Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. Die Polizei war vor Ort, um die [Sicherheit zu gewährleisten](/faktenchecks/politik/demokratie/giessen/polizeigewalt)) und die Veranstaltung zu schützen.
 
 In den sozialen Medien kursierten Berichte, die argumentieren, dass diese Proteste undemokratisch seien, da sie die Meinungsfreiheit der AfD einschränkten.
 
@@ -40,6 +40,8 @@ Leider werden diese Aussagen in der Regel nicht begründet, wenn man dort nachfr
 
 ### Zusammengefasst
 
+Die Kritik an den Protesten lässt sich so zusammenfassen:
+
 - Jede politische Meinung der AfD muss in einer Demokratie respektiert werden.
 - Jede Form von Widerrede gegen die AfD ist undemokratisch.
 - Jede Form von Protest gegen die AfD schränkt die Meinungsfreiheit ein.
@@ -48,7 +50,12 @@ Leider werden diese Aussagen in der Regel nicht begründet, wenn man dort nachfr
 
 ## Faktencheck
 
-### Demokratische Grundrechte
+Sind diese Forderungen überhaupt sinnvoll und mit einer Demokratie vereinbar?
+
+### Demokratische Prinzipien
+
+Ist es denn demokratisch, wenn man Teilnehmer in der Demokratie kritisiert?
+Kern von allen funktionierenden Demokratien ist unter anderem die Meinungsfreiheit und auch die Möglichkeit sich friedlich zu versammeln, um die öffentliche Meinung kund zu tun und die Diskussion zu lenken.
 
 #### Ist es undemokratisch, gegen die AfD zu protestieren oder gegen ihre Aussagen zu demonstrieren?
 
@@ -65,7 +72,7 @@ Die AfD hat natürlich das Recht, ihre politischen Ansichten zu äußern und zu 
 
 Würde ein Protest gegen die AfD die Meinungsfreiheit der Partei einschränken, so würde dies bedeuten, dass die AfD nicht in der Lage wäre, ihre Ansichten zu äußern oder Veranstaltungen abzuhalten. Solange die AfD ihre Veranstaltungen durchführen kann und ihre Ansichten äußern darf, wird ihre Meinungsfreiheit nicht eingeschränkt.
 
-Protest gegen die Parteien, wie die AfD ist eine Meinungsäußerung, die in einer Demokratie geschützt ist. Würde dies nicht erlaubt sein, wäre die Meimungsfreiheit der AfD Gegner eingeschränkt und damit würde keine Meinungsfreiheit für alle mehr gelten. Da diese von der AfD ständig gefordert wird, kann sie nicht gegen Proteste argumentieren, ohne ihre eigene Forderung nach Meinungsfreiheit zu untergraben.
+Protest gegen die Parteien, wie die AfD ist eine Meinungsäußerung, die in einer Demokratie geschützt ist. Würde dies nicht erlaubt sein, wäre die Meinungsfreiheit der AfD Gegner eingeschränkt und damit würde keine Meinungsfreiheit für alle mehr gelten. Da diese von der AfD ständig gefordert wird, kann sie nicht gegen Proteste argumentieren, ohne ihre eigene Forderung nach Meinungsfreiheit zu untergraben.
 
 ##### Bewertung
 
@@ -144,7 +151,7 @@ Es wurde als bewusste Lehre aus dem Nationalsozialismus geschaffen und enthält 
 
 Da Antifa keine einheitliche Organisation ist, sondern ein Sammelbegriff für verschiedene Gruppen und Einzelpersonen, die sich gegen Faschismus und rechte Ideologien stellen, kann man nicht pauschal sagen, dass "die Antifa" antidemokratisch oder demokratisch ist.
 
-Es gibt z.B. Strömungen im linken Spektrum, die kommunistische Ziele verfolgen, die mit demokratischen Prinzipien unvereinbar sind. Diese Gruppen könnten als antidemokratisch angesehen werden.
+Es gibt z.B. Strömungen im linken Spektrum, die kommunistische Ziele verfolgen, die mit demokratischen Prinzipien unvereinbar sind. Diese Gruppen könnten als antidemokratisch angesehen werden, wenn ihr Ziel ist die Demokratie abzuschaffen. Aber Kommunismus ist ein Wirtschaftssystem und keine Regierungsform, wie die Demokratie. Es ist also nicht unbedingt antidemokratisch, sich für Kommunismus einzusetzen, solange die Regierung weiterhin demokratisch organisiert ist.
 
 Jedoch ist das linke Spektrum sehr vielfältig und umfasst wesentlich mehr demokratische Gruppen und Einzelpersonen, die sich für Menschenrechte, soziale Gerechtigkeit und Demokratie einsetzen.
 
@@ -154,9 +161,36 @@ Dies ist auch in der Demonstration in Gießen zu erkennen. Dort waren ca. 50.000
 
 Es gab nach Polizeiangaben auch nur wenige Zwischenfälle mit Gewalt, die aber von der Polizei schnell unterbunden wurden. Die überwältigende Mehrheit der Demonstranten hat ohne Gewaltausübung demonstriert.
 
-Gewalt ist in einer Demokratie niemals akzeptabel, egal von welcher Seite sie ausgeht wird. Gewalt gegen Menschen oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen. Dies ist auch im breiten linken Spektrum Konsens.
+**Gewalt** ist in einer Demokratie **niemals akzeptabel**, egal von welcher Seite sie ausgeht wird. Gewalt gegen Menschen oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen. Dies ist auch grundsätzlich im breiten linken Spektrum Konsens. Gewalt ist aber auch kein linkes Phänomen, wie man daran erkennen kann, dass es im Jahr 2024 ca. 40.000 politisch motivierte Straftaten aus dem rechten Milieu gab und ca. 1ß.000 aus dem linken Spektrum. Gewalt gegen Menschen ist wesentlich mehr im rechten Spektrum vertreten, als Eigentumsdelikte, die im linken Spektrum für die Mehrheit der Straftaten verantwortlich sind.
+
+### Demonstrationen, was is erlaubt und was nicht
+
+Das Recht auf Versammlungsfreiheit und das Recht zu demonstrieren sind in Deutschland wichtig und grundgesetzlich geschützt. Nicht ohne Grund dürfen Städte und Gemeinden nicht einfach so eine Demonstration verbieten.
+In Deutschland gilt, dass eine Demonstration **anzeigepflichtig aber nicht genehmigungspflichtig** ist.
+
+Das bedeutet, dass jemand, der eine Demonstration plant diese beim Ordnungsamt und ggf. der Polizei **bekannt machen** muss. Dazu müssen geschätzte erwartete Teilnehmerzahlen etc. mitgeteilt werden, damit die Behörden entsprechend reagieren können, um z.B. Polizeikräfte bereitzustellen, die eine ordnungsgemäße Durchführung gewährleisten sollen. (Das klappt mal mehr und mal [weniger gut](/faktenchecks/politik/demokratie/giessen/polizeigewalt)) Die Behörden müssen eine Demonstration aber nicht genehmigen, sondern sie können sie nur bei schwerwiegenden Gründen verbieten. Dagegen gibt es dann das Mittel des Einspruchs beim Verwaltungsgericht, wenn man damit nicht einverstanden ist.
+
+Wenn die Behörden Bedenken haben, werden in der Regel Auflagen gefordert, die die Veranstalter erfüllen müssen. Das sind regelmäßig Forderungen nach einer Zahl an Ordnern, die die Demonstranten in geordneten Bahnen halten oder Beschränkungen der Wege und Versammlungsorte.
+Die Behörden müssen die Auflagen begründen können und diese müssen so wenig wie möglich die Demonstration beeinflussen. Es ist also z.B. nicht möglich eine Demonstration einfach so aus der Stadt in einen Außenbezirk zu verlegen.
+
+Demonstrationen dürfen in das tägliche Geschehen eingreifen und müssen es in der Regel auch, um die gewünschte Aufmerksamkeit zu erreichen. Es ist also vollkommen OK, wenn
+
+- Straßen während der Demonstration gesperrt sind
+- andere Menschen dadurch gewünschte Routen nicht befahren können oder Orte nicht einfach erreichen können
+- lauter Lärm gemacht wird mit Musik, Instrumenten und Sprech-Chören
+
+Natürlich hat die Demonstrationsfreiheit auch Grenzen, so sind Ausschreitungen, wie zu den G20 in Hamburg nicht durch die Freiheit gedeckt.
+
+Explizit nicht erlaubt ist z.B.
+
+- Sachbeschädigung (Zerstören von Autos, Scheiben einwerfen, Beschmieren von Eigentum mit permanent haftenden Farben, usw.)
+- Gewalt gegen Gegendemonstranten oder andere Gruppierungen
+- Vermummung
 
 ## Fazit
+
 Es ist also nicht korrekt zu behaupten, dass Proteste gegen die AfD und ähnliche Parteien und Organisationen undemokratisch seien.
 
-Im Gegenteil, sie sind ein Ausdruck der demokratischen Rechte der Bürger, ihre Meinung zu äußern und gegen politische Parteien zu protestieren. Solange diese Proteste friedlich verlaufen und die Rechte anderer respektieren, sind sie ein legitimes Mittel der Meinungsäußerung in einer Demokratie.
+Im Gegenteil, sie sind ein Ausdruck der demokratischen Rechte der Bürger, ihre Meinung zu äußern und gegen politische Parteien zu protestieren. Solange diese Proteste ohne Gewalt und Zerstörung verlaufen und die Rechte anderer so weit wie möglich respektieren, sind sie ein legitimes Mittel der Meinungsäußerung in einer Demokratie.
+
+Man darf auch nicht vergessen, dass aktuell ein starkes Ungleichgewicht in der öffentlichen Wahrnehmung der verschiedenen Demonstrationen gibt. Eine angemeldete links-orientierte Demo wird gerne auch schon präventiv als Gewaltorgie angekündigt, auch wenn diese zu 99 % von den Demonstranten aus friedlich verläuft. Die Bauernproteste im Jahr 2024 waren ebenso einschneidend in das öffentliche Leben, weil Autobahnen und Straßen gesperrt oder mit Gülle über Stunden unbrauchbar gemacht wurden. Es gab dort sogar mind. einen Toten Bauern und Verletzte auf Seiten der anderen Verkehrsteilnehmer durch Unfälle. Hier wurde weder von der Gewalt und der Verhältnismäßigkeit berichtet und die Polizei ist nicht gegen die Demonstranten angegangen. Der Rechtsstaat ist da auf einem Auge blind oder braucht dringend eine Brille. 

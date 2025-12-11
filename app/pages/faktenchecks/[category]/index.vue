@@ -35,7 +35,7 @@ await definePageData({
 
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('faktenchecks')
-    .select('title', 'path', 'meta')
+    .select('title', 'subtitle', 'path', 'published', 'tags', 'lastChange')
     .all()
 })
 const list = list1.value as Post[]

@@ -1,5 +1,5 @@
 ---
-last-change: 2025-12-03
+lastChange: 2025-12-03
 title: Der Verfassungsschutz pausiert die Einstufung der AfD als rechtsextreme Partei
 subtitle: Sieg für die AfD oder normaler Vorgang?
 published: true
@@ -112,7 +112,9 @@ Es gibt auch keine Hinweise darauf, dass das Ministerium den Verfassungsschutz a
 
 ## Fazit
 
-Zusammengefasst, ist die Pausierung natürlich kein direkter Sieg für die AfD und die positiven Effekte sind nur temporär. Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. 
+Zusammengefasst, ist die Pausierung natürlich kein direkter Sieg für die AfD und die positiven Effekte sind nur temporär. 
+
+Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. 
 
 
 

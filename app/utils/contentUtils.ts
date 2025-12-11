@@ -1,3 +1,6 @@
+import { useRoute } from 'nuxt/app'
+import { nextTick } from 'vue'
+
 interface PageData {
   title: string
   pageHeading?: string
@@ -7,7 +10,7 @@ interface PageData {
 
 export function filter(list: Post[], category: string) {
   return list
-    .filter(item => item.meta.published)
+    .filter(item => item.published)
     .filter(item => item.path.startsWith(`/faktenchecks/${category}/`))
 }
 
@@ -26,10 +29,10 @@ export async function definePageData(data: PageData) {
 
 export type Post = {
   title: string
+  subject: string
+  subtitle: string
   path: string
-  meta: {
-    'tags': string[]
-    'last-change': string
-    'published': boolean
-  }
+  tags: string[]
+  lastChange: string
+  published: boolean
 }

@@ -1,5 +1,5 @@
 ---
-last-change: 2025-12-03
+lastChange: 2025-12-03
 title: Merz Aussage zum Stadtbild
 subtitle: Korrekt, oder anbiedern am rechten Rand?
 published: true
@@ -89,7 +89,7 @@ Merz verteidigte seine Aussage in mehreren Interviews und betonte, dass er ledig
 
 Er verteidigte nicht nur seine Aussage, sondern ging einen Schritt weiter und stellte in den Raum, dass man "nur seine Töchter fragen muss", um zu verstehen, wie unsicher sich viele Menschen in bestimmten Stadtteilen fühlen.
 
-##### Kritik weitet sich aus
+#### Kritik weitet sich aus
 
 Diese Aussage sorgte für weitere Empörung, da viele dies als Versuch sahen, persönliche Ängste zu instrumentalisieren und Vorurteile zu verstärken. 
 
@@ -133,6 +133,8 @@ Auf Nachfrage von Correctiv sei die Löschung eine "normale Reaktion" auf kontro
 
 Warum dies durch eine Löschung und nicht durch eine Ergänzung oder Klarstellung geschehen ist, bleibt offen, denn so hat die Öffentlichkeit weniger Möglichkeiten, sich ein ehrliches Bild der Aussagen zu machen.
 
-### 
-
 ## Fazit
+
+Die Aussage von Merz spiuelt absichtlich mit den Vorurteilen, die von der CDU, AfD und z.B. der Springer Presse gepflegt werden, dass die Tatsache, dass Migranten und Flüchtlinge ins Land gelassen werden, zu einer höheren Kriminalitätsrate führt.
+
+Besonders die Nutzung des Aussehens von Personen als direkter Indikator für Kriminelle ist extrem problematisch, weil es eben alle "nicht deutsch aussehenden" Personen sofort unter Generalverdacht stellt. Eine Aussage, die kein demokratischer Berufspolitiker und schon gar kein Bundeskanzler tätigen sollte.
