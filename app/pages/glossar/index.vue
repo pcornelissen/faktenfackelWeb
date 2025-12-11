@@ -13,14 +13,14 @@ await definePageData({
 
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('glossar')
-    .select('title', 'path', 'meta')
+    .select('title', 'subject', 'path', 'published', 'tags', 'lastChange')
     .all()
 })
 const list = list1.value as Post[]
 
 function filter(list: Post[]) {
   return list
-    .filter(item => item.meta.published)
+    .filter(item => item.published)
 }
 </script>
 
@@ -37,7 +37,7 @@ function filter(list: Post[]) {
     Diese Seite existiert nicht!<br>
     <br>
     <NuxtLink to="/">
-      Zurück zur Startseite }}
+      Zurück zur Startseite
     </NuxtLink>
   </div>
 </template>
