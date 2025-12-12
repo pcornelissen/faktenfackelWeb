@@ -17,6 +17,10 @@ await definePageData({
       Außerdem ist es fair gegenüber den Autoren, die sich die Mühe gemacht haben, die Inhalte zu erstellen und ihre
       Meinung in den frei zugänglichen Medien kund tun.
     </p>
+    <h2>Hilfe, das ist Hell, gibt es keinen Darkmode?</h2>
+    <p>
+      Nein, es gibt aktuell keinen Darkmode, aus Zeitgründen war ein Darkmode noch nicht möglich.
+    </p>
   </div>
 </template>
 
