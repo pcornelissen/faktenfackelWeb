@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/fonts',
     'nuxt-cloudflare-analytics',
+    '@nuxt/scripts',
   ],
   devtools: {
     enabled: true,

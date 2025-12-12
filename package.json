@@ -22,7 +22,9 @@
     "@nuxt/fonts": "^0.12.1",
     "@nuxt/hints": "1.0.0-alpha.3",
     "@nuxt/image": "^2.0.0",
+    "@nuxt/scripts": "0.13.0",
     "@nuxt/ui": "^4.2.1",
+    "@unhead/vue": "^2.0.19",
     "better-sqlite3": "^12.5.0",
     "bindings": "^1.5.0",
     "eslint": "^9.39.1",
@@ -31,7 +33,9 @@
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
     "vue": "^3.5.25",
-    "vue-router": "^4.6.4"
+    "vue-router": "^4.6.4",
+    "zod": "^4.1.13",
+    "zod-to-json-schema": "^3.25.0"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
