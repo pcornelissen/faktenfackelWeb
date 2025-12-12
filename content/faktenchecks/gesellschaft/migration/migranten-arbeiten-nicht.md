@@ -1,5 +1,5 @@
 ---
-lastChange: 2025-12-08
+lastChange: 2025-12-12
 title: Migranten arbeiten nicht
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
 published: true
@@ -8,19 +8,18 @@ tags: [Migranten, Arbeit, Stadtbild]
 
 ## Was ist passiert?
 
-Ein beliebtes Argument gegen Miganten ist, dass sie nicht arbeiten (wollen). Das führt zu hohen Belastungen der Sozialsysteme bei leeren Kassen.
+Ein beliebtes Argument gegen Miganten ist, dass sie nicht arbeiten (wollen). Das führt zu hohen Belastungen der Sozialsysteme bei leeren Kassen und einem Gefühl der Ungerechtigkeit bei einigen deutschen Bürgern.
 
-## Zitate
 
-### Faktencheck
+## Faktencheck
 
 Natürlich wird es Flüchtlinge geben, die sich gerne ohne Arbeit aufhalten wollen, weil selbst das Bürgergeld schon mehr ist, also sie von der Heimat gewöhnt sind. 
 
-Der Großteil der Flüchtlinge wollen aber arbeiten, u.a. um ein besseres Leben zu führen.
+Der Großteil der [Flüchtlinge und Zugewanderten wollen aber arbeiten](https://statistik.arbeitsagentur.de/Statistikdaten/Detail/Aktuell/arbeitsmarktberichte/faktenblatt-asyl8-ukr/faktenblatt-asyl8-ukr-d-0-pdf.pdf?__blob=publicationFile&v=1), u.a. um ein besseres Leben zu führen.
 
-#####  Wer grundsätzlich arbeiten darf
+###  Wer grundsätzlich arbeiten darf
 
-Grundsätzlich gilt, es dürfen arbeiten:
+Grundsätzlich gilt, [es dürfen arbeiten](https://www.auswaertiges-amt.de/de/service/fragenkatalog-node/01-arbeitsmoeglichkeiten-606314?isLocal=false&isPreview=false):
 - Anerkannte Flüchtlinge, subsidiär Schutzberechtigte und Personen mit humanitärem Aufenthalt:
   - Dürfen in der Regel uneingeschränkt arbeiten.
 - Asylsuchende und Geduldete:
@@ -28,7 +27,7 @@ Grundsätzlich gilt, es dürfen arbeiten:
 
 In die erste Gruppe fallen z.B. Flüchtlinge aus der Ukraine. Asylsuchende müssen Glück haben, um die Arbeitserlaubnis für einen konkreten Job auch zu bekommen. Ein Arbeitgeberwechsel ist sofort mit hohen Aufwänden verbunden.
 
-#### Wartezeiten
+### Wartezeiten
 
 Eine Arbeitsaufnahme kann nicht sofort vorgenommen werden, es gilt:
 
@@ -39,7 +38,7 @@ Eine Arbeitsaufnahme kann nicht sofort vorgenommen werden, es gilt:
 
 Also egal, ob man arbeiten will oder nicht, ohne diese Wartezeiten darf man nicht anfangen zu arbeiten.
 
-#### Erforderliche Genehmigungen
+### Erforderliche Genehmigungen
 
 Wenn man denn endlich die Chance hat, arbeiten zu dürfen, müssen je nach Status einige Genehmigungen zusätzlich eingeholt werden:
 
@@ -48,9 +47,9 @@ Wenn man denn endlich die Chance hat, arbeiten zu dürfen, müssen je nach Statu
   - Oft zusätzlich Zustimmung der Bundesagentur für Arbeit für eine konkrete Stelle.
 - Für jeden neuen Job ist oft ein neues Verfahren nötig 
 
-#### Typische Hürden in der Praxis
+### Typische Hürden in der Praxis
 
-Wie sieht also die Realität aus, wenn die Flüchtlinge für sich selbst aufkommen wollen?
+Wie sieht also [die Realität](https://www.proasyl.de/news/der-steinige-weg-in-den-arbeitsmarkt-fuer-gefluechtete-menschen/) aus, wenn die Flüchtlinge für sich selbst aufkommen wollen?
 
 - Lange Bearbeitungszeiten bei Behörden.
 - Hoher bürokratischer Aufwand schreckt Arbeitgeber ab.
@@ -58,11 +57,11 @@ Wie sieht also die Realität aus, wenn die Flüchtlinge für sich selbst aufkomm
 - Sprachbarrieren erschweren Jobsuche und passenden Einsatz.
 - Unsicherer Aufenthaltsstatus macht Planung für Arbeitgeber und Geflüchtete schwierig und die Geflüchteten sind unattraktiv, weil der Aufwand jederzeit umsonst gewesen sein kann, weil die geflüchtete Person dann doch abgeschoben wird
 
-Es ist also mitnichten so, dass die M[igranten als Gruppe nicht arbeiten wollen](https://mediendienst-integration.de/news/berufliche-integration-von-fluechtlingen-studie-dietrich-thraenhardt-bertelsmann-stiftung/), sondern es wird vom Staat die Integration massiv und unnötigerweise erschwert.
+Es ist also mitnichten so, dass die [Migranten als Gruppe nicht arbeiten wollen](https://mediendienst-integration.de/news/berufliche-integration-von-fluechtlingen-studie-dietrich-thraenhardt-bertelsmann-stiftung/), sondern es wird vom Staat die Integration massiv und unnötigerweise erschwert.
 
 Natürlich gibt es auch Migranten, die trotz Erlaubnis nicht arbeiten wollen, das ist nach mehreren Untersuchungen aber nur ein kleiner Bruchteil, der medial aber sehr ausgeschlachtet wird.
 
-#### Der Arbeitsmarkt in Deutschland
+### Der Arbeitsmarkt in Deutschland
 
 Wie in "[Krise am Arbeitsmarkt](/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-arbeitsmarkt)" aufgearbeitet, ist der Arbeitsmarkt in Deutschland in der Krise. Der Wendepunkt ist schon lange überschritten, Maßnahmen bleiben aus.
 
