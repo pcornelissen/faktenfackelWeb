@@ -58,7 +58,7 @@ const list = list1.value as Post[]
     Diese Seite existiert nicht!<br>
     <br>
     <NuxtLink :to="`/faktenchecks/`">
-      Zurück zur Übersicht }}
+      Zurück zur Übersicht
     </NuxtLink>
   </div>
   <!--  <debug :content=route></debug> -->
