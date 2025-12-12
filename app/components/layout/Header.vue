@@ -42,10 +42,6 @@ const route = useRoute()
     margin-top: 1rem;
   }
 
-  h1 {
-    line-height: 1.5rem;
-  }
-
   .subtitle {
     font-size: 1rem;
     margin-top: 0.5rem;
