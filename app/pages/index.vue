@@ -19,6 +19,16 @@ await definePageData({
       <SectionsOverview>
         <template #start>
           <SectionsItem
+            title="Seite im Aufbau"
+            sub-title="Bitte beachten"
+            icon="news-medien"
+            icon-txt="Freepik Icon von abstimmung"
+          >
+            Die Seite und Inhalte befinden sich im Aufbau.<br>
+            Es fehlen noch Kleinigkeiten und die Inhalte müssen
+            noch abgerundet werden.
+          </SectionsItem>
+          <SectionsItem
             title="News"
             sub-title="Letzte Änderungen"
             href="/news"
@@ -26,6 +36,20 @@ await definePageData({
             icon-txt="Freepik Icon von abstimmung"
           >
             <NewsList :limit="5" />
+          </SectionsItem>
+        </template>
+        <template #end>
+          <SectionsItem
+            title="Kontakt"
+            sub-title="Feedback, Vorschläge, ..."
+            icon="news-medien"
+            icon-txt="Freepik Icon von abstimmung"
+          >
+            Für konstruktives Feedback und Vorschläge sind wir dankbar.
+            Einfach per E-Mail an <a href="mailto:kontakt@faktenfackel.de">kontakt@faktenfackel.de</a>.
+
+            <b>ACHTUNG:</b><br>
+            Bedrohungen, Beleidigungen, etc. werden ggf. veröffentlicht und zur Anzeige gebracht.
           </SectionsItem>
         </template>
       </SectionsOverview>
