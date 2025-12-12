@@ -20,7 +20,7 @@ const { data: post }
   useAsyncData(
     `faktencheck-${category}`,
     () => {
-      return queryCollection('faktenchecks').path(`/faktenchecks      /${category}`).first()
+      return queryCollection('faktenchecks').path(`/faktenchecks/${category}`).first()
     })
 
 const title = `Faktenchecks im Bereich ${capitalize(category)} zum Schlagwort "${capitalize(tag)}"`
@@ -41,16 +41,26 @@ function filter(list: Post[]) {
   return list
     .filter(item => item.published)
     .filter(item => item.tags.map((t: string) => t.toLowerCase()).includes(tag.toLowerCase()))
-    .filter(item => item.path.startsWith(`/faktenchecks /${category}/`))
+    .filter(item => item.path.startsWith(`/faktenchecks/${category}/`))
 }
 </script>
 
 <template>
   <div v-if="list">
-    <NuxtLink :to="`/faktenchecks/${category}`">
+    <NuxtLink
+      :to="`/faktenchecks/${category}`"
+      style="display: inline-flex;
+    vertical-align: middle;"
+    >
+      <icon
+        name="i-lucide:arrow-left"
+        style="margin-right: 0.5rem;"
+      />
       Zurück zum Bereich {{ capitalize(category) }}
     </NuxtLink>
+
     <h1>{{ title }}</h1>
+
     <ContentRenderer
       v-if="tagInfo"
       :value="tagInfo"
