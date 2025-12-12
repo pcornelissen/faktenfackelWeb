@@ -21,6 +21,11 @@ await definePageData({
     <p>
       Nein, es gibt aktuell keinen Darkmode, aus Zeitgründen war ein Darkmode noch nicht möglich.
     </p>
+    <h2>Super Projekt! Kann ich mithelfen?</h2>
+    <p>
+      Ja, aber es gibt nicht einfach Schreibzugriff für die Seite.<br>
+      Bitte unter <a href="mailto:kontakt@faktenfackel.de">kontakt@faktenfackel.de</a> melden. Wir besprechen dann alles weitere.
+    </p>
   </div>
 </template>
 
