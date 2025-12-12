@@ -8,8 +8,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/ui',
     '@nuxt/fonts',
+    'nuxt-cloudflare-analytics',
   ],
-
   devtools: {
     enabled: true,
 
@@ -36,6 +36,9 @@ export default defineNuxtConfig({
         types: ['node'], // means including @types/node
       },
     },
+  },
+  cloudflareAnalytics: {
+    token: 'a7464bd8e7454353b7fa774eac5dee57',
   },
 
   eslint: {
