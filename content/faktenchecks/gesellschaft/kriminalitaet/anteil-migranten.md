@@ -1,5 +1,5 @@
 ---
-lastChange: 2025-12-04
+lastChange: 2025-12-12
 title: Kriminalität bei Ausländern und Deutschen
 subtitle: Widersprüche, Probleme und Fakten
 published: true
@@ -16,9 +16,6 @@ Es wird quasi jedes Verbrechen, über das berichtet wird reflexartig dem "Stadtb
 
 **<Glossar name="tldr">TL;DR</Glossar>**<br/>
 Die Zusammenfassung der langen Analyse ist im [Fazit](#fazit).
-
-## Zitate
-
 
 ## Argumentation
 
@@ -99,7 +96,7 @@ Quellen:<br/>
 [Tatverdächtige Deutsche](https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/PolizeilicheKriminalstatistik/2024/Bund/Tatverdaechtige/BU-TV-12-T40-TV-deutsch_xls.xlsx?__blob=publicationFile&v=2)<br/>
 [Tatverdächtige Nicht-Deutsche](https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/PolizeilicheKriminalstatistik/2024/Bund/Tatverdaechtige/BU-TV-17-T50-TV-nichtdeutsch_xls.xlsx?__blob=publicationFile&v=2)
 
-### Gründe für Migration und die Realtät
+### Gründe für Migration und die Realität
 
 So viel zur Verdächtigung von Straftaten, aber [warum](https://www.europarl.europa.eu/topics/de/article/20200624STO81906/was-sind-die-ursachen-von-migration) kommen die ausländischen Mitbürger überhaupt [nach Deutschland](https://www.lpb.rlp.de/fileadmin/files/downloads/Faust/Flugblatt_gegen_Vorurteile.pdf)?
 
@@ -164,7 +161,7 @@ Zugang zu Sprachkursen, Schule, medizinischer Versorgung und Sozialleistungen �
 7. Arbeit und Wohnen 
 Unterstützung bei der Arbeitsaufnahme und der Wohnungsfindung, danach können sich die Flüchtlinge selber versorgen
 
-Die Realität ist anders.
+**Die Realität ist anders.**
 
 - Die Erstaufnahmeeinrichtungen sind voll mit überforderten und frustrierten anderen Flüchtlingen, die Stimmung ist oft schlecht
 - Asylanträge werden über Jahre bearbeitet, in der Zeit besteht jederzeit die Chance, dass man wieder in das Herkunftsland oder andere Länder abgeschoben wird
@@ -180,7 +177,7 @@ Das Resultat dieser vernachlässigten Integrationsarbeit:
 
 ## Fazit
 
-An den Zahlen kann man sehen, das selbst in bei den 21 bis 29-jährigen, nur 11 % der Ausländer als Tatverdächtige registriert werden (oder 16 %, wenn man nur die männlichen Personen zählt). Also sind **89 %** dieser Personen **nicht verdächtigt** worden.  
+An den Zahlen kann man sehen, das selbst in bei den 21 bis 29-jährigen, nur 11 % der Ausländer als Tatverdächtige registriert werden (oder 16 %, wenn man nur die männlichen Personen zählt). Also sind **89 %** (oder 84 %) dieser Personen **nicht verdächtigt** worden.  
 
 Das Narrativ, dass "die Ausländer kriminell sind", ist also nicht haltbar, wenn nur insgesamt 6 % (über alle Altersgruppen hinweg) der Ausländer überhaupt nur einer Tat verdächtigt werden. Kombiniert man das mit der Aufklärungsquote so ist zu erwarten, dass auch darin nur zwischen 33 % und 40 % wirklich Taten begangen wurden. Also sind es insgesamt eher unter 3-4 %, die wirklich kriminell sind. Da muss man schon sehr kreativ sein, um daher alle Ausländer in Misskredit zu ziehen.
 
