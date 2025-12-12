@@ -63,6 +63,8 @@ Das hält die rechte Szene nicht davon ab auch nach dem Dementi der Polizei die 
 
 ### Weitere Berichte zu den Protesten
 
+Reporterin von Perspektive Online [berichtet über Schläge durch die Polizei](https://t.me/perspektiveon/8254).
+
 Bericht zu Polizeigewalt an den Lahnbrücken durch "[Moers ist bunt nicht Braun](https://www.facebook.com/Moersistbunt?__cft__[0]=AZVtranIeSylb4XHXsujcUUFCrA1O1-uC8aAhYc_P3R7zjhk_ylIAsH_rR0VTwF3fVJPM0tOkZeaW6vShFf9EHCzP0k1_nvYde1K-x4XDocGWaS041yM23gtUaf3L9aOEE8MD7LYYP4DkJw0crvOtzOX0T83tAYpTN5Xt198Q4_-U9wc3bKnfqGrjCJad4PEEHpG-1mP9pYXTY9JVqQQga8T&__tn__=-UC%2CP-R) bei [Facebook](https://www.facebook.com/Moersistbunt/posts/pfbid0GgjyEeonqnmazF7DznTbWD1fiUbiamhYTDHC3sCgBKe36eNewsMCyzWmqHiL42N9l)
 > Trotz friedlicher Demo eskaliert die Gewalt an den Lahnbrücken
 Bei den Protesten gegen die AfD-Jugend kam es zu Zusammenstößen. Polizeigewalt und Taxiservice-Vorwürfe sorgen für Empörung. ...
