@@ -64,7 +64,7 @@ Quelle:
 
 Man sieht hier zum einen, dass weibliche Straftäter ca. 25 bis 30 % der Straftäter ausmachen und, dass der Schwerpunkt zwischen 20 und 49 Jahren liegt. Kinder, Jugendliche und "Rentner" sind für erheblich weniger Straftaten verantwortlich.
 
-<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-gesamt-2024.png" style="max-height: 35rem;width: auto"/>
+<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-gesamt-2024.png" style="max-height: 35rem;width: auto" alt="Diagramm, Anteil der Tatverdächtigen nach Altersgruppen"/>
 
 Schaut man sich die Anzahl der Tatverdächtigen relativ zur Gesamtbevölkerung, dann kann man hier sehen, dass gerade der Bereich der "jungen Erwachsenen" zwischen 14 und 30 wesentlich stärker vertreten ist prozentual, gemessen an der Zahl der Personen in dem Altersbereich.
 
@@ -76,15 +76,15 @@ In den PKS Daten, gibt es auch die Aufschlüsselung nach deutschen und nicht-deu
 
 **Achtung:** Ausländer sind in den Zahlen nicht nur "Migranten", sondern auch EU Bürger und andere Nationalitäten, die sich zum Zeitpunkt der Verdächtigung in Deutschland aufhalten. 
 
-<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-dt-ausl-2024.png" style="max-height: 35rem;width: auto"><br/>
+<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-dt-ausl-2024.png" style="max-height: 35rem;width: auto" alt="Diagramm, Zahl der Tatverdächtigen nach Altersgruppen und Herkunft"><br/>
 
 Hier sieht man wieder den Effekt der Jugendkriminalität nicht so stark, weil es einfach weniger Jugendliche als Erwachsene gibt. Aber bei den jungen und mittelalten Erwachsenen ist hier eine deutliche Steigerung. Ebenso sieht man, dass Deutsche mehr Taten verdächtigt werden als Ausländer.
 
-<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-2024.png" style="max-height: 25rem;width: auto">
+<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-2024.png" style="max-height: 25rem;width: auto" alt="Diagramm, Anteil der Tatverdächtigen nach Altersgruppen und Herkunft">
 
 Schaut man sich hier die relative Verteilung der Verdächtigen an, sieht man, dass in dem Bereich zwischen 21 und 29, wo es die meisten Ausländer (mit 27 % der Bevölkerung) gibt, auch absolut mehr Tatverdächtige registriert werden. 
 
-<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-dt-ausl-2024.png" style="max-height: 35rem;width: auto">
+<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-dt-ausl-2024.png" style="max-height: 35rem;width: auto" alt="Diagramm, Relativer Anteil der Tatverdächtigen nach Altersgruppen und Herkunft">
 
 Innerhalb der Gruppen sind es unter Deutschen zwischen 4 % und 2 %, der Personen, die verdächtigt werden und bei Ausländern zwischen 4 % und 11 %. Durch die geringere Zahl sind hier auch die Verdächtigen bei Jugendlichen sehr hoch. 
 
