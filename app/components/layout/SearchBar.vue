@@ -1,6 +1,22 @@
 <script setup lang="ts">
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('faktenchecks'))
-const { data: files } = await useAsyncData('search', () => queryCollectionSearchSections('faktenchecks'))
+const { data: navigation } = await useAsyncData('navigation', () => {
+  return Promise.all([
+    queryCollectionNavigation('faktenchecks'),
+    queryCollectionNavigation('glossar'),
+  ])
+}, {
+  transform: data => data.flat(),
+})
+
+const { data: files } = useLazyAsyncData('search', () => {
+  return Promise.all([
+    queryCollectionSearchSections('faktenchecks'),
+    queryCollectionSearchSections('glossar'),
+  ])
+}, {
+  server: false,
+  transform: data => data.flat(),
+})
 
 const searchTerm = ref('')
 </script>
