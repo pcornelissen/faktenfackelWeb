@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Header from '~/components/layout/Header.vue'
+import { Icon } from '@iconify/vue'
 </script>
 
 <template>
@@ -13,9 +14,24 @@ import Header from '~/components/layout/Header.vue'
 
   <UFooter>
     <template #left>
+      <a
+        style="display: block"
+        href="https://mein.online-impressum.de/faktenfackel/"
+        rel="nofollow"
+      >Impressum</a>
       <p class="text-sm text-muted">
         ©{{ new Date().getFullYear() }}
       </p>
+      <a
+        href="https://buymeacoffee.com/faktenfackel"
+        style="display: block ruby"
+      >
+        <Icon
+          icon="mdi:coffee"
+          :ssr="true"
+          height="16"
+        />
+        Unterstütze uns</a>
     </template>
 
     <NuxtLink to="/about">Über uns</NuxtLink>
@@ -27,9 +43,9 @@ import Header from '~/components/layout/Header.vue'
 </template>
 
 <style>
-  .content {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 2rem;
-  }
+.content {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
 </style>
