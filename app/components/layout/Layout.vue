@@ -16,7 +16,7 @@ import { Icon } from '@iconify/vue'
     <template #left>
       <a
         style="display: block"
-        href="https://mein.online-impressum.de/faktenfackel/"
+        href="/impressum"
         rel="nofollow"
       >Impressum</a>
       <p class="text-sm text-muted">
@@ -34,7 +34,12 @@ import { Icon } from '@iconify/vue'
         Unterstütze uns</a>
     </template>
 
-    <NuxtLink to="/about">Über uns</NuxtLink>
+    <NuxtLink to="/about">Über uns</NuxtLink> <span style="padding: 0 1rem">//\\</span>
+    <a
+      style="display: block"
+      href="https://mein.online-impressum.de/faktenfackel/"
+      rel="nofollow"
+    >Social Hub</a>
 
     <template #right>
       <NuxtLink to="/faq">Oft gestellte Fragen</NuxtLink>
