@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     'nuxt-cloudflare-analytics',
     '@nuxt/scripts',
+    '@nuxtjs/sitemap',
   ],
   devtools: {
     enabled: true,
@@ -19,6 +20,10 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/css/main.css'],
+  site: {
+    url: 'https://faktenfackel.de',
+    name: 'Faktenfackel - Faktenchecks zu aktuellen Themen',
+  },
   colorMode: {
     preference: 'light',
   },
