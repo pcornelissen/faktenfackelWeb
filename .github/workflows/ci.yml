@@ -35,7 +35,13 @@ jobs:
         run: pnpm run typecheck
 
       - run: npx nuxt build --preset github_pages
-      - name: Upload artifact
+      - name: Generate GH Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./.output/public
+
+      - run: npx nuxt generate
+      - name: Upload prerendered artifacts
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./.output/public
