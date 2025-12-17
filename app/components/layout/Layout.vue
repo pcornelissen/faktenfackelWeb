@@ -43,6 +43,7 @@ import { Icon } from '@iconify/vue'
 
     <template #right>
       <NuxtLink to="/faq">Oft gestellte Fragen</NuxtLink>
+      <NuxtLink to="/datenschutz">Datenschutzerklärung</NuxtLink>
     </template>
   </UFooter>
 </template>
