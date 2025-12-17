@@ -11,7 +11,7 @@ const props = defineProps<{
   <div class="flex">
     <div
       v-if="props.icon"
-      class="flex-shrink-0 mr-2"
+      class="shrink-0 mr-2"
     >
       <img
         :src="`/img/categories/${props.icon}.png`"
