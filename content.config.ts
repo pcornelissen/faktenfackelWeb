@@ -11,7 +11,7 @@ export default defineContentConfig({
         title: z.string(),
         subtitle: z.string(),
         published: z.boolean(),
-        loadInstagramm: z.boolean().or(z.null()),
+        loadInstagram: z.boolean().or(z.null()),
         tags: z.set(z.string()),
       }),
     }),

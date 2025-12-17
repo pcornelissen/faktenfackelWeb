@@ -36,9 +36,9 @@ await definePageData({
   description: page.value?.description,
 })
 
-console.log('Insta', page.value?.loadInstagramm)
-const loadInstagramm = page.value?.loadInstagramm || false
-if (loadInstagramm) {
+console.log('Insta', page.value?.loadInstagram)
+const loadInstagram = page.value?.loadInstagram || false
+if (loadInstagram) {
   useHead({
     script: [{
       src: 'https://www.instagram.com/embed.js',

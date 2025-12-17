@@ -3,7 +3,7 @@ lastChange: 2025-12-11
 title: War die Reaktion der Polizei in Gießen gerechtfertigt? 
 subtitle: Polizeigewalt oder Deeskalation und Ordnung 
 published: true
-loadInstagramm: false
+loadInstagram: false
 tags: [AfD, Generation-Deutschland, Demokratie, Proteste, Polizei, Gewalt]
 ---
 
