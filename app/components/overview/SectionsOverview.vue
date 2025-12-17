@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import SectionsItem from '~/components/overview/SectionsItem.vue'
+import Sections from '~/components/overview/Sections.vue'
 </script>
 
 <template>
-  <div class="container">
-    <slot name="start" />
+  <Sections>
+    <template #start>
+      <slot name="start" />
+    </template>
     <SectionsItem
       title="Politik"
       sub-title="Faktenchecks"
@@ -23,16 +26,11 @@ import SectionsItem from '~/components/overview/SectionsItem.vue'
     >
       <p>Faktenchecks die die Gesellschaft und das Zusammenleben betreffen.</p>
     </SectionsItem>
-    <slot name="end" />
-  </div>
+    <template #end>
+      <slot name="end" />
+    </template>
+  </sections>
 </template>
 
 <style scoped>
-    .container {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-    }
 </style>
