@@ -6,7 +6,10 @@ import { Icon } from '@iconify/vue'
 <template>
   <Header />
 
-  <UMain class="content relative overflow-y-auto    ">
+  <UMain
+    class="content relative overflow-y-auto"
+    as="main"
+  >
     <NuxtPage />
   </UMain>
 

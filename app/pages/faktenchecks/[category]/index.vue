@@ -43,7 +43,9 @@ const list = list1.value as Post[]
 
 <template>
   <div v-if="list">
-    <h1>{{ title }}</h1>
+    <h1 style="margin-top: 0">
+      {{ title }}
+    </h1>
     <ContentRenderer
       v-if="categoryInfo"
       :value="categoryInfo"

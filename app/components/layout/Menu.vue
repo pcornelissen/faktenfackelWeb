@@ -4,6 +4,7 @@ const menuItems = [
   { name: 'Faktenchecks', href: '/faktenchecks', active: false },
   { name: 'Glossar', href: '/glossar', active: false },
   { name: 'Änderungen', href: '/news', active: false },
+  { name: 'Mehr', href: '/mehr', active: false },
 ]
 const route = useRoute()
 

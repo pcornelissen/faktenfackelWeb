@@ -26,7 +26,9 @@ function filter(list: Post[]) {
 
 <template>
   <div v-if="list">
-    <h1>Glossar</h1>
+    <h1 style="margin-top: 0">
+      Glossar
+    </h1>
     <PostsList
       :list="filter(list)"
       :base-path="route.path"

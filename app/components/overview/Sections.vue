@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import SectionsItem from '~/components/overview/SectionsItem.vue'
 </script>
 
 <template>
@@ -15,7 +14,6 @@ import SectionsItem from '~/components/overview/SectionsItem.vue'
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        align-items: center;
         flex-wrap: wrap;
     }
 </style>

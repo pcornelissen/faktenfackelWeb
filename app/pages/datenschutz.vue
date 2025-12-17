@@ -4,7 +4,9 @@
 
 <template>
   <div>
-    <h1>Datenschutzerklärung</h1>
+    <h1 style="margin-top: 0">
+      Datenschutzerklärung
+    </h1>
     <h2 id="m716">
       Präambel
     </h2>

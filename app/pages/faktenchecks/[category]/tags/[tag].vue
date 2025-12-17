@@ -59,7 +59,9 @@ function filter(list: Post[]) {
       Zurück zum Bereich {{ capitalize(category) }}
     </NuxtLink>
 
-    <h1>{{ title }}</h1>
+    <h1 style="margin-top: 1rem">
+      {{ title }}
+    </h1>
 
     <ContentRenderer
       v-if="tagInfo"

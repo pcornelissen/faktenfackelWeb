@@ -13,7 +13,9 @@ await definePageData({
 
 <template>
   <div>
-    <h1>Willkommen bei Faktenfackel</h1>
+    <h1 style="margin-top: 0">
+      Willkommen bei Faktenfackel
+    </h1>
     <p>Hier sind Faktenchecks und Bewertungen zu Mythen und Fakenews zu finden.</p>
     <div class="container">
       <SectionsOverview>
@@ -42,7 +44,7 @@ await definePageData({
             </p>
 
             Für konstruktives Feedback und Vorschläge sind wir dankbar.
-            Einfach per E-Mail an <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a>.
+            Einfach per E-Mail an <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a> (oder im <a href="https://discord.faktenfackel.de">Discord</a>).
 
             <b>ACHTUNG:</b><br>
             Bedrohungen, Beleidigungen, etc. werden ggf. veröffentlicht und zur Anzeige gebracht.

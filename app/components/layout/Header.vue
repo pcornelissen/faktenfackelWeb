@@ -7,7 +7,7 @@ const route = useRoute()
 
 <template>
   <div class="sticky top-0 z-50 bg-white  shadow-md">
-    <div class="headerRow">
+    <header class="headerRow">
       <NuxtLink
         to="/"
         class="logo"
@@ -28,7 +28,7 @@ const route = useRoute()
         <Menu />
       </div>
       <search-bar />
-    </div>
+    </header>
     <USeparator color="primary" />
   </div>
 </template>
