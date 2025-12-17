@@ -28,8 +28,9 @@ await definePageData({
             Es gibt ein Faktenfackel Discord, in dem über Faktenchecks, Themenvorschläge und sonstiges rund um
             Faktenfackel diskutiert werden kann.
           </p>
-          Einladungslink für den Beitritt: <a href="https://discord.faktenfackel.de">Klick mich</a><br>
-          Direktlink zum Server: <a href="https://discord.faktenfackel.de/server">Klick mich</a>
+          Links:
+          <a href="https://discord.faktenfackel.de">Einladungslink für den Beitritt</a><br>
+          <a href="https://discord.faktenfackel.de/server">Direktlink zum Server</a>
         </SectionsItem>
         <SectionsItem
           title="Youtube"
@@ -41,7 +42,7 @@ await definePageData({
           <p>
             Wir sind bei Youtube, abonniere den Kanal, um keine Videos zu verpassen.
           </p>
-          Zum Kanal: <a href="https://www.youtube.com/@Faktenfackel">Klick mich</a>
+          <a href="https://www.youtube.com/@Faktenfackel">Zum Youtube Kanal</a>
         </SectionsItem>
       </Sections>
     </div>
