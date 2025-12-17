@@ -19,16 +19,6 @@ await definePageData({
       <SectionsOverview>
         <template #start>
           <SectionsItem
-            title="Seite im Aufbau"
-            sub-title="Bitte beachten"
-            icon="news-medien"
-            icon-txt="Freepik Icon von abstimmung"
-          >
-            Die Seite und Inhalte befinden sich im Aufbau.<br>
-            Es fehlen noch Kleinigkeiten und die Inhalte müssen
-            noch abgerundet werden.
-          </SectionsItem>
-          <SectionsItem
             title="News"
             sub-title="Letzte Änderungen"
             href="/news"
@@ -45,8 +35,14 @@ await definePageData({
             icon="news-medien"
             icon-txt="Freepik Icon von abstimmung"
           >
+            <p>
+              Vielen Dank für dein Interesse an Faktenfackel.<br>
+              Die Seite ist im Dezember 2025 gestartet und wird kontinuierlich erweitert.<br>
+              Schau gerne regelmäßig vorbei, um neue Faktenchecks zu entdecken!
+            </p>
+
             Für konstruktives Feedback und Vorschläge sind wir dankbar.
-            Einfach per E-Mail an <a href="mailto:kontakt@faktenfackel.de">kontakt@faktenfackel.de</a>.
+            Einfach per E-Mail an <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a>.
 
             <b>ACHTUNG:</b><br>
             Bedrohungen, Beleidigungen, etc. werden ggf. veröffentlicht und zur Anzeige gebracht.
@@ -58,6 +54,12 @@ await definePageData({
 </template>
 
 <style scoped>
+p{
+  margin-bottom: 1em;
+}
+a{
+  color: var(--color-secondary);
+}
 .container {
   display: flex;
 }
