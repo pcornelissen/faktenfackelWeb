@@ -7,7 +7,8 @@
   --font-mono: 'Ubuntu-Mono', 'monospace';
   --color-primary: #0F3D5C;
   --text-color: #0F3D5C;
-  --color-secondary: #F98C35;
+  --color-secondary: #8E4306;
+  --color-tertiary: #F98C35;
   --background-color: #ccc;
 }
 body {
@@ -44,5 +45,5 @@ h5 {
 }
 a:hover {
   text-decoration: underline;
-  color: var(--color-secondary);
+  color: var(--color-tertiary);
 }
