@@ -42,9 +42,11 @@ await definePageData({
               Die Seite ist im Dezember 2025 gestartet und wird kontinuierlich erweitert.<br>
               Schau gerne regelmäßig vorbei, um neue Faktenchecks zu entdecken!
             </p>
-
-            Für konstruktives Feedback und Vorschläge sind wir dankbar.
-            Einfach per E-Mail an <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a> (oder im <a href="https://discord.faktenfackel.de">Discord</a>).
+            <p>
+              Für konstruktives Feedback und Vorschläge sind wir dankbar.
+              Einfach per E-Mail an <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a>
+              (oder im <a href="https://discord.faktenfackel.de">Discord</a>).
+            </p>
 
             <b>ACHTUNG:</b><br>
             Bedrohungen, Beleidigungen, etc. werden ggf. veröffentlicht und zur Anzeige gebracht.
@@ -56,12 +58,15 @@ await definePageData({
 </template>
 
 <style scoped>
-p{
+p {
   margin-bottom: 1em;
 }
-a{
+
+a {
   color: var(--color-secondary);
+  display: contents;
 }
+
 .container {
   display: flex;
 }
