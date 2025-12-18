@@ -32,8 +32,19 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2025-07-15',
   nitro: {
-    prerender: {
-      autoSubfolderIndex: false,
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      wrangler: {
+        d1_databases: [
+          {
+            binding: 'DB',
+            database_name: 'ffdb',
+            database_id: '15d7ea23-b605-4217-b4e6-2b0a8cf13f30',
+          },
+        ],
+        name: 'faktenfackel',
+      },
     },
   },
   typescript: {
@@ -56,5 +67,8 @@ export default defineNuxtConfig({
   },
   fonts: {
     // Options
+  },
+  sitemap: {
+    zeroRuntime: true,
   },
 })
