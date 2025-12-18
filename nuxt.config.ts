@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/ui',
     '@nuxt/fonts',
-    'nuxt-cloudflare-analytics',
     '@nuxt/scripts',
     '@nuxtjs/sitemap',
   ],
@@ -36,13 +35,19 @@ export default defineNuxtConfig({
     cloudflare: {
       deployConfig: true,
       wrangler: {
-        d1_databases: [
-          {
-            binding: 'DB',
-            database_name: 'ffdb',
-            database_id: '15d7ea23-b605-4217-b4e6-2b0a8cf13f30',
+        observability: {
+          logs: {
+            enabled: true,
+            head_sampling_rate: 1,
+            invocation_logs: true,
+            persist: true,
           },
-        ],
+        },
+        d1_databases: [{
+          binding: 'DB',
+          database_name: 'faktenfackel',
+          database_id: 'a6056a8c-88ea-4396-bbd7-5b44fe4347a2',
+        }],
         name: 'faktenfackel',
       },
     },
@@ -54,10 +59,6 @@ export default defineNuxtConfig({
       },
     },
   },
-  cloudflareAnalytics: {
-    token: 'a7464bd8e7454353b7fa774eac5dee57',
-  },
-
   eslint: {
     config: {
       stylistic: {
