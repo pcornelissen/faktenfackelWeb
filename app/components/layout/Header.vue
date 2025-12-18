@@ -13,7 +13,7 @@ const route = useRoute()
         class="logo"
       >
         <NuxtImg
-          src="/img/logo.png"
+          src="/img/logo-sm.png"
           format="png"
           alt="FaktenFackel Logo"
           height="100"
