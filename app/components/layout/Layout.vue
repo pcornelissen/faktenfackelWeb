@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import Header from '~/components/layout/Header.vue'
 import { Icon } from '@iconify/vue'
+
+const date = ref<Date>()
+
+onMounted(() => {
+  date.value = new Date()
+})
 </script>
 
 <template>
@@ -23,7 +29,7 @@ import { Icon } from '@iconify/vue'
         rel="nofollow"
       >Impressum</a>
       <p class="text-sm text-muted">
-        ©{{ new Date().getFullYear() }}
+        ©{{ date?.getFullYear()||'2025' }}
       </p>
       <a
         href="https://buymeacoffee.com/faktenfackel"
