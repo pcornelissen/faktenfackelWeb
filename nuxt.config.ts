@@ -40,7 +40,6 @@ export default defineNuxtConfig({
             enabled: true,
             head_sampling_rate: 1,
             invocation_logs: true,
-            persist: true,
           },
         },
         d1_databases: [{
