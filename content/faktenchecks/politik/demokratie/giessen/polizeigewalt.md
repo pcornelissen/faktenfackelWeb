@@ -47,7 +47,7 @@ Was ist passiert? Hierzu ein Zitat von [Sina Reisch](https://de.wikipedia.org/wi
 
 Nach Ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde.
 
-Ihre [Stellungnahme aif Instagram](https://www.instagram.com/reel/DSGIHgLDdOO/) (Alternativ auf [Facebook](https://www.facebook.com/reel/4374647046112133)) wo sie mitteilt, dass die Polizei ohne Durchsage und Vorwarnung auf die Demonstranten eingeprügelt hat.
+Ihre [Stellungnahme auf Instagram](https://www.instagram.com/reel/DSGIHgLDdOO/) (Alternativ auf [Facebook](https://www.facebook.com/reel/4374647046112133)) wo sie mitteilt, dass die Polizei ohne Durchsage und Vorwarnung auf die Demonstranten eingeprügelt hat.
 
 Die [Hessenschau hat sich dem bekannten Video gewidmet](https://www.hessenschau.de/panorama/demo-gegen-afd-in-giessen-das-ist-zum-video-ueber-den-b49-polizeieinsatz-bekannt-v1,video-giessen-bundesstrasse-polizei-100.html)
 

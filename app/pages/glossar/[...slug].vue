@@ -51,7 +51,7 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString()
     <UPage v-if="page">
       <UPageHeader
         :title="page.title"
-        :description="`Stand: ${lastChange}`"
+        :headline="`Stand: ${lastChange}`"
       />
 
       <UPageBody>

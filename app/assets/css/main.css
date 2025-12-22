@@ -42,7 +42,15 @@ h5 {
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
+  p > a {
+    text-decoration: underline;
+  }
+  p{
+    max-width: 70ch;
+   
+  }
 }
+
 a:hover {
   text-decoration: underline;
   color: var(--color-tertiary);

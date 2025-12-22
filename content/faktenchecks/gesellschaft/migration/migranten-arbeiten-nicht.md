@@ -32,7 +32,7 @@ In die erste Gruppe fallen z.B. Flüchtlinge aus der Ukraine. Asylsuchende müss
 Eine Arbeitsaufnahme kann nicht sofort vorgenommen werden, es gilt:
 
 - Erste 3 Monate nach Ankunft:
-  - Generelles Arbeitsverbot für Asylsuchende.
+  - Generelles Arbeitsverbot für Asylsuchende.([§61 Asylgesetz](https://www.gesetze-im-internet.de/asylvfg_1992/__61.html)) 
 - Aufenthalt in Erstaufnahmeeinrichtung:
   - In vielen Bundesländern Arbeitsaufnahme erst nach ca. 6 Monaten möglich.
 
