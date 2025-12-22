@@ -4,12 +4,12 @@
 
 <template>
   <div>
-    <h1 style="margin-top: 0">
+    <h2 style="margin-top: 0">
       Datenschutzerklärung
-    </h1>
-    <h2 id="m716">
-      Präambel
     </h2>
+    <h3 id="m716">
+      Präambel
+    </h3>
     <p>
       Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen
       Daten (nachfolgend auch kurz als "Daten" bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die
@@ -23,7 +23,7 @@
     <p class="last-update">
       Stand: 17. Dezember 2025
     </p>
-    <h2>Inhaltsübersicht</h2>
+    <h3>Inhaltsübersicht</h3>
     <ul class="index">
       <li>
         <a
@@ -122,9 +122,9 @@
         >Begriffsdefinitionen</a>
       </li>
     </ul>
-    <h2 id="m3">
+    <h3 id="m3">
       Verantwortlicher
-    </h2>
+    </h3>
     <p>faktenfackel - Patrick Cornelißen<br>c/o Online-Impressum.de #5298<br>Europaring 90<br>53757 Sankt Augustin</p>
     <p>Vertretungsberechtigte Personen: Patrick Cornelißen</p>
     <p>E-Mail-Adresse: <a href="mailto:kontakt@faktenfackel.de">kontakt@faktenfackel.de</a></p>
@@ -135,14 +135,14 @@
       >https://faktenfackel.de/impressum</a>
     </p>
 
-    <h2 id="mOverview">
+    <h3 id="mOverview">
       Übersicht der Verarbeitungen
-    </h2>
+    </h3>
     <p>
       Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und
       verweist auf die betroffenen Personen.
     </p>
-    <h3>Arten der verarbeiteten Daten</h3>
+    <h4>Arten der verarbeiteten Daten</h4>
     <ul>
       <li>Bestandsdaten.</li>
       <li>Kontaktdaten.</li>
@@ -151,12 +151,12 @@
       <li>Meta-, Kommunikations- und Verfahrensdaten.</li>
       <li>Protokolldaten.</li>
     </ul>
-    <h3>Kategorien betroffener Personen</h3>
+    <h4>Kategorien betroffener Personen</h4>
     <ul>
       <li>Kommunikationspartner.</li>
       <li>Nutzer.</li>
     </ul>
-    <h3>Zwecke der Verarbeitung</h3>
+    <h4>Zwecke der Verarbeitung</h4>
     <ul>
       <li>Kommunikation.</li>
       <li>Sicherheitsmaßnahmen.</li>
@@ -171,9 +171,9 @@
       <li>Informationstechnische Infrastruktur.</li>
       <li>Öffentlichkeitsarbeit.</li>
     </ul>
-    <h2 id="m2427">
+    <h3 id="m2427">
       Maßgebliche Rechtsgrundlagen
-    </h2>
+    </h3>
     <p>
       <strong>Maßgebliche Rechtsgrundlagen nach der DSGVO: </strong>Im Folgenden erhalten Sie eine Übersicht der
       Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis,
@@ -211,9 +211,9 @@
       Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.
     </p>
 
-    <h2 id="m27">
+    <h3 id="m27">
       Sicherheitsmaßnahmen
-    </h2>
+    </h3>
     <p>
       Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der
       Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der
@@ -245,9 +245,9 @@
       ein Indikator für die Nutzer, dass ihre Daten sicher und verschlüsselt übertragen werden.
     </p>
 
-    <h2 id="m24">
+    <h3 id="m24">
       Internationale Datentransfers
-    </h2>
+    </h3>
     <p>
       Datenverarbeitung in Drittländern: Sofern wir Daten in ein Drittland (d. h. außerhalb der Europäischen Union (EU)
       oder des Europäischen Wirtschaftsraums (EWR)) übermitteln oder dies im Rahmen der Nutzung von Diensten Dritter
@@ -289,9 +289,9 @@
       >https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en?prefLang=de.</a>
     </p>
 
-    <h2 id="m12">
+    <h3 id="m12">
       Allgemeine Informationen zur Datenspeicherung und Löschung
-    </h2>
+    </h3>
     <p>
       Wir löschen personenbezogene Daten, die wir verarbeiten, gemäß den gesetzlichen Bestimmungen, sobald die
       zugrundeliegenden Einwilligungen widerrufen werden oder keine weiteren rechtlichen Grundlagen für die Verarbeitung
@@ -319,7 +319,7 @@
       Archivierung
       nach deutschem Recht:
     </p>
-    <ul>
+    <ul class="list-inside list-disc">
       <li>
         10 Jahre - Aufbewahrungsfrist für Bücher und Aufzeichnungen, Jahresabschlüsse, Inventare, Lageberichte,
         Eröffnungsbilanz sowie die zu ihrem Verständnis erforderlichen Arbeitsanweisungen und sonstigen
@@ -354,9 +354,9 @@
       Rechtsverhältnisses.
     </p>
 
-    <h2 id="m10">
+    <h3 id="m10">
       Rechte der betroffenen Personen
-    </h2>
+    </h3>
     <p>
       Rechte der betroffenen Personen aus der DSGVO: Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu,
       die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
@@ -406,9 +406,9 @@
       </li>
     </ul>
 
-    <h2 id="m225">
+    <h3 id="m225">
       Bereitstellung des Onlineangebots und Webhosting
-    </h2>
+    </h3>
     <p>
       Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu können. Zu diesem
       Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um die Inhalte und Funktionen unserer
@@ -460,15 +460,16 @@
         endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen.
       </li>
       <li>
-        <strong>Content-Delivery-Network: </strong>Wir setzen ein "Content-Delivery-Network" (CDN, genauer: Cloudflare) ein. Ein CDN ist ein
+        <strong>Content-Delivery-Network: </strong>Wir setzen ein "Content-Delivery-Network" (CDN, genauer: Cloudflare)
+        ein. Ein CDN ist ein
         Dienst, mit dessen Hilfe Inhalte eines Onlineangebotes, insbesondere große Mediendateien, wie Grafiken oder
         Programm-Skripte, mit Hilfe regional verteilter und über das Internet verbundener Server schneller und sicherer
         ausgeliefert werden können; <span class=""><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).</span>
       </li>
     </ul>
-    <h2 id="m104">
+    <h3 id="m104">
       Blogs und Publikationsmedien
-    </h2>
+    </h3>
     <p>
       Wir nutzen Blogs oder vergleichbare Mittel der Onlinekommunikation und Publikation (nachfolgend
       "Publikationsmedium"). Die Daten der Leser werden für die Zwecke des Publikationsmediums nur insoweit verarbeitet,
@@ -520,9 +521,9 @@
         ><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).</span>
       </li>
     </ul>
-    <h2 id="m182">
+    <h3 id="m182">
       Kontakt- und Anfrageverwaltung
-    </h2>
+    </h3>
     <p>
       Bei der Kontaktaufnahme mit uns (z.B. per Post, Kontaktformular, E-Mail, Telefon oder via soziale Medien) sowie im
       Rahmen bestehender Nutzer- und Geschäftsbeziehungen werden die Angaben der anfragenden Personen verarbeitet,
@@ -567,9 +568,9 @@
         ><strong>Rechtsgrundlagen:</strong> Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).</span>
       </li>
     </ul>
-    <h2 id="m263">
+    <h3 id="m263">
       Webanalyse, Monitoring und Optimierung
-    </h2>
+    </h3>
     <p>
       Die Webanalyse (auch als „Reichweitenmessung" bezeichnet) dient der Auswertung der Besucherströme unseres
       Onlineangebots und kann Verhalten, Interessen oder demografische Informationen zu den Besuchern, wie
@@ -633,9 +634,9 @@
         Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
       </li>
     </ul>
-    <h2 id="m136">
+    <h3 id="m136">
       Präsenzen in sozialen Netzwerken (Social Media)
-    </h2>
+    </h3>
     <p>
       Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten in diesem Rahmen Nutzerdaten, um mit
       den dort aktiven Nutzern zu kommunizieren oder Informationen über uns anzubieten.
@@ -673,7 +674,7 @@
         <strong>Verarbeitete Datenarten:</strong> Kontaktdaten (z.B. Post- und E-Mail-Adressen oder Telefonnummern);
         Inhaltsdaten (z. B. textliche oder bildliche Nachrichten und Beiträge sowie die sie betreffenden Informationen,
         wie z. B. Angaben zur Autorenschaft oder Zeitpunkt der Erstellung). Nutzungsdaten (z. B. Seitenaufrufe und
-        Verweildauer,  Nutzungsintensität und -frequenz, verwendete Gerätetypen und Betriebssysteme,
+        Verweildauer, Nutzungsintensität und -frequenz, verwendete Gerätetypen und Betriebssysteme,
         Interaktionen mit Inhalten und Funktionen).
       </li>
       <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
@@ -776,11 +777,12 @@
         >https://myadcenter.google.com/personalizationoff</a>.
       </li>
     </ul>
-    <h2 id="m328">
+    <h3 id="m328">
       Plug-ins und eingebettete Funktionen sowie Inhalte
-    </h2>
+    </h3>
     <p>
-      Wir binden an manchen Stellen Funktions- und Inhaltselemente in unser Onlineangebot ein, die von den Servern ihrer jeweiligen
+      Wir binden an manchen Stellen Funktions- und Inhaltselemente in unser Onlineangebot ein, die von den Servern ihrer
+      jeweiligen
       Anbieter
       (nachfolgend als „Drittanbieter" bezeichnet) bezogen werden. Dabei kann es sich zum Beispiel um Grafiken, Videos
       oder Stadtpläne handeln (nachfolgend einheitlich als „Inhalte" bezeichnet).
@@ -960,9 +962,9 @@
         >https://support.google.com/youtube/answer/171780?hl=de-DE#zippy=%2Cturn-on-privacy-enhanced-mode%2Cerweiterten-datenschutzmodus-aktivieren</a>.
       </li>
     </ul>
-    <h2 id="m15">
+    <h3 id="m15">
       Änderung und Aktualisierung
-    </h2>
+    </h3>
     <p>
       Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren. Wir passen die
       Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen dies erforderlich
@@ -979,9 +981,9 @@
       Zuständige Regulierungs- und Aufsichtsbehörde:<br>Landesanstalt für Medien
       Nordrhein-Westfalen<br>Sitz: Deutschland
     </p>
-    <h2 id="m42">
+    <h3 id="m42">
       Begriffsdefinitionen
-    </h2>
+    </h3>
     <p>
       In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutzerklärung verwendeten
       Begrifflichkeiten. Soweit die Begrifflichkeiten gesetzlich definiert sind, gelten deren gesetzliche Definitionen.
@@ -1123,36 +1125,46 @@
 </template>
 
 <style scoped>
-.index{
+.index {
   list-style: circle;
   list-style-position: inside;
 }
-.index-link{
+
+.index-link {
   color: #3498db;
   text-decoration: none;
 }
-.index-link:hover{
+
+.index-link:hover {
   color: #3498db;
   text-decoration: underline;
 }
-p{
+
+p {
   margin-bottom: 1em;
 }
-.last-update{
+
+.last-update {
   font-size: 0.9em;
   color: #666;
 }
-h1{
+
+h2 {
   margin-top: 1.5em;
+  margin-bottom: 1em;
   font-size: 1.4em;
 }
-h2{
+
+h3 {
   margin-top: 1.5em;
+  margin-bottom: 1em;
   font-size: 1.3em;
   font-weight: 400;
 }
-h3{
+
+h4 {
   margin-top: 1.5em;
+  margin-bottom: 1em;
   font-size: 1.2em;
   font-weight: 300;
 }

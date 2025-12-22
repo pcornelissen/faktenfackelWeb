@@ -29,35 +29,49 @@ Hier einige Beispiele:
 
 ### [Zeit Artikel bei Facebook zur Einstufung](https://www.facebook.com/share/p/1C23UJXk3f/)
 
-> [Cato der Ältere](https://www.facebook.com/cato.der.altere.2024?comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzEwMjAzOTUzNzAxODc3MzM%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R)  
-  Lol eine Institution wurde vorgeführt! Was für eine Blamage 😂
-  Egal was kommt die AFD gewinnt
- 
+::quote-block
+---
+name: Cato der Ältere
+src: https://www.facebook.com/cato.der.altere.2024?comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzEwMjAzOTUzNzAxODc3MzM%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R
+---
+Lol eine Institution wurde vorgeführt! Was für eine Blamage 😂
+Egal was kommt die AFD gewinnt
+::
 
-> [Jacqueline Riedel](https://www.facebook.com/profile.php?id=100010672009055&comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzcxMzExMjMzMTE3MjYyOA%3D%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R)
-> 1. Juristisch ist es sehr wohl ein Erfolg:
+::quote-block
+---
+name: Jacqueline Riedel
+src: https://www.facebook.com/profile.php?id=100010672009055&comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzcxMzExMjMzMTE3MjYyOA%3D%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R
+---
+1. Juristisch ist es sehr wohl ein Erfolg:
         Wenn eine Behörde von sich aus eine öffentlich wirksame Einstufung zurücknimmt – sogar die eigene
         Pressemitteilung löscht – ist das kein banaler Vorgang. Das geschieht nur dann, wenn die Rechtslage wackelig ist
         und ein verlorenes Verfahren droht. Das Verwaltungsgericht hatte mit hoher Wahrscheinlichkeit bereits
         signalisiert, dass die Einstufung problematisch sei.
-> 2. Die "Stillhaltezusage" ist keine Lappalie:
+2. Die "Stillhaltezusage" ist keine Lappalie:
        Dass das BfV öffentlich auf eine zentrale Formulierung verzichtet, zeigt, wie angreifbar die Einschätzung war. In
        jedem anderen Fall hätte man auf das Gutachten gepocht und durchgeklagt. Der Rückzug zeigt, dass das BfV mit dem
        Rücken zur Wand stand – rechtlich oder politisch.
-> 3. Politisch verliert das Narrativ an Wucht:
+3. Politisch verliert das Narrativ an Wucht:
        Die mediale Wirkung des Begriffs "gesichert rechtsextremistisch" war enorm. Diese nun nicht mehr verwenden zu
        dürfen, entzieht der politischen und journalistischen Debatte einen wesentlichen Hebel. Das ist ein realer
        Schaden für alle, die diese Kampagne gestützt oder orchestriert haben.
-> 4. Der Artikel demonstriert genau das, was kritisiert wird:
+4. Der Artikel demonstriert genau das, was kritisiert wird:
        Statt einzugestehen, dass das BfV rechtsstaatlich zurückrudern musste, wird die AfD verbal „klein gehalten“.
        Genau dieser Umgang – maßregeln statt argumentieren – hat die Partei in der Vergangenheit eher gestärkt als
        geschwächt.
        Fazit:
        Die Rücknahme ist nicht nur ein formaler Erfolg, sondern ein symbolträchtiger Etappensieg für die AfD. Wer das
        leugnet, betreibt Meinungslenkung, nicht Analyse.
+::
 
-> [Göran Schreib](https://www.facebook.com/gori.vfl?comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzY5ODY5NDU4OTE4NDY2OA%3D%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R)  
-> Wann wird Frau Faeser wegen Amtsmißbrauch angeklagt? Ohne jegliche Prüfung..Was einer Prüfung unterlegen hätte..was sie auch wußte und trotzdem hat sie ihn in Auftrag gegeben.. Sie hat alles untergraben hat nur ihre Unterschrift gemacht ..unter ihrem eigenen schnellstmöglich zusammen gebastelten Schriftstück. Diese Frau hat Deutschland einen Schaden zugefügt, die diese nicht gewählte Regierung, aber im Amt ist auszubügeln hat. Das ist willkürliche Rache von Frau Faeser...sie wußte das sie nicht in dieser neuen Regierung ist...sie hat Deutschland einen Bärendienst erwiesen....Diese Dame hat Amtsmißbrauch gemacht.
+::quote-block
+---
+name: Göran Schreib
+src: https://www.facebook.com/gori.vfl?comment_id=Y29tbWVudDoxMTA3MzU0MDYxNDM1NTY5XzY5ODY5NDU4OTE4NDY2OA%3D%3D&__cft__[0]=AZX38CiX7Vqe-n6ok3xsUNn0QpagPsIa4tDishR_yVPwISxQjXopKCSK6UjXbPTQZJz7LIAbMTF3ot_iXtgMWUdOq7ZHp4qwbJKDOoGu8C0uRL9Y6Ft1o7QcyPxZ548lLivu74hV3zs9katC0NLq21Sli-vhlAxB9Ey_rx0SoTJ7pQ&__tn__=R]-R
+---
+Wann wird Frau Faeser wegen Amtsmißbrauch angeklagt? Ohne jegliche Prüfung..Was einer Prüfung unterlegen hätte..was sie auch wußte und trotzdem hat sie ihn in Auftrag gegeben.. Sie hat alles untergraben hat nur ihre Unterschrift gemacht ..unter ihrem eigenen schnellstmöglich zusammen gebastelten Schriftstück. Diese Frau hat Deutschland einen Schaden zugefügt, die diese nicht gewählte Regierung, aber im Amt ist auszubügeln hat. Das ist willkürliche Rache von Frau Faeser...sie wußte das sie nicht in dieser neuen Regierung ist...sie hat Deutschland einen Bärendienst erwiesen....Diese Dame hat Amtsmißbrauch gemacht.
+::
 
 uvm.
 

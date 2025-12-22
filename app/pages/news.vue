@@ -11,9 +11,9 @@ await definePageData({
 
 <template>
   <div>
-    <h1 style="margin-top: 0">
+    <h2 style="margin-top: 0">
       Änderungen
-    </h1>
+    </h2>
     <p>Welche Seiten oder Bereiche haben sich in letzter Zeit geändert?</p>
     <NewsList style="margin-top: 1rem" />
   </div>

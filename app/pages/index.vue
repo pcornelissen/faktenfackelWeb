@@ -13,9 +13,9 @@ await definePageData({
 
 <template>
   <div>
-    <h1 style="margin-top: 0">
+    <h2 style="margin-top: 0">
       Willkommen bei Faktenfackel
-    </h1>
+    </h2>
     <p>Hier sind Faktenchecks und Bewertungen zu Mythen und Fakenews zu finden.</p>
     <div class="container">
       <SectionsOverview>

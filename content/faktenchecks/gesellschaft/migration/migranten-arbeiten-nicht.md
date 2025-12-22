@@ -29,14 +29,18 @@ In die erste Gruppe fallen z.B. Flüchtlinge aus der Ukraine. Asylsuchende müss
 
 ### Wartezeiten
 
-Eine Arbeitsaufnahme kann nicht sofort vorgenommen werden, es gilt:
+Eine Arbeitsaufnahme kann [nicht sofort vorgenommen werden](https://www.bmas.de/DE/Arbeit/Migration-und-Arbeit/Flucht-und-Aysl/Arbeitsmarktzugang-fuer-Gefluechtete/arbeitsmarktzugang-fuer-gefluechtete.html), es gilt:
 
-- Erste 3 Monate nach Ankunft:
-  - Generelles Arbeitsverbot für Asylsuchende.([§61 Asylgesetz](https://www.gesetze-im-internet.de/asylvfg_1992/__61.html)) 
-- Aufenthalt in Erstaufnahmeeinrichtung:
-  - In vielen Bundesländern Arbeitsaufnahme erst nach ca. 6 Monaten möglich.
+- **Generelles Arbeitsverbot** für Asylsuchende ([§61 Asylgesetz](https://www.gesetze-im-internet.de/asylvfg_1992/__61.html))
+  - **in den ersten 3 Monaten** 
+  - wenn eine **Ausweisung bevorsteht**
+  - wenn der Asylantrag abgelehnt wurde und kein Duldungsstatus vorliegt
+  - wenn der Asylbewerber aus einem sicheren Herkunftsland stammt (Albanien, Bosnien und Herzegowina, Georgien, Ghana, Kosovo, Montenegro, Nordmazedonien, Republik Moldau, Senegal und Serbien) und der Antrag nach 2015 gestellt wurde
+  - Geduldete Personen (also die kein Asyl haben, aber nicht ausgewiesen werden können) und das Ausweisungshindernis selbst verursacht haben
+- **Nach 3 Monaten** dürfen Asylsuchende **eventuell** arbeiten, wenn bestimmte Bedingungen erfüllt sind (abhängig vom anvisierten Beruf, der Herkunftsregion, der Zustimmung der Bundesagentur für Arbeit usw.).
+- **Nach 6 Monaten** dürfen Asylsuchende arbeiten, wenn sie in einer Erstaufnahmeeinrichtung wohnen und das generelle Verbot nicht greift 
 
-Also egal, ob man arbeiten will oder nicht, ohne diese Wartezeiten darf man nicht anfangen zu arbeiten.
+Also egal, ob man arbeiten will oder nicht, ohne diese Wartezeiten und Kriterien darf man nicht anfangen zu arbeiten. Im Besonderen die weichen Kriterien, z.B. ob eine Ausweisung bevorsteht, werden genutzt, um eine Arbeitserlaubnis zu verweigern.
 
 ### Erforderliche Genehmigungen
 
