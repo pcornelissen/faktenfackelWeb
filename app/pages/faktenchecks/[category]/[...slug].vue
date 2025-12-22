@@ -13,9 +13,7 @@ const basePath = route.path// ``/faktenchecks/${category}/${slug}`;
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('faktenchecks', basePath, {
     fields: ['description'],
-  })// FIXME: filter published=true
-    .where('published', '=', '1')
-  // .where('meta', 'LIKE', '%"published": true%')
+  })
 })
 
 const { data: page }
@@ -36,7 +34,6 @@ await definePageData({
   description: page.value?.description,
 })
 
-console.log('Insta', page.value?.loadInstagram)
 const loadInstagram = page.value?.loadInstagram || false
 if (loadInstagram) {
   useHead({
@@ -68,7 +65,12 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString()
         :title="page.title"
         :headline="`Stand: ${lastChange}`"
       />
-
+      <UAlert
+        v-if="!page.published"
+        type="info"
+        icon="i-lucide-badge-info"
+        title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"
+      />
       <UPageBody>
         <ContentRenderer
           v-if="page.body"

@@ -10,7 +10,7 @@ interface PageData {
 
 export function filter(list: Post[], category: string) {
   return list
-    .filter(item => item.published)
+    .filter(item => !item.path.endsWith(`/_info`))
     .filter(item => item.path.startsWith(`/faktenchecks/${category}/`))
 }
 

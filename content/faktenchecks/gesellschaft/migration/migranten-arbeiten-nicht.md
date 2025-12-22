@@ -55,11 +55,11 @@ Wenn man denn endlich die Chance hat, arbeiten zu dürfen, müssen je nach Statu
 
 Wie sieht also [die Realität](https://www.proasyl.de/news/der-steinige-weg-in-den-arbeitsmarkt-fuer-gefluechtete-menschen/) aus, wenn die Flüchtlinge für sich selbst aufkommen wollen?
 
-- Lange Bearbeitungszeiten bei Behörden.
-- Hoher bürokratischer Aufwand schreckt Arbeitgeber ab.
-- Anerkennung von Abschlüssen dauert oder scheitert.
-- Sprachbarrieren erschweren Jobsuche und passenden Einsatz.
-- Unsicherer Aufenthaltsstatus macht Planung für Arbeitgeber und Geflüchtete schwierig und die Geflüchteten sind unattraktiv, weil der Aufwand jederzeit umsonst gewesen sein kann, weil die geflüchtete Person dann doch abgeschoben wird
+- [Lange Bearbeitungszeiten](https://mediendienst-integration.de/fluechtlinge/fluechtlinge-in-deutschland/dauer-von-asylverfahren-und-offene-asylantraege/) bei Behörden.
+- [Hoher bürokratischer Aufwand](https://www.spiegel.de/wirtschaft/gemeindebund-fordert-schnelle-arbeitserlaubnis-fuer-fluechtlinge-a-c6aaf490-e6b7-4728-bf0c-3ed2b2422d2e) schreckt Arbeitgeber ab.
+- [Anerkennung von Abschlüssen](https://www.personalwirtschaft.de/news/personalentwicklung/anerkennung-von-auslndischen-bildungsabschlssen-96224/) dauert oder scheitert.
+- [Sprachbarrieren](https://www.ndr.de/nachrichten/hamburg/Zu-wenig-Sprachkurse-fuer-Gefluechtete-nach-Kuerzungen,sprachkurse112.html) erschweren die Jobsuche und den passenden Einsatz.
+- Unsicherer Aufenthaltsstatus macht Planung für Arbeitgeber und Geflüchtete schwierig (Siehe oben, bei drohender Abschiebung bekommt die Person keine Arbeitserlaubnis) und die Geflüchteten sind unattraktiv, weil der Aufwand jederzeit umsonst gewesen sein kann, weil die geflüchtete Person dann doch abgeschoben wird
 
 Es ist also mitnichten so, dass die [Migranten als Gruppe nicht arbeiten wollen](https://mediendienst-integration.de/news/berufliche-integration-von-fluechtlingen-studie-dietrich-thraenhardt-bertelsmann-stiftung/), sondern es wird vom Staat die Integration massiv und unnötigerweise erschwert.
 
@@ -86,8 +86,10 @@ uvm.
 
 ## Fazit
 
-Die Aussage, dass Migranten nicht arbeiten wollen ist also so nicht haltbar. Ein Großteil will arbeiten, wird aber nur unzureichend unterstützt. Diejenigen, die jetzt nicht mehr eine Stelle anstreben wären vielleicht auch zu bewegen gewesen, wenn die Umstände nicht gegen Sie arbeiten würden.
+Die Aussage, dass Migranten nicht arbeiten wollen, ist also so nicht haltbar. Ein Großteil will arbeiten, wird aber nur unzureichend unterstützt. Diejenigen, die jetzt nicht mehr eine Stelle anstreben, wären vielleicht auch zu bewegen gewesen, wenn die Umstände nicht gegen Sie arbeiten würden.
 
-Wie so oft sind es die staatlich gesetzten Rahmenbedingungen, die für Probleme sorgen. Hier ist dringender Handlungsbedarf, der in der aktuellen politischen mit der CDU in der Führung eher unwahrscheinlich sind, da diese auch nicht unerheblich am rechten Rand mit den (Wahlkampf-)Aussagen fischt. 
+Wie so oft sind es die staatlich gesetzten Rahmenbedingungen, die für Probleme sorgen. Hier ist dringender Handlungsbedarf gegeben, der in der aktuellen politischen mit der CDU in der Führung eher unwahrscheinlich ist, da diese auch nicht unerheblich am rechten Rand mit den (Wahlkampf-)Aussagen fischt. 
 
 Der Bedarf ist da und es gibt keine Alternative für eine großangelegte Integrationsoffensive und anstelle einer "Abschiebeorganisation", wie dem Bundesamt für Migration und Flüchtlinge (BAMF), braucht es eine Reorganisation, dass nicht Abschiebung, sondern Integration das oberste Ziel ist.
+
+Es würde für Arbeitgeber auch wesentlich einfacher, wenn es anstelle einer benötigten Arbeitserlaubnis für jeden Job eine generelle Arbeitserlaubnis für Geflüchtete geben würde, die dann nur noch den Status der Person prüft, nicht aber den Job. Das würde den bürokratischen Aufwand massiv reduzieren und die Chancen auf eine Anstellung erhöhen. Noch besser wäre es, wenn es umgedreht wird und Geflüchtete per se eine Arbeitserlaubnis hätten und nur bei relevanten begründbaren Bedenken diese entzogen werden kann.
