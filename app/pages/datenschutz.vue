@@ -143,7 +143,7 @@
       verweist auf die betroffenen Personen.
     </p>
     <h4>Arten der verarbeiteten Daten</h4>
-    <ul>
+    <ul class="list-inside list-disc">
       <li>Bestandsdaten.</li>
       <li>Kontaktdaten.</li>
       <li>Inhaltsdaten.</li>
@@ -152,12 +152,12 @@
       <li>Protokolldaten.</li>
     </ul>
     <h4>Kategorien betroffener Personen</h4>
-    <ul>
+    <ul class="list-inside list-disc">
       <li>Kommunikationspartner.</li>
       <li>Nutzer.</li>
     </ul>
     <h4>Zwecke der Verarbeitung</h4>
-    <ul>
+    <ul class="list-inside list-disc">
       <li>Kommunikation.</li>
       <li>Sicherheitsmaßnahmen.</li>
       <li>Reichweitenmessung.</li>
@@ -181,7 +181,7 @@
       können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der
       Datenschutzerklärung mit.
     </p>
-    <ul>
+    <ul class="list-nodisk">
       <li>
         <strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO)</strong> - Die betroffene Person hat ihre Einwilligung
         in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen spezifischen Zweck oder mehrere
@@ -361,7 +361,7 @@
       Rechte der betroffenen Personen aus der DSGVO: Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu,
       die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
     </p>
-    <ul>
+    <ul class="list-nodisk">
       <li>
         <strong>Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben,
           jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1
@@ -1128,6 +1128,11 @@
 .index {
   list-style: circle;
   list-style-position: inside;
+}
+
+.list-nodisk > li {
+  list-style: none;
+  margin-bottom: 1rem;
 }
 
 .index-link {
