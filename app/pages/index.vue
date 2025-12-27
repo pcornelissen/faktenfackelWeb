@@ -29,6 +29,14 @@ await definePageData({
           >
             <NewsList :limit="5" />
           </SectionsItem>
+          <SectionsItem
+            title="Neueste Artikel"
+            sub-title="Frisch aus der Recherche"
+            icon="news-medien"
+            icon-txt="Freepik Icon von abstimmung"
+          >
+            <RecentPosts />
+          </SectionsItem>
         </template>
         <template #end>
           <SectionsItem
