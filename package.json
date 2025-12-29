@@ -38,7 +38,7 @@
     "vue-router": "^4.6.4",
     "wrangler": "^4.56.0",
     "zod": "^4.2.1",
-    "zod-to-json-schema": "^3.25.0"
+    "zod-to-json-schema": "^3.25.1"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
