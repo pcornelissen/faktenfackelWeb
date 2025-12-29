@@ -8,4 +8,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2025-12-17'),
     title: 'Start der Webseite mit einem kleinen Angebot an Faktenchecks',
   },
+  {
+    date: new Date('2025-12-29'),
+    title: 'Kleinere Updates in den letzten Tagen',
+  },
 ]
