@@ -48,7 +48,12 @@ await definePageData({
       </li>
       <li>
         <strong>Unabhängig &amp; transparent:</strong><br> Unsere Arbeit ist nicht parteigebunden. Wir legen
-        offen, wie wir zu unseren Schlussfolgerungen kommen. Haben wir Quellen nicht gefunden, freuen wir uns über Hinweise.
+        offen, wie wir zu unseren Schlussfolgerungen kommen. Haben wir Quellen nicht gefunden, freuen wir uns über
+        Hinweise.
+      </li>
+      <li>
+        <strong>Etablierte Praktiken</strong><br>
+        Wir halten uns an die <a href="https://ifcncodeofprinciples.poynter.org">IFCN Prinzipien</a>.
       </li>
     </ul>
 
@@ -73,17 +78,32 @@ await definePageData({
       <strong>ACHTUNG:</strong> Beleidigungen, Drohungen etc. werden zur Anzeige gebracht und/oder in öffentlichen
       Beiträgen aufgearbeitet.
     </p>
+    <h2>Finanzierung</h2>
+    <p>
+      Wir sind unabhängig und ihne Geldgeber. In Zukunft wäre es natürlich schön mit <a
+        href="https://buymeacoffee.com/faktenfackel"
+      >Spenden</a> Unkosten decken zu können. Dabei ist es aber immer
+      wichtig, dass mit Spenden keine Beeinflussung der Beiträge einher geht! Die Spenden unter buy me a coffee sind öffentlich. Andere Kanäle für Spenden existieren zur Zeit nicht und würden dann ebenso transparent gestaltet.
+    </p>
     <h2>Wer wir sind</h2>
     <p>
       Faktenfackel wird von einem unabhängigen Team von Freiwilligen gefüttert und aktualisiert. Wir kommen aus
       verschiedenen Bereichen und haben uns der Wahrheitsfindung verschrieben, um den Populisten und Scharlatanen
       mit Fakten und Belegen den Wind aus den Segeln zu nehmen.
     </p>
+    <h3>Aktuelles Team</h3>
+    <ul>
+      <li>
+        <b>Patrick Cornelißen</b>, Diplom Informatiker<br>
+        Themen: Politik, Wissenschaft, Technik<br>
+      </li>
+    </ul>
+    </h2>
   </section>
 </template>
 
 <style scoped>
-li{
+li {
   margin-bottom: 1rem;
 }
 </style>
