@@ -72,7 +72,7 @@ Bei den Protesten gegen die AfD-Jugend kam es zu Zusammenstößen. Polizeigewalt
 ## Fazit
 
 Das Vorgehen der Polizei ist höchst fragwürdig bei dem Einsatz in Gießen und wird hoffentlich noch gerichtlich aufgearbeitet.
-Es wurden viele Menschen die ihr Demonstrationsrecht friedlich genutzt haben verletzt. Eine deeskalierende Strategie war an vielen Stellen nicht zu erkennen.
+Es wurden viele Menschen die ihr <Glossar name="demonstrationsrecht">Demonstrationsrecht</Glossar> friedlich genutzt haben verletzt. Eine deeskalierende Strategie war an vielen Stellen nicht zu erkennen.
 
 Sehr sehenswert ist auch die Aufarbeitung von Marcant:
 <iframe min-width="560"  max-height="615" style="aspect-ratio: 16 / 9; width: 100%;" src="https://www.youtube-nocookie.com/embed/HFy55GnpI5w?si=2vPonmclM72p7pzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

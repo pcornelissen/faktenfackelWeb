@@ -12,4 +12,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2025-12-29'),
     title: 'Kleinere Updates in den letzten Tagen',
   },
+  {
+    date: new Date('2025-12-30'),
+    title: 'Glossareintrag zu Demonstrationsrecht und Verlinkung im Polizeigewalt Artikel',
+  },
 ]
