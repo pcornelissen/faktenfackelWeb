@@ -98,7 +98,6 @@ await definePageData({
         Themen: Politik, Wissenschaft, Technik<br>
       </li>
     </ul>
-    </h2>
   </section>
 </template>
 
