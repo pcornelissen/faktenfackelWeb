@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { debug } from 'util'
+
 const menuItems = [
   { name: 'Start', href: '/', active: false },
   { name: 'Faktenchecks', href: '/faktenchecks', active: false },
@@ -9,7 +11,7 @@ const menuItems = [
 const route = useRoute()
 
 const path = route.path == '' ? '/' : route.path
-menuItems.forEach(item => item.active = path == item.href)
+menuItems.forEach(item => item.active = (item.href != '/' && path.startsWith(item.href)) || (path == '/' && item.href == '/'))
 </script>
 
 <template>
@@ -32,18 +34,18 @@ menuItems.forEach(item => item.active = path == item.href)
 </template>
 
 <style scoped>
-  li {
-    font: 16px/1.5 'Ubuntu-Mono', monospace;
-    display: inline-block;
-    margin-right: 1rem;
-  }
+li {
+  font: 16px/1.5 'Ubuntu-Mono', monospace;
+  display: inline-block;
+  margin-right: 1rem;
+}
 
-  .item-active {
-    color: var(--color-secondary);
-    font-weight: bold;
-  }
+.item-active {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
 
-  a, a:visited, a:hover {
-    text-decoration: inherit;
-  }
+a, a:visited, a:hover {
+  text-decoration: inherit;
+}
 </style>
