@@ -13,7 +13,7 @@ onMounted(() => {
   <Header />
 
   <UMain
-    class="content relative overflow-y-auto"
+    class="content relative overflow-y-auto    "
     as="main"
   >
     <NuxtPage />

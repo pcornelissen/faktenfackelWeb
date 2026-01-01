@@ -20,40 +20,64 @@ const route = useRoute()
           width="100"
         />
       </NuxtLink>
-      <div style="flex-grow: 1">
+      <div class="heading-block">
         <h1>{{ route.meta.pageHeading }}</h1>
         <div class="subtitle">
           {{ route.meta.pageSubHeading }}
         </div>
         <Menu />
       </div>
-      <search-bar />
+      <div class="search-container">
+        <search-bar />
+      </div>
     </header>
     <USeparator color="primary" />
   </div>
 </template>
 
 <style scoped>
+.headerRow {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  transition: ease all .5s;
+}
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  transition: ease all .5s;
+}
+.heading-block {
+  flex-grow: 1;
+}
+.subtitle {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+Menu {
+  margin-top: 1.5rem;
+}
+
+.logo {
+  margin-bottom: 0.2rem;
+  margin-left: 1.4rem;
+}
+
+@media screen and (max-width: 600px) {
   .headerRow {
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-    margin-bottom: 0.5rem;
-    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    transition: ease all .5s;
   }
-
-  .subtitle {
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .heading-block {
+    margin : 1rem;
+    transition: ease all .5s;
   }
-
-  Menu {
-    margin-top: 1.5rem;
-  }
-
-  .logo {
-    margin-bottom: 0.2rem;
-    margin-left: 1.4rem;
-  }
+}
 </style>

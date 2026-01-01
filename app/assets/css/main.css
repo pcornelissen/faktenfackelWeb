@@ -24,17 +24,20 @@
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.4rem;
+    transition: ease all .5s;
   }
 
   h2 {
     font-size: 1.5rem;
     font-weight: 300;
-    line-height: 1.7rem
+    line-height: 1.7rem;
+    transition: ease all .5s;
   }
 
   h5 {
     font-size: 1.2rem;
     font-weight: 300;
+    transition: ease all .5s;
   }
 
   .content {
@@ -63,3 +66,28 @@
   }
 
 }
+
+
+/* Styles for small screens */
+@media screen and (max-width: 900px) {
+  body {
+
+    h1 {
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+      transition: ease all .5s;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+      transition: ease all .5s;
+    }
+
+    h5 {
+      font-size: 1.1rem;
+      transition: ease all .5s;
+    }
+  }
+}
+
