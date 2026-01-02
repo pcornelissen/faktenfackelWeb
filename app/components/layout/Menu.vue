@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { debug } from 'util'
-
 const menuItems = [
   { name: 'Start', href: '/', active: false },
   { name: 'Faktenchecks', href: '/faktenchecks', active: false },
