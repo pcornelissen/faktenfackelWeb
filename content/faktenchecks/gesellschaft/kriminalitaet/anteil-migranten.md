@@ -29,7 +29,7 @@ Aus den folgenden Quellen haben wir Diagramme erstellt und Daten gruppiert, [hie
 
 ### Tatverdächtige oder Kriminelle?
 
-**Wichtig:** Die Kriminalitätsstatistik bezieht sich auf **Tatverdächtige, nicht auf verurteile Straftäter**. 
+**Wichtig:** Die Kriminalitätsstatistik bezieht sich auf **Tatverdächtige, nicht auf verurteilte Straftäter**. 
 
 Also der reine Verdacht, dass jemand in etwas verwickelt sein kann, reicht aus, um in der Statistik zu erscheinen, egal ob man unschuldig ist oder nicht. Da die Polizei überdurchschnittlich oft ausländisch aussehende Personen kontrolliert, kommt es auch hier zu einer starken Verzerrung, die zu höheren Zahlen bei nicht-deutschen Tatverdächtigen führt. Dazu leben ausländische Mitbürger überwiegend in Ballungsgebieten, wie Städten und in denen gibt es mehr Polizei und somit auch mehr Kontrollen. Es gibt aber keine Datenbasis, mit der man diese Verzerrung herausrechnen könnte.
 
