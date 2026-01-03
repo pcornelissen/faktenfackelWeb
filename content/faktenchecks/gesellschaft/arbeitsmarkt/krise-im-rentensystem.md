@@ -55,7 +55,7 @@ Das Renteneintrittsalter ist nicht in gleichem Maße gestiegen. Das liegt aber n
 
 Wie eingangs bereits geschrieben, haben wir aktuell ca. 2 Arbeitnehmer pro Rentner. Das war in der Vergangenheit anders.
 
-<img src="/files/faktenchecks/gesellschaft/beitragszahler-pro-rentner-bis-2022.png" style="max-height: 35rem;width: auto"><br/>
+<img src="/files/faktenchecks/gesellschaft/beitragszahler-pro-rentner-bis-2022.png" alt="Beitragszahler pro Rentner bis 2022" style="max-height: 35rem;width: auto"><br/>
 
 Da aktuell bei ca. 67 Jahren die Menschen in der Regel in Rente gehen, bedeutet dies, dass auf einmal ein großer Block an Menschen aus dem Arbeitsmarkt ausscheiden und dann vom Rentensystem getragen wird. Der Faktor Beitragszahler pro Rentner wird also unter eins sinken. Also ein Arbeitnehmer muss mehr als eine Rente finanzieren. 
 
