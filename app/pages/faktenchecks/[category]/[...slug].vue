@@ -44,7 +44,7 @@ if (loadInstagram) {
   })
 }
 const lastChangeStr = page.value?.lastChange as string | null || ''
-const lastChange = new Date(lastChangeStr).toLocaleDateString()
+const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })
 </script>
 
 <template>

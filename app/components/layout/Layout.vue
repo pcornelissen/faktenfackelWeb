@@ -29,7 +29,7 @@ onMounted(() => {
         rel="nofollow"
       >Impressum</a>
       <p class="text-sm text-muted">
-        ©{{ date?.getFullYear()||'2025' }}
+        ©{{ date?.getFullYear()||'2026' }}
       </p>
       <a
         href="https://buymeacoffee.com/faktenfackel"
