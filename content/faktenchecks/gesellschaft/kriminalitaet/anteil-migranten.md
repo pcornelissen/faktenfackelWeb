@@ -25,11 +25,11 @@ Die Behauptungen sind gestützt durch persönliche Einzelerfahrungen und mehr od
 
 Es gibt jedes Jahr eine [Kriminalstatistik](https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/Polizeiliche_Kriminalstatistik_2024/Polizeiliche_Kriminalstatistik_2024_node.html), die mit konkreten Zahlen für eine korrekte Einordnung genutzt werden kann. Man muss sie aber sehr sorgfältig lesen und auch beachten, welche Gruppe in einer Zahl enthalten ist und wie sie sich zusammen setzt, um keine falschen Schlüsse zu ziehen.
 
-Aus den folgenden Quellen haben wir Diagramme erstellt und Daten gruppiert, [hier unsere Aufbereitung als Excel-Datei](/files/faktenchecks/kriminalitaet/migration-straftaten.xlsx).
+Aus den folgenden Quellen haben wir Diagramme erstellt und Daten gruppiert, [hier unsere Aufbereitung als Excel-Datei](/files/faktenchecks/kriminalitaet/migration-straftaten-2024.xlsx).
 
 ### Tatverdächtige oder Kriminelle?
 
-**Wichtig:** Die Kriminalitätsstatistik bezieht sich auf **Tatverdächtige, nicht auf verurteile Straftäter**. 
+**Wichtig:** Die Kriminalitätsstatistik bezieht sich auf **Tatverdächtige, nicht auf verurteilte Straftäter**. 
 
 Also der reine Verdacht, dass jemand in etwas verwickelt sein kann, reicht aus, um in der Statistik zu erscheinen, egal ob man unschuldig ist oder nicht. Da die Polizei überdurchschnittlich oft ausländisch aussehende Personen kontrolliert, kommt es auch hier zu einer starken Verzerrung, die zu höheren Zahlen bei nicht-deutschen Tatverdächtigen führt. Dazu leben ausländische Mitbürger überwiegend in Ballungsgebieten, wie Städten und in denen gibt es mehr Polizei und somit auch mehr Kontrollen. Es gibt aber keine Datenbasis, mit der man diese Verzerrung herausrechnen könnte.
 
@@ -42,8 +42,8 @@ Da nicht zu jeder Tat die gleiche Zahl an Tatverdächtigen gemeldet werden, kann
 
 Für Aussagen zur Kriminalität ist es wichtig, die Struktur der Bevölkerung zu berücksichtigen. Das Alter und Geschlecht hat großen Einfluss auf die Wahrscheinlichkeit, ob Straftaten begangen werden oder nicht.
 
-<img src="/files/faktenchecks/kriminalitaet/bevoelkerung-altersstruktur-2024.png" style="max-height: 35rem;width: auto"><br/>
-<img src="/files/faktenchecks/kriminalitaet/bevoelkerung-altersstruktur-prozent-2024.png" style="max-height: 25rem;width: auto">
+<img src="/files/faktenchecks/kriminalitaet/bevoelkerung-altersstruktur-2024.png" alt="Altersstruktur der Bevölkerung für 2024" style="max-height: 35rem;width: auto"><br/>
+<img src="/files/faktenchecks/kriminalitaet/bevoelkerung-altersstruktur-prozent-2024.png" alt="Altersstruktur der Bevölkerung für 2024 in Prozent" style="max-height: 25rem;width: auto">
 
 Man kann hier gut erkennen, dass bei der deutschen Bevölkerung ein deutlicher Überschuss in den hohen Altersbereichen (52-76 Jahre) vorliegt. Die Gruppe der ausländischen Mitbürger hat von 24 bis 48 Jahren einen Schwerpunkt, mit der maximalen Zahl von 27 % um 30 Jahre. [Quelle](https://www-genesis.destatis.de/datenbank/online/table/12411-0006/search/s/MTI0MTEtMDAwNg==)
 
@@ -54,7 +54,7 @@ Dieser Altersbereich hat auch bei deutschen Mitbürgern eine höhere Anzahl an T
 Kriminalität ist nicht gleich verteilt über alle Altersbereiche, Geschlecht oder den sozialen Status. Daher muss man auch hier unterscheiden und kann nicht mit gruppierten Zahlen arbeiten, die in diesen Details keine Unterscheidung machen.
 
 Schauen wir uns die Verteilung von Tatverdächtigen über die Alterssegmente an:
-<img src="/files/faktenchecks/kriminalitaet/altersverteilung-deutschland-2024.png" style="max-height: 25rem;width: auto">
+<img src="/files/faktenchecks/kriminalitaet/altersverteilung-deutschland-2024.png" alt="Tatverdächtige mit Altersverteilung von 2024" style="max-height: 25rem;width: auto">
 Quelle:
 [Tatverdächtige insg. nach Alter und Geschlecht](https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/PolizeilicheKriminalstatistik/2024/Bund/Tatverdaechtige/BU-TV-01-T20-TV_xls.xlsx?__blob=publicationFile&v=3)
 
@@ -64,7 +64,7 @@ Quelle:
 
 Man sieht hier zum einen, dass weibliche Straftäter ca. 25 bis 30 % der Straftäter ausmachen und, dass der Schwerpunkt zwischen 20 und 49 Jahren liegt. Kinder, Jugendliche und "Rentner" sind für erheblich weniger Straftaten verantwortlich.
 
-<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-gesamt-2024.png" style="max-height: 35rem;width: auto" alt="Diagramm, Anteil der Tatverdächtigen nach Altersgruppen"/>
+<img src="/files/faktenchecks/kriminalitaet/tatverdaechtige-anteil-gesamt-2024.png"   style="max-height: 35rem;width: auto" alt="Diagramm, Anteil der Tatverdächtigen nach Altersgruppen"/>
 
 Schaut man sich die Anzahl der Tatverdächtigen relativ zur Gesamtbevölkerung, dann kann man hier sehen, dass gerade der Bereich der "jungen Erwachsenen" zwischen 14 und 30 wesentlich stärker vertreten ist prozentual, gemessen an der Zahl der Personen in dem Altersbereich.
 

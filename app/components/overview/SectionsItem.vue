@@ -40,7 +40,7 @@ function click() {
   flex-direction: column;
   margin: 0.5rem;
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #eee;
   border-radius: 5px;
   max-width: 30%;
   min-width: 20rem;
@@ -49,7 +49,7 @@ function click() {
 
 .clickable:hover {
   background-color: #F5F5F5;
-  border: 1px dot-dash #d5d5d5;
+  border: 1px dashed #e5e5e5;
   cursor: pointer;
 }
 </style>

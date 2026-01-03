@@ -34,7 +34,7 @@ Der "Linke Block" ist also vergleichsweise klein und für wenig Taten verantwort
 
 ### War das Polizeiaufgebot gerechtfertigt?
 
-Man sieht im Abschnitt zur Größe des linken Blocks, dass die Panikmache nicht gerechtfertigt war, der "linke Block" ist insg. für eine geringe Menge an Gewalt und Straftaten verantwortlich und die Menge an potentiellen Gefährdern bei der Demo in Gießen war erwartungsgemäß gering.
+Man sieht im Abschnitt zur Größe des linken Blocks, dass die Panikmache nicht gerechtfertigt war, der "linke Block" ist insgesamt für eine geringe Menge an Gewalt und Straftaten verantwortlich und die Menge an potenziellen Gefährdern bei der Demo in Gießen war erwartungsgemäß gering.
 Die [Polizei meldete](https://www.presseportal.de/blaulicht/pm/154582/6168852) auch, dass die Demonstration überwiegend friedlich ablief. Der Bürgermeister von Gießen meldete, "[Gießen hat geleuchtet, nicht gebrannt](https://www.giessen.de/index.php?ModID=7&FID=2874.74767.1&object=tx%2C2874.5.1)" und bestätigte den friedlichen Protest.
 
 
@@ -45,7 +45,7 @@ Was ist passiert? Hierzu ein Zitat von [Sina Reisch](https://de.wikipedia.org/wi
 > Sie sind ausgestiegen, haben sich aufgereiht. Es gab keinerlei Versuch einer Kontaktaufnahme, keine Durchsage, keine Ansage – nichts. Dann sind sie brüllend losgerannt wie eine Horde, ja, wie so eine zugekokste Prügelbande und haben auf die Leute eingeprügelt, ohne Vorwarnung, ohne Ansage – nichts.  
   -- <cite>Zitat von Sina Reisch</cite> 
 
-Nach Ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde.
+Nach Ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde. Der einzige Effekt der Aktion war die Demonstranten, die friedlich auf dem Weg zur Demo waren, zu verletzen und einzuschüchtern.
 
 Ihre [Stellungnahme auf Instagram](https://www.instagram.com/reel/DSGIHgLDdOO/) (Alternativ auf [Facebook](https://www.facebook.com/reel/4374647046112133)) wo sie mitteilt, dass die Polizei ohne Durchsage und Vorwarnung auf die Demonstranten eingeprügelt hat.
 
@@ -72,7 +72,7 @@ Bei den Protesten gegen die AfD-Jugend kam es zu Zusammenstößen. Polizeigewalt
 ## Fazit
 
 Das Vorgehen der Polizei ist höchst fragwürdig bei dem Einsatz in Gießen und wird hoffentlich noch gerichtlich aufgearbeitet.
-Es wurden viele Menschen die ihr Demonstrationsrecht friedlich genutzt haben verletzt. Eine deeskalierende Strategie war an vielen Stellen nicht zu erkennen.
+Es wurden viele Menschen die ihr <Glossar name="demonstrationsrecht">Demonstrationsrecht</Glossar> friedlich genutzt haben verletzt. Eine deeskalierende Strategie war an vielen Stellen nicht zu erkennen.
 
 Sehr sehenswert ist auch die Aufarbeitung von Marcant:
 <iframe min-width="560"  max-height="615" style="aspect-ratio: 16 / 9; width: 100%;" src="https://www.youtube-nocookie.com/embed/HFy55GnpI5w?si=2vPonmclM72p7pzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
