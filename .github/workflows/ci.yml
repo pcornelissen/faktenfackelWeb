@@ -40,8 +40,8 @@ jobs:
           name: gh-pages
 
       - run: npx nuxt generate
-      - name: Upload prerendered artifacts
+      - name: Upload pre-rendered artifacts
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./.output/public
-          name: prerendered
+          name: pre-rendered
