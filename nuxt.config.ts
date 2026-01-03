@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/scripts',
     '@nuxtjs/sitemap',
+    'nuxt-security',
   ],
   devtools: {
     enabled: true,
@@ -67,6 +68,18 @@ export default defineNuxtConfig({
   },
   fonts: {
     // Options
+  },
+  security: {
+    nonce: true, // Enables HTML nonce support in SSR mode
+    headers: {
+      contentSecurityPolicy: {
+        'script-src': [
+          '\'strict-dynamic\'', // Modify with your custom CSP sources
+          '\'nonce-{{nonce}}\'', // Enables CSP nonce support for scripts in SSR mode, supported by almost any browser (level 2)
+          'https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015',
+        ],
+      },
+    },
   },
   sitemap: {
     zeroRuntime: true,
