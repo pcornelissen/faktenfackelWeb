@@ -145,6 +145,8 @@ Quellen:<br/>
 
 Ebenso sollte man nicht vergessen, dass Migranten überwiegend in Städten leben, wo die Kriminalitätsrate auch unter Deutschen höher ist. D.h. auch hier ist ein Indikator, dass eine erhöhte Kriminalitätsrate in Teilen darauf zurückzuführen ist. Als Quelle kann man hier z.B. die Untersuchung der Bundeszentrale für politische Bildung dienen, die auf die [Unterschiede zwischen Stadt und Land](https://www.bpb.de/themen/stadt-land/laendliche-raeume/343169/sicherheit-im-laendlichen-raum/) eingeht.
 
+**Wichtig:** Im Artikel wird darauf hingewiesen, dass die Kriminalitätsrate in ländlichen Gebieten niedriger ist, aber die Aufklärungsquote auch deutlich geringer ist. D.h. es gibt hier auch eine Verzerrung in der Statistik. Da es uns hier aber um den Einfluss der gemeldeten Straftaten Stadt/Land geht, ist das für die Betrachtung ausreichend.
+
 ### Gründe für Migration und die Realität
 
 So viel zur Verdächtigung von Straftaten,
