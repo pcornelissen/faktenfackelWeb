@@ -17,7 +17,7 @@ export const newsSrc: NewsItem[] = [
     title: 'Glossareintrag zu Demonstrationsrecht und Verlinkung im Polizeigewalt Artikel',
   },
   {
-    date: new Date('2026-01-ß2'),
+    date: new Date('2026-01-02'),
     title: 'Neuer Artikel: Krise im Rentensystem',
   },
 ]
