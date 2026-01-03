@@ -25,7 +25,7 @@ Die Behauptungen sind gestützt durch persönliche Einzelerfahrungen und mehr od
 
 Es gibt jedes Jahr eine [Kriminalstatistik](https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/Polizeiliche_Kriminalstatistik_2024/Polizeiliche_Kriminalstatistik_2024_node.html), die mit konkreten Zahlen für eine korrekte Einordnung genutzt werden kann. Man muss sie aber sehr sorgfältig lesen und auch beachten, welche Gruppe in einer Zahl enthalten ist und wie sie sich zusammen setzt, um keine falschen Schlüsse zu ziehen.
 
-Aus den folgenden Quellen haben wir Diagramme erstellt und Daten gruppiert, [hier unsere Aufbereitung als Excel-Datei](/files/faktenchecks/kriminalitaet/migration-straftaten.xlsx).
+Aus den folgenden Quellen haben wir Diagramme erstellt und Daten gruppiert, [hier unsere Aufbereitung als Excel-Datei](/files/faktenchecks/kriminalitaet/migration-straftaten-2024.xlsx).
 
 ### Tatverdächtige oder Kriminelle?
 
