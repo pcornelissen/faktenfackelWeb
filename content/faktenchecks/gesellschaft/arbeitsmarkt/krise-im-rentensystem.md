@@ -1,5 +1,5 @@
 ---
-lastChange: 2026-01-04
+lastChange: 2026-01-05
 title: Rentensystem in der Krise
 subtitle: Die Alterspyramide steht Kopf
 published: true
@@ -73,6 +73,16 @@ Beamte sind in Deutschland in der Regel auf Lebenszeit angestellt und haben eine
 Es gab die Forderung,dass Beamte auch in die Rentenkassen einzahlen sollten, um die Lasten gerechter zu verteilen. Das ist aber finanziell nicht sinnvoll, denn die Beamten müssten auch ihre Pensionen aus der Rentenkasse bekommen, was die Rentenkasse zusätzlich belasten würde. Dazu kommt, dass Beamte im Schnitt älter werden als abhängige Beschäftigte. Das würde also bedeuten, dass durch die Beamten das Rentensystem einfach [nur mehr belastet werden würde](https://www.iwkoeln.de/presse/iw-nachrichten/bjoern-kauder-ruth-maria-schueler-bas-vorschlag-koennte-bis-zu-20-milliarden-euro-jaehrlich-kosten.html). Ja, die Beamten kriegen ohnehin irgendwann ihre Pension, aber durch den Wechsel auf die Rentenkasse würden sich jetzt Kosten in Milliardenhöhe ergeben, die das System zum jetzigen Zeitpunkt zusätzlich stark belasten würden.
 
 Es gibt auch Vorschläge ein System, [wie in Österreich einzuführen](https://www.focus.de/finanzen/altersvorsorge/rente/rentenversicherung-ohne-beamte-ist-natuerlich-unsinn_id_181080608.html), wo Beamte in die Rentenkasse einzahlen, aber im Gegenzug eine niedrigere Pension bekommen. Das würde aber nur kurzfristig helfen, denn das Grundproblem der Alterspyramide bleibt bestehen. Dazu ist fraglich, ob es rechtlich aktuell so einfach möglich ist, da den Beamten nicht einfach hohe neue Kosten "aufgebürdet" werden können, da es faktisch eine Gehaltskürzung wäre.
+
+#### Selbständige
+  
+Viele Selbständige zahlen nicht in die Rentenkasse ein ([Nur ca 0,3 Mio., im Vergleich zu 3 Mio. ohne Renteneinzahlung](https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Fakten-zur-Rente/Gesetzliche-Rentenversicherung/gesetzliche-rentenversicherung.html)), weil sie es sich nicht leisten können oder wollen. Das führt dazu, dass ein großer Teil der arbeitenden Bevölkerung, der [stellenweise nicht unerheblich gut verdient](https://www.bpb.de/themen/soziale-lage/verteilung-von-armut-reichtum/326450/einkommen-aus-selbststaendiger-taetigkeit-einkommenschancen-und-risiken/), nicht in die Rentenkasse einzahlt, was das System zusätzlich belastet.
+
+Es gibt Vorschläge, dass Selbständige verpflichtet werden sollten, in die Rentenkasse einzuzahlen, um die Lasten gerechter zu verteilen. Das wird von Verbänden und Betroffenen abgelehnt, denn es würde aber viele Selbständige finanziell stark belasten und könnte dazu führen, dass viele Selbständige ihre Tätigkeit aufgeben müssten. 
+
+Da die Beiträge aber relativ zum Einkommen sind, ist das Argument aber nicht stichhaltig und Härten am unteren Rand könnten durch Freibeträge für alle Einzahlenden abgefedert werden. Das würde gleichzeitig die untersten Einkommensschichten entlasten, die auf jeden Euro angewiesen sind.
+
+[Der IWF sieht auch noch potentielle negative Effekte für nachfolgende Generationen](https://www.iwkoeln.de/presse/in-den-medien/jochen-pimpertz-warum-selbststaendige-nicht-zwingend-in-die-gesetzliche-rente-gehoeren.html). Grundsätzlich ist es so, dass die dann einzahlenden Selbständigen auch irgendwann in Rente gehen wollen und dann das System zusätzlich belasten würden, wenn sie vorher nicht eingezahlt haben. Da aber viele Selbständige nicht in niedrigen Einkommensschichten sind, würden sie trotzdem einen netto positiven Effekt haben, weil die mehr einzahlen können.
 
 ### Zuwanderung
 
