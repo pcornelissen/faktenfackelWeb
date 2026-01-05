@@ -105,11 +105,7 @@ export default defineNuxtConfig({
           feed: { title: 'Faktenfackel - Faktenchecks zu aktuellen Themen' },
           collections: ['faktenchecks'],
         },
-        '/feed.atom': {
-          type: 'atom1',
-          feed: { title: 'Faktenfackel - Faktenchecks zu aktuellen Themen' },
-          collections: ['faktenchecks'],
-        },
+
       },
     },
 
