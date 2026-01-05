@@ -44,6 +44,44 @@ await definePageData({
           </p>
           <a href="https://www.youtube.com/@Faktenfackel">Zum Youtube Kanal</a>
         </SectionsItem>
+        <SectionsItem
+          title="Bluesky"
+          sub-title="Besser als X"
+          icon="bluesky-icon"
+          icon-txt="Free Icon von iconpacks.net"
+          href="https://bsky.app/profile/faktenfackel.bsky.social"
+        >
+          <p>
+            Wir sind bei Bluesky, abonniere den Kanal, um keine Beiträge zu verpassen oder uns zu schreiben.
+          </p>
+          <a href="https://bsky.app/profile/faktenfackel.bsky.social">Zu Bluesky</a>
+        </SectionsItem>
+        <SectionsItem
+          title="Mastodon"
+          sub-title="Besser als X"
+          icon="mastodon-icon"
+          icon-txt="Free Icon von font awesome"
+          href="https://mastodon.social/@faktenfackel"
+        >
+          <p>
+            Wir sind bei Mastodon, abonniere den Kanal in Fediverse, um keine Beiträge zu verpassen oder uns zu
+            schreiben.
+          </p>
+          <a href="https://mastodon.social/@faktenfackel">Zu Mastodon.social</a>
+        </SectionsItem>
+        <SectionsItem
+          title="X aka Twitter"
+          sub-title="Nur im Notfall nutzen"
+          icon="x-icon"
+          icon-txt="Free Icon von font awesome"
+          href="https://x.com/faktenfackel"
+        >
+          <p>
+            Wir sind bei X, abonniere den Kanal auf X, um keine Beiträge zu verpassen oder uns zu schreiben.<br>
+            Aber ehrlich, willst du wirklich X nutzen?
+          </p>
+          <a href="https://x.com/faktenfackel">Zu X.com</a>
+        </SectionsItem>
       </Sections>
     </div>
   </div>
