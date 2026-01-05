@@ -74,7 +74,7 @@ await definePageData({
       braucht uns nicht glauben.<br>
       Wenn wir etwas übersehen oder falsch verstanden haben, dann freuen wir uns über eine E-Mail an <a
         href="mailto:faktenfackel@mail.de"
-      >faktenfackel@mail.de</a>.<br>
+      >faktenfackel@mail.de</a>.<br><br>
       <strong>ACHTUNG:</strong> Beleidigungen, Drohungen etc. werden zur Anzeige gebracht und/oder in öffentlichen
       Beiträgen aufgearbeitet.
     </p>
