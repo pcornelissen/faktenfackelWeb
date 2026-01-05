@@ -1,8 +1,9 @@
 ---
-lastChange: 2025-12-12
+published: 2025-12-12
+date: 2025-12-12
 title: Migranten arbeiten nicht
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
-published: true
+
 tags: [Migranten, Arbeit, Stadtbild]
 ---
 

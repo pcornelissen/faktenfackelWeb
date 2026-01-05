@@ -1,8 +1,9 @@
 ---
-lastChange: 2026-01-05
+published: 2026-01-05
+date: 2026-01-05
 title: Rentensystem in der Krise
 subtitle: Die Alterspyramide steht Kopf
-published: true
+
 tags: [Deutschland, Arbeitsmarkt, Rentner, Migranten]
 ---
 

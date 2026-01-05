@@ -33,6 +33,6 @@ export type Post = {
   subtitle: string
   path: string
   tags: string[]
-  lastChange: string
-  published: boolean
+  date: string
+  published: string
 }

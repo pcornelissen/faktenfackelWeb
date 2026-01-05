@@ -43,8 +43,12 @@ if (loadInstagram) {
     }],
   })
 }
-const lastChangeStr = page.value?.lastChange as string | null || ''
-const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })
+const lastChangeStr = page.value?.date as string | null || ''
+const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
+  day: '2-digit',
+  month: '2-digit',
+  year: 'numeric',
+})
 </script>
 
 <template>
@@ -66,7 +70,7 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', { day: '2
         :headline="`Stand: ${lastChange}`"
       />
       <UAlert
-        v-if="!page.published"
+        v-if="!page.published || new Date(page.published)> new Date()"
         type="info"
         icon="i-lucide-badge-info"
         title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"

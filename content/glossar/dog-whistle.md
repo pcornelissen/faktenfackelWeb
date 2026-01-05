@@ -1,8 +1,9 @@
 ---
-lastChange: 2025-12-03
+published: 2025-12-03
+date: 2025-12-03
 title: "Begriffserklärung: Dog-Whistle"
 subject: "Dog-Whistle"
-published: true
+
 tags: [Glossar, Kommunikation ]
 ---
 

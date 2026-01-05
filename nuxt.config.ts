@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/scripts',
     '@nuxtjs/sitemap',
+    'nuxt-feedme',
   ],
   devtools: {
     enabled: true,
@@ -58,12 +59,60 @@ export default defineNuxtConfig({
       },
     },
   },
+  hooks: {
+    'content:file:afterParse'(ctx) {
+      const { file, content } = ctx
+
+      const wordsPerMinute = 180
+      const text = file.body
+      const wordCount = text.split(/\s+/).length
+
+      content.readingTime = Math.ceil(wordCount / wordsPerMinute)
+    },
+  },
   eslint: {
     config: {
       stylistic: {
         braceStyle: '1tbs',
       },
     },
+  },
+  feedme: {
+    defaults: {
+      routes: false,
+    },
+    feeds: {
+      common: {
+        charset: 'utf8',
+        feed: {
+          id: 'https://faktenfackel.de',
+          title: 'Faktenfackel - Faktenchecks zu aktuellen Themen',
+          link: 'https://faktenfackel.de',
+          author: { email: 'kontakt@faktenfackel.de', name: 'Faktenfackel' },
+          category: 'blog',
+          copyright: 'CC BY-NC-SA 4.0 2026 by Faktenfackel',
+        },
+        collections: ['faktenchecks'],
+      },
+      routes: {
+        '/feed.xml': {
+          type: 'rss2',
+          feed: { title: 'Faktenfackel - Faktenchecks zu aktuellen Themen' },
+          collections: ['faktenchecks'],
+        },
+        '/feed.json': {
+          type: 'json1',
+          feed: { title: 'Faktenfackel - Faktenchecks zu aktuellen Themen' },
+          collections: ['faktenchecks'],
+        },
+        '/feed.atom': {
+          type: 'atom1',
+          feed: { title: 'Faktenfackel - Faktenchecks zu aktuellen Themen' },
+          collections: ['faktenchecks'],
+        },
+      },
+    },
+
   },
   fonts: {
     // Options

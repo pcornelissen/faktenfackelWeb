@@ -1,8 +1,9 @@
 ---
-lastChange: 2025-12-12
+published: 2025-12-12
+date: 2025-12-12
 title: Merz Aussage zum Stadtbild
 subtitle: Korrekt, oder anbiedern am rechten Rand?
-published: true
+
 tags: [ CDU, Merz, Migranten ]
 ---
 

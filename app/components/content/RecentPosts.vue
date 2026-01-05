@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const { data: list1 } = await useAsyncData('/faktenchecks', () => {
   return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'published', 'tags', 'lastChange')
-    .order('lastChange', 'DESC')
+    .select('title', 'subtitle', 'path', 'published', 'tags', 'date')
+    .order('date', 'DESC')
     .all()
 })
 const list = list1.value as Post[]
@@ -19,7 +19,7 @@ function filter(list: Post[]) {
       :key="item.path"
     >
       <div class="date">
-        {{ new Date(item.lastChange).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) }} -
+        {{ new Date(item.date).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) }} -
       </div>
       <div class="desc">
         <NuxtLink

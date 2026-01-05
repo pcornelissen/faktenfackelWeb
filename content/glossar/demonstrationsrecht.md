@@ -1,8 +1,9 @@
 ---
-lastChange: 2025-12-30
+published: 2025-12-30
+date: 2025-12-30
 title: "Begriffserklärung: Demonstrationsrecht"
 subject: "Demonstrationsrecht"
-published: true
+
 tags: [Glossar, Recht, Demonstration ]
 ---
 

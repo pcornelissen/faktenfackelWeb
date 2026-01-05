@@ -8,10 +8,10 @@ export default defineContentConfig({
       source: 'faktenchecks/**/*.md',
       // Define custom schema for this collection
       schema: z.object({
-        lastChange: z.date(),
+        date: z.date(),
         title: z.string(),
         subtitle: z.string(),
-        published: z.boolean(),
+        published: z.date().or(z.null()),
         loadInstagram: z.boolean().or(z.null()),
         tags: z.set(z.string()),
       }),
@@ -21,10 +21,10 @@ export default defineContentConfig({
       source: 'glossar/**/*.md',
       // Define custom schema for this collection
       schema: z.object({
-        lastChange: z.date(),
+        date: z.date(),
         title: z.string(),
         subject: z.string(),
-        published: z.boolean(),
+        published: z.date().or(z.null()),
         tags: z.set(z.string()),
       }),
     }),

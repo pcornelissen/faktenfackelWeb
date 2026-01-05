@@ -1,8 +1,9 @@
 ---
-lastChange: 2025-12-11
+published: 2025-12-11
+date: 2025-12-11
 title: "Begriffserklärung: tl;dr" 
 subject: "tl;dr"  
-published: true
+
 tags: [Glossar, Rechtlich, Behörde, Verfahren ]
 ---
 

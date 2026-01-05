@@ -1,8 +1,9 @@
 ---
-lastChange: 2025-12-03
+published: 2025-12-03
+date: 2025-12-03
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Proteste, wie in Gießen
-published: true
+
 tags: [ AfD, Generation-Deutschland, Demokratie, Proteste ]
 ---
 

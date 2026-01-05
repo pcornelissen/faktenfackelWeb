@@ -43,7 +43,10 @@ const props = defineProps<{
               {{ capitalize(tag) }}
             </NuxtLink>
             <br>
-            <span class="lastChange">Stand {{ new Date(item.lastChange).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) }}</span>
+            <span
+              class="lastChange"
+              :title="'Veröffentlicht: '+new Date(item.published).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })"
+            >Stand {{ new Date(item.date).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' }) }}</span>
           </div>
         </div>
       </li>

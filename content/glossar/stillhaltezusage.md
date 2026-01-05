@@ -1,8 +1,9 @@
 ---
-lastChange: 2025-12-03
+published: 2025-12-03
+date: 2025-12-03
 title: "Begriffserklärung: Stillhaltezusage" 
 subject: "Stillhaltezusage"  
-published: true
+
 tags: [Glossar, Rechtlich, Behörde, Verfahren ]
 ---
 Eine **Stillhaltezusage** ist eine **vereinbarte Verpflichtung**, bei der ein Gläubiger, bzw. jemand mit Forderungen, verspricht, **für einen bestimmten Zeitraum** auf die Durchsetzung seiner Forderungen zu verzichten.

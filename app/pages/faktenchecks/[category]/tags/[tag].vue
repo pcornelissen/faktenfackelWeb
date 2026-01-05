@@ -32,14 +32,14 @@ useSeoMeta({
 
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'published', 'tags', 'lastChange')
+    .select('title', 'subtitle', 'path', 'published', 'tags', 'date')
     .all()
 })
 const list = list1.value as Post[]
 
 function filter(list: Post[]) {
   return list
-    .filter(item => item.published)
+    .filter(item => !!item.published && new Date(item.published) <= new Date())
     .filter(item => item.tags.map((t: string) => t.toLowerCase()).includes(tag.toLowerCase()))
     .filter(item => item.path.startsWith(`/faktenchecks/${category}/`))
 }
