@@ -5,6 +5,7 @@ const menuItems = [
   { name: 'Glossar', href: '/glossar', active: false },
   { name: 'Änderungen', href: '/news', active: false },
   { name: 'Social Media', href: '/mehr', active: false, label: 'Weitere Webseiten' },
+  { name: 'Quellen', href: '/quellen', active: false, label: 'Quellensammlung' },
 ]
 const route = useRoute()
 

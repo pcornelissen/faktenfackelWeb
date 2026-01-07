@@ -36,3 +36,21 @@ export type Post = {
   date: string
   published: string
 }
+
+export type Source = {
+  date: string
+  name: string
+  description: string
+  path: string
+  tags: string[]
+  image: string | null
+}
+
+export type SourceLink = {
+  date: string
+  title: string
+  uri: string
+  type: string
+  path: string
+  tags: string[]
+}
