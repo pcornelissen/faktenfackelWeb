@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import SectionsItem from '~/components/overview/SectionsItem.vue'
 import { definePageData } from '~/utils/contentUtils.ts'
 import Sections from '~/components/overview/Sections.vue'

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import NewsList from '~/news/NewsList.vue'
 import SectionsOverview from '~/components/overview/SectionsOverview.vue'
 import SectionsItem from '~/components/overview/SectionsItem.vue'
