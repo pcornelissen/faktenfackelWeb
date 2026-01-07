@@ -3,6 +3,8 @@ const { data: navigation } = await useAsyncData('navigation', () => {
   return Promise.all([
     queryCollectionNavigation('faktenchecks'),
     queryCollectionNavigation('glossar'),
+    queryCollectionNavigation('quellen'),
+    queryCollectionNavigation('quellenlinks'),
   ])
 }, {
   transform: data => data.flat(),
@@ -12,6 +14,8 @@ const { data: files } = useLazyAsyncData('search', () => {
   return Promise.all([
     queryCollectionSearchSections('faktenchecks'),
     queryCollectionSearchSections('glossar'),
+    queryCollectionSearchSections('quellen'),
+    queryCollectionSearchSections('quellenlinks'),
   ])
 }, {
   server: false,
@@ -32,7 +36,7 @@ const searchTerm = ref('')
     v-model:search-term="searchTerm"
     :files="files"
     :color-mode="false"
-    placeholder="Suche nach Faktenchecks"
+    placeholder="Suche nach Faktenchecks oder Quellen"
     :navigation="navigation"
     :fuse="{ resultLimit: 42 }"
     title="Suche"
