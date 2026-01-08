@@ -23,11 +23,15 @@ const props = defineProps<{
         :href="props.item.uri"
         rel="external"
         class="link  "
+        style="max-width: 30rem"
       >
         {{ props.item.title }}
       </a>
     </div>
-    <SourceLinkTags :tags="props.item.tags">
+    <SourceLinkTags
+      :tags="props.item.tags"
+      class="ml-5"
+    >
       <template #end>
         <NuxtLink
           :to="props.item.path"

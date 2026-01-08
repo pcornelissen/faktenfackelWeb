@@ -48,6 +48,7 @@ export default defineContentConfig({
         uri: z.string(),
         type: z.string(),
         tags: z.set(z.string()),
+        coSources: z.set(z.string()),
       }),
     }),
     sitemap: defineCollection(

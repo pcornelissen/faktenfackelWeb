@@ -53,4 +53,5 @@ export type SourceLink = {
   type: string
   path: string
   tags: string[]
+  coSources: string[]
 }

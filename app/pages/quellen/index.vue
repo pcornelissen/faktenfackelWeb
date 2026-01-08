@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { definePageData, filter } from '~/utils/contentUtils'
-import PostsList from '~/components/content/PostsList.vue'
+import { definePageData } from '~/utils/contentUtils'
 import SourcesList from '~/components/sources/SourcesList.vue'
 
 await definePageData({
@@ -11,7 +10,7 @@ await definePageData({
 
 const route = useRoute()
 
-const basePath = route.path// `/quellen`;
+const basePath = route.path
 
 const { data: list1 } = await useAsyncData(basePath, () => {
   return queryCollection('quellen')
@@ -35,23 +34,15 @@ const list = list1.value as Source[]
     </p>
     <p>
       Die Quellensammlung ist nach Quellen organisiert und zu den Quellen gibt es dann thematisch sortierte Listen mit
-      Artikeln, Videos, etc.. Dazu gibt es eine Verschlagwortung (Tags), um zu Themen quellenübergreifend Dinge finden
+      Artikeln, Videos, etc.. Dazu gibt es eine
+      <nuxt-link to="/quellen/tags">Verschlagwortung (Tags),</nuxt-link>
+      um zu Themen quellenübergreifend Dinge finden
       zu können.
     </p>
     <h2>Quellen</h2>
-    <div v-if="list">
-      <SourcesList
-        :list="list"
-        :base-path="basePath"
-      />
-    </div>
-    <div v-else>
-      Aktuell keine Quellen gefunden. Anscheinend haben wir ein technisches Problem!<br>
-      <br>
-      <NuxtLink :to="`/`">
-        Zurück zur Startseite
-      </NuxtLink>
-    </div>
+    <SourcesList
+      :list="list||[]"
+    />
   </div>
 </template>
 

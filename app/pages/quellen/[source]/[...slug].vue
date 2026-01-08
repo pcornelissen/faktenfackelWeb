@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
-import { capitalize } from '~/utils/stringUtils'
-import SourceLinkItem from '~/components/sources/SourceLinkItem.vue'
 import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 
@@ -11,15 +9,16 @@ const route = useRoute()
 const slug = (route.params.slug as string[]).join('/')
 
 const basePath = route.path
+const sourcePath = route.path.split('/').slice(0, 3).join('/')
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('quellenlinks', basePath)
+  return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%')
 })
 
 const { data: page }
   = await
   useAsyncData(
-    `quellenlinks-${slug}`,
+    `quellenlink-${slug}`,
     () => {
       return queryCollection('quellenlinks').path(basePath).first()
     })
@@ -37,12 +36,29 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
   month: '2-digit',
   year: 'numeric',
 })
+
+const coSources = new Set(page.value?.coSources == null ? [] : page.value.coSources)
+
+const { data: coList }
+  = (coSources == null || coSources.size == 0)
+    ? { data: [] }
+    : await useAsyncData(basePath + '-coSources', () => {
+        const builder = queryCollection('quellen').orWhere(
+          (query) => {
+            coSources.values().forEach(s => query = query.where('path', '=', '/quellen/' + s))
+            return query
+          },
+        )
+        return builder
+          .select('name', 'path')
+          .all()
+      })
 </script>
 
 <template>
   <div>
     <NuxtLink
-      to="/quellen"
+      :to="sourcePath"
       style="display: inline-flex;
     vertical-align: middle;"
     >
@@ -50,7 +66,7 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
         name="i-lucide:arrow-left"
         style="margin-right: 0.5rem;"
       />
-      Zurück zum den Quellen
+      Zurück zur Quelle
     </NuxtLink>
     <UPage v-if="page">
       <h2>Link</h2>
@@ -69,9 +85,24 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
             {{ page.title }}
           </a>
         </div>
+        <div class="italic text-sm ml-5">
+          (Stand: {{ lastChange }})
+        </div>
       </div>
       <h2>Schlagworte</h2>
       <SourceLinkTags :tags="page.tags" />
+
+      <template v-if="coList && coList.length>0">
+        <h2>Weitere beteiligte Quelle{{ coList.length>1?'n':'' }}</h2>
+        <ul class="list-disc ml-4">
+          <li
+            v-for="co in coList"
+            :key="co.path"
+          >
+            <nuxt-link :to="co.path">{{ co.name }}</nuxt-link>
+          </li>
+        </ul>
+      </template>
 
       <UPageBody v-if="page.body">
         <h2 class="mb-2">
@@ -101,3 +132,14 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
     </div>
   </div>
 </template>
+
+<style scoped>
+p {
+  margin-bottom: 1em;
+}
+
+a:hover {
+  color: var(--color-secondary);
+  @apply underline;
+}
+</style>

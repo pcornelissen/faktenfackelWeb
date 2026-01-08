@@ -1,76 +1,57 @@
 <script setup lang="ts">
+import { definePageData } from '~/utils/contentUtils'
 import { capitalize } from '~/utils/stringUtils'
-import PostsList from '~/components/content/PostsList.vue'
-import { definePageData, filter } from '~/utils/contentUtils'
 
 const route = useRoute()
 
-const category = route.params.category as string
-const basePath = route.path// `/faktencheck/${category}`;
-
-const { data: categoryInfo }
-  = await
-  useAsyncData(
-    `faktencheck-${category}-info`,
-    () => {
-      return queryCollection('faktenchecks').path(`${basePath}/_info`).first()
-    })
-
-const { data: post }
-  = await
-  useAsyncData(
-    `faktencheck-${category}`,
-    () => {
-      return queryCollection('faktenchecks').path(`${basePath}`).first()
-    })
-
-const title = post.value?.title || `Faktenchecks im Bereich ${capitalize(category)}`
+const title = 'Quellenlink-Schlagwörter'
 
 await definePageData({
   title: title,
-  pageHeading: 'Faktenfackel - Faktenchecks',
-  pageSubHeading: 'Themenbereiche',
-  description: post.value?.description,
+  pageHeading: 'Faktenfackel - Schlagwörter von Quellenlinks',
 })
 
 const { data: list1 } = await useAsyncData(route.path, () => {
-  return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'published', 'tags', 'date')
+  return queryCollection('quellenlinks')
+    .select('tags')
     .all()
 })
-const list = list1.value as Post[]
+
+const tagMap = (
+  list1.value ? list1.value.map(t => t.tags).flat() : []
+).reduce(function (r, a) {
+  r.set(a, (r.get(a) || 0) + 1)
+  return r
+}, new Map<string, number>())
+const tagKeys = tagMap.keys().toArray().sort()
 </script>
 
 <template>
-  <div v-if="list">
-    <h1 style="margin-top: 0">
+  <div>
+    <h2 style="margin-top: 0">
       {{ title }}
-    </h1>
-    <ContentRenderer
-      v-if="categoryInfo"
-      :value="categoryInfo"
-      class="intro"
-    />
-    <PostsList
-      :list="filter(list, category)"
-      :base-path="route.path"
-    />
+    </h2>
+    <div class="flex">
+      <NuxtLink
+        v-for="tag in tagKeys"
+        :key="tag"
+        :to="`/quellen/tags/${tag}`"
+        class="tag"
+      >
+        {{ capitalize(tag) }} (#{{ tagMap.get(tag) }})
+      </NuxtLink>
+    </div>
   </div>
-  <div v-else>
-    Diese Seite existiert nicht!<br>
-    <br>
-    <NuxtLink :to="`/faktenchecks/`">
-      Zurück zur Übersicht
-    </NuxtLink>
-  </div>
-  <!--  <debug :content=route></debug> -->
 </template>
 
 <style scoped>
-.intro {
-  margin-bottom: 2rem;
-  padding: 0.5rem;
-  border-radius: 0.3rem;
-  background-color: #eee;
+.tag {
+  font-size: 0.8rem;
+  font-weight: 200;
+  background-color: var(--color-tertiary);
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+  margin: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
 }
 </style>

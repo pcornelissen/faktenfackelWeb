@@ -4,7 +4,6 @@ import type { Source } from '~/utils/contentUtils'
 
 const props = defineProps<{
   list: Source[]
-  basePath: string
 }>()
 </script>
 

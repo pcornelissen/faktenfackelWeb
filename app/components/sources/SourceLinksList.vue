@@ -4,14 +4,14 @@ import SourceLinkItem from '~/components/sources/SourceLinkItem.vue'
 
 const props = defineProps<{
   list: SourceLink[]
-  basePath: string
+  titleOverride?: string
 }>()
 </script>
 
 <template>
   <nav class="navigation">
     <h2 class="text-2xl font-bold mt-12 mb-5">
-      Links
+      {{ titleOverride?titleOverride:'Links' }}
     </h2>
     <ul>
       <li
