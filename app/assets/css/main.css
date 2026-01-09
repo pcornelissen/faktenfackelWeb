@@ -55,6 +55,12 @@
       @apply mt-4;
       @apply mb-2;
     }
+    h4 {
+      @apply font-bold;
+      font-size: 1.15rem;
+      @apply mt-2;
+      @apply mb-1;
+    }
 
     cite > a, blockquote > a, p > a {
       text-decoration: underline;
