@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { capitalize } from '~/utils/stringUtils'
 import type { SourceLink } from '~/utils/contentUtils'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'

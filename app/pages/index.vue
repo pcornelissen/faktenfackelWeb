@@ -2,7 +2,7 @@
 import NewsList from '~/news/NewsList.vue'
 import SectionsOverview from '~/components/overview/SectionsOverview.vue'
 import SectionsItem from '~/components/overview/SectionsItem.vue'
-import { definePageData } from '~/utils/contentUtils.ts'
+import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
