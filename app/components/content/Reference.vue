@@ -12,10 +12,8 @@ const { data: linkRaw }
   useAsyncData(
     `quellenlink-${props.code}`,
     () => {
-      console.log('queryCollection(\'quellenlinks\').where(\'code\', \'=\', ' + props.code + ')')
       return queryCollection('quellenlinks').where('code', '=', props.code).first()
     })
-console.log('Link ' + props.code, linkRaw?.value)
 
 const link = linkRaw.value as SourceLink
 const sourcePath = getSourceFromPath(link?.path || '')
@@ -25,11 +23,9 @@ const { data: sourceInfoRaw }
   useAsyncData(
     `reference-source-${props.code}`,
     () => {
-      console.log('queryCollection(\'quellen\').path(' + sourcePath + ')')
       return queryCollection('quellen').path(sourcePath).first()
     })
 
-console.log('source ' + props.code, sourcePath, sourceInfoRaw?.value)
 const sourceInfo = sourceInfoRaw.value as Source
 
 const slots = useSlots()
