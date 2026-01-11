@@ -12,9 +12,10 @@ const { data: linkRaw }
   useAsyncData(
     `quellenlink-${props.code}`,
     () => {
+      console.log('queryCollection(\'quellenlinks\').where(\'code\', \'=\', ' + props.code + ')')
       return queryCollection('quellenlinks').where('code', '=', props.code).first()
     })
-if (!linkRaw?.value)console.log('Link ' + props.code, linkRaw.value)
+console.log('Link ' + props.code, linkRaw?.value)
 
 const link = linkRaw.value as SourceLink
 const sourcePath = getSourceFromPath(link?.path || '')
@@ -24,9 +25,11 @@ const { data: sourceInfoRaw }
   useAsyncData(
     `reference-source-${props.code}`,
     () => {
+      console.log('queryCollection(\'quellen\').path(' + sourcePath + ')')
       return queryCollection('quellen').path(sourcePath).first()
     })
-if (!sourceInfoRaw?.value)console.log('source ' + props.code, sourcePath, sourceInfoRaw.value)
+
+console.log('source ' + props.code, sourcePath, sourceInfoRaw?.value)
 const sourceInfo = sourceInfoRaw.value as Source
 
 const slots = useSlots()
@@ -58,7 +61,7 @@ const slots = useSlots()
     &nbsp;(<a
       v-if="sourceInfo"
       class="source"
-      :href="link.path || 'PATH NOT FOUND'"
+      :href="link?.path || 'PATH NOT FOUND'"
       :title="`Quelle: ${sourceInfo.name}`"
     >Quelle</a><span v-else>Quelle nicht gefunden!</span>)
   </div>
