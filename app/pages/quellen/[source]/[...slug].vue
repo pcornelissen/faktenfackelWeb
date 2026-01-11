@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData } from '~/utils/contentUtils'
+import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 
@@ -9,7 +9,8 @@ const route = useRoute()
 const slug = (route.params.slug as string[]).join('/')
 
 const basePath = route.path
-const sourcePath = route.path.split('/').slice(0, 3).join('/')
+
+const sourcePath = getSourceFromPath(route.path)
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%')
@@ -93,7 +94,7 @@ const { data: coList }
       <SourceLinkTags :tags="page.tags" />
 
       <template v-if="coList && coList.length>0">
-        <h2>Weitere beteiligte Quelle{{ coList.length>1?'n':'' }}</h2>
+        <h2>Weitere beteiligte Quelle{{ coList.length > 1 ? 'n' : '' }}</h2>
         <ul class="list-disc ml-4">
           <li
             v-for="co in coList"

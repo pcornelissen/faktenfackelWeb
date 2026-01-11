@@ -55,3 +55,7 @@ export type SourceLink = {
   tags: string[]
   coSources: string[]
 }
+
+export function getSourceFromPath(path: string) {
+  return path.split('/').slice(0, 3).join('/')
+}

@@ -11,7 +11,8 @@ tags: [Deutschland, Arbeitsmarkt, Rentner, Migranten]
 
 Deutschland hat ein Problem, es gibt zu wenig Nachwuchs, um die bald frei werdenden Stellen zu besetzen, denn viele Menschen gehen bald in Rente.
 
-Jetzt zahlen ca. 2 Arbeitnehmer schon für einen Rentner, es aren mal 7 Arbeitnehmer pro Rentner. Der Zuschuss zur Rentenkasse ist der größte Block im Bundeshaushalt. 2025 wird der Zuschuss zur Rentenkasse [ein Drittel der Steuereinnahmen](https://www.ifo.de/pressemitteilung/2025-11-18/zuschuss-rentenversicherung-wird-ein-drittel-der-steuereinnahmen) betragen.
+Jetzt zahlen ca. 2 Arbeitnehmer schon für einen Rentner, es aren mal 7 Arbeitnehmer pro Rentner. Der Zuschuss zur Rentenkasse ist der größte Block im Bundeshaushalt. 2025 wird der Zuschuss zur Rentenkasse <Reference code="ifo-zuschuss-rentenversicherung">
+ein Drittel der Steuereinnahmen</Reference> betragen.
 
 ## Faktencheck
 
@@ -30,9 +31,9 @@ Man sieht gut, an der grünen Linie, dass es einen großen Überhang an Menschen
 
 Eine "gesunde Verteilung" hätte konstant den Schwerpunkt im Bereich zwischen 20 und 40, sodass diese zum einen arbeiten und weiter Nachwuchs "produzieren" können. Das wäre der Idealfall, um das in Deutschland etablierte Rentensystem aufrechtzuerhalten, in dem die arbeitende Bevölkerung die Mehrheit der aktuellen Renten bezahlt. 
 
-Also wenn die Altersverteilung immer eher die Form einer dickbäuchigen Vase hätte, dann wären genug Arbeitnehmer da, die die Renten überwiegend aus den laufenden Gehaltsabgaben zu finanzieren. Für eine relativ stabile Finanzierung wären mind. 3-4 Arbeitnehmer pro Rentner notwendig. Das würde nur klappen mit hoher Sterblichkeit im frühen Rentenalter oder mit konstant wachsender Bevölkerung. Beides keine realistischen oder positiven Perspektiven.
+Also, wenn die Altersverteilung immer eher die Form einer dickbäuchigen Vase hätte, dann wären genug Arbeitnehmer da, die die Renten überwiegend aus den laufenden Gehaltsabgaben zu finanzieren. Für eine relativ stabile Finanzierung wären mindestens 3-4 Arbeitnehmer pro Rentner notwendig. Das würde nur klappen mit hoher Sterblichkeit im frühen Rentenalter oder mit konstant wachsender Bevölkerung. Beides keine realistischen oder positiven Perspektiven.
 
-Aber in der Vergangenheit wurde es immer unattraktiver für Menschen, Kinder zu kriegen, denn die Zahl der geborenen Kinder sinkt abgesehen von kleineren Spitzen seit Jahrzehnten. Es gibt nicht den einzelnen Grund für den Rückgang. Die Bundeszentrale für politische Bildung hat [es gut zusammengefasst](https://www.bpb.de/shop/zeitschriften/izpb/demografischer-wandel-350/507788/die-ursachen-der-geburtenentwicklung/).
+Aber in der Vergangenheit wurde es immer unattraktiver für Menschen, Kinder zu kriegen, denn die Zahl der geborenen Kinder sinkt abgesehen von kleineren Spitzen seit Jahrzehnten. Es gibt nicht den einzelnen Grund für den Rückgang. Die Bundeszentrale für politische Bildung hat <Reference code="bpb-demografischer-wandel-ursachen-geburtenentwicklung">es gut zusammengefasst</Reference>.
 
 Die absolute Anzahl der Geburten insgesamt ist im Trend stark rückläufig
 <img src="/files/faktenchecks/gesellschaft/geburten-pro-jahr-bis-2024.png" alt="Anzahl der Geburten bis 2024" style="max-height: 35rem;width: auto"><br/>
@@ -46,11 +47,11 @@ Die positiven Zuwächse kommen im Wesentlichen von Migranten, die im Schnitt ein
 
 ### Sterberate
 
-Es ist nicht nur so, dass die Geburtenrate konstant niedrig ist, die Menschen werden durch die Verbesserungen in der Medizin [auch immer älter](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsvorausberechnung/Tabellen/bevoelkerungsvorausberechnung-lebenserwartung.html). Das ist grundsätzlich eine gute Sache, aber es verschärft das Problem der Alterspyramide zusätzlich.
+Es ist nicht nur so, dass die Geburtenrate konstant niedrig ist, die Menschen werden durch die Verbesserungen in der Medizin <Reference code="destatis-lebenserwartung-2025">auch immer älter</Reference>. Das ist grundsätzlich eine gute Sache, aber es verschärft das Problem der Alterspyramide zusätzlich.
 
-Als die Babyboomer geboren wurden, lag die Lebenserwartung bei ca. 63 Jahren, jetzt ist die Lebenserwartung im Schnitt bei 79 Jahren, wobei Frauen ca. 6–7 Jahre älter werden. Die Tendenz ist [weiter steigend](https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aeltere-Menschen/anstieg-aeltere.html).
+Als die Babyboomer geboren wurden, lag die Lebenserwartung bei ca. 63 Jahren, jetzt ist die Lebenserwartung im Schnitt bei 79 Jahren, wobei Frauen ca. 6–7 Jahre älter werden. Die Tendenz ist <Reference code="destatis-zahl-ältere-menschen-2025">weiter steigend</Reference>.
 
-Das Renteneintrittsalter ist nicht in gleichem Maße gestiegen. Das liegt aber nicht nur an Klientelpolitik, denn auch wenn Menschen älter werden, lassen sich viele Arbeiten nicht mehr sinnvoll ausüben ab einem gewissen Alter. Daher ist eine [Anhebung](https://www.bpb.de/kurz-knapp/taegliche-dosis-politik/542683/diskussion-um-erhoehung-des-renteneintrittsalters/) des Renteneintrittsalters [nicht global sinnvoll](https://www.igmetall.de/politik-und-gesellschaft/sozialpolitik/rente/rentenalter-hoch-diese-argumente-sprechen-dagegen).
+Das Renteneintrittsalter ist nicht in gleichem Maße gestiegen. Das liegt aber nicht nur an Klientelpolitik, denn auch wenn Menschen älter werden, lassen sich viele Arbeiten nicht mehr sinnvoll ausüben ab einem gewissen Alter. Daher ist eine <Reference code="bpb-diskussion-erhöhung-renteneintrittsalter">Anhebung</Reference> des Renteneintrittsalters <Reference code="igmetall-renteneintrittsalter-2025">nicht global sinnvoll</Reference>.
 
 ### Beitragszahler pro Rentner
 
@@ -71,19 +72,19 @@ Sozialpflichtig beschäftige Menschen zahlen in die Rentenkasse ein. Das sind in
 #### Warum zahlen Beamten nicht ein?
 Beamte sind in Deutschland in der Regel auf Lebenszeit angestellt und haben einen besonderen Status. Sie zahlen nicht in die gesetzliche Rentenversicherung ein, weil sie Anspruch auf eine staatliche Pension haben, die direkt aus dem Staatshaushalt finanziert wird. Diese Pension soll den Beamten eine finanzielle Sicherheit im Ruhestand bieten, ähnlich wie die Rentenversicherung für Arbeitnehmer.
 
-Es gab die Forderung,dass Beamte auch in die Rentenkassen einzahlen sollten, um die Lasten gerechter zu verteilen. Das ist aber finanziell nicht sinnvoll, denn die Beamten müssten auch ihre Pensionen aus der Rentenkasse bekommen, was die Rentenkasse zusätzlich belasten würde. Dazu kommt, dass Beamte im Schnitt älter werden als abhängige Beschäftigte. Das würde also bedeuten, dass durch die Beamten das Rentensystem einfach [nur mehr belastet werden würde](https://www.iwkoeln.de/presse/iw-nachrichten/bjoern-kauder-ruth-maria-schueler-bas-vorschlag-koennte-bis-zu-20-milliarden-euro-jaehrlich-kosten.html). Ja, die Beamten kriegen ohnehin irgendwann ihre Pension, aber durch den Wechsel auf die Rentenkasse würden sich jetzt Kosten in Milliardenhöhe ergeben, die das System zum jetzigen Zeitpunkt zusätzlich stark belasten würden.
+Es gab die Forderung, dass Beamte auch in die Rentenkassen einzahlen sollten, um die Lasten gerechter zu verteilen. Das ist aber finanziell nicht sinnvoll, denn die Beamten müssten auch ihre Pensionen aus der Rentenkasse bekommen, was die Rentenkasse zusätzlich belasten würde. Dazu kommt, dass Beamte im Schnitt älter werden als abhängige Beschäftigte. Das würde also bedeuten, dass durch die Beamten das Rentensystem einfach <Reference code="iw-koeln-bas-rente-beamte">nur mehr belastet werden würde</Reference>. Ja, die Beamten kriegen ohnehin irgendwann ihre Pension, aber durch den Wechsel auf die Rentenkasse würden sich jetzt Kosten in Milliardenhöhe ergeben, die das System zum jetzigen Zeitpunkt zusätzlich stark belasten würden.
 
-Es gibt auch Vorschläge ein System, [wie in Österreich einzuführen](https://www.focus.de/finanzen/altersvorsorge/rente/rentenversicherung-ohne-beamte-ist-natuerlich-unsinn_id_181080608.html), wo Beamte in die Rentenkasse einzahlen, aber im Gegenzug eine niedrigere Pension bekommen. Das würde aber nur kurzfristig helfen, denn das Grundproblem der Alterspyramide bleibt bestehen. Dazu ist fraglich, ob es rechtlich aktuell so einfach möglich ist, da den Beamten nicht einfach hohe neue Kosten "aufgebürdet" werden können, da es faktisch eine Gehaltskürzung wäre.
+Es gibt auch Vorschläge, ein System, wie in <Reference code="focus-türk-rente-beamte">Österreich einzuführen</Reference>, wo Beamte in die Rentenkasse einzahlen, aber im Gegenzug eine niedrigere Pension bekommen. Das würde aber nur kurzfristig helfen, denn das Grundproblem der Alterspyramide bleibt bestehen. Dazu ist fraglich, ob es rechtlich aktuell so einfach möglich ist, da den Beamten nicht einfach hohe neue Kosten "aufgebürdet" werden können, da es faktisch eine Gehaltskürzung wäre.
 
 #### Selbständige
   
-Viele Selbständige zahlen nicht in die Rentenkasse ein ([Nur ca 0,3 Mio., im Vergleich zu 3 Mio. ohne Renteneinzahlung](https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Fakten-zur-Rente/Gesetzliche-Rentenversicherung/gesetzliche-rentenversicherung.html)), weil sie es sich nicht leisten können oder wollen. Das führt dazu, dass ein großer Teil der arbeitenden Bevölkerung, der [stellenweise nicht unerheblich gut verdient](https://www.bpb.de/themen/soziale-lage/verteilung-von-armut-reichtum/326450/einkommen-aus-selbststaendiger-taetigkeit-einkommenschancen-und-risiken/), nicht in die Rentenkasse einzahlt, was das System zusätzlich belastet.
+Viele Selbständige zahlen nicht in die Rentenkasse ein (<Reference code="bmas-wie-viele-sind-rentenversichert-2025">Nur ca 0,3 Mio., im Vergleich zu 3 Mio. ohne Renteneinzahlung</Reference>), weil sie es sich nicht leisten können oder wollen. Das führt dazu, dass ein großer Teil der arbeitenden Bevölkerung, der <Reference code="bpb-einkommen-selbststaendiger">stellenweise nicht unerheblich gut verdient</Reference>, nicht in die Rentenkasse einzahlt, was das System zusätzlich belastet.
 
 Es gibt Vorschläge, dass Selbständige verpflichtet werden sollten, in die Rentenkasse einzuzahlen, um die Lasten gerechter zu verteilen. Das wird von Verbänden und Betroffenen abgelehnt, denn es würde aber viele Selbständige finanziell stark belasten und könnte dazu führen, dass viele Selbständige ihre Tätigkeit aufgeben müssten. 
 
 Da die Beiträge aber relativ zum Einkommen sind, ist das Argument aber nicht stichhaltig und Härten am unteren Rand könnten durch Freibeträge für alle Einzahlenden abgefedert werden. Das würde gleichzeitig die untersten Einkommensschichten entlasten, die auf jeden Euro angewiesen sind.
 
-[Der IWF sieht auch noch potentielle negative Effekte für nachfolgende Generationen](https://www.iwkoeln.de/presse/in-den-medien/jochen-pimpertz-warum-selbststaendige-nicht-zwingend-in-die-gesetzliche-rente-gehoeren.html). Grundsätzlich ist es so, dass die dann einzahlenden Selbständigen auch irgendwann in Rente gehen wollen und dann das System zusätzlich belasten würden, wenn sie vorher nicht eingezahlt haben. Da aber viele Selbständige nicht in niedrigen Einkommensschichten sind, würden sie trotzdem einen netto positiven Effekt haben, weil die mehr einzahlen können.
+<Reference code="iw-koeln-pimpertz-rente-selbständige">Der IW-Köln sieht auch noch potentielle negative Effekte für nachfolgende Generationen</Reference>. Grundsätzlich ist es so, dass die dann einzahlenden Selbständigen auch irgendwann in Rente gehen wollen und dann das System zusätzlich belasten würden, wenn sie vorher nicht eingezahlt haben. Da aber viele Selbständige nicht in niedrigen Einkommensschichten sind, würden sie trotzdem einen netto positiven Effekt haben, weil die mehr einzahlen können.
 
 ### Zuwanderung
 
@@ -99,7 +100,7 @@ Man sieht, dass durch Zuwanderung die ungünstige Altersverteilung leicht ausgeg
  
 Das aktuelle Rentensystem ist nicht mit der aktuellen Bevölkerungsentwicklung vereinbar. Die Bevölkerung schrumpft jedes Jahr ohne weitere Zuwanderung, und das Wirtschaftssystem der Nachkriegsgeneration ist auf konstantes Wachstum ausgelegt. Ein Zusammenbruch des Systems ist daher vorprogrammiert, wenn nicht bald stark gegengesteuert wird.
 
-Es wäre wichtig die Finanzierung von Gehältern der Arbeitnehmer zu entkoppeln, da ohnehin ein Großteil der Rente durch allgemeine Steuermittel finanziert werden wird. Der Rentenbeitrag kann einfach Teil der regulären Steuern werden und die Renten werden dann komplett aus dem Haushalt finanziert. Das wäre wenigstens ehrlich und würde die Renten an die komplette wirtschaftliche Leistungsfähigkeit des Landes koppeln. 
+Es wäre wichtig, die Finanzierung von Gehältern der Arbeitnehmer zu entkoppeln, da ohnehin ein Großteil der Rente durch allgemeine Steuermittel finanziert werden wird. Der Rentenbeitrag kann einfach Teil der regulären Steuern werden und die Renten werden dann komplett aus dem Haushalt finanziert. Das wäre wenigstens ehrlich und würde die Renten an die komplette wirtschaftliche Leistungsfähigkeit des Landes koppeln. 
 
 Aber auch eine Finanzierung durch höhere Abgaben der Großverdiener wird nur kurzfristig helfen, denn der Arbeitsmarkt und die deutsche Wirtschaft wird mangels Arbeitskräften schrumpfen, wenn es keine ordentliche Strategie zur Anwerbung und Integration von Migranten geben wird.
 

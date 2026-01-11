@@ -86,6 +86,7 @@ for (const source of sourcesByLinks as Source[]) {
               :to="source.path"
             >
               {{ source.name }}
+              <span class="description">({{ source.description }})</span>
             </NuxtLink>
           </li>
         </ul>
@@ -104,6 +105,7 @@ for (const source of sourcesByLinks as Source[]) {
               :to="sourceLink.source.path"
             >
               {{ sourceLink.source.name }}
+              <span class="description">({{ sourceLink.source.description }})</span>
             </NuxtLink>
             <br>
             <ul class="list-['-_'] ml-4">
@@ -134,21 +136,28 @@ for (const source of sourcesByLinks as Source[]) {
 </template>
 
 <style scoped>
-.results{
+.results {
   max-width: 40%;
   transition: ease all .5s;
 }
 
-.groups{
+.description {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #999;
+}
+
+.groups {
   @apply flex-row
 }
 
 @media screen and (max-width: 650px) {
-  .results{
+  .results {
     max-width: 100%;
     transition: ease all .5s;
   }
-  .groups{
+
+  .groups {
     @apply flex-col;
     transition: ease all .5s;
   }

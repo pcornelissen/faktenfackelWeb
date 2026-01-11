@@ -11,7 +11,7 @@ const basePath = route.path// `/quellen/${source}`;
 const { data: sourceInfo }
   = await
   useAsyncData(
-    `faktencheck-${source}`,
+    `quellen-${source}`,
     () => {
       return queryCollection('quellen').path(`${basePath}`).first()
     })

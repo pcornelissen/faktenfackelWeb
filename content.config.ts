@@ -44,12 +44,16 @@ export default defineContentConfig({
       source: 'quellen/*/links/**/*.md',
       schema: z.object({
         date: z.date(),
+        code: z.string(),
         title: z.string(),
         uri: z.string(),
         type: z.string(),
         tags: z.set(z.string()),
         coSources: z.set(z.string()),
       }),
+      indexes: [
+        { columns: ['code'], unique: true },
+      ],
     }),
     sitemap: defineCollection(
       // adds the robots frontmatter key to the collection
