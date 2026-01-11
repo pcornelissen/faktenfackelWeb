@@ -16,6 +16,7 @@ const { data: linkRaw }
       return queryCollection('quellenlinks').where('code', '=', props.code).first()
     })
 
+console.trace('quellenlinks result', props.code, linkRaw?.value)
 const link = linkRaw.value as SourceLink
 const sourcePath = getSourceFromPath(link?.path || '')
 
