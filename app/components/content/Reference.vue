@@ -12,6 +12,7 @@ const { data: linkRaw }
   useAsyncData(
     `quellenlink-${props.code}`,
     () => {
+      console.trace('quellenlinks', 'code', props.code)
       return queryCollection('quellenlinks').where('code', '=', props.code).first()
     })
 
@@ -23,10 +24,12 @@ const { data: sourceInfoRaw }
   useAsyncData(
     `reference-source-${props.code}`,
     () => {
+      console.trace('Quellen', sourcePath)
       return queryCollection('quellen').path(sourcePath).first()
     })
 
 const sourceInfo = sourceInfoRaw.value as Source
+console.trace('Quelle', sourceInfo)
 
 const slots = useSlots()
 </script>
