@@ -45,8 +45,8 @@ export default defineNuxtConfig({
         },
         d1_databases: [{
           binding: 'DB',
-          database_name: 'faktenfackel',
-          database_id: 'a6056a8c-88ea-4396-bbd7-5b44fe4347a2',
+          database_name: 'fackel1',
+          database_id: '6dc09d29-36fe-4193-8dbd-7479b5ade6ae',
         }],
         name: 'faktenfackel',
       },
