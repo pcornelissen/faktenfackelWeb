@@ -16,7 +16,7 @@ const { data: linkRaw }
       return queryCollection('quellenlinks').where('code', '=', props.code).first()
     })
 
-console.trace('quellenlinks result', props.code, linkRaw?.value)
+console.trace('quellenlinks result', props.code, linkRaw)
 const link = linkRaw.value as SourceLink
 const sourcePath = getSourceFromPath(link?.path || '')
 
@@ -30,7 +30,7 @@ const { data: sourceInfoRaw }
     })
 
 const sourceInfo = sourceInfoRaw.value as Source
-console.trace('Quelle', sourceInfo)
+console.trace('Quelle', sourceInfoRaw)
 
 const slots = useSlots()
 </script>
