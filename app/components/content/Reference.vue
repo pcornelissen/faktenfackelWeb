@@ -1,48 +1,17 @@
 <script setup lang="ts">
-import { useAsyncData } from '#app'
 import { useSlots } from 'vue'
-import { getSourceFromPath } from '~/utils/contentUtils'
 
 const props = defineProps<{
   code: string
 }>()
 
-const asyncData = await
-useAsyncData(
-  `quellenlink-${props.code}`,
-  () => {
-    console.trace('quellenlinks', 'code', props.code)
-    const collectionQueryBuilder = queryCollection('quellenlinks').where('code', '=', props.code)
-    return collectionQueryBuilder.first()
-  })
-console.log('quellenlink-asyncData-error', asyncData.error?.value)
-console.log('quellenlink-asyncData-status', asyncData.status?.value)
-console.log('quellenlink-asyncData-data', asyncData?.data)
-console.log('quellenlink-asyncData', asyncData)
-const { data: linkRaw } = asyncData
-
-console.trace('quellenlinks result', props.code, linkRaw)
-const link = linkRaw.value as SourceLink
-const sourcePath = getSourceFromPath(link?.path || '')
-
-const { data: sourceInfoRaw }
-  = await
-  useAsyncData(
-    `reference-source-${props.code}`,
-    () => {
-      console.trace('Quellen', sourcePath)
-      return queryCollection('quellen').path(sourcePath).first()
-    })
-
-const sourceInfo = sourceInfoRaw.value as Source
-console.trace('Quelle', sourceInfoRaw)
-
 const slots = useSlots()
+const link = referencesStore.linkByCode(props.code)
 </script>
 
 <template>
   <div
-    v-if="!link"
+    v-if="!referencesStore.hasLinkForCode(props.code)"
     class="bg-warning"
   >
     Kein Link gefunden! {{ props.code }}
@@ -64,11 +33,11 @@ const slots = useSlots()
       :href="link.uri"
     >Verweis: {{ link.title }}</a>
     &nbsp;(<a
-      v-if="sourceInfo"
+      v-if="referencesStore.hasSourceFor(link.path)"
       class="source"
-      :href="link?.path || 'PATH NOT FOUND'"
-      :title="`Quelle: ${sourceInfo.name}`"
-    >Quelle</a><span v-else>Quelle nicht gefunden!</span>)
+      :href="link.path || 'LINK '+props.code+' NOT FOUND'"
+      :title="`Quelle: ${referencesStore.sourceByLinkPath(link.path).name}`"
+    >Quelle</a><span v-else>Quelle nicht gefunden! {{ '/quellen/' + link.path.split('/')[2] }}</span>)
   </div>
 </template>
 

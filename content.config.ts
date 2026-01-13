@@ -13,6 +13,7 @@ export default defineContentConfig({
         subtitle: z.string(),
         published: z.date().or(z.null()),
         loadInstagram: z.boolean().or(z.null()),
+        sourceLinks: z.set(z.string()).default(new Set<string>()),
         tags: z.set(z.string()),
       }),
     }),

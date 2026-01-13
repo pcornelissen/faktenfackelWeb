@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
-import type { Source } from '~/utils/contentUtils'
+
+import type { Source } from '~/utils/referenceData'
 
 const props = defineProps<{
   list: Source[]

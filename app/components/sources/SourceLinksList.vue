@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { SourceLink } from '~/utils/contentUtils'
 import SourceLinkItem from '~/components/sources/SourceLinkItem.vue'
+import type { SourceLink } from '~/utils/referenceData'
 
 const props = defineProps<{
   list: SourceLink[]

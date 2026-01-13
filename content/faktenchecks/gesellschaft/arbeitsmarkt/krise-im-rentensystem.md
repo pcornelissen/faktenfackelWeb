@@ -3,7 +3,7 @@ published: 2026-01-05
 date: 2026-01-05
 title: Rentensystem in der Krise
 subtitle: Die Alterspyramide steht Kopf
-
+sourceLinks: [ifo-zuschuss-rentenversicherung,   bpb-demografischer-wandel-ursachen-geburtenentwicklung, destatis-lebenserwartung-2025, destatis-zahl-ältere-menschen-2025, bpb-diskussion-erhöhung-renteneintrittsalter, igmetall-renteneintrittsalter-2025, iw-koeln-bas-rente-beamte, focus-türk-rente-beamte, bmas-wie-viele-sind-rentenversichert-2025, bpb-einkommen-selbststaendiger, iw-koeln-pimpertz-rente-selbständige ]
 tags: [Deutschland, Arbeitsmarkt, Rentner, Migranten]
 ---
 
