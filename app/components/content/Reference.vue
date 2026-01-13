@@ -2,7 +2,6 @@
 import { useAsyncData } from '#app'
 import { useSlots } from 'vue'
 import { getSourceFromPath } from '~/utils/contentUtils'
-import { waitForDebugger } from 'node:inspector'
 
 const props = defineProps<{
   code: string
@@ -14,8 +13,7 @@ useAsyncData(
   () => {
     console.trace('quellenlinks', 'code', props.code)
     const collectionQueryBuilder = queryCollection('quellenlinks').where('code', '=', props.code)
-    const first = collectionQueryBuilder.first()
-    return first
+    return collectionQueryBuilder.first()
   })
 console.log('quellenlink-asyncData-error', asyncData.error?.value)
 console.log('quellenlink-asyncData-status', asyncData.status?.value)
