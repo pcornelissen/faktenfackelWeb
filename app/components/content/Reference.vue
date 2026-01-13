@@ -17,6 +17,9 @@ useAsyncData(
     const first = collectionQueryBuilder.first()
     return first
   })
+console.log('quellenlink-asyncData-error', asyncData.error?.value)
+console.log('quellenlink-asyncData-status', asyncData.status?.value)
+console.log('quellenlink-asyncData-data', asyncData?.data)
 console.log('quellenlink-asyncData', asyncData)
 const { data: linkRaw } = asyncData
 
