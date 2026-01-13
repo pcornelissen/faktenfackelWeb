@@ -13,7 +13,11 @@ const { data: linkRaw }
     `quellenlink-${props.code}`,
     () => {
       console.trace('quellenlinks', 'code', props.code)
-      return queryCollection('quellenlinks').where('code', '=', props.code).first()
+      const collectionQueryBuilder = queryCollection('quellenlinks').where('code', '=', props.code)
+      console.log('collectionQueryBuilder', collectionQueryBuilder)
+      const first = collectionQueryBuilder.first()
+      console.log('first', first)
+      return first
     })
 
 console.trace('quellenlinks result', props.code, linkRaw)
