@@ -2,6 +2,7 @@
 import { useAsyncData } from '#app'
 import { useSlots } from 'vue'
 import { getSourceFromPath } from '~/utils/contentUtils'
+import { waitForDebugger } from 'node:inspector'
 
 const props = defineProps<{
   code: string
@@ -16,6 +17,7 @@ useAsyncData(
     const first = collectionQueryBuilder.first()
     return first
   })
+waitForDebugger()
 console.log('quellenlink-asyncData', asyncData)
 const { data: linkRaw } = asyncData
 
