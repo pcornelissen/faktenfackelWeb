@@ -7,18 +7,17 @@ const props = defineProps<{
   code: string
 }>()
 
-const { data: linkRaw }
-  = await
-  useAsyncData(
-    `quellenlink-${props.code}`,
-    () => {
-      console.trace('quellenlinks', 'code', props.code)
-      const collectionQueryBuilder = queryCollection('quellenlinks').where('code', '=', props.code)
-      console.log('collectionQueryBuilder', collectionQueryBuilder)
-      const first = collectionQueryBuilder.first()
-      console.log('first', first)
-      return first
-    })
+const asyncData = await
+useAsyncData(
+  `quellenlink-${props.code}`,
+  () => {
+    console.trace('quellenlinks', 'code', props.code)
+    const collectionQueryBuilder = queryCollection('quellenlinks').where('code', '=', props.code)
+    const first = collectionQueryBuilder.first()
+    return first
+  })
+console.log('quellenlink-asyncData', asyncData)
+const { data: linkRaw } = asyncData
 
 console.trace('quellenlinks result', props.code, linkRaw)
 const link = linkRaw.value as SourceLink
