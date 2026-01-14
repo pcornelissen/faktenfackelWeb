@@ -17,6 +17,8 @@ function typeToIcon(typeStr: string) {
       return 'i-lucide:headphones'
     case 'book':
       return 'i-lucide:book-open'
+    case 'excel':
+      return 'i-lucide:file-spreadsheet'
     default:
       return 'i-lucide:link'
   }

@@ -3,7 +3,6 @@ published: 2025-12-12
 date: 2025-12-12
 title: Kriminalität bei Ausländern und Deutschen
 subtitle: Widersprüche, Probleme und Fakten
-
 tags: [ Migranten, Kriminalität, Stadtbild ]
 ---
 
@@ -32,7 +31,7 @@ Kriminalstatistiken.
 ## Faktencheck
 
 Es gibt jedes Jahr
-eine [Kriminalstatistik](https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/Polizeiliche_Kriminalstatistik_2024/Polizeiliche_Kriminalstatistik_2024_node.html),
+eine <Reference code="bka-kriminalstatistik-2024">Kriminalstatistik</Reference>,
 die mit konkreten Zahlen für eine korrekte Einordnung genutzt werden kann. Man muss sie aber sehr sorgfältig lesen und
 auch beachten, welche Gruppe in einer Zahl enthalten ist und wie sie sich zusammen setzt, um keine falschen Schlüsse zu
 ziehen.
@@ -50,7 +49,7 @@ kommt es auch hier zu einer starken Verzerrung, die zu höheren Zahlen bei nicht
 leben ausländische Mitbürger überwiegend in Ballungsgebieten, wie Städten und in denen gibt es mehr Polizei und somit
 auch mehr Kontrollen. Es gibt aber keine Datenbasis, mit der man diese Verzerrung herausrechnen könnte.
 
-Die [Aufklärungsquote](https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/Polizeiliche_Kriminalstatistik_2024/Polizeiliche_Kriminalstatistik_2024_node.html),
+Die <Reference code="bka-kriminalstatistik-2024">Aufklärungsquote</Reference>,
 liegt in den vergangenen Jahren um 58 %, also **42 %** der erkannten Taten werden **nicht aufgeklärt**. <br/>
 Da nicht zu jeder Tat die gleiche Zahl an Tatverdächtigen gemeldet werden, kann man hier wenig Rückschlüsse ziehen. Eine
 genauere Statistik, die den Schritt vom Tatverdächtigen zu überführten Tätern zeigt, scheint es nicht zu geben. Im Jahr
@@ -71,7 +70,7 @@ hat großen Einfluss auf die Wahrscheinlichkeit, ob Straftaten begangen werden o
 Man kann hier gut erkennen, dass bei der deutschen Bevölkerung ein deutlicher Überschuss in den hohen Altersbereichen (
 52-76 Jahre) vorliegt. Die Gruppe der ausländischen Mitbürger hat von 24 bis 48 Jahren einen Schwerpunkt, mit der
 maximalen Zahl von 27 % um 30
-Jahre. [Quelle](https://www-genesis.destatis.de/datenbank/online/table/12411-0006/search/s/MTI0MTEtMDAwNg==)
+Jahre. Statistik: <Reference code="destatis-bevölkerung-2024"/>
 
 Dieser Altersbereich hat auch bei deutschen Mitbürgern eine höhere Anzahl an Taten, auch wenn dieser Altersbereich im
 Vergleich zum Rest der Bevölkerung kleiner ist. Das ist also der Grund, dass eine Berechnung des Prozentsatzes an
@@ -85,8 +84,7 @@ machen.
 
 Schauen wir uns die Verteilung von Tatverdächtigen über die Alterssegmente an:
 <img src="/files/faktenchecks/kriminalitaet/altersverteilung-deutschland-2024.png" alt="Tatverdächtige mit Altersverteilung von 2024" style="max-height: 25rem;width: auto">
-Quelle:
-[Tatverdächtige insg. nach Alter und Geschlecht](https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/PolizeilicheKriminalstatistik/2024/Bund/Tatverdaechtige/BU-TV-01-T20-TV_xls.xlsx?__blob=publicationFile&v=3)
+Quelle: <Reference code="bka-kriminalstatistik-excel-tatverdächtige-2024">Tatverdächtige insg. nach Alter und Geschlecht</Reference>
 
 **Anmerkungen:**
 
@@ -138,22 +136,22 @@ bis 20 jährigen, im Vergleich zu 6 % der deutschen Bevölkerung.)
 Insgesamt sind im Jahr 2024 2 % der Deutschen einer Tat verdächtigt worden und bei Ausländern sind es insg. 6 % (
 Siehe [Auswertung](/files/faktenchecks/kriminalitaet/migration-straftaten.xlsx)).
 
-Quellen:<br/>
-[Tatverdächtige Deutsche](https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/PolizeilicheKriminalstatistik/2024/Bund/Tatverdaechtige/BU-TV-12-T40-TV-deutsch_xls.xlsx?__blob=publicationFile&v=2)<br/>
-[Tatverdächtige Nicht-Deutsche](https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/PolizeilicheKriminalstatistik/2024/Bund/Tatverdaechtige/BU-TV-17-T50-TV-nichtdeutsch_xls.xlsx?__blob=publicationFile&v=2)
+Originaldaten: 
+- <Reference code="bka-kriminalstatistik-excel-deutsche-tatverdächtige-2024">Tatverdächtige Deutsche (Excel)</Reference>
+- <Reference code="bka-kriminalstatistik-excel-nicht-deutsche-tatverdächtige-2024">Tatverdächtige Nicht-Deutsche (Excel)</Reference>
 
 ### Einfluss der Wohnorte
 
-Ebenso sollte man nicht vergessen, dass Migranten überwiegend in Städten leben, wo die Kriminalitätsrate auch unter Deutschen höher ist. D.h. auch hier ist ein Indikator, dass eine erhöhte Kriminalitätsrate in Teilen darauf zurückzuführen ist. Als Quelle kann man hier z.B. die Untersuchung der Bundeszentrale für politische Bildung dienen, die auf die [Unterschiede zwischen Stadt und Land](https://www.bpb.de/themen/stadt-land/laendliche-raeume/343169/sicherheit-im-laendlichen-raum/) eingeht.
+Ebenso sollte man nicht vergessen, dass Migranten überwiegend in Städten leben, wo die Kriminalitätsrate auch unter Deutschen höher ist. D.h. auch hier ist ein Indikator, dass eine erhöhte Kriminalitätsrate in Teilen darauf zurückzuführen ist. Als Quelle kann man hier z.B. die Untersuchung der Bundeszentrale für politische Bildung dienen, die auf die <Reference code="bpb-sicherheit-ländlicher-raum">Unterschiede zwischen Stadt und Land</Reference> eingeht.
 
-**Wichtig:** Im Artikel wird darauf hingewiesen, dass die Kriminalitätsrate in ländlichen Gebieten niedriger ist, aber die Aufklärungsquote auch deutlich geringer ist. D.h. es gibt hier auch eine Verzerrung in der Statistik. Da es uns hier aber um den Einfluss der gemeldeten Straftaten Stadt/Land geht, ist das für die Betrachtung ausreichend.
+**Wichtig:** Im Artikel wird darauf hingewiesen, dass die Kriminalitätsrate in ländlichen Gebieten niedriger ist, aber die Aufklärungsquote auch deutlich geringer ist. D.h. es gibt hier auch eine Verzerrung in der Statistik. Da es uns hier aber um den Einfluss der gemeldeten Straftaten in der Stadt/dem Land geht, ist das für die Betrachtung ausreichend.
 
 ### Gründe für Migration und die Realität
 
 So viel zur Verdächtigung von Straftaten,
-aber [warum](https://www.europarl.europa.eu/topics/de/article/20200624STO81906/was-sind-die-ursachen-von-migration)
+aber <Reference code="europarl-migrationsursachen">warum</Reference>
 kommen die ausländischen Mitbürger
-überhaupt [nach Deutschland](https://www.lpb.rlp.de/fileadmin/files/downloads/Faust/Flugblatt_gegen_Vorurteile.pdf)?
+überhaupt <Reference code="lpbrp-flyer-vorurteeile-asyl">nach Deutschland</Reference>?
 
 Es gibt viele unterschiedliche Gründe, warum Menschen in Deutschland leben möchten
 
@@ -182,7 +180,7 @@ Ein gerne, von manchen Kreisen, angeführter Grund für Migration nach Deutschla
 impliziert, dass die Menschen hier hin migrieren, um sich dann "in der sozialen Hängematte" auszuruhen.
 
 Es gibt dazu wenig Konsens in der Wissenschaft, aber es gab z.B. in Dänemark 2019
-eine [Untersuchung](https://www.henrikkleven.com/uploads/3/7/3/1/37310663/agersnap-jensen-kleven_welfaremagnets_oct2019.pdf),
+eine <Reference code="kleven-welfare-magnet">Untersuchung</Reference>,
 weil dort in den vergangenen Jahren die Sozialleistungen um 50 % reduziert und wieder hergestellt wurden.
 
 In der Untersuchung wurde herausgefunden, dass es eine Reduktion der Asylanträge gibt, wenn die Leistungen gekürzt
@@ -195,13 +193,12 @@ durch Medien gehen.
 
 Die Wirtschaft im europäischen Raum ist wesentlich stärker als in den Herkunftsländern der Flüchtlinge. Das bedeutet für
 die Flüchtlinge eine Perspektive für Arbeit und Freiheit. Selbst als Geringverdiener ist relativ zur Herkunft oft
-ein [angenehmeres Leben](https://www.aktion-deutschland-hilft.de/de/fachthemen/fluechtlinge/wirtschaftsfluechtlinge/)
-möglich.
+ein <Reference code="de-hilft-wirtschaftsfluechtlinge">angenehmeres Leben</Reference> möglich.
 
 ##### Freiheit und Sicherheit
 
-Auch wenn z.B. die Springer Presse ein düsteres Bild zeichnet, ist Deutschland extrem sicher und die Wahrscheinlichkeit
-von einem Verbrechen betroffen zu sein ist sehr gering. Dazu kommt die Rechtstaatlichkeit, die alle Menschen vor
+Auch wenn z.B. die Springer Presse ein düsteres Bild zeichnet, ist Deutschland extrem sicher und die Wahrscheinlichkeit,
+von einem Verbrechen betroffen zu sein, ist sehr gering. Dazu kommt die Rechtstaatlichkeit, die alle Menschen vor
 unrechtmäßiger schützt. Natürlich ist auch hier die Realität nicht zu 100 % am zu erreichenden Ideal, dennoch wird man
 in der Regel durch den Staat und die Gesetze gut geschützt.
 
@@ -210,7 +207,7 @@ Herkunftsländern für Europäer auch unvorstellbar.
 
 #### Idealisierung und Hoffnungen
 
-Zu den Pull-Faktoren wurden u.a. vom BAMF und der OECD untersuchungen angestellt, wie gut die Flüchtlinge die
+Zu den Pull-Faktoren wurden u. a. vom BAMF und der OECD Untersuchungen angestellt, wie gut die Flüchtlinge die
 Lebenssituation im Zielland kennen. Hier wurde, wenig überraschend, die Situation als wesentlich rosiger erhofft, als
 sie in Wahrheit ist. Diese Falschinformationen kommen vor allen Dingen durch bewusste Falschinformationen der Schlepper
 und "Erfolgsgeschichten von wenigen Einzelpersonen" zustande.
@@ -295,7 +292,7 @@ Wenn z.B. diese Punkte erledigt werden würden, dann gäbe es schon wesentlich w
   abgeschoben werden** können, ohne schwerwiegende Gründe. Familien müssen zusammengehalten werden, wenn die Kinder auf
   gutem Weg sind sich zu integrieren durch AUsbildung und Schule, dann sollte die Familie nicht wegen einer aktuellen
   Arbeitslosigkeit der Eltern abgeschoben werden. Langfristige Perspektiven sind wichtig!
-- **Arbeitgeber** sollten **keine Nachteile** haben, wenn sie Migranten beschäftigen. Also z.B. keine unnötigen
+- **Arbeitgeber** sollten **keine Nachteile** haben, wenn sie Migranten beschäftigen. Also z. B. keine unnötigen
   Genehmigungsorgien, ...
 
 Das führt dazu, dass Migranten beschäftigt sind, sich aktiv integrieren und Kontakt zwischen Migranten und der
@@ -305,5 +302,4 @@ Dazu reduziert es massiv die Kosten für Migration, weil diese sich schnell selb
 Bruttosozialprodukt mitwirken.
 Menschen, die einen Lebenssinn durch Arbeit und Integration haben werden weniger oft kriminell.
 
-[Großflächiges Ausweisen](https://www.welt.de/politik/deutschland/video692d5d90392d5c38e38525bd/afd-jugend-in-giessen-sprecher-haben-millionenfache-remigration-gefordert-unter-heftigem-applaus.html)
-verstärkt nur die Probleme, die wir ohnehin haben.
+Und <Reference code="welt-afd-remigration-giessen">großflächiges Ausweisen</Reference> verstärkt nur die Probleme, die wir ohnehin haben.

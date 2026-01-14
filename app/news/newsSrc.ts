@@ -24,4 +24,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-01-11'),
     title: 'Ausführliche Quellenlinks eingeführt, beginnend mit dem Rentenkrise Artikel',
   },
+  {
+    date: new Date('2026-01-14'),
+    title: 'Ausführliche Quellenlinks eingeführt, bei "Kriminalität bei Ausländern und Deutschen"',
+  },
 ]

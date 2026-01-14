@@ -14,30 +14,26 @@ const link = referencesStore.linkByCode(props.code)
     v-if="!referencesStore.hasLinkForCode(props.code)"
     class="bg-warning"
   >
-    Kein Link gefunden! {{ props.code }}
+    <slot />
+    (Kein Link gefunden! <span class="source">{{ props.code }}</span>)
   </div>
   <div
     v-else
     style="display: inline"
   >
     <a
-      v-if="slots.default"
       :href="link.uri"
       :title="`Verweis: ${link.title}`"
       class="link"
     >
-      <slot />
-    </a>
-    <a
-      v-else
-      :href="link.uri"
-    >Verweis: {{ link.title }}</a>
-    &nbsp;(<a
+      <slot v-if="slots.default" />
+      <template v-else>{{ link.title }}</template>
+    </a>&nbsp;(<a
       v-if="referencesStore.hasSourceFor(link.path)"
       class="source"
       :href="link.path || 'LINK '+props.code+' NOT FOUND'"
       :title="`Quelle: ${referencesStore.sourceByLinkPath(link.path).name}`"
-    >Quelle</a><span v-else>Quelle nicht gefunden! {{ '/quellen/' + link.path.split('/')[2] }}</span>)
+    >Quelle</a><span v-else>Quelle nicht gefunden! ({{ link.path.split('/')[2] }})</span>)
   </div>
 </template>
 
