@@ -2,6 +2,7 @@
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
 import { referencesStore } from '~/utils/referenceData'
+import { type MinimarkNode, type MinimarkTree, visit } from 'minimark'
 
 const route = useRoute()
 
@@ -35,6 +36,12 @@ await definePageData({
   description: page.value?.description,
 })
 
+useSeoMeta({
+  title: title + ' - Faktenfackel',
+  description: page.value?.description || subtitle,
+  articleModifiedTime: page.value?.date || new Date().toLocaleDateString(),
+})
+
 const loadInstagram = page.value?.loadInstagram || false
 if (loadInstagram) {
   useHead({
@@ -50,7 +57,18 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
   month: '2-digit',
   year: 'numeric',
 })
-referencesStore.fetchFor(page.value?.sourceLinks)
+
+function extractCodes(body: MinimarkTree | undefined): string[] {
+  if (body === undefined) return []
+  const result: string[] = []
+  visit(body, node => node[0] === 'reference', (node) => {
+    result.push(node[1].code as string)
+  })
+
+  return result
+}
+
+referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
 
 <template>

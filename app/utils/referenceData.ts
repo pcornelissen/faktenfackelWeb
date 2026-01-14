@@ -58,7 +58,9 @@ export const referencesStore = reactive({
         })
     const sourceLinks = sourceLinksRaw.value as SourceLink[]
     this.links.clear()
-    for (const link of sourceLinks as SourceLink[]) {
+    this.sources.clear()
+
+    for (const link of (sourceLinks || []) as SourceLink[]) {
       this.links.set(link.code, link)
     }
     await this.updateSources()
@@ -80,7 +82,7 @@ export const referencesStore = reactive({
               .all()
           })
         : { data: { value: [] } }
-    for (const source of sourcesByLinksRaw.value as Source[]) {
+    for (const source of (sourcesByLinksRaw?.value || []) as Source[]) {
       this.sources.set(source.path, source)
     }
   },

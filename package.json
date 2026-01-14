@@ -30,6 +30,7 @@
     "bindings": "^1.5.0",
     "content:document-driven": "link:@nuxt/content:document-driven",
     "eslint": "^9.39.2",
+    "minimark": "^0.2.0",
     "nuxt": "^4.2.2",
     "nuxt-cloudflare-analytics": "^1.0.8",
     "nuxt-feedme": "2.1.0",

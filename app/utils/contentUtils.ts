@@ -33,7 +33,6 @@ export type Post = {
   subtitle: string
   path: string
   tags: string[]
-  sourceLinks: string[]
   date: string
   published: string
 }

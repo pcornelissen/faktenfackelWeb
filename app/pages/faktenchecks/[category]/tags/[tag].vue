@@ -28,6 +28,7 @@ const title = `Faktenchecks im Bereich ${capitalize(category)} zum Schlagwort "$
 useSeoMeta({
   title: post.value?.title || title,
   description: post.value?.description,
+  articleModifiedTime: post.value?.date || new Date().toLocaleDateString(),
 })
 
 const { data: list1 } = await useAsyncData(route.path, () => {
