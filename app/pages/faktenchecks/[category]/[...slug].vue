@@ -2,7 +2,7 @@
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
 import { referencesStore } from '~/utils/referenceData'
-import { type MinimarkNode, type MinimarkTree, visit } from 'minimark'
+import { type MinimarkTree, visit } from 'minimark'
 
 const route = useRoute()
 
