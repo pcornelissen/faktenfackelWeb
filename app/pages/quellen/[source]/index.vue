@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
-import { definePageData, type SourceLink } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
+import type { SourceLink } from '~/utils/referenceData'
 
 const route = useRoute()
 

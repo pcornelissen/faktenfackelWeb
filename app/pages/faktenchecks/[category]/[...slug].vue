@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
+import { referencesStore } from '~/utils/referenceData'
 
 const route = useRoute()
 
@@ -49,6 +50,7 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
   month: '2-digit',
   year: 'numeric',
 })
+referencesStore.fetchFor(page.value?.sourceLinks)
 </script>
 
 <template>

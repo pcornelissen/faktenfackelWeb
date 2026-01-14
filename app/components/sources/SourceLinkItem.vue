@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { SourceLink } from '~/utils/contentUtils'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'
+import type { SourceLink } from '~/utils/referenceData'
 
 const props = defineProps<{
   item: SourceLink
