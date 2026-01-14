@@ -97,11 +97,6 @@ referencesStore.fetchFor(page.value?.sourceLinks)
           title="Inhalt"
         />
       </template>
-
-      <h2>SourceLinks</h2>
-      <pre>{{ referencesStore.links }}</pre>
-      <h2>Sources</h2>
-      <pre>{{ referencesStore.sources }}</pre>
     </UPage>
 
     <div v-else>

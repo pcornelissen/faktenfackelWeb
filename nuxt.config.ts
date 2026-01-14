@@ -30,10 +30,10 @@ export default defineNuxtConfig({
   routeRules: {
     '/': { prerender: true },
   },
-  sourcemap: {
-    server: true,
-    client: true,
-  },
+  // sourcemap: {
+  //   server: true,
+  //   client: true,
+  // },
   compatibilityDate: '2025-07-15',
   nitro: {
     preset: 'cloudflare_module',
