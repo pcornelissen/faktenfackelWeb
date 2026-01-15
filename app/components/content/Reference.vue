@@ -15,7 +15,13 @@ const link = referencesStore.linkByCode(props.code)
     class="bg-warning"
   >
     <slot />
-    (Kein Link gefunden! <span class="source">{{ props.code }}</span>)
+    (Kein Link gefunden! <span class="source">{{ props.code }}</span>
+    <icon
+      name="i-lucide:bug"
+      style="color: red"
+      :title="`Link nicht gefunden! (${props.code})`"
+    />
+    )
   </div>
   <div
     v-else
@@ -28,12 +34,24 @@ const link = referencesStore.linkByCode(props.code)
     >
       <slot v-if="slots.default" />
       <template v-else>{{ link.title }}</template>
-    </a>&nbsp;(<a
+    </a>
+    <a
       v-if="referencesStore.hasSourceFor(link.path)"
-      class="source"
+      class="source info-icon"
       :href="link.path || 'LINK '+props.code+' NOT FOUND'"
-      :title="`Quelle: ${referencesStore.sourceByLinkPath(link.path).name}`"
-    >Quelle</a><span v-else>Quelle nicht gefunden! ({{ link.path.split('/')[2] }})</span>)
+      :title="`Details zur Quelle von: ${referencesStore.sourceByLinkPath(link.path).name}`"
+    >
+      <icon
+        name="i-lucide:circle-check-big"
+      />
+    </a>
+    <icon
+      v-else
+      name="i-lucide:bug"
+      style="color: red"
+      class="info-icon"
+      :title="`Quelle nicht gefunden! (${link.path.split('/')[2]})`"
+    />
   </div>
 </template>
 
@@ -46,9 +64,17 @@ const link = referencesStore.linkByCode(props.code)
   text-decoration: underline var(--color-tertiary);
 }
 
-.source {
-  font-style: italic;
-  font-size: 0.8rem;
+.info-icon {
   color: var(--color-secondary);
+  position: relative;
+  top: 2px;
+  margin-left: 4px;
+  margin-right: 6px;
+  transition: ease all .5s;
+}
+
+.info-icon:hover {
+  color: var(--color-tertiary);
+  transition: ease all .5s;
 }
 </style>
