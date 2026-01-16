@@ -75,7 +75,7 @@ const { data: coList }
         name="i-lucide:arrow-left"
         style="margin-right: 0.5rem;"
       />
-      Zur Quelle "{{ source.name }}" springen
+      Zur Quelle "{{ source?.name }}" springen
     </NuxtLink>
     <UPage
       v-if="page"
