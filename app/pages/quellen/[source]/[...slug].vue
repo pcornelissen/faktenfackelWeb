@@ -16,6 +16,14 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%')
 })
 
+const { data: source }
+  = await
+  useAsyncData(
+    `quelle-${slug}`,
+    () => {
+      return queryCollection('quellen').path(sourcePath).first()
+    })
+
 const { data: page }
   = await
   useAsyncData(
@@ -67,9 +75,12 @@ const { data: coList }
         name="i-lucide:arrow-left"
         style="margin-right: 0.5rem;"
       />
-      Zurück zur Quelle
+      Zur Quelle "{{ source.name }}" springen
     </NuxtLink>
-    <UPage v-if="page">
+    <UPage
+      v-if="page"
+      style="width:fit-content"
+    >
       <h2>Link</h2>
       <div
         class="flex-auto ml-2 row"
@@ -92,6 +103,27 @@ const { data: coList }
       </div>
       <h2>Schlagworte</h2>
       <SourceLinkTags :tags="page.tags" />
+      <h2>Quelle</h2>
+      <div
+        v-if="source"
+        class="source-link"
+      >
+        <a
+          :href="source.path"
+        >
+          <lazy-nuxt-img
+            v-if="source?.image"
+            :src="source.image"
+            class="source-img"
+          />
+          <span class="source-name">{{ source.name }}</span></a>
+      </div>
+      <div
+        v-else
+        class="text-red-500"
+      >
+        Quelle konnte nicht geladen werden!
+      </div>
 
       <template v-if="coList && coList.length>0">
         <h2>Weitere beteiligte Quelle{{ coList.length > 1 ? 'n' : '' }}</h2>
@@ -137,6 +169,31 @@ const { data: coList }
 <style scoped>
 p {
   margin-bottom: 1em;
+}
+
+.source-img {
+  max-width: 15rem;
+  max-height: 5rem;
+  display: inline;
+  margin-right: 1rem;
+}
+
+.source-name {
+  font-weight: bold;
+}
+
+.source-link {
+  border-radius: 0.5rem;
+  transition: ease all .5s;
+  width: fit-content;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.source-link:hover {
+  background-color: #eee;
+  transition: ease all .5s;
+
 }
 
 a:hover {

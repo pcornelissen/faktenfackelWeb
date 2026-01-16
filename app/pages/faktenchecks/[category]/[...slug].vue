@@ -84,7 +84,10 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
       />
       Zurück zum Bereich {{ capitalize(category) }}
     </NuxtLink>
-    <UPage v-if="page">
+    <UPage
+      v-if="page"
+      style="width:fit-content"
+    >
       <UPageHeader
         :title="page.title"
         :headline="`Stand: ${lastChange}`"

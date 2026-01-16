@@ -9,6 +9,8 @@ function typeToIcon(typeStr: string) {
       return 'i-lucide:facebook'
     case 'youtube':
       return 'i-lucide:youtube'
+    case 'pdf':
+      return 'i-lucide:book-text'
     case 'article':
       return 'i-lucide:file-text'
     case 'video':

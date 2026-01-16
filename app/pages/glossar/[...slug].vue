@@ -47,7 +47,10 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', { day: '2
       Zurück zur Startseite
     </NuxtLink>
 
-    <UPage v-if="page">
+    <UPage
+      v-if="page"
+      style="width:fit-content"
+    >
       <UPageHeader
         :title="page.title"
         :headline="`Stand: ${lastChange}`"

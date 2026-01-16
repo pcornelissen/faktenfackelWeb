@@ -1,9 +1,8 @@
 ---
 published: 2025-12-12
-date: 2025-12-12
-title: Migranten arbeiten nicht
+date: 2026-01-16
+title: Migranten arbeiten nicht?
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
-
 tags: [Migranten, Arbeit, Stadtbild]
 ---
 
@@ -14,13 +13,13 @@ Ein beliebtes Argument gegen Miganten ist, dass sie nicht arbeiten (wollen). Das
 
 ## Faktencheck
 
-Natürlich wird es Flüchtlinge geben, die sich gerne ohne Arbeit aufhalten wollen, weil selbst das Bürgergeld schon mehr ist, also sie von der Heimat gewöhnt sind. 
+Natürlich wird es Flüchtlinge geben, die sich gerne ohne Arbeit aufhalten wollen, weil selbst das Bürgergeld schon mehr ist, also sie von der Heimat gewohnt sind. 
 
-Der Großteil der [Flüchtlinge und Zugewanderten wollen aber arbeiten](https://statistik.arbeitsagentur.de/Statistikdaten/Detail/Aktuell/arbeitsmarktberichte/faktenblatt-asyl8-ukr/faktenblatt-asyl8-ukr-d-0-pdf.pdf?__blob=publicationFile&v=1), u.a. um ein besseres Leben zu führen.
+Der Großteil der Flüchtlinge und Zugewanderten <Reference code="bfa-arbeitsmarktbericht-migranten-2025">wollen aber arbeiten</Reference>, u. a. um ein besseres Leben zu führen. Aktuell arbeiten auch <Reference code="mdintegration-flüchtlinge-in-arbeit">mehr Flüchtlinge, als im Sozialhilfe-Netz oder der Arbeitslosigkeit</Reference> sind.
 
 ###  Wer grundsätzlich arbeiten darf
 
-Grundsätzlich gilt, [es dürfen arbeiten](https://www.auswaertiges-amt.de/de/service/fragenkatalog-node/01-arbeitsmoeglichkeiten-606314?isLocal=false&isPreview=false):
+Grundsätzlich gilt, <Reference code="aa-arbeitsmöglichkeiten-faq">es dürfen arbeiten</Reference>:
 - Anerkannte Flüchtlinge, subsidiär Schutzberechtigte und Personen mit humanitärem Aufenthalt:
   - Dürfen in der Regel uneingeschränkt arbeiten.
 - Asylsuchende und Geduldete:
@@ -30,9 +29,9 @@ In die erste Gruppe fallen z.B. Flüchtlinge aus der Ukraine. Asylsuchende müss
 
 ### Wartezeiten
 
-Eine Arbeitsaufnahme kann [nicht sofort vorgenommen werden](https://www.bmas.de/DE/Arbeit/Migration-und-Arbeit/Flucht-und-Aysl/Arbeitsmarktzugang-fuer-Gefluechtete/arbeitsmarktzugang-fuer-gefluechtete.html), es gilt:
+Eine Arbeitsaufnahme kann <Reference code="bmas-arbeitsmarktzugang-geflüchtete">nicht sofort vorgenommen werden</Reference>, es gilt:
 
-- **Generelles Arbeitsverbot** für Asylsuchende ([§61 Asylgesetz](https://www.gesetze-im-internet.de/asylvfg_1992/__61.html))
+- **Generelles Arbeitsverbot** für Asylsuchende (<Reference code="gii-asylg-61">§61 Asyl Gesetz</Reference>)
   - **in den ersten 3 Monaten** 
   - wenn eine **Ausweisung bevorsteht**
   - wenn der Asylantrag abgelehnt wurde und kein Duldungsstatus vorliegt
@@ -54,36 +53,40 @@ Wenn man denn endlich die Chance hat, arbeiten zu dürfen, müssen je nach Statu
 
 ### Typische Hürden in der Praxis
 
-Wie sieht also [die Realität](https://www.proasyl.de/news/der-steinige-weg-in-den-arbeitsmarkt-fuer-gefluechtete-menschen/) aus, wenn die Flüchtlinge für sich selbst aufkommen wollen?
+Wie sieht also <Reference code="proasyl-arbeitsmarkt-migranten-probleme-2025">die Realität</Reference> aus, wenn die Flüchtlinge für sich selbst aufkommen wollen?
 
-- [Lange Bearbeitungszeiten](https://mediendienst-integration.de/fluechtlinge/fluechtlinge-in-deutschland/dauer-von-asylverfahren-und-offene-asylantraege/) bei Behörden.
-- [Hoher bürokratischer Aufwand](https://www.spiegel.de/wirtschaft/gemeindebund-fordert-schnelle-arbeitserlaubnis-fuer-fluechtlinge-a-c6aaf490-e6b7-4728-bf0c-3ed2b2422d2e) schreckt Arbeitgeber ab.
-- [Anerkennung von Abschlüssen](https://www.personalwirtschaft.de/news/personalentwicklung/anerkennung-von-auslndischen-bildungsabschlssen-96224/) dauert oder scheitert.
-- [Sprachbarrieren](https://www.ndr.de/nachrichten/hamburg/Zu-wenig-Sprachkurse-fuer-Gefluechtete-nach-Kuerzungen,sprachkurse112.html) erschweren die Jobsuche und den passenden Einsatz.
+- <Reference code="mdintegration-dauer-asylverfahren-2025">Lange Bearbeitungszeiten</Reference> bei Behörden.
+- <Reference code="spiegel-geflüchtete-arbeitserlaubnis-2023">Hoher bürokratischer Aufwand</Reference> schreckt Arbeitgeber ab.
+- <Reference code="personalw-ausl-bildungsabschlüsse-2021">Anerkennung von Abschlüssen dauert</Reference> oder scheitert.
+- <Reference code="ndr-zu-wenig-sprachkurse-2025">Sprachbarrieren</References> erschweren die Jobsuche und den passenden Einsatz.
 - Unsicherer Aufenthaltsstatus macht Planung für Arbeitgeber und Geflüchtete schwierig (Siehe oben, bei drohender Abschiebung bekommt die Person keine Arbeitserlaubnis) und die Geflüchteten sind unattraktiv, weil der Aufwand jederzeit umsonst gewesen sein kann, weil die geflüchtete Person dann doch abgeschoben wird
 
-Es ist also mitnichten so, dass die [Migranten als Gruppe nicht arbeiten wollen](https://mediendienst-integration.de/news/berufliche-integration-von-fluechtlingen-studie-dietrich-thraenhardt-bertelsmann-stiftung/), sondern es wird vom Staat die Integration massiv und unnötigerweise erschwert.
+Es ist also mitnichten so, dass die <Reference code="mdintegration-berufliche-integration-2025">Migranten als Gruppe nicht arbeiten wollen</Reference>, sondern es wird vom Staat die Integration massiv und unnötigerweise erschwert.
 
 Natürlich gibt es auch Migranten, die trotz Erlaubnis nicht arbeiten wollen, das ist nach mehreren Untersuchungen aber nur ein kleiner Bruchteil, der medial aber sehr ausgeschlachtet wird.
 
 ### Der Arbeitsmarkt in Deutschland
 
-Wie in "[Krise am Arbeitsmarkt](/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-arbeitsmarkt)" aufgearbeitet, ist der Arbeitsmarkt in Deutschland in der Krise. Der Wendepunkt ist schon lange überschritten, Maßnahmen bleiben aus.
+Wie in "[Krise am Rentensystem](/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem)" aufgearbeitet, ist der Arbeitsmarkt in Deutschland in der Krise. Der Wendepunkt ist schon lange überschritten, Maßnahmen bleiben aus.
 
 Die Arbeitnehmer werden im Schnitt immer älter, die Zahl der zahlenden Arbeitnehmer pro Rentner sind jetzt schon seit Jahrzehnten zu gering und der Effekt wird jedes Jahr schlimmer.
 
 Deutschland fehlen nicht nur Facharbeiter, es fehlt in allen Bereichen an Arbeitnehmern, die die notwendigen Aufgaben ausführen können und wollen.
 
-Leider wird Migration hier nicht als Chance gesehen und dank Polemik und Propaganda wird die Gruppe, die dem Land helfen kann, die Krise abzumildern auch noch vergrault und in die Kriminalität getrieben.
+Leider wird Migration hier nicht als Chance gesehen und dank Polemik und Propaganda wird die Gruppe, die dem Land helfen kann, die Krise abzumildern, auch noch vergrault und in die Kriminalität getrieben.
 
 Integration, Hilfe und Förderung würde sich schnell rentieren und die Integration und Akzeptanz nach vorne bringen. Wie schon in der Zeit des Wirtschaftswunders mit den "Gastarbeitern" gezeigt wurde, ist Arbeit ein großer Faktor um Integration zu fördern und Angst in der Bevölkerung zu reduzieren, weil Migranten kein Schreckgespenst aus der Zeitung sind, sondern Kollegen am Arbeitsplatz.
 
-Siehe Studien von:
+Siehe u. a. Studien von:
 
-- [Institut für Arbeitsmarkt- und Berufsforschung](https://doku.iab.de/kurzber/2024/kb2024-10.pdf)
-- [Institut für Sozialforschung und Gesellschaftspolitik](https://www.esf.de/portal/SharedDocs/PDFs/DE/Monitoring_Evaluation/dachevaluation_migration.pdf?__blob=publicationFile&v=1)
-- [Universität Duisburg Essen](https://www.dokumente.integrationsmonitoring.nrw.de/Stiftung_Zentrum_T%C3%BCrkeistudien_Integrationsforschung_2024_Arbeitsmarktintegration_von_Gefluechteten_und_Migrant_innen.pdf)
-uvm.
+- Institut für Arbeitsmarkt- und Berufsforschung  
+  <Reference code="iab-arbeitsmarktintegration-gefluechteten"> "Verbesserte institutionelle
+  Rahmenbedingungen fördern
+  die Erwerbstätigkeit" (PDF)</Reference>
+- Universität Duisburg Essen  
+  <Reference code="intmon-arbeitsmarktintegration-migranten-2025">Arbeitsmarktintegration von Geflüchteten und Migrant*innen</Reference>
+
+
 
 ## Fazit
 

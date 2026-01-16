@@ -1,9 +1,9 @@
 ---
 date: 2026-01-09
 name: ifo Institut
-description: AfD Politikerin und Juristin
-image: https://www.zdf.de/assets/teaser-phoenix-beatrix-von-storch-afd-zur-us-wahl-4656152-100~640x720?cb=1730907491055
-tags: [ AfD, Jurist-in ]
+description: Wirtschaftsforschungsinstitut
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ifo-institut-logo-RGB-2400dpi_%281%29.png/2560px-Ifo-institut-logo-RGB-2400dpi_%281%29.png
+tags: [ Wissenschaft, Wirtschaft ]
 ---
 
 ## Über die Quelle

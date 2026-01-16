@@ -23,12 +23,12 @@ Focus Online ist das digitale Nachrichtenportal zur Marke "Focus", betrieben von
  
 ## Links
 
-- https://www.dirkwiese.de
-- https://de.wikipedia.org/wiki/Dirk_Wiese
+- https://www.focus.de
+- https://www.focus-magazin.de
 
 ## Faktenfackel Bewertung
 
-Beide Publikationen, also  das Magazin und das Online-Portal, werden häufig als "rechts-zentriert" bzw. konservativ eingeordnet. Das heißt: Sie berichten im Kern sachlich, aber mit einem stark geprägten bürgerlich-konservativen Blickwinkel, besonders in Kommentaren und Analysen. Kritiker sehen daher bei beiden teils sensationsgetriebene Überschriften und eine stärkere Tendenz zu konservativ-kritischer Darstellung politischer Themen.
+Beide Publikationen, also das Magazin und das Online-Portal, werden häufig als "rechts-zentriert" bzw. konservativ eingeordnet. Das heißt: Sie berichten im Kern sachlich, aber mit einem stark geprägten bürgerlich-konservativen Blickwinkel, besonders in Kommentaren und Analysen. Kritiker sehen daher bei beiden teils sensationsgetriebene Überschriften und eine stärkere Tendenz zu konservativ-kritischer Darstellung politischer Themen.
 
 Medien-Bias-Analysen bewerten Focus Online insgesamt als rechts-zentriert mit "hoher faktischer Qualität" und guter Glaubwürdigkeit, vor allem weil viele Nachrichten aus renommierten Agenturen stammen und Fehler auch transparent korrigiert werden.
 Meinungen und Kommentare (Kolumnen, Lesermeinungen) haben in der Regel eine klare politischer Färbung.￼
