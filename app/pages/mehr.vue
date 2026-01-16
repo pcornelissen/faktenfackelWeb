@@ -21,6 +21,7 @@ await definePageData({
           title="Discord"
           sub-title="Feedback, Vorschläge, ..."
           icon="discord-icon"
+          :nofollow="true"
           icon-txt="Free Icon von Ahkâm"
           href="https://discord.faktenfackel.de"
         >
@@ -36,6 +37,7 @@ await definePageData({
           title="Youtube"
           sub-title="Man muss nicht immer lesen"
           icon="youtube-icon"
+          :nofollow="true"
           icon-txt="Free Icon von Ahkâm"
           href="https://www.youtube.com/@Faktenfackel"
         >
@@ -47,6 +49,7 @@ await definePageData({
         <SectionsItem
           title="Bluesky"
           sub-title="Besser als X"
+          :nofollow="true"
           icon="bluesky-icon"
           icon-txt="Free Icon von iconpacks.net"
           href="https://bsky.app/profile/faktenfackel.bsky.social"
@@ -60,6 +63,7 @@ await definePageData({
           title="Mastodon"
           sub-title="Besser als X"
           icon="mastodon-icon"
+          :nofollow="true"
           icon-txt="Free Icon von font awesome"
           href="https://mastodon.social/@faktenfackel"
         >
@@ -72,6 +76,7 @@ await definePageData({
         <SectionsItem
           title="X aka Twitter"
           sub-title="Nur im Notfall nutzen"
+          :nofollow="true"
           icon="x-icon"
           icon-txt="Free Icon von font awesome"
           href="https://x.com/faktenfackel"

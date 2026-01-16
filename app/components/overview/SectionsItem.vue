@@ -6,24 +6,17 @@ const props = defineProps<{
   subtitle?: string
   href?: string
   icon?: string
+  nofollow?: boolean
   iconTxt?: string
 }>()
 
 // Todo: read iconTxt from .link files
-
-function click() {
-  const href = props.href
-  if (href) {
-    window.location.href = href
-  }
-}
 </script>
 
 <template>
   <div
-    :class="[href ? 'clickable' : '']"
+    v-if="!href"
     class="section"
-    @click="click"
   >
     <Heading
       v-bind="props"
@@ -31,6 +24,19 @@ function click() {
     />
     <slot />
   </div>
+  <a
+    v-else
+    class="display-block section clickable"
+    :href="href"
+    :rel="nofollow ? 'nofollow' : ''"
+    style="text-decoration: none; color: inherit"
+  >
+    <Heading
+      v-bind="props"
+      class="mb-4"
+    />
+    <slot />
+  </a>
 </template>
 
 <style scoped>
