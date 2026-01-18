@@ -30,5 +30,8 @@ export const newsSrc: NewsItem[] = [
   }, {
     date: new Date('2026-01-16'),
     title: 'Ausführliche Quellenlinks eingeführt, bei "Migranten arbeiten nicht"',
+  }, {
+    date: new Date('2026-01-18'),
+    title: 'Ausführliche Quellenlinks eingeführt, bei "Merz Aussagen zum Stadtbild"',
   },
 ]

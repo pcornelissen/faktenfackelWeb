@@ -265,7 +265,7 @@ Das Resultat dieser vernachlässigten Integrationsarbeit:
 
 ## Fazit
 
-An den Zahlen kann man sehen, das selbst in bei den 21 bis 29-jährigen, nur 11 % der Ausländer als Tatverdächtige
+An den Zahlen kann man sehen, dass selbst bei den 21 bis 29-Jährigen, nur 11 % der Ausländer als Tatverdächtige
 registriert werden (oder 16 %, wenn man nur die männlichen Personen zählt). Also sind **89 %** (oder 84 %) dieser
 Personen **nicht verdächtigt** worden.
 
@@ -273,7 +273,7 @@ Das Narrativ, dass "die Ausländer kriminell sind", ist also nicht haltbar, wenn
 Altersgruppen hinweg) der Ausländer überhaupt nur einer Tat verdächtigt werden. Kombiniert man das mit der
 Aufklärungsquote so ist zu erwarten, dass auch darin nur zwischen 33 % und 40 % wirklich Taten begangen wurden. Also
 sind es insgesamt eher unter 3-4 %, die wirklich kriminell sind. Da muss man schon sehr kreativ sein, um daher alle
-Ausländer in Misskredit zu ziehen.
+Ausländer in Misskredit zu ziehen. Das wird ebenfalls vom <Reference code="ifo-migration-kriminalität-2025">ifo Institut untermauert</Reference>, die ebenfalls zum selben Schluss gekommen sind.
 
 Es ist vollkommen fair zu verlangen, dass kriminelle Migranten ihr "Besuchsrecht" überstrapazieren und ggf. ausgewiesen
 werden sollten. Man darf die Menschen aber nicht vorher in die Kriminalität leiten, indem man ein menschenwürdiges Leben

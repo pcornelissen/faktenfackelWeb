@@ -8,7 +8,7 @@ tags: [ Unabhängig,  Antifaschist, Journalist ]
 
 ## Über die Quelle
 
-Kraske ist schon lange Journalistisch tätig, er arbeitete als Journalist für Stern, Die Zeit, Geo, Reader’s Digest, Merian, journalist, Psychologie Heute und Spiegel Online. 
+Kraske ist schon lange journalistisch tätig, er arbeitete als Journalist für Stern, "Die Zeit", Geo, Reader’s Digest, Merian, journalist, Psychologie Heute und Spiegel Online. 
 
 Er moderiert auch Tagungen und Podiumsdiskussionen oder ist aktiv als Referent sowie Radio- und TV-Experte zu den Themen Medien, Neue Rechte, Rechtspopulismus und Rechtsextremismus.
 
@@ -20,7 +20,7 @@ Seine Bücher drehen sich alle um die Themen Rechtsextremismus und insb. die AfD
 
 ## Faktenfackel Bewertung
 
-Michael Kraske ist als Journalist sehr breit informiert und weiß wie er seine Argumente verpacken muss. Er hat sich das wichtige Thema Rechtsextremismus schon lange auf die Fahnen geschrieben und ist sehr versiert in dem Thema.
+Michael Kraske ist als Journalist sehr breit informiert und weiß, wie er seine Argumente verpacken muss. Er hat sich das wichtige Thema Rechtsextremismus schon lange auf die Fahnen geschrieben und ist sehr versiert in dem Thema.
 
 ### Fazit
 

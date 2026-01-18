@@ -9,7 +9,7 @@ tags: [ CDU, Merz, Migranten ]
 
 ## Was ist passiert?
 
-Am 14. Oktober 2025, als Kanzler Merz zum Antrittsbesuch in Brandenburg war, äußerte er sich zum Thema Stadtbild und
+Am 14. Oktober 2025, als Kanzler Merz zum Antrittsbesuch in Brandenburg war, äußerte er sich zum Thema Stadtbild und
 Kriminalität. Er sagte: „_In vielen Städten sieht man mittlerweile ein völlig verändertes Stadtbild, das von Migranten
 geprägt ist. Das führt zu Unsicherheiten bei den Bürgern._“ Diese Aussage sorgte für Diskussionen in den Medien und der
 Öffentlichkeit.
@@ -96,23 +96,23 @@ wirklich aus vollster und tiefster Überzeugung verbunden fühle.&laquo;
 
 ### Reaktionen
 
-In den allen Medien wurde das Thema divers diskutiert. Neben Kritikern, die Merz vorwerfen, mit dieser Aussage am
+In vielen Medien wurde das Thema divers diskutiert. Neben Kritikern, die Merz vorwerfen, mit dieser Aussage am
 rechten Rand zu fischen, gibt es auch Stimmen, die seine Aussage als korrekt und realistisch betrachten.
 
 #### Positive Reaktionen
 
 Positiv aufgenommen wurde die Aussage von vielen Politikern der CDU/CSU und der AfD.
 
-Baden-Württembergs CDU-Partei- und Fraktionschef Manuel Hagel hat sich zur problematischen Stadtbild Aussage hinter den
+Baden-Württembergs CDU-Partei- und Fraktionschef Manuel Hagel hat sich zur problematischen Stadtbild-Aussage hinter den
 Kanzler gestellt. Hagel sagte in einem SWR-Interview in Stuttgart: "Es ist immer das gleiche Ritual: Jemand spricht ein
 Problem an, dann wird man sofort in die rechte Ecke gestellt und es wird sofort abgebunden. Genau das besorgt das
 Geschäft der Populisten." Andere Reaktionen aus der CDU/CSU waren ähnlich und bemerkten nicht, dass Merz den
 kritisierten Populismus mit seiner Aussage selbst bedient.
 
-Im rechten Spektrum liegende Publikationen, wie die Springer Presse gab Umfragen in Auftrag, die wenig überraschend
-eine [breite Zustimmung](https://www.welt.de/politik/deutschland/video690d7e8f0166cd59ef9978aa/stadtbild-umfrage-sicherheitsempfinden-in-deutschen-staedten-sinkt-buergermeister-fordern-massnahmen.html)
-suggerierten. Diese waren aber im wesentlichen Onlineumfragen, die methodisch nicht sicher gegen automatische
-Stimmabgaben und damit nicht aussagekräftig sind.
+Im rechten Spektrum liegende Publikationen, wie die Springer Presse gaben Umfragen in Auftrag, die wenig überraschend
+eine <Reference code="welt-stadtbild-umfrage-angst">breite Zustimmung</Reference>
+suggerierten. Diese waren aber im Wesentlichen Onlineumfragen, die methodisch nicht sicher gegen automatische
+Stimmabgaben und damit nicht aussagekräftig sind. Besonders, weil die rechten Strömungen diese mit automatisierten Mitteln stark verzerren.
 
 In den Kommentarspalten sozialer Medien fanden sich ebenfalls viele Stimmen, die Merz zustimmten und bei folgenden
 Beiträgen, die einen echten oder vermuteten Zusammenhang zwischen Migranten und Kriminalität herstellten, die Stadtbild
@@ -121,17 +121,16 @@ Aussage immer wieder rezitierten.
 #### Kritische Reaktionen
 
 Spannenderweise kommt sogar Kritik von der AfD, da z.B. Tino Chrupalla dem Kanzler
-Merz [Doppelmoral vorwirft](https://www.berlinstory.de/news/chrupalla-wirft-merz-in-stadtbild-debatte-doppelmoral-vor/) ([Youtube](https://www.youtube.com/watch?v=6Tz-IXKhhQU)),
-da er u.a. für diese Zustände mitverantwortlich sei.
+Merz <Referemce code="berlinstory-chrupalla-merz-doppelmoral-2025">Doppelmoral vorwirft</Reference> (<Reference code="welt-stadtbild-doppelmoral-video">Youtube</Reference>),
+da er u. a. für diese Zustände mitverantwortlich sei.
 
-Aus Reihen der [SPD](https://www.tagesschau.de/inland/innenpolitik/stadtbild-merz-spd-gipfel-100.html), der
-Partei [die Linke](https://www.landtag.sachsen-anhalt.de/plenum-debattiert-ueber-stadtbild-aeusserung) und von
-B[ündnis90/Die Grünen](https://rsw.beck.de/aktuell/daily/meldung/detail/bundeskanzler-merz-stadtbild-aeusserung-strafanzeige-volksverhetzung)
-kam ebenfalls Kritik, die Merz vorwerfen, mit dieser Aussage Vorurteile zu schüren und das gesellschaftliche Klima zu
+Aus Reihen der <Reference code="tagesschau-spd-stadtbild-gipfel">SPD</Reference>, der
+Partei <Reference code="lsa-plenum-stadtbild-2025">Die Linke</Reference> und von der Partei
+Bündnis90/Die Grünen (<Reference code="beck-grüne-merz-anzeige-stadtbild">sogar mit einer Strafanzeige</Reference>) kam ebenfalls Kritik, in der die Merz vorgeworfen wird, mit dieser Aussage Vorurteile zu schüren und das gesellschaftliche Klima zu
 verschärfen.
 
 In der Bevölkerung gab es ebenfalls sehr
-viele [kritische Reaktionen](https://www.ndr.de/nachrichten/niedersachsen/merz-stadtbild-aussage-so-reagiert-norddeutschland-im-internet,stadtbild-120.html),
+viele <Reference code="ndr-stadtbild-reaktionen">kritische Reaktionen</Reference>,
 die den ausländerfeindlichen Unterton der Aussage bemängelten und Merz vorwarfen, am rechten Rand zu fischen.
 
 #### Merz verteidigt seine Aussage
@@ -150,11 +149,11 @@ Diese Aussage sorgte für weitere Empörung, da viele dies als Versuch sahen, pe
 und Vorurteile zu verstärken.
 
 Dazu wurde seine Aussage in vielen Reaktionen
-kritisiert ([Tiktok](https://www.tiktok.com/@wanderlisbeth/video/7563296953409228054?q=t%C3%B6chter&t=1761043945380), [Spiegel.de](https://www.spiegel.de/politik/deutschland/friedrich-merz-und-das-stadtbild-so-reagiert-das-netz-auf-seine-toechter-aussage-a-5eb7030c-11c3-4bca-a804-1ac2348514e1)),
+kritisiert ([Tiktok](https://www.tiktok.com/@wanderlisbeth/video/7563296953409228054?q=t%C3%B6chter&t=1761043945380), <Reference code="spiegel-merz-töchter-stadtbild">Spiegel.de</Reference>),
 denn viele Frauen und Frauenverbände wiesen darauf hin, dass sich Frauen natürlich unsicher fühlen, wenn Sie in der
 Dunkelheit alleine durch bestimmte Stadtteile gehen müssen, unabhängig davon, ob dort viele Migranten leben oder nicht.
 Denn das Problem sei nicht die Herkunft der Menschen, sondern die Tatsache, dass Frauen Angst haben, wenn Männer sie
-belästigen oder angreifen könnten, ohne dass dies etwas mit der ethnischen Herkunft der Täter zu tun habe.
+belästigen oder angreifen könnten, ohne dass dies etwas mit der ethnischen Herkunft der Täter zu tun hat.
 
 <blockquote class="bluesky-embed"><p lang="de">Gebe jemanden ein Eis aus, der Merz bei einer nächsten PK fragt, welche Klimapolitik Deutschland denn machen würde, wenn er sich da auch an jungen Frauen orientiert.
 
@@ -194,7 +193,7 @@ bloße Anwesenheit in einem Stadtbild **bestimmt werden kann**.
 Die Verwendung dieses Bildes wird als sogenanntes <Glossar>Dog-Whistle</Glossar> kritisiert.
 
 Die Anwesenheit von
-Migranten [führt nicht zu Kriminalität](https://www.ifo.de/publikationen/2025/aufsatz-zeitschrift/steigert-migration-die-kriminalitaet-ein-datenbasierter-blick) [(IFO Institut, 2025, PDF)](https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf)
+Migranten <Reference code="ifo-migration-kriminalität-2025">führt nicht zu Kriminalität</Reference> ([IFO Institut, 2025, Direktlink PDF](https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf))
 oder Unsicherheit, da nicht die Herkunft das Verhalten bestimmt, sondern die sozialen Umstände. Die Aussage stützt also
 nur das u.a. von der AfD etablierte Vorurteil, dass alle Migranten kriminell sind und dazu noch den Bürgern "auf der
 Tasche liegen".
@@ -212,24 +211,24 @@ Normalerweise stehen auf der offiziellen Seite des Bundeskanzlers unter [bundesk
 grundsätzlich alle öffentlichen Auftritte des Kanzlers mit Mitschrift der Reden.
 
 Die Stadtbild-Aussage von Merz aber wurde von
-der [offiziellen Seite des Bundeskanzlers](https://www.bundeskanzler.de/bk-de/aktuelles/antrittsbesuch-in-brandenburg-2388984)
+der <Reference code="kanzler-pressekonferenz-antrittsbesuch-brandenburg">offiziellen Seite des Bundeskanzlers</Reference>
 entfernt (Fragerunde im Anschluss aufklappen, dort ist am Ende ein Bereich mit "(...)"),
-wie [CORRECTIV berichtet](https://correctiv.org/faktencheck/hintergrund/2025/10/23/merz-stadtbild-aussage-aus-mitschrift-gestrichen-was-besagt-das-neutralitaetsgebot/),
+wie <Reference code="correctiv-stadtbild-aussage-gestrichen">CORRECTIV berichtet</Reference>,
 nachdem es für Kontroversen gesorgt hatte. Dies deutet darauf hin, dass die Kritik an der Aussage wohl auch aus Sicht
 des Bundeskanzlerteams nicht ohne Grund ist.
 
 Neben der Stadtbild-Aussage, ist auch die vermutlich zu unbequeme Frage gelöscht worden, warum die CDU es nicht
-geschafft hat ihr gestecktes Ziel die AfD zu halbieren zu erreichen.
+geschafft hat, ihr gestecktes Ziel, die AfD zu halbieren, zu erreichen.
 
 Zur Transparenz haben wir daher weiter oben in der Einleitung die komplette Mitschrift des Abschnitts und das Video von Merz
 eingefügt.
 
 In seiner Antwort darauf verweist er darauf, dass Populismus ein Problem ist, nur um dann wenige Sekunden später mit der
-Stadtbild Aussage genau diesen Populismus zu bedienen.
+Stadtbild-Aussage genau diesen Populismus zu bedienen.
 
 Auf Nachfrage von Correctiv sei die Löschung eine "normale Reaktion" auf kontroverse Aussagen, um dem Neutralitätsgebot
 gerecht zu werden (
-Siehe [Link von oben](https://correctiv.org/faktencheck/hintergrund/2025/10/23/merz-stadtbild-aussage-aus-mitschrift-gestrichen-was-besagt-das-neutralitaetsgebot/)).
+Siehe <Reference code="correctiv-stadtbild-aussage-gestrichen">CORRECTIV Link von oben</Reference>).
 
 Warum dies durch eine Löschung und nicht durch eine Ergänzung oder Klarstellung geschehen ist, bleibt offen, denn so hat
 die Öffentlichkeit weniger Möglichkeiten, sich ein ehrliches Bild der Aussagen zu machen.
