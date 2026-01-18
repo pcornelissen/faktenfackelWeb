@@ -16,14 +16,14 @@ Im Vorfeld wurden angebliche Ankündigungen von massiver linker Gewalt Stimmung 
 
 Im Rahmen der Demonstration kam es zu diversen Vorkommnissen, wo die Polizei fragwürdig viel Gewalt eingesetzt hat, die augenscheinlich nicht begründet ist.
 
-Es gibt vor allen Dingen auf Instagram Videos, die die friedlichen Demonstrationen zeigen. Beispiel: Illustrationen zu ["Gießen brennt"](https://www.instagram.com/reel/DR98BYcDPWQ). 
+Es gibt vor allen Dingen auf Instagram Videos, die die friedlichen Demonstrationen zeigen. Beispiel: Illustrationen zu "<Refrence code="insta-till-hentschel-gießen-demo-friedlich">Gießen brennt</Reference>". 
 
 ## Faktencheck
 
 ### Wie groß ist der gewaltbereite "linksextremistische Block"?
 
-Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> ist die Gruppe der linkeextremistischen Personen in 2024 ca. 11.200 Personen groß, davon sind 8400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als sehr gewaltbereit gelten. Diese sind in 2024 laut Verfassungsschutz für ca. 5000 Straftaten verantwortlich, davon ca. 1000 Gewalttaten gegen Menschen. Dies sind auch Widerstände gegen Polizisten bei Demonstrationen.   
-In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 762 Straftaten registriert. (Die Unterschiede zwischen Verfassungsschutz und Polizeistatistik liegen an wesentlich lockereren Kriterien, was politisch motiviert ist, und was nicht, und die Polizei wertet nur abgeschlossene Straftaten aus, die angezeigt wurden. Der Verfassungsschutz wertet auch Propaganda, Hassrede, ...)
+Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> ist die Gruppe der linkeextremistischen Personen in 2024 ca. 11.200 Personen groß, davon sind 8400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als sehr gewaltbereit gelten. Diese sind in 2024 laut Verfassungsschutz für ca. 5000 Straftaten verantwortlich, davon ca. 1000 Gewalttaten gegen Menschen. Dies sind auch Widerstände gegen Polizisten bei Demonstrationen.
+In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 762 Straftaten registriert. (Die Unterschiede zwischen Verfassungsschutz und Polizeistatistik liegen an wesentlich lockereren Kriterien, was politisch motiviert ist, und was nicht, und die Polizei wertet nur abgeschlossene Straftaten aus, die angezeigt wurden. Der Verfassungsschutz wertet auch Propaganda, Hassreden, ...)
 
 Um das in Relation zur "<Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">Gegenseite</Reference>" zu setzen, es gab in 2024 ca 50.250 rechtsextremistische bekannte Personen, davon 15.300 gewaltbereite Rechtsextremisten. Diese waren laut Verfassungsschutz für 37835 Straftaten verantwortlich gewesen, davon 1281 Gewalttaten.  
 In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 1488 Straftaten registriert.
@@ -36,21 +36,21 @@ Der "Linke Block" ist also vergleichsweise klein und für wenig Taten verantwort
 ### War das Polizeiaufgebot gerechtfertigt?
 
 Man sieht im Abschnitt zur Größe des linken Blocks, dass die Panikmache nicht gerechtfertigt war, der "linke Block" ist insgesamt für eine geringe Menge an Gewalt und Straftaten verantwortlich und die Menge an potenziellen Gefährdern bei der Demo in Gießen war erwartungsgemäß gering.
-Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Reference> auch, dass die Demonstration überwiegend friedlich ablief. Der Bürgermeister von Gießen meldete, "[Gießen hat geleuchtet, nicht gebrannt](https://www.giessen.de/index.php?ModID=7&FID=2874.74767.1&object=tx%2C2874.5.1)" und bestätigte den friedlichen Protest.
+Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Reference> auch, dass die Demonstration überwiegend friedlich ablief. Der Bürgermeister von Gießen meldete, "<Reference code="giessen-leuchtet-2025">Gießen hat geleuchtet, nicht gebrannt</Reference>" und bestätigte den friedlichen Protest.
 
 
 ### Das "Brückenvideo"
 
-Was ist passiert? Hierzu ein Zitat von [Sina Reisch](https://de.wikipedia.org/wiki/Sina_Reisch), einer deutschen Klimagerechtigkeitsaktivistin und Podcasterin. Sie war vor Ort und hat auch ein Video von der Situation dort aufgenommen:
+Was ist passiert? Hierzu ein Zitat von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference>, einer deutschen Klimagerechtigkeitsaktivistin und Podcasterin. Sie war vor Ort und hat auch ein Video von der Situation dort aufgenommen:
 
 > Sie sind ausgestiegen, haben sich aufgereiht. Es gab keinerlei Versuch einer Kontaktaufnahme, keine Durchsage, keine Ansage – nichts. Dann sind sie brüllend losgerannt wie eine Horde, ja, wie so eine zugekokste Prügelbande und haben auf die Leute eingeprügelt, ohne Vorwarnung, ohne Ansage – nichts.  
   -- <cite>Zitat von Sina Reisch</cite> 
 
 Nach Ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde. Der einzige Effekt der Aktion war die Demonstranten, die friedlich auf dem Weg zur Demo waren, zu verletzen und einzuschüchtern.
 
-Ihre [Stellungnahme auf Instagram](https://www.instagram.com/reel/DSGIHgLDdOO/) (Alternativ auf [Facebook](https://www.facebook.com/reel/4374647046112133)) wo sie mitteilt, dass die Polizei ohne Durchsage und Vorwarnung auf die Demonstranten eingeprügelt hat.
+Ihre <Reference code="instagram-reisch-gießen">Stellungnahme auf Instagram</Reference> (Alternativ auf <Reference code="facebook-reisch-gießen">Facebook</Reference>) wo sie mitteilt, dass die Polizei ohne Durchsage und Vorwarnung auf die Demonstranten eingeprügelt hat.
 
-Die [Hessenschau hat sich dem bekannten Video gewidmet](https://www.hessenschau.de/panorama/demo-gegen-afd-in-giessen-das-ist-zum-video-ueber-den-b49-polizeieinsatz-bekannt-v1,video-giessen-bundesstrasse-polizei-100.html)
+Die <Reference code="hessenschau-gießen-2025">Hessenschau hat sich dem bekannten Video gewidmet</Reference> und hat eine Zusammenfassung der zu dem Zeitpunkt bekannten Fakten zusammengestellt.
 
 ### Das Polizeipferd
 
