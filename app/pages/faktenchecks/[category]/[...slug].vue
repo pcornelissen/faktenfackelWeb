@@ -93,7 +93,7 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
         :headline="`Stand: ${lastChange}`"
       />
       <UAlert
-        v-if="!page.published || new Date(page.published)> new Date()"
+        v-if="!page.publishedOn || new Date(page.publishedOn)> new Date()"
         type="info"
         icon="i-lucide-badge-info"
         title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"

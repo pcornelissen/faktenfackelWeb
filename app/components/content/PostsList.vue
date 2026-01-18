@@ -45,7 +45,7 @@ const props = defineProps<{
             <br>
             <span
               class="lastChange"
-              :title="'Veröffentlicht: '+new Date(item.published).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })"
+              :title="'Veröffentlicht: '+new Date(item.publishedOn).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })"
             >Stand {{ new Date(item.date).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' }) }}</span>
           </div>
         </div>

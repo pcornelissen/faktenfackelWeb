@@ -1,5 +1,5 @@
 ---
-published: 2025-12-30
+publishedOn: 2025-12-30
 date: 2025-12-30
 title: "Begriffserklärung: Demonstrationsrecht"
 subject: "Demonstrationsrecht"

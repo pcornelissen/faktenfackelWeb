@@ -1,5 +1,5 @@
 ---
-published: 2025-12-03
+publishedOn: 2025-12-03
 date: 2025-12-03
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Proteste, wie in Gießen

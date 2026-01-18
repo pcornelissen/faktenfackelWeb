@@ -1,5 +1,5 @@
 ---
-published: 2025-12-03
+publishedOn: 2025-12-03
 date: 2025-12-03
 title: Der Verfassungsschutz pausiert die Einstufung der AfD als rechtsextreme Partei
 subtitle: Sieg für die AfD oder normaler Vorgang?

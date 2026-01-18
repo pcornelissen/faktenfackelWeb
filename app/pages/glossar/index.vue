@@ -13,14 +13,14 @@ await definePageData({
 
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('glossar')
-    .select('title', 'subject', 'path', 'published', 'tags', 'date')
+    .select('title', 'subject', 'path', 'publishedOn', 'tags', 'date')
     .all()
 })
 const list = list1.value as Post[]
 
 function filter(list: Post[]) {
   return list
-    .filter(item => !!item.published && new Date(item.published) <= new Date())
+    .filter(item => !!item.publishedOn && new Date(item.publishedOn) <= new Date())
 }
 </script>
 

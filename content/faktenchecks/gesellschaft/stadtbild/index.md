@@ -1,5 +1,5 @@
 ---
-published: 2025-12-12
+publishedOn: 2025-12-12
 date: 2025-12-12
 title: Merz Aussage zum Stadtbild
 subtitle: Korrekt, oder anbiedern am rechten Rand?
@@ -121,7 +121,7 @@ Aussage immer wieder rezitierten.
 #### Kritische Reaktionen
 
 Spannenderweise kommt sogar Kritik von der AfD, da z.B. Tino Chrupalla dem Kanzler
-Merz <Referemce code="berlinstory-chrupalla-merz-doppelmoral-2025">Doppelmoral vorwirft</Reference> (<Reference code="welt-stadtbild-doppelmoral-video">Youtube</Reference>),
+Merz <Reference code="berlinstory-chrupalla-merz-doppelmoral-2025">Doppelmoral vorwirft</Reference> (<Reference code="welt-stadtbild-doppelmoral-video">Youtube</Reference>),
 da er u. a. für diese Zustände mitverantwortlich sei.
 
 Aus Reihen der <Reference code="tagesschau-spd-stadtbild-gipfel">SPD</Reference>, der

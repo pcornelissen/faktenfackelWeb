@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { data: list1 } = await useAsyncData('/faktenchecks', () => {
   return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'published', 'tags', 'date')
+    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date')
     .order('date', 'DESC')
     .all()
 })

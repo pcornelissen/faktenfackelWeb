@@ -1,5 +1,5 @@
 ---
-published: 2025-12-11
+publishedOn: 2025-12-11
 date: 2025-12-11
 title: "Begriffserklärung: tl;dr" 
 subject: "tl;dr"  

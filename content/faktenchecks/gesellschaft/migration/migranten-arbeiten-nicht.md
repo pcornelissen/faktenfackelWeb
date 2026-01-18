@@ -1,5 +1,5 @@
 ---
-published: 2025-12-12
+publishedOn: 2025-12-12
 date: 2026-01-16
 title: Migranten arbeiten nicht?
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland

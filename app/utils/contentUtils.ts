@@ -34,7 +34,7 @@ export type Post = {
   path: string
   tags: string[]
   date: string
-  published: string
+  publishedOn: string
 }
 
 export function getSourceFromPath(path: string) {

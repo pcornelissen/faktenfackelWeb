@@ -1,5 +1,5 @@
 ---
-published: 2025-12-12
+publishedOn: 2025-12-12
 date: 2025-12-12
 title: Kriminalität bei Ausländern und Deutschen
 subtitle: Widersprüche, Probleme und Fakten

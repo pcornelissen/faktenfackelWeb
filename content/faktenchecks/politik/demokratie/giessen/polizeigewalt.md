@@ -1,5 +1,5 @@
 ---
-published: 2025-12-11
+publishedOn: 2025-12-11
 date: 2025-12-11
 title: War die Reaktion der Polizei in Gießen gerechtfertigt? 
 subtitle: Polizeigewalt oder Deeskalation und Ordnung 
@@ -10,7 +10,7 @@ tags: [AfD, Generation-Deutschland, Demokratie, Proteste, Polizei, Gewalt]
 
 ## Was ist passiert?
 
-Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. 
+Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. 
 
 Im Vorfeld wurden angebliche Ankündigungen von massiver linker Gewalt Stimmung in der Bevölkerung gemacht. Auch wenn im Wesentlichen demokratische friedliche Organisationen, wie die Kirchen und andere Demokraten zu den Protesten aufgerufen haben. Der "[Linke schwarze Block](https://de.wikipedia.org/wiki/Schwarzer_Block)" war natürlich ebenso tätig, stellt aber nur eine geringe Zahl an Personen in Deutschland und auf der Demo in Gießen.
 
