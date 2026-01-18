@@ -30,7 +30,7 @@ export default defineContentConfig({
     }),
     quellen: defineCollection({
       type: 'page',
-      source: 'quellen/*/*.md',
+      source: 'quellen/*/*/*.md',
       schema: z.object({
         date: z.date(),
         name: z.string(),
@@ -41,7 +41,7 @@ export default defineContentConfig({
     }),
     quellenlinks: defineCollection({
       type: 'page',
-      source: 'quellen/*/links/**/*.md',
+      source: 'quellen/*/*/links/**/*.md',
       schema: z.object({
         date: z.date(),
         code: z.string(),

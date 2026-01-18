@@ -54,7 +54,7 @@ const { data: coList }
     : await useAsyncData(basePath + '-coSources', () => {
         const builder = queryCollection('quellen').orWhere(
           (query) => {
-            coSources.values().forEach(s => query = query.where('path', '=', '/quellen/' + s))
+            coSources.values().forEach(s => query = query.where('path', 'LIKE', '/quellen/%/' + s))
             return query
           },
         )

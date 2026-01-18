@@ -8,7 +8,7 @@ tags: [ Staatlich, Justiz, Verbraucherschutz ]
 
 ## Über die Quelle
 
-Das Portal Gesetze im Internet ist ein Dienst vom [Bundesministerium der Justiz und für Verbraucherschutz (BMJV)](/quellen/bmjv). Das Portal liefert leichten Zugang zu aktuell gültigen Gesetzestexten. 
+Das Portal Gesetze im Internet ist ein Dienst vom [Bundesministerium der Justiz und für Verbraucherschutz (BMJV)](/quellen/staatlich/bmjv). Das Portal liefert leichten Zugang zu aktuell gültigen Gesetzestexten. 
 
 ## Links
 

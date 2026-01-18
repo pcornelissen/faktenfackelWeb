@@ -2,7 +2,7 @@
 date: 2026-01-18
 name: Verfassungsschutz
 description: Faktencheck-Blog
-image: https://www.volksverpetzer.de/wp-content/uploads/2025/11/Muenchen_tiefgarage_20_11_Web-scaled.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Bfvwappen.svg/1280px-Bfvwappen.svg.png
 tags: [ Staatlich, Sicherheit, Nachrichtendienst ]  
 ---
 
@@ -10,14 +10,14 @@ tags: [ Staatlich, Sicherheit, Nachrichtendienst ]
 
 Das Bundesamt für Verfassungsschutz (BfV) ist ein deutscher Inlandsnachrichtendienst, dessen wichtigste Aufgabe die Sammlung und Auswertung von Informationen über Bestrebungen gegen die freiheitliche demokratische Grundordnung und die Spionageabwehr ist (§ 3 Abs. 1 BVerfSchG). 
 
-Das Amt darf nachrichtendienstliche Mittel anwenden (§ 8 Abs. 2 Satz BVerfSchG), verfügt aber über keine polizeilichen Vollzugsbefugnisse. (Quelle: https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Verfassungsschutz)
+Das Amt darf nachrichtendienstliche Mittel anwenden (§ 8 Abs. 2 Satz BVerfSchG), verfügt aber über keine polizeilichen Vollzugsbefugnisse. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Verfassungsschutz))
 
 Neben dem Bundesamt für Verfassungsschutz gibt es noch Landesämter der jeweiligen Bundesländer.
 
 ## Links
 
 - https://www.verfassungsschutz.de
-- https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Verfassungsschutz
+- [https://de.wikipedia.org/wiki/Bundesamt_für_Verfassungsschutz](https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Verfassungsschutz)
 
 ## Faktenfackel Bewertung
 

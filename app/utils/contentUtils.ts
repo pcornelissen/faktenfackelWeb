@@ -38,5 +38,5 @@ export type Post = {
 }
 
 export function getSourceFromPath(path: string) {
-  return path.split('/').slice(0, 3).join('/')
+  return path.split('/').slice(0, 4).join('/')
 }

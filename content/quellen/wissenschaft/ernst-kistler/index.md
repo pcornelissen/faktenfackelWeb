@@ -3,7 +3,7 @@ date: 2026-01-11
 name: Prof. Dr. Ernst Kistler
 description: 
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/FOCUS-online-LOGO.jpg/960px-FOCUS-online-LOGO.jpg
-tags: [ Journalist, Zeitschrift, Medien ]
+tags: [ Sozialwissenschaftler, Arbeitsmarkt ]
 ---
 
 ## Über die Quelle

@@ -26,7 +26,7 @@ export const referencesStore = reactive({
     return this.links.has(code)
   },
   hasSourceFor(path: string) {
-    return this.sources.has('/quellen/' + path.split('/')[2])
+    return this.sources.has('/quellen/' + path.split('/')[2] + '/' + path.split('/')[3])
   },
   linkByCode(code: string): SourceLink {
     return this.links.get(code) || {
@@ -35,7 +35,7 @@ export const referencesStore = reactive({
     }
   },
   sourceByLinkPath(path: string): Source {
-    return this.sources.get('/quellen/' + path.split('/')[2]) || {
+    return this.sources.get('/quellen/' + path.split('/')[2] + '/' + path.split('/')[3]) || {
       name: path + ' not found',
       date: '', description: '', path: '', tags: [], image: '',
     }
@@ -68,7 +68,7 @@ export const referencesStore = reactive({
 
   async updateSources() {
     const sourcePaths = new Set([...this.links.values()]
-      .map(l => '/quellen/' + l.path.split('/')[2]))
+      .map(l => '/quellen/' + l.path.split('/')[2] + '/' + l.path.split('/')[3]))
     const { data: sourcesByLinksRaw }
       = (this.links?.size > 0)
         ? await useAsyncData('sourcelink-sources', () => {
