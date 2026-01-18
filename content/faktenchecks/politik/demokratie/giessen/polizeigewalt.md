@@ -12,7 +12,7 @@ tags: [AfD, Generation-Deutschland, Demokratie, Proteste, Polizei, Gewalt]
 
 Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. 
 
-Im Vorfeld wurden angebliche Ankündigungen von massiver linker Gewalt Stimmung in der Bevölkerung gemacht. Auch wenn im Wesentlichen demokratische friedliche Organisationen, wie die Kirchen und andere Demokraten zu den Protesten aufgerufen haben. Der "[Linke schwarze Block](https://de.wikipedia.org/wiki/Schwarzer_Block)" war natürlich ebenso tätig, stellt aber nur eine geringe Zahl an Personen in Deutschland und auf der Demo in Gießen.
+Im Vorfeld wurden angebliche Ankündigungen von massiver linker Gewalt Stimmung in der Bevölkerung gemacht. Auch wenn im Wesentlichen demokratische friedliche Organisationen, wie die Kirchen und andere Demokraten zu den Protesten aufgerufen haben. Der "<Reference code="wikipedia-schwarzer-block">Linke schwarze Block</Reference>" war natürlich ebenso tätig, stellt aber nur eine geringe Zahl an Personen in Deutschland und auf der Demo in Gießen.
 
 Im Rahmen der Demonstration kam es zu diversen Vorkommnissen, wo die Polizei fragwürdig viel Gewalt eingesetzt hat, die augenscheinlich nicht begründet ist.
 
@@ -22,13 +22,13 @@ Es gibt vor allen Dingen auf Instagram Videos, die die friedlichen Demonstration
 
 ### Wie groß ist der gewaltbereite "linksextremistische Block"?
 
-Laut dem [Verfassungsschutz](https://www.verfassungsschutz.de/DE/themen/linksextremismus/zahlen-und-fakten/zahlen-und-fakten_node.html) ist die Gruppe der linkeextremistischen Personen in 2024 ca. 11.200 Personen groß, davon sind 8400 [Autonome](https://www.verfassungsschutz.de/SharedDocs/glossareintraege/DE/A/autonome.html), die als sehr gewalbereit gelten. Diese sind in 2024 laut Verfassungsschutz für ca. 5000 Straftaten verantwortlich, davon ca. 1000 Gewalttaten gegen Menschen. Dies sind auch Widerstände gegen Polizisten bei Demonstrationen.   
-In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 762 Straftaten registriert. (Die Unterschiede zwischen Verfassungsschutz und Polizeistatistik liegen an wesentlich lockereren Kriterien, was politisch motiviert ist, und was nicht und die Polizei wertet nur abgeschlossene Straftaten, die angezeigt wurden. Der Verfassungsschutz wertet auch Propaganda, Hassrede, ...)
+Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> ist die Gruppe der linkeextremistischen Personen in 2024 ca. 11.200 Personen groß, davon sind 8400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als sehr gewaltbereit gelten. Diese sind in 2024 laut Verfassungsschutz für ca. 5000 Straftaten verantwortlich, davon ca. 1000 Gewalttaten gegen Menschen. Dies sind auch Widerstände gegen Polizisten bei Demonstrationen.   
+In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 762 Straftaten registriert. (Die Unterschiede zwischen Verfassungsschutz und Polizeistatistik liegen an wesentlich lockereren Kriterien, was politisch motiviert ist, und was nicht, und die Polizei wertet nur abgeschlossene Straftaten aus, die angezeigt wurden. Der Verfassungsschutz wertet auch Propaganda, Hassrede, ...)
 
-Um das in Relation zur "[Gegenseite](https://www.verfassungsschutz.de/DE/themen/rechtsextremismus/zahlen-und-fakten/zahlen-und-fakten_node.html#doc679030bodyText1)" zu setzen, es gab in 2024 ca 50.250 rechtsextremistische bekannte Personen, davon 15.300 gewaltbereite rechtsextremisten. Diese waren laut Verfassungsschutz für 37835 Straftaten verantwortlich gewesen, davon 1281 Gewalttaten.  
+Um das in Relation zur "<Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">Gegenseite</Reference>" zu setzen, es gab in 2024 ca 50.250 rechtsextremistische bekannte Personen, davon 15.300 gewaltbereite Rechtsextremisten. Diese waren laut Verfassungsschutz für 37835 Straftaten verantwortlich gewesen, davon 1281 Gewalttaten.  
 In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 1488 Straftaten registriert.
 
-Auch in [anderen Statistiken](https://de.statista.com/infografik/30252/anzahl-der-registrierten-extremistischen-straftaten-in-deutschland/) zeigt sich ein ähnliches Bild.
+Auch in <Reference code="statista-artikel-politische-lager-straftaten">anderen Statistiken</Reference> zeigt sich ein ähnliches Bild.
 <img src="/files/faktenchecks/kriminalitaet/kriminalitaet-statista-2024.jpeg" alt="Diagramm zur Kriminalität von Statista zu 2023/2024" style="max-height: 35rem;width: auto"/>
 
 Der "Linke Block" ist also vergleichsweise klein und für wenig Taten verantwortlich. Dennoch wird es medial immer sehr hoch gekocht und aufgebauscht, während rechte Gewalt heruntergespielt oder ignoriert wird in vielen Medien.
@@ -36,12 +36,12 @@ Der "Linke Block" ist also vergleichsweise klein und für wenig Taten verantwort
 ### War das Polizeiaufgebot gerechtfertigt?
 
 Man sieht im Abschnitt zur Größe des linken Blocks, dass die Panikmache nicht gerechtfertigt war, der "linke Block" ist insgesamt für eine geringe Menge an Gewalt und Straftaten verantwortlich und die Menge an potenziellen Gefährdern bei der Demo in Gießen war erwartungsgemäß gering.
-Die [Polizei meldete](https://www.presseportal.de/blaulicht/pm/154582/6168852) auch, dass die Demonstration überwiegend friedlich ablief. Der Bürgermeister von Gießen meldete, "[Gießen hat geleuchtet, nicht gebrannt](https://www.giessen.de/index.php?ModID=7&FID=2874.74767.1&object=tx%2C2874.5.1)" und bestätigte den friedlichen Protest.
+Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Reference> auch, dass die Demonstration überwiegend friedlich ablief. Der Bürgermeister von Gießen meldete, "[Gießen hat geleuchtet, nicht gebrannt](https://www.giessen.de/index.php?ModID=7&FID=2874.74767.1&object=tx%2C2874.5.1)" und bestätigte den friedlichen Protest.
 
 
 ### Das "Brückenvideo"
 
-Was ist passiert? Hierzu ein Zitat von [Sina Reisch](https://de.wikipedia.org/wiki/Sina_Reisch), einer eine deutsche Klimagerechtigkeitsaktivistin und Podcasterin. Sie war vor Ort und hat auch ein Video von der Situation dort aufgenommen:
+Was ist passiert? Hierzu ein Zitat von [Sina Reisch](https://de.wikipedia.org/wiki/Sina_Reisch), einer deutschen Klimagerechtigkeitsaktivistin und Podcasterin. Sie war vor Ort und hat auch ein Video von der Situation dort aufgenommen:
 
 > Sie sind ausgestiegen, haben sich aufgereiht. Es gab keinerlei Versuch einer Kontaktaufnahme, keine Durchsage, keine Ansage – nichts. Dann sind sie brüllend losgerannt wie eine Horde, ja, wie so eine zugekokste Prügelbande und haben auf die Leute eingeprügelt, ohne Vorwarnung, ohne Ansage – nichts.  
   -- <cite>Zitat von Sina Reisch</cite> 
@@ -66,7 +66,7 @@ Das hält die rechte Szene nicht davon ab auch nach dem Dementi der Polizei die 
 
 Reporterin von Perspektive Online [berichtet über Schläge durch die Polizei](https://t.me/perspektiveon/8254).
 
-Bericht zu Polizeigewalt an den Lahnbrücken durch "[Moers ist bunt nicht Braun](https://www.facebook.com/Moersistbunt?__cft__[0]=AZVtranIeSylb4XHXsujcUUFCrA1O1-uC8aAhYc_P3R7zjhk_ylIAsH_rR0VTwF3fVJPM0tOkZeaW6vShFf9EHCzP0k1_nvYde1K-x4XDocGWaS041yM23gtUaf3L9aOEE8MD7LYYP4DkJw0crvOtzOX0T83tAYpTN5Xt198Q4_-U9wc3bKnfqGrjCJad4PEEHpG-1mP9pYXTY9JVqQQga8T&__tn__=-UC%2CP-R) bei [Facebook](https://www.facebook.com/Moersistbunt/posts/pfbid0GgjyEeonqnmazF7DznTbWD1fiUbiamhYTDHC3sCgBKe36eNewsMCyzWmqHiL42N9l)
+Bericht zu Polizeigewalt an den Lahnbrücken durch "[Moers ist bunt nicht Braun](https://www.facebook.com/Moersistbunt?__cft__[0]=AZVtranIeSylb4XHXsujcUUFCrA1O1-uC8aAhYc_P3R7zjhk_ylIAsH_rR0VTwF3fVJPM0tOkZeaW6vShFf9EHCzP0k1_nvYde1K-x4XDocGWaS041yM23gtUaf3L9aOEE8MD7LYYP4DkJw0crvOtzOX0T83tAYpTN5Xt198Q4_-U9wc3bKnfqGrjCJad4PEEHpG-1mP9pYXTY9JVqQQga8T&__tn__=-UC%2CP-R) bei <Reference code="moers-afd-demo-gießen">Facebook</Reference>
 > Trotz friedlicher Demo eskaliert die Gewalt an den Lahnbrücken
 Bei den Protesten gegen die AfD-Jugend kam es zu Zusammenstößen. Polizeigewalt und Taxiservice-Vorwürfe sorgen für Empörung. ...
 
