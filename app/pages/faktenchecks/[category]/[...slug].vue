@@ -14,8 +14,8 @@ const basePath = route.path// ``/faktenchecks/${category}/${slug}`;
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('faktenchecks', basePath, {
-    fields: ['description'],
-  })
+    fields: ['subtitle'],
+  }).where('path', 'NOT LIKE', '%_info')
 })
 
 const { data: page }
@@ -106,7 +106,13 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
 
         <USeparator v-if="surround?.filter(Boolean).length" />
 
-        <UContentSurround :surround="(surround as any)" />
+        <UContentSurround :surround="(surround as any)">
+          <template
+            #link-description="{ link }"
+          >
+            {{ link?.subtitle || link?.description }}
+          </template>
+        </UContentSurround>
       </UPageBody>
 
       <template
