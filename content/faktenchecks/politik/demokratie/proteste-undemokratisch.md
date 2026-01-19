@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-12-03
-date: 2025-12-03
+date: 2026-01-19
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Proteste, wie in Gießen
 
@@ -9,7 +9,7 @@ tags: [ AfD, Generation-Deutschland, Demokratie, Proteste ]
 
 ## Was ist passiert?
 
-Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In
+Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In
 Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. Die Polizei war vor
 Ort, um die [Sicherheit zu gewährleisten](/faktenchecks/politik/demokratie/giessen/polizeigewalt)) und die Veranstaltung
 zu schützen.
@@ -24,7 +24,7 @@ Beispielen aus den Kommentarspalten:
 
 
 
-- [Beitrag der Linken aus Niedersachsen](https://www.facebook.com/photo?fbid=1308649647960616&set=a.650689587089962)
+- <Reference code="linke-niedersachsen-gießen-gruß">Beitrag der Linken aus Niedersachsen</Reference>
   ::quote-block
   ---
   name: Sven Dammann 
@@ -119,7 +119,7 @@ in der Lage wäre, ihre Ansichten zu äußern oder Veranstaltungen abzuhalten. S
 durchführen kann und ihre Ansichten äußern darf, wird ihre Meinungsfreiheit nicht eingeschränkt.
 
 Protest gegen die Parteien, wie die AfD ist eine Meinungsäußerung, die in einer Demokratie geschützt ist. Würde dies
-nicht erlaubt sein, wäre die Meinungsfreiheit der AfD Gegner eingeschränkt und damit würde keine Meinungsfreiheit für
+nicht erlaubt sein, wäre die Meinungsfreiheit der AfD-Gegner eingeschränkt und damit würde keine Meinungsfreiheit für
 alle mehr gelten. Da diese von der AfD ständig gefordert wird, kann sie nicht gegen Proteste argumentieren, ohne ihre
 eigene Forderung nach Meinungsfreiheit zu untergraben.
 
@@ -139,27 +139,27 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung
 > durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.  
 > ...  
-> -- <cite>[Grundgesetz Artikel 5 - Meinungsfreiheit](https://www.gesetze-im-internet.de/gg/art_5.html)</cite>
+> &mdash; <cite><Reference code="gii-gg-5">Grundgesetz Artikel 5 - Meinungsfreiheit</Reference></cite>
 
 > (1) Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln.  
 (2) Für Versammlungen unter freiem Himmel kann dieses Recht durch Gesetz oder auf Grund eines Gesetzes beschränkt
 > werden.  
-> -- <cite>[Grundgesetz Artikel 8 - Versammlungsfreiheit](https://www.gesetze-im-internet.de/gg/art_8.html)</cite>
+> &mdash; <cite><Reference code="gii-gg-8">Grundgesetz Artikel 8 - Versammlungsfreiheit</Reference></cite>
 
 > (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere
 > Ordnung muss demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über
 > ihr Vermögen öffentlich Rechenschaft geben.  
-> -- <cite>[Grundgesetz Artikel 21 - Versammlungsfreiheit](https://www.gesetze-im-internet.de/gg/art_21.html)</cite>
+> &mdash; <cite><Reference code="gii-gg-21">Grundgesetz Artikel 21 - Versammlungsfreiheit</Reference></cite>
 
 > Demokratie ist eine Herrschaftsform, in der das Volk die oberste Macht ausübt. Wesentliche Merkmale der Demokratie
 > sind die Wahlen, die Meinungsfreiheit, die Versammlungsfreiheit und die Gewaltenteilung.  
-> -- <cite>[Bundeszentrale für politische Bildung - Demokratie](https://www.bpb.de/nachschlagen/lexika/das-junge-politik-lexikon/314929/demokratie)</cite>
+> &mdash; <cite>[Bundeszentrale für politische Bildung - Demokratie](https://www.bpb.de/nachschlagen/lexika/das-junge-politik-lexikon/314929/demokratie)</cite>
 
 > **Artikel 19 (Meinungs- und Informationsfreiheit)**  
 > Jeder Mensch hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein,
 > Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und
 > Gedankengut zu suchen, zu empfangen und zu verbreiten.  
-> -- <cite>[Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)](https://www.amnesty.de/alle-30-artikel-der-allgemeinen-erklaerung-der-menschenrechte)</cite>
+> &mdash; <cite><Reference code="gii-gg-19">Grundgesetz §19</Reference>, dazu <Reference code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</Reference></cite>
 
 ### Antifa gefährdet die Demokratie
 
@@ -176,7 +176,7 @@ voneinander und haben unterschiedliche Strukturen, Ziele und Methoden.
 Es ist vergleichbar damit, dass "die Vegetarier" eine Partei oder Gruppierung wären. Hier ist der Widerspruch zur
 Annahme sehr deutlich. Das Gleiche gilt auch für "die Antifa".
 
-Jeder, der sich gegen Faschismus und rechte Ideologien stellt, kann sich als Antifa betrachten, da es nur eine Abkürzung
+Alle, die sich gegen Faschismus und rechte Ideologien stellen, können sich als Antifa betrachten, da es nur eine Abkürzung
 für Antifaschisten ist.
 
 #### Antifa und das Grundgesetz
@@ -202,7 +202,7 @@ Die Verfassung wurde 1949 ausdrücklich als Gegenentwurf zum faschistischen Staa
 
 Die meisten Verfassungsrechtler beschreiben das Grundgesetz so:
 
-- Anti-totalitär (Bodo Pieroth, Bernhard Schlink)   
+- Anti-totalitär (Bodo Pieroth, Bernhard Schlink)  
   Das GG richtet sich gegen alle Formen diktatorischer Herrschaft – sowohl faschistische wie kommunistische.
 - "Antwort auf den Nationalsozialismus" (Dieter Grimm, BVerfG-Richter a. D.)  
   Das GG ist bewusst so konstruiert, dass ein NS-Regime rechtlich unmöglich wird.
@@ -233,8 +233,8 @@ ist.
 Jedoch ist das linke Spektrum sehr vielfältig und umfasst wesentlich mehr demokratische Gruppen und Einzelpersonen, die
 sich für Menschenrechte, soziale Gerechtigkeit und Demokratie einsetzen.
 
-Wie oben bereits beschrieben wurde, ist das Grundgesetz antifaschistisch ausgelegt, also ist jeder, der sich konform zum
-Grundgesetz verhält, zumindest in der Tendenz antifaschistisch.
+Wie oben bereits beschrieben wurde, ist das Grundgesetz antifaschistisch ausgelegt, also sind alle, die sich konform zum
+Grundgesetz verhalten, zumindest in der Tendenz antifaschistisch.
 
 Dies ist auch in der Demonstration in Gießen zu erkennen. Dort waren ca. 50.000 Demonstranten vor Ort, um gegen die AfD
 zu protestieren. Das sind wesentlich mehr, als der in Deutschland bekannte Anteil von gewaltbereiten Linksextremen in
@@ -243,7 +243,7 @@ der Bevölkerung, von denen auch nur ein Bruchteil anwesend war.
 Es gab nach Polizeiangaben auch nur wenige Zwischenfälle mit Gewalt, die aber von der Polizei schnell unterbunden
 wurden. Die überwältigende Mehrheit der Demonstranten hat ohne Gewaltausübung demonstriert.
 
-**Gewalt** ist in einer Demokratie **niemals akzeptabel**, egal von welcher Seite sie ausgeht wird. Gewalt gegen
+**Gewalt** ist in einer Demokratie **niemals akzeptabel**, egal von welcher Seite sie ausgeht. Gewalt gegen
 Menschen oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen. Dies ist auch grundsätzlich im breiten
 linken Spektrum Konsens. Gewalt ist aber auch kein linkes Phänomen, wie man daran erkennen kann, dass es im Jahr 2024
 ca. 40.000 politisch motivierte Straftaten aus dem rechten Milieu gab und ca. 1ß.000 aus dem linken Spektrum. Gewalt
@@ -252,9 +252,9 @@ Mehrheit der Straftaten verantwortlich sind.
 
 ### Demonstrationen, was is erlaubt und was nicht
 
-Das Recht auf Versammlungsfreiheit und das Recht zu demonstrieren sind in Deutschland wichtig und grundgesetzlich
+Das Recht auf Versammlungsfreiheit und das Recht zu demonstrieren ist in Deutschland wichtig und grundgesetzlich
 geschützt. Nicht ohne Grund dürfen Städte und Gemeinden nicht einfach so eine Demonstration verbieten.
-In Deutschland gilt, dass eine Demonstration **anzeigepflichtig aber nicht genehmigungspflichtig** ist.
+In Deutschland gilt, dass eine Demonstration **anzeigepflichtig, aber nicht genehmigungspflichtig** ist.
 
 Das bedeutet, dass jemand, der eine Demonstration plant diese beim Ordnungsamt und ggf. der Polizei **bekannt machen**
 muss. Dazu müssen geschätzte erwartete Teilnehmerzahlen etc. mitgeteilt werden, damit die Behörden entsprechend
@@ -264,10 +264,10 @@ Demonstration aber nicht genehmigen, sondern sie können sie nur bei schwerwiege
 dann das Mittel des Einspruchs beim Verwaltungsgericht, wenn man damit nicht einverstanden ist.
 
 Wenn die Behörden Bedenken haben, werden in der Regel Auflagen gefordert, die die Veranstalter erfüllen müssen. Das sind
-regelmäßig Forderungen nach einer Zahl an Ordnern, die die Demonstranten in geordneten Bahnen halten oder Beschränkungen
+regelmäßig Forderungen nach einer Zahl an Ordnern, die die Demonstranten in geordneten Bahnen halten, oder Beschränkungen
 der Wege und Versammlungsorte.
 Die Behörden müssen die Auflagen begründen können und diese müssen so wenig wie möglich die Demonstration beeinflussen.
-Es ist also z.B. nicht möglich eine Demonstration einfach so aus der Stadt in einen Außenbezirk zu verlegen.
+Es ist also z. B. nicht möglich, eine Demonstration einfach so aus der Stadt in einen Außenbezirk zu verlegen.
 
 Demonstrationen dürfen in das tägliche Geschehen eingreifen und müssen es in der Regel auch, um die gewünschte
 Aufmerksamkeit zu erreichen. Es ist also vollkommen OK, wenn
@@ -295,11 +295,13 @@ Im Gegenteil, sie sind ein Ausdruck der demokratischen Rechte der Bürger, ihre 
 Parteien zu protestieren. Solange diese Proteste ohne Gewalt und Zerstörung verlaufen und die Rechte anderer so weit wie
 möglich respektieren, sind sie ein legitimes Mittel der Meinungsäußerung in einer Demokratie.
 
-Man darf auch nicht vergessen, dass aktuell ein starkes Ungleichgewicht in der öffentlichen Wahrnehmung der
-verschiedenen Demonstrationen gibt. Eine angemeldete links-orientierte Demo wird gerne auch schon präventiv als
-Gewaltorgie angekündigt, auch wenn diese zu 99 % von den Demonstranten aus friedlich verläuft. Die Bauernproteste im
+Man darf auch nicht vergessen, dass es aktuell ein starkes Ungleichgewicht in der öffentlichen Wahrnehmung der
+verschiedenen Demonstrationen gibt. Eine angemeldete linksorientierte Demo wird gerne auch schon präventiv als
+Gewaltorgie angekündigt, auch wenn diese zu 99 % von den Demonstranten aus friedlich verläuft. 
+
+Die Bauernproteste im
 Jahr 2024 waren ebenso einschneidend in das öffentliche Leben, weil Autobahnen und Straßen gesperrt oder mit Gülle über
-Stunden unbrauchbar gemacht wurden. Es gab dort sogar mind. einen Toten Bauern und Verletzte auf Seiten der anderen
-Verkehrsteilnehmer durch Unfälle. Hier wurde weder von der Gewalt und der Verhältnismäßigkeit berichtet und die Polizei
-ist nicht gegen die Demonstranten angegangen. Der Rechtsstaat ist da auf einem Auge blind oder braucht dringend eine
+Stunden unbrauchbar gemacht wurden. Es gab dort sogar mind. einen toten Bauern und Verletzte auf Seiten der anderen
+Verkehrsteilnehmer durch Unfälle. Hier wurde weder von der Gewalt noch der Verhältnismäßigkeit berichtet und die Polizei
+ist nicht gegen die Demonstranten vorgegangen. Der Rechtsstaat ist da auf einem Auge blind oder braucht dringend eine
 Brille. 

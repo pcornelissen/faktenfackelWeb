@@ -44,7 +44,7 @@ Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Refer
 Was ist passiert? Hierzu ein Zitat von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference>, einer deutschen Klimagerechtigkeitsaktivistin und Podcasterin. Sie war vor Ort und hat auch ein Video von der Situation dort aufgenommen:
 
 > Sie sind ausgestiegen, haben sich aufgereiht. Es gab keinerlei Versuch einer Kontaktaufnahme, keine Durchsage, keine Ansage – nichts. Dann sind sie brüllend losgerannt wie eine Horde, ja, wie so eine zugekokste Prügelbande und haben auf die Leute eingeprügelt, ohne Vorwarnung, ohne Ansage – nichts.  
-  -- <cite>Zitat von Sina Reisch</cite> 
+  &mdash; <cite><Reference code=""facebook-reisch-gießen>Zitat von Sina Reisch</Reference></cite> 
 
 Nach Ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde. Der einzige Effekt der Aktion war die Demonstranten, die friedlich auf dem Weg zur Demo waren, zu verletzen und einzuschüchtern.
 

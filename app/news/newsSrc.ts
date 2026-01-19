@@ -36,4 +36,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-01-18'),
     title: 'Ausführliche Quellenlinks eingeführt, bei "Merz Aussagen zum Stadtbild", "War die Reaktion der Polizei in Gießen gerechtfertigt?", intern Quellen etwas gruppiert',
   },
+  {
+    date: new Date('2026-01-19'),
+    title: 'Ausführliche Quellenlinks eingeführt, bei "Proteste gegen die AfD sind undemokratisch"',
+  },
 ]
