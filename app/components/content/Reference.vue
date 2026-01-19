@@ -20,8 +20,7 @@ const link = referencesStore.linkByCode(props.code)
       name="i-lucide:bug"
       style="color: red"
       :title="`Link nicht gefunden! (${props.code})`"
-    />
-    )
+    />)
   </div>
   <div
     v-else
