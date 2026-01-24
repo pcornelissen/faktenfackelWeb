@@ -63,7 +63,9 @@ export const referencesStore = reactive({
     for (const link of (sourceLinks || []) as SourceLink[]) {
       this.links.set(link.code, link)
     }
-    await this.updateSources()
+    await useAsyncData(
+      `update-sources`,
+      () => this.updateSources())
   },
 
   async updateSources() {
