@@ -14,7 +14,7 @@ Das Presseportal von news aktuell wurde 1996 zum ersten Mal gelauncht und verzei
 
 ## Links
 
-- https://de.statista.com/
+- https://www.presseportal.de/
 
 ## Faktenfackel Bewertung
 
@@ -22,4 +22,4 @@ Das Portal spiegelt die Artikel der DPA wider und macht sie zugänglich. Die Kri
 
 ### Fazit
 
-Grundsätzlich glaubwürdige Quelle. Zur Sicherheit 
+Grundsätzlich glaubwürdige Quelle. Im Zweifel zur Sicherheit eine zweite Quelle heranziehen.

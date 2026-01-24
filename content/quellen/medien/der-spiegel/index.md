@@ -28,7 +28,7 @@ Spiegel.de ist das Online-Nachrichtenportal des deutschen Wochenmagazins Der Spi
 
 ## Faktenfackel Bewertung
 
-Der Spiegel ist ein renommiertes Magazin, das zwar eine leichte Tendenz in Richtung links hat, aber im Großen und Ganzen sehr solide recherchierte Artikel veröffentlicht. Spiegel ist einer der wenigen Publikationen, die noch tiefe Investigationsrecherchen in Deutschland machen.-
+Der Spiegel ist ein renommiertes Magazin, das zwar eine leichte Tendenz in Richtung links hat, aber im Großen und Ganzen sehr solide recherchierte Artikel veröffentlicht. Spiegel ist einer der wenigen Publikationen, die noch tiefe Investigationsrecherchen in Deutschland machen.
 
 Analysen zu Media Bias bei
 Der Spiegel zeigen oft eine Tendenz zur US-Perspektive und eine starke Gewichtung westlicher, insbesondere amerikanischer Quellen bei Nahost-Berichterstattung. Forschung deutet auf eine Positionierung im linksliberalen Spektrum hin, wobei verschiedene Studien unterschiedliche Methoden verwenden und teils Schlagzeilen-Häufigkeiten oder Tonalität untersuchen, was die Komplexität medialer Realitätskonstruktion aufzeigt. Kritische Stimmen betonen, dass Spiegel als "Spiegel der Realität" agiert, aber auch aktiv deren Darstellung formt, was durch interne Skandale wie #SpiegelGate die Glaubwürdigkeit beeinflusst hat.￼
