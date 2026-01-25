@@ -39,8 +39,13 @@ export const newsSrc: NewsItem[] = [
   {
     date: new Date('2026-01-19'),
     title: 'Ausführliche Quellenlinks eingeführt, bei "Proteste gegen die AfD sind undemokratisch"',
-  }, {
+  },
+  {
     date: new Date('2026-01-24'),
     title: 'Ausführliche Quellenlinks eingeführt, bei "Einstufung der AfD pausiert"',
+  },
+  {
+    date: new Date('2026-01-25'),
+    title: 'Viele neue Quellen hinzugefügt',
   },
 ]
