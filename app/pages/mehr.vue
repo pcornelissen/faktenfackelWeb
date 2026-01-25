@@ -23,23 +23,27 @@ await definePageData({
           icon="discord-icon"
           :nofollow="true"
           icon-txt="Free Icon von Ahkâm"
-          href="https://discord.faktenfackel.de"
         >
           <p>
             Es gibt ein Faktenfackel Discord, in dem über Faktenchecks, Themenvorschläge und sonstiges rund um
             Faktenfackel diskutiert werden kann.
           </p>
           Links:
-          <a href="https://discord.faktenfackel.de">Einladungslink für den Beitritt</a><br>
-          <a href="https://discord.faktenfackel.de/server">Direktlink zum Server</a>
+          <a
+            href="https://discord.faktenfackel.de"
+            rel="nofollow"
+          >Einladungslink für den Beitritt</a><br>
+          <a
+            href="https://discord.faktenfackel.de/server"
+            rel="nofollow"
+          >Direktlink zum Server</a>
         </SectionsItem>
         <SectionsItem
           title="Youtube"
           sub-title="Man muss nicht immer lesen"
           icon="youtube-icon"
-          :nofollow="true"
+          :nofollow="false"
           icon-txt="Free Icon von Ahkâm"
-          href="https://www.youtube.com/@Faktenfackel"
         >
           <p>
             Wir sind bei Youtube, abonniere den Kanal, um keine Videos zu verpassen.
@@ -49,10 +53,9 @@ await definePageData({
         <SectionsItem
           title="Bluesky"
           sub-title="Besser als X"
-          :nofollow="true"
+          :nofollow="false"
           icon="bluesky-icon"
           icon-txt="Free Icon von iconpacks.net"
-          href="https://bsky.app/profile/faktenfackel.bsky.social"
         >
           <p>
             Wir sind bei Bluesky, abonniere den Kanal, um keine Beiträge zu verpassen oder uns zu schreiben.
@@ -63,9 +66,8 @@ await definePageData({
           title="Mastodon"
           sub-title="Besser als X"
           icon="mastodon-icon"
-          :nofollow="true"
+          :nofollow="false"
           icon-txt="Free Icon von font awesome"
-          href="https://mastodon.social/@faktenfackel"
         >
           <p>
             Wir sind bei Mastodon, abonniere den Kanal in Fediverse, um keine Beiträge zu verpassen oder uns zu
@@ -79,13 +81,15 @@ await definePageData({
           :nofollow="true"
           icon="x-icon"
           icon-txt="Free Icon von font awesome"
-          href="https://x.com/faktenfackel"
         >
           <p>
             Wir sind bei X, abonniere den Kanal auf X, um keine Beiträge zu verpassen oder uns zu schreiben.<br>
             Aber ehrlich, willst du wirklich X nutzen?
           </p>
-          <a href="https://x.com/faktenfackel">Zu X.com</a>
+          <a
+            href="https://x.com/faktenfackel"
+            rel="nofollow"
+          >Zu X.com</a>
         </SectionsItem>
       </Sections>
     </div>

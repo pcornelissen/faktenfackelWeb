@@ -30,7 +30,7 @@ const list = list1.value as Source[]
       Im täglichen Leben begegnen einem immer wieder interessante Links zu Artikeln, Videos etc. Viele sind interessant
       um hier jetzt oder später als Quelle genutzt zu werden.<br>
       Zu diesem Zweck werden sie hier abgelegt und thematisch sortiert. Die Quelle selber wird ggf. auch beschrieben,
-      weil es oft interessant ist, wer die Information erstellt/ausgegeben hat.
+      weil es interessant ist, wer die Information erstellt/ausgegeben hat.
     </p>
     <p>
       Die Quellensammlung ist nach Quellen organisiert und zu den Quellen gibt es dann thematisch sortierte Listen mit
