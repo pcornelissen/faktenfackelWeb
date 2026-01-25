@@ -24,6 +24,38 @@ const tagMap = (
   return r
 }, new Map<string, number>())
 const tagKeys = tagMap.keys().toArray().sort()
+
+const maxCount = Math.max(...tagMap.values())
+const midCount = tagMap.values().reduce((a, b) => a + b) / tagMap.size
+const midMaxCount = Math.max(...tagMap.values().filter(v => v <= midCount))
+
+const baseColor = '#F98C35'
+const midColor = '#F9aCa5'
+const minColor = '#999C95'
+
+function getColor(count: number) {
+  if (count > midCount) {
+    const ratio = (count - midCount) / (maxCount - midCount)
+    const ratioReverse = 1 - ratio
+    return toHex(fromHex(baseColor, 1) * ratio + fromHex(midColor, 1) * ratioReverse,
+      fromHex(baseColor, 3) * ratio + fromHex(midColor, 3) * ratioReverse,
+      fromHex(baseColor, 5) * ratio + fromHex(midColor, 5) * ratioReverse)
+  } else {
+    const ratio = (count) / (midMaxCount)
+    const ratioReverse = 1 - ratio
+    return toHex(fromHex(midColor, 1) * ratio + fromHex(minColor, 1) * ratioReverse,
+      fromHex(midColor, 3) * ratio + fromHex(minColor, 3) * ratioReverse,
+      fromHex(midColor, 5) * ratio + fromHex(minColor, 5) * ratioReverse)
+  }
+}
+
+function fromHex(color: string, pos: number) {
+  return parseInt(color.slice(pos, pos + 2), 16)
+}
+
+function toHex(colorR: number, colorG: number, colorB: number) {
+  return '#' + Math.round(colorR).toString(16) + Math.round(colorG).toString(16) + Math.round(colorB).toString(16)
+}
 </script>
 
 <template>
@@ -31,12 +63,17 @@ const tagKeys = tagMap.keys().toArray().sort()
     <h2 style="margin-top: 0">
       {{ title }}
     </h2>
-    <div class="flex">
+    {{ maxCount }}
+    {{ midCount }}
+    {{ midMaxCount }}
+    <div class="flex flex-wrap">
       <NuxtLink
         v-for="tag in tagKeys"
         :key="tag"
         :to="`/quellen/tags/${tag}`"
         class="tag"
+        :color=" getColor(tagMap.get(tag)||0) "
+        :style="{ backgroundColor: getColor(tagMap.get(tag)||0) }"
       >
         {{ capitalize(tag) }} (#{{ tagMap.get(tag) }})
       </NuxtLink>

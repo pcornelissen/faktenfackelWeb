@@ -34,7 +34,7 @@ const { data: sourcesByLinksRaw }
     : await useAsyncData('sourcelink-sources', () => {
         const builder = queryCollection('quellen').orWhere(
           (query) => {
-            new Set(sourceLinksByTag.map(l => l.path)).forEach(s => query = query.where('path', 'LIKE', '/quellen/%/' + s.split('/')[2]))
+            new Set(sourceLinksByTag.map(l => l.path)).forEach(s => query = query.where('path', 'LIKE', '/quellen/%/' + s.split('/')[3]))
             return query
           },
         )
