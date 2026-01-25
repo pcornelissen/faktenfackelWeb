@@ -3,7 +3,7 @@ date: 2026-01-09
 name: Taylan Kurt
 description: Politiker, Bündnis 90/Die Grünen
 image: https://static.wixstatic.com/media/1e3c58_3e73a8fb5b644bcd948e31b173465ed9~mv2.jpg/v1/crop/x_0,y_417,w_3456,h_4350/fill/w_874,h_1100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9850-bearbeitet.jpg
-tags: [ Die-Grünen, Journalist, Mieten, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
+tags: [ Die Grünen, Journalist, Mieten, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
 ---
 
 ## Über die Quelle

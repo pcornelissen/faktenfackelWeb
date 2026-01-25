@@ -8,7 +8,7 @@ tags: [ AfD, Jurist-in ]
 
 ## Über die Quelle
 
-Beatrix Amelie Ehrengard Eilika von Storch, geborene Herzogin von Oldenburg (* 27. Mai 1971 in Lübeck), ist eine deutsche Politikerin (AfD) und Rechtsanwältin. Sie war von Dezember 2019 bis Juni 2022 stellvertretende Bundessprecherin ihrer Partei. Bei der Bundestagswahl 2017 über die Landesliste der AfD Berlin in den Bundestag gewählt, ist sie seit Oktober 2017 eine der stellvertretenden Fraktionsvorsitzenden der AfD-Bundestagsfraktion. (Wikipedia)
+Beatrix Amelie Ehrengard Eilika von Storch, geborene Herzogin von Oldenburg (* 27. Mai 1971 in Lübeck), ist eine deutsche Politikerin (AfD) und Rechtsanwältin. Sie war von Dezember 2019 bis Juni 2022 stellvertretende Bundessprecherin ihrer Partei. Bei der Bundestagswahl 2017 über die Landesliste der AfD Berlin in den Bundestag gewählt, ist sie seit Oktober 2017 eine der stellvertretenden Fraktionsvorsitzenden der AfD-Bundestagsfraktion. (Wikipedia)
 
 Sie ist auch die Antisemitismusbeauftragte der AfD Bundestagsfraktion.
 
