@@ -1,16 +1,16 @@
 ---
 date: 2026-01-11
 name: Institut der deutschen Wirtschaft
-description: arbeitgeber-nahes Wirtschaftsforschungsinstitut,
+description:  Wirtschaftsforschungsinstitut, Arbeitgeber-nah
 image: https://www.iwkoeln.de/fileadmin/user_upload/Bilder/Downloadcenter/IW-Logo/Logo-IW_Gesellschaftsforschung.png
 tags: [ Forschung, Wirtschaft, Institut ]
 ---
 
 ## Über die Quelle
 
-Das Institut der deutschen Wirtschaft Köln e. V. (IW) mit Sitz in Köln und Büros in Berlin und Brüssel ist ein arbeitgeber-nahes Wirtschafts­forschungs­institut, das von Verbänden und Unternehmen der Wirtschaft finanziert wird.
+Das Institut der deutschen Wirtschaft Köln e. V. (IW) mit Sitz in Köln und Büros in Berlin und Brüssel ist ein Arbeitgeber-nahes Wirtschaftsforschungsinstitut, das von Verbänden und Unternehmen der Wirtschaft finanziert wird.
 
-Trägervereine sind die Bundesvereinigung der Deutschen Arbeitgeberverbände und der Bundesverband der Deutschen Industrie. Die Mitgliedsverbände gehören in der Regel einem dieser Dachverbände an. Weiter können Unternehmen und Institutionen der privaten Wirtschaft Mitglied werden.
+Die Bundesvereinigung der Deutschen Arbeitgeberverbände und der Bundesverband der Deutschen Industrie sind die Trägervereine. Die Mitgliedsverbände gehören in der Regel einem dieser Dachverbände an. Weiter können Unternehmen und Institutionen der privaten Wirtschaft Mitglied werden.
 
 Das IW erarbeitet Analysen und Stellungnahmen zu Fragen der Wirtschafts- und Sozialpolitik, des Bildungs- und Ausbildungssystems sowie der gesellschaftlichen Entwicklung.
 (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Institut_der_deutschen_Wirtschaft))
