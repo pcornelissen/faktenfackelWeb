@@ -8,7 +8,7 @@ tags: [ Creator, Social Media, Facebook, Instagram, Biologie]
 
 ## Über die Quelle
 
-Forrest Valkai ist Biiloge und Content Creator. Er klärt in den Videos zu diversen Themen auf, darunter auch Evolution, Transsexualität und andere biologische Themen.
+Forrest Valkai ist Biologe und Content Creator. Er klärt in den Videos zu diversen Themen auf, darunter auch Evolution, Transsexualität und andere biologische Themen.
 
 ## Links
 
