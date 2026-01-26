@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
-import SourcesList from '~/components/sources/SourcesList.vue'
 import SourceCardsList from '~/components/sources/SourceCardsList.vue'
 
 await definePageData({

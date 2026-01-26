@@ -6,6 +6,7 @@ import type { Source } from '~/utils/referenceData'
 const props = defineProps<{
   source: Source
 }>()
+const source = props.source
 </script>
 
 <template>
