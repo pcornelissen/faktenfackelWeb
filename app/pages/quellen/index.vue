@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
 import SourcesList from '~/components/sources/SourcesList.vue'
+import SourceCardsList from '~/components/sources/SourceCardsList.vue'
 
 await definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
@@ -14,8 +15,8 @@ const basePath = route.path
 
 const { data: list1 } = await useAsyncData(basePath, () => {
   return queryCollection('quellen')
-    .select('date', 'name', 'description', 'path', 'tags')
-    .order('name', 'DESC')
+    .select('date', 'name', 'description', 'path', 'tags', 'image')
+    .order('name', 'ASC')
     .all()
 })
 const list = list1.value as Source[]
@@ -27,8 +28,8 @@ const list = list1.value as Source[]
       Quellensammlung
     </h2>
     <p>
-      Im täglichen Leben begegnen einem immer wieder interessante Links zu Artikeln, Videos etc. Viele sind interessant
-      um hier jetzt oder später als Quelle genutzt zu werden.<br>
+      Im täglichen Leben begegnen einem immer wieder interessante Links zu Artikeln, Videos etc. Viele sind gut geeignet
+      um hier jetzt oder später in Beiträgen genutzt zu werden.<br>
       Zu diesem Zweck werden sie hier abgelegt und thematisch sortiert. Die Quelle selber wird ggf. auch beschrieben,
       weil es interessant ist, wer die Information erstellt/ausgegeben hat.
     </p>
@@ -40,7 +41,7 @@ const list = list1.value as Source[]
       zu können.
     </p>
     <h2>Quellen</h2>
-    <SourcesList
+    <SourceCardsList
       :list="list||[]"
     />
   </div>
