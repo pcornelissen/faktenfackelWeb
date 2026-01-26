@@ -2,7 +2,7 @@
 date: 2026-01-18
 name: Hessenschau
 description: Nachrichtenmagazin des Hessischen Rundfunks
-image: https://www.hessenschau.de/assets_4.31.1/base/icons/logo/brandlogo--mobile.min.svg
+image: https://www.hessen.tourismusnetzwerk.info/wp-content/uploads/2019/04/21369329_1633925226659095_5961737811839717462_n-334x240.jpg
 tags: [ Journalist, Medien, ÖRR ]
 ---
 

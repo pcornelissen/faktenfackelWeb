@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: Markus Lanz
 description: TV-Moderator und Journalist
-image: https://de.wikipedia.org/wiki/Datei:2020-02-13_Dirk_Wiese_(KPFC)_01.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/2021_Markus_Lanz.jpg/500px-2021_Markus_Lanz.jpg
 tags: [ Journalist ]
 ---
 
