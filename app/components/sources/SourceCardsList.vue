@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { capitalize } from '~/utils/stringUtils'
-
 import type { Source } from '~/utils/referenceData'
 import SourceCard from '~/components/sources/SourceCard.vue'
 
