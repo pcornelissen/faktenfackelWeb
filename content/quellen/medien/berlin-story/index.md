@@ -21,7 +21,7 @@ Der Berlin Story Verlag ist der führende Verlag zur Geschichte Berlins. Wer die
 
 ## Faktenfackel Bewertung
 
-Berlin Story bietet eine breite Palette an Nachrichten und Artikeln zu verschiedenen Themen, darunter Politik, Gesellschaft, Kultur und Geschichte. Die Artikel sind oft gut recherchiert und bieten interessante Perspektiven. Allerdings gibt es auch Berichte, die tendenziös oder einseitig wirken können. Es ist wichtig, die Informationen kritisch zu hinterfragen und mit anderen Quellen zu vergleichen.
+Berlin Story bietet eine breite Palette an Nachrichten und Artikeln zu verschiedenen Themen, darunter Politik,  Kultur und Geschichte. Die Artikel sind oft gut recherchiert und bieten interessante Perspektiven. Allerdings gibt es auch Berichte, die tendenziös oder einseitig wirken können. Es ist wichtig, die Informationen kritisch zu hinterfragen und mit anderen Quellen zu vergleichen.
 
 ### Fazit
 

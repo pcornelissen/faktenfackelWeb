@@ -8,7 +8,7 @@ tags: [ Medien, ÖRR ]
 
 ## Über die Quelle
 
-Der Norddeutsche Rundfunk (NDR) ist eine öffentlich-rechtliche Rundfunkanstalt mit Sitz in Hamburg, die für Radio- und Fernsehprogramm im nördlichen Deutschland zuständig ist, insbesondere in Hamburg, Niedersachsen, Schleswig-Holstein und Mecklenburg-Vorpommern. Er produziert regionale Hörfunk- und Fernsehangebote sowie Inhalte für das ARD-Netzwerk, darunter Nachrichten, Kultur, Information und Unterhaltung. Der NDR wird durch den Rundfunkbeitrag finanziert und gehört zur ARD, der Gemeinschaft der öffentlich-rechtlichen Sender in Deutschland.
+Der Norddeutsche Rundfunk (NDR) ist eine öffentlich-rechtliche Rundfunkanstalt mit Sitz in Hamburg, die für Radio- und Fernsehprogramme im nördlichen Deutschland zuständig ist, insbesondere in Hamburg, Niedersachsen, Schleswig-Holstein und Mecklenburg-Vorpommern. Er produziert regionale Hörfunk- und Fernsehangebote sowie Inhalte für das ARD-Netzwerk, darunter Nachrichten, Kultur, Information und Unterhaltung. Der NDR wird durch den Rundfunkbeitrag finanziert und gehört zur ARD, der Gemeinschaft der öffentlich-rechtlichen Sender in Deutschland.
 
 ## Links
 
@@ -16,7 +16,7 @@ Der Norddeutsche Rundfunk (NDR) ist eine öffentlich-rechtliche Rundfunkanstalt 
 
 ## Faktenfackel Bewertung
 
-Der ÖRR ist grundsätzlich eine gute Quelle, die neutral agiert (Auch wenn manche Strömungen das mangels Wissen nicht verstehen). Die Qualität und Auswahl der Inhalte hängt stark von den beteiligten Redaktionen und Journalisten ab. Es gibt sehr qu oder auch durchwachsene Inhalte. 
+Der ÖRR ist grundsätzlich eine gute Quelle, die neutral agiert (Auch wenn manche Strömungen das mangels Wissen nicht verstehen). Die Qualität und Auswahl der Inhalte hängt stark von den beteiligten Redaktionen und Journalisten ab. 
 
 ### Fazit
 

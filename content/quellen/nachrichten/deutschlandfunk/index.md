@@ -8,7 +8,7 @@ tags: [ Journalist, Nachrichten, ÖRR ]
 
 ## Über die Quelle
 
-Der Deutschlandfunk (DLF) ist ein bundesweiter öffentlich-rechtlicher Radiosender und Teil des Deutschlandradios. Er bietet vor allem Nachrichten, Hintergrundberichte, Analysen und Interviews zu Politik, Wirtschaft, Gesellschaft, Wissenschaft und Kultur.
+Der Deutschlandfunk (DLF) ist ein bundesweiter öffentlich-rechtlicher Radiosender und Teil des Deutschlandradios. Er bietet vor allem Nachrichten, Hintergrundberichte, Analysen und Interviews zu Politik, Wirtschaft,  Wissenschaft und Kultur.
 
 Der Deutschlandfunk ist werbefrei, finanziert sich über den Rundfunkbeitrag und hat den Auftrag, sachlich, unabhängig und umfassend zu informieren. Er gilt als eines der seriösesten Informationsangebote im deutschen Hörfunk und richtet sich vor allem an ein politisch und gesellschaftlich interessiertes Publikum.
 

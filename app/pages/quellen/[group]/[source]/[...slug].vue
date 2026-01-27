@@ -3,6 +3,7 @@ import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
+import { referencesStore, extractCodes } from '~/utils/referenceData'
 
 const route = useRoute()
 
@@ -62,6 +63,8 @@ const { data: coList }
           .select('name', 'path')
           .all()
       })
+
+referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
 
 <template>

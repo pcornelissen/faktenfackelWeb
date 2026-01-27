@@ -8,7 +8,7 @@ tags: [ Staatlich, Statistik, Gesellschaft ]
 
 ## Über die Quelle
 
-Informationen, Daten und Statistiken für Gesellschaft, Wirtschaft und Wissenschaft zur Verfügung zu stellen, ist die Kernaufgabe des Statistischen Bundesamtes. Aktuelle Debatten und Entscheidungen werden mit belastbaren Daten, Analysen und der Expertise aus dem Statistischen Bundesamt getroffen und fließen in Gesetzgebungsverfahren und politische Entscheidungsprozesse ein. Das Bundesstatistikgesetz regelt dabei Aufgaben und die Durchführung statistischer Erhebungen nach den Grundsätzen der Neutralität, Objektivität und fachlichen Unabhängigkeit.
+Informationen, Daten und Statistiken für  Wirtschaft und Wissenschaft zur Verfügung zu stellen, ist die Kernaufgabe des Statistischen Bundesamtes. Aktuelle Debatten und Entscheidungen werden mit belastbaren Daten, Analysen und der Expertise aus dem Statistischen Bundesamt getroffen und fließen in Gesetzgebungsverfahren und politische Entscheidungsprozesse ein. Das Bundesstatistikgesetz regelt dabei Aufgaben und die Durchführung statistischer Erhebungen nach den Grundsätzen der Neutralität, Objektivität und fachlichen Unabhängigkeit.
 Unser Ziel ist eine umfassende Verwaltungsdigitalisierung, um Daten und Prozesse im Sinne des bestmöglichen Nutzens zur Verfügung zu stellen. Unsere Data-Governance, Innovationskultur und die Einführung agiler Arbeitsstrukturen unterstützen dieses Ziel. Georeferenzierung und die Registermodernisierung sichern zunehmend die Erfordernisse einer digitalen Gesellschaft und die Bedarfe in der Verwaltung. (Quelle: [Homepage](https://www.destatis.de/DE/Ueber-uns/Organisation/_inhalt.html))
 
 

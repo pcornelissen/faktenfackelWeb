@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
-import { referencesStore } from '~/utils/referenceData'
-import { type MinimarkTree, visit } from 'minimark'
+import { referencesStore, extractCodes } from '~/utils/referenceData'
 
 const route = useRoute()
 
@@ -57,16 +56,6 @@ const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
   month: '2-digit',
   year: 'numeric',
 })
-
-function extractCodes(body: MinimarkTree | undefined): string[] {
-  if (body === undefined) return []
-  const result: string[] = []
-  visit(body, node => node[0] === 'reference', (node) => {
-    result.push(node[1].code as string)
-  })
-
-  return result
-}
 
 referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>

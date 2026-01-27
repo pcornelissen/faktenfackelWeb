@@ -1,4 +1,5 @@
 import { reactive } from 'vue'
+import { type MinimarkTree, visit } from 'minimark'
 
 export type Source = {
   date: string
@@ -17,6 +18,16 @@ export type SourceLink = {
   path: string
   tags: string[]
   coSources: string[]
+}
+
+export function extractCodes(body: MinimarkTree | undefined): string[] {
+  if (body === undefined) return []
+  const result: string[] = []
+  visit(body, node => node[0] === 'reference', (node) => {
+    result.push(node[1].code as string)
+  })
+
+  return result
 }
 
 export const referencesStore = reactive({

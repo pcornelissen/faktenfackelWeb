@@ -12,14 +12,14 @@ Die Zeitschrift Focus hat seit einiger Zeit eine Onlineausgabe unter Focus Onlin
 
 ### Focus (Magazin)
 
-Focus ist ein deutschsprachiges Wochen-Nachrichtenmagazin aus dem Hubert Burda Media-Verlag, gegründet 1993 als Konkurrenz zum "Spiegel". Das Magazin berichtet über Politik, Wirtschaft, Gesellschaft, Kultur und Alltagsthemen. Sie nutzt eher kürzere Texte und Infografiken. Inhaltlich liegt ein Schwerpunkt oft auf wirtschaftlicher Orientierung, kritischen Analysen und Kommentaren aus der "bürgerlichen Perspektive".
+Focus ist ein deutschsprachiges Wochen-Nachrichtenmagazin aus dem Hubert Burda Media-Verlag, gegründet 1993 als Konkurrenz zum "Spiegel". Das Magazin berichtet über Politik, Wirtschaft,  Kultur und Alltagsthemen. Sie nutzt eher kürzere Texte und Infografiken. Inhaltlich liegt ein Schwerpunkt oft auf wirtschaftlicher Orientierung, kritischen Analysen und Kommentaren aus der "bürgerlichen Perspektive".
 
 Die Politische Ausrichtung: Es wird allgemein dem konservativen bzw. liberal-konservativen Spektrum (bürgerlich-konservativ) zugeordnet.
 
 
 ### Focus Online
 
-Focus Online ist das digitale Nachrichtenportal zur Marke "Focus", betrieben von BurdaForward GmbH (ebenfalls Teil der Burda-Gruppe) seit 1996. Es bietet tagesaktuelle Nachrichten, Hintergrundberichte, Analysen und multimediale Inhalte zu Politik, Wirtschaft, Gesellschaft, Kultur, Gesundheit und Unterhaltung. Der Fokus liegt auf schnellen, leicht verständlichen Nachrichtenformaten für ein breites Publikum.
+Focus Online ist das digitale Nachrichtenportal zur Marke "Focus", betrieben von BurdaForward GmbH (ebenfalls Teil der Burda-Gruppe) seit 1996. Es bietet tagesaktuelle Nachrichten, Hintergrundberichte, Analysen und multimediale Inhalte zu Politik, Wirtschaft,  Kultur, Gesundheit und Unterhaltung. Der Fokus liegt auf schnellen, leicht verständlichen Nachrichtenformaten für ein breites Publikum.
  
 ## Links
 
