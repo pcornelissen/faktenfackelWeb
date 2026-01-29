@@ -16,8 +16,8 @@ tags: [ Unabhängig, Antifaschist,  Facebook ]
 
 ## Faktenfackel Bewertung
 
-Die Seite ist als antifaschistische Facebook Seite natürlich eindeutig kontra-rechts und verteilt in der Regel die humoristischen Inhalte oder Informationen anderer Quellen.
+Die Seite ist als antifaschistische Facebook Seite natürlich eindeutig kontra-rechts und verteilt in der Regel die humoristischen antifaschistischen Inhalte oder Informationen anderer Quellen.
 
 ### Fazit
 
-Die Quelle an sich ist weder besonders glaubwürdig noch unglaubwürdig. Man muss im Einzelfall schauen, welche Inhalte weitergeleitet werden und wie vertrauenswürdig diese sind.
+Die Quelle an sich ist weder besonders glaubwürdig noch unglaubwürdig. Man muss im Einzelfall schauen, welche Inhalte weitergeleitet werden und wie vertrauenswürdig diese sind. Offensichtliche Falschinformationen sind nicht bekannt.
