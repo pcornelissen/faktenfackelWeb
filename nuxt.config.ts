@@ -27,6 +27,16 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light',
   },
+  content: {
+    build: {
+      markdown: {
+        toc: {
+          depth: 3,
+          searchDepth: 3,
+        },
+      },
+    },
+  },
   routeRules: {
     '/': { prerender: true },
   },
