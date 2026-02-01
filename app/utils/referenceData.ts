@@ -30,6 +30,11 @@ export function extractCodes(body: MinimarkTree | undefined): string[] {
   return result
 }
 
+function buildSourcePath(path: string) {
+  const segments = path.split('/')
+  return '/quellen/' + segments[2] + '/' + segments[3]
+}
+
 export const referencesStore = reactive({
   sources: new Map<string, Source>(),
   links: new Map<string, SourceLink>(),
@@ -37,7 +42,7 @@ export const referencesStore = reactive({
     return this.links.has(code)
   },
   hasSourceFor(path: string) {
-    return this.sources.has('/quellen/' + path.split('/')[2] + '/' + path.split('/')[3])
+    return this.sources.has(buildSourcePath(path))
   },
   linkByCode(code: string): SourceLink {
     return this.links.get(code) || {
@@ -46,7 +51,7 @@ export const referencesStore = reactive({
     }
   },
   sourceByLinkPath(path: string): Source {
-    return this.sources.get('/quellen/' + path.split('/')[2] + '/' + path.split('/')[3]) || {
+    return this.sources.get(buildSourcePath(path)) || {
       name: path + ' not found',
       date: '', description: '', path: '', tags: [], image: '',
     }
@@ -81,7 +86,7 @@ export const referencesStore = reactive({
 
   async updateSources() {
     const sourcePaths = new Set([...this.links.values()]
-      .map(l => '/quellen/' + l.path.split('/')[2] + '/' + l.path.split('/')[3]))
+      .map(l => buildSourcePath(l.path)))
     const { data: sourcesByLinksRaw }
       = (this.links?.size > 0)
         ? await useAsyncData('sourcelink-sources', () => {
@@ -98,5 +103,6 @@ export const referencesStore = reactive({
     for (const source of (sourcesByLinksRaw?.value || []) as Source[]) {
       this.sources.set(source.path, source)
     }
+    console.log('Sources updated', this.sources.size, 'sources found')
   },
 })

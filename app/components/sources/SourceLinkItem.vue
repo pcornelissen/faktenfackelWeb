@@ -2,6 +2,7 @@
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'
 import type { SourceLink } from '~/utils/referenceData'
+import { Icon } from '@iconify/vue'
 
 const props = defineProps<{
   item: SourceLink
@@ -36,7 +37,14 @@ const props = defineProps<{
           :to="props.item.path"
           class="details"
         >
-          [Details]
+          <Icon
+            icon="mdi:more"
+            :ssr="true"
+            height="16"
+            class="inline"
+            style="margin-top: -2px"
+          />&nbsp;
+          Details
         </NuxtLink>
       </template>
     </SourceLinkTags>
@@ -64,6 +72,9 @@ const props = defineProps<{
   border-radius: 0.2rem;
   font-size: 0.8rem;
   font-weight: 200;
+  background-color: #777;
+  color: #FDCDAEFF;
+
 }
 
 .details:hover {

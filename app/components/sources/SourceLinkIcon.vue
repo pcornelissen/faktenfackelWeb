@@ -10,7 +10,7 @@ function typeToIcon(typeStr: string) {
     case 'youtube':
       return 'i-lucide:youtube'
     case 'pdf':
-      return 'i-lucide:book-text'
+      return 'mdi:file-pdf-box'
     case 'article':
       return 'i-lucide:file-text'
     case 'video':
@@ -20,7 +20,7 @@ function typeToIcon(typeStr: string) {
     case 'book':
       return 'i-lucide:book-open'
     case 'excel':
-      return 'i-lucide:file-spreadsheet'
+      return 'mdi:microsoft-excel'
     default:
       return 'i-lucide:link'
   }
