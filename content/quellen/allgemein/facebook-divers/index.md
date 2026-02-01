@@ -8,7 +8,7 @@ tags: [ Facebook ]
 
 ## Über die Quelle
 
-Diese Quelle ist ein Sammelbecken für Facebook Beiträge, für die keine eigene Quelleninfo angelegt wurde. Das kann später passieren, wenn Bedraf erkannt wird oder sich Beiträge einer Quelle häufen.
+Diese Quelle ist ein Sammelbecken für Facebook Beiträge, für die keine eigene Quelleninfo angelegt wurde. Das kann später passieren, wenn Bedarf erkannt wird oder sich Beiträge einer Quelle häufen.
 
 ## Faktenfackel Bewertung
 

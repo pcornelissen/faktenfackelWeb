@@ -16,9 +16,9 @@ Indymedia ist ein internationales Netzwerk von unabhängigen Medienportalen, das
 
 ## Faktenfackel Bewertung
 
-Indymedia ist an sich nicht glaubwürdig, weil jeder etwas hochladen kann und keine Verifizierung stattfindet. Eine Meldung muss immer durch andere Quellen verifiziert werden.
+Indymedia ist an sich nicht glaubwürdig, weil alle etwas hochladen können und keine Verifizierung stattfindet. Eine Meldung muss immer durch andere Quellen verifiziert werden.
 
-Es ist weder klar, ob die Meldung an sich stimmt, noch ob sie von den Personen kommt, die sie vorgeben zu sein.
+Es ist weder klar, ob die Meldung an sich stimmt, noch ob sie von den Personen kommt, die laut Text die Urheber des Schreibens sind.
 
 ### Fazit
 
