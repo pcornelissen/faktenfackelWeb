@@ -7,7 +7,7 @@ const meta = route.meta
 
 const title = (meta.title || 'Faktenfackel') as string
 const description = (meta.description || 'Wir bringen Licht ins Dunkel') as string
-const image = (meta.image || '/img/logo.png') as string
+const image = (meta.image || '/img/logo.webp') as string
 
 useHead({
   title: title,
