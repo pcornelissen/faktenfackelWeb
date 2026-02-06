@@ -2,7 +2,6 @@
 date: 2026-01-29
 name: Monitor
 description: ARD-Politmagazin, TV-Format
-image: https://www1.wdr.de/daserste/monitor/sendungen/monitorlogo104~_v-gseaclassicxl.jpg
 tags: [ Journalist, ÖRR ]
 ---
 

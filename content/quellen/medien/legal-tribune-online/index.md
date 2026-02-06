@@ -2,7 +2,6 @@
 date: 2026-01-24
 name: Legal Tribune Online
 description: Online- und Printmagazin
-image: https://www.lto.de/assets/Images/logo.svg
 tags: [ Journalist, Zeitschrift, Medien, Jura ]
 ---
 

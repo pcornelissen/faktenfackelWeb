@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Bundesagentur für Arbeit
 description: Bundesbehörde
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bundesagentur_f%C3%BCr_Arbeit-Logo.svg/960px-Bundesagentur_f%C3%BCr_Arbeit-Logo.svg.png
 tags: [ Staatlich, Arbeitsmarkt, Migration ]
 ---
 

@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: X (Twitter) Beiträge
 description: Beiträge von diversen Accounts auf X.com
-image: https://about.x.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png
+image: x.webp
 tags: [ X, Twitter, Social Media ]
 ---
 

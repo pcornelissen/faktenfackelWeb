@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: Bluesky Beiträge
 description: Beiträge von diversen Accounts auf bluesky
-image: https://s.yimg.com/ny/api/res/1.2/OssE575woPxXgo0vPe8gPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk-/https://s.yimg.com/os/creatr-uploaded-images/2023-12/9a321f80-a1b6-11ee-aefd-07ebdd04771f
+imageAuthor: Bluesky
 tags: [ Bluesky ]
 ---
 

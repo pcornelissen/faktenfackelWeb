@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Compact
 description: Verlag, Rechtsorientiert
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Compact-Magazin_logo.svg/1280px-Compact-Magazin_logo.svg.png 
 tags: [ Verlag, Fake News ]
 ---
 

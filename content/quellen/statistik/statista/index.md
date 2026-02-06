@@ -2,7 +2,6 @@
 date: 2026-01-18
 name: Statista
 description: Privates Unternehmen für Statistische Auswertungen
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Statista_logo.svg/1280px-Statista_logo.svg.png
 tags: [ Wissenschaft ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-18
 name: Berlin Story
 description: Online Nachrichtenmagazin
-image: https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_berlinstory_verlag.jpg
 tags: [ Journalist ]
 ---
 

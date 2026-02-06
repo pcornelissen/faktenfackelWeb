@@ -2,7 +2,6 @@
 date: 2026-01-16
 name: Europäisches Parlament
 description: Politische Organisation der EU
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/EP_logo_CMYK_DE.svg/2560px-EP_logo_CMYK_DE.svg.png
 tags: [ Staatlich, Arbeitsmarkt, Sozialsystem ]
 ---
 

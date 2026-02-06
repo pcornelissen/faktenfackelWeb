@@ -2,8 +2,7 @@
 date: 2026-01-14
 name: Aktion Deutschland Hilft
 description: Bündnis der Hilfsorganisationen
-image: https://www.aktion-deutschland-hilft.de/_assets/e10ca1f65b7c7c865d578153d4451616/Images/Header/logo-ADH.svg
-tags: [ Migration, Hilfsorganisation ]
+tags: [ NGO, Migration, Hilfsorganisation ]
 ---
 
 ## Über die Quelle

@@ -2,8 +2,7 @@
 date: 2026-01-15
 name: Pro Asyl
 description: "Förderverein PRO ASYL e.V. – Arbeitsgemeinschaft für Flüchtlinge"
-image: https://www.proasyl.de/wp-content/uploads/Twitter-Logo-400x400-1.jpg
-tags: [ Journalist, Zeitschrift, Medien ]
+tags: [ NGO, Journalist, Zeitschrift, Medien ]
 ---
 
 ## Über die Quelle

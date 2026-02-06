@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Statistisches Bundesamt
 description: Bundesamt für Statistiken rund um Deutschland
-image: https://www.destatis.de/DE/Service/LeichteSprache/Bilder/logo-destatis.jpg?__blob=normal&v=6
 tags: [ Staatlich, Statistik, Gesellschaft ]
 ---
 

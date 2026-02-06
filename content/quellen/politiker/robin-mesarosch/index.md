@@ -2,7 +2,6 @@
 date: 2026-01-07
 name: Robin Mesarosch
 description: SPD Politiker, Journalist
-image: https://robin-mesarosch.de/wp-content/uploads/2023/01/PoetrySlam.jpg
 tags: [ SPD, Journalist, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
 ---
 

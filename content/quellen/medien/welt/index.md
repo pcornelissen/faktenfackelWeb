@@ -2,7 +2,6 @@
 date: 2026-01-14
 name: "Welt"
 description: Print und Onlinemagazin, Springer Verlag
-image: https://upload.wikimedia.org/wikipedia/commons/a/ad/Welt_TV_Logo_2016.png
 tags: [ Journalist, Springer-Presse, Magazin-Online, Magazin-Print ]
 ---
 

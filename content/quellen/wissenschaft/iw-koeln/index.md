@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Institut der deutschen Wirtschaft
 description:  Wirtschaftsforschungsinstitut, Arbeitgeber-nah
-image: https://www.iwkoeln.de/fileadmin/user_upload/Bilder/Downloadcenter/IW-Logo/Logo-IW_Gesellschaftsforschung.png
 tags: [ Forschung, Wirtschaft, Institut ]
 ---
 

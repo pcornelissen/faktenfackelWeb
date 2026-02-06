@@ -2,7 +2,6 @@
 date: 2026-01-07
 name: Moers ist bunt nicht braun
 description: Lokale Facebook Seite
-image: /files/quellen/moers-ist-bunt-nicht-braun.jpg
 tags: [ Unabhängig, Antifaschist,  Facebook ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Dr. Martina Sauer
 description: Bildungseinrichtung
-image: https://le-cdn.website-editor.net/s/4664d11d231148bcb507afa023121402/dms3rep/multi/opt/sauer-1920w-1920w.jpg?Expires=1770376512&Signature=AIUAn3dvjuDRtsqt-AdtyXW9DZDQjhG7qltMmd-GEOSuHUh2df~QHOZ9t4iG0vNCAQtWJNqBlLXYjRMw3sj6cuKUacLm8Lpjs8J-b0-aPAzGd0kvxVFIhM24haWLmxrKDtFwi0BEPfC0kHVumcyRgA4XR4BSoubKWl~-skiXtW-lrrkGG2bbV2oj-1SPZg372MTea8Utw5ShRlREfhQd-R61EhkSi-J5faRPNZcYF~TO0bjP00XHyRVzLgyTFWVdqGamfYlo3EcbqqQaUWXYHgyheQbrjUEgetT0KsjZMiDwVTu8wUiek6MiFh-ftzI9Rec2YAdiVaqqUdw0VP6FOA__&Key-Pair-Id=K2NXBXLF010TJW
 tags: [ Wissenschaft ]
 ---
 

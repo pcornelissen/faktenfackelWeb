@@ -2,8 +2,7 @@
 date: 2026-01-11
 name: IG Metall
 description: Gewerkschaft für die Metall und Elektroindustrie
-image: https://www.igmetall.de/images/-162F20D7D2484C728680FB97EC66497B-imageOriginal_rdax_1680x945_100s.jpg
-tags: [ Gewerkschaft, Metallsektor ]
+tags: [ NGO, Gewerkschaft, Metallsektor ]
 ---
 
 ## Über die Quelle

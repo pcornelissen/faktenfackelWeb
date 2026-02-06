@@ -2,7 +2,7 @@
 date: 2026-01-30
 name: Ulrich Siegmund
 description: AfD Politiker, Bachelor of Arts (Wirtschaftspsychologie, BWL)
-image: https://www.landtag.sachsen-anhalt.de/fileadmin/_processed_/5/7/csm_0002c7_b716ab092a.jpg
+imageAuthor: AFD, Landtag Sachsen-Anhalt
 tags: [ AfD, Jurist-in ]
 ---
 

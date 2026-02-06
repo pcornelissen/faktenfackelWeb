@@ -2,7 +2,6 @@
 date: 2026-01-14
 name: Bundeskriminalamt
 description: Bundesbehörde
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BKA-Logo.svg/960px-BKA-Logo.svg.png
 tags: [ Staatlich, Kriminalität, Strafverfolgung ]
 ---
 

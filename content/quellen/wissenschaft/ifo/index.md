@@ -2,7 +2,6 @@
 date: 2026-01-09
 name: ifo Institut
 description: Wirtschaftsforschungsinstitut
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ifo-institut-logo-RGB-2400dpi_%281%29.png/2560px-Ifo-institut-logo-RGB-2400dpi_%281%29.png
 tags: [ Wissenschaft, Wirtschaft ]
 ---
 

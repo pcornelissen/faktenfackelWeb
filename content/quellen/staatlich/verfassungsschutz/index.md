@@ -2,7 +2,6 @@
 date: 2026-01-18
 name: Verfassungsschutz
 description: Faktencheck-Blog
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Bfvwappen.svg/1280px-Bfvwappen.svg.png
 tags: [ Staatlich, Sicherheit, Nachrichtendienst ]  
 ---
 

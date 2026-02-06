@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Bundeskanzler.de
 description: Bundesbehörde
-image: https://cdn.netzpolitik.org/wp-upload/2023/11/bundeskanzler-logo-echt.png
 tags: [ Staatlich, Regierung ]
 ---
 

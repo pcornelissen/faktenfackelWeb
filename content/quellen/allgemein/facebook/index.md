@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: Facebook Beiträge
 description: Beiträge von diversen Accounts auf Facebook
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/960px-Facebook_Logo_%282019%29.png
+imageAuthor: Facebook 
 tags: [ Facebook ]
 ---
 

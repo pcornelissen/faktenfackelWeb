@@ -2,7 +2,6 @@
 date: 2026-01-18
 name: Instagram, diverse
 description: Verschiedene Links zu Instagram
-image: https://thumbs.dreamstime.com/b/neues-logo-instagram-128373447.jpg
 tags: [ Medien ]
 ---
 

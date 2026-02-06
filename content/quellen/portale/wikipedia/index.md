@@ -2,7 +2,6 @@
 date: 2026-01-09
 name: Wikipedia
 description: Wiki, Online Enzyklopädie
-image: https://de.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg
 tags: [ Unabhängig,  Wiki ]
 ---
 

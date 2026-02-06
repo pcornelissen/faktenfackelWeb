@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Universität Duisburg Essen
 description: Bildungseinrichtung
-image: https://www.mystipendium.de/sites/default/files/uni-duisburg-essen-logo.png
 tags: [ Wissenschaft ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-19
 name: Amnesty International
 description: "Menschenrechtsorganisation"
-image: https://upload.wikimedia.org/wikipedia/de/thumb/2/20/Amnesty_logo_2008.svg/250px-Amnesty_logo_2008.svg.png
 tags: [ NGO, Menschenrechte ]
 ---
 

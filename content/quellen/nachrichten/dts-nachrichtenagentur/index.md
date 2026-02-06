@@ -2,8 +2,7 @@
 date: 2026-01-18
 name: DTS Nachrichtenagentur
 description: Nachrichtenaggregator, wie die DPA
-image: https://www.dts-nachrichtenagentur.de/dts_logo_start.png
-tags: [ Unabhängig,  Antifaschist, Journalist ]
+tags: [ Unabhängig,   Journalist ]
 ---
 
 ## Über die Quelle

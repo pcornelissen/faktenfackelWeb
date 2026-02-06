@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Mediendienst Integration
 description: Recherche-Service für Journalistinnen und Journalisten
-image: https://mediendienst-integration.de/fileadmin/logotypes/fav.svg
 tags: [ Journalist, Zeitschrift, Medien ]
 ---
 

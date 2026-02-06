@@ -2,7 +2,7 @@
 date: 2026-01-11
 name: Erik Türk
 description: Volkswirt, Rentenkammer Wien
-image: https://www.awblog.at/GenticsImageStore/416/416/cropandresize/smart/0/0/110/110/wp-content/uploads/2017/11/Tuerk-Erik.png
+imageAuthor: Erik Türk, LinkedIn
 tags: [ Rente, Wirtschaft ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Prof. Dr. Gerhard Bäcker
 description: Soziologe
-image: https://www.uni-due.de/imperia/md/images/iaq/portraits/baecker.jpg
 tags: [ Sozialwissenschaft, Gesellschaftswissenschaft ]
 ---
 

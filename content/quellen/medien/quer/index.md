@@ -2,7 +2,6 @@
 date: 2026-01-30
 name: quer
 description: BR-Politmagazin, TV-Format
-image: https://upload.wikimedia.org/wikipedia/de/d/d0/Quer_logo.png
 tags: [ Journalist, ÖRR ]
 ---
 

@@ -2,7 +2,7 @@
 date: 2026-01-11
 name: Philine Lietzmann
 description: Journalistin, Focus
-image: https://quadro.burda-forward.de/ctf/7a1f606b-9f36-4fa9-9a44-4957a2f601dd.842772f9-a299-4cc2-bf82-fda5123c60f3.jpg?im=RegionOfInterestCrop%3D%28200%2C200%29%2CregionOfInterest%3D%281352%2C869%29&hash=2fbd93141358483c503f5893d259e042385cda6ff914ac704de64f24169bb78a
+imageAuthor: Philine Lietzmann, Focus Online
 tags: [ Focus, Journalist,  Politik, Wirtschaft ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-30
 name: Frag den Staat
 description: Organisation für Informationsfreiheit
-image: https://media.frag-den-staat.de/files/media/thumbnails/3d/ed/3ded41d1-31d9-4bf5-a04b-4ded2ae5d4e2/logo.png__768x0_subject_location-525%2C115_subsampling-2.png
 tags: [ NGO, Informationsfreiheit ]
 ---
 

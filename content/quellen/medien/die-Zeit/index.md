@@ -2,7 +2,6 @@
 date: 2026-01-24
 name: Die Zeit
 description: Online- und Printmagazin
-image: https://cdn.worldvectorlogo.com/logos/die-zeit-2.svg
 tags: [ Journalist, Zeitschrift, Medien ]
 ---
 

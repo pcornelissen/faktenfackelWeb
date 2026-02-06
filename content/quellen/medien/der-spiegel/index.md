@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Der Spiegel
 description: Online- und Printmagazin
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logo-der_spiegel.svg/960px-Logo-der_spiegel.svg.png
 tags: [ Journalist, Zeitschrift, Medien ]
 ---
 

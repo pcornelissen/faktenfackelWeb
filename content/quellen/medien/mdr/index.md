@@ -2,7 +2,6 @@
 date: 2025-12-13
 name: Mitteldeutscher Rundfunk (MDR)
 description: Öffentlich rechtlicher Rundfunk
-image: https://www.mdr.de/presse/logos/mdr-dachmarke-100-resimage_v-variantBig24x9_w-1024.png
 tags: [ Medien, ÖRR ]
 ---
 

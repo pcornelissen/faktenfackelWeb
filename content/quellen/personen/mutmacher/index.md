@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Der Verrückte Mutmacher
 description: Content Creator, Politik
-image: https://protestwaehlen.de/wp-content/uploads/elementor/thumbs/Protestwaehlen-heisst-gegen-rechts-waehlen-der-verrueckte-mutmacher-7-qirsck7fdf5cikycqpyyuf878f9xejm9qaxh2ie8fc.jpg
 tags: [ Creator, Social Media, Facebook, Instagram, Antifaschist]
 ---
 

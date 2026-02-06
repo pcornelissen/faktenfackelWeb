@@ -2,7 +2,6 @@
 date: 2026-01-30
 name: Indymedia
 description: Offenes Medienportal
-image: https://de.indymedia.org/sites/default/files/logo_0.png 
 tags: [ Medien, Politik ]
 ---
 

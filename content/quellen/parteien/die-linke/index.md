@@ -2,7 +2,6 @@
 date: 2026-01-19
 name: Die Linke
 description: Partei
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Logo_Die_Linke_%282023%29.svg/960px-Logo_Die_Linke_%282023%29.svg.png
 tags: [ Partei, links, Die Linke ]
 ---
 

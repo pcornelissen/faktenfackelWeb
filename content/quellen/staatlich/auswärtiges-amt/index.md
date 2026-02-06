@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Auswärtiges Amt
 description: Bundesbehörde
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ausw%C3%A4rtiges_Amt_Logo.svg/250px-Ausw%C3%A4rtiges_Amt_Logo.svg.png
 tags: [ Staatlich, Internationale Beziehungen ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: "CORRECTIV"
 description: Recherchen für die Gesellschaft
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Logo-CORRECTIVorg.svg/960px-Logo-CORRECTIVorg.svg.png
 tags: [ Faktencheck, Journalismus, NGO ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-18
 name: Landtag Sachsen-Anhalt
 description: Offizielle Website des Landtags von Sachsen-Anhalt
-image: https://www.landtag.sachsen-anhalt.de/_assets/ebada4b407d4601ec74136d96095892c/Images/logo-landtag-sachsen-anhalt-2021.png?1614685837
 tags: [ Staatlich, Sachsen-Anhalt, Parlament ]
 ---
 

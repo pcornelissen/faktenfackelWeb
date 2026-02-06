@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Focus-Online
 description: Onlineausgabe der Zeitschrift Focus
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/FOCUS-online-LOGO.jpg/960px-FOCUS-online-LOGO.jpg
 tags: [ Journalist, Zeitschrift, Medien ]
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-01-25
 name: Marcant
 description: Content Creator
-image: https://storage.ko-fi.com/cdn/useruploads/64d4fac4-e17a-4c4d-9613-620d2bcb480e_7c3dfb66-d07d-45f4-9d43-1fbef1f4466e.png
 tags: [ Creator, Social Media, Facebook, Instagram, Antifaschist]
 ---
 

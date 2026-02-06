@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: Michael Kraske
 description: Journalist und Schriftsteller
-image: https://wr-magazin.de/wp-content/uploads/2025/03/Kraske-1-scaled-1.jpg
+imageAuthor: Paul Maurer
 tags: [ Unabhängig,  Antifaschist, Journalist ]
 ---
 

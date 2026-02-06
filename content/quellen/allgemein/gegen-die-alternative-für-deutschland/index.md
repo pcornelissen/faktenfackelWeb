@@ -2,7 +2,6 @@
 date: 2026-01-29
 name: Gegen die Alternative für Deutschland 
 description: Antifaschistische Facebook Seite
-image: https://scontent-dus1-1.xx.fbcdn.net/v/t39.30808-1/354256565_649237693917572_9003566600667797549_n.jpg
 tags: [ Unabhängig, Antifaschist,  Facebook ]
 ---
 

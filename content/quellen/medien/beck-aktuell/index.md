@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Beck Aktuell
 description: Verlag, Jura
-image: https://rsw.beck.de/images/librariesprovider5/beckdaily/logoakt.png 
 tags: [ Verlag, Jura ]
 ---
 

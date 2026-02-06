@@ -2,7 +2,6 @@
 date: 2026-01-19
 name: Cicero
 description: Magazin für politische Themen, Res Publica Verlags GmbH
-image: https://www.cicero.de/themes/custom/cicero/logo.svg 
 tags: [ Medien, Politik ]
 ---
 

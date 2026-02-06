@@ -2,7 +2,7 @@
 date: 2026-01-07
 name: Dirk Wiese
 description: Politiker, SPD
-image: https://de.wikipedia.org/wiki/Datei:2020-02-13_Dirk_Wiese_(KPFC)_01.jpg
+imageAuthor: Rafael P. D. Suppmann
 tags: [ SPD, Journalist, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
 ---
 

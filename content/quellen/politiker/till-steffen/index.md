@@ -2,7 +2,6 @@
 date: 2026-01-09
 name: Till Steffen
 description: Politiker, Bündnis 90/Die Grünen
-image: https://www.tillsteffen.de/wp-content/uploads/2023/03/till-steffen-draussen-sonnenblumen.jpg
 tags: [ Die Grünen, Journalist, Mieten, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
 ---
 

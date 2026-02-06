@@ -2,7 +2,7 @@
 date: 2026-01-11
 name: Martin Bujard
 description: Forschungsdirektor Bundesinstitut für Bevölkerungsforschung (BiB)
-image: https://cdn3.carinet.de/cms/contents/caritas.de/medien/bilder/fuer-profis/caritaskongress/2016/bujard/bujard-dsc_0087.jpg?w=400&h=300&s=Fit&e=y&k=y&c=-1
+imageAuthor: Caritas
 tags: [ Soziologie, Familien, Politikwissenschaft, Psychologie, Rechtswissenschaft ]
 ---
 

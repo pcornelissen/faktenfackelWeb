@@ -2,7 +2,6 @@
 date: 2026-01-19
 name: Verwaltungsgericht Köln
 description: Verwaltungsgericht des Landes NRW in Köln
-image: https://www.vg-koeln.nrw.de/layout_rwd/images/system_bilder/justizlogo_internet_svg.svg
 tags: [ Staatlich, Gericht ]  
 ---
 

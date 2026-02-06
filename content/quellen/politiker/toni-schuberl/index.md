@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: Toni Schuberl
 description: Politiker, Bündnis 90/Die Grünen, Landtag Bayern
-image: https://www.idowa.de/storage/image/1/3/1/8/688131_schuberl_s100-1434w_1DiVJY_SxWZTv.webp
+imageAuthor: PNP.de
 tags: [ Die Grünen, Agrarpolitik, Klimaschutz, Antifaschist ]
 ---
 

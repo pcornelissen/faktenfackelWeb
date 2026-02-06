@@ -2,7 +2,7 @@
 date: 2026-01-25
 name: Maurice Höfgen
 description: Ökonom, Betriebswirt, Autor & YouTuber
-image: https://mauricehoefgen.com/wp-content/uploads/2024/12/Pressefoto_Maurice-Ho%CC%88fgen_copyright-Andreas-Schmidt-29-2-684x1024.jpg
+imageAuthor: Andreas Schmidt, Pressefoto Maurice Höfgen 
 tags: [ Creator, Social Media, Facebook, Instagram, Antifaschist, Ökonom, Youtube]
 ---
 

@@ -2,7 +2,7 @@
 date: 2026-01-07
 name: Andreas Audretsch
 description: Politiker, Bündnis-90/Die Grünen
-image: https://de.wikipedia.org/wiki/Datei:2020-02-13_Dirk_Wiese_(KPFC)_01.jpg
+imageAuthor: Das Progressive Zentrum
 tags: [ SPD, Journalist, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
 ---
 

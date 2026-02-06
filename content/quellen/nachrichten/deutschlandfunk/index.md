@@ -2,7 +2,6 @@
 date: 2026-01-18
 name: Deutschlandfunk
 description: Presseportal der deutschen Presse Agentur
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Deutschlandfunk_Logo_2017.svg/960px-Deutschlandfunk_Logo_2017.svg.png
 tags: [ Journalist, Nachrichten, ÖRR ]
 ---
 

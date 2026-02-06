@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: Markus Lanz
 description: TV-Moderator und Journalist
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/2021_Markus_Lanz.jpg/500px-2021_Markus_Lanz.jpg
+imageAuthor: Markus Lanz beim Deutschen Fernsehpreis 2021
 tags: [ Journalist ]
 ---
 

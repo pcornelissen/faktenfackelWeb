@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Bundesministerium für Arbeit und Soziales
 description: Bundesministerium
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/BMAS_Logo.svg/960px-BMAS_Logo.svg.png
 tags: [ Staatlich, Arbeitsmarkt, Sozialsystem ]
 ---
 

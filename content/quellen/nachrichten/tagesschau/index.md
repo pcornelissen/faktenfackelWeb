@@ -2,7 +2,6 @@
 date: 2026-01-09
 name: Tagesschau
 description: ARD Nachrichtenformat
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tagesschau.de_logo.svg/960px-Tagesschau.de_logo.svg.png
 tags: [ ARD, Journalist, Nachrichten, ÖRR ]
 ---
 

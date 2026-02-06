@@ -2,7 +2,7 @@
 date: 2026-01-30
 name: Der Reichart
 description: GameDesigner, Video Creator, Eventmanager, Dozent
-image: https://scontent-dus1-1.xx.fbcdn.net/v/t1.6435-1/72862492_2574208295991817_1515374490500988928_n.jpg
+imageAuthor: Der Reichart, Wikipedia
 tags: [ Creator, Social Media, Facebook]
 ---
 

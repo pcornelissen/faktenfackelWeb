@@ -2,7 +2,6 @@
 date: 2026-01-09
 name: Institut für Arbeitsmarkt- und Berufsforschung
 description: Forschungseinrichtung der Bundesagentur für Arbeit
-image: https://iab.de/wp-content/uploads/2022/07/IAB-Logo_de.png
 tags: [ Wissenschaft, Arbeitsmarkt ]
 ---
 

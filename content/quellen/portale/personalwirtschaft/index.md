@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: Personalwirtschaft
 description: Portal von der F.A.Z. BUSINESS MEDIA GmbH (Bekannt durch die Frankfurter Allgemeine Zeitung)
-image: https://upload.wikimedia.org/wikipedia/commons/4/43/Logo-Personalwirtschaft.png
 tags: [ Journalist, Zeitschrift, Medien, Personalwirtschaft ]
 ---
 

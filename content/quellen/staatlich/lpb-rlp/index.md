@@ -1,24 +1,22 @@
 ---
 date: 2026-01-11
-name: Bundeszentrale für politische Bildung
+name: Landeszentrale für politische Bildung, Rheinland Pfalz
 description: Staatliche Institution zur politischen Bildung
-image: https://www.bmi.bund.de/SharedDocs/bilder/DE/logos/behoerden/bpb_logo.jpg?__blob=normal&v=3
 tags: [ Staatlich, Bildung, Politik, Gesellschaft ]
 ---
 
 ## Über die Quelle
 
-Die Bundeszentrale für politische Bildung (bpb) ist eine deutsche Bundesbehörde im Geschäftsbereich des Bundesinnenministeriums mit Sitz in Bonn. Sie wurde 1952 gegründet und hat den gesetzlichen Auftrag, politische Bildung zu fördern, das demokratische Bewusstsein zu stärken und Bürgerinnen und Bürger zur aktiven politischen Teilnahme zu motivieren. Zu ihren Aktivitäten zählen Publikationen, Seminare, Veranstaltungen, Online-Materialien und Bildungsprojekte zu aktuellen politischen, historischen und gesellschaftlichen Themen. (ChatGPT Zusammenfassung, persönlich verifiziert)
+Die Landeszentrale für politische Bildung (lpb) ist eine deutsche Landesbehörde. Analog zur Bundeszentrale für politische Bildung (bzb) ist sie auch eine staatliche Institution zur politischen Bildung.
 
 Die Behörde wurde gegründet, um diese Ziele und Aufgaben zu verfolgen:
 -	Förderung des Verständnisses **politischer Sachverhalte** und **demokratischer Werte**.
 -	Bereitstellung von Informations- und Bildungsangeboten für alle Altersgruppen. Das wird auch gerne in Schulen genutzt, um Schülern die Demokratie in Deutschland zu erklären.
 -	Publikationen wie Zeitschriften, Lehrmaterialien, Jugendmagazine und Online-Dossiers. 
--	Angebote wie Wahl-O-Mat zur Unterstützung von Wahlentscheidungen. 
 
 ## Links
 
-- https://www.bpd.de
+- https://www.lpb.rlp.de/
 
 ## Faktenfackel Bewertung
 

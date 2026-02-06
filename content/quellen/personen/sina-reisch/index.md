@@ -2,7 +2,7 @@
 date: 2026-01-18
 name: Sina Reisch
 description: Klimagerechtigkeitsaktivistin, Podcasterin
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sina_Reisch_am_Tagebau_Vereinigtes_Schleenhain_%28cropped%29.jpg/500px-Sina_Reisch_am_Tagebau_Vereinigtes_Schleenhain_%28cropped%29.jpg
+imageAuthor: Georg Kurz - Ende Gelände
 tags: [ Aktivist, Klimawandel ]
 ---
 

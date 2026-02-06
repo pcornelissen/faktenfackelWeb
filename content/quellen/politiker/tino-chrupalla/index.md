@@ -2,7 +2,7 @@
 date: 2026-01-09
 name: Tino Chrupalla
 description: AfD Politiker und Lackierermeister
-image: https://www.zdf.de/assets/teaser-phoenix-beatrix-von-storch-afd-zur-us-wahl-4656152-100~640x720?cb=1730907491055
+imageAuthor: Deutschlandfunk
 tags: [ AfD, Jurist-in ]
 ---
 

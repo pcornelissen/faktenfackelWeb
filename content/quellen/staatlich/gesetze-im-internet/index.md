@@ -2,7 +2,6 @@
 date: 2026-01-15
 name: "Gesetze im Internet (Portal vom BMJV)"
 description: Bundesministerium der Justiz und Verbraucherschutz
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bundesministerium_der_Justiz_und_f%C3%BCr_Verbraucherschutz_logo.svg/960px-Bundesministerium_der_Justiz_und_f%C3%BCr_Verbraucherschutz_logo.svg.png
 tags: [ Staatlich, Justiz, Verbraucherschutz ]
 ---
 
