@@ -66,7 +66,7 @@
       text-decoration: underline;
     }
 
-    ul, ol, p {
+    ul, ol, p, .content-width {
       max-width: 80ch;
     }
 

@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import { definePageData } from '~/utils/contentUtils'
-import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import type { SourceLink } from '~/utils/referenceData'
+import SourceLinksList from '~/components/sources/SourceLinksList.vue'
+import { calculateSourceImg, extractNameFromPath } from '~/pages/quellen/[group]/sources'
 
 const route = useRoute()
 
@@ -33,7 +34,7 @@ const { data: list1 } = await useAsyncData(basePath + '/links/', () => {
 })
 const list = list1.value as SourceLink[]
 
-const coSource = basePath.split('/').pop()
+const coSource = extractNameFromPath(basePath)
 
 const { data: coList1 }
   = await useAsyncData(basePath + '-colinks', () => {
@@ -46,12 +47,20 @@ const coList = coList1.value as SourceLink[]
 </script>
 
 <template>
-  <div>
+  <div v-if="sourceInfo">
     <lazy-nuxt-img
-      v-if="sourceInfo?.image"
-      :src="sourceInfo.image"
-      class="img"
+      :src="calculateSourceImg(sourceInfo)"
+      :title="`Bildquelle: ©${sourceInfo.imageAuthor || sourceInfo.name}`"
+      placeholder="/files/no-img.svg"
+      placeholder-class="placeholder-img rounded-lg p-2"
+      class="img rounded-lg"
     />
+    <div
+      class="text-sm italic text-gray-400"
+      style="margin-top: -1.2em"
+    >
+      Bildquelle: ©{{ sourceInfo.imageAuthor || sourceInfo.name }}
+    </div>
     <div
       class="layout"
       style="margin-top: -2em"
@@ -78,6 +87,9 @@ const coList = coList1.value as SourceLink[]
         />
       </div>
     </div>
+  </div>
+  <div v-else>
+    Quelle nicht gefunden
   </div>
 </template>
 

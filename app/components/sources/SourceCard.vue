@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
-
 import type { Source } from '~/utils/referenceData'
+import { calculateSourceImg } from '~/pages/quellen/[group]/sources'
 
 const props = defineProps<{
   source: Source
@@ -33,9 +33,11 @@ const source = props.source
       </NuxtLink>
     </template>
     <lazy-nuxt-img
-      v-if="source.image"
-      :src="source.image"
-      class="source-img rounded-2xl"
+      :src="calculateSourceImg(source)"
+      :title="source.imageAuthor ? `Bildquelle: ©${source.imageAuthor}` : ''"
+      placeholder="/files/no-img.svg"
+      placeholder-class="placeholder-img rounded-lg p-2"
+      class="source-img rounded-lg"
     />
     <template #footer>
       <div class="flex flex-wrap">
@@ -57,6 +59,12 @@ const source = props.source
 li {
   background-color: #f2f2f2;
   transition: ease all .5s;
+  img{
+    background-color: #f9f9f9;
+    min-width: 3em;
+    min-height: 3em;
+    margin: 0 auto;
+  }
 }
 
 li:hover {

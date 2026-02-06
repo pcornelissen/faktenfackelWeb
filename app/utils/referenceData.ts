@@ -8,6 +8,7 @@ export type Source = {
   path: string
   tags: string[]
   image: string | null
+  imageAuthor: string | null
 }
 export type SourceLink = {
   date: string
@@ -53,7 +54,7 @@ export const referencesStore = reactive({
   sourceByLinkPath(path: string): Source {
     return this.sources.get(buildSourcePath(path)) || {
       name: path + ' not found',
-      date: '', description: '', path: '', tags: [], image: '',
+      date: '', description: '', path: '', tags: [], image: '', imageAuthor: '',
     }
   },
 
