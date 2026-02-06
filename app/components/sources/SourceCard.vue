@@ -2,6 +2,7 @@
 import { capitalize } from '~/utils/stringUtils'
 import type { Source } from '~/utils/referenceData'
 import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
+import Tag from '~/components/sources/Tag.vue'
 
 const props = defineProps<{
   source: Source
@@ -42,15 +43,11 @@ const source = props.source
     />
     <template #footer>
       <div class="flex flex-wrap">
-        <!-- suppress HtmlUnknownTarget -->
-        <NuxtLink
+        <Tag
           v-for="tag in source.tags"
           :key="tag"
-          :to="`/quellen/tags/${tag}`"
-          class="tag"
-        >
-          {{ capitalize(tag) }}
-        </NuxtLink>
+          :tag="tag"
+        />
       </div>
     </template>
   </UCard>
@@ -80,15 +77,5 @@ li:hover {
   font-size: 0.8rem;
   font-weight: 200;
   color: #999;
-}
-
-.tag {
-  font-size: 0.8rem;
-  font-weight: 200;
-  background-color: var(--color-tertiary);
-  color: #fff;
-  padding: 0.2rem 0.4rem;
-  margin: 0.2rem 0.4rem;
-  border-radius: 0.2rem;
 }
 </style>
