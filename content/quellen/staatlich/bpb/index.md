@@ -2,7 +2,6 @@
 date: 2026-01-11
 name: Bundeszentrale für politische Bildung
 description: Staatliche Institution zur politischen Bildung
-image: https://www.bmi.bund.de/SharedDocs/bilder/DE/logos/behoerden/bpb_logo.jpg?__blob=normal&v=3
 tags: [ Staatlich, Bildung, Politik, Gesellschaft ]
 ---
 

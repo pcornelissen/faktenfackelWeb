@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { capitalize } from '~/utils/stringUtils'
 import type { Source } from '~/utils/referenceData'
 import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
 import Tag from '~/components/sources/Tag.vue'
