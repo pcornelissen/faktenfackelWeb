@@ -36,6 +36,7 @@ export default defineContentConfig({
         name: z.string(),
         description: z.string(),
         image: z.string().or(z.null()),
+        imageAuthor: z.string().or(z.null()),
         tags: z.set(z.string()),
       }),
     }),
