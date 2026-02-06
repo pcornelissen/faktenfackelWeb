@@ -48,4 +48,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-01-25'),
     title: 'Viele neue Quellen hinzugefügt',
   },
+  {
+    date: new Date('2026-02-06'),
+    title: 'Quellenbilder kommen jetzt alle von Faktenfackel und Quellenbilder-Copyright Informationen hinzugefügt',
+  },
 ]
