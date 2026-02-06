@@ -16,6 +16,7 @@ Sebastian Weber, aka Weichreite, ist ein Content Creator aus Borna, der auf dive
 - https://www.youtube.com/@Weichreite
 - https://www.instagram.com/weichreitetv/
 - https://x.com/weichreite
+- https://www.tolerantes-sachsen.de/auf-der-strasse-und-im-parlament-der-rechte-medienaktivist-weichreitetv/
 
 
 ## Faktenfackel Bewertung
