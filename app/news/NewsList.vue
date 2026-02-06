@@ -6,11 +6,11 @@ const props = defineProps<{
 }>()
 
 function limitNews() {
-  return props.limit
+  return (props.limit
     ? newsSrc
-        .sort((a, b) => b.date.getTime() - a.date.getTime())
         .slice(0, props.limit)
-    : newsSrc
+    : newsSrc)
+    .sort((a, b) => b.date.getTime() - a.date.getTime())
 }
 </script>
 
