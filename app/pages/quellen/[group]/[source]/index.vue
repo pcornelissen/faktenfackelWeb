@@ -3,7 +3,7 @@ import { capitalize } from '~/utils/stringUtils'
 import { definePageData } from '~/utils/contentUtils'
 import type { SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
-import { calculateSourceImg, extractNameFromPath } from '~/pages/quellen/[group]/sources'
+import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
 
 const route = useRoute()
 
@@ -50,16 +50,18 @@ const coList = coList1.value as SourceLink[]
   <div v-if="sourceInfo">
     <lazy-nuxt-img
       :src="calculateSourceImg(sourceInfo)"
-      :title="`Bildquelle: ©${sourceInfo.imageAuthor || sourceInfo.name}`"
+      :title="calculateSourceImgAuthor(sourceInfo)"
+      :alt="calculateSourceImgAuthor(sourceInfo)"
       placeholder="/files/no-img.svg"
       placeholder-class="placeholder-img rounded-lg p-2"
       class="img rounded-lg"
+      style="max-width: 80em"
     />
     <div
       class="text-sm italic text-gray-400"
       style="margin-top: -1.2em"
     >
-      Bildquelle: ©{{ sourceInfo.imageAuthor || sourceInfo.name }}
+      {{ calculateSourceImgAuthor(sourceInfo) }}
     </div>
     <div
       class="layout"

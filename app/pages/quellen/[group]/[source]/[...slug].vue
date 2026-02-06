@@ -4,6 +4,7 @@ import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import { referencesStore, extractCodes } from '~/utils/referenceData'
+import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
 
 const route = useRoute()
 
@@ -115,8 +116,9 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
           :href="source.path"
         >
           <lazy-nuxt-img
-            v-if="source?.image"
-            :src="source.image"
+            :src="calculateSourceImg(source)"
+            :title="calculateSourceImgAuthor(source)"
+            :alt="calculateSourceImgAuthor(source)"
             class="source-img"
           />
           <span class="source-name">{{ source.name }}</span></a>

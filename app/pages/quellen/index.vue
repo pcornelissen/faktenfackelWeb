@@ -5,7 +5,7 @@ import SourceCardsList from '~/components/sources/SourceCardsList.vue'
 await definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
   pageHeading: 'Quellenliste',
-  pageSubHeading: 'Nach Quelle, thematisch sortierte Fundstücke, die (auch) hier in Artikeln verwendet werden',
+  pageSubHeading: 'Nach Quelle, thematisch sortierte Fundstücke, die hier in Artikeln verwendet werden (können)',
 })
 
 const route = useRoute()
@@ -14,7 +14,7 @@ const basePath = route.path
 
 const { data: list1 } = await useAsyncData(basePath, () => {
   return queryCollection('quellen')
-    .select('date', 'name', 'description', 'path', 'tags', 'image')
+    .select('date', 'name', 'description', 'path', 'tags', 'image', 'imageAuthor')
     .order('name', 'ASC')
     .all()
 })

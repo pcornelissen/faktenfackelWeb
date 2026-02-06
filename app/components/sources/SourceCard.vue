@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import type { Source } from '~/utils/referenceData'
-import { calculateSourceImg } from '~/pages/quellen/[group]/sources'
+import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
 
 const props = defineProps<{
   source: Source
@@ -34,7 +34,8 @@ const source = props.source
     </template>
     <lazy-nuxt-img
       :src="calculateSourceImg(source)"
-      :title="source.imageAuthor ? `Bildquelle: ©${source.imageAuthor}` : ''"
+      :alt="calculateSourceImgAuthor(source)"
+      :title="calculateSourceImgAuthor(source)"
       placeholder="/files/no-img.svg"
       placeholder-class="placeholder-img rounded-lg p-2"
       class="source-img rounded-lg"

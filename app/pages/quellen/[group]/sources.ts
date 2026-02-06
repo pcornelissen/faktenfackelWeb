@@ -13,3 +13,7 @@ export function calculateSourceImg(source: Source) {
     ? imageName
     : '/files/quellen-img/' + extractCategoryFromPath(source.path) + '/' + imageName
 }
+
+export function calculateSourceImgAuthor(source: Source | null) {
+  return `Bildquelle: ©${source?.imageAuthor || source?.name || 'unbekannt'}`
+}
