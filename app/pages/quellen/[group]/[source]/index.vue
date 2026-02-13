@@ -1,14 +1,17 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import { definePageData } from '~/utils/contentUtils'
-import type { SourceLink } from '~/utils/referenceData'
+import { extractCodes, referencesStore, type SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
+import { handleRenameRedirects } from '~/pages/renames'
 
 const route = useRoute()
 
 const source = route.params.source as string
 const basePath = route.path// `/quellen/${source}`;
+
+handleRenameRedirects(route.path)
 
 const { data: sourceInfo }
   = await
@@ -39,11 +42,18 @@ const coSource = extractNameFromPath(basePath)
 const { data: coList1 }
   = await useAsyncData(basePath + '-colinks', () => {
     const builder = queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%')
-    return builder
-      .select('date', 'title', 'uri', 'type', 'tags', 'path')
-      .all()
+    return builder.all()
   })
 const coList = coList1.value as SourceLink[]
+
+const { data: quotesRaw }
+  = await useAsyncData(basePath + '-quotes', () =>
+    queryCollection('zitate').where('path', 'LIKE', basePath + '/%')
+      .all())
+console.log('quotesRaw', quotesRaw.value, basePath + '/%/')
+const quotes = quotesRaw.value as Quote[] || []
+
+referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
 </script>
 
 <template>
@@ -76,8 +86,18 @@ const coList = coList1.value as SourceLink[]
         />
       </div>
       <div
-        v-if="list.length > 0 || coList.length > 0"
+        v-if="list.length > 0 || coList.length > 0|| quotes.length > 0"
       >
+        <div
+          v-if="quotes.length > 0"
+        >
+          <h2 class="text-2xl font-bold mt-12 mb-5">
+            Zitate
+          </h2>
+          <QuotesList
+            :list="quotes"
+          />
+        </div>
         <SourceLinksList
           v-if="list.length > 0"
           :list="list"

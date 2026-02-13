@@ -2,9 +2,7 @@
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
-import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
-import { extractCodes, referencesStore } from '~/utils/referenceData'
-import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
+import { referencesStore, extractCodes } from '~/utils/referenceData'
 import { handleRenameRedirects } from '~/pages/renames'
 
 const route = useRoute()
@@ -17,13 +15,13 @@ const basePath = route.path
 const sourcePath = getSourceFromPath(route.path)
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%')
+  return queryCollectionItemSurroundings('zitate', basePath).where('path', 'LIKE', sourcePath + '/%')
 })
 
 const { data: source }
   = await
   useAsyncData(
-    `quelle-${slug}`,
+    `zitate-quelle-${slug}`,
     () => {
       return queryCollection('quellen').path(sourcePath).first()
     })
@@ -31,12 +29,12 @@ const { data: source }
 const { data: page }
   = await
   useAsyncData(
-    `quellenlink-${slug}`,
+    `zitate-${slug}`,
     () => {
-      return queryCollection('quellenlinks').path(basePath).first()
+      return queryCollection('zitate').path(basePath).first()
     })
 
-const title = 'Link: ' + (page.value?.title || '')
+const title = (page.value?.title || 'Zitat von ' + source.value?.name || 'unbekannter Quelle')
 
 await definePageData({
   title: title + ' - Faktenfackel',
@@ -45,23 +43,6 @@ await definePageData({
 
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
-
-const coSources = new Set(page.value?.coSources == null ? [] : page.value.coSources)
-
-const { data: coList }
-  = (coSources == null || coSources.size == 0)
-    ? { data: [] }
-    : await useAsyncData(basePath + '-coSources', () => {
-        const builder = queryCollection('quellen').orWhere(
-          (query) => {
-            coSources.values().forEach(s => query = query.where('path', 'LIKE', '/quellen/%/' + s))
-            return query
-          },
-        )
-        return builder
-          .select('name', 'path')
-          .all()
-      })
 
 referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
@@ -83,21 +64,12 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
       v-if="page"
       style="width:fit-content"
     >
-      <h2>Link</h2>
+      <h2>Zitat</h2>
       <div
         class="flex-auto ml-2 row"
       >
         <div class="flex  ">
-          <SourceLinkIcon
-            :type="page.type"
-          />
-          <a
-            :href="page.uri"
-            rel="external"
-            class="link  "
-          >
-            {{ page.title }}
-          </a>
+          {{ page.title }}
         </div>
         <div class="italic text-sm ml-5">
           (Stand: {{ lastChange }})
@@ -106,47 +78,9 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
       <h2>Schlagworte</h2>
       <Tags
         :tags="page.tags"
-        base-path="quellen"
+        base-path="/zitate"
       />
-      <h2>Quelle</h2>
-      <div
-        v-if="source"
-        class="source-link"
-      >
-        <a
-          :href="source.path"
-        >
-          <lazy-nuxt-img
-            :src="calculateSourceImg(source)"
-            :title="calculateSourceImgAuthor(source)"
-            :alt="calculateSourceImgAuthor(source)"
-            class="source-img"
-          />
-          <span class="source-name">{{ source.name }}</span></a>
-      </div>
-      <div
-        v-else
-        class="text-red-500"
-      >
-        Quelle konnte nicht geladen werden!
-      </div>
-
-      <div v-if="coList && coList.length>0">
-        <h2>Weitere beteiligte Quelle{{ coList.length > 1 ? 'n' : '' }}</h2>
-        <ul class="list-disc ml-4">
-          <li
-            v-for="co in coList"
-            :key="co.path"
-          >
-            <nuxt-link :to="co.path">{{ co.name }}</nuxt-link>
-          </li>
-        </ul>
-      </div>
-
       <UPageBody v-if="page.body">
-        <h2 class="mb-2">
-          Link Beschreibung
-        </h2>
         <ContentRenderer
           :value="page"
         />

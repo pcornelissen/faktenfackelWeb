@@ -3,9 +3,10 @@ const menuItems = [
   { name: 'Start', href: '/', active: false },
   { name: 'Faktenchecks', href: '/faktenchecks', active: false },
   { name: 'Glossar', href: '/glossar', active: false },
+  { name: 'Quellen', href: '/quellen', active: false, label: 'Quellensammlung' },
+  { name: 'Zitate', href: '/zitate', active: false },
   { name: 'Änderungen', href: '/news', active: false },
   { name: 'Social Media', href: '/mehr', active: false, label: 'Weitere Webseiten' },
-  { name: 'Quellen', href: '/quellen', active: false, label: 'Quellensammlung' },
 ]
 const route = useRoute()
 
@@ -37,6 +38,12 @@ li {
   font: 16px/1.5 'Ubuntu-Mono', monospace;
   display: inline-block;
   margin-right: 1rem;
+  border: 1px solid transparent;
+  transition: ease all .5s;
+}
+li:hover {
+  border-bottom: 1px solid var(--color-tertiary);
+  transition: ease all .5s;
 }
 
 .item-active {

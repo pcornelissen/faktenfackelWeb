@@ -37,6 +37,16 @@ export type Post = {
   publishedOn: string
 }
 
+export type Quote = {
+  title: string
+  code: string
+  teaser: string
+  path: string
+  tags: string[]
+  date: string
+  publishedOn: string
+}
+
 export function getSourceFromPath(path: string) {
   return path.split('/').slice(0, 4).join('/')
 }

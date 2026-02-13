@@ -28,6 +28,20 @@ export default defineContentConfig({
         tags: z.set(z.string()),
       }),
     }),
+    zitate: defineCollection({
+      type: 'page',
+      source: 'quellen/*/*/zitate/*.md',
+      // Define custom schema for this collection
+      schema: z.object({
+        date: z.date(),
+        code: z.string(),
+        title: z.string(),
+        subject: z.string(),
+        publishedOn: z.date().or(z.null()),
+        tags: z.set(z.string()),
+        teaser: z.string(),
+      }),
+    }),
     quellen: defineCollection({
       type: 'page',
       source: 'quellen/*/*/*.md',

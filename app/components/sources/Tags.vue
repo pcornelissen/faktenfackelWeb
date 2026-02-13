@@ -4,6 +4,7 @@ import Tag from '~/components/sources/Tag.vue'
 
 const props = defineProps<{
   tags: string[]
+  basePath: string
 }>()
 
 const slots = useSlots()
@@ -15,6 +16,7 @@ const slots = useSlots()
       v-for="tag in props.tags"
       :key="tag"
       :tag="tag"
+      :base-path="basePath"
     />
     <div
       v-if="slots.end"

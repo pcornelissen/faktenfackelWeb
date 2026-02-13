@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
-import { capitalize } from '~/utils/stringUtils'
+import { capitalize, dateString } from '~/utils/stringUtils'
 import type { Post } from '~/utils/contentUtils'
 
 const props = defineProps<{
@@ -45,8 +45,8 @@ const props = defineProps<{
             <br>
             <span
               class="lastChange"
-              :title="'Veröffentlicht: '+new Date(item.publishedOn).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })"
-            >Stand {{ new Date(item.date).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' }) }}</span>
+              :title="'Veröffentlicht: '+dateString(item.publishedOn)"
+            >Stand {{ dateString(item.date) }}</span>
           </div>
         </div>
       </li>

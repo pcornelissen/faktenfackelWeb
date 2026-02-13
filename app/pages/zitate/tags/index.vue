@@ -4,15 +4,15 @@ import { capitalize } from '~/utils/stringUtils'
 
 const route = useRoute()
 
-const title = 'Quellenlink-Schlagwörter'
+const title = 'Zitate - Schlagwörter'
 
 await definePageData({
   title: title,
-  pageHeading: 'Faktenfackel - Schlagwörter von Quellenlinks',
+  pageHeading: 'Faktenfackel - Schlagwörter von Zitaten',
 })
 
 const { data: list1 } = await useAsyncData(route.path, () => {
-  return queryCollection('quellenlinks')
+  return queryCollection('zitate')
     .select('tags')
     .all()
 })
@@ -67,7 +67,7 @@ function toHex(colorR: number, colorG: number, colorB: number) {
       <NuxtLink
         v-for="tag in tagKeys"
         :key="tag"
-        :to="`/quellen/tags/${tag}`"
+        :to="`/zitate/tags/${tag}`"
         class="tag"
         :color=" getColor(tagMap.get(tag)||0) "
         :style="{ backgroundColor: getColor(tagMap.get(tag)||0) }"

@@ -21,7 +21,7 @@ function limitNews() {
       :key="item.title"
     >
       <div class="date">
-        {{ item.date.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) }} -
+        {{ dateString(item.date) }} -
       </div>
       <div class="desc">
         {{ item.title }}

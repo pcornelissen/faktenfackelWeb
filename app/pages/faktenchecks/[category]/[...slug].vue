@@ -51,11 +51,7 @@ if (loadInstagram) {
   })
 }
 const lastChangeStr = page.value?.date as string | null || ''
-const lastChange = new Date(lastChangeStr).toLocaleDateString('de-DE', {
-  day: '2-digit',
-  month: '2-digit',
-  year: 'numeric',
-})
+const lastChange = dateString(lastChangeStr)
 
 referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>

@@ -19,7 +19,7 @@ function filter(list: Post[]) {
       :key="item.path"
     >
       <div class="date">
-        {{ new Date(item.date).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) }} -
+        {{ dateString(item.date) }} -
       </div>
       <div class="desc">
         <NuxtLink

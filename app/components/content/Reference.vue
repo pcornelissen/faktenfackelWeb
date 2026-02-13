@@ -6,7 +6,9 @@ const props = defineProps<{
 }>()
 
 const slots = useSlots()
-const link = referencesStore.linkByCode(props.code)
+const link = computed(() => {
+  return referencesStore.linkByCode(props.code)
+})
 </script>
 
 <template>
@@ -20,7 +22,8 @@ const link = referencesStore.linkByCode(props.code)
       name="i-lucide:bug"
       style="color: red"
       :title="`Link nicht gefunden! (${props.code})`"
-    />)
+    />
+    )
   </div>
   <div
     v-else
@@ -41,7 +44,7 @@ const link = referencesStore.linkByCode(props.code)
       :title="`Details zur Quelle von: ${referencesStore.sourceByLinkPath(link.path).name}`"
     >
       <icon
-        name="i-lucide:circle-check-big"
+        name="i-lucide:book-marked"
       />
     </a>
     <icon
@@ -61,13 +64,14 @@ const link = referencesStore.linkByCode(props.code)
 
 .link {
   text-decoration: underline var(--color-tertiary);
+  transition: ease all .5s;
 }
 
 .info-icon {
   color: var(--color-secondary);
   position: relative;
   top: 2px;
-  margin-left: 4px;
+  margin-left: 3px;
   margin-right: 6px;
   transition: ease all .5s;
 }

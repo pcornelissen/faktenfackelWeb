@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
-import SourceLinkTags from '~/components/sources/SourceLinkTags.vue'
+import Tags from '~/components/sources/Tags.vue'
 import type { SourceLink } from '~/utils/referenceData'
 import { Icon } from '@iconify/vue'
 
@@ -28,9 +28,10 @@ const props = defineProps<{
         {{ props.item.title }}
       </a>
     </div>
-    <SourceLinkTags
+    <Tags
       :tags="props.item.tags"
       class="ml-5"
+      base-path="/quellen"
     >
       <template #end>
         <NuxtLink
@@ -47,7 +48,7 @@ const props = defineProps<{
           Details
         </NuxtLink>
       </template>
-    </SourceLinkTags>
+    </Tags>
   </div>
 </template>
 
