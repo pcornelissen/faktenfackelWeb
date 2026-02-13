@@ -41,6 +41,9 @@ export default defineContentConfig({
         tags: z.set(z.string()),
         teaser: z.string(),
       }),
+      indexes: [
+        { columns: ['code'], unique: true },
+      ],
     }),
     quellen: defineCollection({
       type: 'page',
