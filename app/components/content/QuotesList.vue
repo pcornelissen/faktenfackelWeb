@@ -10,7 +10,7 @@ const props = defineProps<{
 }>()
 
 const sourcesRaw
-  = (props.showSource === true
+  = (props.showSource === true && props.list.length > 0
     ? (await useAsyncData('fetch-quote-sources', () => {
         const builder = queryCollection('quellen').orWhere(
           (query) => {

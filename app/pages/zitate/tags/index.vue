@@ -63,6 +63,9 @@ function toHex(colorR: number, colorG: number, colorB: number) {
     <h2 style="margin-top: 0">
       {{ title }}
     </h2>
+    <div class="content-width mb-4">
+      Die Schlagwörter sind alphabetisch sortiert und eingefärbt, um die Menge der zugeordneten Artikel erkenntlich zu machen.
+    </div>
     <div class="flex flex-wrap">
       <NuxtLink
         v-for="tag in tagKeys"

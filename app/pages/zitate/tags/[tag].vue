@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
-import PostsList from '~/components/content/PostsList.vue'
 
 const route = useRoute()
 
@@ -11,7 +10,7 @@ const { data: tagInfo }
   useAsyncData(
     `zitate-${tag}-info`,
     () => {
-      return queryCollection('zitate').path(`/zitate/tags/${tag}/_info`).first()
+      return queryCollection('zitate').path(`/zitate/tags/${tag.toLowerCase()}/_info`).first()
     })
 
 const title = `Zitate zum Schlagwort "${capitalize(tag)}"`
@@ -30,7 +29,6 @@ const list = list1.value as Quote[]
 
 function filter(list: Quote[]) {
   return list
-    .filter(item => !!item.publishedOn && new Date(item.publishedOn) <= new Date())
     .filter(item => item.tags.map((t: string) => t.toLowerCase()).includes(tag.toLowerCase()))
 }
 </script>
@@ -59,7 +57,7 @@ function filter(list: Quote[]) {
       class="intro"
     />
     <QuotesList
-      :list="list"
+      :list="filter(list)"
       :show-source="true"
     />
   </div>

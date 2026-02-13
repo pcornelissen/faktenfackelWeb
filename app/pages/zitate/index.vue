@@ -20,11 +20,24 @@ const list = list1.value as Quote[]
 </script>
 
 <template>
-  <div v-if="list">
+  <div
+    v-if="list"
+    class="content-width"
+  >
     <h1 style="margin-top: 0">
       Zitate
     </h1>
-    Die letzten {{ limit }} Zitate
+    <nuxt-link
+      to="/zitate/tags"
+      style="display: flex; vertical-align: middle; margin-bottom: 1rem;"
+    >
+      <icon
+        name="i-lucide:arrow-right"
+        style="margin-right: 0.5rem; "
+      />Zitate nach Schlagworten</nuxt-link>
+    Die Zitate sind jeweils einer Quelle zugeordnet. Wenn mehrere Personen involviert sind, sind sie im Text zum Zitat referenziert.
+    Viele Zitate haben begleitende Einordnungen und Referenzen.
+    <h2>Die letzten {{ limit }} Zitate</h2>
     <QuotesList
       :list="list"
       :show-source="true"
