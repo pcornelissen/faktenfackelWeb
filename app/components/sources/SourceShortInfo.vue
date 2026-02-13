@@ -20,10 +20,7 @@ const props = defineProps<{
       placeholder="/files/no-img.svg"
       placeholder-class="placeholder-img rounded-lg p-2"
       class="source-img rounded-lg"
-      width="100"
-      height="100"
-      fit="cover"
-      style="margin-top: 4px"
+      style="margin-top: 4px; max-height:100px;max-width:100px"
     />
     <div class="text-sm text-gray-400">
       {{ props.source.name }}
