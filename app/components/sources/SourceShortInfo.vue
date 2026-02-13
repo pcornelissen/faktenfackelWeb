@@ -2,7 +2,7 @@
 import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
 
 const props = defineProps<{
-  source: Source | null
+  source: Source | null | undefined
 }>()
 </script>
 
