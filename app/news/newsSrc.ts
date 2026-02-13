@@ -52,4 +52,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-02-06'),
     title: 'Quellenbilder kommen jetzt alle von Faktenfackel und Quellenbilder-Copyright Informationen hinzugefügt',
   },
+  {
+    date: new Date('2026-02-13'),
+    title: 'Zitate eingeführt, die verlinkt werden können',
+  },
 ]
