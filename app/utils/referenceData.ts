@@ -77,7 +77,12 @@ export const referencesStore = reactive({
       date: '', description: '', path: '', tags: [], image: '', imageAuthor: '',
     }
   },
-
+  hasQuoteCode(codes: Set<string>) {
+    return !!codes?.values()?.toArray().some(c => c.startsWith('quote-'))
+  },
+  hasReferenceCode(codes: Set<string>) {
+    return !!codes?.values()?.toArray().some(c => !c.startsWith('quote-'))
+  },
   async fetchFor(links: string[] | undefined) {
     const codes = new Set<string>(links || [])
     const { data: sourceLinksRaw }
@@ -85,34 +90,38 @@ export const referencesStore = reactive({
       useAsyncData(
         `quellenlinks-for-page`,
         () => {
-          return queryCollection('quellenlinks')
-            .orWhere(
-              (query) => {
-                codes.forEach((s) => {
-                  if (!s.startsWith('quote-')) {
-                    query = query.where('code', '=', s)
-                  }
-                })
-                return query
-              },
-            ).all()
+          return this.hasReferenceCode(codes)
+            ? queryCollection('quellenlinks')
+                .orWhere(
+                  (query) => {
+                    codes.forEach((s) => {
+                      if (!s.startsWith('quote-')) {
+                        query = query.where('code', '=', s)
+                      }
+                    })
+                    return query
+                  },
+                ).all()
+            : Promise.resolve([])
         })
+
     const { data: quotesRaw }
-      = await
-      useAsyncData(
+      = await useAsyncData(
         `zitate-for-page`,
         () => {
-          return queryCollection('zitate')
-            .orWhere(
-              (query) => {
-                codes.forEach((s) => {
-                  if (s.startsWith('quote-')) {
-                    query = query.where('code', '=', s.replace('quote-', ''))
-                  }
-                })
-                return query
-              },
-            ).all()
+          return this.hasQuoteCode(codes)
+            ? queryCollection('zitate')
+                .orWhere(
+                  (query) => {
+                    codes.forEach((s) => {
+                      if (s.startsWith('quote-')) {
+                        query = query.where('code', '=', s.replace('quote-', ''))
+                      }
+                    })
+                    return query
+                  },
+                ).all()
+            : Promise.resolve([])
         })
     const sourceLinks = sourceLinksRaw.value as SourceLink[]
     const quotes = quotesRaw.value as Quote[]
