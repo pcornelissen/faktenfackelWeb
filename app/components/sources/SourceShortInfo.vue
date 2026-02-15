@@ -9,7 +9,7 @@ const props = defineProps<{
 <template>
   <nuxt-link
     v-if="props.source"
-    class="flex mr-2 flex-col block source"
+    class="flex mr-2 flex-col source"
     style="width: 100px"
     :to="props.source.path"
   >
