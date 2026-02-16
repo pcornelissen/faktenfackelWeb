@@ -1,9 +1,9 @@
 ---
-date: 2026-01-07
+date: 2026-02-16
 name: Detlef Gürth
 description: Politiker, CDU
-imageAuthor: 
-tags: [ CDU ]
+imageAuthor: CDU Fraktion Sachsen-Anhalt
+tags: [ CDU, Rassismus, Steuerhinterziehung, Volksverhetzung ]
 ---
 
 ## Über die Quelle
