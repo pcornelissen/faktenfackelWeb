@@ -21,9 +21,9 @@ const route = useRoute()
         />
       </NuxtLink>
       <div class="heading-block">
-        <h1>{{ route.meta.pageHeading }}</h1>
+        <h1>{{ route.meta.pageHeading }}&nbsp;</h1>
         <div class="subtitle">
-          {{ route.meta.pageSubHeading }}
+          {{ route.meta.pageSubHeading }}&nbsp;
         </div>
         <Menu />
       </div>
