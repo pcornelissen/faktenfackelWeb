@@ -27,6 +27,7 @@ await definePageData({
   title: title,
   pageHeading: 'Quelle: ' + title,
   pageSubHeading: sourceInfo.value?.description || 'Quelleninformation',
+  lastmod: new Date(sourceInfo.value?.date || new Date()),
 })
 
 const { data: list1 } = await useAsyncData(basePath + '/links/', () => {

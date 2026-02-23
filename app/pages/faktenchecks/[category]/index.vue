@@ -16,21 +16,13 @@ const { data: categoryInfo }
       return queryCollection('faktenchecks').path(`${basePath}/_info`).first()
     })
 
-const { data: post }
-  = await
-  useAsyncData(
-    `faktencheck-${category}`,
-    () => {
-      return queryCollection('faktenchecks').path(`${basePath}`).first()
-    })
-
-const title = post.value?.title || `Faktenchecks im Bereich ${capitalize(category)}`
+const title = categoryInfo.value?.title || `Faktenchecks im Bereich ${capitalize(category)}`
 
 await definePageData({
   title: title,
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
-  description: post.value?.description,
+  description: categoryInfo.value?.description,
 })
 
 const { data: list1 } = await useAsyncData(route.path, () => {

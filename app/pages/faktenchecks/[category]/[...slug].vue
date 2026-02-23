@@ -33,6 +33,7 @@ await definePageData({
   pageHeading: title,
   pageSubHeading: subtitle as string,
   description: page.value?.description,
+  lastmod: new Date(page.value?.date || new Date()),
 })
 
 useSeoMeta({

@@ -28,6 +28,7 @@ await definePageData({
   pageHeading: title,
   pageSubHeading: '',
   description: page.value?.description,
+  lastmod: new Date(page.value?.date || new Date()),
 })
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)

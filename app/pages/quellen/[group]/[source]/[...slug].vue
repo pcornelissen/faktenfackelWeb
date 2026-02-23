@@ -41,6 +41,7 @@ const title = 'Link: ' + (page.value?.title || '')
 await definePageData({
   title: title + ' - Faktenfackel',
   pageHeading: title,
+  lastmod: new Date(page.value?.date || new Date()),
 })
 
 const lastChangeStr = page.value?.date as string | null || ''

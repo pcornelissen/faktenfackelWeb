@@ -6,6 +6,7 @@ interface PageData {
   pageHeading?: string
   pageSubHeading?: string
   description?: string
+  lastmod?: Date
 }
 
 export function filter(list: Post[], category: string) {
@@ -15,7 +16,12 @@ export function filter(list: Post[], category: string) {
 }
 
 export async function definePageData(data: PageData) {
-  definePageMeta({ title: '', pageHeading: '', pageSubHeading: '', description: '' })
+  definePageMeta({
+    title: '', pageHeading: '', pageSubHeading: '', description: '', sitemap: {
+      priority: 0.8,
+      changefreq: 'daily',
+    },
+  })
   if (data.title)
     useRoute().meta.title = data.title
   if (data.pageHeading)
