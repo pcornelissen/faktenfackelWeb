@@ -93,6 +93,9 @@ await definePageData({
         </SectionsItem>
       </Sections>
     </div>
+    <div class="text-gray-400 text-sm content-width">
+      (Die Rechte der Logos liegen bei den jeweiligen Plattformen. Wir verwenden sie hier nur zur Veranschaulichung und haben keine kommerziellen Absichten damit.)
+    </div>
   </div>
 </template>
 
