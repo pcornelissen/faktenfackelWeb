@@ -11,7 +11,7 @@ await definePageData({
 <template>
   <section class="content">
     <h2 style="margin-top: 0">
-      Über uns
+      Über die Seite Faktenfackel
     </h2>
     <p>
       Willkommen bei <strong>Faktenfackel</strong> – deinem Licht im Dickicht der Desinformation.
@@ -53,7 +53,8 @@ await definePageData({
       </li>
       <li>
         <strong>Etablierte Praktiken</strong><br>
-        Wir halten uns an die <a href="https://ifcncodeofprinciples.poynter.org">IFCN Prinzipien</a>.
+        Wir halten uns an die <a href="https://ifcncodeofprinciples.poynter.org">IFCN Prinzipien</a>. Wir engagieren uns auch bei
+        <a href="https://correctiv.org/projekte/lokal/">CORRECTIV.local</a>.
       </li>
     </ul>
 
@@ -83,7 +84,8 @@ await definePageData({
       Wir sind unabhängig und ihne Geldgeber. In Zukunft wäre es natürlich schön mit <a
         href="https://buymeacoffee.com/faktenfackel"
       >Spenden</a> Unkosten decken zu können. Dabei ist es aber immer
-      wichtig, dass mit Spenden keine Beeinflussung der Beiträge einher geht! Die Spenden unter buy me a coffee sind öffentlich. Andere Kanäle für Spenden existieren zur Zeit nicht und würden dann ebenso transparent gestaltet.
+      wichtig, dass mit Spenden keine Beeinflussung der Beiträge einher geht!<br>
+      Die Spenden unter buy me a coffee sind öffentlich. Andere Kanäle für Spenden existieren zur Zeit nicht und würden dann ebenso transparent gestaltet.
     </p>
     <h2>Wer wir sind</h2>
     <p>
@@ -95,7 +97,7 @@ await definePageData({
     <ul>
       <li>
         <b>Patrick Cornelißen</b>, Diplom Informatiker<br>
-        Themen: Politik, Wissenschaft, Technik<br>
+        Themen: Politik, Wissenschaft, Technik, Gesellschaft<br>
       </li>
     </ul>
   </section>
