@@ -1,5 +1,5 @@
 ---
-date: 2026-03-08
+date: 2026-02-08
 name: Dr. Kai Borrmann
 description: Politiker, AfD
 imageAuthor: IMAGO/Olaf Wagner
