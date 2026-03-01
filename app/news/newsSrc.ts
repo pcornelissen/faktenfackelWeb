@@ -56,4 +56,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-02-13'),
     title: 'Zitate eingeführt, die verlinkt werden können',
   },
+  {
+    date: new Date('2026-03-01'),
+    title: 'Lagerfeuer Bereich eingeführt als Blog/Kolumne',
+  },
 ]
