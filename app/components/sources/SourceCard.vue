@@ -68,7 +68,7 @@ li {
 
 li:hover {
   border-color: var(--ember);
-  box-shadow: 0 2px 8px rgba(232, 68, 10, 0.1);
+  box-shadow: 0 2px 8px rgba(249, 140, 53, 0.15);
 }
 
 .link {

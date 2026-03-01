@@ -31,8 +31,8 @@ const props = defineProps<{
 }
 
 .tag:hover {
-  border-color: var(--ember);
-  color: var(--ember);
+  border-color: var(--flame);
+  color: var(--flame);
   background-color: white;
 }
 </style>

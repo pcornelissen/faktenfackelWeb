@@ -28,7 +28,7 @@ onMounted(() => {
       </div>
 
       <div class="footer-col">
-        <div class="footer-col-title">Inhalte</div>
+        <div class="footer-col-title"><Icon icon="mdi:newspaper-variant-outline" :ssr="true" height="13" />Inhalte</div>
         <ul>
           <li><a href="/faktenchecks">Faktenchecks</a></li>
           <li><a href="/lagerfeuer">Lagerfeuer</a></li>
@@ -39,7 +39,7 @@ onMounted(() => {
       </div>
 
       <div class="footer-col">
-        <div class="footer-col-title">Über uns</div>
+        <div class="footer-col-title"><Icon icon="mdi:information-outline" :ssr="true" height="13" />Über uns</div>
         <ul>
           <li><NuxtLink to="/about">Über Faktenfackel</NuxtLink></li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
@@ -51,7 +51,7 @@ onMounted(() => {
       </div>
 
       <div class="footer-col">
-        <div class="footer-col-title">Rechtliches</div>
+        <div class="footer-col-title"><Icon icon="mdi:scale-balance" :ssr="true" height="13" />Rechtliches</div>
         <ul>
           <li><a href="/impressum">Impressum</a></li>
           <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li>
@@ -113,12 +113,12 @@ onMounted(() => {
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ember);
+  color: var(--flame);
   text-decoration: none;
 }
 
 .support-link:hover {
-  color: var(--flame);
+  color: var(--ember);
 }
 
 .footer-col-title {
@@ -126,9 +126,12 @@ onMounted(() => {
   font-size: 0.72rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--ember);
+  color: var(--flame);
   margin-bottom: 1rem;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .footer-col ul {

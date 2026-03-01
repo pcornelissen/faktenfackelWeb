@@ -81,8 +81,8 @@ const props = defineProps<{
 }
 
 .details:hover {
-  background-color: #C73408;
-  border-color: #C73408;
+  background-color: var(--ember);
+  border-color: var(--ember);
   color: white;
   transform: translateY(-1px);
 }

@@ -79,7 +79,7 @@ const pillars = [
       <!-- NEWS TICKER -->
       <div class="ticker-box">
         <div class="ticker-header">
-          <span class="ticker-label">Letzte Änderungen</span>
+          <span class="ticker-label"><Icon icon="mdi:clock-edit-outline" :ssr="true" height="14" />Letzte Änderungen</span>
           <span class="ticker-dot" />
         </div>
         <ul class="ticker-list">
@@ -141,7 +141,7 @@ const pillars = [
         <!-- KONTAKT BOX -->
         <div class="sidebar-box">
           <div class="sidebar-box-header">
-            <span class="sidebar-box-title"><Icon icon="mdi:email-outline" :ssr="true" height="14" style="vertical-align: middle; margin-right: 4px" /> Kontakt & Feedback</span>
+            <span class="sidebar-box-title"><Icon icon="mdi:email-outline" :ssr="true" height="14" /> Kontakt & Feedback</span>
           </div>
           <div class="sidebar-box-body">
             <p>
@@ -269,7 +269,7 @@ const pillars = [
   gap: 6px;
 }
 
-.btn-primary:hover { background: #C73408; transform: translateY(-1px); }
+.btn-primary:hover { background: var(--flame); filter: brightness(0.88); transform: translateY(-1px); }
 
 .btn-secondary {
   background: transparent;
@@ -296,7 +296,7 @@ const pillars = [
 .ticker-box {
   background: var(--ash);
   border: 1px solid #3D3530;
-  border-top: 2px solid var(--ember);
+  border-top: 2px solid var(--flame);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -315,8 +315,11 @@ const pillars = [
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--ember);
+  color: var(--flame);
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .ticker-dot {
@@ -539,8 +542,11 @@ const pillars = [
   font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--ember);
+  color: var(--flame);
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .sidebar-box-body {
@@ -567,7 +573,7 @@ const pillars = [
   text-align: center;
 }
 
-.support-icon { display: flex; justify-content: center; margin-bottom: 0.6rem; color: var(--ember); }
+.support-icon { display: flex; justify-content: center; margin-bottom: 0.6rem; color: var(--flame); }
 
 .support-title {
   font-family: 'Playfair Display', Georgia, serif;
@@ -579,7 +585,7 @@ const pillars = [
 
 .support-desc {
   font-size: 0.88rem;
-  color: #5A5048;
+  color: #9A8F86;
   margin-bottom: 1rem;
   line-height: 1.5;
 }
