@@ -5,6 +5,7 @@ const { data: navigation } = await useAsyncData('navigation', () => {
     queryCollectionNavigation('glossar'),
     queryCollectionNavigation('quellen'),
     queryCollectionNavigation('quellenlinks'),
+    queryCollectionNavigation('lagerfeuer'),
   ])
 }, {
   transform: data => data.flat(),
@@ -16,6 +17,7 @@ const { data: files } = useLazyAsyncData('search', () => {
     queryCollectionSearchSections('glossar'),
     queryCollectionSearchSections('quellen'),
     queryCollectionSearchSections('quellenlinks'),
+    queryCollectionSearchSections('lagerfeuer'),
   ])
 }, {
   server: false,
@@ -36,7 +38,7 @@ const searchTerm = ref('')
     v-model:search-term="searchTerm"
     :files="files"
     :color-mode="false"
-    placeholder="Suche nach Faktenchecks oder Quellen"
+    placeholder="Suche nach Inhalten"
     :navigation="navigation"
     :fuse="{ resultLimit: 42 }"
     title="Suche"
