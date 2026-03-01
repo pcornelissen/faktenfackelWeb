@@ -74,8 +74,11 @@
       max-width: 80ch;
     }
 
-    a:hover {
+    a {
       text-decoration: underline;
+      text-decoration-color: lightgray;
+    }
+    a:hover {
       color: var(--color-tertiary);
     }
 
