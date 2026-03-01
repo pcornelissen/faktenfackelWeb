@@ -14,31 +14,30 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.93",
+    "@iconify-json/lucide": "^1.2.95",
     "@iconify-json/simple-icons": "^1.2.71",
     "@iconify/icons-lucide": "^1.2.135",
-    "@nuxt/content": "^3.11.2",
-    "@nuxt/eslint": "^1.15.1",
+    "@nuxt/content": "^3.12.0",
+    "@nuxt/eslint": "^1.15.2",
     "@nuxt/fonts": "^0.13.0",
     "@nuxt/hints": "1.0.0-alpha.5",
     "@nuxt/image": "^2.0.0",
     "@nuxt/scripts": "0.13.2",
-    "@nuxt/ui": "^4.4.0",
+    "@nuxt/ui": "^4.5.0",
     "@nuxtjs/sitemap": "7.6.0",
-    "@unhead/vue": "^2.1.4",
+    "@unhead/vue": "^2.1.9",
     "better-sqlite3": "^12.6.2",
     "bindings": "^1.5.0",
-    "content:document-driven": "link:@nuxt/content:document-driven",
     "eslint": "^9.39.3",
     "minimark": "^0.2.0",
     "nuxt": "^4.3.1",
     "nuxt-cloudflare-analytics": "^1.0.8",
     "nuxt-feedme": "2.1.0",
-    "tailwindcss": "^4.2.0",
+    "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3",
-    "vue": "^3.5.28",
+    "vue": "^3.5.29",
     "vue-router": "^4.6.4",
-    "wrangler": "^4.67.0",
+    "wrangler": "^4.69.0",
     "zod": "^4.3.6",
     "zod-to-json-schema": "^3.25.1"
   },
@@ -46,9 +45,9 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify/vue": "^5.0.0",
     "@nuxt/eslint": "^1.11.0",
-    "@types/node": "^25.3.0",
+    "@types/node": "^25.3.3",
     "eslint": "^9.39.1",
-    "eslint-plugin-format": "^1.4.0",
+    "eslint-plugin-format": "^1.5.0",
     "typescript": "^5.9.3",
     "unplugin-icons": "^23.0.1",
     "vue-tsc": "^3.2.5"
@@ -62,7 +61,10 @@
       "unrs-resolver",
       "vue-demi",
       "workerd"
-    ]
+    ],
+    "overrides": {
+      "serialize-javascript@<=7.0.2": ">=7.0.3"
+    }
   },
   "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017"
 }
