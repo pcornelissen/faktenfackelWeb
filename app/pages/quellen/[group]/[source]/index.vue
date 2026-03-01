@@ -51,7 +51,6 @@ const { data: quotesRaw }
   = await useAsyncData(basePath + '-quotes', () =>
     queryCollection('zitate').where('path', 'LIKE', basePath + '/%')
       .all())
-console.log('quotesRaw', quotesRaw.value, basePath + '/%/')
 const quotes = quotesRaw.value as Quote[] || []
 
 referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))

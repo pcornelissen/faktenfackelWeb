@@ -2,6 +2,7 @@
 const menuItems = [
   { name: 'Start', href: '/', active: false },
   { name: 'Faktenchecks', href: '/faktenchecks', active: false },
+  { name: 'Lagerfeuer', href: '/lagerfeuer', active: false },
   { name: 'Glossar', href: '/glossar', active: false },
   { name: 'Quellen', href: '/quellen', active: false, label: 'Quellensammlung' },
   { name: 'Zitate', href: '/zitate', active: false },

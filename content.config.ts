@@ -16,6 +16,18 @@ export default defineContentConfig({
         tags: z.set(z.string()),
       }),
     }),
+    lagerfeuer: defineCollection({
+      type: 'page',
+      source: 'lagerfeuer/**/*.md',
+      // Define custom schema for this collection
+      schema: z.object({
+        date: z.date(),
+        title: z.string(),
+        subtitle: z.string(),
+        publishedOn: z.date().or(z.null()),
+        tags: z.set(z.string()),
+      }),
+    }),
     glossar: defineCollection({
       type: 'page',
       source: 'glossar/**/*.md',

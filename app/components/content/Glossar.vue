@@ -64,6 +64,7 @@ a {
   border-style: dashed;
   border-width: 1pt;
   border-color: white;
+  text-decoration: underline;
 }
 
 a:hover {

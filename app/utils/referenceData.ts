@@ -56,7 +56,6 @@ export const referencesStore = reactive({
     return this.links.has(code)
   },
   hasSourceFor(path: string) {
-    console.log('Checking source for path', path, 'with built path', buildSourcePath(path), this.sources.has(buildSourcePath(path)), this.sources)
     return this.sources.has(buildSourcePath(path))
   },
   linkByCode(code: string): SourceLink {
@@ -135,8 +134,6 @@ export const referencesStore = reactive({
     for (const quote of (quotes || []) as Quote[]) {
       this.quotes.set(quote.code, quote)
     }
-    console.log('links', this.links)
-    console.log('quotes', this.quotes)
     await useAsyncData(
       `update-sources`,
       () => this.updateSources())
@@ -153,7 +150,6 @@ export const referencesStore = reactive({
             const builder = queryCollection('quellen').orWhere(
               (query) => {
                 sourcePaths.forEach((s) => {
-                  console.log('Adding source path to query: ' + s)
                   query = query.where('path', '=', s)
                 })
                 return query
@@ -166,6 +162,5 @@ export const referencesStore = reactive({
     for (const source of (sourcesByLinksRaw?.value || []) as Source[]) {
       this.sources.set(source.path, source)
     }
-    console.log('Sources updated', this.sources.size, 'sources found')
   },
 })

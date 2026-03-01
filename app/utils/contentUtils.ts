@@ -9,10 +9,10 @@ interface PageData {
   lastmod?: Date
 }
 
-export function filter(list: Post[], category: string) {
+export function filter(list: Post[], category: string, sectionName: string = 'faktenchecks') {
   return list
     .filter(item => !item.path.endsWith(`/_info`))
-    .filter(item => item.path.startsWith(`/faktenchecks/${category}/`))
+    .filter(item => item.path.startsWith(`/${sectionName}/${category}/`))
 }
 
 export async function definePageData(data: PageData) {
@@ -37,6 +37,8 @@ export type Post = {
   title: string
   subject: string
   subtitle: string
+  description: string | undefined
+  icon: string | undefined
   path: string
   tags: string[]
   date: string

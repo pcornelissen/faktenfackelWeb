@@ -11,10 +11,8 @@ const renames: RenameRoutes = {
 
 export function handleRenameRedirects(route: string) {
   for (const queryPath in renames) {
-    console.log('Checking', route, queryPath)
     if (route.startsWith(queryPath)) {
       const newUri = renames[queryPath] + route.substring(queryPath.length)
-      console.log('Found redirect', route, newUri)
       navigateTo(newUri)
       return
     }

@@ -50,7 +50,7 @@ const props = defineProps<{
   border-radius: 5px;
   max-width: 30%;
   min-width: 20rem;
-  min-height: 15rem;
+  min-height: 12rem;
 }
 
 .clickable:hover {

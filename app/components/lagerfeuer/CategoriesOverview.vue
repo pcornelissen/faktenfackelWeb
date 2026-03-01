@@ -15,22 +15,22 @@ const slots = useSlots()
     </Sections>
     <Sections>
       <SectionsItem
-        title="Politik"
-        subtitle="Faktenchecks"
-        href="/faktenchecks/politik"
-        icon="politik"
-        icon-txt="Freepik Icon von abstimmung"
+        title="Blog"
+        subtitle="Zu Faktenfackel und allgemeinen Themen"
+        href="/lagerfeuer/blog"
+        icon="blogging"
+        icon-txt="flaticon.com von Rlkas Dzihab"
       >
-        <p>Allgemeine Faktenchecks zu politischen Themen.</p>
+        <p>Blog Beiträge, hauptsächlich zu Faktenfackel selber.</p>
       </SectionsItem>
       <SectionsItem
-        title="Gesellschaft"
-        subtitle="Faktenchecks"
-        href="/faktenchecks/gesellschaft"
-        icon="population"
-        icon-txt="Freepik Icon von population"
+        title="Perspektiven"
+        subtitle="Unsere Perspektive auf Themen"
+        href="/lagerfeuer/perspektiven"
+        icon="feedback"
+        icon-txt="Freepik Icon von Good Ware"
       >
-        <p>Faktenchecks die die Gesellschaft und das Zusammenleben betreffen.</p>
+        <p>Persönliche Beiträge zu Themen</p>
       </SectionsItem>
     </Sections>
     <sections v-if="slots.end">
