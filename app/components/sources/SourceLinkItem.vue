@@ -60,7 +60,7 @@ const props = defineProps<{
 }
 
 .row:hover {
-  background-color: #eee;
+  background-color: #FAF6F0;
 }
 
 .link {
@@ -69,19 +69,21 @@ const props = defineProps<{
 }
 
 .details {
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 0.2rem;
-  font-size: 0.8rem;
-  font-weight: 200;
-  background-color: #777;
-  color: #FDCDAEFF;
-
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: var(--flame);
+  color: white;
+  border: 1px solid var(--flame);
+  text-decoration: none;
+  transition: background 0.15s, transform 0.1s;
 }
 
 .details:hover {
-  background-color: var(--color-tertiary);
-  color: #fff;
-  transition: ease all .5s;
-
+  background-color: #C73408;
+  border-color: #C73408;
+  color: white;
+  transform: translateY(-1px);
 }
 </style>

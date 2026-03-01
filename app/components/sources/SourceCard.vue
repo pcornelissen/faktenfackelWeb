@@ -13,8 +13,8 @@ const source = props.source
   <UCard
     as="li"
     variant="soft"
-    style="width: 18rem"
-    class="mx-4 my-4 cursor-pointer"
+    class="mx-2 my-2 cursor-pointer"
+    style="width: clamp(16rem, 22%, 22rem)"
     @click="navigateTo(source.path)"
   >
     <template #header>
@@ -55,9 +55,10 @@ const source = props.source
 
 <style scoped>
 li {
-  background-color: #f2f2f2;
-  transition: ease all .5s;
-  img{
+  background-color: white;
+  border: 1px solid var(--fackel-border);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  img {
     background-color: #f9f9f9;
     min-width: 3em;
     min-height: 3em;
@@ -66,8 +67,8 @@ li {
 }
 
 li:hover {
-  background-color: #fde2cc;
-  transition: ease all .5s;
+  border-color: var(--ember);
+  box-shadow: 0 2px 8px rgba(232, 68, 10, 0.1);
 }
 
 .link {

@@ -44,7 +44,7 @@ li {
 }
 
 li:hover {
-  background-color: #eee;
+  background-color: #FAF6F0;
 }
 
 .link {
@@ -59,12 +59,12 @@ li:hover {
 
 .title {
   font-size: 0.8rem;
-  font-weight: 200;
-  color: gray;
+  font-weight: 400;
+  color: var(--muted);
   padding-bottom: 0.4rem;
 }
 .teaser {
-  font-weight: 200;
+  font-weight: 300;
   padding-bottom: 0.4rem;
 }
 </style>

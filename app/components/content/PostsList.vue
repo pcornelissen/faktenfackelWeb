@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
-import { capitalize, dateString } from '~/utils/stringUtils'
+import { dateString } from '~/utils/stringUtils'
 import type { Post } from '~/utils/contentUtils'
+import Tag from '~/components/sources/Tag.vue'
 
 const props = defineProps<{
   list: Post[]
@@ -54,14 +55,12 @@ const props = defineProps<{
             >
               {{ item.description }}
             </div>
-            <NuxtLink
+            <Tag
               v-for="tag in item.tags"
               :key="tag"
-              :to="`${props.basePath}/tags/${tag}`"
-              class="tag"
-            >
-              {{ capitalize(tag) }}
-            </NuxtLink>
+              :tag="tag"
+              :base-path="props.basePath"
+            />
           </div>
         </div>
       </li>
@@ -82,7 +81,7 @@ li {
 }
 
 li:hover {
-  background-color: #eee;
+  background-color: #FAF6F0;
 }
 
 .link {
@@ -95,16 +94,6 @@ li:hover {
   font-weight: 200;
   margin-bottom: 0.4rem;
   margin-top: -1em;
-}
-
-.tag {
-  font-size: 0.8rem;
-  font-weight: 200;
-  background-color: var(--color-tertiary);
-  color: #fff;
-  padding: 0.2rem 0.4rem;
-  margin: 0.2rem 0.4rem;
-  border-radius: 0.2rem;
 }
 
 .subtitle {

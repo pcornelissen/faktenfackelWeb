@@ -27,6 +27,12 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light',
   },
+  ui: {
+    colors: {
+      primary: 'orange',
+      neutral: 'stone',
+    },
+  },
   content: {
     build: {
       markdown: {
@@ -124,7 +130,11 @@ export default defineNuxtConfig({
     },
   },
   fonts: {
-    // Options
+    families: [
+      { name: 'Playfair Display', weights: [700, 900] },
+      { name: 'Source Serif 4', weights: [300, 400, 600], styles: ['normal', 'italic'] },
+      { name: 'Ubuntu Mono', weights: [400, 700] },
+    ],
   },
   sitemap: {
     zeroRuntime: true,

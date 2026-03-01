@@ -22,7 +22,7 @@ const props = defineProps<{
       class="source-img rounded-lg"
       style="margin-top: 4px; max-height:100px;max-width:100px"
     />
-    <div class="text-sm text-gray-400">
+    <div class="source-name">
       {{ props.source.name }}
     </div>
   </nuxt-link>
@@ -34,11 +34,18 @@ const props = defineProps<{
   max-height: 5rem;
   display: inline;
 }
-.source{
-  transition: ease all .5s;
+
+.source-name {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 4px;
 }
+
+.source {
+  transition: transform 0.15s;
+}
+
 .source:hover {
   transform: scale(1.05);
-  transition: ease all .5s;
 }
 </style>

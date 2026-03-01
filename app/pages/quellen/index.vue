@@ -42,7 +42,7 @@ const filtered = computed(() => {
 </script>
 
 <template>
-  <div>
+  <div class="wide">
     <h2 style="margin-top: 0">
       Quellensammlung
     </h2>
@@ -95,26 +95,28 @@ p {
 }
 
 a {
-  color: var(--color-secondary);
-}
-
-.filter:first-of-type {
-  background-color: gray;
-  color: white;
+  color: var(--ember);
 }
 
 .filter {
-  background-color: lightgray;
-  padding: 4px;
+  background-color: white;
+  color: var(--ink);
+  padding: 4px 10px;
   border-radius: 4px;
-  border: 1px solid gray;
+  border: 1px solid var(--fackel-border);
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
 }
 
 .filter:hover {
-  border: 1px solid orange;
+  border-color: var(--ember);
+  color: var(--ember);
 }
 
 .filter-active {
-  background-color: var(--color-tertiary) !important;
+  background-color: var(--flame) !important;
+  color: white !important;
+  border-color: var(--flame) !important;
 }
 </style>

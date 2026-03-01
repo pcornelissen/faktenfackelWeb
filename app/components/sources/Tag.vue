@@ -18,18 +18,21 @@ const props = defineProps<{
 
 <style scoped>
 .tag {
-  font-size: 0.8rem;
-  font-weight: 200;
-  background-color: var(--color-tertiary);
-  color: var(--text-color);
-  padding: 0.2rem 0.4rem;
-  margin: 0.2rem 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  background-color: white;
+  color: var(--muted);
+  border: 1px solid var(--fackel-border);
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem 0.3rem;
   border-radius: 0.2rem;
-  transition: ease all .5s;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 
 .tag:hover {
-  color: #fff;
-  transition: ease all .5s;
+  border-color: var(--ember);
+  color: var(--ember);
+  background-color: white;
 }
 </style>

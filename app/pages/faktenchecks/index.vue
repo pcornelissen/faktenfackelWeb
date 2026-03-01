@@ -11,7 +11,7 @@ await definePageData({
 </script>
 
 <template>
-  <div>
+  <div class="wide">
     <Heading
 
       title="Faktenchecks"

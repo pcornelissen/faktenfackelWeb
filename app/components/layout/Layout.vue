@@ -5,23 +5,35 @@ import Footer from '~/components/layout/Footer.vue'
 
 <template>
   <Header />
-
-  <UMain
-    class="content relative overflow-y-auto"
-    as="main"
-  >
+  <main class="main-content">
     <NuxtPage />
-  </UMain>
-
-  <USeparator color="primary" />
-
+  </main>
   <Footer />
 </template>
 
 <style>
-.content {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
+/* Default page content padding – index.vue overrides this with full-bleed sections */
+.main-content {
+  min-height: 60vh;
+}
+
+/* Inner pages get padding + max-width for readability */
+.main-content:not(.no-padding) > *:not(.full-bleed) {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  max-width: 860px;
+}
+
+/* Wide pages (Quellen, Homepage body) can opt out */
+.main-content:not(.no-padding) > .wide {
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 900px) {
+  .main-content:not(.no-padding) > *:not(.full-bleed) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 </style>

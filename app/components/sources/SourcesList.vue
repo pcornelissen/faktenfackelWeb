@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { capitalize } from '~/utils/stringUtils'
-
 import type { Source } from '~/utils/referenceData'
+import Tag from '~/components/sources/Tag.vue'
 
 const props = defineProps<{
   list: Source[]
@@ -31,15 +30,12 @@ const props = defineProps<{
               {{ item.description }}
             </div>
 
-            <!-- suppress HtmlUnknownTarget -->
-            <NuxtLink
+            <Tag
               v-for="tag in item.tags"
               :key="tag"
-              :to="`/quellen/tags/${tag}`"
-              class="tag"
-            >
-              {{ capitalize(tag) }}
-            </NuxtLink>
+              :tag="tag"
+              base-path="/quellen"
+            />
             <br>
           </div>
         </div>
@@ -58,7 +54,7 @@ li {
 }
 
 li:hover {
-  background-color: #eee;
+  background-color: #FAF6F0;
 }
 
 .link {
@@ -68,17 +64,7 @@ li:hover {
 
 .description {
   font-size: 0.8rem;
-  font-weight: 200;
-  color: #999;
-}
-
-.tag {
-  font-size: 0.8rem;
-  font-weight: 200;
-  background-color: var(--color-tertiary);
-  color: #fff;
-  padding: 0.2rem 0.4rem;
-  margin: 0.2rem 0.4rem;
-  border-radius: 0.2rem;
+  font-weight: 300;
+  color: var(--muted);
 }
 </style>
