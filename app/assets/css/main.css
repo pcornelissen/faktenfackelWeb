@@ -40,6 +40,10 @@
     transition: ease all .5s;
   }
 
+  p {
+   margin-bottom: 1em;
+  }
+
   .content {
     h1 {
       @apply mb-4;
@@ -49,12 +53,14 @@
       @apply mt-8;
       @apply mb-4;
     }
+
     h3 {
       @apply font-bold;
       font-size: 1.25rem;
       @apply mt-4;
       @apply mb-2;
     }
+
     h4 {
       @apply font-bold;
       font-size: 1.15rem;
@@ -78,6 +84,7 @@
       text-decoration: underline;
       text-decoration-color: lightgray;
     }
+
     a:hover {
       color: var(--color-tertiary);
     }
