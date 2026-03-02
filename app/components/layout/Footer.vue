@@ -84,7 +84,6 @@ onMounted(() => {
         <ul>
           <li><a href="/impressum">Impressum</a></li>
           <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li>
-
         </ul>
       </div>
     </div>

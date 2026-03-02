@@ -23,6 +23,8 @@ import Footer from '~/components/layout/Footer.vue'
   padding-right: 2rem;
   padding-top: 2rem;
   max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Wide pages (Quellen, Homepage body) can opt out */

@@ -41,7 +41,9 @@ await referencesStore.fetchFor(extractCodes(page.value?.body))
 
 <template>
   <div>
-    <BackLink :to="sourcePath">Zur Quelle "{{ source?.name }}" springen</BackLink>
+    <BackLink :to="sourcePath">
+      Zur Quelle "{{ source?.name }}" springen
+    </BackLink>
 
     <div v-if="page">
       <div class="article-header">

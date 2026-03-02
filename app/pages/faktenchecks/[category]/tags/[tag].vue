@@ -48,17 +48,9 @@ function filter(list: Post[]) {
 
 <template>
   <div v-if="list">
-    <NuxtLink
-      :to="`/faktenchecks/${category}`"
-      style="display: inline-flex;
-    vertical-align: middle;"
-    >
-      <icon
-        name="i-lucide:arrow-left"
-        style="margin-right: 0.5rem;"
-      />
+    <BackLink :to="`/faktenchecks/${category}`">
       Zurück zum Bereich {{ capitalize(category) }}
-    </NuxtLink>
+    </BackLink>
 
     <h1 style="margin-top: 1rem">
       {{ title }}

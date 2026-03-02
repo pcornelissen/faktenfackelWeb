@@ -30,7 +30,9 @@ const lastChange = dateString(lastChangeStr)
 
 <template>
   <div>
-    <BackLink to="/glossar">Zurück zum Glossar</BackLink>
+    <BackLink to="/glossar">
+      Zurück zum Glossar
+    </BackLink>
 
     <div v-if="page">
       <div class="article-header">

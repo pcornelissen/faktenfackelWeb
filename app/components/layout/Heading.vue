@@ -13,11 +13,18 @@ const props = defineProps<{
       v-if="props.icon"
       class="shrink-0 mr-2"
     >
-      <img
-        :src="`/img/categories/${props.icon}.png`"
-        :alt="`Bild für ${title}`"
-        :title="props.iconTxt"
-      >
+      <picture>
+        <source
+          type="image/webp"
+          :srcset="`/img/categories/opt/${props.icon}-64.webp 64w, /img/categories/opt/${props.icon}-128.webp 128w`"
+          sizes="40px"
+        >
+        <img
+          :src="`/img/categories/${props.icon}.png`"
+          :alt="`Bild für ${title}`"
+          :title="props.iconTxt"
+        >
+      </picture>
     </div>
     <div class="flex-auto">
       <h2>{{ props.title }}</h2>

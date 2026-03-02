@@ -87,26 +87,26 @@ export const referencesStore = reactive({
 
     const sourceLinks: SourceLink[] = this.hasReferenceCode(codes)
       ? await queryCollection('quellenlinks')
-          .orWhere((query) => {
-            codes.forEach((s) => {
-              if (!s.startsWith('quote-')) {
-                query = query.where('code', '=', s)
-              }
-            })
-            return query
-          }).all() as SourceLink[]
+        .orWhere((query) => {
+          codes.forEach((s) => {
+            if (!s.startsWith('quote-')) {
+              query = query.where('code', '=', s)
+            }
+          })
+          return query
+        }).all() as SourceLink[]
       : []
 
     const quotes: Quote[] = this.hasQuoteCode(codes)
       ? await queryCollection('zitate')
-          .orWhere((query) => {
-            codes.forEach((s) => {
-              if (s.startsWith('quote-')) {
-                query = query.where('code', '=', s.replace('quote-', ''))
-              }
-            })
-            return query
-          }).all() as Quote[]
+        .orWhere((query) => {
+          codes.forEach((s) => {
+            if (s.startsWith('quote-')) {
+              query = query.where('code', '=', s.replace('quote-', ''))
+            }
+          })
+          return query
+        }).all() as Quote[]
       : []
 
     this.links.clear()

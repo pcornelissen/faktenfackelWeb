@@ -65,7 +65,9 @@ await referencesStore.fetchFor(extractCodes(page.value?.body))
 
 <template>
   <div>
-    <BackLink :to="categoryPath">Zurück zum Bereich {{ capitalize(category) }}</BackLink>
+    <BackLink :to="categoryPath">
+      Zurück zum Bereich {{ capitalize(category) }}
+    </BackLink>
 
     <div v-if="page">
       <div class="article-header">
