@@ -84,59 +84,42 @@ export const referencesStore = reactive({
   },
   async fetchFor(links: string[] | undefined) {
     const codes = new Set<string>(links || [])
-    const { data: sourceLinksRaw }
-      = await
-      useAsyncData(
-        `quellenlinks-for-page`,
-        () => {
-          return this.hasReferenceCode(codes)
-            ? queryCollection('quellenlinks')
-                .orWhere(
-                  (query) => {
-                    codes.forEach((s) => {
-                      if (!s.startsWith('quote-')) {
-                        query = query.where('code', '=', s)
-                      }
-                    })
-                    return query
-                  },
-                ).all()
-            : Promise.resolve([])
-        })
 
-    const { data: quotesRaw }
-      = await useAsyncData(
-        `zitate-for-page`,
-        () => {
-          return this.hasQuoteCode(codes)
-            ? queryCollection('zitate')
-                .orWhere(
-                  (query) => {
-                    codes.forEach((s) => {
-                      if (s.startsWith('quote-')) {
-                        query = query.where('code', '=', s.replace('quote-', ''))
-                      }
-                    })
-                    return query
-                  },
-                ).all()
-            : Promise.resolve([])
-        })
-    const sourceLinks = sourceLinksRaw.value as SourceLink[]
-    const quotes = quotesRaw.value as Quote[]
+    const sourceLinks: SourceLink[] = this.hasReferenceCode(codes)
+      ? await queryCollection('quellenlinks')
+          .orWhere((query) => {
+            codes.forEach((s) => {
+              if (!s.startsWith('quote-')) {
+                query = query.where('code', '=', s)
+              }
+            })
+            return query
+          }).all() as SourceLink[]
+      : []
+
+    const quotes: Quote[] = this.hasQuoteCode(codes)
+      ? await queryCollection('zitate')
+          .orWhere((query) => {
+            codes.forEach((s) => {
+              if (s.startsWith('quote-')) {
+                query = query.where('code', '=', s.replace('quote-', ''))
+              }
+            })
+            return query
+          }).all() as Quote[]
+      : []
+
     this.links.clear()
     this.quotes.clear()
     this.sources.clear()
 
-    for (const link of (sourceLinks || []) as SourceLink[]) {
+    for (const link of sourceLinks) {
       this.links.set(link.code, link)
     }
-    for (const quote of (quotes || []) as Quote[]) {
+    for (const quote of quotes) {
       this.quotes.set(quote.code, quote)
     }
-    await useAsyncData(
-      `update-sources`,
-      () => this.updateSources())
+    await this.updateSources()
   },
 
   async updateSources() {
@@ -144,22 +127,17 @@ export const referencesStore = reactive({
       ...this.links.values().map(l => buildSourcePath(l.path)),
       ...this.quotes.values().map(l => buildSourcePath(l.path)),
     ])
-    const { data: sourcesByLinksRaw }
-      = (this.links?.size + this.quotes?.size > 0)
-        ? await useAsyncData('reference-sources', () => {
-            const builder = queryCollection('quellen').orWhere(
-              (query) => {
-                sourcePaths.forEach((s) => {
-                  query = query.where('path', '=', s)
-                })
-                return query
-              },
-            )
-            return builder
-              .all()
-          })
-        : { data: { value: [] } }
-    for (const source of (sourcesByLinksRaw?.value || []) as Source[]) {
+    if (this.links.size + this.quotes.size === 0) return
+
+    const sources = await queryCollection('quellen')
+      .orWhere((query) => {
+        sourcePaths.forEach((s) => {
+          query = query.where('path', '=', s)
+        })
+        return query
+      }).all() as Source[]
+
+    for (const source of sources) {
       this.sources.set(source.path, source)
     }
   },

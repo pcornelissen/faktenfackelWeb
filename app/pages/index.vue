@@ -14,6 +14,10 @@ const recentNews = [...newsSrc]
   .sort((a, b) => b.date.getTime() - a.date.getTime())
   .slice(0, 4)
 
+function pillarImgName(iconPath: string) {
+  return iconPath.replace('/img/categories/', '').replace('.png', '')
+}
+
 // Bereiche / Pillars
 const pillars = [
   {
@@ -122,11 +126,18 @@ const pillars = [
           :href="p.href"
           class="pillar"
         >
-          <img
-            :src="p.icon"
-            :alt="p.title"
-            class="pillar-icon"
-          >
+          <picture>
+            <source
+              type="image/webp"
+              :srcset="`/img/categories/opt/${pillarImgName(p.icon)}-64.webp 64w, /img/categories/opt/${pillarImgName(p.icon)}-128.webp 128w`"
+              sizes="52px"
+            >
+            <img
+              :src="p.icon"
+              :alt="p.title"
+              class="pillar-icon"
+            >
+          </picture>
           <h3 class="pillar-title">{{ p.title }}</h3>
           <div class="pillar-label">{{ p.label }}</div>
           <p class="pillar-desc">{{ p.desc }}</p>
@@ -144,16 +155,28 @@ const pillars = [
           <!-- NEUESTE ARTIKEL -->
           <div class="section-header">
             <h2 class="section-title">
-              Neueste Artikel
+              Neueste Faktenchecks
               <span class="badge badge-new">NEU</span>
             </h2>
             <a
               href="/faktenchecks"
               class="section-link"
-            >Bereich wählen →</a>
+            >Alle Faktenchecks →</a>
           </div>
 
           <RecentPosts />
+
+          <div class="section-header section-header--spaced">
+            <h2 class="section-title">
+              Neueste Lagerfeuer-Artikel
+            </h2>
+            <a
+              href="/lagerfeuer"
+              class="section-link"
+            >Alle Lagerfeuer-Artikel →</a>
+          </div>
+
+          <RecentLagerfeuer />
         </div>
 
         <!-- SIDEBAR -->
@@ -472,7 +495,8 @@ const pillars = [
 
 .pillar:hover::before { transform: scaleX(1); }
 
-.pillar-icon { width: 52px; height: 52px; object-fit: contain; margin-bottom: 0.3rem; align-self: center; }
+.pillar picture { display: block; align-self: center; margin-bottom: 0.3rem; line-height: 0; }
+.pillar-icon { width: 52px; height: 52px; object-fit: contain; }
 
 .pillar-label {
   font-family: 'Ubuntu Mono', monospace;
@@ -526,6 +550,10 @@ const pillars = [
 }
 
 /* ── SECTION HEADER ── */
+.section-header--spaced {
+  margin-top: 2.5rem;
+}
+
 .section-header {
   display: flex;
   align-items: baseline;

@@ -84,7 +84,7 @@ onMounted(() => {
         <ul>
           <li><a href="/impressum">Impressum</a></li>
           <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li>
-          <li><a href="mailto:kontakt@faktenfackel.de">kontakt@faktenfackel.de</a></li>
+
         </ul>
       </div>
     </div>

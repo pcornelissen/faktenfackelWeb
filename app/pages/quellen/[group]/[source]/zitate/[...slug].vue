@@ -36,21 +36,12 @@ await definePageData({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
-referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
 
 <template>
   <div>
-    <NuxtLink
-      :to="sourcePath"
-      style="display: inline-flex; vertical-align: middle;"
-    >
-      <icon
-        name="i-lucide:arrow-left"
-        style="margin-right: 0.5rem;"
-      />
-      Zur Quelle "{{ source?.name }}" springen
-    </NuxtLink>
+    <BackLink :to="sourcePath">Zur Quelle "{{ source?.name }}" springen</BackLink>
 
     <div v-if="page">
       <div class="article-header">

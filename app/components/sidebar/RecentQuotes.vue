@@ -6,7 +6,7 @@ const { data: recentQuotesRaw } = await useAsyncData('recent-zitate', () =>
     .select('path', 'title', 'teaser', 'date')
     .where('path', 'NOT LIKE', '%/_info')
     .order('date', 'DESC')
-    .limit(4)
+    .limit(3)
     .all(),
 )
 const recentQuotes = recentQuotesRaw.value as Quote[]

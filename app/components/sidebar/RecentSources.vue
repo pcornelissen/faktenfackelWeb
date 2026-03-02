@@ -5,7 +5,7 @@ const { data: recentLinksRaw } = await useAsyncData('recent-quellenlinks', () =>
   queryCollection('quellenlinks')
     .select('path', 'title', 'date', 'tags')
     .order('date', 'DESC')
-    .limit(4)
+    .limit(3)
     .all(),
 )
 const recentLinks = recentLinksRaw.value as SourceLink[]

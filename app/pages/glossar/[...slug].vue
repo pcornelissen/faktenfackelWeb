@@ -30,16 +30,7 @@ const lastChange = dateString(lastChangeStr)
 
 <template>
   <div>
-    <NuxtLink
-      to="/glossar"
-      style="display: inline-flex; vertical-align: middle;"
-    >
-      <icon
-        name="i-lucide:arrow-left"
-        style="margin-right: 0.5rem;"
-      />
-      Zurück zum Glossar
-    </NuxtLink>
+    <BackLink to="/glossar">Zurück zum Glossar</BackLink>
 
     <div v-if="page">
       <div class="article-header">

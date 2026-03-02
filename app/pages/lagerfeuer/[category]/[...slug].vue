@@ -40,21 +40,12 @@ useSeoMeta({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
-referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
 
 <template>
   <div>
-    <NuxtLink
-      :to="categoryPath"
-      style="display: inline-flex; vertical-align: middle;"
-    >
-      <icon
-        name="i-lucide:arrow-left"
-        style="margin-right: 0.5rem;"
-      />
-      Zurück zum Bereich {{ capitalize(category) }}
-    </NuxtLink>
+    <BackLink :to="categoryPath">Zurück zum Bereich {{ capitalize(category) }}</BackLink>
 
     <div v-if="page">
       <div class="article-header">

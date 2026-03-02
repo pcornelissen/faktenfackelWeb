@@ -53,7 +53,7 @@ const { data: quotesRaw }
       .all())
 const quotes = quotesRaw.value as Quote[] || []
 
-referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
+await referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
 </script>
 
 <template>
