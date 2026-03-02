@@ -47,8 +47,7 @@ useSeoMeta({
 useClaimReview({
   title: page.value?.title || title,
   url: route.path,
-  dateModified: page.value?.date,
-  datePublished: page.value?.publishedOn,
+  datePublished: page.value?.date,
   verdict: page.value?.verdict,
   author: source.value?.name,
 })
