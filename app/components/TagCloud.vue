@@ -7,48 +7,35 @@ const props = defineProps<{
 }>()
 
 const tagKeys = computed(() => [...props.tagMap.keys()].sort())
-
 const maxCount = computed(() => Math.max(...props.tagMap.values()))
 const minCount = computed(() => Math.min(...props.tagMap.values()))
 const totalCount = computed(() => [...props.tagMap.values()].reduce((a, b) => a + b, 0))
+const avgCount = computed(() => totalCount.value / props.tagMap.size)
 
-// Schriftgröße: 0.78rem (selten) bis 1.6rem (häufig)
+// Schriftgröße: 0.78rem (selten) bis 1.4rem (häufig)
 function getFontSize(count: number): string {
   const range = maxCount.value - minCount.value
-  if (range === 0) return '1rem'
+  if (range === 0) return '0.78rem'
   const ratio = (count - minCount.value) / range
-  const size = 0.78 + ratio * 0.9
-  return `${size.toFixed(2)}rem`
+  return `${(0.78 + ratio * 0.62).toFixed(2)}rem`
 }
 
-// Gewicht: 300 (selten) bis 700 (häufig)
+// Gewicht: 400 (selten) bis 700 (häufig)
 function getFontWeight(count: number): number {
   const range = maxCount.value - minCount.value
   if (range === 0) return 400
   const ratio = (count - minCount.value) / range
   if (ratio > 0.66) return 700
   if (ratio > 0.33) return 500
-  return 300
+  return 400
 }
 
-// Farbintensität über opacity auf --flame
-function getOpacity(count: number): number {
-  const range = maxCount.value - minCount.value
-  if (range === 0) return 0.8
-  const ratio = (count - minCount.value) / range
-  return 0.35 + ratio * 0.65
-}
-
-// Kleine zufällig-wirkende Rotation basierend auf Tag-String
+// Subtile Rotation basierend auf Tag-String (deterministisch)
 function getRotation(tag: string): string {
   const sum = tag.split('').reduce((a, c) => a + c.charCodeAt(0), 0)
   const deg = ((sum % 7) - 3) * 0.8
   return `${deg.toFixed(1)}deg`
 }
-
-const avgCount = computed(() =>
-  totalCount.value / props.tagMap.size,
-)
 </script>
 
 <template>
@@ -57,20 +44,15 @@ const avgCount = computed(() =>
       v-for="tag in tagKeys"
       :key="tag"
       :to="`${basePath}/${tag}`"
-      class="tag-item"
-      :class="{
-        'tag-hot': (tagMap.get(tag) || 0) >= avgCount * 2,
-        'tag-warm': (tagMap.get(tag) || 0) >= avgCount && (tagMap.get(tag) || 0) < avgCount * 2,
-        'tag-cool': (tagMap.get(tag) || 0) < avgCount,
-      }"
+      class="tag"
+      :class="{ 'tag-hot': (tagMap.get(tag) || 0) >= avgCount * 2 }"
       :style="{
-        fontSize: getFontSize(tagMap.get(tag) || 0),
-        fontWeight: getFontWeight(tagMap.get(tag) || 0),
-        '--tag-opacity': getOpacity(tagMap.get(tag) || 0),
+        'fontSize': getFontSize(tagMap.get(tag) || 0),
+        'fontWeight': getFontWeight(tagMap.get(tag) || 0),
         '--tag-rotate': getRotation(tag),
       }"
     >
-      <span class="tag-text">{{ capitalize(tag) }}</span>
+      {{ capitalize(tag) }}
       <span class="tag-count">{{ tagMap.get(tag) }}</span>
     </NuxtLink>
   </div>
@@ -79,68 +61,52 @@ const avgCount = computed(() =>
 <style scoped>
 .tag-cloud {
   --tag-rotate: 0deg;
-  --tag-opacity: 0.5;
 
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 0.6rem;
+  gap: 0.3rem 0.1rem;
   align-items: center;
-  padding: 1.5rem 0;
-  line-height: 1;
+  padding: 1.25rem;
+  background: var(--paper);
+  border: 1px solid var(--fackel-border);
+  border-top: 2px solid var(--flame);
+  border-radius: 4px;
+  margin-top: 1.5rem;
 }
 
-.tag-item {
+/* Gleicher Stil wie sources/Tag.vue */
+.tag {
   display: inline-flex;
   align-items: baseline;
-  gap: 0.25em;
+  gap: 0.3em;
+  font-weight: 500;
+  background-color: white;
+  color: var(--muted);
+  border: 1px solid var(--fackel-border);
+  padding: 0.2rem 0.5rem;
+  margin: 0.15rem 0.2rem;
+  border-radius: 0.2rem;
   text-decoration: none;
-  font-family: 'Source Serif 4', Georgia, serif;
-  color: var(--ink);
-  padding: 0.2em 0.5em;
-  border-radius: 3px;
-  transition: all 0.15s ease;
-  position: relative;
+  transition: border-color 0.15s, color 0.15s, transform 0.15s;
   transform: rotate(var(--tag-rotate));
   white-space: nowrap;
 }
 
-/* Farbkodierung über Pseudo-Element */
-.tag-item::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 3px;
-  background: var(--flame);
-  opacity: calc(var(--tag-opacity) * 0.12);
-  transition: opacity 0.15s;
-}
-
-.tag-item:hover {
+.tag:hover {
+  border-color: var(--flame);
   color: var(--flame);
+  background-color: white;
   transform: rotate(0deg) translateY(-1px);
 }
 
-.tag-item:hover::before {
-  opacity: calc(var(--tag-opacity) * 0.22);
+/* Sehr häufige Tags: Flame-Border als Hinweis */
+.tag-hot {
+  border-color: color-mix(in srgb, var(--flame) 40%, var(--fackel-border));
 }
 
-/* Heiße Tags (sehr häufig): mit Unterstriche in Flame-Farbe */
-.tag-hot .tag-text {
-  border-bottom: 2px solid var(--flame);
-  padding-bottom: 1px;
-}
-
-/* Zählbadge */
 .tag-count {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.6em;
-  color: var(--muted);
-  opacity: 0.7;
-  font-weight: 400;
-}
-
-.tag-item:hover .tag-count {
-  opacity: 1;
-  color: var(--flame);
+  font-size: 0.65em;
+  opacity: 0.55;
 }
 </style>
