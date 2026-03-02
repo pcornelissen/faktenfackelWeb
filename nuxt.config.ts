@@ -37,6 +37,14 @@ export default defineNuxtConfig({
       },
     },
   },
+  ui: {
+    theme: {
+      colors: [
+        'orange',
+        'stone',
+      ],
+    },
+  },
   routeRules: {
     '/': { prerender: true },
   },
@@ -80,8 +88,14 @@ export default defineNuxtConfig({
       const wordsPerMinute = 180
       const text = file.body
       const wordCount = text.split(/\s+/).length
-
       content.readingTime = Math.ceil(wordCount / wordsPerMinute)
+
+      // date-Feld als sitemap.lastmod verfügbar machen
+      if (content.date) {
+        const sitemap = (content.sitemap as Record<string, unknown>) || {}
+        sitemap.lastmod = content.date
+        content.sitemap = sitemap
+      }
     },
   },
   eslint: {
@@ -124,9 +138,18 @@ export default defineNuxtConfig({
     },
   },
   fonts: {
-    // Options
+    families: [
+      { name: 'Playfair Display', weights: [700, 900] },
+      { name: 'Source Serif 4', weights: [300, 400, 600], styles: ['normal', 'italic'] },
+      { name: 'Ubuntu Mono', weights: [400, 700] },
+    ],
   },
   sitemap: {
     zeroRuntime: true,
+    sitemapName: 'sitemap.xml',
+    defaultSitemapsChunkSize: 1000,
+    sources: [
+      '/api/__sitemap__/urls',
+    ],
   },
 })

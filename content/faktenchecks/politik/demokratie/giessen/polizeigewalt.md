@@ -2,8 +2,8 @@
 publishedOn: 2025-12-11
 date: 2025-12-11
 title: War die Reaktion der Polizei in Gießen gerechtfertigt? 
-subtitle: Polizeigewalt oder Deeskalation und Ordnung 
-
+subtitle: Polizeigewalt oder Deeskalation und Ordnung
+verdict: false        # oder: misleading, complex, true
 loadInstagram: false
 tags: [AfD, Generation-Deutschland, Demokratie, Proteste, Polizei, Gewalt]
 ---
@@ -16,7 +16,7 @@ Im Vorfeld wurden angebliche Ankündigungen von massiver linker Gewalt Stimmung 
 
 Im Rahmen der Demonstration kam es zu diversen Vorkommnissen, wo die Polizei fragwürdig viel Gewalt eingesetzt hat, die augenscheinlich nicht begründet ist.
 
-Es gibt vor allen Dingen auf Instagram Videos, die die friedlichen Demonstrationen zeigen. Beispiel: Illustrationen zu "<Refrence code="insta-till-hentschel-gießen-demo-friedlich">Gießen brennt</Reference>". 
+Es gibt vor allen Dingen auf Instagram Videos, die die friedlichen Demonstrationen zeigen. Beispiel: Illustrationen zu "<Reference code="insta-till-hentschel-gießen-demo-friedlich">Gießen brennt</Reference>" oder [Mittelhessen-Youtube-Short](https://www.youtube.com/shorts/M37wRPKM_Bo). 
 
 ## Faktencheck
 

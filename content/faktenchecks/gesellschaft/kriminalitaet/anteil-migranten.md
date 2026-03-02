@@ -2,6 +2,7 @@
 publishedOn: 2025-12-12
 date: 2025-12-12
 title: Kriminalität bei Ausländern und Deutschen
+verdict: misleading        # oder: misleading, complex, true
 subtitle: Widersprüche, Probleme und Fakten
 tags: [ Migranten, Kriminalität, Stadtbild ]
 ---

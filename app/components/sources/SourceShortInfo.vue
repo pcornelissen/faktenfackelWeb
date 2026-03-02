@@ -7,38 +7,55 @@ const props = defineProps<{
 </script>
 
 <template>
-  <nuxt-link
+  <NuxtLink
     v-if="props.source"
-    class="flex mr-2 flex-col source"
-    style="width: 100px"
     :to="props.source.path"
+    class="source-info"
   >
     <lazy-nuxt-img
       :src="calculateSourceImg(props.source)"
-      :alt="calculateSourceImgAuthor(props.source)"
+      :alt="props.source.name"
       :title="calculateSourceImgAuthor(props.source)"
       placeholder="/files/no-img.svg"
-      placeholder-class="placeholder-img rounded-lg p-2"
-      class="source-img rounded-lg"
-      style="margin-top: 4px; max-height:100px;max-width:100px"
+      placeholder-class="placeholder-img"
+      class="source-img"
     />
-    <div class="text-sm text-gray-400">
-      {{ props.source.name }}
-    </div>
-  </nuxt-link>
+    <span class="source-name">{{ props.source.name }}</span>
+  </NuxtLink>
 </template>
 
 <style scoped>
+.source-info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 120px;
+  flex-shrink: 0;
+  text-decoration: none;
+  padding: 0.6rem;
+  border: 1px solid var(--fackel-border);
+  border-radius: 4px;
+  background: white;
+  transition: border-color 0.15s;
+}
+
+.source-info:hover {
+  border-color: var(--flame);
+}
+
 .source-img {
-  max-width: 15rem;
-  max-height: 5rem;
-  display: inline;
+  max-width: 100px;
+  max-height: 60px;
+  object-fit: contain;
 }
-.source{
-  transition: ease all .5s;
-}
-.source:hover {
-  transform: scale(1.05);
-  transition: ease all .5s;
+
+.source-name {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.3;
+  word-break: break-word;
 }
 </style>

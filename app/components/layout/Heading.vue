@@ -13,11 +13,18 @@ const props = defineProps<{
       v-if="props.icon"
       class="shrink-0 mr-2"
     >
-      <img
-        :src="`/img/categories/${props.icon}.png`"
-        :alt="`Bild für ${title}`"
-        :title="props.iconTxt"
-      >
+      <picture>
+        <source
+          type="image/webp"
+          :srcset="`/img/categories/opt/${props.icon}-64.webp 64w, /img/categories/opt/${props.icon}-128.webp 128w`"
+          sizes="40px"
+        >
+        <img
+          :src="`/img/categories/${props.icon}.png`"
+          :alt="`Bild für ${title}`"
+          :title="props.iconTxt"
+        >
+      </picture>
     </div>
     <div class="flex-auto">
       <h2>{{ props.title }}</h2>
@@ -39,15 +46,20 @@ const props = defineProps<{
 
 <style scoped>
   h2 {
-    margin: 0.4rem 0 0;
+    margin: 0.4rem 0 0.2rem;
+    font-size: 1.2rem;
   }
 
   img {
     height: 2.5rem;
+    opacity: 0.9;
   }
 
   .subtitle {
-    font-size: 0.8rem;
+    font-size: 0.82rem;
+    color: var(--muted);
     margin-bottom: 0.5rem;
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: 0.04em;
   }
 </style>

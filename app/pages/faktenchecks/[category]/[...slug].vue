@@ -9,7 +9,7 @@ const category = route.params.category as string
 const slug = (route.params.slug as string[]).join('/')
 
 const categoryPath = `/faktenchecks/${category}`
-const basePath = route.path// ``/faktenchecks/${category}/${slug}`;
+const basePath = route.path
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('faktenchecks', basePath, {
@@ -17,13 +17,10 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   }).where('path', 'NOT LIKE', '%_info')
 })
 
-const { data: page }
-  = await
-  useAsyncData(
-    `faktencheck-${slug}`,
-    () => {
-      return queryCollection('faktenchecks').path(basePath).first()
-    })
+const { data: page } = await useAsyncData(
+  `faktencheck-${slug}`,
+  () => queryCollection('faktenchecks').path(basePath).first(),
+)
 
 const title = page.value?.title || `Faktencheck`
 const subtitle = page.value?.subtitle || `Faktencheck`
@@ -39,81 +36,127 @@ await definePageData({
 useSeoMeta({
   title: title + ' - Faktenfackel',
   description: page.value?.description || subtitle,
+  ogUrl: `https://faktenfackel.de${route.path}`,
+  twitterCard: 'summary_large_image',
   articleModifiedTime: page.value?.date || new Date().toLocaleDateString(),
+})
+
+useClaimReview({
+  title: page.value?.title || title,
+  subtitle: page.value?.subtitle,
+  url: route.path,
+  dateModified: page.value?.date,
+  datePublished: page.value?.publishedOn || undefined,
+  verdict: page.value?.verdict,
 })
 
 const loadInstagram = page.value?.loadInstagram || false
 if (loadInstagram) {
   useHead({
-    script: [{
-      src: 'https://www.instagram.com/embed.js',
-      async: true,
-    }],
+    script: [{ src: 'https://www.instagram.com/embed.js', async: true }],
   })
 }
+
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
-referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
 
 <template>
   <div>
-    <NuxtLink
-      :to="categoryPath"
-      style="display: inline-flex;
-    vertical-align: middle;"
-    >
-      <icon
-        name="i-lucide:arrow-left"
-        style="margin-right: 0.5rem;"
-      />
+    <BackLink :to="categoryPath">
       Zurück zum Bereich {{ capitalize(category) }}
-    </NuxtLink>
-    <UPage
-      v-if="page"
-      style="width:fit-content"
-    >
-      <UPageHeader
-        :title="page.title"
-        :headline="`Stand: ${lastChange}`"
-      />
+    </BackLink>
+
+    <div v-if="page">
+      <div class="article-header">
+        <div class="article-headline">
+          Stand: {{ lastChange }}
+        </div>
+        <h1 class="article-title">
+          {{ page.title }}
+        </h1>
+        <p
+          v-if="page.subtitle"
+          class="article-subtitle"
+        >
+          {{ page.subtitle }}
+        </p>
+        <VerdictLabel
+          v-if="page.verdict !== undefined"
+          :type="page.verdict"
+          class="article-verdict"
+        />
+      </div>
+
       <UAlert
-        v-if="!page.publishedOn || new Date(page.publishedOn)> new Date()"
+        v-if="!page.publishedOn || new Date(page.publishedOn) > new Date()"
         type="info"
         icon="i-lucide-badge-info"
         title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"
       />
-      <UPageBody>
+
+      <div class="article-body content">
         <ContentRenderer
           v-if="page.body"
           :value="page"
         />
 
-        <USeparator v-if="surround?.filter(Boolean).length" />
+        <USeparator
+          v-if="surround?.filter(Boolean).length"
+          class="my-8"
+        />
 
         <UContentSurround :surround="(surround as any)">
-          <template
-            #link-description="{ link }"
-          >
+          <template #link-description="{ link }">
             {{ link?.subtitle || link?.description }}
           </template>
         </UContentSurround>
-      </UPageBody>
-
-      <template
-        v-if="page?.body?.toc?.links?.length"
-        #right
-      >
-        <UContentToc
-          :links="page.body.toc.links"
-          title="Inhalt"
-        />
-      </template>
-    </UPage>
+      </div>
+    </div>
 
     <div v-else>
       Diese Seite existiert nicht!
     </div>
   </div>
 </template>
+
+<style scoped>
+.article-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--fackel-border);
+}
+
+.article-headline {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flame);
+  margin-bottom: 0.5rem;
+}
+
+.article-title {
+  margin: 0 0 0.4rem;
+  line-height: 1.15;
+}
+
+.article-verdict {
+  display: inline-block;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.article-subtitle {
+  font-size: 1.05rem;
+  color: var(--muted);
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.article-body {
+  margin-top: 1.5rem;
+}
+</style>

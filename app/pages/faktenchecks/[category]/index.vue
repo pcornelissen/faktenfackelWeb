@@ -61,8 +61,11 @@ const list = list1.value as Post[]
 <style scoped>
 .intro {
   margin-bottom: 2rem;
-  padding: 0.5rem;
-  border-radius: 0.3rem;
-  background-color: #eee;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  background-color: #FAF6F0;
+  border-left: 3px solid var(--flame);
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 </style>

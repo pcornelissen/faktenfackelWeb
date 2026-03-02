@@ -22,7 +22,6 @@ const list = list1.value as Quote[]
 <template>
   <div
     v-if="list"
-    class="content-width"
   >
     <h1 style="margin-top: 0">
       Zitate

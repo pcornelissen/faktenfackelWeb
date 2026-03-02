@@ -11,30 +11,22 @@ const route = useRoute()
 handleRenameRedirects(route.path)
 
 const slug = (route.params.slug as string[]).join('/')
-
 const basePath = route.path
-
 const sourcePath = getSourceFromPath(route.path)
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%')
 })
 
-const { data: source }
-  = await
-  useAsyncData(
-    `quelle-${slug}`,
-    () => {
-      return queryCollection('quellen').path(sourcePath).first()
-    })
+const { data: source } = await useAsyncData(
+  `quelle-${slug}`,
+  () => queryCollection('quellen').path(sourcePath).first(),
+)
 
-const { data: page }
-  = await
-  useAsyncData(
-    `quellenlink-${slug}`,
-    () => {
-      return queryCollection('quellenlinks').path(basePath).first()
-    })
+const { data: page } = await useAsyncData(
+  `quellenlink-${slug}`,
+  () => queryCollection('quellenlinks').path(basePath).first(),
+)
 
 const title = 'Link: ' + (page.value?.title || '')
 
@@ -47,126 +39,136 @@ await definePageData({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
+useSeoMeta({
+  ogUrl: `https://faktenfackel.de${route.path}`,
+  twitterCard: 'summary_large_image',
+})
+
+useClaimReview({
+  title: page.value?.title || title,
+  url: route.path,
+  datePublished: page.value?.date,
+  verdict: page.value?.verdict,
+  author: source.value?.name,
+})
+
 const coSources = new Set(page.value?.coSources == null ? [] : page.value.coSources)
 
-const { data: coList }
-  = (coSources == null || coSources.size == 0)
-    ? { data: [] }
-    : await useAsyncData(basePath + '-coSources', () => {
-        const builder = queryCollection('quellen').orWhere(
-          (query) => {
-            coSources.values().forEach(s => query = query.where('path', 'LIKE', '/quellen/%/' + s))
-            return query
-          },
-        )
-        return builder
-          .select('name', 'path')
-          .all()
+const { data: coList } = (coSources == null || coSources.size == 0)
+  ? { data: [] }
+  : await useAsyncData(basePath + '-coSources', () => {
+      const builder = queryCollection('quellen').orWhere((query) => {
+        coSources.values().forEach(s => query = query.where('path', 'LIKE', '/quellen/%/' + s))
+        return query
       })
+      return builder.select('name', 'path').all()
+    })
 
-referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
 
 <template>
   <div>
-    <NuxtLink
-      :to="sourcePath"
-      style="display: inline-flex;
-    vertical-align: middle;"
-    >
-      <icon
-        name="i-lucide:arrow-left"
-        style="margin-right: 0.5rem;"
-      />
+    <BackLink :to="sourcePath">
       Zur Quelle "{{ source?.name }}" springen
-    </NuxtLink>
-    <UPage
-      v-if="page"
-      style="width:fit-content"
-    >
-      <h2>Link</h2>
-      <div
-        class="flex-auto ml-2 row"
-      >
-        <div class="flex  ">
-          <SourceLinkIcon
-            :type="page.type"
-          />
+    </BackLink>
+
+    <div v-if="page">
+      <div class="article-header">
+        <div class="article-headline">
+          Stand: {{ lastChange }}
+        </div>
+        <h1 class="article-title">
+          {{ page.title }}
+        </h1>
+      </div>
+      <VerdictLabel
+        v-if="page.verdict !== undefined"
+        :type="page.verdict"
+        class="article-verdict"
+      />
+
+      <div class="link-info">
+        <div class="link-row">
+          <SourceLinkIcon :type="page.type" />
           <a
             :href="page.uri"
             rel="external"
-            class="link  "
-          >
-            {{ page.title }}
-          </a>
+            class="link-url"
+          >{{ page.title }}</a>
         </div>
-        <div class="italic text-sm ml-5">
-          (Stand: {{ lastChange }})
-        </div>
-      </div>
-      <h2>Schlagworte</h2>
-      <Tags
-        :tags="page.tags"
-        base-path="quellen"
-      />
-      <h2>Quelle</h2>
-      <div
-        v-if="source"
-        class="source-link"
-      >
-        <a
-          :href="source.path"
+
+        <div
+          v-if="page.tags?.length"
+          class="section-block"
         >
-          <lazy-nuxt-img
-            :src="calculateSourceImg(source)"
-            :title="calculateSourceImgAuthor(source)"
-            :alt="calculateSourceImgAuthor(source)"
-            class="source-img"
+          <div class="section-label">
+            Schlagworte
+          </div>
+          <Tags
+            :tags="page.tags"
+            base-path="quellen"
           />
-          <span class="source-name">{{ source.name }}</span></a>
-      </div>
-      <div
-        v-else
-        class="text-red-500"
-      >
-        Quelle konnte nicht geladen werden!
-      </div>
+        </div>
 
-      <div v-if="coList && coList.length>0">
-        <h2>Weitere beteiligte Quelle{{ coList.length > 1 ? 'n' : '' }}</h2>
-        <ul class="list-disc ml-4">
-          <li
-            v-for="co in coList"
-            :key="co.path"
+        <div class="section-block">
+          <div class="section-label">
+            Quelle
+          </div>
+          <div
+            v-if="source"
+            class="source-link"
           >
-            <nuxt-link :to="co.path">{{ co.name }}</nuxt-link>
-          </li>
-        </ul>
+            <a :href="source.path">
+              <lazy-nuxt-img
+                :src="calculateSourceImg(source)"
+                :title="calculateSourceImgAuthor(source)"
+                :alt="calculateSourceImgAuthor(source)"
+                class="source-img"
+              />
+              <span class="source-name">{{ source.name }}</span>
+            </a>
+          </div>
+          <div
+            v-else
+            class="text-red-500"
+          >
+            Quelle konnte nicht geladen werden!
+          </div>
+        </div>
+
+        <div
+          v-if="coList && coList.length > 0"
+          class="section-block"
+        >
+          <div class="section-label">
+            Weitere beteiligte Quelle{{ coList.length > 1 ? 'n' : '' }}
+          </div>
+          <ul class="list-disc ml-4">
+            <li
+              v-for="co in coList"
+              :key="co.path"
+            >
+              <nuxt-link :to="co.path">{{ co.name }}</nuxt-link>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <UPageBody v-if="page.body">
-        <h2 class="mb-2">
-          Link Beschreibung
-        </h2>
-        <ContentRenderer
-          :value="page"
-        />
-
-        <USeparator v-if="surround?.filter(Boolean).length" />
-
-        <UContentSurround :surround="(surround as any)" />
-      </UPageBody>
-
-      <template
-        v-if="page?.body?.toc?.links?.length"
-        #right
+      <div
+        v-if="page.body"
+        class="article-body content"
       >
-        <UContentToc
-          :links="page.body.toc.links"
-          title="Inhalt"
+        <h2>Link Beschreibung</h2>
+        <ContentRenderer :value="page" />
+        <USeparator
+          v-if="surround?.filter(Boolean).length"
+          class="my-8"
         />
-      </template>
-    </UPage>
+        <UContentSurround :surround="(surround as any)" />
+      </div>
+    </div>
+
     <div v-else>
       Nanu, diese Seite existiert nicht!
     </div>
@@ -174,8 +176,62 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
 </template>
 
 <style scoped>
-p {
-  margin-bottom: 1em;
+.article-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--fackel-border);
+}
+
+.article-headline {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flame);
+  margin-bottom: 0.5rem;
+}
+
+.article-title {
+  margin: 0;
+  line-height: 1.15;
+}
+
+.article-verdict {
+  display: inline-block;
+  margin: 0.5rem 0 0;
+}
+
+.link-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.link-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link-url {
+  color: var(--flame);
+  text-decoration: underline;
+}
+
+.section-label {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flame);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.section-block {
+  padding-top: 1rem;
+  border-top: 1px solid var(--fackel-border);
 }
 
 .source-img {
@@ -190,21 +246,17 @@ p {
 }
 
 .source-link {
-  border-radius: 0.5rem;
-  transition: ease all .5s;
+  border-radius: 4px;
+  transition: background 0.15s;
   width: fit-content;
-  padding-left: 0.5rem;
-  padding-right: 1rem;
+  padding: 0.4rem 0.8rem;
 }
 
 .source-link:hover {
-  background-color: #eee;
-  transition: ease all .5s;
-
+  background-color: #FAF6F0;
 }
 
-a:hover {
-  color: var(--color-secondary);
-  @apply underline;
+.article-body {
+  margin-top: 1.5rem;
 }
 </style>

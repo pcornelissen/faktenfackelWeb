@@ -1,25 +1,23 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content'
-import { asSitemapCollection } from '@nuxtjs/sitemap/content'
 
 export default defineContentConfig({
   collections: {
     faktenchecks: defineCollection({
       type: 'page',
       source: 'faktenchecks/**/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         title: z.string(),
         subtitle: z.string(),
         publishedOn: z.date().or(z.null()),
         loadInstagram: z.boolean().or(z.null()),
+        verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
         tags: z.set(z.string()),
       }),
     }),
     lagerfeuer: defineCollection({
       type: 'page',
       source: 'lagerfeuer/**/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         title: z.string(),
@@ -31,7 +29,6 @@ export default defineContentConfig({
     glossar: defineCollection({
       type: 'page',
       source: 'glossar/**/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         title: z.string(),
@@ -43,7 +40,6 @@ export default defineContentConfig({
     zitate: defineCollection({
       type: 'page',
       source: 'quellen/*/*/zitate/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         code: z.string(),
@@ -78,6 +74,7 @@ export default defineContentConfig({
         title: z.string(),
         uri: z.string(),
         type: z.string(),
+        verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
         tags: z.set(z.string()),
         coSources: z.set(z.string()),
       }),
@@ -85,11 +82,5 @@ export default defineContentConfig({
         { columns: ['code'], unique: true },
       ],
     }),
-    sitemap: defineCollection(
-      asSitemapCollection({
-        type: 'page',
-        source: '**/*.md',
-      }),
-    ),
   },
 })

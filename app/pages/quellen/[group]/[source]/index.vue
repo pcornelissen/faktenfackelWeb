@@ -53,11 +53,14 @@ const { data: quotesRaw }
       .all())
 const quotes = quotesRaw.value as Quote[] || []
 
-referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
+await referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
 </script>
 
 <template>
-  <div v-if="sourceInfo">
+  <div
+    v-if="sourceInfo"
+    class="wide"
+  >
     <lazy-nuxt-img
       :src="calculateSourceImg(sourceInfo)"
       :title="calculateSourceImgAuthor(sourceInfo)"
@@ -73,10 +76,7 @@ referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
     >
       {{ calculateSourceImgAuthor(sourceInfo) }}
     </div>
-    <div
-      class="layout"
-      style="margin-top: -2em"
-    >
+    <div class="layout">
       <div
         class="intro px-2"
       >
@@ -116,37 +116,38 @@ referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
 </template>
 
 <style scoped>
-h2 {
-  margin-top: 0;
-}
-
-.layout {
-  @apply flex;
-  @apply flex-row;
-}
-
 .img {
   max-width: 80%;
   margin-bottom: 1em;
   max-height: 15em;
 }
 
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 65ch) 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-top: -2em;
+}
+
 .intro {
-  max-width: 60%;
+  /* Breite durch grid-column limitiert, max 65ch */
+}
+
+.intro :deep(p),
+.intro :deep(ul),
+.intro :deep(ol) {
+  max-width: 65ch;
 }
 
 @media screen and (max-width: 900px) {
   .layout {
-    @apply flex-col;
+    grid-template-columns: 1fr;
   }
 
   .img {
     max-width: 100%;
     margin: 1em;
-  }
-
-  .intro {
-    max-width: 100%;
   }
 }
 
@@ -156,6 +157,6 @@ p {
 
 a:hover {
   color: var(--color-secondary);
-  @apply underline;
+  text-decoration: underline;
 }
 </style>

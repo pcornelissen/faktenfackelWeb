@@ -7,7 +7,6 @@ const menuItems = [
   { name: 'Quellen', href: '/quellen', active: false, label: 'Quellensammlung' },
   { name: 'Zitate', href: '/zitate', active: false },
   { name: 'Änderungen', href: '/news', active: false },
-  { name: 'Social Media', href: '/mehr', active: false, label: 'Weitere Webseiten' },
 ]
 const route = useRoute()
 
@@ -35,24 +34,60 @@ menuItems.forEach(item => item.active = (item.href != '/' && path.startsWith(ite
 </template>
 
 <style scoped>
-li {
-  font: 16px/1.5 'Ubuntu-Mono', monospace;
-  display: inline-block;
-  margin-right: 1rem;
-  border: 1px solid transparent;
-  transition: ease all .5s;
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
 }
-li:hover {
-  border-bottom: 1px solid var(--color-tertiary);
-  transition: ease all .5s;
+
+.menu li {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: block;
+  border-left: 1px solid #2D2822;
+}
+
+.menu li:last-child {
+  border-right: 1px solid #2D2822;
+}
+
+.menu a {
+  display: block;
+  padding: 0 0.9rem;
+  height: 60px;
+  line-height: 60px;
+  color: #C4BAB0;
+  text-decoration: none;
+  transition: color 0.2s, background 0.2s;
+  white-space: nowrap;
+}
+
+.menu a:hover {
+  color: var(--flame);
+  background: rgba(232, 68, 10, 0.08);
 }
 
 .item-active {
-  color: var(--color-secondary);
-  font-weight: bold;
+  color: var(--flame) !important;
+  background: rgba(232, 68, 10, 0.1);
 }
 
-a, a:visited, a:hover {
-  text-decoration: inherit;
+@media screen and (max-width: 1100px) {
+  .menu li {
+    font-size: 0.65rem;
+  }
+  .menu a {
+    padding: 0 0.6rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .menu {
+    display: none;
+  }
 }
 </style>
