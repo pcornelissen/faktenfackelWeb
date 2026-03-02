@@ -92,8 +92,9 @@ export default defineNuxtConfig({
 
       // date-Feld als sitemap.lastmod verfügbar machen
       if (content.date) {
-        content.sitemap = content.sitemap || {}
-        content.sitemap.lastmod = content.date
+        const sitemap = (content.sitemap as Record<string, unknown>) || {}
+        sitemap.lastmod = content.date
+        content.sitemap = sitemap
       }
     },
   },
