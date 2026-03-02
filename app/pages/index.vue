@@ -180,6 +180,12 @@ const pillars = [
             </div>
           </div>
 
+          <!-- NEUE QUELLEN -->
+          <sidebar-recent-sources />
+
+          <!-- NEUE ZITATE -->
+          <sidebar-recent-quotes />
+
           <!-- SUPPORT -->
           <div class="support-box">
             <div class="support-icon">

@@ -1,3 +1,6 @@
+# Wrangler (Cloudflare Workers)
+.wrangler/
+
 # Nuxt dev/build outputs
 .output
 .data
