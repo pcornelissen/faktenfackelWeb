@@ -8,19 +8,20 @@ const props = defineProps<{
 </script>
 
 <template>
-  <li
-    class="flex flex-row"
-  >
+  <li class="quote-item">
     <slot name="pre" />
-    <div class="flex-auto ml-2">
+    <div class="quote-body">
       <NuxtLink
         :to="props.quote.path"
-        class="link"
+        class="quote-link"
       >
-        <div class="title">
+        <div class="quote-title">
           {{ props.quote.title }}
         </div>
-        <div class="teaser">
+        <div
+          v-if="props.quote.teaser"
+          class="quote-teaser"
+        >
           {{ props.quote.teaser }}
         </div>
         <slot />
@@ -35,36 +36,51 @@ const props = defineProps<{
 </template>
 
 <style scoped>
-li {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+.quote-item {
   list-style: none;
-  border-radius: 0.3rem;
-  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--fackel-border);
+  transition: background 0.15s;
 }
 
-li:hover {
-  background-color: #FAF6F0;
+.quote-item:last-child {
+  border-bottom: none;
 }
 
-.link {
+.quote-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.quote-link {
   display: block;
-  margin-bottom: 0.4rem;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
 }
 
-.lastChange {
-  font-size: 0.6rem;
-  font-weight: 200;
+.quote-title {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--flame);
+  margin-bottom: 0.3rem;
 }
 
-.title {
-  font-size: 0.8rem;
+.quote-teaser {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1rem;
   font-weight: 400;
-  color: var(--muted);
-  padding-bottom: 0.4rem;
+  color: var(--ink);
+  line-height: 1.5;
+  transition: color 0.15s;
 }
-.teaser {
-  font-weight: 300;
-  padding-bottom: 0.4rem;
+
+.quote-link:hover .quote-teaser {
+  color: var(--ember);
 }
 </style>
