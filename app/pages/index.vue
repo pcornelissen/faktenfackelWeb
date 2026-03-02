@@ -52,134 +52,171 @@ const pillars = [
 </script>
 
 <template>
-  <!-- HERO -->
-  <section class="hero full-bleed">
-    <div class="hero-inner">
-      <div class="hero-text">
-        <div class="hero-tag">
-          Faktencheck-Plattform
-        </div>
-        <h1>Mythen entlarven.<br><span class="hero-highlight">Fakten beleuchten.</span></h1>
-        <p class="hero-sub">
-          Unabhängige Faktenchecks zu Behauptungen, Mythen und Desinformation
-          aus Politik und Gesellschaft – mit belegten Quellen.
-        </p>
-        <div class="hero-cta">
-          <a
-            href="/faktenchecks"
-            class="btn-primary"
-          ><Icon icon="mdi:magnify" :ssr="true" height="16" /> Alle Faktenchecks</a>
-          <a
-            href="/quellen"
-            class="btn-secondary"
-          ><Icon icon="mdi:book-open-variant" :ssr="true" height="16" /> Quellensammlung</a>
-        </div>
-      </div>
-
-      <!-- NEWS TICKER -->
-      <div class="ticker-box">
-        <div class="ticker-header">
-          <span class="ticker-label"><Icon icon="mdi:clock-edit-outline" :ssr="true" height="14" />Letzte Änderungen</span>
-          <span class="ticker-dot" />
-        </div>
-        <ul class="ticker-list">
-          <li
-            v-for="item in recentNews"
-            :key="item.date.toString()"
-            class="ticker-item"
-          >
-            <span class="ticker-date">{{ dateString(item.date) }}</span>
-            <span class="ticker-text">{{ item.title }}</span>
-          </li>
-        </ul>
-        <div class="ticker-footer">
-          <a href="/news">→ Vollständiges Änderungslog</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PAGE BODY -->
-  <div class="page-body">
-    <!-- PILLARS -->
-    <div class="pillars">
-      <a
-        v-for="p in pillars"
-        :key="p.href"
-        :href="p.href"
-        class="pillar"
-      >
-        <img :src="p.icon" :alt="p.title" class="pillar-icon" />
-        <div class="pillar-label">{{ p.label }}</div>
-        <h3 class="pillar-title">{{ p.title }}</h3>
-        <p class="pillar-desc">{{ p.desc }}</p>
-        <div class="pillar-cta">{{ p.cta }}</div>
-      </a>
-    </div>
-
-    <!-- CONTENT GRID -->
-    <div class="content-grid">
-      <!-- MAIN COLUMN -->
-      <div class="main-col">
-        <!-- NEUESTE ARTIKEL -->
-        <div class="section-header">
-          <h2 class="section-title">
-            Neueste Artikel
-            <span class="badge badge-new">NEU</span>
-          </h2>
-          <a
-            href="/faktenchecks"
-            class="section-link"
-          >Alle ansehen →</a>
-        </div>
-
-        <RecentPosts />
-      </div>
-
-      <!-- SIDEBAR -->
-      <aside class="sidebar">
-        <!-- KONTAKT BOX -->
-        <div class="sidebar-box">
-          <div class="sidebar-box-header">
-            <span class="sidebar-box-title"><Icon icon="mdi:email-outline" :ssr="true" height="14" /> Kontakt & Feedback</span>
+  <div class="page-root">
+    <!-- HERO -->
+    <section class="hero full-bleed">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-tag">
+            Demokratie braucht Licht
           </div>
-          <div class="sidebar-box-body">
-            <p>
-              Die Seite ist im Dezember 2025 gestartet und wird kontinuierlich erweitert.
-              Schau gerne regelmäßig vorbei!
-            </p>
-            <p>
-              Feedback und Vorschläge per E-Mail an
-              <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a>
-              oder im <a href="https://discord.faktenfackel.de">Discord</a>.
-            </p>
-          </div>
-        </div>
-
-        <!-- SUPPORT -->
-        <div class="support-box">
-          <div class="support-icon">
-            <Icon icon="mdi:coffee" :ssr="true" height="28" />
-          </div>
-          <div class="support-title">
-            Unterstütze Faktenfackel
-          </div>
-          <p class="support-desc">
-            Die Seite ist werbefrei und unabhängig – mit deiner Hilfe bleibt sie es.
+          <h1>Mythen entlarven.<br><span class="hero-highlight">Fakten beleuchten.</span></h1>
+          <p class="hero-sub">
+            Unabhängige Faktenchecks zu Behauptungen, Mythen und Desinformation
+            aus Politik und Gesellschaft – mit belegten Quellen.
           </p>
-          <a
-            href="https://buymeacoffee.com/faktenfackel"
-            class="btn-primary btn-small"
-          >
-            <Icon icon="mdi:coffee" :ssr="true" height="14" /> Kaffee spendieren
-          </a>
+          <div class="hero-cta">
+            <a
+              href="/faktenchecks"
+              class="btn-primary"
+            ><Icon
+              icon="mdi:magnify"
+              :ssr="true"
+              height="16"
+            /> Alle Faktenchecks</a>
+            <a
+              href="/quellen"
+              class="btn-secondary"
+            ><Icon
+              icon="mdi:book-open-variant"
+              :ssr="true"
+              height="16"
+            /> Quellensammlung</a>
+          </div>
         </div>
-      </aside>
+
+        <!-- NEWS TICKER -->
+        <div class="ticker-box">
+          <div class="ticker-header">
+            <span class="ticker-label"><Icon
+              icon="mdi:clock-edit-outline"
+              :ssr="true"
+              height="14"
+            />Letzte Änderungen</span>
+            <span class="ticker-dot" />
+          </div>
+          <ul class="ticker-list">
+            <li
+              v-for="item in recentNews"
+              :key="item.date.toString()"
+              class="ticker-item"
+            >
+              <span class="ticker-date">{{ dateString(item.date) }}</span>
+              <span class="ticker-text">{{ item.title }}</span>
+            </li>
+          </ul>
+          <div class="ticker-footer">
+            <a href="/news">→ Vollständiges Änderungslog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE BODY -->
+    <div class="page-body">
+      <!-- PILLARS -->
+      <div class="pillars">
+        <a
+          v-for="p in pillars"
+          :key="p.href"
+          :href="p.href"
+          class="pillar"
+        >
+          <img
+            :src="p.icon"
+            :alt="p.title"
+            class="pillar-icon"
+          >
+          <h3 class="pillar-title">{{ p.title }}</h3>
+          <div class="pillar-label">{{ p.label }}</div>
+          <p class="pillar-desc">{{ p.desc }}</p>
+          <div class="pillar-cta"><Icon
+            icon="mdi:arrow-right"
+            height="16"
+          />{{ p.cta }}</div>
+        </a>
+      </div>
+
+      <!-- CONTENT GRID -->
+      <div class="content-grid">
+        <!-- MAIN COLUMN -->
+        <div class="main-col">
+          <!-- NEUESTE ARTIKEL -->
+          <div class="section-header">
+            <h2 class="section-title">
+              Neueste Artikel
+              <span class="badge badge-new">NEU</span>
+            </h2>
+            <a
+              href="/faktenchecks"
+              class="section-link"
+            >Bereich wählen →</a>
+          </div>
+
+          <RecentPosts />
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+          <!-- KONTAKT BOX -->
+          <div class="sidebar-box">
+            <div class="sidebar-box-header">
+              <span class="sidebar-box-title"><Icon
+                icon="mdi:email-outline"
+                :ssr="true"
+                height="14"
+              /> Kontakt & Feedback</span>
+            </div>
+            <div class="sidebar-box-body">
+              <p>
+                Die Seite ist im Dezember 2025 gestartet und wird kontinuierlich erweitert.
+                Schau gerne regelmäßig vorbei!
+              </p>
+              <p>
+                Feedback und Vorschläge per E-Mail an
+                <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a>
+                oder im <a href="https://discord.faktenfackel.de">Discord</a>.
+              </p>
+            </div>
+          </div>
+
+          <!-- SUPPORT -->
+          <div class="support-box">
+            <div class="support-icon">
+              <Icon
+                icon="mdi:coffee"
+                :ssr="true"
+                height="28"
+              />
+            </div>
+            <div class="support-title">
+              Unterstütze Faktenfackel
+            </div>
+            <p class="support-desc">
+              Die Seite ist werbefrei und unabhängig – mit deiner Hilfe bleibt sie es.
+            </p>
+            <a
+              href="https://buymeacoffee.com/faktenfackel"
+              class="btn-primary btn-small"
+            >
+              <Icon
+                icon="mdi:coffee"
+                :ssr="true"
+                height="14"
+              /> Kaffee spendieren
+            </a>
+          </div>
+        </aside>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.page-root {
+  display: contents;
+}
+
 /* ── HERO ── */
 .hero {
   background: var(--smoke);
@@ -429,7 +466,7 @@ const pillars = [
 
 .pillar:hover::before { transform: scaleX(1); }
 
-.pillar-icon { width: 52px; height: 52px; object-fit: contain; margin-bottom: 0.3rem; }
+.pillar-icon { width: 52px; height: 52px; object-fit: contain; margin-bottom: 0.3rem; align-self: center; }
 
 .pillar-label {
   font-family: 'Ubuntu Mono', monospace;
@@ -438,6 +475,7 @@ const pillars = [
   text-transform: uppercase;
   color: var(--flame);
   font-weight: 600;
+  margin-top: -0.3rem;
 }
 
 .pillar-title {
@@ -464,9 +502,15 @@ const pillars = [
   margin-top: auto;
   padding-top: 0.8rem;
   border-top: 1px solid var(--fackel-border);
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-.pillar-cta::before { content: '→ '; color: var(--flame); }
+.pillar-cta :deep(svg) {
+  color: var(--flame);
+  flex-shrink: 0;
+}
 
 /* ── CONTENT GRID ── */
 .content-grid {

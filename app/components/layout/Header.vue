@@ -6,7 +6,10 @@ import SearchBar from '~/components/layout/SearchBar.vue'
 <template>
   <div class="sticky top-0 z-50 nav-wrapper shadow-md">
     <header class="nav-inner">
-      <NuxtLink to="/" class="nav-logo">
+      <NuxtLink
+        to="/"
+        class="nav-logo"
+      >
         <NuxtImg
           src="/img/logo-sm.webp"
           format="webp"

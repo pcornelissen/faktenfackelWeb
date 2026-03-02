@@ -25,7 +25,7 @@ const props = defineProps<{
           :ssr="true"
           height="32"
           width="32"
-          style="flex-shrink: 0"
+          class="item-icon"
         />
         <div class="flex flex-row grow">
           <div class="flex-auto ml-2">
@@ -106,5 +106,11 @@ li:hover {
 .description {
   font-size: 0.8em;
   margin-bottom: 0.5em;
+}
+
+.item-icon {
+  flex-shrink: 0;
+  color: var(--flame);
+  opacity: 0.85;
 }
 </style>

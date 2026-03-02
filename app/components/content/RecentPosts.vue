@@ -22,14 +22,28 @@ function filter(list: Post[]) {
       <span class="post-num">{{ String(index + 1).padStart(2, '0') }}</span>
       <div class="post-body">
         <div class="post-meta">
-          <span v-if="item.tags?.[0]" class="post-tag">{{ item.tags[0] }}</span>
-          <span v-if="item.tags?.[0]" class="post-dot">·</span>
+          <span
+            v-if="item.tags?.[0]"
+            class="post-tag"
+          >{{ item.tags[0] }}</span>
+          <span
+            v-if="item.tags?.[0]"
+            class="post-dot"
+          >·</span>
           <span class="post-date">{{ dateString(item.date) }}</span>
         </div>
-        <NuxtLink :to="item.path" class="post-title">
+        <NuxtLink
+          :to="item.path"
+          class="post-title"
+        >
           {{ item.title }}
         </NuxtLink>
-        <p v-if="item.subtitle" class="post-subtitle">{{ item.subtitle }}</p>
+        <p
+          v-if="item.subtitle"
+          class="post-subtitle"
+        >
+          {{ item.subtitle }}
+        </p>
       </div>
     </li>
   </ul>

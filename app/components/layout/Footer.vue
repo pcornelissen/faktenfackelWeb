@@ -19,16 +19,33 @@ onMounted(() => {
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="footer-logo">Fakten<em>fackel</em></div>
-        <p class="footer-tagline">Unabhängige Faktencheck-Plattform für Deutschland. Seit Dezember 2025 aktiv – kontinuierlich erweitert.</p>
-        <a href="https://buymeacoffee.com/faktenfackel" class="support-link">
-          <Icon icon="mdi:coffee" :ssr="true" height="14" />
+        <div class="footer-logo">
+          Fakten<em>fackel</em>
+        </div>
+        <p class="footer-tagline">
+          Unabhängige Faktencheck-Plattform für Deutschland. Seit Dezember 2025 aktiv – kontinuierlich erweitert.
+        </p>
+        <a
+          href="https://buymeacoffee.com/faktenfackel"
+          class="support-link"
+        >
+          <Icon
+            icon="mdi:coffee"
+            :ssr="true"
+            height="14"
+          />
           Unterstütze uns
         </a>
       </div>
 
       <div class="footer-col">
-        <div class="footer-col-title"><Icon icon="mdi:newspaper-variant-outline" :ssr="true" height="13" />Inhalte</div>
+        <div class="footer-col-title">
+          <Icon
+            icon="mdi:newspaper-variant-outline"
+            :ssr="true"
+            height="13"
+          />Inhalte
+        </div>
         <ul>
           <li><a href="/faktenchecks">Faktenchecks</a></li>
           <li><a href="/lagerfeuer">Lagerfeuer</a></li>
@@ -39,7 +56,13 @@ onMounted(() => {
       </div>
 
       <div class="footer-col">
-        <div class="footer-col-title"><Icon icon="mdi:information-outline" :ssr="true" height="13" />Über uns</div>
+        <div class="footer-col-title">
+          <Icon
+            icon="mdi:information-outline"
+            :ssr="true"
+            height="13"
+          />Über uns
+        </div>
         <ul>
           <li><NuxtLink to="/about">Über Faktenfackel</NuxtLink></li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
@@ -51,7 +74,13 @@ onMounted(() => {
       </div>
 
       <div class="footer-col">
-        <div class="footer-col-title"><Icon icon="mdi:scale-balance" :ssr="true" height="13" />Rechtliches</div>
+        <div class="footer-col-title">
+          <Icon
+            icon="mdi:scale-balance"
+            :ssr="true"
+            height="13"
+          />Rechtliches
+        </div>
         <ul>
           <li><a href="/impressum">Impressum</a></li>
           <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li>

@@ -27,12 +27,6 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light',
   },
-  ui: {
-    colors: {
-      primary: 'orange',
-      neutral: 'stone',
-    },
-  },
   content: {
     build: {
       markdown: {
@@ -41,6 +35,14 @@ export default defineNuxtConfig({
           searchDepth: 3,
         },
       },
+    },
+  },
+  ui: {
+    theme: {
+      colors: [
+        'orange',
+        'stone',
+      ],
     },
   },
   routeRules: {

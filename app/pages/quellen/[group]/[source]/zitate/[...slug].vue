@@ -9,32 +9,24 @@ const route = useRoute()
 handleRenameRedirects(route.path)
 
 const slug = (route.params.slug as string[]).join('/')
-
 const basePath = route.path
-
 const sourcePath = getSourceFromPath(route.path)
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('zitate', basePath).where('path', 'LIKE', sourcePath + '/%')
 })
 
-const { data: source }
-  = await
-  useAsyncData(
-    `zitate-quelle-${slug}`,
-    () => {
-      return queryCollection('quellen').path(sourcePath).first()
-    })
+const { data: source } = await useAsyncData(
+  `zitate-quelle-${slug}`,
+  () => queryCollection('quellen').path(sourcePath).first(),
+)
 
-const { data: page }
-  = await
-  useAsyncData(
-    `zitate-${slug}`,
-    () => {
-      return queryCollection('zitate').path(basePath).first()
-    })
+const { data: page } = await useAsyncData(
+  `zitate-${slug}`,
+  () => queryCollection('zitate').path(basePath).first(),
+)
 
-const title = (page.value?.title || 'Zitat von ' + source.value?.name || 'unbekannter Quelle')
+const title = page.value?.title || 'Zitat von ' + (source.value?.name || 'unbekannter Quelle')
 
 await definePageData({
   title: title + ' - Faktenfackel',
@@ -51,8 +43,7 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
   <div>
     <NuxtLink
       :to="sourcePath"
-      style="display: inline-flex;
-    vertical-align: middle;"
+      style="display: inline-flex; vertical-align: middle;"
     >
       <icon
         name="i-lucide:arrow-left"
@@ -60,46 +51,51 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
       />
       Zur Quelle "{{ source?.name }}" springen
     </NuxtLink>
-    <UPage
-      v-if="page"
-      style="width:fit-content"
-    >
-      <h2>Zitat</h2>
-      <div
-        class="flex-auto ml-2 row"
-      >
-        <div class="flex  ">
-          {{ page.title }}
+
+    <div v-if="page">
+      <div class="article-header">
+        <div class="article-headline">
+          Stand: {{ lastChange }}
         </div>
-        <div class="italic text-sm ml-5">
-          (Stand: {{ lastChange }})
+        <h1 class="article-title">
+          {{ page.title }}
+        </h1>
+      </div>
+
+      <div class="quote-info">
+        <div class="section-block">
+          <div class="section-label">
+            Zitat
+          </div>
+          <blockquote class="quote-text">
+            {{ page.title }}
+          </blockquote>
+        </div>
+
+        <div
+          v-if="page.tags?.length"
+          class="section-block"
+        >
+          <div class="section-label">
+            Schlagworte
+          </div>
+          <Tags
+            :tags="page.tags"
+            base-path="/zitate"
+          />
         </div>
       </div>
-      <h2>Schlagworte</h2>
-      <Tags
-        :tags="page.tags"
-        base-path="/zitate"
-      />
-      <UPageBody v-if="page.body">
-        <ContentRenderer
-          :value="page"
-        />
 
-        <USeparator v-if="surround?.filter(Boolean).length" />
-
-        <UContentSurround :surround="(surround as any)" />
-      </UPageBody>
-
-      <template
-        v-if="page?.body?.toc?.links?.length"
-        #right
+      <div
+        v-if="page.body"
+        class="article-body content"
       >
-        <UContentToc
-          :links="page.body.toc.links"
-          title="Inhalt"
-        />
-      </template>
-    </UPage>
+        <ContentRenderer :value="page" />
+        <USeparator v-if="surround?.filter(Boolean).length" />
+        <UContentSurround :surround="(surround as any)" />
+      </div>
+    </div>
+
     <div v-else>
       Nanu, diese Seite existiert nicht!
     </div>
@@ -107,37 +103,59 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
 </template>
 
 <style scoped>
-p {
-  margin-bottom: 1em;
+.article-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--fackel-border);
 }
 
-.source-img {
-  max-width: 15rem;
-  max-height: 5rem;
-  display: inline;
-  margin-right: 1rem;
+.article-headline {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flame);
+  margin-bottom: 0.5rem;
 }
 
-.source-name {
-  font-weight: bold;
+.article-title {
+  margin: 0;
+  line-height: 1.15;
 }
 
-.source-link {
-  border-radius: 0.5rem;
-  transition: ease all .5s;
-  width: fit-content;
-  padding-left: 0.5rem;
-  padding-right: 1rem;
+.quote-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
 }
 
-.source-link:hover {
-  background-color: #eee;
-  transition: ease all .5s;
-
+.section-label {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flame);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
 }
 
-a:hover {
-  color: var(--color-secondary);
-  @apply underline;
+.section-block {
+  padding-top: 1rem;
+  border-top: 1px solid var(--fackel-border);
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--ink);
+  border-left: 3px solid var(--flame);
+  padding-left: 1rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.article-body {
+  margin-top: 1.5rem;
 }
 </style>
