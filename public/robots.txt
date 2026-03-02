@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /*
-disallow: /_admin/
-#Content-Usage: bots=y, train-ai=y
-#Content-Signal: ai-train=yes, search=yes
+Disallow: /_admin/
+
 Sitemap: https://faktenfackel.de/sitemap.xml

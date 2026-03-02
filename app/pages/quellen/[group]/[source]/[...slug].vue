@@ -39,6 +39,20 @@ await definePageData({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
+useSeoMeta({
+  ogUrl: `https://faktenfackel.de${route.path}`,
+  twitterCard: 'summary_large_image',
+})
+
+useClaimReview({
+  title: page.value?.title || title,
+  url: route.path,
+  dateModified: page.value?.date,
+  datePublished: page.value?.publishedOn,
+  verdict: page.value?.verdict,
+  author: source.value?.name,
+})
+
 const coSources = new Set(page.value?.coSources == null ? [] : page.value.coSources)
 
 const { data: coList } = (coSources == null || coSources.size == 0)

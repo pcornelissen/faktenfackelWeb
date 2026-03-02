@@ -36,7 +36,18 @@ await definePageData({
 useSeoMeta({
   title: title + ' - Faktenfackel',
   description: page.value?.description || subtitle,
+  ogUrl: `https://faktenfackel.de${route.path}`,
+  twitterCard: 'summary_large_image',
   articleModifiedTime: page.value?.date || new Date().toLocaleDateString(),
+})
+
+useClaimReview({
+  title: page.value?.title || title,
+  subtitle: page.value?.subtitle,
+  url: route.path,
+  dateModified: page.value?.date,
+  datePublished: page.value?.publishedOn || undefined,
+  verdict: page.value?.verdict,
 })
 
 const loadInstagram = page.value?.loadInstagram || false
