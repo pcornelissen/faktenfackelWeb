@@ -1,12 +1,10 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content'
-import { asSitemapCollection } from '@nuxtjs/sitemap/content'
 
 export default defineContentConfig({
   collections: {
     faktenchecks: defineCollection({
       type: 'page',
       source: 'faktenchecks/**/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         title: z.string(),
@@ -19,7 +17,6 @@ export default defineContentConfig({
     lagerfeuer: defineCollection({
       type: 'page',
       source: 'lagerfeuer/**/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         title: z.string(),
@@ -31,7 +28,6 @@ export default defineContentConfig({
     glossar: defineCollection({
       type: 'page',
       source: 'glossar/**/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         title: z.string(),
@@ -43,7 +39,6 @@ export default defineContentConfig({
     zitate: defineCollection({
       type: 'page',
       source: 'quellen/*/*/zitate/*.md',
-      // Define custom schema for this collection
       schema: z.object({
         date: z.date(),
         code: z.string(),
@@ -85,11 +80,5 @@ export default defineContentConfig({
         { columns: ['code'], unique: true },
       ],
     }),
-    sitemap: defineCollection(
-      asSitemapCollection({
-        type: 'page',
-        source: '**/*.md',
-      }),
-    ),
   },
 })

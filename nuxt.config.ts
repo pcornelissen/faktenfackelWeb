@@ -88,8 +88,13 @@ export default defineNuxtConfig({
       const wordsPerMinute = 180
       const text = file.body
       const wordCount = text.split(/\s+/).length
-
       content.readingTime = Math.ceil(wordCount / wordsPerMinute)
+
+      // date-Feld als sitemap.lastmod verfügbar machen
+      if (content.date) {
+        content.sitemap = content.sitemap || {}
+        content.sitemap.lastmod = content.date
+      }
     },
   },
   eslint: {
@@ -140,5 +145,10 @@ export default defineNuxtConfig({
   },
   sitemap: {
     zeroRuntime: true,
+    sitemapName: 'sitemap.xml',
+    defaultSitemapsChunkSize: 1000,
+    sources: [
+      '/api/__sitemap__/urls',
+    ],
   },
 })
