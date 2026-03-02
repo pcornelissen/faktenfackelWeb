@@ -84,7 +84,10 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
           v-if="page.body"
           :value="page"
         />
-        <USeparator v-if="surround?.filter(Boolean).length" />
+        <USeparator
+          v-if="surround?.filter(Boolean).length"
+          class="my-8"
+        />
         <UContentSurround :surround="(surround as any)">
           <template #link-description="{ link }">
             {{ link?.subtitle || link?.description }}

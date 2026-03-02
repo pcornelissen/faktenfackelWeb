@@ -62,7 +62,10 @@ const lastChange = dateString(lastChangeStr)
           v-if="page.body"
           :value="page"
         />
-        <USeparator v-if="surround?.filter(Boolean).length" />
+        <USeparator
+          v-if="surround?.filter(Boolean).length"
+          class="my-8"
+        />
         <UContentSurround :surround="(surround as any)" />
       </div>
     </div>

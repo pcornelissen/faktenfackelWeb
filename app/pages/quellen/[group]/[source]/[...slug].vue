@@ -150,7 +150,10 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
       >
         <h2>Link Beschreibung</h2>
         <ContentRenderer :value="page" />
-        <USeparator v-if="surround?.filter(Boolean).length" />
+        <USeparator
+          v-if="surround?.filter(Boolean).length"
+          class="my-8"
+        />
         <UContentSurround :surround="(surround as any)" />
       </div>
     </div>
