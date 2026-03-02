@@ -76,6 +76,11 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
           {{ page.title }}
         </h1>
       </div>
+      <VerdictLabel
+        v-if="page.verdict !== undefined"
+        :type="page.verdict"
+        class="article-verdict"
+      />
 
       <div class="link-info">
         <div class="link-row">
@@ -183,6 +188,11 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
 .article-title {
   margin: 0;
   line-height: 1.15;
+}
+
+.article-verdict {
+  display: inline-block;
+  margin: 0.5rem 0 0;
 }
 
 .link-info {

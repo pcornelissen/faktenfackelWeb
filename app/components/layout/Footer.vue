@@ -90,7 +90,7 @@ onMounted(() => {
     </div>
 
     <div class="footer-bottom">
-      <span>©{{ date?.getFullYear() || '2026' }} Faktenfackel · Alle Angaben ohne Gewähr</span>
+      <span>©{{ date?.getFullYear() || '2026' }} Faktenfackel · Alle Angaben ohne Gewähr, Logos und Markennamen gehören den jeweiligen Markeninhabern</span>
     </div>
   </footer>
 </template>
@@ -187,7 +187,7 @@ onMounted(() => {
   margin: 1.5rem auto 0;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 0.75rem;
-  color: #5A5048;
+  color: #9A8F86;
   letter-spacing: 0.05em;
 }
 

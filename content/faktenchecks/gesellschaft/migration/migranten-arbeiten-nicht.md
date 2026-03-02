@@ -2,6 +2,7 @@
 publishedOn: 2025-12-12
 date: 2026-01-16
 title: Migranten arbeiten nicht?
+verdict: false        # oder: misleading, complex, true
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
 tags: [Migranten, Arbeit, Stadtbild]
 ---

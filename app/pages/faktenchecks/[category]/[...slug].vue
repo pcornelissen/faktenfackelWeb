@@ -79,6 +79,11 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
         >
           {{ page.subtitle }}
         </p>
+        <VerdictLabel
+          v-if="page.verdict !== undefined"
+          :type="page.verdict"
+          class="article-verdict"
+        />
       </div>
 
       <UAlert
@@ -132,6 +137,11 @@ referencesStore.fetchFor(extractCodes(page.value?.body))
 .article-title {
   margin: 0 0 0.4rem;
   line-height: 1.15;
+}
+
+.article-verdict {
+  display: inline-block;
+  margin: 0.5rem 0 0.75rem;
 }
 
 .article-subtitle {

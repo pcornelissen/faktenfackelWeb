@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { data: list1 } = await useAsyncData('/faktenchecks', () => {
   return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date')
+    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
     .order('date', 'DESC')
     .all()
 })
@@ -45,6 +45,15 @@ function filter(list: Post[]) {
           {{ item.subtitle }}
         </p>
       </div>
+      <VerdictLabel
+        v-if="item.verdict !== undefined"
+        :type="item.verdict"
+        class="post-verdict"
+      />
+      <div
+        v-else
+        class="post-verdict-placeholder"
+      />
     </li>
   </ul>
 </template>
@@ -58,9 +67,9 @@ function filter(list: Post[]) {
 
 .post-item {
   display: grid;
-  grid-template-columns: 28px 1fr;
+  grid-template-columns: 28px 1fr auto;
   gap: 1rem;
-  align-items: start;
+  align-items: center;
   padding: 1.1rem 0;
   border-bottom: 1px solid var(--fackel-border);
   transition: background 0.1s;
@@ -73,7 +82,7 @@ function filter(list: Post[]) {
 .post-num {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.62rem;
-  color: #C4BAB0;
+  color: #8C8078;
   padding-top: 3px;
 }
 
@@ -94,7 +103,7 @@ function filter(list: Post[]) {
 }
 
 .post-dot {
-  color: var(--fackel-border);
+  color: #A09890;
   font-size: 0.7rem;
 }
 
@@ -121,16 +130,20 @@ function filter(list: Post[]) {
 
 .post-subtitle {
   font-size: 0.82rem;
-  color: var(--muted);
+  color: #5C5550;
   line-height: 1.5;
   margin: 4px 0 0;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
+}
+
+.post-verdict-placeholder {
+  width: 0;
 }
 
 @media screen and (max-width: 560px) {
   .post-item {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr auto;
     gap: 0.3rem;
   }
   .post-num { display: none; }

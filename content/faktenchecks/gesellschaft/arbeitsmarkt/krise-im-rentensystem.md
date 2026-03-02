@@ -2,6 +2,7 @@
 publishedOn: 2026-01-05
 date: 2026-01-05
 title: Rentensystem in der Krise
+verdict: complex        # oder: misleading, complex, true
 subtitle: Die Alterspyramide steht Kopf
 tags: [Deutschland, Arbeitsmarkt, Rentner, Migranten]
 ---

@@ -37,6 +37,7 @@ export type Post = {
   title: string
   subject: string
   subtitle: string
+  verdict: 'false' | 'misleading' | 'complex' | 'true' | undefined
   description: string | undefined
   icon: string | undefined
   path: string
