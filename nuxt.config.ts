@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'nuxt-feedme',
   ],
+  components: [
+    { path: '~/components', pathPrefix: false },
+  ],
   devtools: {
     enabled: true,
 
