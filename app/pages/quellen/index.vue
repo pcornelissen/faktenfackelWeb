@@ -20,6 +20,7 @@ const { data: list1, pending } = useLazyAsyncData(basePath, () => {
 }, { server: false })
 
 const filter = ref('')
+const search = ref('')
 
 function setFilter(newFilter: string) {
   filter.value = newFilter
@@ -33,16 +34,25 @@ function matches(path: string, f: string) {
 
 const all = computed(() => (list1.value || []) as Source[])
 
+const searchFiltered = computed(() => {
+  const q = search.value.trim().toLowerCase()
+  if (!q) return all.value
+  return all.value.filter(item =>
+    item.name?.toLowerCase().includes(q)
+    || item.description?.toLowerCase().includes(q),
+  )
+})
+
 const sortedMap = computed(() => {
   const map = new Map<string, Source[]>()
   for (const filt of filters) {
-    map.set(filt, all.value.filter(item => matches(item.path, filt)))
+    map.set(filt, searchFiltered.value.filter(item => matches(item.path, filt)))
   }
   return map
 })
 
 const filtered = computed(() => {
-  return filter.value === '' ? all.value : sortedMap.value.get(filter.value) || []
+  return filter.value === '' ? searchFiltered.value : sortedMap.value.get(filter.value) || []
 })
 </script>
 
@@ -55,7 +65,7 @@ const filtered = computed(() => {
       icon-txt="Nachrichten medien Icons erstellt von Muhammad Yusuf - Flaticon"
     />
     <nuxt-link
-      to="/quellen/tags"
+      to="/tags"
       class="tags-link"
     >
       <icon name="i-mdi:tag-multiple-outline" />
@@ -79,19 +89,34 @@ const filtered = computed(() => {
         <span class="filter-label">Filter</span>
         <span class="filter-count">{{ filtered.length }} {{ filtered.length === 1 ? 'Quelle' : 'Quellen' }}</span>
       </div>
+      <div
+        class="search-wrap"
+        :class="{ 'search-active': search }"
+      >
+        <Icon
+          name="i-lucide:search"
+          class="search-icon"
+        />
+        <input
+          v-model="search"
+          type="search"
+          placeholder="Quellen suchen…"
+          class="search-input"
+        >
+      </div>
       <div class="filters">
         <div
           class="filter"
           :class="{ 'filter-active': filter === '' }"
           @click="setFilter('')"
         >
-          Alle ({{ all.length || 0 }})
+          Alle ({{ searchFiltered.length || 0 }})
         </div>
         <div
           v-for="filt in filters"
           :key="filt"
           class="filter"
-          :class="{ 'filter-active': filter === filt }"
+          :class="{ 'filter-active': filter === filt, 'filter-empty': sortedMap.get(filt)?.length === 0 }"
           @click="setFilter(filt)"
         >
           {{ filt }} ({{ sortedMap.get(filt)?.length || 0 }})
@@ -191,6 +216,49 @@ const filtered = computed(() => {
   color: var(--flame);
 }
 
+.search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  border: 1px solid var(--fackel-border);
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  margin-bottom: 0.75rem;
+  transition: border-color 0.15s;
+  max-width: 26rem;
+}
+
+.search-wrap:focus-within,
+.search-wrap.search-active {
+  border-color: var(--flame);
+}
+
+.search-icon {
+  color: var(--muted);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.search-input {
+  flex: 1;
+  font-family: 'Source Serif 4', serif;
+  font-size: 0.88rem;
+  color: var(--ink);
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -209,9 +277,15 @@ const filtered = computed(() => {
   transition: border-color 0.15s, background 0.15s, color 0.15s;
 }
 
-.filter:hover {
+.filter:hover:not(.filter-empty) {
   border-color: var(--ember);
   color: var(--ember);
+}
+
+.filter-empty {
+  opacity: 0.35;
+  cursor: default;
+  pointer-events: none;
 }
 
 .filter-active {

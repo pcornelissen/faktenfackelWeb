@@ -107,7 +107,6 @@ await referencesStore.fetchFor(extractCodes(page.value?.body))
           </div>
           <Tags
             :tags="page.tags"
-            base-path="quellen"
           />
         </div>
 

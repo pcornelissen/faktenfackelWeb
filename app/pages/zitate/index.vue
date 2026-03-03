@@ -11,19 +11,26 @@ await definePageData({
   description: '',
 })
 
-const limit = 10
-const { data: list1 } = await useAsyncData(route.path, () => {
-  return queryCollection('zitate')
-    .limit(limit)
-    .all()
+const { data: list1, pending } = useLazyAsyncData(route.path, () => {
+  return queryCollection('zitate').order('date', 'DESC').all()
+}, { server: false })
+
+const search = ref('')
+
+const list = computed(() => (list1.value ?? []) as Quote[])
+
+const filtered = computed(() => {
+  const q = search.value.trim().toLowerCase()
+  if (!q) return list.value
+  return list.value.filter(item =>
+    item.title?.toLowerCase().includes(q)
+    || item.teaser?.toLowerCase().includes(q),
+  )
 })
-const list = list1.value as Quote[]
 </script>
 
 <template>
-  <div
-    v-if="list"
-  >
+  <div>
     <Heading
       as="h1"
       title="Zitate"
@@ -31,7 +38,7 @@ const list = list1.value as Quote[]
       icon-txt="Feedback Icons erstellt von Freepik - Flaticon"
     />
     <nuxt-link
-      to="/zitate/tags"
+      to="/tags"
       class="tags-link"
     >
       <icon name="i-mdi:tag-multiple-outline" />
@@ -41,20 +48,36 @@ const list = list1.value as Quote[]
       Die Zitate sind jeweils einer Quelle zugeordnet. Wenn mehrere Personen involviert sind, sind sie im Text zum Zitat referenziert.
       Viele Zitate haben begleitende Einordnungen und Referenzen.
     </p>
-    <h3 class="section-heading">
-      Die letzten {{ limit }} Zitate
-    </h3>
-    <QuotesList
-      :list="list"
-      :show-source="true"
-    />
-  </div>
-  <div v-else>
-    Moment! Keine Zitate gefunden, hier ist etwas kaputt!<br>
-    <br>
-    <NuxtLink to="/">
-      Zurück zur Startseite
-    </NuxtLink>
+
+    <div
+      v-if="pending"
+      class="loading"
+    >
+      <span class="loading-text">Zitate werden geladen…</span>
+    </div>
+    <template v-else>
+      <div class="search-wrap">
+        <Icon
+          name="i-lucide:search"
+          class="search-icon"
+        />
+        <input
+          v-model="search"
+          type="search"
+          placeholder="Zitate durchsuchen…"
+          class="search-input"
+        >
+        <span
+          v-if="search"
+          class="search-count"
+        >{{ filtered.length }} Treffer</span>
+      </div>
+      <QuotesList
+        :list="filtered"
+        :show-source="true"
+        :page-size="25"
+      />
+    </template>
   </div>
 </template>
 
@@ -86,8 +109,64 @@ const list = list1.value as Quote[]
   margin-bottom: 1.5rem;
 }
 
-.section-heading {
-  font-size: 1.1rem;
-  margin: 0 0 1rem;
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.loading-text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  border: 1px solid var(--fackel-border);
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.15s;
+}
+
+.search-wrap:focus-within {
+  border-color: var(--flame);
+}
+
+.search-icon {
+  color: var(--muted);
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.search-input {
+  flex: 1;
+  font-family: 'Source Serif 4', serif;
+  font-size: 0.9rem;
+  color: var(--ink);
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.search-count {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--flame);
+  white-space: nowrap;
 }
 </style>

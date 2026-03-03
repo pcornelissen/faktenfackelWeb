@@ -53,7 +53,6 @@ const list = list1.value as Post[]
     />
     <PostsList
       :list="filter(list, category, 'lagerfeuer')"
-      :base-path="route.path"
     />
   </div>
   <div v-else>

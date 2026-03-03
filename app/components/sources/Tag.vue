@@ -3,13 +3,12 @@ import { capitalize } from '~/utils/stringUtils'
 
 const props = defineProps<{
   tag: string
-  basePath: string
 }>()
 </script>
 
 <template>
   <NuxtLink
-    :to="`${props.basePath}/tags/${props.tag}`"
+    :to="`/tags/${props.tag}`"
     class="tag"
   >
     {{ capitalize(tag) }}

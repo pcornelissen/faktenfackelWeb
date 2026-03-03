@@ -45,7 +45,6 @@ const source = props.source
         v-for="tag in source.tags"
         :key="tag"
         :tag="tag"
-        base-path="/quellen"
       />
     </div>
   </li>

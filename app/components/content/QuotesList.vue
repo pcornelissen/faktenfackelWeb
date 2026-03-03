@@ -7,7 +7,10 @@ import SourceShortInfo from '~/components/sources/SourceShortInfo.vue'
 const props = defineProps<{
   list: Quote[]
   showSource?: boolean | null
+  pageSize?: number
 }>()
+
+const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.list, props.pageSize ?? 10000)
 
 const sourcesRaw
   = (props.showSource === true && props.list.length > 0
@@ -30,7 +33,7 @@ sourcesRaw.forEach(s => sources.set(buildSourcePath(s.path), s))
   <nav class="navigation">
     <ul>
       <QuoteListItem
-        v-for="item in props.list"
+        v-for="item in pageItems"
         :key="item.path"
         :quote="item"
       >
@@ -42,6 +45,12 @@ sourcesRaw.forEach(s => sources.set(buildSourcePath(s.path), s))
         </template>
       </QuoteListItem>
     </ul>
+    <PagerNav
+      v-if="totalPages > 1"
+      :current-page="currentPage"
+      :total-pages="totalPages"
+      @go="goTo"
+    />
   </nav>
 </template>
 

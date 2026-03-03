@@ -6,7 +6,6 @@ import Tag from '~/components/sources/Tag.vue'
 
 const props = defineProps<{
   list: Post[]
-  basePath: string
   href?: string
   icon?: string
   pageSize?: number
@@ -62,7 +61,6 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
               v-for="tag in item.tags"
               :key="tag"
               :tag="tag"
-              :base-path="props.basePath"
             />
           </div>
         </div>

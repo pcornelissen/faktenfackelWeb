@@ -39,7 +39,6 @@ function filter(list: Post[]) {
     </p>
     <PostsList
       :list="filter(list)"
-      :base-path="route.path"
       icon="mdi:book-education-outline"
     />
   </div>

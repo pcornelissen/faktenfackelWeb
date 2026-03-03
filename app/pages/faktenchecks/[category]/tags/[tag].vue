@@ -64,7 +64,6 @@ function filter(list: Post[]) {
 
     <PostsList
       :list="filter(list)"
-      :base-path="`/faktenchecks/${category}`"
     />
   </div>
   <div v-else>

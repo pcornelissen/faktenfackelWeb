@@ -45,7 +45,6 @@ const list = list1.value as Post[]
     />
     <PostsList
       :list="filter(list, category)"
-      :base-path="route.path"
     />
   </div>
   <div v-else>

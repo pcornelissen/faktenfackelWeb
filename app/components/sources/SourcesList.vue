@@ -34,7 +34,6 @@ const props = defineProps<{
               v-for="tag in item.tags"
               :key="tag"
               :tag="tag"
-              base-path="/quellen"
             />
             <br>
           </div>

@@ -28,7 +28,6 @@ const props = defineProps<{
       </NuxtLink>
       <Tags
         :tags="props.quote.tags"
-        base-path="/zitate"
       />
       <slot name="post" />
     </div>
@@ -72,15 +71,40 @@ const props = defineProps<{
 }
 
 .quote-teaser {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 1rem;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.05rem;
   font-weight: 400;
+  font-style: italic;
   color: var(--ink);
-  line-height: 1.5;
-  transition: color 0.15s;
+  line-height: 1.55;
+  border-left: 3px solid var(--flame);
+  padding-left: 0.75rem;
+  margin-top: 0.2rem;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.quote-teaser::before {
+  content: '\201E';
+  font-size: 1.4em;
+  line-height: 0;
+  vertical-align: -0.35em;
+  color: var(--flame);
+  margin-right: 0.1em;
+  font-style: normal;
+}
+
+.quote-teaser::after {
+  content: '\201C';
+  font-size: 1.4em;
+  line-height: 0;
+  vertical-align: -0.35em;
+  color: var(--flame);
+  margin-left: 0.1em;
+  font-style: normal;
 }
 
 .quote-link:hover .quote-teaser {
   color: var(--ember);
+  border-color: var(--ember);
 }
 </style>

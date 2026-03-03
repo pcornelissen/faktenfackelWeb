@@ -31,7 +31,6 @@ const props = defineProps<{
     <Tags
       :tags="props.item.tags"
       class="ml-5"
-      base-path="/quellen"
     >
       <template #end>
         <NuxtLink
