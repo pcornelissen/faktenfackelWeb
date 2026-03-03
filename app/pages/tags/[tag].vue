@@ -84,7 +84,7 @@ const filteredQuellen = computed(() =>
   ((rawQuellen.value ?? []) as unknown as Source[]).filter(item => matchesUndTags(item.tags)),
 )
 
-// Eltern-Quellen für gematchte Quellenlinks nachladen (falls Quelle selbst kein Tag-Match hat)
+// Eltern-Quellen für gematchte Quellenlinks nachladen (falls die Quelle selbst kein Tag-Match hat)
 const parentQuellenCache = ref<Source[]>([])
 watch(filteredQuellenlinks, async (links) => {
   const paths = [...new Set(links.map(l => l.path.split('/').slice(0, 4).join('/')))]
