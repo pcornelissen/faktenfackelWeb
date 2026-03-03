@@ -25,6 +25,7 @@ const list = list1.value as Quote[]
     v-if="list"
   >
     <Heading
+      as="h1"
       title="Zitate"
       icon="feedback"
       icon-txt="Feedback Icons erstellt von Freepik - Flaticon"

@@ -45,6 +45,7 @@ const filtered = computed(() => {
 <template>
   <div class="wide">
     <Heading
+      as="h1"
       title="Quellensammlung"
       icon="news-medien"
       icon-txt="Nachrichten medien Icons erstellt von Muhammad Yusuf - Flaticon"

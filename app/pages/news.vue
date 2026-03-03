@@ -12,7 +12,10 @@ await definePageData({
 
 <template>
   <div>
-    <Heading title="Änderungen" />
+    <Heading
+      as="h1"
+      title="Änderungen"
+    />
     <p class="intro">
       Welche Seiten oder Bereiche haben sich in letzter Zeit geändert?
     </p>

@@ -13,7 +13,7 @@ await definePageData({
 <template>
   <div class="wide">
     <Heading
-
+      as="h1"
       title="Faktenchecks"
       icon="fake-news"
       icon-txt="Freepik Icon von Scherz Infinite Dendrogram"

@@ -28,6 +28,7 @@ function filter(list: Post[]) {
 <template>
   <div v-if="list">
     <Heading
+      as="h1"
       title="Glossar"
       icon="blogging"
       icon-txt="Blogging Icons erstellt von Freepik - Flaticon"

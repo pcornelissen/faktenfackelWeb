@@ -13,7 +13,7 @@ await definePageData({
 <template>
   <div>
     <Heading
-
+      as="h1"
       title="Lagerfeuer"
       icon="bonfire"
       icon-txt="Freepik Icon von @smashingstocks"
