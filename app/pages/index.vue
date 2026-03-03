@@ -138,7 +138,7 @@ const pillars = [
               class="pillar-icon"
             >
           </picture>
-          <h3 class="pillar-title">{{ p.title }}</h3>
+          <div class="pillar-title">{{ p.title }}</div>
           <div class="pillar-label">{{ p.label }}</div>
           <p class="pillar-desc">{{ p.desc }}</p>
           <div class="pillar-cta"><Icon
