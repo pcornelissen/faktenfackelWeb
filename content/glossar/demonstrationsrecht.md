@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-12-30
-date: 2026-03-ß2
+date: 2026-03-02
 title: "Begriffserklärung: Demonstrationsrecht"
 subject: "Demonstrationsrecht"
 
