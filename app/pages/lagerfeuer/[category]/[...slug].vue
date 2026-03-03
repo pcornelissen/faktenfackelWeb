@@ -40,6 +40,15 @@ useSeoMeta({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
+useBlogPosting({
+  title,
+  description: page.value?.description || (subtitle as string) || undefined,
+  url: basePath,
+  datePublished: page.value?.publishedOn as string | undefined,
+  dateModified: page.value?.date as string | undefined,
+  tags: page.value?.tags as string[] | undefined,
+})
+
 await referencesStore.fetchFor(extractCodes(page.value?.body))
 </script>
 

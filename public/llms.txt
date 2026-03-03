@@ -1,0 +1,36 @@
+# Faktenfackel
+
+> Faktenfackel ist ein unabhängiges, deutschsprachiges Faktencheck-Portal. Wir prüfen virale Behauptungen, Memes, Zitate und politische Aussagen auf ihren Wahrheitsgehalt – mit nachvollziehbaren Quellen und klarer Einordnung. Gegründet im Dezember 2025, betrieben von Freiwilligen ohne Parteibindung.
+
+## Wichtige Seiten
+
+- [Faktenchecks](https://faktenfackel.de/faktenchecks): Alle Faktenchecks, sortiert nach Themenbereichen (Politik, Gesellschaft, Medien u.a.)
+- [Quellen](https://faktenfackel.de/quellen): Quellenverzeichnis mit Hintergrundinformationen zu Medien, Organisationen und Personen
+- [Zitate](https://faktenfackel.de/zitate): Belegte Zitate mit Kontext und Einordnung
+- [Lagerfeuer](https://faktenfackel.de/lagerfeuer): Blog mit Hintergrundartikeln, Erklärungen und Kommentaren
+- [Glossar](https://faktenfackel.de/glossar): Erklärungen zu Fachbegriffen rund um Faktencheck und Medienkompetenz
+- [Über uns](https://faktenfackel.de/about): Mission, Arbeitsweise und Team
+- [FAQ](https://faktenfackel.de/faq): Häufig gestellte Fragen
+
+## Inhalte und Struktur
+
+Faktenchecks haben ein Bewertungssystem mit vier Verdikten:
+- **Falsch**: Die Aussage ist nachweislich falsch
+- **Irreführend**: Die Aussage ist irreführend oder aus dem Kontext gerissen
+- **Komplex**: Die Aussage ist vereinfacht oder ohne eindeutiges Urteil
+- **Wahr**: Die Aussage ist korrekt belegt
+
+Faktenchecks verwenden Schema.org ClaimReview-Markup für maschinenlesbare Bewertungen.
+Lagerfeuer-Artikel verwenden Schema.org BlogPosting-Markup.
+
+## Feeds und maschinenlesbare Daten
+
+- [RSS-Feed](https://faktenfackel.de/feed.xml): Neueste Faktenchecks als RSS 2.0
+- [JSON Feed](https://faktenfackel.de/feed.json): Neueste Faktenchecks als JSON Feed 1.0
+- [Sitemap](https://faktenfackel.de/sitemap.xml): Vollständige URL-Liste
+
+## Lizenz und Kontakt
+
+- Inhalte unter [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- Kontakt: kontakt@faktenfackel.de
+- Unterstützung: https://buymeacoffee.com/faktenfackel
