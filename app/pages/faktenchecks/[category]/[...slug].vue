@@ -50,13 +50,6 @@ useClaimReview({
   verdict: page.value?.verdict,
 })
 
-const loadInstagram = page.value?.loadInstagram || false
-if (loadInstagram) {
-  useHead({
-    script: [{ src: 'https://www.instagram.com/embed.js', async: true }],
-  })
-}
-
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 

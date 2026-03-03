@@ -14,16 +14,8 @@ const props = defineProps<{
 </template>
 
 <style scoped>
-@reference "@/assets/css/main.css";
-
 cite {
   display: block;
   font-weight: bold;
-}
-blockquote {
-  @apply border-s-4;
-  @apply border-accented;
-  @apply ps-4;
-  @apply italic;
 }
 </style>

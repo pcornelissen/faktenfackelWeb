@@ -49,7 +49,7 @@ const list = list1.value as Post[]
     <ContentRenderer
       v-if="categoryInfo"
       :value="categoryInfo"
-      class="intro"
+      class="intro content"
     />
     <PostsList
       :list="filter(list, category, 'lagerfeuer')"

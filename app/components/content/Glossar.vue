@@ -57,18 +57,18 @@ const defaultUriName = computed(() => {
 
 <style scoped>
 a {
-  font-family: Ubuntu-Mono, monospace, serif;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 0.95rem;
   border-radius: 0.3rem;
   padding: 0.2rem;
   border-style: dashed;
-  border-width: 1pt;
+  border-width: 1px;
   border-color: white;
   text-decoration: underline;
 }
 
 a:hover {
   background-color: #F5F5F5;
-  border-color: var(--color-primary);
+  border-color: var(--ember);
 }
 </style>
