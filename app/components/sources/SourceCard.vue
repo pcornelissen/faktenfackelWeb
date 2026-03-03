@@ -10,73 +10,121 @@ const source = props.source
 </script>
 
 <template>
-  <UCard
-    as="li"
-    variant="soft"
-    class="mx-2 my-2 cursor-pointer"
-    style="width: clamp(16rem, 22%, 22rem)"
+  <li
+    class="source-card"
     @click="navigateTo(source.path)"
   >
-    <template #header>
+    <div class="card-img-wrap">
+      <lazy-nuxt-img
+        :src="calculateSourceImg(source)"
+        :alt="source.name"
+        :title="calculateSourceImgAuthor(source)"
+        placeholder="/files/no-img.svg"
+        class="card-img"
+      />
+    </div>
+    <div class="card-body">
       <NuxtLink
         :to="source.path"
-        class="link"
+        class="card-name"
       >
         {{ source.name }}
-
-        <div
-          v-if="source.description"
-          class="description mb-2"
-        >
-          {{ source.description }}
-        </div>
       </NuxtLink>
-    </template>
-    <lazy-nuxt-img
-      :src="calculateSourceImg(source)"
-      :alt="calculateSourceImgAuthor(source)"
-      :title="calculateSourceImgAuthor(source)"
-      placeholder="/files/no-img.svg"
-      placeholder-class="placeholder-img rounded-lg p-2"
-      class="source-img rounded-lg"
-    />
-    <template #footer>
-      <div class="flex flex-wrap">
-        <Tag
-          v-for="tag in source.tags"
-          :key="tag"
-          :tag="tag"
-          base-path="/quellen"
-        />
-      </div>
-    </template>
-  </UCard>
+      <p
+        v-if="source.description"
+        class="card-desc"
+      >
+        {{ source.description }}
+      </p>
+    </div>
+    <div
+      v-if="source.tags?.length"
+      class="card-footer"
+    >
+      <Tag
+        v-for="tag in source.tags"
+        :key="tag"
+        :tag="tag"
+        base-path="/quellen"
+      />
+    </div>
+  </li>
 </template>
 
 <style scoped>
-li {
-  background-color: white;
+.source-card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(14rem, 22%, 22rem);
+  margin: 0.5rem;
+  background: white;
   border: 1px solid var(--fackel-border);
-  transition: border-color 0.15s, box-shadow 0.15s;
-  img {
-    background-color: #f9f9f9;
-    min-width: 3em;
-    min-height: 3em;
-    margin: 0 auto;
-  }
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  list-style: none;
 }
 
-li:hover {
-  border-color: var(--ember);
-  box-shadow: 0 2px 8px rgba(249, 140, 53, 0.15);
+.source-card:hover {
+  border-color: var(--flame);
+  box-shadow: 0 3px 10px rgba(249, 140, 53, 0.12);
+  transform: translateY(-1px);
 }
 
-.link {
+.card-img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  background: #FDFAF6;
+  border-bottom: 1px solid var(--fackel-border);
+  padding: 0.75rem 1.25rem;
 }
 
-.description {
+.card-img {
+  max-height: 60px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.card-body {
+  padding: 0.85rem 1rem 0.6rem;
+  flex: 1;
+}
+
+.card-name {
+  display: block;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  line-height: 1.3;
+  margin-bottom: 0.3rem;
+  transition: color 0.15s;
+}
+
+.source-card:hover .card-name {
+  color: var(--flame);
+}
+
+.card-desc {
   font-size: 0.8rem;
-  font-weight: 200;
-  color: #999;
+  color: var(--muted);
+  line-height: 1.45;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-footer {
+  padding: 0.5rem 0.75rem 0.6rem;
+  border-top: 1px solid var(--fackel-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
 }
 </style>

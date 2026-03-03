@@ -9,14 +9,17 @@ const props = defineProps<{
   basePath: string
   href?: string
   icon?: string
+  pageSize?: number
 }>()
+
+const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.list, props.pageSize ?? 20)
 </script>
 
 <template>
   <nav class="navigation">
     <ul class="flex flex-col">
       <li
-        v-for="item in props.list"
+        v-for="item in pageItems"
         :key="item.path"
         class="flex flex-row grow"
       >
@@ -68,6 +71,11 @@ const props = defineProps<{
         Es gibt noch keine Beiträge in diesem Bereich. Schau später nochmal vorbei!
       </li>
     </ul>
+    <PagerNav
+      :current-page="currentPage"
+      :total-pages="totalPages"
+      @go="goTo"
+    />
   </nav>
 </template>
 

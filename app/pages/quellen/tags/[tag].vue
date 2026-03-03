@@ -57,6 +57,13 @@ for (const source of sourcesByLinks as Source[]) {
 const totalLinks = sourceLinksByTag?.length ?? 0
 const totalSources = sourcesByTag?.length ?? 0
 const hasResults = totalLinks + totalSources > 0
+
+const linkGroupEntries = computed(() => Array.from(sourcesMap.entries()))
+const { currentPage: lgPage, totalPages: lgTotalPages, pageItems: lgPageItems, goTo: lgGoTo }
+  = usePagination(() => linkGroupEntries.value, 10)
+
+const { currentPage: scPage, totalPages: scTotalPages, pageItems: scPageItems, goTo: scGoTo }
+  = usePagination(() => sourcesByTag ?? [], 12)
 </script>
 
 <template>
@@ -105,7 +112,7 @@ const hasResults = totalLinks + totalSources > 0
         </h2>
         <div class="source-cards">
           <NuxtLink
-            v-for="source in sourcesByTag"
+            v-for="source in scPageItems"
             :key="source.path"
             :to="source.path"
             class="source-card"
@@ -134,6 +141,11 @@ const hasResults = totalLinks + totalSources > 0
             />
           </NuxtLink>
         </div>
+        <PagerNav
+          :current-page="scPage"
+          :total-pages="scTotalPages"
+          @go="scGoTo"
+        />
       </section>
 
       <!-- Quellenlinks gruppiert nach Quelle -->
@@ -150,7 +162,7 @@ const hasResults = totalLinks + totalSources > 0
         </h2>
         <div class="link-groups">
           <div
-            v-for="entry in sourcesMap.values()"
+            v-for="[, entry] in lgPageItems"
             :key="entry.source.path"
             class="link-group"
           >
@@ -187,6 +199,11 @@ const hasResults = totalLinks + totalSources > 0
             </ul>
           </div>
         </div>
+        <PagerNav
+          :current-page="lgPage"
+          :total-pages="lgTotalPages"
+          @go="lgGoTo"
+        />
       </section>
     </div>
 
