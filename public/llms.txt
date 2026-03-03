@@ -25,8 +25,8 @@ Lagerfeuer-Artikel verwenden Schema.org BlogPosting-Markup.
 
 ## Feeds und maschinenlesbare Daten
 
-- [RSS-Feed](https://faktenfackel.de/feed.xml): Neueste Faktenchecks als RSS 2.0
-- [JSON Feed](https://faktenfackel.de/feed.json): Neueste Faktenchecks als JSON Feed 1.0
+- [RSS-Feed](https://faktenfackel.de/feed.xml): Neueste Inhalte (Faktenchecks, Lagerfeuer, Glossar) als RSS 2.0
+- [JSON Feed](https://faktenfackel.de/feed.json): Neueste Inhalte (Faktenchecks, Lagerfeuer, Glossar) als JSON Feed 1.0
 - [Sitemap](https://faktenfackel.de/sitemap.xml): Vollständige URL-Liste
 
 ## Lizenz und Kontakt

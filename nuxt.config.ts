@@ -114,24 +114,24 @@ export default defineNuxtConfig({
         charset: 'utf8',
         feed: {
           id: 'https://faktenfackel.de',
-          title: 'Faktenfackel - Faktenchecks zu aktuellen Themen',
+          title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar',
           link: 'https://faktenfackel.de',
           author: { email: 'kontakt@faktenfackel.de', name: 'Faktenfackel' },
           category: 'blog',
           copyright: 'CC BY-NC-SA 4.0 2026 by Faktenfackel',
         },
-        collections: ['faktenchecks'],
+        collections: ['faktenchecks', 'lagerfeuer', 'glossar'],
       },
       routes: {
         '/feed.xml': {
           type: 'rss2',
-          feed: { title: 'Faktenfackel - Faktenchecks zu aktuellen Themen' },
-          collections: ['faktenchecks'],
+          feed: { title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar' },
+          collections: ['faktenchecks', 'lagerfeuer', 'glossar'],
         },
         '/feed.json': {
           type: 'json1',
-          feed: { title: 'Faktenfackel - Faktenchecks zu aktuellen Themen' },
-          collections: ['faktenchecks'],
+          feed: { title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar' },
+          collections: ['faktenchecks', 'lagerfeuer', 'glossar'],
         },
 
       },
