@@ -76,26 +76,6 @@ const filtered = computed(() => {
 </template>
 
 <style scoped>
-.tags-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.8rem;
-  color: var(--muted);
-  text-decoration: none;
-  border: 1px solid var(--fackel-border);
-  border-radius: 4px;
-  padding: 4px 10px;
-  margin-bottom: 1.5rem;
-  transition: border-color 0.15s, color 0.15s;
-}
-
-.tags-link:hover {
-  border-color: var(--ember);
-  color: var(--ember);
-}
-
 .intro {
   color: var(--muted);
   font-size: 0.95rem;
