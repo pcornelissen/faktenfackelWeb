@@ -6,8 +6,6 @@ const props = defineProps<{
   iconTxt?: string
   as?: 'h1' | 'h2' | 'h3'
 }>()
-
-const tag = computed(() => props.as ?? 'h2')
 </script>
 
 <template>
@@ -25,17 +23,29 @@ const tag = computed(() => props.as ?? 'h2')
           >
           <img
             :src="`/img/categories/${props.icon}.png`"
-            :alt="`Bild für ${title}`"
+            :alt="`Bild für ${props.title}`"
             :title="props.iconTxt"
           >
         </picture>
       </div>
-      <component
-        :is="tag"
+      <h1
+        v-if="props.as === 'h1'"
         class="heading-el"
       >
         {{ props.title }}
-      </component>
+      </h1>
+      <h3
+        v-else-if="props.as === 'h3'"
+        class="heading-el"
+      >
+        {{ props.title }}
+      </h3>
+      <h2
+        v-else
+        class="heading-el"
+      >
+        {{ props.title }}
+      </h2>
     </div>
     <div
       v-if="props.subtitle"

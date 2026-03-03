@@ -15,11 +15,11 @@ const source = props.source
     @click="navigateTo(source.path)"
   >
     <div class="card-img-wrap">
-      <lazy-nuxt-img
+      <nuxt-img
         :src="calculateSourceImg(source)"
         :alt="source.name"
         :title="calculateSourceImgAuthor(source)"
-        placeholder="/files/no-img.svg"
+        loading="lazy"
         class="card-img"
       />
     </div>

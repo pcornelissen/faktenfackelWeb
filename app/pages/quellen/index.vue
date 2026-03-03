@@ -10,15 +10,15 @@ await definePageData({
 })
 
 const route = useRoute()
-
 const basePath = route.path
 
-const { data: list1 } = await useAsyncData(basePath, () => {
+const { data: list1, pending } = useLazyAsyncData(basePath, () => {
   return queryCollection('quellen')
     .select('date', 'name', 'description', 'path', 'tags', 'image', 'imageAuthor')
     .order('name', 'ASC')
     .all()
-})
+}, { server: false })
+
 const filter = ref('')
 
 function setFilter(newFilter: string) {
@@ -26,19 +26,23 @@ function setFilter(newFilter: string) {
 }
 
 const filters = ['Allgemein', 'Medien', 'NGO', 'Personen', 'Portale', 'Statistik', 'Faktenchecks', 'Nachrichten', 'Parteien', 'Politiker', 'Staatlich', 'Wissenschaft']
-const sorted = new Map<string, Source[]>()
 
-function matches(path: string, filter: string) {
-  return filter === '' || path.toLowerCase().startsWith('/quellen/' + filter.toLowerCase() + '/')
+function matches(path: string, f: string) {
+  return f === '' || path.toLowerCase().startsWith('/quellen/' + f.toLowerCase() + '/')
 }
 
-const all = (list1.value || []) as Source[]
-for (const filt of filters) {
-  sorted.set(filt, all.filter(item => matches(item.path, filt)))
-}
+const all = computed(() => (list1.value || []) as Source[])
+
+const sortedMap = computed(() => {
+  const map = new Map<string, Source[]>()
+  for (const filt of filters) {
+    map.set(filt, all.value.filter(item => matches(item.path, filt)))
+  }
+  return map
+})
 
 const filtered = computed(() => {
-  return filter.value === '' ? all : sorted.get(filter.value) || []
+  return filter.value === '' ? all.value : sortedMap.value.get(filter.value) || []
 })
 </script>
 
@@ -90,12 +94,31 @@ const filtered = computed(() => {
           :class="{ 'filter-active': filter === filt }"
           @click="setFilter(filt)"
         >
-          {{ filt }} ({{ sorted.get(filt)?.length || 0 }})
+          {{ filt }} ({{ sortedMap.get(filt)?.length || 0 }})
         </div>
       </div>
     </div>
 
+    <div
+      v-if="pending"
+      class="loading"
+    >
+      <picture>
+        <source
+          type="image/webp"
+          srcset="/img/categories/opt/news-medien-64.webp 64w, /img/categories/opt/news-medien-128.webp 128w"
+          sizes="72px"
+        >
+        <img
+          src="/img/categories/news-medien.png"
+          alt=""
+          class="loading-img"
+        >
+      </picture>
+      <span class="loading-text">Quellen werden geladen…</span>
+    </div>
     <SourceCardsList
+      v-else
       :list="filtered"
     />
   </div>
@@ -195,5 +218,34 @@ const filtered = computed(() => {
   background-color: var(--flame) !important;
   color: white !important;
   border-color: var(--flame) !important;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  min-height: 320px;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.loading-img {
+  height: 72px;
+  opacity: 0.35;
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+.loading-text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.35; }
+  50%       { opacity: 0.7; }
 }
 </style>
