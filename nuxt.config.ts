@@ -50,6 +50,18 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/': { prerender: true },
+    '/about': { prerender: true },
+    '/faq': { prerender: true },
+    '/impressum': { prerender: true },
+    '/datenschutz': { prerender: true },
+    '/mehr': { prerender: true },
+    '/news': { prerender: true },
+    '/faktenchecks/**': { swr: 3600 },
+    '/lagerfeuer/**': { swr: 3600 },
+    '/zitate/**': { swr: 3600 },
+    '/quellen/**': { swr: 3600 },
+    '/tags/**': { swr: 3600 },
+    '/glossar/**': { swr: 86400 },
   },
   // sourcemap: {
   //   server: true,
