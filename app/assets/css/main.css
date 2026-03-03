@@ -1,7 +1,5 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-@import "tailwindcss/theme";
-@import "tailwindcss/utilities";
 
 @theme {
   --default-font-family: 'Source Serif 4', Palatino, 'Book Antiqua', Georgia, serif;

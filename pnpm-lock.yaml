@@ -17,15 +17,9 @@ importers:
       '@iconify-json/simple-icons':
         specifier: ^1.2.71
         version: 1.2.71
-      '@iconify/icons-lucide':
-        specifier: ^1.2.135
-        version: 1.2.135
       '@nuxt/content':
         specifier: ^3.12.0
         version: 3.12.0(better-sqlite3@12.6.2)(magicast@0.5.2)(valibot@1.2.0(typescript@5.9.3))
-      '@nuxt/eslint':
-        specifier: ^1.15.2
-        version: 1.15.2(@typescript-eslint/utils@8.56.1(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.29)(eslint-plugin-format@1.5.0(eslint@9.39.3(jiti@2.6.1)))(eslint@9.39.3(jiti@2.6.1))(magicast@0.5.2)(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))
       '@nuxt/fonts':
         specifier: ^0.13.0
         version: 0.13.0(db0@0.3.4(better-sqlite3@12.6.2))(ioredis@5.10.0)(magicast@0.5.2)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))
@@ -47,42 +41,21 @@ importers:
       '@unhead/vue':
         specifier: ^2.1.9
         version: 2.1.9(vue@3.5.29(typescript@5.9.3))
-      better-sqlite3:
-        specifier: ^12.6.2
-        version: 12.6.2
-      bindings:
-        specifier: ^1.5.0
-        version: 1.5.0
-      eslint:
-        specifier: ^9.39.3
-        version: 9.39.3(jiti@2.6.1)
       minimark:
         specifier: ^0.2.0
         version: 0.2.0
       nuxt:
         specifier: ^4.3.1
         version: 4.3.1(@parcel/watcher@2.5.6)(@types/node@25.3.3)(@vue/compiler-sfc@3.5.29)(better-sqlite3@12.6.2)(cac@6.7.14)(db0@0.3.4(better-sqlite3@12.6.2))(eslint@9.39.3(jiti@2.6.1))(ioredis@5.10.0)(lightningcss@1.31.1)(magicast@0.5.2)(optionator@0.9.4)(rollup@4.59.0)(terser@5.46.0)(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))(vue-tsc@3.2.5(typescript@5.9.3))(yaml@2.8.2)
-      nuxt-cloudflare-analytics:
-        specifier: ^1.0.8
-        version: 1.0.8(magicast@0.5.2)
       nuxt-feedme:
         specifier: 2.1.0
         version: 2.1.0(better-sqlite3@12.6.2)(magicast@0.5.2)(valibot@1.2.0(typescript@5.9.3))
-      tailwindcss:
-        specifier: ^4.2.1
-        version: 4.2.1
-      typescript:
-        specifier: ^5.9.3
-        version: 5.9.3
       vue:
         specifier: ^3.5.29
         version: 3.5.29(typescript@5.9.3)
       vue-router:
         specifier: ^4.6.4
         version: 4.6.4(vue@3.5.29(typescript@5.9.3))
-      wrangler:
-        specifier: ^4.69.0
-        version: 4.69.0
       zod:
         specifier: ^4.3.6
         version: 4.3.6
@@ -96,18 +69,39 @@ importers:
       '@iconify/vue':
         specifier: ^5.0.0
         version: 5.0.0(vue@3.5.29(typescript@5.9.3))
+      '@nuxt/eslint':
+        specifier: ^1.15.2
+        version: 1.15.2(@typescript-eslint/utils@8.56.1(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.29)(eslint-plugin-format@1.5.0(eslint@9.39.3(jiti@2.6.1)))(eslint@9.39.3(jiti@2.6.1))(magicast@0.5.2)(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))
       '@types/node':
         specifier: ^25.3.3
         version: 25.3.3
+      better-sqlite3:
+        specifier: ^12.6.2
+        version: 12.6.2
+      bindings:
+        specifier: ^1.5.0
+        version: 1.5.0
+      eslint:
+        specifier: ^9.39.3
+        version: 9.39.3(jiti@2.6.1)
       eslint-plugin-format:
         specifier: ^1.5.0
         version: 1.5.0(eslint@9.39.3(jiti@2.6.1))
+      tailwindcss:
+        specifier: ^4.2.1
+        version: 4.2.1
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
       unplugin-icons:
         specifier: ^23.0.1
         version: 23.0.1(@vue/compiler-sfc@3.5.29)
       vue-tsc:
         specifier: ^3.2.5
         version: 3.2.5(typescript@5.9.3)
+      wrangler:
+        specifier: ^4.69.0
+        version: 4.69.0
 
 packages:
 
@@ -768,9 +762,6 @@ packages:
 
   '@iconify/collections@1.0.655':
     resolution: {integrity: sha512-XSSKhI0AwBcFhDnJkWFMDKj9KlH+A67cc4AV6vTM6O3ake6YMPNpSeN1nwe0KHoQMqAnbn2IRz+YaW0J0X6uTQ==}
-
-  '@iconify/icons-lucide@1.2.135':
-    resolution: {integrity: sha512-odjb/fGnKGIw3aNwZV8n4lTmpPN9LR2nHa3hjmZGrHNK3y1gHhiaU4H1XlCrSeQxkEN6TOB+l/falLwRo1rGRw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -5047,10 +5038,6 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt-cloudflare-analytics@1.0.8:
-    resolution: {integrity: sha512-gUBcxHfvR06tBNDszTj/cMx8EGwtNFqICk7IBM66JIebe/VG0HgDF6AFJfqqOFG5ACk6ApdAxREHhvnmgUSudA==}
-    engines: {npm: '>= 4.0.0'}
-
   nuxt-component-meta@0.17.2:
     resolution: {integrity: sha512-2/mSSqutOX8t+r8cAX1yUYwAPBqicPO5Rfum3XaHVszxKCF4tXEXBiPGfJY9Zn69x/CIeOdw+aM9wmHzQ5Q+lA==}
     hasBin: true
@@ -7315,10 +7302,6 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify/collections@1.0.655':
-    dependencies:
-      '@iconify/types': 2.0.0
-
-  '@iconify/icons-lucide@1.2.135':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -12285,12 +12268,6 @@ snapshots:
   nth-check@2.1.1:
     dependencies:
       boolbase: 1.0.0
-
-  nuxt-cloudflare-analytics@1.0.8(magicast@0.5.2):
-    dependencies:
-      '@nuxt/kit': 3.21.1(magicast@0.5.2)
-    transitivePeerDependencies:
-      - magicast
 
   nuxt-component-meta@0.17.2(magicast@0.5.2):
     dependencies:

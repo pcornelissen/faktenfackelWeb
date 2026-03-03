@@ -16,9 +16,7 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.95",
     "@iconify-json/simple-icons": "^1.2.71",
-    "@iconify/icons-lucide": "^1.2.135",
     "@nuxt/content": "^3.12.0",
-    "@nuxt/eslint": "^1.15.2",
     "@nuxt/fonts": "^0.13.0",
     "@nuxt/hints": "1.0.0-alpha.5",
     "@nuxt/image": "^2.0.0",
@@ -26,31 +24,28 @@
     "@nuxt/ui": "^4.5.0",
     "@nuxtjs/sitemap": "7.6.0",
     "@unhead/vue": "^2.1.9",
-    "better-sqlite3": "^12.6.2",
-    "bindings": "^1.5.0",
-    "eslint": "^9.39.3",
     "minimark": "^0.2.0",
     "nuxt": "^4.3.1",
-    "nuxt-cloudflare-analytics": "^1.0.8",
     "nuxt-feedme": "2.1.0",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3",
     "vue": "^3.5.29",
     "vue-router": "^4.6.4",
-    "wrangler": "^4.69.0",
     "zod": "^4.3.6",
     "zod-to-json-schema": "^3.25.1"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
     "@iconify/vue": "^5.0.0",
-    "@nuxt/eslint": "^1.11.0",
+    "@nuxt/eslint": "^1.15.2",
     "@types/node": "^25.3.3",
-    "eslint": "^9.39.1",
+    "better-sqlite3": "^12.6.2",
+    "bindings": "^1.5.0",
+    "eslint": "^9.39.3",
     "eslint-plugin-format": "^1.5.0",
+    "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3",
     "unplugin-icons": "^23.0.1",
-    "vue-tsc": "^3.2.5"
+    "vue-tsc": "^3.2.5",
+    "wrangler": "^4.69.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

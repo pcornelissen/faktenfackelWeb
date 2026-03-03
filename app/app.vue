@@ -9,7 +9,7 @@ const title = (meta.title || 'Faktenfackel') as string
 const description = (meta.description || 'Wir bringen Licht ins Dunkel') as string
 const image = (meta.image || '/img/logo.webp') as string
 
-const siteUrl = 'https://faktenfackel.de'
+const { url: siteUrl } = useSiteConfig()
 
 const organizationJsonLd = {
   '@context': 'https://schema.org',
@@ -21,6 +21,7 @@ const organizationJsonLd = {
   'description': 'Unabhängige Faktencheck-Plattform für Deutschland',
   'sameAs': [
     'https://discord.faktenfackel.de',
+    'https://www.youtube.com/@Faktenfackel',
   ],
 }
 
@@ -31,7 +32,7 @@ useHead({
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' },
-    { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
+    { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' },
     { rel: 'icon', href: '/favicon.png', type: 'image/png' },
     { rel: 'canonical', href: `${siteUrl}${route.path}` },
   ],
