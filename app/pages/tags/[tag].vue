@@ -434,8 +434,6 @@ function removeTag(tagToRemove: string) {
 }
 
 .page-header {
-  padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--fackel-border);
   margin-bottom: 1.5rem;
 }
 

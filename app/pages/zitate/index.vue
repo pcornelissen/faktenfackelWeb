@@ -37,22 +37,16 @@ const filtered = computed(() => {
       icon="feedback"
       icon-txt="Feedback Icons erstellt von Freepik - Flaticon"
     />
-    <nuxt-link
-      to="/tags"
-      class="tags-link"
-    >
-      <icon name="i-mdi:tag-multiple-outline" />
-      Zu den Tags
-    </nuxt-link>
+
     <p class="intro">
       Die Zitate sind jeweils einer Quelle zugeordnet. Wenn mehrere Personen involviert sind, sind sie im Text zum Zitat referenziert.
       Viele Zitate haben begleitende Einordnungen und Referenzen.
     </p>
-
     <div
       v-if="pending"
       class="loading"
     >
+      <span class="loading-spinner" />
       <span class="loading-text">Zitate werden geladen…</span>
     </div>
     <template v-else>
@@ -111,9 +105,25 @@ const filtered = computed(() => {
 
 .loading {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
   min-height: 200px;
+}
+
+.loading-spinner {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid var(--fackel-border);
+  border-top-color: var(--flame);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .loading-text {

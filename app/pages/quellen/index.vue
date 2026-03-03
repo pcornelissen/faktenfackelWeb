@@ -64,13 +64,6 @@ const filtered = computed(() => {
       icon="news-medien"
       icon-txt="Nachrichten medien Icons erstellt von Muhammad Yusuf - Flaticon"
     />
-    <nuxt-link
-      to="/tags"
-      class="tags-link"
-    >
-      <icon name="i-mdi:tag-multiple-outline" />
-      Zu den Tags
-    </nuxt-link>
     <div class="page-intro">
       <p>
         Im täglichen Leben begegnen einem immer wieder interessante Links zu Artikeln, Videos etc. Viele sind gut geeignet
@@ -83,7 +76,6 @@ const filtered = computed(() => {
         Artikeln, Videos, etc. Dazu gibt es eine Verschlagwortung nach Tags, um Themen quellenübergreifend finden zu können.
       </p>
     </div>
-
     <div class="filter-section">
       <div class="filter-header">
         <span class="filter-label">Filter</span>
