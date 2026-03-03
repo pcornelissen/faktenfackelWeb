@@ -61,6 +61,9 @@ await referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
     v-if="sourceInfo"
     class="wide"
   >
+    <h1 class="source-title">
+      {{ title }}
+    </h1>
     <lazy-nuxt-img
       :src="calculateSourceImg(sourceInfo)"
       :title="calculateSourceImgAuthor(sourceInfo)"
@@ -116,6 +119,10 @@ await referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
 </template>
 
 <style scoped>
+.source-title {
+  margin: 0 0 1rem;
+}
+
 .img {
   max-width: 80%;
   margin-bottom: 1em;

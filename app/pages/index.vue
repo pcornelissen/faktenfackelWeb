@@ -110,7 +110,11 @@ const pillars = [
             </li>
           </ul>
           <div class="ticker-footer">
-            <a href="/news">→ Vollständiges Änderungslog</a>
+            <a href="/news"><Icon
+              icon="mdi:arrow-right"
+              :ssr="true"
+              height="13"
+            /> Vollständiges Änderungslog</a>
           </div>
         </div>
       </div>
@@ -409,7 +413,7 @@ const pillars = [
 }
 
 .ticker-item {
-  padding: 10px 16px;
+  padding: 5px 16px;
   border-bottom: 1px solid #2D2822;
   display: flex;
   gap: 10px;
@@ -445,6 +449,13 @@ const pillars = [
   text-decoration: none;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ticker-footer a:hover {
+  filter: brightness(1.2);
 }
 
 /* ── PAGE BODY ── */

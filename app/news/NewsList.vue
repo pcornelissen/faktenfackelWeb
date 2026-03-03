@@ -5,50 +5,69 @@ const props = defineProps<{
   limit?: number
 }>()
 
-function limitNews() {
-  return (props.limit
-    ? newsSrc
-        .slice(0, props.limit)
-    : newsSrc)
-    .sort((a, b) => b.date.getTime() - a.date.getTime())
-}
+const allItems = computed(() => {
+  const sorted = [...newsSrc].sort((a, b) => b.date.getTime() - a.date.getTime())
+  return props.limit ? sorted.slice(0, props.limit) : sorted
+})
+
+const { currentPage, totalPages, pageItems, goTo } = usePagination(() => allItems.value, 50)
 </script>
 
 <template>
-  <ul>
-    <li
-      v-for="item in limitNews()"
-      :key="item.title"
-    >
-      <div class="date">
-        {{ dateString(item.date) }} -
-      </div>
-      <div class="desc">
-        {{ item.title }}
-      </div>
-    </li>
-  </ul>
+  <div>
+    <ul>
+      <li
+        v-for="item in pageItems"
+        :key="item.title"
+      >
+        <span class="date">{{ dateString(item.date) }}</span>
+        <span class="desc">{{ item.title }}</span>
+      </li>
+    </ul>
+    <PagerNav
+      :current-page="currentPage"
+      :total-pages="totalPages"
+      @go="goTo"
+    />
+  </div>
 </template>
 
 <style scoped>
 ul {
-  display: block;
-
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--fackel-border);
+  border-top: 2px solid var(--flame);
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 li {
   display: flex;
-  gap: 0.5rem;
-  font-size: 0.8rem;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 9px 16px;
+  border-bottom: 1px solid var(--fackel-border);
+  background: white;
+}
+
+li:last-child {
+  border-bottom: none;
 }
 
 .date {
-  text-wrap: nowrap;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-top: 2px;
+  min-width: 72px;
 }
 
 .desc {
-  text-wrap: balance;
-  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--ink);
+  line-height: 1.4;
 }
 </style>

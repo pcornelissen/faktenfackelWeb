@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import PostsList from '~/components/content/PostsList.vue'
+import Heading from '~/components/layout/Heading.vue'
 import { definePageData, type Post } from '~/utils/contentUtils'
 
 const route = useRoute()
@@ -26,9 +27,15 @@ function filter(list: Post[]) {
 
 <template>
   <div v-if="list">
-    <h1 style="margin-top: 0">
-      Glossar
-    </h1>
+    <Heading
+      title="Glossar"
+      icon="blogging"
+      icon-txt="Blogging Icons erstellt von Freepik - Flaticon"
+    />
+    <p class="intro">
+      Im Glossar erklären wir Begriffe aus den Bereichen Desinformation, Medien und Faktenchecks –
+      kompakt und verständlich aufbereitet. Von rhetorischen Tricks bis zu medialen Phänomenen.
+    </p>
     <PostsList
       :list="filter(list)"
       :base-path="route.path"
@@ -45,4 +52,11 @@ function filter(list: Post[]) {
 </template>
 
 <style scoped>
+.intro {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 60ch;
+  margin-bottom: 2rem;
+}
 </style>

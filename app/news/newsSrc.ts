@@ -60,4 +60,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-03-01'),
     title: 'Lagerfeuer Bereich eingeführt als Blog/Kolumne',
   },
+  {
+    date: new Date('2026-03-02'),
+    title: 'Redesign! Wir hoffen das neue Design gefällt euch',
+  },
 ]

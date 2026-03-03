@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Heading from '~/components/layout/Heading.vue'
 import NewsList from '~/news/NewsList.vue'
 import { definePageData } from '~/utils/contentUtils'
 
@@ -11,10 +12,19 @@ await definePageData({
 
 <template>
   <div>
-    <h2 style="margin-top: 0">
-      Änderungen
-    </h2>
-    <p>Welche Seiten oder Bereiche haben sich in letzter Zeit geändert?</p>
-    <NewsList style="margin-top: 1rem" />
+    <Heading title="Änderungen" />
+    <p class="intro">
+      Welche Seiten oder Bereiche haben sich in letzter Zeit geändert?
+    </p>
+    <NewsList />
   </div>
 </template>
+
+<style scoped>
+.intro {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+</style>

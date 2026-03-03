@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
 import SourceCardsList from '~/components/sources/SourceCardsList.vue'
+import Heading from '~/components/layout/Heading.vue'
 
 await definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
@@ -43,6 +44,18 @@ const filtered = computed(() => {
 
 <template>
   <div class="wide">
+    <Heading
+      title="Quellensammlung"
+      icon="news-medien"
+      icon-txt="Nachrichten medien Icons erstellt von Muhammad Yusuf - Flaticon"
+    />
+    <nuxt-link
+      to="/quellen/tags"
+      class="tags-link"
+    >
+      <icon name="i-mdi:tag-multiple-outline" />
+      Zu den Tags
+    </nuxt-link>
     <div class="page-intro">
       <p>
         Im täglichen Leben begegnen einem immer wieder interessante Links zu Artikeln, Videos etc. Viele sind gut geeignet
@@ -52,9 +65,7 @@ const filtered = computed(() => {
       </p>
       <p class="mb-0">
         Die Quellensammlung ist nach Quellen organisiert und zu den Quellen gibt es dann thematisch sortierte Listen mit
-        Artikeln, Videos, etc.. Dazu gibt es eine
-        <nuxt-link to="/quellen/tags">Verschlagwortung (Tags),</nuxt-link>
-        um zu Themen quellenübergreifend Dinge finden zu können.
+        Artikeln, Videos, etc. Dazu gibt es eine Verschlagwortung nach Tags, um Themen quellenübergreifend finden zu können.
       </p>
     </div>
 
@@ -90,6 +101,26 @@ const filtered = computed(() => {
 </template>
 
 <style scoped>
+.tags-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid var(--fackel-border);
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.tags-link:hover {
+  border-color: var(--ember);
+  color: var(--ember);
+}
+
 .page-intro {
   background: white;
   border: 1px solid var(--fackel-border);
@@ -108,12 +139,6 @@ const filtered = computed(() => {
 
 .page-intro .mb-0 {
   margin-bottom: 0;
-}
-
-.page-intro a {
-  color: var(--ember);
-  text-decoration: underline;
-  text-decoration-color: var(--fackel-border);
 }
 
 .filter-section {

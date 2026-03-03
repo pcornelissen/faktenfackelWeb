@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Heading from '~/components/layout/Heading.vue'
 import { definePageData } from '~/utils/contentUtils'
 
 const route = useRoute()
@@ -23,20 +24,25 @@ const list = list1.value as Quote[]
   <div
     v-if="list"
   >
-    <h1 style="margin-top: 0">
-      Zitate
-    </h1>
+    <Heading
+      title="Zitate"
+      icon="feedback"
+      icon-txt="Feedback Icons erstellt von Freepik - Flaticon"
+    />
     <nuxt-link
       to="/zitate/tags"
-      style="display: flex; vertical-align: middle; margin-bottom: 1rem;"
+      class="tags-link"
     >
-      <icon
-        name="i-lucide:arrow-right"
-        style="margin-right: 0.5rem; "
-      />Zitate nach Schlagworten</nuxt-link>
-    Die Zitate sind jeweils einer Quelle zugeordnet. Wenn mehrere Personen involviert sind, sind sie im Text zum Zitat referenziert.
-    Viele Zitate haben begleitende Einordnungen und Referenzen.
-    <h2>Die letzten {{ limit }} Zitate</h2>
+      <icon name="i-mdi:tag-multiple-outline" />
+      Zu den Tags
+    </nuxt-link>
+    <p class="intro">
+      Die Zitate sind jeweils einer Quelle zugeordnet. Wenn mehrere Personen involviert sind, sind sie im Text zum Zitat referenziert.
+      Viele Zitate haben begleitende Einordnungen und Referenzen.
+    </p>
+    <h3 class="section-heading">
+      Die letzten {{ limit }} Zitate
+    </h3>
     <QuotesList
       :list="list"
       :show-source="true"
@@ -52,4 +58,35 @@ const list = list1.value as Quote[]
 </template>
 
 <style scoped>
+.tags-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid var(--fackel-border);
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.tags-link:hover {
+  border-color: var(--ember);
+  color: var(--ember);
+}
+
+.intro {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading {
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+}
 </style>
