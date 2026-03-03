@@ -64,4 +64,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-03-02'),
     title: 'Redesign! Wir hoffen das neue Design gefällt euch',
   },
+  {
+    date: new Date('2026-03-03'),
+    title: 'Redesign weiter optimiert, Tags Bereich (Schlagworte) eingeführt',
+  },
 ]
