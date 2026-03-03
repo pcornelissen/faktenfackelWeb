@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
-
 const date = ref<Date>()
 
 onMounted(() => {
@@ -29,10 +27,9 @@ onMounted(() => {
           href="https://buymeacoffee.com/faktenfackel"
           class="support-link"
         >
-          <Icon
-            icon="mdi:coffee"
-            :ssr="true"
-            height="14"
+          <UIcon
+            name="mdi:coffee"
+            class="size-3.5"
           />
           Unterstütze uns
         </a>
@@ -40,10 +37,9 @@ onMounted(() => {
 
       <div class="footer-col">
         <div class="footer-col-title">
-          <Icon
-            icon="mdi:newspaper-variant-outline"
-            :ssr="true"
-            height="13"
+          <UIcon
+            name="mdi:newspaper-variant-outline"
+            class="size-3.5"
           />Inhalte
         </div>
         <ul>
@@ -57,10 +53,9 @@ onMounted(() => {
 
       <div class="footer-col">
         <div class="footer-col-title">
-          <Icon
-            icon="mdi:information-outline"
-            :ssr="true"
-            height="13"
+          <UIcon
+            name="mdi:information-outline"
+            class="size-3.5"
           />Über uns
         </div>
         <ul>
@@ -75,10 +70,9 @@ onMounted(() => {
 
       <div class="footer-col">
         <div class="footer-col-title">
-          <Icon
-            icon="mdi:scale-balance"
-            :ssr="true"
-            height="13"
+          <UIcon
+            name="mdi:scale-balance"
+            class="size-3.5"
           />Rechtliches
         </div>
         <ul>

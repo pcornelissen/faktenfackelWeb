@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
-
 const { data: recentQuotesRaw } = await useAsyncData('recent-zitate', () =>
   queryCollection('zitate')
     .select('path', 'title', 'teaser', 'date')
@@ -16,10 +14,9 @@ const recentQuotes = recentQuotesRaw.value as Quote[]
   <div class="sidebar-box">
     <div class="sidebar-box-header">
       <span class="sidebar-box-title">
-        <Icon
-          icon="mdi:format-quote-open"
-          :ssr="true"
-          height="14"
+        <UIcon
+          name="mdi:format-quote-open"
+          class="size-3.5"
         /> Neue Zitate
       </span>
     </div>
@@ -41,16 +38,20 @@ const recentQuotes = recentQuotesRaw.value as Quote[]
           >
             {{ quote.teaser }}
           </div>
-          <Icon
-            icon="mdi:arrow-right"
-            height="12"
-            class="quote-arrow"
+          <UIcon
+            name="mdi:arrow-right"
+            class="quote-arrow size-3"
           />
         </NuxtLink>
       </li>
     </ul>
     <div class="sidebar-box-footer">
-      <NuxtLink to="/zitate">→ Alle Zitate</NuxtLink>
+      <NuxtLink to="/zitate">
+        Alle Zitate <UIcon
+          name="mdi:arrow-right"
+          class="size-3"
+        />
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -158,5 +159,8 @@ const recentQuotes = recentQuotesRaw.value as Quote[]
   text-decoration: none;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 </style>

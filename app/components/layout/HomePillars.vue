@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
-
 function pillarImgName(iconPath: string) {
   return iconPath.replace('/img/categories/', '').replace('.png', '')
 }
@@ -71,9 +69,9 @@ const pillars = [
         {{ p.desc }}
       </p>
       <div class="pillar-cta">
-        <Icon
-          icon="mdi:arrow-right"
-          height="16"
+        <UIcon
+          name="mdi:arrow-right"
+          class="size-4"
         />{{ p.cta }}
       </div>
     </a>
@@ -163,7 +161,7 @@ const pillars = [
   gap: 6px;
 }
 
-.pillar-cta :deep(svg) {
+.pillar-cta :deep(span) {
   color: var(--flame);
   flex-shrink: 0;
 }

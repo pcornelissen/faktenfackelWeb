@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
 import { dateString } from '~/utils/stringUtils'
 import type { Post } from '~/utils/contentUtils'
 import Tag from '~/components/sources/Tag.vue'
@@ -22,12 +21,9 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
         :key="item.path"
         class="flex flex-row grow"
       >
-        <Icon
-          :icon="item.icon || props.icon || 'mdi:faq'"
-          :ssr="true"
-          height="32"
-          width="32"
-          class="item-icon"
+        <UIcon
+          :name="item.icon || props.icon || 'mdi:faq'"
+          class="item-icon size-8"
         />
         <div class="flex flex-row grow">
           <div class="flex-auto ml-2">

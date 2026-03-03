@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
-
 const { data: recentLinksRaw } = await useAsyncData('recent-quellenlinks', () =>
   queryCollection('quellenlinks')
     .select('path', 'title', 'date', 'tags')
@@ -15,10 +13,9 @@ const recentLinks = recentLinksRaw.value as SourceLink[]
   <div class="sidebar-box">
     <div class="sidebar-box-header">
       <span class="sidebar-box-title">
-        <Icon
-          icon="mdi:link-plus"
-          :ssr="true"
-          height="14"
+        <UIcon
+          name="mdi:link-plus"
+          class="size-3.5"
         /> Neue Quellenlinks
       </span>
     </div>
@@ -41,7 +38,12 @@ const recentLinks = recentLinksRaw.value as SourceLink[]
       </li>
     </ul>
     <div class="sidebar-box-footer">
-      <NuxtLink to="/quellen">→ Alle Quellen</NuxtLink>
+      <NuxtLink to="/quellen">
+        Alle Quellen <UIcon
+          name="mdi:arrow-right"
+          class="size-3"
+        />
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -137,5 +139,8 @@ const recentLinks = recentLinksRaw.value as SourceLink[]
   text-decoration: none;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 </style>

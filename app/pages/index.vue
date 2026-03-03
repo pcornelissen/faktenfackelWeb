@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
-import { Icon } from '@iconify/vue'
 
 await definePageData({
   title: 'Faktenfackel – Mythen entlarven, Fakten beleuchten',
@@ -28,7 +27,10 @@ await definePageData({
             <a
               href="/faktenchecks"
               class="section-link"
-            >Alle Faktenchecks →</a>
+            >Alle Faktenchecks <UIcon
+              name="mdi:arrow-right"
+              class="section-link-icon"
+            /></a>
           </div>
 
           <RecentPosts />
@@ -40,7 +42,10 @@ await definePageData({
             <a
               href="/lagerfeuer"
               class="section-link"
-            >Alle Lagerfeuer-Artikel →</a>
+            >Alle Lagerfeuer-Artikel <UIcon
+              name="mdi:arrow-right"
+              class="section-link-icon"
+            /></a>
           </div>
 
           <RecentLagerfeuer />
@@ -51,10 +56,9 @@ await definePageData({
           <!-- KONTAKT BOX -->
           <div class="sidebar-box">
             <div class="sidebar-box-header">
-              <span class="sidebar-box-title"><Icon
-                icon="mdi:email-outline"
-                :ssr="true"
-                height="14"
+              <span class="sidebar-box-title"><UIcon
+                name="mdi:email-outline"
+                class="size-3.5"
               /> Kontakt & Feedback</span>
             </div>
             <div class="sidebar-box-body">
@@ -76,10 +80,9 @@ await definePageData({
           <!-- SUPPORT -->
           <div class="support-box">
             <div class="support-icon">
-              <Icon
-                icon="mdi:coffee"
-                :ssr="true"
-                height="28"
+              <UIcon
+                name="mdi:coffee"
+                class="size-7"
               />
             </div>
             <div class="support-title">
@@ -92,10 +95,9 @@ await definePageData({
               href="https://buymeacoffee.com/faktenfackel"
               class="btn-primary btn-small"
             >
-              <Icon
-                icon="mdi:coffee"
-                :ssr="true"
-                height="14"
+              <UIcon
+                name="mdi:coffee"
+                class="size-3.5"
               /> Kaffee spendieren
             </a>
           </div>
@@ -192,7 +194,12 @@ await definePageData({
   letter-spacing: 0.05em;
   text-transform: uppercase;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
+
+.section-link-icon { flex-shrink: 0; }
 
 .section-link:hover { text-decoration: underline; }
 

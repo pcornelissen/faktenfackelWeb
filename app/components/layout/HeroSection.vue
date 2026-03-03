@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
 import { newsSrc } from '~/news/newsSrc'
 
 const recentNews = [...newsSrc]
@@ -23,18 +22,16 @@ const recentNews = [...newsSrc]
           <a
             href="/faktenchecks"
             class="btn-primary"
-          ><Icon
-            icon="mdi:magnify"
-            :ssr="true"
-            height="16"
+          ><UIcon
+            name="mdi:magnify"
+            class="size-4"
           /> Alle Faktenchecks</a>
           <a
             href="/quellen"
             class="btn-secondary"
-          ><Icon
-            icon="mdi:book-open-variant"
-            :ssr="true"
-            height="16"
+          ><UIcon
+            name="mdi:book-open-variant"
+            class="size-4"
           /> Quellensammlung</a>
         </div>
       </div>
@@ -42,10 +39,9 @@ const recentNews = [...newsSrc]
       <!-- NEWS TICKER -->
       <div class="ticker-box">
         <div class="ticker-header">
-          <span class="ticker-label"><Icon
-            icon="mdi:clock-edit-outline"
-            :ssr="true"
-            height="14"
+          <span class="ticker-label"><UIcon
+            name="mdi:clock-edit-outline"
+            class="size-3.5"
           />Letzte Änderungen</span>
           <span class="ticker-dot" />
         </div>
@@ -60,10 +56,9 @@ const recentNews = [...newsSrc]
           </li>
         </ul>
         <div class="ticker-footer">
-          <a href="/news"><Icon
-            icon="mdi:arrow-right"
-            :ssr="true"
-            height="13"
+          <a href="/news"><UIcon
+            name="mdi:arrow-right"
+            class="size-3.5"
           /> Vollständiges Änderungslog</a>
         </div>
       </div>

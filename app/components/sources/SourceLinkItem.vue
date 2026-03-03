@@ -2,7 +2,6 @@
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import Tags from '~/components/sources/Tags.vue'
 import type { SourceLink } from '~/utils/referenceData'
-import { Icon } from '@iconify/vue'
 
 const props = defineProps<{
   item: SourceLink
@@ -37,11 +36,9 @@ const props = defineProps<{
           :to="props.item.path"
           class="details"
         >
-          <Icon
-            icon="mdi:more"
-            :ssr="true"
-            height="16"
-            class="inline"
+          <UIcon
+            name="mdi:more"
+            class="inline size-4"
             style="margin-top: -2px"
           />&nbsp;
           Details
