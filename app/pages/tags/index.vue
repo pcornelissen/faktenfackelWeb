@@ -37,7 +37,7 @@ const tagMap = computed(() => {
         Schlagwörter
       </h1>
       <p class="page-desc">
-        Alle Schlagwörter aus Faktenchecks, Lagerfeuer, Glossar, Zitaten und Quellen. Größe und Intensität zeigen die Häufigkeit.
+        Alle Schlagwörter (Tags) aus Faktenchecks, Lagerfeuer, Glossar, Zitaten und Quellen. Größe und Intensität zeigen die Häufigkeit.
       </p>
     </div>
     <TagCloud

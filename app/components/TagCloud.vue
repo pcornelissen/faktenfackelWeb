@@ -12,7 +12,7 @@ const filteredKeys = computed(() => {
   const query = filter.value.trim().toLowerCase()
   return [...props.tagMap.keys()]
     .filter(tag => !query || tag.toLowerCase().includes(query))
-    .sort()
+    .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase(), 'de'))
 })
 
 const maxCount = computed(() => Math.max(...props.tagMap.values()))
@@ -36,8 +36,15 @@ function getFontWeight(count: number): number {
   return 400
 }
 
+function getBackground(count: number): string {
+  const range = maxCount.value - minCount.value
+  if (range === 0) return 'white'
+  const ratio = (count - minCount.value) / range
+  return `color-mix(in srgb, var(--flame) ${(ratio * 28).toFixed(0)}%, white)`
+}
+
 function getRotation(tag: string): string {
-  const sum = tag.split('').reduce((a, c) => a + c.charCodeAt(0), 0)
+  const sum = tag.split('').reduce((a, c) => a + (c.codePointAt(0) ?? 0), 0)
   const deg = ((sum % 7) - 3) * 0.8
   return `${deg.toFixed(1)}deg`
 }
@@ -74,6 +81,7 @@ function getRotation(tag: string): string {
           :style="{
             'fontSize': getFontSize(tagMap.get(tag) || 0),
             'fontWeight': getFontWeight(tagMap.get(tag) || 0),
+            'backgroundColor': getBackground(tagMap.get(tag) || 0),
             '--tag-rotate': filter ? '0deg' : getRotation(tag),
           }"
         >
@@ -191,7 +199,6 @@ function getRotation(tag: string): string {
 .tag:hover {
   border-color: var(--flame);
   color: var(--flame);
-  background-color: white;
   transform: rotate(0deg) translateY(-1px);
 }
 

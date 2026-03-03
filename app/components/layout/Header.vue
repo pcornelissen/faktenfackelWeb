@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Menu from '~/components/layout/Menu.vue'
 import SearchBar from '~/components/layout/SearchBar.vue'
+import { navItems } from '~/utils/navigation'
 
 const menuOpen = ref(false)
 const route = useRoute()
@@ -8,16 +9,6 @@ const route = useRoute()
 watch(() => route.path, () => {
   menuOpen.value = false
 })
-
-const menuItems = [
-  { name: 'Start', href: '/' },
-  { name: 'Faktenchecks', href: '/faktenchecks' },
-  { name: 'Lagerfeuer', href: '/lagerfeuer' },
-  { name: 'Glossar', href: '/glossar' },
-  { name: 'Quellen', href: '/quellen' },
-  { name: 'Zitate', href: '/zitate' },
-  { name: 'Änderungen', href: '/news' },
-]
 
 function isActive(href: string) {
   const path = route.path === '' ? '/' : route.path
@@ -69,7 +60,7 @@ function isActive(href: string) {
       class="mobile-menu"
     >
       <a
-        v-for="item in menuItems"
+        v-for="item in navItems"
         :key="item.name"
         :href="item.href"
         class="mobile-item"

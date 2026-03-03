@@ -1,29 +1,24 @@
 <script setup lang="ts">
-const menuItems = [
-  { name: 'Start', href: '/', active: false },
-  { name: 'Faktenchecks', href: '/faktenchecks', active: false },
-  { name: 'Lagerfeuer', href: '/lagerfeuer', active: false },
-  { name: 'Glossar', href: '/glossar', active: false },
-  { name: 'Quellen', href: '/quellen', active: false, label: 'Quellensammlung' },
-  { name: 'Zitate', href: '/zitate', active: false },
-  { name: 'Änderungen', href: '/news', active: false },
-]
-const route = useRoute()
+import { navItems } from '~/utils/navigation'
 
-const path = route.path == '' ? '/' : route.path
-menuItems.forEach(item => item.active = (item.href != '/' && path.startsWith(item.href)) || (path == '/' && item.href == '/'))
+const route = useRoute()
+const path = computed(() => route.path === '' ? '/' : route.path)
+
+function isActive(href: string) {
+  return (href !== '/' && path.value.startsWith(href)) || (path.value === '/' && href === '/')
+}
 </script>
 
 <template>
   <nav class="menu">
     <ul>
       <li
-        v-for="item in menuItems"
+        v-for="item in navItems"
         :key="item.name"
       >
         <a
           :href="item.href"
-          :class="{ 'item-active': item.active }"
+          :class="{ 'item-active': isActive(item.href) }"
           :title="item.label || `Weiter zu ${item.name}`"
         >
           {{ item.name }}
