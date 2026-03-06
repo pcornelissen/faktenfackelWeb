@@ -63,8 +63,13 @@ Bei Demonstrationen dürfen keine Waffen oder Gegenstände mitgeführt werden, d
 
 ## Zusammenfassung
 
-- Recht auf Demonstration	verfassungsrechtlich geschützt (Art. 8 GG) 
-- Friedlich und ohne Waffen
-- Ort & Anmeldung	Demonstrationen müssen angemeldet werden; Behörden können Ort, Route, Auflagen bestimmen oder verbieten, wenn Gefahren bestehen
-- Vermummung ist auf Demonstrationen verboten, wenn sie dazu dient, Identität zu verschleiern 
-- Waffenführung und ähnliches verboten
+- **Recht auf Demonstration**  
+  verfassungsrechtlich geschützt (Art. 8 GG)
+- **Friedlich und ohne Waffen**  
+  Voraussetzung für den Schutz durch Art. 8 GG
+- **Ort & Anmeldung**  
+  Demonstrationen müssen angemeldet werden; Behörden können Ort, Route und Auflagen bestimmen oder verbieten, wenn Gefahren bestehen
+- **Vermummung**  
+  verboten, wenn sie dazu dient, Identität zu verschleiern
+- **Waffenführung und ähnliches**  
+  verboten

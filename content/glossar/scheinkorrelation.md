@@ -16,8 +16,8 @@ von einer dritten, nicht berücksichtigten Größe beeinflusst werden.
 
 Es ist Fakt, es gibt weltweit eine:
 
--  **zunehmenden Zahl an Autos** 
--  und eine **sinkenden Zahl an Piraten**.
+-  **zunehmende Zahl an Autos**
+-  und eine **sinkende Zahl an Piraten**.
 
 Historische Daten zeigen:
 
