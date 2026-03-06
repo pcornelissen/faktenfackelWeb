@@ -3,7 +3,7 @@ publishedOn: 2025-12-12
 date: 2025-12-12
 title: Merz Aussage zum Stadtbild
 subtitle: Korrekt, oder anbiedern am rechten Rand?
-verdict: false        # oder: misleading, complex, true
+verdict: false
 tags: [ CDU, Merz, Migranten ]
 ---
 
@@ -126,7 +126,7 @@ da er u. a. für diese Zustände mitverantwortlich sei.
 
 Aus Reihen der <Reference code="tagesschau-spd-stadtbild-gipfel">SPD</Reference>, der
 Partei <Reference code="lsa-plenum-stadtbild-2025">Die Linke</Reference> und von der Partei
-Bündnis90/Die Grünen (<Reference code="beck-grüne-merz-anzeige-stadtbild">sogar mit einer Strafanzeige</Reference>) kam ebenfalls Kritik, in der die Merz vorgeworfen wird, mit dieser Aussage Vorurteile zu schüren und das gesellschaftliche Klima zu
+Bündnis90/Die Grünen (<Reference code="beck-grüne-merz-anzeige-stadtbild">sogar mit einer Strafanzeige</Reference>) kam ebenfalls Kritik, in der Merz vorgeworfen wird, mit dieser Aussage Vorurteile zu schüren und das gesellschaftliche Klima zu
 verschärfen.
 
 In der Bevölkerung gab es ebenfalls sehr
@@ -150,7 +150,7 @@ und Vorurteile zu verstärken.
 
 Dazu wurde seine Aussage in vielen Reaktionen
 kritisiert ([Tiktok](https://www.tiktok.com/@wanderlisbeth/video/7563296953409228054?q=t%C3%B6chter&t=1761043945380), <Reference code="spiegel-merz-töchter-stadtbild">Spiegel.de</Reference>),
-denn viele Frauen und Frauenverbände wiesen darauf hin, dass sich Frauen natürlich unsicher fühlen, wenn Sie in der
+denn viele Frauen und Frauenverbände wiesen darauf hin, dass sich Frauen natürlich unsicher fühlen, wenn sie in der
 Dunkelheit alleine durch bestimmte Stadtteile gehen müssen, unabhängig davon, ob dort viele Migranten leben oder nicht.
 Denn das Problem sei nicht die Herkunft der Menschen, sondern die Tatsache, dass Frauen Angst haben, wenn Männer sie
 belästigen oder angreifen könnten, ohne dass dies etwas mit der ethnischen Herkunft der Täter zu tun hat.
@@ -186,7 +186,7 @@ damalige Propagandaminister im Dritten Reich.
 
 ### Stadtbild als "Dog-Whistle"
 
-Die Aussage, dass Stadtbild sei ein Problem, das durch illegale und kriminelle Migranten negativ beeinflusst wird ist
+Die Aussage, dass das Stadtbild sei ein Problem, das durch illegale und kriminelle Migranten negativ beeinflusst wird ist
 sehr **schwierig**, da der Aufenthaltsstatus oder die **Kriminalität von Menschen nicht durch ihre Hautfarbe** oder ihre
 bloße Anwesenheit in einem Stadtbild **bestimmt werden kann**.
 

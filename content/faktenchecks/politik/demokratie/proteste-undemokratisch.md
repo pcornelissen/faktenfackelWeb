@@ -3,7 +3,7 @@ publishedOn: 2025-12-03
 date: 2026-01-19
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Proteste, wie in Gießen
-verdict: false        # oder: misleading, complex, true
+verdict: false
 tags: [ AfD, Generation-Deutschland, Demokratie, Proteste ]
 ---
 
@@ -11,7 +11,7 @@ tags: [ AfD, Generation-Deutschland, Demokratie, Proteste ]
 
 Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In
 Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. Die Polizei war vor
-Ort, um die [Sicherheit zu gewährleisten](/faktenchecks/politik/demokratie/giessen/polizeigewalt)) und die Veranstaltung
+Ort, um die [Sicherheit zu gewährleisten](/faktenchecks/politik/demokratie/giessen/polizeigewalt) und die Veranstaltung
 zu schützen.
 
 In den sozialen Medien kursierten Berichte, die argumentieren, dass diese Proteste undemokratisch seien, da sie die
@@ -19,7 +19,7 @@ Meinungsfreiheit der AfD einschränkten.
 
 ## Zitate
 
-In den sozialen Medien gibt es eine vielzahl an den immer gleichen Behauptungen. Hier ist eine kleine Auswahl an
+In den sozialen Medien gibt es eine Vielzahl an den immer gleichen Behauptungen. Hier ist eine kleine Auswahl an
 Beispielen aus den Kommentarspalten:
 
 
@@ -97,8 +97,8 @@ friedlich zu versammeln, um die öffentliche Meinung kund zu tun und die Diskuss
 #### Ist es undemokratisch, gegen die AfD zu protestieren oder gegen ihre Aussagen zu demonstrieren?
 
 Demokratie ist definiert als ein politisches System, in dem die Macht vom Volk ausgeht und durch freie Wahlen und
-Meinungsfreiheit gekennzeichnet ist. In einer Demokratie haben Bürger das Recht, ihre Meinung zu äußern, *
-*einschließlich des Rechts, gegen politische Parteien und deren Veranstaltungen zu protestieren**.
+Meinungsfreiheit gekennzeichnet ist. In einer Demokratie haben Bürger das Recht, ihre Meinung zu äußern,
+**einschließlich des Rechts, gegen politische Parteien und deren Veranstaltungen zu protestieren**.
 Proteste sind ein wesentlicher Bestandteil demokratischer Gesellschaften. Sie ermöglichen es den Bürgern, ihre Ansichten
 zu äußern, Missstände anzuprangern und politischen Druck auszuüben. Solange diese Proteste friedlich verlaufen und die
 Rechte anderer respektieren, sind sie ein legitimes Mittel der Meinungsäußerung.
@@ -149,7 +149,7 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere
 > Ordnung muss demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über
 > ihr Vermögen öffentlich Rechenschaft geben.  
-> &mdash; <cite><Reference code="gii-gg-21">Grundgesetz Artikel 21 - Versammlungsfreiheit</Reference></cite>
+> &mdash; <cite><Reference code="gii-gg-21">Grundgesetz Artikel 21 - Parteien</Reference></cite>
 
 > Demokratie ist eine Herrschaftsform, in der das Volk die oberste Macht ausübt. Wesentliche Merkmale der Demokratie
 > sind die Wahlen, die Meinungsfreiheit, die Versammlungsfreiheit und die Gewaltenteilung.  
@@ -194,7 +194,7 @@ Das liegt daran, dass das Grundgesetz:
 - aber die freiheitlich-demokratische Grundordnung (FDGO) schützt.
 
 Die FDGO ist absichtlich gegen faschistische Herrschaftsformen gerichtet.
-Das wird aber nicht ideologischen Gründen getan, sondern zum Schutz von Freiheit und Menschenwürde.
+Das wird aber nicht aus ideologischen Gründen getan, sondern zum Schutz von Freiheit und Menschenwürde.
 
 Die Verfassung wurde 1949 ausdrücklich als Gegenentwurf zum faschistischen Staat der Nationalsozialisten geschaffen.
 
@@ -246,7 +246,7 @@ wurden. Die überwältigende Mehrheit der Demonstranten hat ohne Gewaltausübung
 **Gewalt** ist in einer Demokratie **niemals akzeptabel**, egal von welcher Seite sie ausgeht. Gewalt gegen
 Menschen oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen. Dies ist auch grundsätzlich im breiten
 linken Spektrum Konsens. Gewalt ist aber auch kein linkes Phänomen, wie man daran erkennen kann, dass es im Jahr 2024
-ca. 40.000 politisch motivierte Straftaten aus dem rechten Milieu gab und ca. 1ß.000 aus dem linken Spektrum. Gewalt
+ca. 40.000 politisch motivierte Straftaten aus dem rechten Milieu gab und ca. 10.000 aus dem linken Spektrum. Gewalt
 gegen Menschen ist wesentlich mehr im rechten Spektrum vertreten, als Eigentumsdelikte, die im linken Spektrum für die
 Mehrheit der Straftaten verantwortlich sind.
 

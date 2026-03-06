@@ -1,9 +1,9 @@
 ---
 publishedOn: 2025-12-03
-date: 2025-12-03
+date: 2026-03-06
 title: Der Verfassungsschutz pausiert die Einstufung der AfD als rechtsextreme Partei
 subtitle: Sieg für die AfD oder normaler Vorgang?
-verdict: misleading        # oder: misleading, complex, true
+verdict: misleading
 tags: [ AfD, Verfassungsschutz, Rechtsextremismus, Verbot, Prüf ]
 ---
 
@@ -16,7 +16,7 @@ sorgte für Aufruhr in der politischen Landschaft Deutschlands. Der Bericht kam 
 als rechtsextrem eingestuft werden könne, was erhebliche Konsequenzen für die Partei haben würde, einschließlich eines
 möglichen Verbots.
 
-Die AfD reagierte mit einem Einspruch vor dem Verwaltungsgericht Köln gegen den Bericht. Darauf hin hat der
+Die AfD reagierte mit einem Einspruch vor dem Verwaltungsgericht Köln gegen den Bericht. Daraufhin hat der
 Verfassungsschutz <Reference code="vg-köln-afd-stillhaltezusage">die Einstufung als gesichert rechtsextrem</Reference> mit einer <Glossar>Stillhaltezusage</Glossar> pausiert, bis das Gericht über
 den Einspruch entschieden hat.
 
@@ -78,7 +78,7 @@ uvm.
 
 ## Argumentation
 
-Kern der Aussagen ist, dass es ein Erfolg sei, das der Verfassungsschutz die Einstufung der AfD als rechtsextreme Partei pausiert habe. Dies wird als Beleg dafür gesehen, dass die AfD keine rechtsextreme Partei sei und die Einstufung des Verfassungsschutzes falsch gewesen ist.
+Kern der Aussagen ist, dass es ein Erfolg sei, dass der Verfassungsschutz die Einstufung der AfD als rechtsextreme Partei pausiert habe. Dies wird als Beleg dafür gesehen, dass die AfD keine rechtsextreme Partei sei und die Einstufung des Verfassungsschutzes falsch gewesen ist.
 
 Dazu kommt häufig die Behauptung dazu, dass Nancy Faeser (Bundesministerin des Innern und für Heimat) den Verfassungsschutz politisch instrumentalisiert habe, um der AfD zu schaden.
 
@@ -90,17 +90,25 @@ Der Verfassungsschutz hat die Einstufung der AfD als rechtsextreme Partei nicht 
 
 Dies ist ein <Reference code="lto-stillhaltezusage-2025">üblicher Vorgang</Reference> in rechtlichen Auseinandersetzungen und bedeutet nicht zwangsläufig, dass die ursprüngliche Einstufung falsch war. Die Idee hinter einer solchen Pause ist es, mögliche Vorurteile oder negative Effekte für die beschuldigte Organisation im Falle einer negativen Entscheidung des Gerichts zu vermeiden, während der Einspruch vom Gericht geprüft wird.
 
+Zusätzlich zur Stillhaltezusage hat das Amtsgericht Köln am 26.02.2026 [dem Eilantrag der AfD auf Aussetzung der Einstufung als rechtsextreme Partei stattgegeben](https://nrwe.justiz.nrw.de/ovgs/vg_koeln/j2026/13_L_1109_25_Beschluss_20260226.html), was die Pausierung weiter unterstützt. Es ist jedoch wichtig zu betonen, dass dies nicht bedeutet, dass die AfD als unschuldig oder unbedenklich eingestuft wird, sondern lediglich, dass die rechtlichen Schritte vorübergehend ausgesetzt werden, bis eine endgültige Entscheidung getroffen wird. Ergo: **Das Gericht bestätigt nur das, was der Verfassungsschutz ohnehin schon getan hat.**
+
+Ganz im Gegenteil zur "AfD-Bewertung" des Urteils gibt der Richter der Bewertung grundsätzlich schon recht:
+
+> Das Verwaltungsgericht Köln und das Oberverwaltungsgericht Nordrhein-Westfalen (OVG NRW) haben mit Urteilen von März 2022 beziehungsweise von Mai 2024* die Einstufung der Partei als Verdachtsfall bestätigt, weil **zahlreiche Anhaltspunkte** für von der AfD ausgehende **Bestrebungen gegen die freiheitliche demokratische Grundordnung** vorgelegen haben. **Diese Anhaltspunkte haben sich bei der weiteren Bearbeitung bestätigt und in wesentlichen Teilen zur Gewissheit verdichtet.**
+
+(Hervorhebung von uns)
+
 ### Löschung der Pressemitteilung ist kein Beleg für eine falsche Einstufung
 
 Die Löschung der Pressemitteilung des Verfassungsschutzes zur Einstufung der AfD als rechtsextreme Partei ist <Reference code="tagesschau-afd-stillhaltezusage">kein Beleg dafür, dass die ursprüngliche Einstufung falsch war</Reference>. Vielmehr handelt es sich um eine übliche Praxis, um Verwirrung zu vermeiden und die Kommunikation während eines laufenden Rechtsstreits zu steuern.
 
-### Sind Stillhaltezusagen etwas besonderes
+### Sind Stillhaltezusagen etwas Besonderes
 
 Stillhaltezusagen sind in rechtlichen Auseinandersetzungen **nicht ungewöhnlich**. Sie dienen dazu, den Status quo während eines Rechtsstreits zu bewahren und mögliche negative Auswirkungen auf die betroffene Partei zu minimieren. Solche Zusagen werden häufig in Fällen gegeben, in denen eine Organisation gegen eine Entscheidung einer Behörde Einspruch einlegt.
 
 Es gibt keine Liste mit bisherigen Stillhaltezusagen von Behörden, aber es lassen sich einige Beispiele finden:
 
-- <Reference code="lto-stillhaltezusage-haldenwang-2023">AfD vs Haldewang 2023</Reference>
+- <Reference code="lto-stillhaltezusage-haldenwang-2023">AfD vs Haldenwang 2023</Reference>
 - <Reference code="lto-presseschau-2021-12-24">Bundesjustizministerium, NetzDG (2021)</Reference>
 - <Reference code="deutschlandfunk-hambacher-forst-2018">Stillhaltezusage vom RWE im Hambacher Forst (2018)</Reference>
 - <Reference code="lto-bamf-sami-a-2018">Stillhaltezusage bei Abschiebung von Sami A. (Juli 2018)</Reference>

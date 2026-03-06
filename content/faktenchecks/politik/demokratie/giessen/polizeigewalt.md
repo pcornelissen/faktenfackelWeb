@@ -3,7 +3,7 @@ publishedOn: 2025-12-11
 date: 2025-12-11
 title: War die Reaktion der Polizei in Gießen gerechtfertigt? 
 subtitle: Polizeigewalt oder Deeskalation und Ordnung
-verdict: false        # oder: misleading, complex, true
+verdict: false
 tags: [AfD, Generation-Deutschland, Demokratie, Proteste, Polizei, Gewalt]
 ---
 
@@ -21,10 +21,10 @@ Es gibt vor allen Dingen auf Instagram Videos, die die friedlichen Demonstration
 
 ### Wie groß ist der gewaltbereite "linksextremistische Block"?
 
-Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> ist die Gruppe der linkeextremistischen Personen in 2024 ca. 11.200 Personen groß, davon sind 8400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als sehr gewaltbereit gelten. Diese sind in 2024 laut Verfassungsschutz für ca. 5000 Straftaten verantwortlich, davon ca. 1000 Gewalttaten gegen Menschen. Dies sind auch Widerstände gegen Polizisten bei Demonstrationen.
+Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> ist die Gruppe der linksextremistischen Personen in 2024 ca. 11.200 Personen groß, davon sind 8400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als sehr gewaltbereit gelten. Diese sind in 2024 laut Verfassungsschutz für ca. 5000 Straftaten verantwortlich, davon ca. 1000 Gewalttaten gegen Menschen. Dies sind auch Widerstände gegen Polizisten bei Demonstrationen.
 In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 762 Straftaten registriert. (Die Unterschiede zwischen Verfassungsschutz und Polizeistatistik liegen an wesentlich lockereren Kriterien, was politisch motiviert ist, und was nicht, und die Polizei wertet nur abgeschlossene Straftaten aus, die angezeigt wurden. Der Verfassungsschutz wertet auch Propaganda, Hassreden, ...)
 
-Um das in Relation zur "<Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">Gegenseite</Reference>" zu setzen, es gab in 2024 ca 50.250 rechtsextremistische bekannte Personen, davon 15.300 gewaltbereite Rechtsextremisten. Diese waren laut Verfassungsschutz für 37835 Straftaten verantwortlich gewesen, davon 1281 Gewalttaten.  
+Um das in Relation zur "<Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">Gegenseite</Reference>" zu setzen, es gab in 2024 ca. 50.250 rechtsextremistische bekannte Personen, davon 15.300 gewaltbereite Rechtsextremisten. Diese waren laut Verfassungsschutz für 37835 Straftaten verantwortlich gewesen, davon 1281 Gewalttaten.  
 In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 1488 Straftaten registriert.
 
 Auch in <Reference code="statista-artikel-politische-lager-straftaten">anderen Statistiken</Reference> zeigt sich ein ähnliches Bild.
@@ -43,9 +43,9 @@ Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Refer
 Was ist passiert? Hierzu ein Zitat von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference>, einer deutschen Klimagerechtigkeitsaktivistin und Podcasterin. Sie war vor Ort und hat auch ein Video von der Situation dort aufgenommen:
 
 > Sie sind ausgestiegen, haben sich aufgereiht. Es gab keinerlei Versuch einer Kontaktaufnahme, keine Durchsage, keine Ansage – nichts. Dann sind sie brüllend losgerannt wie eine Horde, ja, wie so eine zugekokste Prügelbande und haben auf die Leute eingeprügelt, ohne Vorwarnung, ohne Ansage – nichts.  
-  &mdash; <cite><Reference code=""facebook-reisch-gießen>Zitat von Sina Reisch</Reference></cite> 
+  &mdash; <cite><Reference code="facebook-reisch-gießen">Zitat von Sina Reisch</Reference></cite> 
 
-Nach Ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde. Der einzige Effekt der Aktion war die Demonstranten, die friedlich auf dem Weg zur Demo waren, zu verletzen und einzuschüchtern.
+Nach ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde. Der einzige Effekt der Aktion war die Demonstranten, die friedlich auf dem Weg zur Demo waren, zu verletzen und einzuschüchtern.
 
 Ihre <Reference code="instagram-reisch-gießen">Stellungnahme auf Instagram</Reference> (Alternativ auf <Reference code="facebook-reisch-gießen">Facebook</Reference>) wo sie mitteilt, dass die Polizei ohne Durchsage und Vorwarnung auf die Demonstranten eingeprügelt hat.
 

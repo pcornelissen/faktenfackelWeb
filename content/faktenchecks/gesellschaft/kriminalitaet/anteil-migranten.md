@@ -2,7 +2,7 @@
 publishedOn: 2025-12-12
 date: 2025-12-12
 title: Kriminalität bei Ausländern und Deutschen
-verdict: misleading        # oder: misleading, complex, true
+verdict: misleading
 subtitle: Widersprüche, Probleme und Fakten
 tags: [ Migranten, Kriminalität, Stadtbild ]
 ---
@@ -54,7 +54,7 @@ Die <Reference code="bka-kriminalstatistik-2024">Aufklärungsquote</Reference>,
 liegt in den vergangenen Jahren um 58 %, also **42 %** der erkannten Taten werden **nicht aufgeklärt**. <br/>
 Da nicht zu jeder Tat die gleiche Zahl an Tatverdächtigen gemeldet werden, kann man hier wenig Rückschlüsse ziehen. Eine
 genauere Statistik, die den Schritt vom Tatverdächtigen zu überführten Tätern zeigt, scheint es nicht zu geben. Im Jahr
-2024 gab es ca. 2.000.000 Tatverdächtige, aber nur 657.000 Verurteilungen, also eine leicht geringere Quote, wie bei den
+2024 gab es ca. 2.000.000 Tatverdächtige, aber nur 657.000 Verurteilungen, also eine leicht geringere Quote, als bei den
 Aufklärungen, von weniger als einem Drittel.
 
 **Also:** **Nicht jede Person** in der Statistik **ist ein Täter**, nicht jede Person ist in der gleichen Situation
@@ -105,7 +105,7 @@ Bereich der "jungen Erwachsenen" zwischen 14 und 30 wesentlich stärker vertrete
 der Personen in dem Altersbereich.
 
 Die Prozente sind im Vergleich zu den anderen Diagrammen dort höher, weil der Anteil an der Bevölkerung auch kleiner ist
-und daher eine Tatverdächtgung mehr Effekt in der Auswertung hat.
+und daher eine Tatverdächtigung mehr Effekt in der Auswertung hat.
 
 ### Verteilung bei Verdächtigungen nach Deutsche/Ausländer
 
@@ -135,7 +135,7 @@ wurde. (Aufgeschlüsselt nach Geschlecht, liegen die ausländischen Mitbürger i
 bis 20 jährigen, im Vergleich zu 6 % der deutschen Bevölkerung.)
 
 Insgesamt sind im Jahr 2024 2 % der Deutschen einer Tat verdächtigt worden und bei Ausländern sind es insg. 6 % (
-Siehe [Auswertung](/files/faktenchecks/kriminalitaet/migration-straftaten.xlsx)).
+Siehe [Auswertung](/files/faktenchecks/kriminalitaet/migration-straftaten-2024.xlsx)).
 
 Originaldaten: 
 - <Reference code="bka-kriminalstatistik-excel-deutsche-tatverdächtige-2024">Tatverdächtige Deutsche (Excel)</Reference>
@@ -160,7 +160,7 @@ Es gibt viele unterschiedliche Gründe, warum Menschen in Deutschland leben möc
   Es herrscht Krieg und Verfolgung in vielen Gebieten der Welt. Diese Schutzsuchenden sind teilweise nur temporär in
   Deutschland, bis ein Konflikt beendet wurde oder planen keine Rückkehr. Keine Rückkehr ist vor allem bei Verfolgung
   anzutreffen, weil diese in der Regel nicht einfach aufhört, wenn sie durch die Gesellschaft getragen wird. Beispiel
-  sind hier LQBTQ+, Religion oder Herkunft.
+  sind hier LGBTQ+, Religion oder Herkunft.
 - **Wirtschaftliche Gründe**  
   Deutschland gehört zu den größten Industrienationen und ist damit ein attraktives Ziel für Menschen aus Ländern, die
   vom Lebensstandard schlechter aufgestellt sind.
@@ -186,7 +186,7 @@ weil dort in den vergangenen Jahren die Sozialleistungen um 50 % reduziert und w
 
 In der Untersuchung wurde herausgefunden, dass es eine Reduktion der Asylanträge gibt, wenn die Leistungen gekürzt
 wurden, diese haben sich aber nur in andere Länder verschoben. Es gibt also gewisse Pull-Faktoren, aber es ist kein 1:1
-Zusammenhang. Es ist eher so, dass Berichte über Reduktion von Sozialleistungen für Asylbewerbern, das Land als solches
+Zusammenhang. Es ist eher so, dass Berichte über Reduktion von Sozialleistungen für Asylbewerber, das Land als solches
 schlechter darstellt und damit kurzfristig Ströme leicht umleitet in andere Länder, die nicht aktuell mit Fremdenhass
 durch Medien gehen.
 
@@ -199,7 +199,7 @@ ein <Reference code="de-hilft-wirtschaftsfluechtlinge">angenehmeres Leben</Refer
 ##### Freiheit und Sicherheit
 
 Auch wenn z.B. die Springer Presse ein düsteres Bild zeichnet, ist Deutschland extrem sicher und die Wahrscheinlichkeit,
-von einem Verbrechen betroffen zu sein, ist sehr gering. Dazu kommt die Rechtstaatlichkeit, die alle Menschen vor
+von einem Verbrechen betroffen zu sein, ist sehr gering. Dazu kommt die Rechtsstaatlichkeit, die alle Menschen vor
 unrechtmäßiger schützt. Natürlich ist auch hier die Realität nicht zu 100 % am zu erreichenden Ideal, dennoch wird man
 in der Regel durch den Staat und die Gesetze gut geschützt.
 
@@ -252,7 +252,7 @@ Eigentlich sollte der Ablauf so sein:
   Bevölkerung ist verunsichert
 - Integrations- und Sprachkurse sind nicht ausreichend verfügbar, Flüchtlinge bleiben unter sich und eine Eingliederung
   in die Bevölkerung ist schwer
-- Flüchtlingen wird die Arbeitsaufnahme erschwert. Über eine lange Zeit fürfen sie gar keine Arbeit aufnehmen und selbst
+- Flüchtlingen wird die Arbeitsaufnahme erschwert. Über eine lange Zeit dürfen sie gar keine Arbeit aufnehmen und selbst
   wenn es erlaubt wird, ist es ein Spießrutenlauf mit den Behörden für Flüchtlinge und Arbeitgeber
 
 Das Resultat dieser vernachlässigten Integrationsarbeit:
@@ -291,7 +291,7 @@ Wenn z.B. diese Punkte erledigt werden würden, dann gäbe es schon wesentlich w
   nachzuschulen, damit diese dringend benötigten Kräfte schnell die offenen Stellen besetzen können
 - Migranten **mit sozialversicherungspflichtigen Jobs**, laufenden Ausbildungen, Schulausbildungen sollten **nicht
   abgeschoben werden** können, ohne schwerwiegende Gründe. Familien müssen zusammengehalten werden, wenn die Kinder auf
-  gutem Weg sind sich zu integrieren durch AUsbildung und Schule, dann sollte die Familie nicht wegen einer aktuellen
+  gutem Weg sind sich zu integrieren durch Ausbildung und Schule, dann sollte die Familie nicht wegen einer aktuellen
   Arbeitslosigkeit der Eltern abgeschoben werden. Langfristige Perspektiven sind wichtig!
 - **Arbeitgeber** sollten **keine Nachteile** haben, wenn sie Migranten beschäftigen. Also z. B. keine unnötigen
   Genehmigungsorgien, ...

@@ -2,19 +2,19 @@
 publishedOn: 2025-12-12
 date: 2026-01-16
 title: Migranten arbeiten nicht?
-verdict: false        # oder: misleading, complex, true
+verdict: false
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
 tags: [Migranten, Arbeit, Stadtbild]
 ---
 
 ## Was ist passiert?
 
-Ein beliebtes Argument gegen Miganten ist, dass sie nicht arbeiten (wollen). Das führt zu hohen Belastungen der Sozialsysteme bei leeren Kassen und einem Gefühl der Ungerechtigkeit bei einigen deutschen Bürgern.
+Ein beliebtes Argument gegen Migranten ist, dass sie nicht arbeiten (wollen). Das führt zu hohen Belastungen der Sozialsysteme bei leeren Kassen und einem Gefühl der Ungerechtigkeit bei einigen deutschen Bürgern.
 
 
 ## Faktencheck
 
-Natürlich wird es Flüchtlinge geben, die sich gerne ohne Arbeit aufhalten wollen, weil selbst das Bürgergeld schon mehr ist, also sie von der Heimat gewohnt sind. 
+Natürlich wird es Flüchtlinge geben, die sich gerne ohne Arbeit aufhalten wollen, weil selbst das Bürgergeld schon mehr ist, als sie von der Heimat gewohnt sind. 
 
 Der Großteil der Flüchtlinge und Zugewanderten <Reference code="bfa-arbeitsmarktbericht-migranten-2025">wollen aber arbeiten</Reference>, u. a. um ein besseres Leben zu führen. Aktuell arbeiten auch <Reference code="mdintegration-flüchtlinge-in-arbeit">mehr Flüchtlinge, als im Sozialhilfe-Netz oder der Arbeitslosigkeit</Reference> sind.
 
@@ -59,7 +59,7 @@ Wie sieht also <Reference code="proasyl-arbeitsmarkt-migranten-probleme-2025">di
 - <Reference code="mdintegration-dauer-asylverfahren-2025">Lange Bearbeitungszeiten</Reference> bei Behörden.
 - <Reference code="spiegel-geflüchtete-arbeitserlaubnis-2023">Hoher bürokratischer Aufwand</Reference> schreckt Arbeitgeber ab.
 - <Reference code="personalw-ausl-bildungsabschlüsse-2021">Anerkennung von Abschlüssen dauert</Reference> oder scheitert.
-- <Reference code="ndr-zu-wenig-sprachkurse-2025">Sprachbarrieren</References> erschweren die Jobsuche und den passenden Einsatz.
+- <Reference code="ndr-zu-wenig-sprachkurse-2025">Sprachbarrieren</Reference> erschweren die Jobsuche und den passenden Einsatz.
 - Unsicherer Aufenthaltsstatus macht Planung für Arbeitgeber und Geflüchtete schwierig (Siehe oben, bei drohender Abschiebung bekommt die Person keine Arbeitserlaubnis) und die Geflüchteten sind unattraktiv, weil der Aufwand jederzeit umsonst gewesen sein kann, weil die geflüchtete Person dann doch abgeschoben wird
 
 Es ist also mitnichten so, dass die <Reference code="mdintegration-berufliche-integration-2025">Migranten als Gruppe nicht arbeiten wollen</Reference>, sondern es wird vom Staat die Integration massiv und unnötigerweise erschwert.
@@ -91,7 +91,7 @@ Siehe u. a. Studien von:
 
 ## Fazit
 
-Die Aussage, dass Migranten nicht arbeiten wollen, ist also so nicht haltbar. Ein Großteil will arbeiten, wird aber nur unzureichend unterstützt. Diejenigen, die jetzt nicht mehr eine Stelle anstreben, wären vielleicht auch zu bewegen gewesen, wenn die Umstände nicht gegen Sie arbeiten würden.
+Die Aussage, dass Migranten nicht arbeiten wollen, ist also so nicht haltbar. Ein Großteil will arbeiten, wird aber nur unzureichend unterstützt. Diejenigen, die jetzt nicht mehr eine Stelle anstreben, wären vielleicht auch zu bewegen gewesen, wenn die Umstände nicht gegen sie arbeiten würden.
 
 Wie so oft sind es die staatlich gesetzten Rahmenbedingungen, die für Probleme sorgen. Hier ist dringender Handlungsbedarf gegeben, der in der aktuellen politischen mit der CDU in der Führung eher unwahrscheinlich ist, da diese auch nicht unerheblich am rechten Rand mit den (Wahlkampf-)Aussagen fischt. 
 
