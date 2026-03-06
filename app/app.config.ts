@@ -4,6 +4,30 @@ export default defineAppConfig({
       primary: 'orange',
       neutral: 'stone',
     },
+    contentSearchButton: {
+      slots: {
+        base: 'font-mono text-[0.72rem] uppercase tracking-[0.1em] text-[#C4BAB0] border border-[#3D3530] rounded-sm px-2.5 py-1 hover:text-[var(--flame)] hover:border-[var(--flame)] transition-colors bg-transparent gap-1.5',
+        label: 'font-mono',
+        leadingIcon: 'text-[var(--flame)] size-3.5',
+      },
+    },
+    modal: {
+      slots: {
+        content: 'bg-[var(--paper)]',
+      },
+    },
+    contentSearch: {
+      slots: {
+        root: 'bg-[var(--paper)]',
+        input: 'bg-[var(--ash)] [&_input]:bg-transparent [&_input]:text-[var(--paper)] [&_input]:placeholder:text-[#A89880]',
+        close: 'text-[var(--flame)] hover:text-[var(--ember)]',
+        label: 'font-mono text-[0.65rem] uppercase tracking-[0.1em] text-[var(--flame)] px-3 py-1',
+        item: 'data-highlighted:before:bg-[var(--fackel-border)]/40',
+        itemLabelBase: 'text-[var(--ink)] font-medium',
+        itemLabelSuffix: 'text-[var(--muted)]',
+        itemDescription: 'text-[var(--muted)] text-sm',
+      },
+    },
     contentSurround: {
       slots: {
         root: 'grid grid-cols-1 sm:grid-cols-2 gap-8',
