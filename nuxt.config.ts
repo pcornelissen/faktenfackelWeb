@@ -48,6 +48,16 @@ export default defineNuxtConfig({
       ],
     },
   },
+  $production: {
+    routeRules: {
+      '/faktenchecks/**': { swr: 3600 },
+      '/lagerfeuer/**': { swr: 3600 },
+      '/zitate/**': { swr: 3600 },
+      '/quellen/**': { swr: 3600 },
+      '/tags/**': { swr: 3600 },
+      '/glossar/**': { swr: 86400 },
+    },
+  },
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
@@ -56,12 +66,6 @@ export default defineNuxtConfig({
     '/datenschutz': { prerender: true },
     '/mehr': { prerender: true },
     '/news': { prerender: true },
-    '/faktenchecks/**': { swr: 3600 },
-    '/lagerfeuer/**': { swr: 3600 },
-    '/zitate/**': { swr: 3600 },
-    '/quellen/**': { swr: 3600 },
-    '/tags/**': { swr: 3600 },
-    '/glossar/**': { swr: 86400 },
   },
   // sourcemap: {
   //   server: true,

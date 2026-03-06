@@ -25,59 +25,76 @@ const link = computed(() => {
     />
     )
   </div>
-  <div
+  <span
     v-else
-    style="display: inline"
+    class="ref"
   >
     <a
-      :href="link.uri"
-      :title="`Verweis: ${link.title}`"
-      class="link"
+      :href="link.path"
+      :title="`${link.title} – Details auf Faktenfackel`"
+      class="ref-text"
     >
       <slot v-if="slots.default" />
       <template v-else>{{ link.title }}</template>
-    </a>
-    <a
-      v-if="referencesStore.hasSourceFor(link.path)"
-      class="source info-icon"
-      :href="link.path || 'LINK '+props.code+' NOT FOUND'"
-      :title="`Details zur Quelle von: ${referencesStore.sourceByLinkPath(link.path).name}`"
-    >
-      <icon
-        name="i-lucide:book-marked"
-      />
-    </a>
+    </a><a
+      :href="link.uri"
+      target="_blank"
+      rel="external noopener"
+      :title="`${link.title} – Quelle direkt öffnen`"
+      class="ref-external"
+    ><icon name="i-lucide:external-link" /></a>
     <icon
-      v-else
-      name="i-lucide:bug"
-      style="color: red"
-      class="info-icon"
-      :title="`Quelle nicht gefunden! (${link.path.split('/')[2]})`"
+      v-if="!referencesStore.hasSourceFor(link.path)"
+      name="i-lucide:triangle-alert"
+      style="color: orange"
+      class="ref-warn"
+      :title="`Quellendetails nicht gefunden! (${link.path.split('/')[2]})`"
     />
-  </div>
+  </span>
 </template>
 
 <style scoped>
-:root {
+.ref {
   display: inline;
 }
 
-.link {
-  text-decoration: underline var(--color-tertiary);
-  transition: ease all .5s;
+.ref-text {
+  text-decoration: underline var(--flame);
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
 }
 
-.info-icon {
-  color: var(--color-secondary);
+.ref-text:hover {
+  color: var(--flame);
+}
+
+.ref-external {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.2em;
+  color: var(--muted);
+  font-size: 1em;
+  vertical-align: -0.15em;
   position: relative;
-  top: 2px;
-  margin-left: 3px;
-  margin-right: 6px;
-  transition: ease all .5s;
+  transition: color 0.2s ease;
 }
 
-.info-icon:hover {
-  color: var(--color-tertiary);
-  transition: ease all .5s;
+.ref-external:hover {
+  color: var(--ember);
+}
+
+@media (pointer: coarse) {
+  .ref-external::before {
+    content: '';
+    position: absolute;
+    inset: -12px -8px;
+  }
+}
+
+.ref-warn {
+  color: orange;
+  font-size: 0.8em;
+  vertical-align: middle;
+  margin-left: 2px;
 }
 </style>
