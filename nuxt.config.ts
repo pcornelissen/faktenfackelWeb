@@ -12,6 +12,16 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'nuxt-feedme',
   ],
+  $production: {
+    routeRules: {
+      '/faktenchecks/**': { swr: 3600 },
+      '/lagerfeuer/**': { swr: 3600 },
+      '/zitate/**': { swr: 3600 },
+      '/quellen/**': { swr: 3600 },
+      '/tags/**': { swr: 3600 },
+      '/glossar/**': { swr: 86400 },
+    },
+  },
   components: [
     { path: '~/components', pathPrefix: false },
   ],
@@ -46,16 +56,6 @@ export default defineNuxtConfig({
         'orange',
         'stone',
       ],
-    },
-  },
-  $production: {
-    routeRules: {
-      '/faktenchecks/**': { swr: 3600 },
-      '/lagerfeuer/**': { swr: 3600 },
-      '/zitate/**': { swr: 3600 },
-      '/quellen/**': { swr: 3600 },
-      '/tags/**': { swr: 3600 },
-      '/glossar/**': { swr: 86400 },
     },
   },
   routeRules: {

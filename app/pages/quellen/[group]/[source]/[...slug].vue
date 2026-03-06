@@ -58,7 +58,7 @@ const { data: coList } = (coSources == null || coSources.size == 0)
   ? { data: [] }
   : await useAsyncData(basePath + '-coSources', () => {
       return queryCollection('quellen')
-        .orWhere(q => {
+        .orWhere((q) => {
           for (const s of coSources.values()) {
             q.where('path', 'LIKE', '/quellen/%/' + s)
           }

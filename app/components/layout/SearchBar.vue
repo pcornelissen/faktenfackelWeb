@@ -38,11 +38,11 @@ const { data: frontMatterMap } = useLazyAsyncData('search-frontmatter', async ()
   const map = new Map<string, string>()
   for (const item of results.flat()) {
     const extra = [
-      (item as any).subtitle,
-      (item as any).subject,
-      (item as any).description,
-      (item as any).teaser,
-      (item as any).tags?.join(' '),
+      (item as Record<string, unknown>).subtitle as string | undefined,
+      (item as Record<string, unknown>).subject as string | undefined,
+      (item as Record<string, unknown>).description as string | undefined,
+      (item as Record<string, unknown>).teaser as string | undefined,
+      ((item as Record<string, unknown>).tags as string[] | undefined)?.join(' '),
     ].filter(Boolean).join(' ')
     if (extra) map.set(item.path, extra)
   }
