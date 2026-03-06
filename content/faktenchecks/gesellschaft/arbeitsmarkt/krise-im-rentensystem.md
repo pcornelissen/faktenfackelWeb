@@ -11,7 +11,7 @@ tags: [Deutschland, Arbeitsmarkt, Rentner, Migranten]
 
 Deutschland hat ein Problem, es gibt zu wenig Nachwuchs, um die bald frei werdenden Stellen zu besetzen, denn viele Menschen gehen bald in Rente.
 
-Jetzt zahlen ca. 2 Arbeitnehmer schon für einen Rentner, es aren mal 7 Arbeitnehmer pro Rentner. Der Zuschuss zur Rentenkasse ist der größte Block im Bundeshaushalt. 2025 wird der Zuschuss zur Rentenkasse <Reference code="ifo-zuschuss-rentenversicherung">
+Jetzt zahlen ca. 2 Arbeitnehmer schon für einen Rentner, es waren mal 7 Arbeitnehmer pro Rentner. Der Zuschuss zur Rentenkasse ist der größte Block im Bundeshaushalt. 2025 wird der Zuschuss zur Rentenkasse <Reference code="ifo-zuschuss-rentenversicherung">
 ein Drittel der Steuereinnahmen</Reference> betragen.
 
 ## Faktencheck
@@ -61,7 +61,7 @@ Wie eingangs bereits geschrieben, haben wir aktuell ca. 2 Arbeitnehmer pro Rentn
 
 Da aktuell mit ca. 67 Jahren die Menschen in der Regel in Rente gehen, bedeutet dies, dass auf einmal ein großer Block an Menschen aus dem Arbeitsmarkt ausscheiden und dann vom Rentensystem getragen wird. Der Faktor Beitragszahler pro Rentner wird also unter 1 sinken. Also ein Arbeitnehmer muss mehr als eine Rente finanzieren. 
 
-Da Arbeitnehmer diese Kosten jetzt schon nicht komplett stemmen können, muss der Rententopf noch mehr aus dem laufenden Haushalt subventioniert werden. Diese Subvention wird noch ca. 20 Jahre konstant steigen müssen, bis die Babyboomer Generation langsam "aus der Rente ausscheiden wird". Wenn keine neue Babyboomer-Generation kommen wird, bleibt das Problem allerdings bestehen, weil es nie mehr, mehr Rentner als Arbeitnehmer geben wird, da die Menschen zu wenig Nachwuchs bekommen.
+Da Arbeitnehmer diese Kosten jetzt schon nicht komplett stemmen können, muss der Rententopf noch mehr aus dem laufenden Haushalt subventioniert werden. Diese Subvention wird noch ca. 20 Jahre konstant steigen müssen, bis die Babyboomer Generation langsam "aus der Rente ausscheiden wird". Wenn keine neue Babyboomer-Generation kommen wird, bleibt das Problem allerdings bestehen, weil es dann immer, mehr Rentner als Arbeitnehmer geben wird, da die Menschen zu wenig Nachwuchs bekommen.
 
 Eine Finanzierung der aktuellen Rentner und der kommenden Rentnergeneration wird eine Herausforderung, die mutige politische Entscheidungen erfordert. Entweder man belastet die niedrigen Einkommen weiter und unterstützt die Armut der Bevölkerung oder die breiten Schultern der Hochverdiener werden gefordert.
 
@@ -69,7 +69,7 @@ Eine Finanzierung der aktuellen Rentner und der kommenden Rentnergeneration wird
 
 Sozialpflichtig beschäftige Menschen zahlen in die Rentenkasse ein. Das sind in der Regel Arbeitnehmer, aber auch Selbständige können freiwillig einzahlen. Beamte zahlen nicht in die Rentenkasse ein, sondern bekommen eine Pension aus dem Staatshaushalt.
 
-#### Warum zahlen Beamten nicht ein?
+#### Warum zahlen Beamte nicht ein?
 Beamte sind in Deutschland in der Regel auf Lebenszeit angestellt und haben einen besonderen Status. Sie zahlen nicht in die gesetzliche Rentenversicherung ein, weil sie Anspruch auf eine staatliche Pension haben, die direkt aus dem Staatshaushalt finanziert wird. Diese Pension soll den Beamten eine finanzielle Sicherheit im Ruhestand bieten, ähnlich wie die Rentenversicherung für Arbeitnehmer.
 
 Es gab die Forderung, dass Beamte auch in die Rentenkassen einzahlen sollten, um die Lasten gerechter zu verteilen. Das ist aber finanziell nicht sinnvoll, denn die Beamten müssten auch ihre Pensionen aus der Rentenkasse bekommen, was die Rentenkasse zusätzlich belasten würde. Dazu kommt, dass Beamte im Schnitt älter werden als abhängige Beschäftigte. Das würde also bedeuten, dass durch die Beamten das Rentensystem einfach <Reference code="iw-koeln-bas-rente-beamte">nur mehr belastet werden würde</Reference>. Ja, die Beamten kriegen ohnehin irgendwann ihre Pension, aber durch den Wechsel auf die Rentenkasse würden sich jetzt Kosten in Milliardenhöhe ergeben, die das System zum jetzigen Zeitpunkt zusätzlich stark belasten würden.
@@ -92,7 +92,7 @@ Zuwanderung gleicht schon jetzt leicht die Schieflage der Geburtenrate aus, inde
 
 Diese Grafik hatten wir oben bereits:
 
-<img src="/files/faktenchecks/kriminalitaet/bevoelkerung-altersstruktur-2024.png" alt="Wiederholung der Altersstruktur" style="max-height: 35rem;width: auto"><br/>
+<img src="/files/faktenchecks/kriminalitaet/bevoelkerung-altersstruktur-2024.png" alt="Altersstruktur der deutschen Bevölkerung bis 2024" style="max-height: 35rem;width: auto"><br/>
 
 Man sieht, dass durch Zuwanderung die ungünstige Altersverteilung leicht ausgeglichen wird. Für eine gesunde Altersverteilung wäre mindestens die doppelte Menge an Migranten nötig, die bei der Eingliederung in die Gesellschaft und das Arbeitsleben aktiv unterstützt werden müssten, um die freien und bald frei werdenden Arbeitsplätze zu besetzen. Diese Arbeitsplätze sind jetzt schon in allen Bereichen und Qualifizierungsstufen und mit der Verrentnungswelle wird das ein echtes Problem für die Firmen, wenn keine Strategien vorbereitet werden, wie diese Lücken geschlossen werden können.
 
