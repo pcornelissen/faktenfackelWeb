@@ -67,5 +67,9 @@ export const newsSrc: NewsItem[] = [
   {
     date: new Date('2026-03-03'),
     title: 'Redesign weiter optimiert, Tags Bereich (Schlagworte) eingeführt',
+  }, 
+   {
+    date: new Date('2026-03-06'),
+    title: 'AfD Gerichtsurteil eingepflegt bzgl. Verbotsverfahren,Redesign weiter optimiert, Tippfehler korrigiert',
   },
 ]
