@@ -111,6 +111,18 @@ export default defineNuxtConfig({
         sitemap.lastmod = content.date
         content.sitemap = sitemap
       }
+
+      // Referenz-Codes aus dem Rohtext extrahieren (für referencesStore)
+      const referenceCodes = [
+        ...[...text.matchAll(/<[Rr]eference\b[^>]*\bcode="([^"]+)"/g)].map(m => m[1]),
+        ...[...text.matchAll(/:reference\{[^}]*code="([^"]+)"/g)].map(m => m[1]),
+      ]
+      const quoteCodes = [
+        ...[...text.matchAll(/<[Qq]uote[Rr]eference\b[^>]*\bcode="([^"]+)"/g)].map(m => m[1]),
+        ...[...text.matchAll(/:quote-reference\{[^}]*code="([^"]+)"/g)].map(m => m[1]),
+      ]
+      if (referenceCodes.length) content.referenceCodes = [...new Set(referenceCodes)]
+      if (quoteCodes.length) content.quoteCodes = [...new Set(quoteCodes)]
     },
   },
   eslint: {

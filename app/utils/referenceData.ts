@@ -1,5 +1,4 @@
 import { reactive } from 'vue'
-import { type MinimarkTree, visit } from 'minimark'
 
 export type Source = {
   date: string
@@ -21,22 +20,9 @@ export type SourceLink = {
   coSources: string[]
 }
 
-export function extractCodes(body: MinimarkTree | undefined): string[] {
-  if (body === undefined) return []
-  const result: string[] = []
-  visit(body, node => node[0] === 'reference', (node) => {
-    result.push(node[1].code as string)
-  })
-  visit(body, node => node[0] === 'quote-reference', (node) => {
-    const name = 'quote-' + (node[1].code as string)
-    if (result.indexOf(name) === -1) {
-      result.push(name)
-    } else {
-      console.error('Duplicate code found: ' + name)
-    }
-  })
-
-  return result
+type PageWithCodes = {
+  referenceCodes?: string[]
+  quoteCodes?: string[]
 }
 
 export function buildSourcePath(path: string) {
@@ -76,37 +62,15 @@ export const referencesStore = reactive({
       date: '', description: '', path: '', tags: [], image: '', imageAuthor: '',
     }
   },
-  hasQuoteCode(codes: Set<string>) {
-    return !!codes?.values()?.toArray().some(c => c.startsWith('quote-'))
-  },
-  hasReferenceCode(codes: Set<string>) {
-    return !!codes?.values()?.toArray().some(c => !c.startsWith('quote-'))
-  },
-  async fetchFor(links: string[] | undefined) {
-    const codes = new Set<string>(links || [])
-
-    const sourceLinks: SourceLink[] = this.hasReferenceCode(codes)
-      ? await queryCollection('quellenlinks')
-        .orWhere((query) => {
-          codes.forEach((s) => {
-            if (!s.startsWith('quote-')) {
-              query = query.where('code', '=', s)
-            }
-          })
-          return query
-        }).all() as SourceLink[]
+  async fetchFor(page: PageWithCodes | null | undefined) {
+    const referenceCodes = page?.referenceCodes || []
+    const quoteCodes = page?.quoteCodes || []
+    const sourceLinks: SourceLink[] = referenceCodes.length
+      ? await queryCollection('quellenlinks').where('code', 'IN', referenceCodes).all() as SourceLink[]
       : []
 
-    const quotes: Quote[] = this.hasQuoteCode(codes)
-      ? await queryCollection('zitate')
-        .orWhere((query) => {
-          codes.forEach((s) => {
-            if (s.startsWith('quote-')) {
-              query = query.where('code', '=', s.replace('quote-', ''))
-            }
-          })
-          return query
-        }).all() as Quote[]
+    const quotes: Quote[] = quoteCodes.length
+      ? await queryCollection('zitate').where('code', 'IN', quoteCodes).all() as Quote[]
       : []
 
     this.links.clear()
@@ -123,19 +87,15 @@ export const referencesStore = reactive({
   },
 
   async updateSources() {
-    const sourcePaths = new Set([
-      ...this.links.values().map(l => buildSourcePath(l.path)),
-      ...this.quotes.values().map(l => buildSourcePath(l.path)),
-    ])
+    const sourcePaths = [
+      ...new Set([
+        ...this.links.values().map(l => buildSourcePath(l.path)),
+        ...this.quotes.values().map(l => buildSourcePath(l.path)),
+      ]),
+    ]
     if (this.links.size + this.quotes.size === 0) return
 
-    const sources = await queryCollection('quellen')
-      .orWhere((query) => {
-        sourcePaths.forEach((s) => {
-          query = query.where('path', '=', s)
-        })
-        return query
-      }).all() as Source[]
+    const sources = await queryCollection('quellen').where('path', 'IN', sourcePaths).all() as Source[]
 
     for (const source of sources) {
       this.sources.set(source.path, source)

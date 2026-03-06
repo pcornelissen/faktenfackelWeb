@@ -10,12 +10,9 @@ await definePageData({
 
 <template>
   <section class="content">
-    <h2 style="margin-top: 0">
-      Über die Seite Faktenfackel
-    </h2>
-    <p>
+    <h1>
       Willkommen bei <strong>Faktenfackel</strong> – deinem Licht im Dickicht der Desinformation.
-    </p>
+    </h1>
     <p>
       Das Internet bietet unendliche Möglichkeiten, aber leider auch unzählige Behauptungen, Gerüchte und
       Halbwahrheiten.<br>

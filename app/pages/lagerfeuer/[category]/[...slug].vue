@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
-import { referencesStore, extractCodes } from '~/utils/referenceData'
+import { referencesStore } from '~/utils/referenceData'
 
 const route = useRoute()
 const category = route.params.category as string
@@ -49,7 +49,7 @@ useBlogPosting({
   tags: page.value?.tags as string[] | undefined,
 })
 
-await referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(page.value)
 </script>
 
 <template>

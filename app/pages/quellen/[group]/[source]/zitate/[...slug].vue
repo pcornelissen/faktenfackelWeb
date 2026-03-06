@@ -2,7 +2,7 @@
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
-import { referencesStore, extractCodes } from '~/utils/referenceData'
+import { referencesStore } from '~/utils/referenceData'
 import { handleRenameRedirects } from '~/pages/renames'
 
 const route = useRoute()
@@ -36,7 +36,7 @@ await definePageData({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
-await referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(page.value)
 </script>
 
 <template>

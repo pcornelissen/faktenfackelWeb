@@ -15,14 +15,8 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
 const sourcesRaw
   = (props.showSource === true && props.list.length > 0
     ? (await useAsyncData('fetch-quote-sources', () => {
-        const builder = queryCollection('quellen').orWhere(
-          (query) => {
-            new Set(props.list.map(i => buildSourcePath(i.path))).forEach(s => query = query.where('path', '=', s))
-            return query
-          },
-        )
-        return builder
-          .all()
+        const sourcePaths = [...new Set(props.list.map(i => buildSourcePath(i.path)))]
+        return queryCollection('quellen').where('path', 'IN', sourcePaths).all()
       }))?.data?.value
     : null) || []
 const sources = new Map<string, Source>()

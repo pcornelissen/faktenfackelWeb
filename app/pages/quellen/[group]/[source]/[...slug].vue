@@ -3,7 +3,7 @@ import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
-import { extractCodes, referencesStore } from '~/utils/referenceData'
+import { referencesStore } from '~/utils/referenceData'
 import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
 import { handleRenameRedirects } from '~/pages/renames'
 
@@ -57,14 +57,17 @@ const coSources = new Set(page.value?.coSources == null ? [] : page.value.coSour
 const { data: coList } = (coSources == null || coSources.size == 0)
   ? { data: [] }
   : await useAsyncData(basePath + '-coSources', () => {
-      const builder = queryCollection('quellen').orWhere((query) => {
-        coSources.values().forEach(s => query = query.where('path', 'LIKE', '/quellen/%/' + s))
-        return query
-      })
-      return builder.select('name', 'path').all()
+      return queryCollection('quellen')
+        .orWhere(q => {
+          for (const s of coSources.values()) {
+            q.where('path', 'LIKE', '/quellen/%/' + s)
+          }
+          return q
+        })
+        .select('name', 'path').all()
     })
 
-await referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(page.value)
 </script>
 
 <template>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import { definePageData } from '~/utils/contentUtils'
-import { extractCodes, referencesStore, type SourceLink } from '~/utils/referenceData'
+import { referencesStore, type SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
 import { handleRenameRedirects } from '~/pages/renames'
@@ -53,7 +53,7 @@ const { data: quotesRaw }
       .all())
 const quotes = quotesRaw.value as Quote[] || []
 
-await referencesStore.fetchFor(extractCodes(sourceInfo.value?.body))
+await referencesStore.fetchFor(sourceInfo.value)
 </script>
 
 <template>

@@ -12,6 +12,8 @@ export default defineContentConfig({
         publishedOn: z.date().or(z.null()),
         verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
         tags: z.set(z.string()),
+        referenceCodes: z.array(z.string()).optional(),
+        quoteCodes: z.array(z.string()).optional(),
       }),
     }),
     lagerfeuer: defineCollection({
@@ -24,6 +26,8 @@ export default defineContentConfig({
         description: z.string().optional(),
         publishedOn: z.date().or(z.null()),
         tags: z.set(z.string()),
+        referenceCodes: z.array(z.string()).optional(),
+        quoteCodes: z.array(z.string()).optional(),
       }),
     }),
     glossar: defineCollection({
@@ -47,6 +51,8 @@ export default defineContentConfig({
         publishedOn: z.date().or(z.null()),
         tags: z.set(z.string()),
         teaser: z.string(),
+        referenceCodes: z.array(z.string()).optional(),
+        quoteCodes: z.array(z.string()).optional(),
       }),
       indexes: [
         { columns: ['code'], unique: true },
@@ -62,6 +68,8 @@ export default defineContentConfig({
         image: z.string().or(z.null()),
         imageAuthor: z.string().or(z.null()),
         tags: z.set(z.string()),
+        referenceCodes: z.array(z.string()).optional(),
+        quoteCodes: z.array(z.string()).optional(),
       }),
     }),
     quellenlinks: defineCollection({
@@ -76,6 +84,8 @@ export default defineContentConfig({
         verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
         tags: z.set(z.string()),
         coSources: z.set(z.string()),
+        referenceCodes: z.array(z.string()).optional(),
+        quoteCodes: z.array(z.string()).optional(),
       }),
       indexes: [
         { columns: ['code'], unique: true },

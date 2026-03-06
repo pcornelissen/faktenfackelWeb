@@ -90,12 +90,7 @@ watch(filteredQuellenlinks, async (links) => {
     parentQuellenCache.value = []
     return
   }
-  const results = await queryCollection('quellen').orWhere((query) => {
-    paths.forEach((p) => {
-      query = query.where('path', '=', p)
-    })
-    return query
-  }).all()
+  const results = await queryCollection('quellen').where('path', 'IN', paths).all()
   parentQuellenCache.value = results as unknown as Source[]
 }, { immediate: true })
 

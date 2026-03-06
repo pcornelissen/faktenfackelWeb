@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData } from '~/utils/contentUtils'
-import { referencesStore, extractCodes } from '~/utils/referenceData'
+import { referencesStore } from '~/utils/referenceData'
 
 const route = useRoute()
 
@@ -53,7 +53,7 @@ useClaimReview({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
-await referencesStore.fetchFor(extractCodes(page.value?.body))
+await referencesStore.fetchFor(page.value)
 </script>
 
 <template>

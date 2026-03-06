@@ -71,7 +71,7 @@ hat großen Einfluss auf die Wahrscheinlichkeit, ob Straftaten begangen werden o
 Man kann hier gut erkennen, dass bei der deutschen Bevölkerung ein deutlicher Überschuss in den hohen Altersbereichen (
 52-76 Jahre) vorliegt. Die Gruppe der ausländischen Mitbürger hat von 24 bis 48 Jahren einen Schwerpunkt, mit der
 maximalen Zahl von 27 % um 30
-Jahre. Statistik: <Reference code="destatis-bevölkerung-2024"/>
+Jahre. Statistik: :reference{code="destatis-bevölkerung-2024"}
 
 Dieser Altersbereich hat auch bei deutschen Mitbürgern eine höhere Anzahl an Taten, auch wenn dieser Altersbereich im
 Vergleich zum Rest der Bevölkerung kleiner ist. Das ist also der Grund, dass eine Berechnung des Prozentsatzes an
