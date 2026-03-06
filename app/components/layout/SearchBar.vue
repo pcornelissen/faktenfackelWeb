@@ -53,7 +53,7 @@ const enrichedFiles = computed(() => {
   const fm = frontMatterMap.value
   return (files.value ?? []).map((section) => {
     if (!fm || section.titles.length > 0) return section
-    const docPath = section.id.split('#')[0]
+    const docPath = section.id.split('#')[0] ?? section.id
     const extra = fm.get(docPath)
     if (!extra) return section
     return { ...section, content: extra + (section.content ? ' ' + section.content : '') }
