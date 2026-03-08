@@ -5,10 +5,8 @@ import Tags from '~/components/sources/Tags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import { referencesStore } from '~/utils/referenceData'
 import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
-import { handleRenameRedirects } from '~/pages/renames'
 
 const route = useRoute()
-handleRenameRedirects(route.path)
 
 const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path

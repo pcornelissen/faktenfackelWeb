@@ -3,10 +3,8 @@ import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import { referencesStore } from '~/utils/referenceData'
-import { handleRenameRedirects } from '~/pages/renames'
 
 const route = useRoute()
-handleRenameRedirects(route.path)
 
 const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path

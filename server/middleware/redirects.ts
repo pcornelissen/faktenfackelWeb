@@ -1,8 +1,4 @@
-export interface RenameRoutes {
-  [key: string]: string
-}
-
-const renames: RenameRoutes = {
+const redirects: Record<string, string> = {
   '/quellen/allgemein/bluesky-divers': '/quellen/allgemein/bluesky',
   '/quellen/allgemein/facebook-divers': '/quellen/allgemein/facebook',
   '/quellen/allgemein/tiktok-divers': '/quellen/allgemein/tiktok',
@@ -11,12 +7,11 @@ const renames: RenameRoutes = {
   '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/blog/krise-im-rentensystem',
 }
 
-export function handleRenameRedirects(route: string) {
-  for (const queryPath in renames) {
-    if (route.startsWith(queryPath)) {
-      const newUri = renames[queryPath] + route.substring(queryPath.length)
-      navigateTo(newUri)
-      return
+export default defineEventHandler((event) => {
+  const url = event.path
+  for (const [from, to] of Object.entries(redirects)) {
+    if (url === from || url.startsWith(from + '/')) {
+      return sendRedirect(event, to + url.slice(from.length), 301)
     }
   }
-}
+})

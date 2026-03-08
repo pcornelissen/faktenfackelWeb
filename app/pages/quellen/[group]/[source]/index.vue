@@ -4,14 +4,11 @@ import { definePageData } from '~/utils/contentUtils'
 import { referencesStore, type SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
-import { handleRenameRedirects } from '~/pages/renames'
 
 const route = useRoute()
 
 const source = route.params.source as string
 const basePath = route.path// `/quellen/${source}`;
-
-handleRenameRedirects(route.path)
 
 const { data: sourceInfo }
   = await
