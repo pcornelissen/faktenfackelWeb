@@ -1,60 +1,118 @@
-# Nuxt Starter Template
+# Faktenfackel – Website
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+Faktenfackel ist eine deutschsprachige Faktencheck- und Blog-Plattform. Diese Repository enthält den Quellcode der Website unter [faktenfackel.de](https://faktenfackel.de).
 
-Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
+## Tech Stack
 
-- [Live demo](https://starter-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+| | |
+|---|---|
+| Framework | [Nuxt 4](https://nuxt.com) mit `app/`-Verzeichnisstruktur |
+| Content | [@nuxt/content v3](https://content.nuxt.com) — Markdown-Kollektionen, SQLite/D1 |
+| UI | [@nuxt/ui v4](https://ui.nuxt.com) + Tailwind CSS v4 |
+| Deployment | [Cloudflare Workers](https://workers.cloudflare.com) + D1-Datenbank |
+| Paketmanager | [pnpm](https://pnpm.io) |
 
-<a href="https://starter-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
-    <img alt="Nuxt Starter Template" src="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
-  </picture>
-</a>
+## Lokale Entwicklung
 
-> The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.
+### Voraussetzungen
 
-## Quick Start
+- Node.js 20+
+- pnpm (`npm install -g pnpm`)
 
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/starter
-```
-
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=starter&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fstarter&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fstarter-dark.png&demo-url=https%3A%2F%2Fstarter-template.nuxt.dev%2F&demo-title=Nuxt%20Starter%20Template&demo-description=A%20minimal%20template%20to%20get%20started%20with%20Nuxt%20UI.)
-
-## Setup
-
-Make sure to install the dependencies:
+### Setup
 
 ```bash
+# Abhängigkeiten installieren
 pnpm install
+
+# Git-Hooks aktivieren (einmalig)
+git config core.hooksPath .githooks
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Entwicklungsserver starten
 
 ```bash
 pnpm dev
+# → http://localhost:3000
 ```
 
-## Production
+## Verfügbare Befehle
 
-Build the application for production:
+```bash
+pnpm dev          # Entwicklungsserver
+pnpm build        # Produktions-Build (Cloudflare Workers)
+pnpm generate     # Statische Seiten generieren
+pnpm preview      # Produktions-Build lokal vorschauen
+pnpm lint         # ESLint prüfen (kein Output = OK)
+pnpm lintFix      # Lint-Fehler automatisch beheben
+pnpm typecheck    # TypeScript-Prüfung
+```
+
+## Qualitätssicherung
+
+Vor jedem Push laufen automatisch Lint und Typecheck (via `.githooks/pre-push`). Der Push wird abgebrochen, wenn einer der Checks fehlschlägt.
+
+Manuell ausführen:
+
+```bash
+pnpm lint && pnpm typecheck
+```
+
+## Deployment
+
+Die Seite läuft auf Cloudflare Workers mit einer D1-Datenbank (`fackel1`). Das Deployment erfolgt über Wrangler:
 
 ```bash
 pnpm build
+npx wrangler deploy
 ```
 
-Locally preview production build:
+Cloudflare Builder werden eingesetzt zum Deployment.
+Es gibt auch Builds in Github, die werden aber nirgendwo deployed.
 
-```bash
-pnpm preview
+
+## Projektstruktur
+
+```
+website/
+├── app/
+│   ├── assets/css/       # Tailwind-Tokens und globale Styles
+│   ├── components/       # Vue-Komponenten (auto-importiert, kein Präfix nötig)
+│   ├── composables/      # useClaimReview, useBlogPosting (JSON-LD Schemas)
+│   ├── pages/            # Routing (Nuxt file-based routing)
+│   └── utils/            # contentUtils, referenceData, stringUtils
+├── content/
+│   ├── faktenchecks/     # Faktencheck-Artikel (verdict: false|misleading|complex|true)
+│   ├── lagerfeuer/       # Blog-Artikel und Meinungsbeiträge
+│   ├── glossar/          # Glossareinträge
+│   └── quellen/          # Quellenverzeichnis mit Links und Zitaten
+├── server/
+│   ├── api/              # Nitro API-Routen (Sitemap etc.)
+│   └── middleware/       # redirects.ts — HTTP-301-Weiterleitungen
+├── .githooks/            # Git-Hooks (pre-push: lint + typecheck)
+├── content.config.ts     # Zod-Schemas für alle Content-Kollektionen
+└── nuxt.config.ts        # Nuxt-Konfiguration, Route Rules, Feeds, Sitemap
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Content-Kollektionen
+
+Alle Inhalte liegen als Markdown-Dateien mit YAML-Frontmatter:
+
+| Kollektion | Pfad | Besonderheiten |
+|---|---|---|
+| `faktenchecks` | `faktenchecks/**/*.md` | `verdict`-Feld (false/misleading/complex/true) |
+| `lagerfeuer` | `lagerfeuer/**/*.md` | Blog und Meinungsbeiträge |
+| `glossar` | `glossar/**/*.md` | `subject`-Feld |
+| `zitate` | `quellen/*/*/zitate/*.md` | `code`-Feld (eindeutig) |
+| `quellen` | `quellen/*/*/*.md` | Quellendetails mit optionalem Bild |
+| `quellenlinks` | `quellen/*/*/links/**/*.md` | `code`-Feld (eindeutig), `uri`, `type` |
+
+Quellenlinks und Zitate werden per `<Reference code="...">` bzw. `<QuoteReference code="...">` in Artikeln eingebunden.
+
+## Hinweise für neue Entwickler
+
+- **Dateinamen mit `[...]`** müssen beim `git add` in Anführungszeichen gesetzt werden:
+  `git add 'app/pages/faktenchecks/[category]/[...slug].vue'`
+- **Weiterleitungen** (URL-Umzüge) gehören in `server/middleware/redirects.ts` — nicht als Client-Navigation
+- **Neue Komponenten** werden automatisch importiert — kein manueller Import nötig, außer für Layout-Komponenten
+- **Design-Tokens** sind CSS-Custom-Properties in `app/assets/css/main.css`, kein `tailwind.config.ts` nötig
