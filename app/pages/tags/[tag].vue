@@ -120,6 +120,29 @@ const totalResults = computed(() =>
 
 const hasResults = computed(() => totalResults.value > 0)
 
+const totalSourceLinks = computed(() =>
+  sourcesGrouped.value.reduce((sum, entry) => sum + entry.links.length, 0),
+)
+
+const resultSummary = computed(() => {
+  const parts: string[] = []
+  const fc = filteredFaktenchecks.value.length
+  const lf = filteredLagerfeuer.value.length
+  const gl = filteredGlossar.value.length
+  const zi = filteredZitate.value.length
+  const qu = sourcesGrouped.value.length
+  const ql = totalSourceLinks.value
+  if (fc > 0) parts.push(`${fc} Faktencheck${fc !== 1 ? 's' : ''}`)
+  if (lf > 0) parts.push(`${lf} Lagerfeuer-Beitrag${lf !== 1 ? 'e' : ''}`)
+  if (gl > 0) parts.push(`${gl} Glossar-Eintrag${gl !== 1 ? 'e' : ''}`)
+  if (zi > 0) parts.push(`${zi} Zitat${zi !== 1 ? 'e' : ''}`)
+  if (qu > 0) {
+    const linkPart = ql > 0 ? ` mit insg. ${ql} Link${ql !== 1 ? 's' : ''}` : ''
+    parts.push(`${qu} Quelle${qu !== 1 ? 'n' : ''}${linkPart}`)
+  }
+  return parts.join(' · ')
+})
+
 // Related tags: all tags from filtered results with freq > 1, not already active
 const relatedTags = computed(() => {
   const activeNorm = activeTags.value.map(t => t.toLowerCase())
@@ -200,7 +223,7 @@ function removeTag(tagToRemove: string) {
         v-if="!anyPending && hasResults"
         class="page-meta"
       >
-        {{ totalResults }} Treffer
+        {{ resultSummary }}
       </p>
     </div>
 
