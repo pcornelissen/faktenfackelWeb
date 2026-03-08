@@ -19,7 +19,7 @@ Corona-Maßnahmen, Migration und Klimapolitik.
 
 ## Faktenfackel Bewertung
 
-Andreas Winhart stand häufiger ind er Kritik:
+Andreas Winhart stand häufiger in der Kritik:
 
 - [Rassistische Äußerungen (2018)](https://www.merkur.de/politik/afd-abgeordneter-winhart-beleidigte-auslaender-fuerchten-muss-er-nichts-zr-10310575.html): Im Wahlkampf vor der Landtagswahl 2018 sorgte Winhart für Empörung, als er in einer
   Rede von „Negern“ sprach und Asylbewerber mit Krankheiten in Verbindung brachte. Aufgrund dieser Aussagen gab es
