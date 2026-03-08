@@ -25,7 +25,7 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
           :name="item.icon || props.icon || 'mdi:faq'"
           class="item-icon size-8"
         />
-        <div class="flex flex-row grow">
+        <div class="flex flex-row grow gap-2">
           <div class="flex-auto ml-2">
             <NuxtLink
               :to="item.path"
@@ -33,19 +33,11 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
             >
               {{ item.subject || item.title }}
             </NuxtLink>
-            <div class="flex flex-row">
-              <div
-                v-if="item.subtitle"
-                class="text-sm subtitle grow"
-              >
-                {{ item.subtitle }}
-              </div>
-              <div
-                class="lastChange block-fit"
-                :title="'Veröffentlicht: '+dateString(item.publishedOn)"
-              >
-                Stand {{ dateString(item.date) }}
-              </div>
+            <div
+              v-if="item.subtitle"
+              class="text-sm subtitle"
+            >
+              {{ item.subtitle }}
             </div>
             <div
               v-if="item.description"
@@ -58,6 +50,19 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
               :key="tag"
               :tag="tag"
             />
+          </div>
+          <div class="meta-right">
+            <VerdictLabel
+              v-if="item.verdict"
+              :type="item.verdict"
+              class="verdict-badge"
+            />
+            <div
+              class="lastChange"
+              :title="'Veröffentlicht: '+dateString(item.publishedOn)"
+            >
+              Stand {{ dateString(item.date) }}
+            </div>
           </div>
         </div>
       </li>
@@ -91,17 +96,24 @@ li:hover {
   margin-bottom: 0.4rem;
 }
 
+.meta-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+  gap: 0.25rem;
+}
+
 .lastChange {
   font-size: 0.6rem;
   font-weight: 200;
-  margin-bottom: 0.4rem;
-  margin-top: -1em;
+  white-space: nowrap;
 }
 
 .subtitle {
   color: gray;
-  margin-top: -0.6em;
-  margin-bottom: 0.6em;
+  margin-top: -0.3em;
+  margin-bottom: 0.4em;
   font-size: 0.7em;
 }
 
@@ -114,5 +126,9 @@ li:hover {
   flex-shrink: 0;
   color: var(--flame);
   opacity: 0.85;
+}
+
+.verdict-badge {
+  font-size: 0.75em;
 }
 </style>

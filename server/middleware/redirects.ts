@@ -3,8 +3,8 @@ const redirects: Record<string, string> = {
   '/quellen/allgemein/facebook-divers': '/quellen/allgemein/facebook',
   '/quellen/allgemein/tiktok-divers': '/quellen/allgemein/tiktok',
   '/quellen/allgemein/x-divers': '/quellen/allgemein/x',
-  '/faktenchecks/gesellschaft/stadtbild': '/lagerfeuer/blog/merz-stadtbild',
-  '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/blog/krise-im-rentensystem',
+  '/faktenchecks/gesellschaft/stadtbild': '/lagerfeuer/perspektiven/2025-12-12.merz-stadtbild',
+  '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem',
 }
 
 export default defineEventHandler((event) => {

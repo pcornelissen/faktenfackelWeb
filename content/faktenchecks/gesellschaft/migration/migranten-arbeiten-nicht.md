@@ -68,7 +68,7 @@ Natürlich gibt es auch Migranten, die trotz Erlaubnis nicht arbeiten wollen, da
 
 ### Der Arbeitsmarkt in Deutschland
 
-Wie in "[Krise am Rentensystem](/lagerfeuer/blog/krise-im-rentensystem)" aufgearbeitet, ist der Arbeitsmarkt in Deutschland in der Krise. Der Wendepunkt ist schon lange überschritten, Maßnahmen bleiben aus.
+Wie in "[Krise am Rentensystem](/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem)" aufgearbeitet, ist der Arbeitsmarkt in Deutschland in der Krise. Der Wendepunkt ist schon lange überschritten, Maßnahmen bleiben aus.
 
 Die Arbeitnehmer werden im Schnitt immer älter, die Zahl der zahlenden Arbeitnehmer pro Rentner sind jetzt schon seit Jahrzehnten zu gering und der Effekt wird jedes Jahr schlimmer.
 

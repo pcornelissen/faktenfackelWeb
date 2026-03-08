@@ -30,7 +30,7 @@ const slots = useSlots()
         icon="feedback"
         icon-txt="Freepik Icon von Good Ware"
       >
-        <p>Persönliche Beiträge zu Themen</p>
+        <p>Beiträge zu Themen mit einer Einordnung von uns</p>
       </SectionsItem>
     </Sections>
     <sections v-if="slots.end">
