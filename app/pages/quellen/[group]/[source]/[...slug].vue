@@ -66,6 +66,30 @@ const { data: coList } = (coSources == null || coSources.size == 0)
     })
 
 await referencesStore.fetchFor(page.value)
+
+const code = page.value?.code
+const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQuellenlinks }] = code
+  ? await Promise.all([
+      useAsyncData(basePath + '-used-faktenchecks', () =>
+        queryCollection('faktenchecks')
+          .where('referenceCodes', 'LIKE', '%' + code + '%')
+          .select('title', 'subtitle', 'path', 'verdict', 'date', 'publishedOn', 'tags')
+          .all(),
+      ),
+      useAsyncData(basePath + '-used-lagerfeuer', () =>
+        queryCollection('lagerfeuer')
+          .where('referenceCodes', 'LIKE', '%' + code + '%')
+          .select('title', 'subtitle', 'path', 'date', 'publishedOn', 'tags')
+          .all(),
+      ),
+      useAsyncData(basePath + '-used-quellenlinks', () =>
+        queryCollection('quellenlinks')
+          .where('referenceCodes', 'LIKE', '%' + code + '%')
+          .select('title', 'path', 'date')
+          .all(),
+      ),
+    ])
+  : [{ data: ref([]) }, { data: ref([]) }, { data: ref([]) }]
 </script>
 
 <template>
@@ -90,14 +114,18 @@ await referencesStore.fetchFor(page.value)
       />
 
       <div class="link-info">
-        <div class="link-row">
+        <a
+          :href="page.uri"
+          rel="external"
+          class="link-row"
+        >
           <SourceLinkIcon :type="page.type" />
-          <a
-            :href="page.uri"
-            rel="external"
-            class="link-url"
-          >{{ page.title }}</a>
-        </div>
+          <span class="link-url">{{ page.uri }}</span>
+          <UIcon
+            name="i-lucide:external-link"
+            class="link-external-icon"
+          />
+        </a>
 
         <div
           v-if="page.tags?.length"
@@ -161,6 +189,35 @@ await referencesStore.fetchFor(page.value)
       >
         <h2>Link Beschreibung</h2>
         <ContentRenderer :value="page" />
+
+        <template v-if="usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length">
+          <h2>Verwendungen</h2>
+          <template v-if="usedInFaktenchecks?.length">
+            <h3>Faktenchecks</h3>
+            <PostsList
+              :list="(usedInFaktenchecks as any)"
+              icon="mdi:magnify"
+              :page-size="100"
+            />
+          </template>
+          <template v-if="usedInLagerfeuer?.length">
+            <h3>Lagerfeuer</h3>
+            <PostsList
+              :list="(usedInLagerfeuer as any)"
+              icon="mdi:book-open-variant"
+              :page-size="100"
+            />
+          </template>
+          <template v-if="usedInQuellenlinks?.length">
+            <h3>Weitere Quellenlinks</h3>
+            <PostsList
+              :list="(usedInQuellenlinks as any)"
+              icon="mdi:link-variant"
+              :page-size="100"
+            />
+          </template>
+        </template>
+
         <USeparator
           v-if="surround?.filter(Boolean).length"
           class="my-8"
@@ -211,12 +268,37 @@ await referencesStore.fetchFor(page.value)
 .link-row {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--fackel-border);
+  border-radius: 0.4rem;
+  background: var(--paper);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.link-row:hover {
+  border-color: var(--flame);
+  background: #fff;
 }
 
 .link-url {
+  flex: 1;
   color: var(--flame);
+  font-size: 0.875rem;
+  word-break: break-all;
   text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.link-row:hover .link-url {
+  color: var(--ember);
+}
+
+.link-external-icon {
+  flex-shrink: 0;
+  color: var(--muted);
+  opacity: 0.6;
 }
 
 .section-label {
@@ -227,11 +309,6 @@ await referencesStore.fetchFor(page.value)
   color: var(--flame);
   font-weight: 600;
   margin-bottom: 0.4rem;
-}
-
-.section-block {
-  padding-top: 1rem;
-  border-top: 1px solid var(--fackel-border);
 }
 
 .source-img {

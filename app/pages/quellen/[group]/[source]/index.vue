@@ -8,7 +8,7 @@ import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } fro
 const route = useRoute()
 
 const source = route.params.source as string
-const basePath = route.path// `/quellen/${source}`;
+const basePath = route.path
 
 const { data: sourceInfo }
   = await

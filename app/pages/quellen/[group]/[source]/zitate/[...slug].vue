@@ -35,6 +35,30 @@ const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
 await referencesStore.fetchFor(page.value)
+
+const code = page.value?.code
+const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQuellenlinks }] = code
+  ? await Promise.all([
+      useAsyncData(basePath + '-used-faktenchecks', () =>
+        queryCollection('faktenchecks')
+          .where('quoteCodes', 'LIKE', '%' + code + '%')
+          .select('title', 'subtitle', 'path', 'verdict', 'date', 'publishedOn', 'tags')
+          .all(),
+      ),
+      useAsyncData(basePath + '-used-lagerfeuer', () =>
+        queryCollection('lagerfeuer')
+          .where('quoteCodes', 'LIKE', '%' + code + '%')
+          .select('title', 'subtitle', 'path', 'date', 'publishedOn', 'tags')
+          .all(),
+      ),
+      useAsyncData(basePath + '-used-quellenlinks', () =>
+        queryCollection('quellenlinks')
+          .where('quoteCodes', 'LIKE', '%' + code + '%')
+          .select('title', 'path', 'date')
+          .all(),
+      ),
+    ])
+  : [{ data: ref([]) }, { data: ref([]) }, { data: ref([]) }]
 </script>
 
 <template>
@@ -77,10 +101,42 @@ await referencesStore.fetchFor(page.value)
       </div>
 
       <div
-        v-if="page.body"
+        v-if="page.body || usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length"
         class="article-body content"
       >
-        <ContentRenderer :value="page" />
+        <ContentRenderer
+          v-if="page.body"
+          :value="page"
+        />
+
+        <template v-if="usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length">
+          <h2>Verwendungen</h2>
+          <template v-if="usedInFaktenchecks?.length">
+            <h3>Faktenchecks</h3>
+            <PostsList
+              :list="(usedInFaktenchecks as any)"
+              icon="mdi:magnify"
+              :page-size="100"
+            />
+          </template>
+          <template v-if="usedInLagerfeuer?.length">
+            <h3>Lagerfeuer</h3>
+            <PostsList
+              :list="(usedInLagerfeuer as any)"
+              icon="mdi:book-open-variant"
+              :page-size="100"
+            />
+          </template>
+          <template v-if="usedInQuellenlinks?.length">
+            <h3>Weitere Quellenlinks</h3>
+            <PostsList
+              :list="(usedInQuellenlinks as any)"
+              icon="mdi:link-variant"
+              :page-size="100"
+            />
+          </template>
+        </template>
+
         <USeparator
           v-if="surround?.filter(Boolean).length"
           class="my-8"
