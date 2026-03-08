@@ -17,6 +17,7 @@ Die behandelten Themen sind breit gestreut und orientieren sich in der Regel an 
 ## Links
 
 - https://www.volksverpetzer.de
+- https://pruefpunkt.org
 - https://www.facebook.com/volksverpetzer
 
 ## Faktenfackel Bewertung
