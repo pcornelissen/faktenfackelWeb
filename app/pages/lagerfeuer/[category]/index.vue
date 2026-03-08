@@ -36,6 +36,7 @@ await definePageData({
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('lagerfeuer')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
+    .order('date', 'DESC')
     .all()
 })
 const list = list1.value as Post[]

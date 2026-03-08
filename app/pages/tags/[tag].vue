@@ -23,12 +23,12 @@ function likeTag(t: string) {
 
 const { data: rawFaktenchecks, pending: p1 } = useLazyAsyncData(
   () => route.path + '-fc',
-  () => queryCollection('faktenchecks').where('tags', 'LIKE', likeTag(tag.value)).all(),
+  () => queryCollection('faktenchecks').where('tags', 'LIKE', likeTag(tag.value)).order('date', 'DESC').all(),
   { server: false },
 )
 const { data: rawLagerfeuer, pending: p2 } = useLazyAsyncData(
   () => route.path + '-lf',
-  () => queryCollection('lagerfeuer').where('tags', 'LIKE', likeTag(tag.value)).all(),
+  () => queryCollection('lagerfeuer').where('tags', 'LIKE', likeTag(tag.value)).order('date', 'DESC').all(),
   { server: false },
 )
 const { data: rawGlossar, pending: p3 } = useLazyAsyncData(
