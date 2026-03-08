@@ -12,7 +12,7 @@ tags: [ Migranten, Kriminalität, Stadtbild ]
 In der Bevölkerung ist der Eindruck weit verbreitet, dass ausländische Mitbürger überdurchschnittlich für Kriminalität
 in Deutschland verantwortlich sind. Referenziert wird das ununterbrochen von der AfD und ihren Wählern, aber auch
 insbesondere in anderen konservativen Kreisen, wie bei Wählern
-und [Politikern der CDU/CSU](/faktenchecks/gesellschaft/stadtbild).
+und [Politikern der CDU/CSU](/lagerfeuer/blog/merz-stadtbild).
 
 Es wird quasi jedes Verbrechen, über das berichtet wird reflexartig dem "Stadtbild" und damit den ausländisch
 aussehenden Mitbürgern angelastet.

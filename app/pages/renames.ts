@@ -7,6 +7,8 @@ const renames: RenameRoutes = {
   '/quellen/allgemein/facebook-divers': '/quellen/allgemein/facebook',
   '/quellen/allgemein/tiktok-divers': '/quellen/allgemein/tiktok',
   '/quellen/allgemein/x-divers': '/quellen/allgemein/x',
+  '/faktenchecks/gesellschaft/stadtbild': '/lagerfeuer/blog/merz-stadtbild',
+  '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/blog/krise-im-rentensystem',
 }
 
 export function handleRenameRedirects(route: string) {
