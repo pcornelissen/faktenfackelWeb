@@ -4,21 +4,6 @@ Einfach anhängen
 
 
 
-https://youtube.com/watch?v=8hTcdLRIxoQ&si=aMh6DqlJROzDO-O2
-
-https://www.facebook.com/share/r/1DacrXuUPQ/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1DacrXuUPQ/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1AV1uifMfE/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1AJPN2NDhr/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1BwVjj1zcU/?mibextid=wwXIfr
-
-https://vm.tiktok.com/ZGdmhptyV/
-
-https://www.facebook.com/share/v/1QTtCu1fmC/?mibextid=wwXIfr
 
 https://www.facebook.com/share/v/1HKjgWR3Yk/?mibextid=wwXIfr
 
