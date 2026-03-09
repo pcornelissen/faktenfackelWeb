@@ -67,6 +67,7 @@ function fileToUrl(file) {
   }
 
   if (!file.startsWith('content/')) return null
+  if (!file.endsWith('.md')) return null
   const rel = file.replace('content/', '').replace(/\.md$/, '')
   const parts = rel.split('/')
 
