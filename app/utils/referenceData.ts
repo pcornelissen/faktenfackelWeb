@@ -6,8 +6,8 @@ export type Source = {
   description: string
   path: string
   tags: string[]
-  image: string | null
-  imageAuthor: string | null
+  image?: string | null
+  imageAuthor?: string | null
 }
 export type SourceLink = {
   date: string
