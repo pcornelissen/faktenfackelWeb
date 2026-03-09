@@ -5,19 +5,6 @@ Einfach anhängen
 
 
 
-https://www.facebook.com/share/v/1HKjgWR3Yk/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1Bp9ncT2Qr/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1G4Ut2pB9c/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1EQc8Mpv4U/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1DSL7EsaQG/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1C7BmKA3BC/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1BvmkMj4Y9/?mibextid=wwXIfr
 
 https://www.facebook.com/share/r/1FRY2Afrbb/?mibextid=wwXIfr
 
