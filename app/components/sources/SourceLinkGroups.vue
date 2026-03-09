@@ -23,13 +23,13 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.e
           :to="entry.source.path"
           class="link-group-img-link"
         >
-          <nuxt-img
+          <img
             :src="calculateSourceImg(entry.source)"
             :alt="entry.source.name"
             :title="calculateSourceImgAuthor(entry.source)"
             loading="lazy"
             class="link-group-img"
-          />
+          >
         </NuxtLink>
         <div class="link-group-info">
           <NuxtLink

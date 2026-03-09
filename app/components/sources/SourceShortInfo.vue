@@ -12,14 +12,12 @@ const props = defineProps<{
     :to="props.source.path"
     class="source-info"
   >
-    <lazy-nuxt-img
+    <img
       :src="calculateSourceImg(props.source)"
       :alt="props.source.name"
       :title="calculateSourceImgAuthor(props.source)"
-      placeholder="/files/no-img.svg"
-      placeholder-class="placeholder-img"
       class="source-img"
-    />
+    >
     <span class="source-name">{{ props.source.name }}</span>
   </NuxtLink>
 </template>

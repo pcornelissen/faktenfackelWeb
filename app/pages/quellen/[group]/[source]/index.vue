@@ -61,15 +61,13 @@ await referencesStore.fetchFor(sourceInfo.value)
     <h1 class="source-title">
       {{ title }}
     </h1>
-    <lazy-nuxt-img
+    <img
       :src="calculateSourceImg(sourceInfo)"
       :title="calculateSourceImgAuthor(sourceInfo)"
       :alt="calculateSourceImgAuthor(sourceInfo)"
-      placeholder="/files/no-img.svg"
-      placeholder-class="placeholder-img rounded-lg p-2"
       class="img rounded-lg"
       style="max-width: 80em"
-    />
+    >
     <div
       class="text-sm italic text-gray-400"
       style="margin-top: -1.2em"

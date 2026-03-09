@@ -148,12 +148,12 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
             class="source-link"
           >
             <a :href="source.path">
-              <lazy-nuxt-img
+              <img
                 :src="calculateSourceImg(source)"
                 :title="calculateSourceImgAuthor(source)"
                 :alt="calculateSourceImgAuthor(source)"
                 class="source-img"
-              />
+              >
               <span class="source-name">{{ source.name }}</span>
             </a>
           </div>
