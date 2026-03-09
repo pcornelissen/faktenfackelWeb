@@ -3,38 +3,6 @@ Einfach anhängen
 ------------------------------------------------
 
 
-https://www.facebook.com/share/v/1JA5jU14hh/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/17gSuBtbVU/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/17i8SvF8p2/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/16NSKM1ZzY/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/14NoXjRYNjD/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/17XybsA3i6/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1BQNgrMh9o/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1aJbWeyCG3/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1DSPnF7pFv/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1DTaZP1V8q/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/17kJPLx4jX/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/17rSgjaxkL/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1QmbJAfFZ8/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1JXAg4AD1S/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1DGavtJ5a4/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/14TTRmA36PM/?mibextid=wwXIfr
-
 https://www.facebook.com/share/r/1AdttmPE3j/?mibextid=wwXIfr
 
 https://www.facebook.com/share/r/1BG6gc16S9/?mibextid=wwXIfr
