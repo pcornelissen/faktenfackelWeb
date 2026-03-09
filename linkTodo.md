@@ -6,42 +6,6 @@ Einfach anhängen
 
 
 
-https://www.facebook.com/share/r/1G8gbiGjMj/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1AqWF4D231/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1DMWWJJDKc/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1KsgwBeSDp/?mibextid=wwXIfr
-
-https://www.facebook.com/share/p/1UZ2uMB7m4/?mibextid=wwXIfr
-
-https://de.indymedia.org/node/565575
-
-https://www.facebook.com/share/v/1AMxJir3Yc/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/17mCHxEQdu/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/15zXj3Pi98/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1D46z5qDBp/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1CSmbLTUP3/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/1AMA9mJgPs/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1DHVfV83sf/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1DHVfV83sf/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/1Bpojg6rTs/?mibextid=wwXIfr
-
-https://www.facebook.com/share/v/17wpmx6eAo/?mibextid=wwXIfr
-
-https://www.facebook.com/share/r/17B2ygqE6a/?mibextid=wwXIfr
-
-https://plus.briantylercohen.com/p/ice-fatally-shoots-us-citizen-in?publication_id=2794840&utm_medium=email&utm_campaign=email-share&isFreemail=true&triedRedirect=true
-
 https://www.facebook.com/share/r/1862z68Q2u/?mibextid=wwXIfr
 
 https://www.facebook.com/share/r/1AfDT9yYeS/?mibextid=wwXIfr
