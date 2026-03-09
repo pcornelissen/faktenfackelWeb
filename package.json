@@ -11,7 +11,11 @@
     "lint": "eslint .",
     "lintFix": "eslint . --fix",
     "audit": "pnpm audit fix",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "deploy": "wrangler deploy && node scripts/indexnow.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "indexnow:all": "node scripts/indexnow.mjs --all",
+    "indexnow:dry": "node scripts/indexnow.mjs --dry-run"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.95",
