@@ -13,9 +13,9 @@ await definePageData({
 
 <template>
   <div>
-    <h2 style="margin-top: 0">
+    <h1>
       Wir sind zu finden unter...
-    </h2>
+    </h1>
     <div class="container">
       <Sections>
         <SectionsItem

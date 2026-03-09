@@ -11,6 +11,7 @@ await definePageData({
 
 <template>
   <div>
+    <h1>Häufig gestellte Fragen</h1>
     <h2>Was bedeuten die Bewertungsstufen bei Faktenchecks?</h2>
     <p>
       Jeder Faktencheck endet mit einer von vier Bewertungen:

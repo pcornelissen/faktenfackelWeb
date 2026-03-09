@@ -1,12 +1,17 @@
 <script setup lang="ts">
+import { definePageData } from '~/utils/contentUtils'
 
+await definePageData({
+  title: 'Datenschutzerklärung - Faktenfackel',
+  pageHeading: 'Datenschutzerklärung',
+})
 </script>
 
 <template>
   <div>
-    <h2 style="margin-top: 0">
+    <h1>
       Datenschutzerklärung
-    </h2>
+    </h1>
     <h3 id="m716">
       Präambel
     </h3>

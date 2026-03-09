@@ -10,7 +10,7 @@ await definePageData({
 
 <template>
   <div>
-    <h2>Impressum</h2>
+    <h1>Impressum</h1>
     <p>
       <strong>faktenfackel</strong> - Patrick Cornelißen<br>
       c/o Online-Impressum.de #5298<br>
