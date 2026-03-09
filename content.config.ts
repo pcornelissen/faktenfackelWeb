@@ -65,7 +65,6 @@ export default defineContentConfig({
         date: z.date(),
         name: z.string(),
         description: z.string(),
-        image: z.string().or(z.null()).optional(),
         imageAuthor: z.string().or(z.null()).optional(),
         tags: z.set(z.string()),
         referenceCodes: z.array(z.string()).optional(),

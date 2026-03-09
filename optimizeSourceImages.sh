@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-shopt -s nullglob
-
 THRESHOLD_BYTES=${THRESHOLD_BYTES:-1024}   # 1 KiB; z.B. THRESHOLD_BYTES=2048 ./script.sh
 
-for file in public/files/quellen-img/*/*.webp; do
+for file in $(find content/quellen -type f -name "*.webp"); do
   before_bytes=$(stat -f %z "$file")
   tmp="${file}.tmp.$$"
 
@@ -37,4 +35,4 @@ for file in public/files/quellen-img/*/*.webp; do
   fi
 done
 
-git add public/files/quellen-img/
+git add content/quellen/

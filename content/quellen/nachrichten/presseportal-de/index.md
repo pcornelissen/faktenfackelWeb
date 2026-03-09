@@ -2,7 +2,6 @@
 date: 2026-01-18
 name: Presseportal
 description: Presseportal der deutschen Presse Agentur
-image: https://remboldstiftung.de/wp-content/uploads/2023/08/Presseportal.jpg
 tags: [ Nachrichten ]
 ---
 

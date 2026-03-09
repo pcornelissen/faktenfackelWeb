@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
-import SourceCardsList from '~/components/sources/SourceCardsList.vue'
 import Heading from '~/components/layout/Heading.vue'
 
 await definePageData({
@@ -14,7 +13,7 @@ const basePath = route.path
 
 const { data: list1, pending } = useLazyAsyncData(basePath, () => {
   return queryCollection('quellen')
-    .select('date', 'name', 'description', 'path', 'tags', 'image', 'imageAuthor')
+    .select('date', 'name', 'description', 'path', 'tags', 'imageAuthor')
     .order('name', 'ASC')
     .all()
 }, { server: false })
@@ -134,7 +133,7 @@ const filtered = computed(() => {
       </picture>
       <span class="loading-text">Quellen werden geladen…</span>
     </div>
-    <SourceCardsList
+    <LazySourceCardsList
       v-else
       :list="filtered"
     />

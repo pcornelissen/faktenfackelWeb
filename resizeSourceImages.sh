@@ -1,13 +1,11 @@
 #!/usr/bin/env bash
 
-shopt -s nullglob
-
-for file in public/files/quellen-img/*/*.{jpg,png,svg}; do
+for file in $(find content/quellen -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.svg" \)); do
   size_before=$(du -h "$file" | awk '{print $1}')
   echo -n "Converting $file... before $size_before"
 
-  base="${file%.*}"
-  outfile="${base}.webp"
+  dir=$(dirname "$file")
+  outfile="${dir}/profile.webp"
 
   magick "$file" \
     -auto-orient \
@@ -22,8 +20,8 @@ for file in public/files/quellen-img/*/*.{jpg,png,svg}; do
   echo " -> after $size_after"
   echo "done"
 
-  # Optional: Original nach erfolgreicher Konvertierung löschen
+  # Original nach erfolgreicher Konvertierung löschen
   rm "$file"
 done
 
-git add public/files/quellen-img/
+git add content/quellen/

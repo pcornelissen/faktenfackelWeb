@@ -1,4 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { fileURLToPath } from 'node:url'
+
+const isDev = process.env.NODE_ENV !== 'production'
 
 export default defineNuxtConfig({
   modules: [
@@ -73,6 +76,17 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2026-03-01',
   nitro: {
+    // In dev, images are served by server/middleware/quellen-img.ts instead.
+    // publicAssets with cloudflare-dev emulation returns 426 in dev mode.
+    publicAssets: isDev
+      ? []
+      : [
+          {
+            dir: fileURLToPath(new URL('./content/quellen', import.meta.url)),
+            baseURL: '/quellen-img',
+            maxAge: 60 * 60 * 24 * 365,
+          },
+        ],
     preset: 'cloudflare_module',
     cloudflare: {
       deployConfig: true,

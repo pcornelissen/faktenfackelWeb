@@ -15,13 +15,13 @@ const source = props.source
     @click="navigateTo(source.path)"
   >
     <div class="card-img-wrap">
-      <nuxt-img
+      <img
         :src="calculateSourceImg(source)"
         :alt="source.name"
         :title="calculateSourceImgAuthor(source)"
         loading="lazy"
         class="card-img"
-      />
+      >
     </div>
     <div class="card-body">
       <NuxtLink

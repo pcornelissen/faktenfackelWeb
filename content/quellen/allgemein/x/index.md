@@ -2,7 +2,6 @@
 date: 2026-01-09
 name: X (Twitter) Beiträge
 description: Beiträge von diversen Accounts auf X.com
-image: x.webp
 tags: [ X, Twitter, Social Media ]
 ---
 
