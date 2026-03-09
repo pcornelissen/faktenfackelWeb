@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for file in $(find content/quellen -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.svg" \)); do
+while IFS= read -r file; do
   size_before=$(du -h "$file" | awk '{print $1}')
   echo -n "Converting $file... before $size_before"
 
@@ -22,6 +22,6 @@ for file in $(find content/quellen -type f \( -name "*.jpg" -o -name "*.jpeg" -o
 
   # Original nach erfolgreicher Konvertierung löschen
   rm "$file"
-done
+done < <(find content/quellen -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.svg" \))
 
 git add content/quellen/

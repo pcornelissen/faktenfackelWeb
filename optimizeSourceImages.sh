@@ -3,7 +3,7 @@ set -euo pipefail
 
 THRESHOLD_BYTES=${THRESHOLD_BYTES:-1024}   # 1 KiB; z.B. THRESHOLD_BYTES=2048 ./script.sh
 
-for file in $(find content/quellen -type f -name "*.webp"); do
+while IFS= read -r file; do
   before_bytes=$(stat -f %z "$file")
   tmp="${file}.tmp.$$"
 
@@ -33,6 +33,6 @@ for file in $(find content/quellen -type f -name "*.webp"); do
     # Änderung zu klein -> ignorieren
     rm -f "$tmp"
   fi
-done
+done < <(find content/quellen -type f -name "*.webp")
 
 git add content/quellen/

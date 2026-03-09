@@ -70,8 +70,11 @@ const filtered = computed(() => {
         Zu diesem Zweck werden sie hier abgelegt und thematisch sortiert. Die Quelle selber wird ggf. auch beschrieben,
         weil es interessant ist, wer die Information erstellt/ausgegeben hat.
       </p>
+      <p>
+        Die Quellensammlung ist über die Schlagwortsuche und die Volltextsuche oben rechts sehr gut für Recherchen geeignet.
+      </p>
       <p class="mb-0">
-        Die Quellensammlung ist nach Quellen organisiert und zu den Quellen gibt es dann thematisch sortierte Listen mit
+        Sie ist nach Quellen organisiert und zu den Quellen gibt es dann thematisch sortierte Listen mit
         Artikeln, Videos, etc. Dazu gibt es eine Verschlagwortung nach Tags, um Themen quellenübergreifend finden zu können.
       </p>
     </div>
