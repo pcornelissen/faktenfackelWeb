@@ -44,7 +44,7 @@
     "typescript": "^5.9.3",
     "unplugin-icons": "^23.0.1",
     "vue-tsc": "^3.2.5",
-    "wrangler": "^4.69.0"
+    "wrangler": "^4.71.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
