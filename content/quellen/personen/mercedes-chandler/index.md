@@ -1,18 +1,18 @@
 ---
 date: 2026-03-09
 name: Mercedes Chandler
-description: US-amerikanische Content-Creatorin, widerlegt MAGA-Narrative mit Reaktionsvideos
-tags: [ more-research-needed, USA, MAGA, Anti-MAGA, Redefreiheit ]
+description: US-amerikanische Content-Creatorin, kommentiert politische und gesellschaftliche Themen
+tags: [ more-research-needed, USA, Content-Creator ]
 ---
 
 ## Über die Quelle
 
-Mercedes Chandler ist eine US-amerikanische Content-Creatorin mit verifiziertem Facebook-Account, die rechte und MAGA-Narrative durch Reaktionsvideos dekonstruiert. Ihre Videos erzielen regelmäßig hohe Reichweiten.
+Mercedes Chandler ist eine verifizierte US-amerikanische Content-Creatorin auf Facebook, die politische und gesellschaftliche Ereignisse mit Reaktionsvideos kommentiert.
 
 ## Faktenfackel Bewertung
 
-Unterhaltungsorientierte Anti-MAGA-Creatorin mit verifiziertem Account. Ihre Reaktionsvideos haben klare politische Positionierung. Hintergründe zu Qualifikationen und Faktentreue sind wenig dokumentiert – Behauptungen immer gegenchecken.
+Kommentierende Content-Creatorin ohne journalistischen Anspruch. Inhalte spiegeln persönliche Reaktionen auf aktuelle Ereignisse wider – faktische Behauptungen mit unabhängigen Quellen prüfen.
 
 ### Fazit
 
-Populäre Stimme gegen MAGA-Narrative. Faktische Behauptungen mit unabhängigen Quellen prüfen.
+Populäre Reaktions-Creatorin. Faktische Behauptungen stets mit unabhängigen Quellen gegenchecken.
