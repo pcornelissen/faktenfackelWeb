@@ -93,6 +93,11 @@ export default defineNuxtConfig({
       },
     },
   },
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 600,
+    },
+  },
   typescript: {
     tsConfig: {
       compilerOptions: {
@@ -185,10 +190,5 @@ export default defineNuxtConfig({
     sources: [
       '/api/__sitemap__/urls',
     ],
-  },
-  vite: {
-    build: {
-      chunkSizeWarningLimit: 600,
-    },
   },
 })
