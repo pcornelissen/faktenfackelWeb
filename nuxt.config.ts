@@ -74,6 +74,9 @@ export default defineNuxtConfig({
     server: false,
     client: false,
   },
+  features: {
+    inlineStyles: true,
+  },
   compatibilityDate: '2026-03-01',
   nitro: {
     // In dev, images are served by server/middleware/quellen-img.ts instead.
