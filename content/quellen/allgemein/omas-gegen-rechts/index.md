@@ -2,7 +2,6 @@
 date: 2026-03-09
 name: Omas gegen rechts
 description: Überparteiliche Bürgerinitiative gegen Rechtsextremismus, diverse Ortsgruppen
-imageAuthor: null
 tags: [ more-research-needed, Aktivismus, Antifaschismus, Deutschland, Österreich ]
 ---
 
