@@ -67,10 +67,10 @@ export default defineNuxtConfig({
     '/mehr': { prerender: true },
     '/news': { prerender: true },
   },
-  // sourcemap: {
-  //   server: true,
-  //   client: true,
-  // },
+  sourcemap: {
+    server: false,
+    client: false,
+  },
   compatibilityDate: '2026-03-01',
   nitro: {
     preset: 'cloudflare_module',
@@ -139,10 +139,13 @@ export default defineNuxtConfig({
   feedme: {
     defaults: {
       routes: false,
+      common: false,
     },
     feeds: {
       common: {
         charset: 'utf8',
+        revisit: '6h',
+        fixDateFields: true,
         feed: {
           id: 'https://faktenfackel.de',
           title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar',
@@ -182,5 +185,10 @@ export default defineNuxtConfig({
     sources: [
       '/api/__sitemap__/urls',
     ],
+  },
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 600,
+    },
   },
 })
