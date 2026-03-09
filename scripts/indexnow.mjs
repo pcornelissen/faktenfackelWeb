@@ -42,8 +42,9 @@ function getChangedFiles() {
     const staged = execSync('git diff --name-only --cached -- content/ app/pages/', { cwd: ROOT }).toString()
     return [...new Set([...out.trim().split('\n'), ...staged.trim().split('\n')])].filter(Boolean)
   } catch {
-    console.error('Fehler beim git diff – läuft das Skript im richtigen Verzeichnis?')
-    process.exit(1)
+    console.warn('git diff fehlgeschlagen (ggf. Shallow Clone ohne HEAD~1) – reiche alle Dateien ein.')
+    const out = execSync('git ls-files -- content/ app/pages/', { cwd: ROOT }).toString()
+    return out.trim().split('\n').filter(Boolean)
   }
 }
 
