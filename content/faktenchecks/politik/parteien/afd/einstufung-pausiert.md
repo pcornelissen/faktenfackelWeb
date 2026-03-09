@@ -1,7 +1,7 @@
 ---
 publishedOn: 2025-12-03
 date: 2026-03-06
-title: Der Verfassungsschutz pausiert die Einstufung der AfD als rechtsextreme Partei
+title: Verfassungsschutz pausiert die Einstufung der AfD als rechtsextrem
 subtitle: Sieg für die AfD oder normaler Vorgang?
 verdict: misleading
 tags: [ AfD, Verfassungsschutz, Rechtsextremismus, Verbot, Prüf ]
