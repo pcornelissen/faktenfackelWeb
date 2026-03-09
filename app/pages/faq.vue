@@ -5,21 +5,40 @@ await definePageData({
   title: 'Häufig gestellte Fragen - Faktenfackel',
   pageHeading: 'Faktenfackel - Häufig gestellte Fragen',
   pageSubHeading: 'Das wollte ich immer schon mal wissen',
+  description: 'Antworten auf häufige Fragen zu Faktenfackel: Wie arbeiten wir? Wie bewerten wir Quellen? Was bedeuten die Bewertungsstufen? Alles Wissenswerte auf einen Blick.',
 })
 </script>
 
 <template>
   <div>
+    <h2>Was bedeuten die Bewertungsstufen bei Faktenchecks?</h2>
+    <p>
+      Jeder Faktencheck endet mit einer von vier Bewertungen:
+    </p>
+    <ul class="verdict-list">
+      <li>
+        <VerdictLabel type="false" />
+        Die geprüfte Aussage ist sachlich nicht korrekt – sie widerspricht belegten Fakten oder ist schlicht erfunden.
+      </li>
+      <li>
+        <VerdictLabel type="misleading" />
+        Die Aussage enthält einen wahren Kern, wird aber so präsentiert oder aus dem Kontext gerissen, dass sie einen falschen Eindruck erweckt.
+      </li>
+      <li>
+        <VerdictLabel type="complex" />
+        Die Aussage lässt sich nicht einfach als wahr oder falsch einordnen – der Sachverhalt ist zu vielschichtig, zu wenig belegt oder hängt stark vom Kontext ab.
+      </li>
+      <li>
+        <VerdictLabel type="true" />
+        Die Aussage ist korrekt und durch Quellen belegt.
+      </li>
+    </ul>
     <h2>Warum werden direkt Beiträge im Internet verlinkt und die Autoren genannt?</h2>
     <p>
       Weil Transparenz wichtig ist. Nur so kann man die Quellen selbst überprüfen und sich eine eigene Meinung
       bilden.<br>
       Außerdem ist es fair gegenüber den Autoren, die sich die Mühe gemacht haben, die Inhalte zu erstellen und ihre
       Meinung in den frei zugänglichen Medien kund tun. Wenn sie nicht wollen, dass es im Internet gelesen wird, sollten die Inhalte in geschützen Gruppen und Bereichen veröffentlicht werden. Die Entscheidung liegt beim Autor.
-    </p>
-    <h2>Hilfe, das ist Hell, gibt es keinen Darkmode?</h2>
-    <p>
-      Nein, es gibt aktuell keinen Darkmode, aus Zeitgründen war ein Darkmode noch nicht möglich.
     </p>
     <h2>Super Projekt! Kann ich mithelfen?</h2>
     <p>
@@ -33,5 +52,18 @@ await definePageData({
 </template>
 
 <style scoped>
+.verdict-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
 
+.verdict-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
 </style>

@@ -7,6 +7,7 @@ await definePageData({
   title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
   pageHeading: 'Andere Faktenfackel Seiten',
   pageSubHeading: 'Wir sind überall für dich da',
+  description: 'Faktenfackel ist auf YouTube, Discord und weiteren Plattformen aktiv. Hier findest du alle Kanäle und Seiten, über die wir Fakten und Analysen teilen.',
 })
 </script>
 

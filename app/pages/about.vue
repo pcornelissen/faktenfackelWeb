@@ -5,6 +5,7 @@ await definePageData({
   title: 'Mehr zu uns - Faktenfackel',
   pageHeading: 'Faktenfackel - Mehr zu uns',
   pageSubHeading: 'Obligatorische Selbstdarstellung',
+  description: 'Wer steckt hinter Faktenfackel? Unser Ziel, unsere Arbeitsweise und warum wir glauben, dass gute Faktenprüfung für eine mündige Gesellschaft unverzichtbar ist.',
 })
 </script>
 

@@ -5,6 +5,7 @@ await definePageData({
   title: 'Faktenfackel – Mythen entlarven, Fakten beleuchten',
   pageHeading: '',
   pageSubHeading: '',
+  description: 'Faktenfackel prüft Behauptungen, entlarvt Mythen und beleuchtet politische Desinformation – mit Quellen, Fakten und klarem Urteil. Unabhängig, kostenlos, für alle.',
 })
 </script>
 

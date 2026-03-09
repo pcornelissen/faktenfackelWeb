@@ -7,6 +7,7 @@ await definePageData({
   title: 'Änderungen - Faktenfackel',
   pageHeading: 'Faktenfackel - Änderungen',
   pageSubHeading: 'Was hat sich in letzter Zeit geändert?',
+  description: 'Übersicht der neuesten Änderungen und Ergänzungen auf Faktenfackel – neue Faktenchecks, Quellenlinks, Glossareinträge und Verbesserungen der Seite.',
 })
 </script>
 
