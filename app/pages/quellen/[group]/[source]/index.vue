@@ -128,7 +128,7 @@ await referencesStore.fetchFor(sourceInfo.value)
 
 .layout {
   display: grid;
-  grid-template-columns: minmax(0, 65ch) 1fr;
+  grid-template-columns: minmax(0, 1fr) clamp(260px, 30%, 380px);
   gap: 2rem;
   align-items: start;
   margin-top: -2em;
