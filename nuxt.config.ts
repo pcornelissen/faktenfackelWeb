@@ -91,6 +91,11 @@ export default defineNuxtConfig({
           },
         ],
     preset: 'cloudflare_module',
+    esbuild: {
+      options: {
+        logOverride: { 'duplicate-object-key': 'silent' },
+      },
+    },
     cloudflare: {
       deployConfig: true,
       wrangler: {
