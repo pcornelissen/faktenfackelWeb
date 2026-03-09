@@ -48,6 +48,10 @@ useHead({
   ],
 })
 
+if (!import.meta.dev) {
+  useScriptCloudflareWebAnalytics({ token: '23276c83d792476c91e176f0dad589fa' })
+}
+
 useSeoMeta({
   title: title,
   description: description,

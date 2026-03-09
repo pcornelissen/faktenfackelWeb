@@ -21,7 +21,7 @@
     <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
 
     <p class="last-update">
-      Stand: 17. Dezember 2025
+      Stand: 9. März 2026
     </p>
     <h3>Inhaltsübersicht</h3>
     <ul class="index">
@@ -95,7 +95,7 @@
         <a
           class="index-link"
           href="#m263"
-        >Webanalyse, Monitoring und Optimierung</a>
+        >Webanalyse</a>
       </li>
       <li>
         <a
@@ -161,12 +161,8 @@
       <li>Kommunikation.</li>
       <li>Sicherheitsmaßnahmen.</li>
       <li>Reichweitenmessung.</li>
-      <li>Tracking.</li>
-      <li>Zielgruppenbildung.</li>
       <li>Organisations- und Verwaltungsverfahren.</li>
       <li>Feedback.</li>
-      <li>Marketing.</li>
-      <li>Profile mit nutzerbezogenen Informationen.</li>
       <li>Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.</li>
       <li>Informationstechnische Infrastruktur.</li>
       <li>Öffentlichkeitsarbeit.</li>
@@ -501,26 +497,6 @@
         <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
       </li>
     </ul>
-    <p><strong>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</strong></p>
-    <ul class="m-elements">
-      <li>
-        <strong>Kommentare und Beiträge: </strong>Wenn Nutzer Kommentare oder sonstige Beiträge hinterlassen, können
-        ihre IP-Adressen auf Grundlage unserer berechtigten Interessen gespeichert werden. Das erfolgt zu unserer
-        Sicherheit, falls jemand in Kommentaren und Beiträgen widerrechtliche Inhalte hinterlässt (Beleidigungen,
-        verbotene politische Propaganda etc.). In diesem Fall können wir selbst für den Kommentar oder Beitrag belangt
-        werden und sind daher an der Identität des Verfassers interessiert.<br><br>Des Weiteren behalten wir uns vor,
-        auf
-        Grundlage unserer berechtigten Interessen die Angaben der Nutzer zwecks Spamerkennung zu verarbeiten.<br><br>Auf
-        derselben Rechtsgrundlage behalten wir uns vor, im Fall von Umfragen die IP-Adressen der Nutzer für deren Dauer
-        zu
-        speichern und Cookies zu verwenden, um Mehrfachabstimmungen zu vermeiden.<br><br>Die im Rahmen der Kommentare
-        und
-        Beiträge mitgeteilten Informationen zur Person, etwaige Kontakt- sowie Webseiteninformationen als auch die
-        inhaltlichen Angaben werden von uns bis zum Widerspruch der Nutzer dauerhaft gespeichert; <span
-          class=""
-        ><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).</span>
-      </li>
-    </ul>
     <h3 id="m182">
       Kontakt- und Anfrageverwaltung
     </h3>
@@ -569,69 +545,35 @@
       </li>
     </ul>
     <h3 id="m263">
-      Webanalyse, Monitoring und Optimierung
+      Webanalyse
     </h3>
     <p>
-      Die Webanalyse (auch als „Reichweitenmessung" bezeichnet) dient der Auswertung der Besucherströme unseres
-      Onlineangebots und kann Verhalten, Interessen oder demografische Informationen zu den Besuchern, wie
-      beispielsweise
-      Alter oder Geschlecht, als pseudonyme Werte umfassen. Mithilfe der Reichweitenanalyse können wir zum Beispiel
-      erkennen, zu welcher Zeit unser Onlineangebot oder dessen Funktionen beziehungsweise Inhalte am häufigsten genutzt
-      werden, oder zur Wiederverwendung einladen. Ebenso ist es uns möglich, nachzuvollziehen, welche Bereiche der
-      Optimierung bedürfen. Wir verwenden Cloudflare Webanalytics für diese Zwecke.
-    </p>
-    <p>
-      Neben der Webanalyse können wir auch Testverfahren einsetzen, um etwa unterschiedliche Versionen unseres
-      Onlineangebots oder seiner Bestandteile zu testen und zu optimieren.
-    </p>
-    <p>
-      Sofern nachfolgend nicht anders angegeben, können zu diesen Zwecken Profile, also zu einem Nutzungsvorgang
-      zusammengefasste Daten, angelegt und Informationen in einem Browser bzw. in einem Endgerät gespeichert und dann
-      ausgelesen werden. Zu den erhobenen Angaben gehören insbesondere besuchte Websites und dort genutzte Elemente
-      sowie
-      technische Auskünfte, wie etwa der verwendete Browser, das benutzte Computersystem sowie Angaben zu
-      Nutzungszeiten.
-      Sofern sich Nutzer in die Erhebung ihrer Standortdaten uns gegenüber oder gegenüber den Anbietern der von uns
-      eingesetzten Dienste einverstanden erklärt haben, ist auch die Verarbeitung von Standortdaten möglich.
-    </p>
-    <p>
-      Darüber hinaus werden die IP-Adressen der Nutzer gespeichert. Jedoch nutzen wir ein IP-Masking-Verfahren (d. h.
-      Pseudonymisierung durch Kürzung der IP-Adresse) zum Schutz der Nutzer. Generell werden die im Rahmen von
-      Webanalyse,
-      A/B-Testings und Optimierung keine Klardaten der Nutzer (wie z.B. E-Mail-Adressen oder Namen) gespeichert, sondern
-      Pseudonyme. Das heißt, wir als auch die Anbieter der eingesetzten Software kennen nicht die tatsächliche Identität
-      der Nutzer, sondern nur die zum Zweck der jeweiligen Verfahren in deren Profilen gespeicherten Angaben.
-    </p>
-    <p>
-      Hinweise zu Rechtsgrundlagen: Sofern wir die Nutzer um deren Einwilligung in den Einsatz der Drittanbieter bitten,
-      stellt die Rechtsgrundlage der Datenverarbeitung die Einwilligung dar. Ansonsten werden die Nutzerdaten auf
-      Grundlage unserer berechtigten Interessen (d. h. Interesse an effizienten, wirtschaftlichen und
-      empfängerfreundlichen Leistungen) verarbeitet. In diesem Zusammenhang möchten wir Sie auch auf die Informationen
-      zur
-      Verwendung von Cookies in dieser Datenschutzerklärung hinweisen.
+      Zur Auswertung der Besucherströme unseres Onlineangebots setzen wir <strong>Cloudflare Web Analytics</strong> ein.
+      Dieses Werkzeug ist datenschutzfreundlich konzipiert: Es werden weder Cookies noch andere lokale Speichermethoden
+      eingesetzt, es findet kein Browser-Fingerprinting statt und es werden keine Nutzerprofile erstellt.
+      Cloudflare erfasst ausschließlich aggregierte Metriken (z. B. Seitenaufrufe, Herkunftsland, Browsertyp,
+      Referrer), die keine Rückschlüsse auf einzelne Personen erlauben. IP-Adressen werden dabei nicht gespeichert.
     </p>
     <ul class="m-elements">
       <li>
-        <strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z. B. Seitenaufrufe und Verweildauer, Klickpfade,
-        Nutzungsintensität und -frequenz, verwendete Gerätetypen und Betriebssysteme, Interaktionen mit Inhalten und
-        Funktionen). Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern,
-        beteiligte Personen).
+        <strong>Verarbeitete Datenarten:</strong> Aggregierte Nutzungsdaten (z. B. Seitenaufrufe, Verweildauer,
+        Herkunftsland, Browsertyp, Betriebssystem, Referrer). Es werden keine personenbezogenen Daten gespeichert.
       </li>
-      <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
+      <li><strong>Betroffene Personen:</strong> Besucher des Onlineangebots.</li>
       <li>
-        <strong>Zwecke der Verarbeitung:</strong> Reichweitenmessung (z.B. Zugriffsstatistiken, Erkennung
-        wiederkehrender Besucher). Profile mit nutzerbezogenen Informationen (Erstellen von Nutzerprofilen).
+        <strong>Zwecke der Verarbeitung:</strong> Reichweitenmessung (Zugriffsstatistiken) zur Verbesserung des
+        Onlineangebots.
       </li>
       <li>
-        <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend Angaben im Abschnitt "Allgemeine Informationen
-        zur Datenspeicherung und Löschung". Speicherung von Cookies von bis zu 2 Jahren (Sofern nicht anders angegeben,
-        können Cookies und ähnliche Speichermethoden für einen Zeitraum von zwei Jahren auf den Geräten der Nutzer
-        gespeichert werden.).
+        <strong>Dienstanbieter:</strong> Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA;
+        <a
+          href="https://www.cloudflare.com/privacypolicy/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Datenschutzerklärung von Cloudflare</a>.
       </li>
-      <li><strong>Sicherheitsmaßnahmen:</strong> IP-Masking (Pseudonymisierung der IP-Adresse).</li>
-      <li class="">
-        <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO). Berechtigte
-        Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+      <li>
+        <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
       </li>
     </ul>
     <h3 id="m136">
@@ -819,147 +761,37 @@
       </li>
       <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
       <li>
-        <strong>Zwecke der Verarbeitung:</strong> Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit;
-        Reichweitenmessung (z.B. Zugriffsstatistiken, Erkennung wiederkehrender Besucher); Tracking (z.B.
-        interessens-/verhaltensbezogenes Profiling, Nutzung von Cookies); Zielgruppenbildung; Marketing. Profile mit
-        nutzerbezogenen Informationen (Erstellen von Nutzerprofilen).
+        <strong>Zwecke der Verarbeitung:</strong> Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.
       </li>
       <li>
         <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend Angaben im Abschnitt "Allgemeine Informationen
-        zur Datenspeicherung und Löschung". Speicherung von Cookies von bis zu 2 Jahren (Sofern nicht anders angegeben,
-        können Cookies und ähnliche Speichermethoden für einen Zeitraum von zwei Jahren auf den Geräten der Nutzer
-        gespeichert werden.).
+        zur Datenspeicherung und Löschung".
       </li>
       <li class="">
-        <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO). Berechtigte
-        Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+        <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO).
       </li>
     </ul>
     <p><strong>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</strong></p>
     <ul class="m-elements">
       <li>
-        <strong>Instagram-Plugins und -Inhalte: </strong>Instagram Plugins und -Inhalte - Hierzu können z.B. Inhalte
-        wie Bilder, Videos oder Texte und Schaltflächen gehören, mit denen Nutzer Inhalte dieses Onlineangebotes
-        innerhalb
-        von Instagram teilen können. - Wir sind gemeinsam mit Meta Platforms Ireland Limited für die Erhebung oder den
-        Erhalt im Rahmen einer Übermittlung (jedoch nicht die weitere Verarbeitung) von "Event-Daten", die Facebook
-        mittels Funktionen von Instagram (z.B. Einbettungsfunktionen für Inhalte), die auf unserem Onlineangebot
-        ausgeführt werden, erhebt oder im Rahmen einer Übermittlung zu folgenden Zwecken erhält, gemeinsam
-        verantwortlich:
-        a) Anzeige von Inhalten sowie Werbeinformationen, die den mutmaßlichen Interessen der Nutzer entsprechen; b)
-        Zustellung kommerzieller und transaktionsbezogener Nachrichten (z.B. Ansprache von Nutzern via
-        Facebook-Messenger); c) Verbesserung der Anzeigenauslieferung und Personalisierung von Funktionen und Inhalten
-        (z.B. Verbesserung der Erkennung, welche Inhalte oder Werbeinformationen mutmaßlich den Interessen der Nutzer
-        entsprechen). Wir haben mit Facebook eine spezielle Vereinbarung abgeschlossen ("Zusatz für Verantwortliche", <a
-          href="https://www.facebook.com/legal/controller_addendum"
-          target="_blank"
-        >https://www.facebook.com/legal/controller_addendum</a>),
-        in der insbesondere geregelt wird, welche Sicherheitsmaßnahmen Facebook beachten muss (<a
-          href="https://www.facebook.com/legal/terms/data_security_terms"
-          target="_blank"
-        >https://www.facebook.com/legal/terms/data_security_terms</a>)
-        und in der Facebook sich bereit erklärt hat die Betroffenenrechte zu erfüllen (d.h. Nutzer können z.B. Auskünfte
-        oder Löschungsanfragen direkt an Facebook richten). Hinweis: Wenn Facebook uns Messwerte, Analysen und Berichte
-        bereitstellt (die aggregiert sind, d.h. keine Angaben zu einzelnen Nutzern erhalten und für uns anonym sind),
-        dann erfolgt diese Verarbeitung nicht im Rahmen der gemeinsamen Verantwortlichkeit, sondern auf Grundlage eines
-        Auftragsverarbeitungsvertrages ("Datenverarbeitungsbedingungen ", <a
-          href="https://www.facebook.com/legal/terms/dataprocessing"
-          target="_blank"
-        >https://www.facebook.com/legal/terms/dataprocessing</a>)
-        , der "Datensicherheitsbedingungen" (<a
-          href="https://www.facebook.com/legal/terms/data_security_terms"
-          target="_blank"
-        >https://www.facebook.com/legal/terms/data_security_terms</a>)
-        sowie im Hinblick auf die Verarbeitung in den USA auf Grundlage von Standardvertragsklauseln
-        ("Facebook-EU-Datenübermittlungszusatz, <a
-          href="https://www.facebook.com/legal/EU_data_transfer_addendum"
-          target="_blank"
-        >https://www.facebook.com/legal/EU_data_transfer_addendum</a>).
-        Die Rechte der Nutzer (insbesondere auf Auskunft, Löschung, Widerspruch und Beschwerde bei zuständiger
-        Aufsichtsbehörde), werden durch die Vereinbarungen mit Facebook nicht eingeschränkt;
-        <strong>Dienstanbieter:</strong> Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04 X2K5, Irland; <span
-          class=""
-        ><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); </span><strong>Website:</strong>
-        <a
-          href="https://www.instagram.com"
-          target="_blank"
-        >https://www.instagram.com</a>.
-        <strong>Datenschutzerklärung:</strong> <a
-          href="https://privacycenter.instagram.com/policy/"
-          target="_blank"
-        >https://privacycenter.instagram.com/policy/</a>.
-      </li>
-      <li>
-        <strong>X-Plugins und -Inhalte: </strong>Plugins und -Schaltflächen der Plattform "X" - Hierzu können z.B.
-        Inhalte wie Bilder, Videos oder Texte und Schaltflächen gehören, mit denen Nutzer Inhalte dieses Onlineangebotes
-        innerhalb von X teilen können; <strong>Dienstanbieter:</strong> X Internet Unlimited Company, One Cumberland
-        Place, Fenian Street, Dublin 2 D02 AX07, Irland; <span class=""><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); </span><strong>Website:</strong>
-        <a
-          href="https://x.com/de"
-          target="_blank"
-        >https://x.com/de</a>; <strong>Datenschutzerklärung:</strong> <a
-          href="https://x.com/de/privacy"
-          target="_blank"
-        >https://x.com/de/privacy</a>, (Settings: <a
-          href="https://x.com/personalization"
-          target="_blank"
-        >https://x.com/personalization</a>); <strong>Auftragsverarbeitungsvertrag:</strong>
-        <a
-          href="https://privacy.x.com/en/for-our-partners/global-dpa"
-          target="_blank"
-        >https://privacy.x.com/en/for-our-partners/global-dpa</a>.
-        <strong>Grundlage Drittlandtransfers:</strong> Standardvertragsklauseln (<a
-          href="https://privacy.x.com/en/for-our-partners/global-dpa"
-          target="_blank"
-        >https://privacy.x.com/en/for-our-partners/global-dpa</a>).
-      </li>
-      <li>
-        <strong>YouTube-Videos: </strong>Videoinhalte; <strong>Dienstanbieter:</strong> Google Ireland Limited, Gordon
-        House, Barrow Street, Dublin 4, Irland; <span class=""><strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO); </span><strong>Website:</strong>
+        <strong>YouTube-Videos: </strong>An einigen Stellen unseres Onlineangebots sind YouTube-Videos eingebettet.
+        Diese werden erst nach einem aktiven Klick auf „Video laden" geladen – bis dahin werden keinerlei Daten an
+        YouTube oder Google übertragen. Die Einbettung erfolgt über die datenschutzfreundliche Domain
+        <code>youtube-nocookie.com</code> (erweiterter Datenschutzmodus). Sobald Sie ein Video laden, verarbeitet
+        YouTube Ihre IP-Adresse sowie ggf. weitere Nutzungsdaten (z.&nbsp;B. für Statistiken und Personalisierung);
+        <strong>Dienstanbieter:</strong> Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland;
+        <span class=""><strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO); </span>
+        <strong>Website:</strong>
         <a
           href="https://www.youtube.com"
           target="_blank"
         >https://www.youtube.com</a>;
-        <strong>Datenschutzerklärung:</strong> <a
-          href="https://policies.google.com/privacy"
-          target="_blank"
-        >https://policies.google.com/privacy</a>;
-        <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF). <strong>Widerspruchsmöglichkeit
-          (Opt-Out):</strong> Opt-Out-Plugin: <a
-          href="https://tools.google.com/dlpage/gaoptout?hl=de"
-          target="_blank"
-        >https://tools.google.com/dlpage/gaoptout?hl=de</a>,
-        Einstellungen für die Darstellung von Werbeeinblendungen: <a
-          href="https://myadcenter.google.com/personalizationoff"
-          target="_blank"
-        >https://myadcenter.google.com/personalizationoff</a>.
-      </li>
-      <li>
-        <strong>YouTube-Videos: </strong>Innerhalb unseres Onlineangebotes sind Videos eingebettet, die bei YouTube
-        gespeichert sind. Die Integration dieser YouTube-Videos erfolgt über eine spezielle Domain mithilfe der
-        Komponente
-        „youtube-nocookie" im sogenannten „erweiterten Datenschutzmodus". Im „erweiterten Datenschutzmodus" können bis
-        zum
-        Start des Videos lediglich Informationen, zu denen Ihre IP-Adresse sowie Angaben zum Browser und Ihrem Endgerät
-        gehören, auf Ihrem Endgerät in Cookies oder mittels vergleichbarer Verfahren gespeichert werden, die YouTube für
-        die Ausgabe, Steuerung und Optimierung der Videoanzeige benötigt. Sobald Sie die Videos abspielen, können
-        zusätzlich Informationen zur Analyse des Nutzungsverhaltens sowie zur Speicherung im Nutzerprofil und zur
-        Personalisierung von Inhalten und Anzeigen durch YouTube verarbeitet werden. Die Speicherdauer für die Cookies
-        kann bis zu zwei Jahre betragen; <strong>Dienstanbieter:</strong> Google Ireland Limited, Gordon House, Barrow
-        Street, Dublin 4, Irland; <span class=""><strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO); </span><strong>Website:</strong>
+        <strong>Datenschutzerklärung:</strong>
         <a
-          href="https://www.youtube.com"
-          target="_blank"
-        >https://www.youtube.com</a>;
-        <strong>Datenschutzerklärung:</strong> <a
           href="https://policies.google.com/privacy"
           target="_blank"
         >https://policies.google.com/privacy</a>;
-        <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF). <strong>Weitere
-          Informationen:</strong> <a
-          href="https://support.google.com/youtube/answer/171780?hl=de-DE#zippy=%2Cturn-on-privacy-enhanced-mode%2Cerweiterten-datenschutzmodus-aktivieren"
-          target="_blank"
-        >https://support.google.com/youtube/answer/171780?hl=de-DE#zippy=%2Cturn-on-privacy-enhanced-mode%2Cerweiterten-datenschutzmodus-aktivieren</a>.
+        <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF).
       </li>
     </ul>
     <h3 id="m15">
