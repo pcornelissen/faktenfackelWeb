@@ -1,8 +1,8 @@
 ---
-date: 2026-01-25
+date: 2026-03-09
 name: Marcant
-description: Content Creator
-tags: [ Creator, Social Media, Facebook, Instagram, Antifaschist]
+description: Deutschsprachiger Reaktions-Creator, kommentiert Rechtsextremismus und Faschismus
+tags: [ more-research-needed, Deutschland, Antifaschismus, Content-Creator ]
 ---
 
 ## Über die Quelle
@@ -22,8 +22,8 @@ Marcant ist auch gerne zu Gast bei Vincent, der ebenfalls als Streamer Aufkläru
 
 ## Faktenfackel Bewertung
 
-Sie hat viele interessante Videos, in denen sie die irsinnigkeit der aktuellen Situation in Amerika und der Welt gut erklärt. Sie arbeitet mit sich selbst in verschiedenen Rollen und schneidet die Videos zusammen.
+Klar antifaschistisch positionierter Creator. Inhalte sind persönliche Kommentare und Reaktionen – faktische Behauptungen mit unabhängigen Quellen abgleichen.
 
 ### Fazit
 
-Grundsätzlich glaubwürdige Quelle. Keine Probleme bekannt.
+Antifaschistischer Reaktions-Creator. Als Meinungsquelle einordnen.
