@@ -59,8 +59,8 @@ function parseFrontmatter(content) {
     }
 
     // Quoted string: "value" oder 'value'
-    if ((raw.startsWith('"') && raw.endsWith('"')) || (raw.startsWith("'") && raw.endsWith("'"))) {
-      result[key] = raw.slice(1, -1).replace(/\\"/g, '"').replace(/\\'/g, "'")
+    if ((raw.startsWith('"') && raw.endsWith('"')) || (raw.startsWith('\'') && raw.endsWith('\''))) {
+      result[key] = raw.slice(1, -1).replace(/\\"/g, '"').replace(/\\'/g, '\'')
       continue
     }
 
@@ -76,8 +76,7 @@ function parseFrontmatter(content) {
 function readDir(path) {
   try {
     return readdirSync(path, { withFileTypes: true })
-  }
-  catch {
+  } catch {
     return []
   }
 }
@@ -85,8 +84,7 @@ function readDir(path) {
 function readFile(path) {
   try {
     return readFileSync(path, 'utf-8')
-  }
-  catch {
+  } catch {
     return null
   }
 }
