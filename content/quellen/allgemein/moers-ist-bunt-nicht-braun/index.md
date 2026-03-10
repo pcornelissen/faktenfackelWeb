@@ -1,13 +1,13 @@
 ---
-date: 2026-01-07
-name: Moers ist bunt nicht braun
-description: Lokale Facebook Seite
-tags: [ Unabhängig, Antifaschist,  Facebook ]
+date: 2026-03-09
+name: Moers ist Bunt, nicht Braun
+description: Lokale Bürgerinitiative gegen Rechtsextremismus in Moers
+tags: [ more-research-needed, Aktivismus, Antifaschismus, Deutschland, Moers ]
 ---
 
 ## Über die Quelle
 
-"Moers ist bunt nicht braun" ist eine zivilgesellschaftliche Facebook-Seite, die sich klar gegen Rassismus, Rechtsextremismus und Diskriminierung positioniert. Sie wirbt für Vielfalt, Toleranz und demokratische Werte in Moers, informiert über lokale Aktionen, Demonstrationen und Veranstaltungen und ruft zur aktiven Beteiligung gegen Hass und Ausgrenzung auf.
+„Moers ist Bunt, nicht Braun" ist eine lokale Bürgerinitiative aus Moers, die auf Facebook politische Inhalte gegen Rechtsextremismus teilt. Die Seite berichtet über lokale und überregionale Ereignisse im Kontext von Demokratieschutz und Rechtsextremismus.
 
 ## Links
 
@@ -15,8 +15,8 @@ tags: [ Unabhängig, Antifaschist,  Facebook ]
 
 ## Faktenfackel Bewertung
 
-Die Seite ist als antifaschistische Facebook Seite natürlich eindeutig kontra-rechts und verteilt in der Regel die humoristischen antifaschistischen Inhalte oder Informationen anderer Quellen.
+Als lokale Antifa-Initiative teilt die Seite Inhalte mit klar politischem Standpunkt gegen Rechtsextremismus. Berichtete Ereignisse sollten auf Originalquellen geprüft werden.
 
 ### Fazit
 
-Die Quelle an sich ist weder besonders glaubwürdig noch unglaubwürdig. Man muss im Einzelfall schauen, welche Inhalte weitergeleitet werden und wie vertrauenswürdig diese sind. Offensichtliche Falschinformationen sind nicht bekannt.
+Lokale aktivistische Seite gegen Rechtsextremismus. Inhalte auf Primärquellen prüfen. Offensichtliche Falschinformationen sind nicht bekannt.

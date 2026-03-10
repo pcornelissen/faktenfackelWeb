@@ -14,6 +14,8 @@ Höfgen tritt regelmäßig in Medien, Podcasts und Online-Debatten auf und ist d
 
 ## Links
 
+- https://www.geldfuerdiewelt.de/
+- https://www.youtube.com/@GeldfuerdieWelt
 - https://mauricehoefgen.com/
 - https://www.geldfuerdiewelt.de/ (Artikel von ihm)
 - [YouTube Geld für die Welt](https://www.youtube.com/channel/UCqLv2nTsMB_FXtQRFNXjWhA)
@@ -22,8 +24,8 @@ Höfgen tritt regelmäßig in Medien, Podcasts und Online-Debatten auf und ist d
 
 ## Faktenfackel Bewertung
 
-Maurice hat immer sehr gut recherchierte Beiträge, die durch aktuelle Zahlen und eine gute Einordnung dem Leser/Zuschauer helfen die Themen schnell zu verstehen.
+Maurice Höfgen vertritt eine klar progressiv-wirtschaftspolitische Perspektive und ist kritisch gegenüber konservativen Wirtschaftspositionen. Seine Analysen sind in der Regel quellenbasiert und nachvollziehbar argumentiert, auch wenn er eine eindeutige politische Position einnimmt.
 
 ### Fazit
 
-Sehr glaubwürdige Quelle. Keine Probleme bekannt.
+Progressiver Wirtschaftskanal. Gut belegte Analysen, aber mit politischem Standpunkt.
