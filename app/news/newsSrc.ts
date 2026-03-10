@@ -77,7 +77,7 @@ export const newsSrc: NewsItem[] = [
     title: '2 Artikel von Faktencheck zu Lagerfeuer verschoben, Faktencheck zum AfD Vorfall in Rosenheim mit Quellen',
   },
   {
-    date: new Date('2026-03-09'),
-    title: 'Viele neue Quellenlinks importiert',
+    date: new Date('2026-03-10'),
+    title: '400+ Quellenlinks importiert in den letzten Tagen',
   },
 ]
