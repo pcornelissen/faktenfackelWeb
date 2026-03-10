@@ -29,3 +29,6 @@ logs
 .idea/
 #temp files
 **/~$*
+
+# Generierter Quellen-Index (via pnpm sourceIndex)
+_sourceindex.json
