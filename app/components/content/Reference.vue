@@ -72,7 +72,7 @@ const link = computed(() => {
   display: inline-flex;
   align-items: center;
   padding: 0 0.2em;
-  color: var(--muted);
+  color: var(--flame);
   font-size: 1em;
   vertical-align: -0.15em;
   position: relative;

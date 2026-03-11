@@ -14,37 +14,33 @@ const props = defineProps<{
     v-if="props.item"
     class="flex-auto ml-2 row"
   >
-    <div class="flex  ">
+    <div class="title-row">
       <SourceLinkIcon
         :type="props.item.type"
       />
-      <a
-        :href="props.item.uri"
-        rel="external"
-        class="link  "
-        style="max-width: 30rem"
+      <NuxtLink
+        :to="props.item.path"
+        class="link"
       >
         {{ props.item.title }}
+      </NuxtLink>
+      <a
+        :href="props.item.uri"
+        rel="external noopener"
+        target="_blank"
+        class="external"
+        :title="'Direkt zu: ' + props.item.uri"
+      >
+        <UIcon
+          name="mdi:open-in-new"
+          class="size-4"
+        />
       </a>
     </div>
     <Tags
       :tags="props.item.tags"
       class="ml-5"
-    >
-      <template #end>
-        <NuxtLink
-          :to="props.item.path"
-          class="details"
-        >
-          <UIcon
-            name="mdi:more"
-            class="inline size-4"
-            style="margin-top: -2px"
-          />&nbsp;
-          Details
-        </NuxtLink>
-      </template>
-    </Tags>
+    />
   </div>
 </template>
 
@@ -59,27 +55,34 @@ const props = defineProps<{
   background-color: #FAF6F0;
 }
 
-.link {
-  display: block;
+.title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
   margin-bottom: 0.4rem;
 }
 
-.details {
-  padding: 0.2rem 0.6rem;
-  border-radius: 0.2rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  background-color: var(--flame);
-  color: white;
-  border: 1px solid var(--flame);
-  text-decoration: none;
-  transition: background 0.15s, transform 0.1s;
+.link {
+  flex: 1;
+  min-width: 0;
 }
 
-.details:hover {
-  background-color: var(--ember);
-  border-color: var(--ember);
-  color: white;
-  transform: translateY(-1px);
+.external {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  color: var(--flame);
+  border-radius: 0.2rem;
+  text-decoration: none;
+  transition: color 0.15s, background 0.15s;
+}
+
+.external:hover {
+  color: var(--ember);
+  background-color: var(--fackel-border);
 }
 </style>
