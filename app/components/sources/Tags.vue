@@ -10,7 +10,7 @@ const slots = useSlots()
 </script>
 
 <template>
-  <div class="flex">
+  <div class="flex flex-wrap">
     <Tag
       v-for="tag in props.tags"
       :key="tag"

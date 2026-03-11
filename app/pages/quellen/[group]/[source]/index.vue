@@ -85,6 +85,7 @@ await referencesStore.fetchFor(sourceInfo.value)
       </div>
       <div
         v-if="list.length > 0 || coList.length > 0|| quotes.length > 0"
+        class="sidebar"
       >
         <div
           v-if="quotes.length > 0"
@@ -130,6 +131,10 @@ await referencesStore.fetchFor(sourceInfo.value)
   gap: 2rem;
   align-items: start;
   margin-top: -2em;
+}
+
+.sidebar {
+  min-width: 0;
 }
 
 .intro {
