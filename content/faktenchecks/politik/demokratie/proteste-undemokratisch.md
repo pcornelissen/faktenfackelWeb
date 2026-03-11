@@ -177,7 +177,7 @@ Es ist vergleichbar damit, dass "die Vegetarier" eine Partei oder Gruppierung w�
 Annahme sehr deutlich. Das Gleiche gilt auch für "die Antifa".
 
 Alle, die sich gegen Faschismus und rechte Ideologien stellen, können sich als Antifa betrachten, da es nur eine Abkürzung
-für Antifaschisten ist.
+für Antifaschisten ist. Für eine tiefergehende Einordnung, <Reference code="who-did-what-now-faschismus">was Faschismus soziologisch bedeutet</Reference>, hilft es zu verstehen, warum eine antifaschistische Gegenbewegung historisch nötig war und ist.
 
 #### Antifa und das Grundgesetz
 
@@ -234,7 +234,7 @@ Jedoch ist das linke Spektrum sehr vielfältig und umfasst wesentlich mehr demok
 sich für Menschenrechte, soziale Gerechtigkeit und Demokratie einsetzen.
 
 Wie oben bereits beschrieben wurde, ist das Grundgesetz antifaschistisch ausgelegt, also sind alle, die sich konform zum
-Grundgesetz verhalten, zumindest in der Tendenz antifaschistisch.
+Grundgesetz verhalten, zumindest in der Tendenz antifaschistisch. Das antifaschistische Gedicht <Reference code="forrest-valkai-hangman-gedicht">„The Hangman"</Reference> – über Schweigen, Mitschuld und das schrittweise Wegsehen bei faschistischen Entwicklungen – verdeutlicht, warum aktive Gegenwehr demokratisch nicht nur zulässig, sondern geboten ist.
 
 Dies ist auch in der Demonstration in Gießen zu erkennen. Dort waren ca. 50.000 Demonstranten vor Ort, um gegen die AfD
 zu protestieren. Das sind wesentlich mehr, als der in Deutschland bekannte Anteil von gewaltbereiten Linksextremen in
@@ -248,7 +248,7 @@ Menschen oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen
 linken Spektrum Konsens. Gewalt ist aber auch kein linkes Phänomen, wie man daran erkennen kann, dass es im Jahr 2024
 ca. 40.000 politisch motivierte Straftaten aus dem rechten Milieu gab und ca. 10.000 aus dem linken Spektrum. Gewalt
 gegen Menschen ist wesentlich mehr im rechten Spektrum vertreten, als Eigentumsdelikte, die im linken Spektrum für die
-Mehrheit der Straftaten verantwortlich sind.
+Mehrheit der Straftaten verantwortlich sind. Ein aktuelles Beispiel: Bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference> wurden Journalisten angegriffen, während die Polizei nicht einschritt.
 
 ### Demonstrationen, was is erlaubt und was nicht
 
@@ -293,7 +293,7 @@ undemokratisch seien.
 
 Im Gegenteil, sie sind ein Ausdruck der demokratischen Rechte der Bürger, ihre Meinung zu äußern und gegen politische
 Parteien zu protestieren. Solange diese Proteste ohne Gewalt und Zerstörung verlaufen und die Rechte anderer so weit wie
-möglich respektieren, sind sie ein legitimes Mittel der Meinungsäußerung in einer Demokratie.
+möglich respektieren, sind sie ein legitimes Mittel der Meinungsäußerung in einer Demokratie. Die davon abzugrenzende Frage, ob man <Reference code="no-afd-sollte-man-reden-2026">mit der AfD überhaupt reden sollte</Reference>, ist eine gesonderte Diskussion.
 
 Man darf auch nicht vergessen, dass es aktuell ein starkes Ungleichgewicht in der öffentlichen Wahrnehmung der
 verschiedenen Demonstrationen gibt. Eine angemeldete linksorientierte Demo wird gerne auch schon präventiv als

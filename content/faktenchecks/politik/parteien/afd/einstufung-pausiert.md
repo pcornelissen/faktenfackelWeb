@@ -4,7 +4,7 @@ date: 2026-03-06
 title: Verfassungsschutz pausiert die Einstufung der AfD als rechtsextrem
 subtitle: Sieg für die AfD oder normaler Vorgang?
 verdict: misleading
-tags: [ AfD, Verfassungsschutz, Rechtsextremismus, Verbot, Prüf ]
+tags: [ AfD, Verfassungsschutz, Rechtsextremismus, Verbot, Prüf! ]
 ---
 
 ## Was ist passiert?
@@ -98,6 +98,8 @@ Ganz im Gegenteil zur "AfD-Bewertung" des Urteils gibt der Richter der Bewertung
 
 (Hervorhebung von uns)
 
+Konkrete Beispiele für solche Bestrebungen liefern etwa Vorfälle wie ein <Reference code="moz-afd-gewalt-presse">Angriff auf Journalisten bei einem AfD-nahen Treffen in Sachsen-Anhalt</Reference>, bei dem die anwesende Polizei nicht einschritt.
+
 ### Löschung der Pressemitteilung ist kein Beleg für eine falsche Einstufung
 
 Die Löschung der Pressemitteilung des Verfassungsschutzes zur Einstufung der AfD als rechtsextreme Partei ist <Reference code="tagesschau-afd-stillhaltezusage">kein Beleg dafür, dass die ursprüngliche Einstufung falsch war</Reference>. Vielmehr handelt es sich um eine übliche Praxis, um Verwirrung zu vermeiden und die Kommunikation während eines laufenden Rechtsstreits zu steuern.
@@ -137,7 +139,7 @@ Es gibt auch keine Hinweise darauf, dass das Ministerium den Verfassungsschutz a
 
 Zusammengefasst, ist die Pausierung natürlich kein direkter Sieg für die AfD und die positiven Effekte sind nur temporär. 
 
-Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. 
+Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. Dass das Bild der Partei, das der Verfassungsschutz in seinem Gutachten beschreibt, nicht aus der Luft gegriffen ist, zeigen immer wieder öffentliche Auftritte von AfD-Mitgliedern — etwa wenn eine <Reference code="mutmacher-lena-afd-vfrau-2026">AfD-Abgeordnete NS-Literatur sichtbar im Regal hat und zum Melden linker Organisationen aufruft</Reference>.
 
 
 

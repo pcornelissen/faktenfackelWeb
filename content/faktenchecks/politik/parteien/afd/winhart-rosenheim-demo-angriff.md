@@ -89,3 +89,5 @@ Die Polizei Rosenheim veröffentlichte eine Pressemitteilung, bevor sie die Gege
 Die Behauptung, Gegendemonstranten hätten den AfD-Bürgermeisterkandidaten in Rosenheim angegriffen, ist **falsch**. Das Video zeigt eindeutig: AfD-Mitglieder um Winhart initiierten den Körperkontakt, indem sie nach dem Banner der vorbeigehenden Gruppe griffen. Von Schlägen oder Tritten gegen Maurer ist nichts zu sehen.
 
 Der Fall steht exemplarisch für eine bekannte Strategie: Eine von der AfD gesetzte Opfererzählung wurde durch eine unkritische Polizeimeldung rasch zur scheinbar gesicherten Tatsache — bis das Videomaterial sie widerlegte. Der Schaden ist nun aber entstanden und die Zielgruppe wird die widerlegenden Informationen entweder ignorieren oder aktiv als Fake ablehnen, auch wenn nur die AfD-Position erlogen war.
+
+Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference> griff das Umfeld Journalisten an, während die Polizei untätig blieb.

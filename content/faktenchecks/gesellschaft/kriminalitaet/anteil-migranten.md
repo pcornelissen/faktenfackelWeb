@@ -35,7 +35,7 @@ Es gibt jedes Jahr
 eine <Reference code="bka-kriminalstatistik-2024">Kriminalstatistik</Reference>,
 die mit konkreten Zahlen für eine korrekte Einordnung genutzt werden kann. Man muss sie aber sehr sorgfältig lesen und
 auch beachten, welche Gruppe in einer Zahl enthalten ist und wie sie sich zusammen setzt, um keine falschen Schlüsse zu
-ziehen.
+ziehen. Ein anschauliches Beispiel: <Reference code="godless-gardener-kriminalitaet-christen">Ein Vergleich der US-Kriminalitätsrate nach Religionszugehörigkeit</Reference> zeigt, wie leicht eine Gruppe "krimineller" erscheinen kann, wenn man die Bevölkerungsstruktur unberücksichtigt lässt.
 
 Aus den folgenden Quellen haben wir Diagramme erstellt und Daten
 gruppiert, [hier unsere Aufbereitung als Excel-Datei](/files/faktenchecks/kriminalitaet/migration-straftaten-2024.xlsx).
@@ -48,7 +48,7 @@ Also der reine Verdacht, dass jemand in etwas verwickelt sein kann, reicht aus, 
 ob man unschuldig ist oder nicht. Da die Polizei überdurchschnittlich oft ausländisch aussehende Personen kontrolliert,
 kommt es auch hier zu einer starken Verzerrung, die zu höheren Zahlen bei nicht-deutschen Tatverdächtigen führt. Dazu
 leben ausländische Mitbürger überwiegend in Ballungsgebieten, wie Städten und in denen gibt es mehr Polizei und somit
-auch mehr Kontrollen. Es gibt aber keine Datenbasis, mit der man diese Verzerrung herausrechnen könnte.
+auch mehr Kontrollen. Es gibt aber keine Datenbasis, mit der man diese Verzerrung herausrechnen könnte. Dazu kommt, dass <Reference code="monitor-herkunft-tatverda-2025">die Herkunft von Tatverdächtigen in den Medien häufiger thematisiert wird, als es ihrem tatsächlichen Anteil entspricht</Reference> – was das öffentliche Bild weiter verzerrt.
 
 Die <Reference code="bka-kriminalstatistik-2024">Aufklärungsquote</Reference>,
 liegt in den vergangenen Jahren um 58 %, also **42 %** der erkannten Taten werden **nicht aufgeklärt**. <br/>
@@ -274,7 +274,7 @@ Das Narrativ, dass "die Ausländer kriminell sind", ist also nicht haltbar, wenn
 Altersgruppen hinweg) der Ausländer überhaupt nur einer Tat verdächtigt werden. Kombiniert man das mit der
 Aufklärungsquote so ist zu erwarten, dass auch darin nur zwischen 33 % und 40 % wirklich Taten begangen wurden. Also
 sind es insgesamt eher unter 3-4 %, die wirklich kriminell sind. Da muss man schon sehr kreativ sein, um daher alle
-Ausländer in Misskredit zu ziehen. Das wird ebenfalls vom <Reference code="ifo-migration-kriminalität-2025">ifo Institut untermauert</Reference>, die ebenfalls zum selben Schluss gekommen sind.
+Ausländer in Misskredit zu ziehen. Das wird ebenfalls vom <Reference code="ifo-migration-kriminalität-2025">ifo Institut untermauert</Reference>, die ebenfalls zum selben Schluss gekommen sind. Auch das verbreitete Narrativ der <Reference code="no-afd-kriminelle-clans-2026">kriminellen Ausländer-Clans</Reference> hält einem Faktencheck nicht stand.
 
 Es ist vollkommen fair zu verlangen, dass kriminelle Migranten ihr "Besuchsrecht" überstrapazieren und ggf. ausgewiesen
 werden sollten. Man darf die Menschen aber nicht vorher in die Kriminalität leiten, indem man ein menschenwürdiges Leben
