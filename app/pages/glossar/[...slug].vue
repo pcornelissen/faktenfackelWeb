@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import { definePageData } from '~/utils/contentUtils'
+import { definePageData, nowIso } from '~/utils/contentUtils'
 
 const route = useRoute()
 const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('glossar', basePath, { fields: ['description'] })
+  return queryCollectionItemSurroundings('glossar', basePath, { fields: ['description'] }).where('date', '<=', nowIso())
 })
 
 const { data: page } = await useAsyncData(
   `glossar-${slug}`,
-  () => queryCollection('glossar').path(basePath).first(),
+  () => queryCollection('glossar').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
 const title = page.value?.title || `Glossar`

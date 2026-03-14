@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import type { Post } from '~/utils/contentUtils'
+import { nowIso, type Post } from '~/utils/contentUtils'
 
 const { data: listRaw } = await useAsyncData('/lagerfeuer', () => {
   return queryCollection('lagerfeuer')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date')
+    .where('date', '<=', nowIso())
     .order('date', 'DESC')
     .all()
 })

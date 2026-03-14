@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import PostsList from '~/components/content/PostsList.vue'
-import { definePageData, filter } from '~/utils/contentUtils'
+import { definePageData, filter, nowIso } from '~/utils/contentUtils'
 
 const route = useRoute()
 
@@ -36,6 +36,7 @@ await definePageData({
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('lagerfeuer')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
+    .where('date', '<=', nowIso())
     .order('date', 'DESC')
     .all()
 })

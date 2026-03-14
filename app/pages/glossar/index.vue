@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import PostsList from '~/components/content/PostsList.vue'
 import Heading from '~/components/layout/Heading.vue'
-import { definePageData, type Post } from '~/utils/contentUtils'
+import { definePageData, nowIso, type Post } from '~/utils/contentUtils'
 
 const route = useRoute()
 
@@ -15,14 +15,10 @@ await definePageData({
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('glossar')
     .select('title', 'subject', 'path', 'publishedOn', 'tags', 'date')
+    .where('date', '<=', nowIso())
     .all()
 })
 const list = list1.value as Post[]
-
-function filter(list: Post[]) {
-  return list
-    .filter(item => !!item.publishedOn && new Date(item.publishedOn) <= new Date())
-}
 </script>
 
 <template>
@@ -38,7 +34,7 @@ function filter(list: Post[]) {
       kompakt und verständlich aufbereitet. Von rhetorischen Tricks bis zu medialen Phänomenen.
     </p>
     <PostsList
-      :list="filter(list)"
+      :list="list"
       icon="mdi:book-education-outline"
     />
   </div>

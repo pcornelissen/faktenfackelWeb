@@ -1,7 +1,10 @@
 <script setup lang="ts">
+import { nowIso } from '~/utils/contentUtils'
+
 const { data: recentLinksRaw } = await useAsyncData('recent-quellenlinks', () =>
   queryCollection('quellenlinks')
     .select('path', 'title', 'date', 'tags')
+    .where('date', '<=', nowIso())
     .order('date', 'DESC')
     .limit(3)
     .all(),

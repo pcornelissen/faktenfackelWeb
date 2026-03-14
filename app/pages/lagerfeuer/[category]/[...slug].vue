@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData } from '~/utils/contentUtils'
+import { definePageData, nowIso } from '~/utils/contentUtils'
 import { referencesStore } from '~/utils/referenceData'
 
 const route = useRoute()
@@ -12,12 +12,12 @@ const basePath = route.path
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('lagerfeuer', basePath, {
     fields: ['subtitle'],
-  }).where('path', 'NOT LIKE', '%_info')
+  }).where('path', 'NOT LIKE', '%_info').where('date', '<=', nowIso())
 })
 
 const { data: page } = await useAsyncData(
   `lagerfeuer-${slug}`,
-  () => queryCollection('lagerfeuer').path(basePath).first(),
+  () => queryCollection('lagerfeuer').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
 const title = page.value?.title || `Lagerfeuer`

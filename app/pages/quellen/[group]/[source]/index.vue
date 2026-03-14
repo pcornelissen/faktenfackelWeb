@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
-import { definePageData } from '~/utils/contentUtils'
+import { definePageData, nowIso } from '~/utils/contentUtils'
 import { referencesStore, type SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
@@ -30,6 +30,7 @@ await definePageData({
 const { data: list1 } = await useAsyncData(basePath + '/links/', () => {
   return queryCollection('quellenlinks')
     .where('path', 'LIKE', basePath + '/links/%')
+    .where('date', '<=', nowIso())
     .select('date', 'title', 'uri', 'type', 'tags', 'path')
     .all()
 })
@@ -39,14 +40,14 @@ const coSource = extractNameFromPath(basePath)
 
 const { data: coList1 }
   = await useAsyncData(basePath + '-colinks', () => {
-    const builder = queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%')
+    const builder = queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%').where('date', '<=', nowIso())
     return builder.all()
   })
 const coList = coList1.value as SourceLink[]
 
 const { data: quotesRaw }
   = await useAsyncData(basePath + '-quotes', () =>
-    queryCollection('zitate').where('path', 'LIKE', basePath + '/%')
+    queryCollection('zitate').where('path', 'LIKE', basePath + '/%').where('date', '<=', nowIso())
       .all())
 const quotes = quotesRaw.value as Quote[] || []
 

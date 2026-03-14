@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { definePageData } from '~/utils/contentUtils'
+import { definePageData, nowIso } from '~/utils/contentUtils'
 import Heading from '~/components/layout/Heading.vue'
 
 await definePageData({
@@ -14,6 +14,7 @@ const basePath = route.path
 const { data: list1, pending } = useLazyAsyncData(basePath, () => {
   return queryCollection('quellen')
     .select('date', 'name', 'description', 'path', 'tags', 'imageAuthor')
+    .where('date', '<=', nowIso())
     .order('name', 'ASC')
     .all()
 }, { server: false })

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
+import { definePageData, getSourceFromPath, nowIso } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import { referencesStore } from '~/utils/referenceData'
@@ -13,7 +13,7 @@ const basePath = route.path
 const sourcePath = getSourceFromPath(route.path)
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%')
+  return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%').where('date', '<=', nowIso())
 })
 
 const { data: source } = await useAsyncData(
@@ -23,7 +23,7 @@ const { data: source } = await useAsyncData(
 
 const { data: page } = await useAsyncData(
   `quellenlink-${slug}`,
-  () => queryCollection('quellenlinks').path(basePath).first(),
+  () => queryCollection('quellenlinks').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
 const title = 'Link: ' + (page.value?.title || '')
@@ -73,18 +73,21 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
       useAsyncData(basePath + '-used-faktenchecks', () =>
         queryCollection('faktenchecks')
           .where('referenceCodes', 'LIKE', '%' + code + '%')
+          .where('date', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'verdict', 'date', 'publishedOn', 'tags')
           .all(),
       ),
       useAsyncData(basePath + '-used-lagerfeuer', () =>
         queryCollection('lagerfeuer')
           .where('referenceCodes', 'LIKE', '%' + code + '%')
+          .where('date', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'date', 'publishedOn', 'tags')
           .all(),
       ),
       useAsyncData(basePath + '-used-quellenlinks', () =>
         queryCollection('quellenlinks')
           .where('referenceCodes', 'LIKE', '%' + code + '%')
+          .where('date', '<=', nowIso())
           .select('title', 'path', 'date')
           .all(),
       ),

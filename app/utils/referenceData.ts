@@ -1,4 +1,5 @@
 import { reactive } from 'vue'
+import { nowIso } from '~/utils/contentUtils'
 
 export type Source = {
   date: string
@@ -65,11 +66,11 @@ export const referencesStore = reactive({
     const referenceCodes = page?.referenceCodes || []
     const quoteCodes = page?.quoteCodes || []
     const sourceLinks: SourceLink[] = referenceCodes.length
-      ? await queryCollection('quellenlinks').where('code', 'IN', referenceCodes).all() as SourceLink[]
+      ? await queryCollection('quellenlinks').where('code', 'IN', referenceCodes).where('date', '<=', nowIso()).all() as SourceLink[]
       : []
 
     const quotes: Quote[] = quoteCodes.length
-      ? await queryCollection('zitate').where('code', 'IN', quoteCodes).all() as Quote[]
+      ? await queryCollection('zitate').where('code', 'IN', quoteCodes).where('date', '<=', nowIso()).all() as Quote[]
       : []
 
     this.links.clear()

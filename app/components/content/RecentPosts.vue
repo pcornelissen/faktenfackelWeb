@@ -1,7 +1,10 @@
 <script setup lang="ts">
+import { nowIso } from '~/utils/contentUtils'
+
 const { data: list1 } = await useAsyncData('/faktenchecks', () => {
   return queryCollection('faktenchecks')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
+    .where('date', '<=', nowIso())
     .order('date', 'DESC')
     .all()
 })

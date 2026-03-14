@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
+import { definePageData, getSourceFromPath, nowIso } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import { referencesStore } from '~/utils/referenceData'
 
@@ -11,7 +11,7 @@ const basePath = route.path
 const sourcePath = getSourceFromPath(route.path)
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('zitate', basePath).where('path', 'LIKE', sourcePath + '/%')
+  return queryCollectionItemSurroundings('zitate', basePath).where('path', 'LIKE', sourcePath + '/%').where('date', '<=', nowIso())
 })
 
 const { data: source } = await useAsyncData(
@@ -21,7 +21,7 @@ const { data: source } = await useAsyncData(
 
 const { data: page } = await useAsyncData(
   `zitate-${slug}`,
-  () => queryCollection('zitate').path(basePath).first(),
+  () => queryCollection('zitate').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
 const title = page.value?.title || 'Zitat von ' + (source.value?.name || 'unbekannter Quelle')
@@ -42,18 +42,21 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
       useAsyncData(basePath + '-used-faktenchecks', () =>
         queryCollection('faktenchecks')
           .where('quoteCodes', 'LIKE', '%' + code + '%')
+          .where('date', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'verdict', 'date', 'publishedOn', 'tags')
           .all(),
       ),
       useAsyncData(basePath + '-used-lagerfeuer', () =>
         queryCollection('lagerfeuer')
           .where('quoteCodes', 'LIKE', '%' + code + '%')
+          .where('date', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'date', 'publishedOn', 'tags')
           .all(),
       ),
       useAsyncData(basePath + '-used-quellenlinks', () =>
         queryCollection('quellenlinks')
           .where('quoteCodes', 'LIKE', '%' + code + '%')
+          .where('date', '<=', nowIso())
           .select('title', 'path', 'date')
           .all(),
       ),

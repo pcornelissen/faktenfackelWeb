@@ -59,3 +59,10 @@ export type Quote = {
 export function getSourceFromPath(path: string) {
   return path.split('/').slice(0, 4).join('/')
 }
+
+/** Current UTC datetime as ISO 8601 string for date-gate WHERE clauses.
+ *  In development mode, returns a far-future date so future-dated content is always visible. */
+export function nowIso(): string {
+  if (import.meta.dev) return '9999-12-31T23:59:59.999Z'
+  return new Date().toISOString()
+}
