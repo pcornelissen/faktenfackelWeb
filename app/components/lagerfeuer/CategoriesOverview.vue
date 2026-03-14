@@ -32,6 +32,15 @@ const slots = useSlots()
       >
         <p>Beiträge zu Themen mit einer Einordnung von uns</p>
       </SectionsItem>
+      <SectionsItem
+        title="Verschiedenes"
+        subtitle="Gedichte, Texte und anderes"
+        href="/lagerfeuer/verschiedenes"
+        icon="blogging"
+        icon-txt="Blogging Icons erstellt von Freepik - Flaticon"
+      >
+        <p>Texte und Inhalte, die in keine andere Kategorie passen</p>
+      </SectionsItem>
     </Sections>
     <sections v-if="slots.end">
       <template #end>
