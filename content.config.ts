@@ -28,6 +28,8 @@ export default defineContentConfig({
         tags: z.set(z.string()),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
+        icon: z.string().optional(),
+        iconTxt: z.string().optional(),
       }),
     }),
     glossar: defineCollection({

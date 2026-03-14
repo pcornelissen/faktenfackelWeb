@@ -4,6 +4,14 @@ import Sections from '~/components/overview/Sections.vue'
 import { useSlots } from 'vue'
 
 const slots = useSlots()
+
+const { data: categories } = await useAsyncData('lagerfeuer-categories', () =>
+  queryCollection('lagerfeuer')
+    .where('path', 'LIKE', '/lagerfeuer/%/_info')
+    .select('title', 'subtitle', 'description', 'path', 'icon', 'iconTxt')
+    .order('title', 'ASC')
+    .all(),
+)
 </script>
 
 <template>
@@ -15,31 +23,17 @@ const slots = useSlots()
     </Sections>
     <Sections>
       <SectionsItem
-        title="Blog"
-        subtitle="Zu Faktenfackel und allgemeinen Themen"
-        href="/lagerfeuer/blog"
-        icon="blogging"
-        icon-txt="flaticon.com von Rlkas Dzihab"
+        v-for="cat in categories"
+        :key="cat.path"
+        :title="cat.title"
+        :subtitle="cat.subtitle ?? ''"
+        :href="cat.path.replace('/_info', '')"
+        :icon="cat.icon ?? 'blogging'"
+        :icon-txt="cat.iconTxt ?? ''"
       >
-        <p>Blog Beiträge, hauptsächlich zu Faktenfackel selber.</p>
-      </SectionsItem>
-      <SectionsItem
-        title="Perspektiven"
-        subtitle="Unsere Perspektive auf Themen"
-        href="/lagerfeuer/perspektiven"
-        icon="feedback"
-        icon-txt="Freepik Icon von Good Ware"
-      >
-        <p>Beiträge zu Themen mit einer Einordnung von uns</p>
-      </SectionsItem>
-      <SectionsItem
-        title="Verschiedenes"
-        subtitle="Gedichte, Texte und anderes"
-        href="/lagerfeuer/verschiedenes"
-        icon="blogging"
-        icon-txt="Blogging Icons erstellt von Freepik - Flaticon"
-      >
-        <p>Texte und Inhalte, die in keine andere Kategorie passen</p>
+        <p v-if="cat.description">
+          {{ cat.description }}
+        </p>
       </SectionsItem>
     </Sections>
     <sections v-if="slots.end">
