@@ -319,6 +319,7 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
   max-height: 5rem;
   display: inline;
   margin-right: 1rem;
+  border-radius: 4px;
 }
 
 .source-name {
