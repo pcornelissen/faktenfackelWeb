@@ -85,6 +85,7 @@ const source = props.source
   max-height: 60px;
   max-width: 100%;
   object-fit: contain;
+  border-radius: 4px;
 }
 
 .card-body {

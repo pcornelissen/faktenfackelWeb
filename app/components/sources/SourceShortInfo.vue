@@ -46,6 +46,7 @@ const props = defineProps<{
   max-width: 100px;
   max-height: 60px;
   object-fit: contain;
+  border-radius: 4px;
 }
 
 .source-name {
