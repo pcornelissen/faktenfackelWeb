@@ -30,7 +30,7 @@
     "@nuxtjs/sitemap": "7.6.0",
     "@unhead/vue": "^2.1.10",
     "minimark": "^1.0.0",
-    "nuxt": "^4.3.1",
+    "nuxt": "^4.4.2",
     "nuxt-feedme": "2.1.0",
     "vue": "^3.5.29",
     "vue-router": "^4.6.4",
