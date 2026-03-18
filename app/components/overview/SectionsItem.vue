@@ -41,19 +41,15 @@ const props = defineProps<{
 
 <style scoped>
 .section {
-  display: inline-flex;
-  flex: content;
+  display: flex;
   flex-direction: column;
-  margin: 0.5rem;
   padding: 1.4rem 1.6rem;
   background: white;
-  border: 1px solid var(--fackel-border);
-  border-radius: 6px;
-  max-width: 30%;
-  min-width: 20rem;
+  border-right: 1px solid var(--fackel-border);
+  border-bottom: 1px solid var(--fackel-border);
   min-height: 12rem;
   position: relative;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: background 0.2s;
 }
 
 .section::before {
@@ -73,8 +69,7 @@ const props = defineProps<{
 }
 
 .clickable:hover {
-  border-color: var(--flame);
-  box-shadow: 0 4px 16px rgba(249, 140, 53, 0.12);
+  background: #FDFAF5;
 }
 
 .clickable:hover::before {

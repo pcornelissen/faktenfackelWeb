@@ -11,6 +11,16 @@ const props = defineProps<{
 }>()
 
 const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.list, props.pageSize ?? 20)
+
+const MAX_VISIBLE_TAGS = 4
+
+function visibleTags(tags: string[] | undefined) {
+  return tags?.slice(0, MAX_VISIBLE_TAGS) ?? []
+}
+
+function extraTagCount(tags: string[] | undefined) {
+  return Math.max(0, (tags?.length ?? 0) - MAX_VISIBLE_TAGS)
+}
 </script>
 
 <template>
@@ -46,10 +56,14 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
               {{ item.description }}
             </div>
             <Tag
-              v-for="tag in item.tags"
+              v-for="tag in visibleTags(item.tags)"
               :key="tag"
               :tag="tag"
             />
+            <span
+              v-if="extraTagCount(item.tags) > 0"
+              class="tag-more"
+            >+{{ extraTagCount(item.tags) }}</span>
           </div>
           <div class="meta-right">
             <VerdictLabel
@@ -130,5 +144,17 @@ li:hover {
 
 .verdict-badge {
   font-size: 0.75em;
+}
+
+.tag-more {
+  font-size: 0.75rem;
+  color: var(--muted);
+  background: #F0EBE3;
+  border: 1px solid var(--fackel-border);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+  white-space: nowrap;
+  align-self: center;
+  margin: 0.2rem 0.3rem;
 }
 </style>

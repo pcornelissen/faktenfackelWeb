@@ -4,6 +4,12 @@ import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[g
 const props = defineProps<{
   source: Source | null | undefined
 }>()
+
+const imgFailed = ref(false)
+
+function onImgError() {
+  imgFailed.value = true
+}
 </script>
 
 <template>
@@ -13,11 +19,23 @@ const props = defineProps<{
     class="source-info"
   >
     <img
+      v-if="!imgFailed"
       :src="calculateSourceImg(props.source)"
       :alt="props.source.name"
       :title="calculateSourceImgAuthor(props.source)"
       class="source-img"
+      @error="onImgError"
     >
+    <div
+      v-else
+      class="source-img-placeholder"
+      :title="calculateSourceImgAuthor(props.source)"
+    >
+      <UIcon
+        name="mdi:account-circle"
+        class="size-10"
+      />
+    </div>
     <span class="source-name">{{ props.source.name }}</span>
   </NuxtLink>
 </template>
@@ -56,5 +74,14 @@ const props = defineProps<{
   text-align: center;
   line-height: 1.3;
   word-break: break-word;
+}
+
+.source-img-placeholder {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fackel-border);
 }
 </style>

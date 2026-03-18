@@ -67,7 +67,6 @@ await referencesStore.fetchFor(sourceInfo.value)
       :title="calculateSourceImgAuthor(sourceInfo)"
       :alt="calculateSourceImgAuthor(sourceInfo)"
       class="img rounded-lg"
-      style="max-width: 80em"
     >
     <div
       class="text-sm italic text-gray-400"
@@ -121,9 +120,10 @@ await referencesStore.fetchFor(sourceInfo.value)
 }
 
 .img {
-  max-width: 80%;
-  margin-bottom: 1em;
-  max-height: 15em;
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 1.5em;
 }
 
 .layout {
@@ -154,8 +154,9 @@ await referencesStore.fetchFor(sourceInfo.value)
   }
 
   .img {
-    max-width: 100%;
-    margin: 1em;
+    max-width: 140px;
+    max-height: 140px;
+    margin: 0 0 1em 0;
   }
 }
 
