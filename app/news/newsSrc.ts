@@ -70,7 +70,7 @@ export const newsSrc: NewsItem[] = [
   },
   {
     date: new Date('2026-03-06'),
-    title: 'AfD Gerichtsurteil eingepflegt bzgl. Verbotsverfahren,Redesign weiter optimiert, Tippfehler korrigiert',
+    title: 'AfD Gerichtsurteil eingepflegt bzgl. Verbotsverfahren, Redesign weiter optimiert, Tippfehler korrigiert',
   },
   {
     date: new Date('2026-03-08'),

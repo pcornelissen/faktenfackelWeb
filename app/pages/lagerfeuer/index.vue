@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Heading from '~/components/layout/Heading.vue'
-import { definePageData } from '~/utils/contentUtils'
+import PostsList from '~/components/content/PostsList.vue'
+import { definePageData, nowIso } from '~/utils/contentUtils'
+import type { Post } from '~/utils/contentUtils'
 import CategoriesOverview from '~/components/lagerfeuer/CategoriesOverview.vue'
 
 await definePageData({
@@ -8,6 +10,16 @@ await definePageData({
   pageHeading: 'Fakte^nfackel - Lagerfeuer',
   pageSubHeading: 'Ausarbeitungen, Meinung, Blog',
 })
+
+const { data: recentList } = await useAsyncData('lagerfeuer-recent-overview', () =>
+  queryCollection('lagerfeuer')
+    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
+    .where('date', '<=', nowIso())
+    .order('date', 'DESC')
+    .all(),
+)
+// Filter out _info pages (they have no date and won't survive the date filter, but filter client-side too)
+const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith('/_info'))
 </script>
 
 <template>
@@ -33,17 +45,32 @@ await definePageData({
         hinausgehen.
       </p>
       <p>
-        Um nicht noch einen Bereich aufzumachen, werden hier hier auch gelegentlich als Blog <strong>Themen zur
-          Faktenfackel an sich</strong> veröffentlichen.
+        Um nicht noch einen Bereich aufzumachen, werden hier auch gelegentlich als Blog <strong>Themen zur
+          Faktenfackel an sich</strong> veröffentlicht.
       </p>
     </div>
     <div>
       <h2>Kategorien</h2>
       <CategoriesOverview />
     </div>
+    <div class="recent-section">
+      <h2 class="recent-title">
+        Neueste Beiträge
+      </h2>
+      <PostsList
+        :list="recent"
+        :page-size="10"
+      />
+    </div>
   </div>
 </template>
 
 <style scoped>
+.recent-section {
+  margin-top: 2.5rem;
+}
 
+.recent-title {
+  margin-bottom: 0.5rem;
+}
 </style>

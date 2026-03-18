@@ -2,6 +2,7 @@
 date: 2026-02-01
 name: Harry Sisson
 description: US-Politikkommentator, Content Creator
+imageAuthor: SamSchmir
 tags: [ more-research-needed, Creator, Social Media, Facebook, TikTok, USA, Trump, MAGA, Progressive ]
 ---
 

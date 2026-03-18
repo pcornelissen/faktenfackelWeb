@@ -231,7 +231,7 @@ function removeTag(tagToRemove: string) {
       v-if="!anyPending && relatedTags.length > 0 && activeTags.length < 5"
       class="related-tags"
     >
-      <span class="related-label">Eingrenzen:</span>
+      <span class="related-label">Filtern:</span>
       <button
         v-for="[rt, rtCount] in relatedTags"
         :key="rt"

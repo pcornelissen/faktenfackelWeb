@@ -41,9 +41,14 @@ const props = defineProps<{
   flex-direction: row;
   gap: 1rem;
   align-items: flex-start;
-  padding: 1rem 0;
+  padding: 1.25rem 0.75rem;
   border-bottom: 1px solid var(--fackel-border);
+  border-radius: 4px;
   transition: background 0.15s;
+}
+
+.quote-item:hover {
+  background: #FAF6F0;
 }
 
 .quote-item:last-child {
