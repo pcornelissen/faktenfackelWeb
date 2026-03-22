@@ -1,15 +1,16 @@
 <script setup lang="ts">
 const date = ref<Date>()
 
+useHead({
+  link: [{
+    href: '/feed.xml',
+    rel: 'alternate',
+    type: 'application/rss+xml',
+  }],
+})
+
 onMounted(() => {
   date.value = new Date()
-  useHead({
-    link: [{
-      href: '/feed.xml',
-      rel: 'alternate',
-      type: 'application/rss+xml',
-    }],
-  })
 })
 </script>
 

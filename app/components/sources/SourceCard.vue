@@ -10,10 +10,7 @@ const source = props.source
 </script>
 
 <template>
-  <li
-    class="source-card"
-    @click="navigateTo(source.path)"
-  >
+  <li class="source-card">
     <div class="card-img-wrap">
       <img
         :src="calculateSourceImg(source)"

@@ -137,6 +137,7 @@ await definePageData({
       Impressum: <a
         href="https://faktenfackel.de/impressum"
         target="_blank"
+        rel="noopener noreferrer"
       >https://faktenfackel.de/impressum</a>
     </p>
 
@@ -276,6 +277,7 @@ await definePageData({
       finden Sie auf der Website des US-Handelsministeriums unter <a
         href="https://www.dataprivacyframework.gov/"
         target="_blank"
+        rel="noopener noreferrer"
       >https://www.dataprivacyframework.gov/</a>
       (in englischer Sprache).
     </p>
@@ -287,6 +289,7 @@ await definePageData({
       entnehmen: <a
         href="https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en?prefLang=de"
         target="_blank"
+        rel="noopener noreferrer"
       >https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en?prefLang=de.</a>
     </p>
 
@@ -648,10 +651,12 @@ await definePageData({
         <a
           href="https://www.instagram.com"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.instagram.com</a>;
         <strong>Datenschutzerklärung:</strong> <a
           href="https://privacycenter.instagram.com/policy/"
           target="_blank"
+          rel="noopener noreferrer"
         >https://privacycenter.instagram.com/policy/</a>.
         <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF).
       </li>
@@ -665,17 +670,20 @@ await definePageData({
         Facebook-Datenrichtlinie: <a
           href="https://www.facebook.com/privacy/policy/"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.facebook.com/privacy/policy/.</a>
         Facebook verwendet diese Daten auch, um uns über den Dienst „Seiten-Insights" statistische Auswertungen
         bereitzustellen, die Aufschluss darüber geben, wie Personen mit unserer Seite und deren Inhalten interagieren.
         Grundlage hierfür ist eine Vereinbarung mit Facebook („Informationen zu Seiten-Insights": <a
           href="https://www.facebook.com/legal/terms/page_controller_addendum"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.facebook.com/legal/terms/page_controller_addendum</a>),
         in der unter anderem Sicherheitsmaßnahmen sowie die Wahrnehmung der Betroffenenrechte geregelt sind. Weitere
         Hinweise finden sich hier: <a
           href="https://www.facebook.com/legal/terms/information_about_page_insights_data"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.facebook.com/legal/terms/information_about_page_insights_data.</a>
         Nutzer können Auskunfts- oder Löschungsanfragen daher direkt an Facebook richten. Die Rechte der Nutzer
         (insbesondere Auskunft, Löschung, Widerspruch, Beschwerde bei einer Aufsichtsbehörde) bleiben hiervon unberührt.
@@ -689,14 +697,17 @@ await definePageData({
         <a
           href="https://www.facebook.com"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.facebook.com</a>;
         <strong>Datenschutzerklärung:</strong> <a
           href="https://www.facebook.com/privacy/policy/"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.facebook.com/privacy/policy/</a>.
         <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF), Standardvertragsklauseln (<a
           href="https://www.facebook.com/legal/EU_data_transfer_addendum"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.facebook.com/legal/EU_data_transfer_addendum</a>).
       </li>
       <li>
@@ -705,9 +716,11 @@ await definePageData({
         <a
           href="https://x.com"
           target="_blank"
+          rel="noopener noreferrer"
         >https://x.com</a>. <strong>Datenschutzerklärung:</strong> <a
           href="https://x.com/de/privacy"
           target="_blank"
+          rel="noopener noreferrer"
         >https://x.com/de/privacy</a>.
       </li>
       <li>
@@ -716,11 +729,13 @@ await definePageData({
         <a
           href="https://policies.google.com/privacy"
           target="_blank"
+          rel="noopener noreferrer"
         >https://policies.google.com/privacy</a>; <strong>Grundlage
           Drittlandtransfers:</strong> Data Privacy Framework (DPF). <strong>Widerspruchsmöglichkeit (Opt-Out):</strong>
         <a
           href="https://myadcenter.google.com/personalizationoff"
           target="_blank"
+          rel="noopener noreferrer"
         >https://myadcenter.google.com/personalizationoff</a>.
       </li>
     </ul>
@@ -790,11 +805,13 @@ await definePageData({
         <a
           href="https://www.youtube.com"
           target="_blank"
+          rel="noopener noreferrer"
         >https://www.youtube.com</a>;
         <strong>Datenschutzerklärung:</strong>
         <a
           href="https://policies.google.com/privacy"
           target="_blank"
+          rel="noopener noreferrer"
         >https://policies.google.com/privacy</a>;
         <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF).
       </li>

@@ -83,7 +83,7 @@ function filter(list: Post[]) {
 }
 
 .post-num {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 0.62rem;
   color: #8C8078;
   padding-top: 3px;
@@ -98,7 +98,7 @@ function filter(list: Post[]) {
 }
 
 .post-tag {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 0.6rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -111,7 +111,7 @@ function filter(list: Post[]) {
 }
 
 .post-date {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 0.6rem;
   color: var(--muted);
 }

@@ -59,16 +59,16 @@ function isActive(href: string) {
       v-if="menuOpen"
       class="mobile-menu"
     >
-      <a
+      <NuxtLink
         v-for="item in navItems"
         :key="item.name"
-        :href="item.href"
+        :to="item.href"
         class="mobile-item"
         :class="{ 'mobile-item-active': isActive(item.href) }"
         @click="menuOpen = false"
       >
         {{ item.name }}
-      </a>
+      </NuxtLink>
     </nav>
   </div>
 </template>

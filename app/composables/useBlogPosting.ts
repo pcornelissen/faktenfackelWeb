@@ -15,7 +15,7 @@ interface BlogPostingOptions {
 }
 
 export function useBlogPosting(opts: BlogPostingOptions) {
-  const siteUrl = 'https://faktenfackel.de'
+  const { url: siteUrl } = useSiteConfig()
 
   const jsonLd = {
     '@context': 'https://schema.org',

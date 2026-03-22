@@ -30,7 +30,7 @@ export function useClaimReview(opts: ClaimReviewOptions) {
   if (!opts.verdict) return
 
   const rating = verdictMap[opts.verdict]
-  const siteUrl = 'https://faktenfackel.de'
+  const { url: siteUrl } = useSiteConfig()
 
   const jsonLd = {
     '@context': 'https://schema.org',

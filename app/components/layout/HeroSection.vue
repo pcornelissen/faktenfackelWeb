@@ -62,10 +62,15 @@ const totalCount = computed(
           class="hero-stats"
           aria-label="Inhaltsübersicht"
         >
-          <div class="hero-stat-total">
+          <div
+            class="hero-stat-total"
+            tabindex="0"
+            aria-describedby="stat-tooltip"
+          >
             <strong class="hero-stat-num">{{ totalCount }}</strong>
             <span class="hero-stat-label">Faktenchecks, Links und Artikel</span>
             <div
+              id="stat-tooltip"
               class="stat-tooltip"
               role="tooltip"
             >
@@ -301,7 +306,8 @@ const totalCount = computed(
   border-top-color: #3D3530;
 }
 
-.hero-stat-total:hover .stat-tooltip {
+.hero-stat-total:hover .stat-tooltip,
+.hero-stat-total:focus-within .stat-tooltip {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
