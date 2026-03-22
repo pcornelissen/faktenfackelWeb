@@ -11,7 +11,6 @@ tags: [ more-research-needed, Österreich, Satire, Medien ]
 
 ## Links
 
-- [ORF-Seite](https://tvthek.orf.at/profile/Gute-Nacht-Oesterreich)
 - [Wikipedia](https://de.wikipedia.org/wiki/Gute_Nacht_%C3%96sterreich)
 
 ## Faktenfackel Bewertung

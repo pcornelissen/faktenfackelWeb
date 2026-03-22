@@ -25,6 +25,8 @@ const props = defineProps<{
             :src="`/img/categories/${props.icon}.png`"
             :alt="`Bild für ${props.title}`"
             :title="props.iconTxt"
+            width="40"
+            height="40"
           >
         </picture>
       </div>

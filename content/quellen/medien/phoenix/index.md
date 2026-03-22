@@ -12,7 +12,7 @@ Phoenix ist ein deutsches öffentlich-rechtliches Fernsehprogramm, das gemeinsam
 ## Links
 
 - https://www.phoenix.de
-- https://www.youtube.com/@phoenix_de
+- https://www.youtube.com/@PhoenixDE
 
 ## Faktenfackel Bewertung
 

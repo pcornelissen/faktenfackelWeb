@@ -12,7 +12,7 @@ quer … durch die Woche mit Christoph Süß ist ein wöchentliches Magazin des 
 
 ## Links
 
-- https://www.quer.de 
+- https://www.br.de/fernsehen/quer/
 - [https://de.wikipedia.org/wiki/Quer_(BR)](https://de.wikipedia.org/wiki/Quer_%28BR%29)
 
 ## Faktenfackel Bewertung

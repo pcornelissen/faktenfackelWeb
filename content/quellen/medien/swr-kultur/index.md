@@ -11,7 +11,7 @@ SWR Kultur ist der Kulturkanal des Südwestrundfunks (SWR), einer der größten 
 
 ## Links
 
-- https://www.swr.de/swr-kultur/
+- https://www.swr.de/swrkultur/
 - https://www.facebook.com/SWRKultur
 
 ## Faktenfackel Bewertung

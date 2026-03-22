@@ -59,10 +59,10 @@ onMounted(() => {
           />Über uns
         </div>
         <ul>
-          <li><NuxtLink to="/about">Über Faktenfackel</NuxtLink></li>
-          <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
-          <li><a href="/news">Änderungslog</a></li>
-          <li><NuxtLink to="/mehr">Social Media</NuxtLink></li>
+          <li><NuxtLink to="/about/">Über Faktenfackel</NuxtLink></li>
+          <li><NuxtLink to="/faq/">FAQ</NuxtLink></li>
+          <li><a href="/news/">Änderungslog</a></li>
+          <li><NuxtLink to="/mehr/">Social Media</NuxtLink></li>
           <li><a href="https://mein.online-impressum.de/faktenfackel/">Social Hub</a></li>
           <li><a href="/feed.xml">RSS Feed</a></li>
         </ul>
@@ -76,8 +76,8 @@ onMounted(() => {
           />Rechtliches
         </div>
         <ul>
-          <li><a href="/impressum">Impressum</a></li>
-          <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li>
+          <li><a href="/impressum/">Impressum</a></li>
+          <li><NuxtLink to="/datenschutz/">Datenschutz</NuxtLink></li>
         </ul>
       </div>
     </div>

@@ -110,7 +110,7 @@ const totalCount = computed(
           </li>
         </ul>
         <div class="ticker-footer">
-          <a href="/news"><UIcon
+          <a href="/news/"><UIcon
             name="mdi:arrow-right"
             class="size-3.5"
           /> Vollständiges Änderungslog</a>

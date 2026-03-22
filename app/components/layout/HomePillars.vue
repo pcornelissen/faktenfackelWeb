@@ -56,6 +56,8 @@ const pillars = [
         <img
           :src="p.icon"
           :alt="p.title"
+          width="52"
+          height="52"
           class="pillar-icon"
         >
       </picture>
