@@ -9,6 +9,7 @@ await definePageData({
   title: 'Faktenchecks - Faktenfackel',
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
+  description: 'Geprüfte Behauptungen aus Politik und Gesellschaft mit klarem Urteil und belastbaren Quellen – von Faktenfackel.',
 })
 
 const { data: recentList } = await useAsyncData('faktenchecks-recent-overview', () => {

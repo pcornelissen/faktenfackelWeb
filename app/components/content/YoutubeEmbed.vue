@@ -53,7 +53,7 @@ const displayTitle = computed(() => props.title || 'YouTube-Video')
         <button
           class="yt-load-btn"
           type="button"
-          :aria-label="`${displayTitle} laden`"
+          :aria-label="`Video laden: ${displayTitle}`"
           @click="loaded = true"
         >
           Video laden

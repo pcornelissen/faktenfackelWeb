@@ -9,6 +9,7 @@ await definePageData({
   title: 'Lagerfeuer - Faktenfackel',
   pageHeading: 'Fakte^nfackel - Lagerfeuer',
   pageSubHeading: 'Ausarbeitungen, Meinung, Blog',
+  description: 'Vertiefende Artikel, Analysen, Hintergründe und Blog-Einträge zu politischen Themen – das Lagerfeuer von Faktenfackel.',
 })
 
 const { data: recentList } = await useAsyncData('lagerfeuer-recent-overview', () =>

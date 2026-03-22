@@ -9,7 +9,7 @@ await definePageData({
   title: 'Glossar',
   pageHeading: 'Faktenfackel - Glossar',
   pageSubHeading: 'Das kleine Lexikon für zwischendurch',
-  description: '',
+  description: 'Das Faktenfackel-Glossar erklärt wichtige Begriffe aus Politik, Medien und Faktencheck-Kontext kurz und verständlich.',
 })
 
 const { data: list1 } = await useAsyncData(route.path, () => {
