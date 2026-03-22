@@ -2,8 +2,9 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Datenschutzerklärung - Faktenfackel',
+  title: 'Datenschutzerklärung – Faktenfackel',
   pageHeading: 'Datenschutzerklärung',
+  description: 'Datenschutzerklärung von Faktenfackel gemäß DSGVO – Informationen zur Datenverarbeitung, Cookies und deinen Rechten als Nutzer.',
 })
 </script>
 

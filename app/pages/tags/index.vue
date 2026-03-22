@@ -4,6 +4,7 @@ import { definePageData } from '~/utils/contentUtils'
 await definePageData({
   title: 'Schlagwörter – Faktenfackel',
   pageHeading: '',
+  description: 'Alle Schlagwörter aus Faktenchecks, Lagerfeuer-Artikeln, Glossar und Quellen – durchsuche Inhalte von Faktenfackel nach Themen.',
 })
 
 const { data } = await useAsyncData('tags-index', () =>

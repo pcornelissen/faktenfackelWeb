@@ -24,6 +24,9 @@ await definePageData({
   title: title,
   pageHeading: 'Quelle: ' + title,
   pageSubHeading: sourceInfo.value?.description || 'Quelleninformation',
+  description: sourceInfo.value?.description
+    ? `${title}: ${sourceInfo.value.description} – Quelleninformation, Links und Bewertung auf Faktenfackel.`
+    : `Quelleninformation zu ${title} – gesammelte Links, Zitate und Faktenfackel-Bewertung.`,
   lastmod: new Date(sourceInfo.value?.date || new Date()),
 })
 

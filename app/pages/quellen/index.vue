@@ -3,9 +3,10 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 import Heading from '~/components/layout/Heading.vue'
 
 await definePageData({
-  title: 'Faktenfackel - Wir bringen Licht ins Dunkel',
+  title: 'Quellenliste – Faktenfackel',
   pageHeading: 'Quellenliste',
   pageSubHeading: 'Nach Quelle, thematisch sortierte Fundstücke, die hier in Artikeln verwendet werden (können)',
+  description: 'Alle Quellen, die Faktenfackel für Faktenchecks und Analysen heranzieht – nach Medien, Personen, NGOs, Parteien und weiteren Kategorien sortiert.',
 })
 
 const route = useRoute()

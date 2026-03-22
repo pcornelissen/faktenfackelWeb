@@ -5,10 +5,10 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 const route = useRoute()
 
 await definePageData({
-  title: 'Zitate',
+  title: 'Zitate – Faktenfackel',
   pageHeading: 'Faktenfackel - Zitate',
   pageSubHeading: 'Originalzitate zu verschiedenen Themen',
-  description: '',
+  description: 'Originalzitate von Politikern, Medien und anderen Quellen – gesammelt und eingeordnet von Faktenfackel.',
 })
 
 const { data: list1, pending } = useLazyAsyncData(route.path, () => {

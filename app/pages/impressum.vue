@@ -2,9 +2,10 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Faktenfackel Impressum',
+  title: 'Impressum – Faktenfackel',
   pageHeading: 'Faktenfackel - Impressum',
-  pageSubHeading: 'Rechliche Informationen',
+  pageSubHeading: 'Rechtliche Informationen',
+  description: 'Impressum von Faktenfackel – Angaben gemäß § 5 TMG, Verantwortliche Person und Kontaktdaten.',
 })
 </script>
 

@@ -27,10 +27,14 @@ const { data: page } = await useAsyncData(
 )
 
 const title = 'Link: ' + (page.value?.title || '')
+const sourceName = source.value?.name || ''
 
 await definePageData({
   title: title + ' - Faktenfackel',
   pageHeading: title,
+  description: sourceName
+    ? `Quellenlink von ${sourceName}: ${page.value?.title || ''} – eingeordnet und bewertet von Faktenfackel.`
+    : `Quellenlink: ${page.value?.title || ''} – eingeordnet und bewertet von Faktenfackel.`,
   lastmod: new Date(page.value?.date || new Date()),
 })
 

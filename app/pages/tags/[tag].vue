@@ -15,6 +15,7 @@ const activeTags = computed(() => [tag.value, ...undTags.value])
 await definePageData({
   title: computed(() => `Schlagwort: ${capitalize(tag.value)} – Faktenfackel`).value,
   pageHeading: '',
+  description: computed(() => `Alle Faktenchecks, Artikel, Glossareinträge und Quellen zum Schlagwort „${capitalize(tag.value)}" auf Faktenfackel.`).value,
 })
 
 function likeTag(t: string) {
