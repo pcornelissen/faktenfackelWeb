@@ -82,7 +82,10 @@ const filtered = computed(() => {
     <div class="filter-section">
       <div class="filter-header">
         <span class="filter-label">Filter</span>
-        <span class="filter-count">{{ filtered.length }} {{ filtered.length === 1 ? 'Quelle' : 'Quellen' }}</span>
+        <span
+          v-if="list1"
+          class="filter-count"
+        >{{ filtered.length }} {{ filtered.length === 1 ? 'Quelle' : 'Quellen' }}</span>
       </div>
       <div
         class="search-wrap"
@@ -95,6 +98,7 @@ const filtered = computed(() => {
         <input
           v-model="search"
           type="search"
+          aria-label="Quellen suchen"
           placeholder="Quellen suchen…"
           class="search-input"
         >
@@ -105,42 +109,65 @@ const filtered = computed(() => {
           :class="{ 'filter-active': filter === '' }"
           @click="setFilter('')"
         >
-          Alle ({{ searchFiltered.length || 0 }})
+          Alle<template v-if="list1">
+            ({{ searchFiltered.length || 0 }})
+          </template>
         </div>
         <div
           v-for="filt in filters"
           :key="filt"
           class="filter"
-          :class="{ 'filter-active': filter === filt, 'filter-empty': sortedMap.get(filt)?.length === 0 }"
+          :class="{ 'filter-active': filter === filt, 'filter-empty': list1 && sortedMap.get(filt)?.length === 0 }"
           @click="setFilter(filt)"
         >
-          {{ filt }} ({{ sortedMap.get(filt)?.length || 0 }})
+          {{ filt }}<template v-if="list1">
+            ({{ sortedMap.get(filt)?.length || 0 }})
+          </template>
         </div>
       </div>
     </div>
 
-    <div
-      v-if="pending"
-      class="loading"
-    >
-      <picture>
-        <source
-          type="image/webp"
-          srcset="/img/categories/opt/news-medien-64.webp 64w, /img/categories/opt/news-medien-128.webp 128w"
-          sizes="72px"
-        >
-        <img
-          src="/img/categories/news-medien.png"
-          alt=""
-          class="loading-img"
-        >
-      </picture>
-      <span class="loading-text">Quellen werden geladen…</span>
-    </div>
-    <LazySourceCardsList
-      v-else
-      :list="filtered"
-    />
+    <ClientOnly>
+      <div
+        v-if="pending"
+        class="loading"
+      >
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/img/categories/opt/news-medien-64.webp 64w, /img/categories/opt/news-medien-128.webp 128w"
+            sizes="72px"
+          >
+          <img
+            src="/img/categories/news-medien.png"
+            alt=""
+            class="loading-img"
+          >
+        </picture>
+        <span class="loading-text">Quellen werden geladen…</span>
+      </div>
+      <LazySourceCardsList
+        v-else
+        :list="filtered"
+      />
+      <template #fallback>
+        <div class="loading">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="/img/categories/opt/news-medien-64.webp 64w, /img/categories/opt/news-medien-128.webp 128w"
+              sizes="72px"
+            >
+            <img
+              src="/img/categories/news-medien.png"
+              alt=""
+              class="loading-img"
+            >
+          </picture>
+          <span class="loading-text">Quellen werden geladen…</span>
+        </div>
+      </template>
+    </ClientOnly>
   </div>
 </template>
 

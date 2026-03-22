@@ -58,6 +58,7 @@ const filtered = computed(() => {
         <input
           v-model="search"
           type="search"
+          aria-label="Zitate durchsuchen"
           placeholder="Zitate durchsuchen…"
           class="search-input"
         >

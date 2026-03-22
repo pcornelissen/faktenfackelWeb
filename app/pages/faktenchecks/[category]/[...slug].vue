@@ -81,6 +81,11 @@ await referencesStore.fetchFor(page.value)
           :type="page.verdict"
           class="article-verdict"
         />
+        <Tags
+          v-if="page.tags?.length"
+          :tags="(page.tags as string[])"
+          class="article-tags"
+        />
       </div>
 
       <UAlert
@@ -213,6 +218,10 @@ await referencesStore.fetchFor(page.value)
 .article-verdict {
   display: inline-block;
   margin: 0.5rem 0 0.75rem;
+}
+
+.article-tags {
+  margin-top: 0.75rem;
 }
 
 .article-subtitle {

@@ -30,10 +30,15 @@ export function useBlogPosting(opts: BlogPostingOptions) {
       'name': 'Faktenfackel',
       'url': siteUrl,
     },
+    'image': `${siteUrl}/img/logo.webp`,
     'publisher': {
       '@type': 'Organization',
       'name': 'Faktenfackel',
       'url': siteUrl,
+      'logo': {
+        '@type': 'ImageObject',
+        'url': `${siteUrl}/img/logo.webp`,
+      },
     },
     'inLanguage': 'de-DE',
     ...(opts.tags?.length ? { keywords: opts.tags.join(', ') } : {}),

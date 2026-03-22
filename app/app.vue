@@ -3,11 +3,9 @@ import Layout from '~/components/layout/Layout.vue'
 
 const route = useRoute()
 
-const meta = route.meta
-
-const title = (meta.title || 'Faktenfackel') as string
-const description = (meta.description || 'Wir bringen Licht ins Dunkel') as string
-const image = (meta.image || '/img/logo.webp') as string
+const title = computed(() => (route.meta.title as string) || 'Faktenfackel')
+const description = computed(() => (route.meta.description as string) || 'Wir bringen Licht ins Dunkel')
+const image = computed(() => (route.meta.image as string) || '/img/logo.webp')
 
 const { url: siteUrl } = useSiteConfig()
 
@@ -25,8 +23,8 @@ const organizationJsonLd = {
   ],
 }
 
-useHead({
-  title: title,
+useHead(computed(() => ({
+  title: title.value,
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
   ],
@@ -46,22 +44,22 @@ useHead({
       key: 'organization',
     },
   ],
-})
+})))
 
 if (!import.meta.dev) {
   useScriptCloudflareWebAnalytics({ token: '23276c83d792476c91e176f0dad589fa' })
 }
 
 useSeoMeta({
-  title: title,
-  description: description,
-  ogTitle: title,
-  ogDescription: description,
-  ogImage: image,
-  ogUrl: `${siteUrl}${route.path}`,
+  title: () => title.value,
+  description: () => description.value,
+  ogTitle: () => title.value,
+  ogDescription: () => description.value,
+  ogImage: () => image.value,
+  ogUrl: () => `${siteUrl}${route.path}`,
   ogType: 'website',
   ogSiteName: 'Faktenfackel',
-  twitterImage: image,
+  twitterImage: () => image.value,
   twitterCard: 'summary_large_image',
   twitterSite: '@faktenfackel',
 })

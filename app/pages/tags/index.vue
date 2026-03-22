@@ -17,12 +17,17 @@ const { data } = await useAsyncData('tags-index', () =>
   ]),
 )
 
+// Meta-Tags: interne Verwaltungstags, die nicht im öffentlichen Tag-Cloud erscheinen sollen
+const META_TAGS = new Set(['more-research-needed'])
+
 const tagMap = computed(() => {
   const map = new Map<string, number>()
   for (const list of data.value ?? []) {
     for (const item of list) {
       for (const t of (item.tags ?? [])) {
-        map.set(t, (map.get(t) || 0) + 1)
+        if (!META_TAGS.has(t.toLowerCase())) {
+          map.set(t, (map.get(t) || 0) + 1)
+        }
       }
     }
   }

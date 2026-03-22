@@ -72,6 +72,11 @@ await referencesStore.fetchFor(page.value)
         >
           {{ page.subtitle }}
         </p>
+        <Tags
+          v-if="page.tags?.length"
+          :tags="(page.tags as string[])"
+          class="article-tags"
+        />
       </div>
 
       <UAlert
@@ -131,6 +136,10 @@ await referencesStore.fetchFor(page.value)
   font-weight: 300;
   margin: 0;
   line-height: 1.5;
+}
+
+.article-tags {
+  margin-top: 0.75rem;
 }
 
 .article-body {

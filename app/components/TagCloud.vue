@@ -7,24 +7,36 @@ const props = defineProps<{
 }>()
 
 const filter = ref('')
+const hideUnique = ref(true)
+
+const baseKeys = computed(() => {
+  const keys = [...props.tagMap.keys()]
+  return hideUnique.value
+    ? keys.filter(tag => (props.tagMap.get(tag) || 0) > 1)
+    : keys
+})
 
 const filteredKeys = computed(() => {
   const query = filter.value.trim().toLowerCase()
-  return [...props.tagMap.keys()]
+  return baseKeys.value
     .filter(tag => !query || tag.toLowerCase().includes(query))
     .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase(), 'de'))
 })
 
-const maxCount = computed(() => Math.max(...props.tagMap.values()))
-const minCount = computed(() => Math.min(...props.tagMap.values()))
+const uniqueCount = computed(() =>
+  [...props.tagMap.values()].filter(c => c === 1).length,
+)
+
+const maxCount = computed(() => Math.max(...baseKeys.value.map(k => props.tagMap.get(k) || 0)))
+const minCount = computed(() => Math.min(...baseKeys.value.map(k => props.tagMap.get(k) || 0)))
 const totalCount = computed(() => [...props.tagMap.values()].reduce((a, b) => a + b, 0))
 const avgCount = computed(() => totalCount.value / props.tagMap.size)
 
 function getFontSize(count: number): string {
   const range = maxCount.value - minCount.value
-  if (range === 0) return '0.78rem'
+  if (range === 0) return '0.85rem'
   const ratio = (count - minCount.value) / range
-  return `${(0.78 + ratio * 0.62).toFixed(2)}rem`
+  return `${(0.85 + ratio * 0.65).toFixed(2)}rem`
 }
 
 function getFontWeight(count: number): number {
@@ -40,7 +52,16 @@ function getBackground(count: number): string {
   const range = maxCount.value - minCount.value
   if (range === 0) return 'white'
   const ratio = (count - minCount.value) / range
-  return `color-mix(in srgb, var(--flame) ${(ratio * 28).toFixed(0)}%, white)`
+  return `color-mix(in srgb, var(--flame) ${(ratio * 35).toFixed(0)}%, white)`
+}
+
+function getTextColor(count: number): string {
+  const range = maxCount.value - minCount.value
+  if (range === 0) return 'var(--ink)'
+  const ratio = (count - minCount.value) / range
+  // Niedrige Tags: gedämpftes Ink; hohe Tags: volles Ink
+  const opacity = Math.round(55 + ratio * 45)
+  return `color-mix(in srgb, var(--ink) ${opacity}%, transparent)`
 }
 
 function getRotation(tag: string): string {
@@ -56,17 +77,32 @@ function getRotation(tag: string): string {
       <span class="tag-cloud-count">
         {{ filteredKeys.length }} von {{ tagMap.size }} Schlagwörtern
       </span>
-      <div class="tag-filter-wrap">
-        <Icon
-          name="i-lucide:search"
-          class="filter-icon"
-        />
-        <input
-          v-model="filter"
-          type="search"
-          placeholder="Filtern …"
-          class="tag-filter"
+      <div class="tag-cloud-controls">
+        <button
+          class="unique-toggle"
+          :class="{ active: hideUnique }"
+          :title="hideUnique ? 'Einzeltreffer einblenden' : 'Einzeltreffer ausblenden'"
+          @click="hideUnique = !hideUnique"
         >
+          <Icon
+            :name="hideUnique ? 'i-lucide:eye-off' : 'i-lucide:eye'"
+            class="toggle-icon"
+          />
+          <span>{{ uniqueCount }}× einmalig</span>
+        </button>
+        <div class="tag-filter-wrap">
+          <Icon
+            name="i-lucide:search"
+            class="filter-icon"
+          />
+          <input
+            v-model="filter"
+            type="search"
+            aria-label="Schlagwörter filtern"
+            placeholder="Filtern …"
+            class="tag-filter"
+          >
+        </div>
       </div>
     </div>
 
@@ -82,6 +118,7 @@ function getRotation(tag: string): string {
             'fontSize': getFontSize(tagMap.get(tag) || 0),
             'fontWeight': getFontWeight(tagMap.get(tag) || 0),
             'backgroundColor': getBackground(tagMap.get(tag) || 0),
+            'color': getTextColor(tagMap.get(tag) || 0),
             '--tag-rotate': filter ? '0deg' : getRotation(tag),
           }"
         >
@@ -114,6 +151,8 @@ function getRotation(tag: string): string {
   border: 1px solid var(--fackel-border);
   border-bottom: none;
   border-radius: 4px 4px 0 0;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .tag-cloud-count {
@@ -121,6 +160,43 @@ function getRotation(tag: string): string {
   font-size: 0.72rem;
   color: var(--muted);
   letter-spacing: 0.04em;
+}
+
+.tag-cloud-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.unique-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--muted);
+  background: white;
+  border: 1px solid var(--fackel-border);
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.unique-toggle:hover {
+  border-color: var(--flame);
+  color: var(--flame);
+}
+
+.unique-toggle.active {
+  background: color-mix(in srgb, var(--flame) 10%, white);
+  border-color: color-mix(in srgb, var(--flame) 40%, var(--fackel-border));
+  color: var(--ember);
+}
+
+.toggle-icon {
+  font-size: 0.75rem;
 }
 
 .tag-filter-wrap {
@@ -185,25 +261,24 @@ function getRotation(tag: string): string {
   gap: 0.3em;
   font-weight: 500;
   background-color: white;
-  color: var(--muted);
   border: 1px solid var(--fackel-border);
   padding: 0.2rem 0.5rem;
   margin: 0.15rem 0.2rem;
   border-radius: 0.2rem;
   text-decoration: none;
-  transition: border-color 0.15s, color 0.15s, transform 0.15s;
+  transition: border-color 0.15s, color 0.15s, background-color 0.15s, transform 0.15s;
   transform: rotate(var(--tag-rotate));
   white-space: nowrap;
 }
 
 .tag:hover {
   border-color: var(--flame);
-  color: var(--flame);
+  color: var(--flame) !important;
   transform: rotate(0deg) translateY(-1px);
 }
 
 .tag-hot {
-  border-color: color-mix(in srgb, var(--flame) 40%, var(--fackel-border));
+  border-color: color-mix(in srgb, var(--flame) 50%, var(--fackel-border));
 }
 
 .tag-count {
