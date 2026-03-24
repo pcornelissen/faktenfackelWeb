@@ -2,7 +2,7 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Häufig gestellte Fragen zu Faktenchecks & Quellenbewertung | Faktenfackel',
+  title: 'FAQ – Fragen zu Faktenchecks & Quellen | Faktenfackel',
   pageHeading: 'Faktenfackel - Häufig gestellte Fragen',
   pageSubHeading: 'Das wollte ich immer schon mal wissen',
   description: 'Antworten auf häufige Fragen zu Faktenfackel: Wie arbeiten wir? Wie bewerten wir Quellen? Was bedeuten die Bewertungsstufen? Alles Wissenswerte auf einen Blick.',

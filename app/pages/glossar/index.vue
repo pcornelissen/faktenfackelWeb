@@ -6,7 +6,7 @@ import { definePageData, nowIso, type Post } from '~/utils/contentUtils'
 const route = useRoute()
 
 await definePageData({
-  title: 'Glossar – Begriffe aus Politik & Faktencheck erklärt | Faktenfackel',
+  title: 'Glossar – Politik & Faktencheck | Faktenfackel',
   pageHeading: 'Faktenfackel - Glossar',
   pageSubHeading: 'Das kleine Lexikon für zwischendurch',
   description: 'Das Faktenfackel-Glossar erklärt wichtige Begriffe aus Politik, Medien und Faktencheck-Kontext kurz und verständlich.',

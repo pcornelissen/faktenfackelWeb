@@ -149,7 +149,7 @@ await definePageData({
       Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und
       verweist auf die betroffenen Personen.
     </p>
-    <h4>Arten der verarbeiteten Daten</h4>
+    <h3>Arten der verarbeiteten Daten</h3>
     <ul class="list-inside list-disc">
       <li>Bestandsdaten.</li>
       <li>Kontaktdaten.</li>
@@ -158,12 +158,12 @@ await definePageData({
       <li>Meta-, Kommunikations- und Verfahrensdaten.</li>
       <li>Protokolldaten.</li>
     </ul>
-    <h4>Kategorien betroffener Personen</h4>
+    <h3>Kategorien betroffener Personen</h3>
     <ul class="list-inside list-disc">
       <li>Kommunikationspartner.</li>
       <li>Nutzer.</li>
     </ul>
-    <h4>Zwecke der Verarbeitung</h4>
+    <h3>Zwecke der Verarbeitung</h3>
     <ul class="list-inside list-disc">
       <li>Kommunikation.</li>
       <li>Sicherheitsmaßnahmen.</li>
