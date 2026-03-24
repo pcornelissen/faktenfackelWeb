@@ -32,12 +32,20 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Collect commit messages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        id: commits
+        run: |
+          MESSAGES=$(echo '${{ toJSON(github.event.commits.*.message) }}' | jq -r '.[]' | head -20 | paste -sd '; ' -)
+          echo "messages=$MESSAGES" >> "$GITHUB_OUTPUT"
+
       - name: Deploy to Cloudflare Workers
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: npx wrangler --cwd .output deploy
+        run: npx wrangler --cwd .output deploy --message "$DEPLOY_MESSAGE"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          DEPLOY_MESSAGE: ${{ steps.commits.outputs.messages }}
 
       - name: Notify IndexNow
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
