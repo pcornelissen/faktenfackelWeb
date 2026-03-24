@@ -17,12 +17,12 @@ export default defineNuxtConfig({
   ],
   $production: {
     routeRules: {
-      '/faktenchecks/**': { swr: 3600 },
-      '/lagerfeuer/**': { swr: 3600 },
-      '/zitate/**': { swr: 3600 },
-      '/quellen/**': { swr: 3600 },
-      '/tags/**': { swr: 3600 },
-      '/glossar/**': { swr: 86400 },
+      '/faktenchecks/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
+      '/lagerfeuer/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
+      '/zitate/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
+      '/quellen/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
+      '/tags/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
+      '/glossar/**': { swr: 86400, headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800' } },
     },
   },
   components: [
