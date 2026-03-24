@@ -1,6 +1,6 @@
 ---
 date: 2026-03-18
-name: No AfD
+name: No AfD (YouTube)
 description: "YouTube-Kanal, der Clips von AfD-Politikern aus dem Bundestag und anderswo zeigt – mit Fokus auf Eigentore, Widersprüche und Konfrontationen"
 tags:
   - more-research-needed

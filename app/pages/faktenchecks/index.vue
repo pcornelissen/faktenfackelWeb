@@ -6,7 +6,7 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 import type { Post } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Faktenchecks - Faktenfackel',
+  title: 'Faktenchecks – Behauptungen geprüft mit Quellen | Faktenfackel',
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
   description: 'Geprüfte Behauptungen aus Politik und Gesellschaft mit klarem Urteil und belastbaren Quellen – von Faktenfackel.',

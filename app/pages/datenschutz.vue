@@ -13,9 +13,9 @@ await definePageData({
     <h1>
       Datenschutzerklärung
     </h1>
-    <h3 id="m716">
+    <h2 id="m716">
       Präambel
-    </h3>
+    </h2>
     <p>
       Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen
       Daten (nachfolgend auch kurz als "Daten" bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die
@@ -29,7 +29,7 @@ await definePageData({
     <p class="last-update">
       Stand: 9. März 2026
     </p>
-    <h3>Inhaltsübersicht</h3>
+    <h2>Inhaltsübersicht</h2>
     <ul class="index">
       <li>
         <a
@@ -128,9 +128,9 @@ await definePageData({
         >Begriffsdefinitionen</a>
       </li>
     </ul>
-    <h3 id="m3">
+    <h2 id="m3">
       Verantwortlicher
-    </h3>
+    </h2>
     <p>faktenfackel - Patrick Cornelißen<br>c/o Online-Impressum.de #5298<br>Europaring 90<br>53757 Sankt Augustin</p>
     <p>Vertretungsberechtigte Personen: Patrick Cornelißen</p>
     <p>E-Mail-Adresse: <a href="mailto:kontakt@faktenfackel.de">kontakt@faktenfackel.de</a></p>
@@ -142,9 +142,9 @@ await definePageData({
       >https://faktenfackel.de/impressum</a>
     </p>
 
-    <h3 id="mOverview">
+    <h2 id="mOverview">
       Übersicht der Verarbeitungen
-    </h3>
+    </h2>
     <p>
       Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und
       verweist auf die betroffenen Personen.
@@ -174,9 +174,9 @@ await definePageData({
       <li>Informationstechnische Infrastruktur.</li>
       <li>Öffentlichkeitsarbeit.</li>
     </ul>
-    <h3 id="m2427">
+    <h2 id="m2427">
       Maßgebliche Rechtsgrundlagen
-    </h3>
+    </h2>
     <p>
       <strong>Maßgebliche Rechtsgrundlagen nach der DSGVO: </strong>Im Folgenden erhalten Sie eine Übersicht der
       Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis,
@@ -214,9 +214,9 @@ await definePageData({
       Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.
     </p>
 
-    <h3 id="m27">
+    <h2 id="m27">
       Sicherheitsmaßnahmen
-    </h3>
+    </h2>
     <p>
       Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der
       Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der
@@ -248,9 +248,9 @@ await definePageData({
       ein Indikator für die Nutzer, dass ihre Daten sicher und verschlüsselt übertragen werden.
     </p>
 
-    <h3 id="m24">
+    <h2 id="m24">
       Internationale Datentransfers
-    </h3>
+    </h2>
     <p>
       Datenverarbeitung in Drittländern: Sofern wir Daten in ein Drittland (d. h. außerhalb der Europäischen Union (EU)
       oder des Europäischen Wirtschaftsraums (EWR)) übermitteln oder dies im Rahmen der Nutzung von Diensten Dritter
@@ -294,9 +294,9 @@ await definePageData({
       >https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en?prefLang=de.</a>
     </p>
 
-    <h3 id="m12">
+    <h2 id="m12">
       Allgemeine Informationen zur Datenspeicherung und Löschung
-    </h3>
+    </h2>
     <p>
       Wir löschen personenbezogene Daten, die wir verarbeiten, gemäß den gesetzlichen Bestimmungen, sobald die
       zugrundeliegenden Einwilligungen widerrufen werden oder keine weiteren rechtlichen Grundlagen für die Verarbeitung
@@ -359,9 +359,9 @@ await definePageData({
       Rechtsverhältnisses.
     </p>
 
-    <h3 id="m10">
+    <h2 id="m10">
       Rechte der betroffenen Personen
-    </h3>
+    </h2>
     <p>
       Rechte der betroffenen Personen aus der DSGVO: Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu,
       die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
@@ -411,9 +411,9 @@ await definePageData({
       </li>
     </ul>
 
-    <h3 id="m225">
+    <h2 id="m225">
       Bereitstellung des Onlineangebots und Webhosting
-    </h3>
+    </h2>
     <p>
       Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu können. Zu diesem
       Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um die Inhalte und Funktionen unserer
@@ -472,9 +472,9 @@ await definePageData({
         ausgeliefert werden können; <span class=""><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).</span>
       </li>
     </ul>
-    <h3 id="m104">
+    <h2 id="m104">
       Blogs und Publikationsmedien
-    </h3>
+    </h2>
     <p>
       Wir nutzen Blogs oder vergleichbare Mittel der Onlinekommunikation und Publikation (nachfolgend
       "Publikationsmedium"). Die Daten der Leser werden für die Zwecke des Publikationsmediums nur insoweit verarbeitet,
@@ -506,9 +506,9 @@ await definePageData({
         <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
       </li>
     </ul>
-    <h3 id="m182">
+    <h2 id="m182">
       Kontakt- und Anfrageverwaltung
-    </h3>
+    </h2>
     <p>
       Bei der Kontaktaufnahme mit uns (z.B. per Post, Kontaktformular, E-Mail, Telefon oder via soziale Medien) sowie im
       Rahmen bestehender Nutzer- und Geschäftsbeziehungen werden die Angaben der anfragenden Personen verarbeitet,
@@ -553,9 +553,9 @@ await definePageData({
         ><strong>Rechtsgrundlagen:</strong> Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).</span>
       </li>
     </ul>
-    <h3 id="m263">
+    <h2 id="m263">
       Webanalyse
-    </h3>
+    </h2>
     <p>
       Zur Auswertung der Besucherströme unseres Onlineangebots setzen wir <strong>Cloudflare Web Analytics</strong> ein.
       Dieses Werkzeug ist datenschutzfreundlich konzipiert: Es werden weder Cookies noch andere lokale Speichermethoden
@@ -585,9 +585,9 @@ await definePageData({
         <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
       </li>
     </ul>
-    <h3 id="m136">
+    <h2 id="m136">
       Präsenzen in sozialen Netzwerken (Social Media)
-    </h3>
+    </h2>
     <p>
       Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten in diesem Rahmen Nutzerdaten, um mit
       den dort aktiven Nutzern zu kommunizieren oder Informationen über uns anzubieten.
@@ -740,9 +740,9 @@ await definePageData({
         >https://myadcenter.google.com/personalizationoff</a>.
       </li>
     </ul>
-    <h3 id="m328">
+    <h2 id="m328">
       Plug-ins und eingebettete Funktionen sowie Inhalte
-    </h3>
+    </h2>
     <p>
       Wir binden an manchen Stellen Funktions- und Inhaltselemente in unser Onlineangebot ein, die von den Servern ihrer
       jeweiligen
@@ -817,9 +817,9 @@ await definePageData({
         <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF).
       </li>
     </ul>
-    <h3 id="m15">
+    <h2 id="m15">
       Änderung und Aktualisierung
-    </h3>
+    </h2>
     <p>
       Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren. Wir passen die
       Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen dies erforderlich
@@ -836,9 +836,9 @@ await definePageData({
       Zuständige Regulierungs- und Aufsichtsbehörde:<br>Landesanstalt für Medien
       Nordrhein-Westfalen<br>Sitz: Deutschland
     </p>
-    <h3 id="m42">
+    <h2 id="m42">
       Begriffsdefinitionen
-    </h3>
+    </h2>
     <p>
       In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutzerklärung verwendeten
       Begrifflichkeiten. Soweit die Begrifflichkeiten gesetzlich definiert sind, gelten deren gesetzliche Definitionen.

@@ -17,6 +17,8 @@ const source = props.source
         :alt="source.name"
         :title="calculateSourceImgAuthor(source)"
         loading="lazy"
+        width="200"
+        height="60"
         class="card-img"
       >
     </div>

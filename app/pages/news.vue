@@ -4,7 +4,7 @@ import NewsList from '~/news/NewsList.vue'
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Änderungen - Faktenfackel',
+  title: 'Neueste Änderungen & Ergänzungen auf Faktenfackel',
   pageHeading: 'Faktenfackel - Änderungen',
   pageSubHeading: 'Was hat sich in letzter Zeit geändert?',
   description: 'Übersicht der neuesten Änderungen und Ergänzungen auf Faktenfackel – neue Faktenchecks, Quellenlinks, Glossareinträge und Verbesserungen der Seite.',

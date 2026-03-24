@@ -1,6 +1,6 @@
 ---
 date: 2026-03-09
-name: No AfD
+name: No AfD (Facebook)
 description: Facebook-Seite gegen die AfD
 tags: [ AfD, Facebook, Antifaschist, more-research-needed ]
 ---

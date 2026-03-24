@@ -69,6 +69,8 @@ await referencesStore.fetchFor(sourceInfo.value)
       :src="calculateSourceImg(sourceInfo)"
       :title="calculateSourceImgAuthor(sourceInfo)"
       :alt="calculateSourceImgAuthor(sourceInfo)"
+      width="180"
+      height="180"
       class="img rounded-lg"
     >
     <div

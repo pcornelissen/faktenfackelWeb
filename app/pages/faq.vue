@@ -2,10 +2,48 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Häufig gestellte Fragen - Faktenfackel',
+  title: 'Häufig gestellte Fragen zu Faktenchecks & Quellenbewertung | Faktenfackel',
   pageHeading: 'Faktenfackel - Häufig gestellte Fragen',
   pageSubHeading: 'Das wollte ich immer schon mal wissen',
   description: 'Antworten auf häufige Fragen zu Faktenfackel: Wie arbeiten wir? Wie bewerten wir Quellen? Was bedeuten die Bewertungsstufen? Alles Wissenswerte auf einen Blick.',
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        'mainEntity': [
+          {
+            '@type': 'Question',
+            'name': 'Was bedeuten die Bewertungsstufen bei Faktenchecks?',
+            'acceptedAnswer': {
+              '@type': 'Answer',
+              'text': 'Jeder Faktencheck endet mit einer von vier Bewertungen: Falsch (sachlich nicht korrekt), Irreführend (wahrer Kern, aber falscher Eindruck), Komplex (nicht einfach einzuordnen) oder Wahr (korrekt und durch Quellen belegt).',
+            },
+          },
+          {
+            '@type': 'Question',
+            'name': 'Warum werden direkt Beiträge im Internet verlinkt und die Autoren genannt?',
+            'acceptedAnswer': {
+              '@type': 'Answer',
+              'text': 'Weil Transparenz wichtig ist. Nur so kann man die Quellen selbst überprüfen und sich eine eigene Meinung bilden. Außerdem ist es fair gegenüber den Autoren, die ihre Meinung in frei zugänglichen Medien veröffentlichen.',
+            },
+          },
+          {
+            '@type': 'Question',
+            'name': 'Kann ich bei Faktenfackel mithelfen?',
+            'acceptedAnswer': {
+              '@type': 'Answer',
+              'text': 'Ja, aber es gibt nicht einfach Schreibzugriff für die Seite. Bitte unter kontakt@faktenfackel.de melden – wir besprechen dann alles Weitere.',
+            },
+          },
+        ],
+      }),
+    },
+  ],
 })
 </script>
 
