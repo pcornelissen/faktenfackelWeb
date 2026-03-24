@@ -12,6 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 20
 
       - uses: pnpm/action-setup@v5
 
