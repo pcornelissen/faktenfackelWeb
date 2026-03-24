@@ -1,26 +1,23 @@
-name: ci
+name: CI
 
-on: push
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  ci:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [22]
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-      - name: Install node
-        uses: actions/setup-node@v6
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v6
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 22
           cache: pnpm
 
       - name: Install dependencies
@@ -32,16 +29,16 @@ jobs:
       - name: Typecheck
         run: pnpm run typecheck
 
-      - run: npx nuxt build --preset github_pages
-      - name: Generate GH Pages artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./.output/public
-          name: gh-pages
+      - name: Build
+        run: pnpm build
 
-      - run: npx nuxt generate
-      - name: Upload pre-rendered artifacts
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./.output/public
-          name: pre-rendered
+      - name: Deploy to Cloudflare Workers
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: npx wrangler --cwd .output deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Notify IndexNow
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: node scripts/indexnow.mjs
