@@ -141,7 +141,9 @@ const filtered = computed(() => {
           >
           <img
             src="/img/categories/news-medien.png"
-            alt=""
+            alt="Quellen werden geladen"
+            width="72"
+            height="72"
             class="loading-img"
           >
         </picture>
@@ -161,7 +163,9 @@ const filtered = computed(() => {
             >
             <img
               src="/img/categories/news-medien.png"
-              alt=""
+              alt="Quellen werden geladen"
+              width="72"
+              height="72"
               class="loading-img"
             >
           </picture>

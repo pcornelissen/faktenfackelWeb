@@ -58,6 +58,7 @@ const pillars = [
           :alt="p.title"
           width="52"
           height="52"
+          loading="lazy"
           class="pillar-icon"
         >
       </picture>
