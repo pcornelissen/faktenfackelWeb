@@ -39,6 +39,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://faktenfackel.de',
     name: 'Faktenfackel - Faktenchecks zu aktuellen Themen',
+    trailingSlash: true,
   },
   colorMode: {
     preference: 'light',
