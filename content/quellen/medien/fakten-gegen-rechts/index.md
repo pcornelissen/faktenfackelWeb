@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Fakten gegen Rechts
 description: Deutschsprachige Facebook-Seite, teilt Fakten und Recherchen zu Rechtsextremismus und Desinformation
 tags:
-  - more-research-needed
   - Deutschland
   - Rechtsextremismus
   - Desinformation

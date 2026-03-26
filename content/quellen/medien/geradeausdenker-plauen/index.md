@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Geradeausdenker Plauen
 description: Deutschsprachiger Kommentarkanal zu Politik, AfD und gesellschaftlichen Themen aus Plauen/Sachsen
 tags:
-  - more-research-needed
   - Politik
   - AfD
   - Deutschland
@@ -21,8 +20,8 @@ tags:
 
 ## Faktenfackel Bewertung
 
-Politisch kommentierender Kanal mit kritischer Haltung gegenüber der AfD. Inhalte auf Originalquellen (z.B. heute-show, Bundestag) zurückführen.
+Politisch kommentierender Kanal mit kritischer Haltung gegenüber der AfD. Inhalte auf Originalquellen (z.B. heute-show, Bundestag, Parteidokumente) zurückführen. Die in Reels formulierten Behauptungen sind in der untersuchten Stichprobe sachlich korrekt und durch Primärquellen belegbar - allerdings mit klar parteiischer Rahmung (framing). Keine eigene journalistische Recherche, sondern Kommentierung von Berichten anderer Medien.
 
 ### Fazit
 
-Politischer Kommentarkanal gegen AfD-Positionen. Faktenbehauptungen auf Primärquellen prüfen.
+Politischer Kommentarkanal mit anti-AfD-Haltung aus Plauen/Sachsen. Einzelne Faktenbehauptungen sind belegt, die Gesamtdarstellung ist aber wertend. Immer auf zugrundeliegende Primärquellen prüfen.
