@@ -4,7 +4,12 @@ publishedOn: 2026-01-29
 name: Weichreite TV
 description: Content Creator, Politik
 imageAuthor: "Christoph Hardt, Credit: IMAGO/Panama Pictures"
-tags: [ AfD, Creator, Social Media, Facebook, Instagram]
+tags:
+  - AfD
+  - Creator
+  - Social Media
+  - Facebook
+  - Instagram
 ---
 
 ## Über die Quelle

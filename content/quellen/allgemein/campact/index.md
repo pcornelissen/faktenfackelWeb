@@ -3,7 +3,12 @@ date: 2026-01-14
 publishedOn: 2026-03-10
 name: Campact e.V.
 description: Deutsche Online-Kampagnenorganisation für politisches Engagement
-tags: [ more-research-needed, Aktivismus, Politik, Deutschland, Petitionen ]
+tags:
+  - more-research-needed
+  - Aktivismus
+  - Politik
+  - Deutschland
+  - Petitionen
 ---
 
 ## Über die Quelle

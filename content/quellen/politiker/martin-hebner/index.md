@@ -4,7 +4,10 @@ publishedOn: 2026-02-13
 name: Martin Hebner
 description: Politiker, AfD
 imageAuthor: Martin Hebner / Edith Hebner
-tags: [ AfD, Politiker, Bundestag,  ]
+tags:
+  - AfD
+  - Politiker
+  - Bundestag
 ---
 
 ## Über die Quelle

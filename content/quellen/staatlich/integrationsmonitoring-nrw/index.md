@@ -3,7 +3,9 @@ date: 2026-01-15
 publishedOn: 2026-01-16
 name: "Integrationsmonitoring NRW"
 description: Vom Ministerium für Kinder, Jugend, Familie, Gleichstellung, Flucht und Integration des Landes Nordrhein-Westfalen
-tags: [ Staatlich, Migration ]
+tags:
+  - Staatlich
+  - Migration
 ---
 
 ## Über die Quelle

@@ -4,7 +4,9 @@ date: 2025-12-03
 title: "Begriffserklärung: Scheinkorrelation"
 subject: "Scheinkorrelation"
 
-tags: [Glossar, Statistik]
+tags:
+  - Glossar
+  - Statistik
 ---
 
 Eine **Scheinkorrelation** (engl. *spurious correlation*) liegt vor, wenn zwei Variablen

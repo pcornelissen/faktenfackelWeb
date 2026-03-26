@@ -3,7 +3,10 @@ date: 2026-01-16
 publishedOn: 2026-01-11
 name: Europäisches Parlament
 description: Politische Organisation der EU
-tags: [ Staatlich, Arbeitsmarkt, Sozialsystem ]
+tags:
+  - Staatlich
+  - Arbeitsmarkt
+  - Sozialsystem
 ---
 
 ## Über die Quelle

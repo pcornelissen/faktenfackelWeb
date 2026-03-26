@@ -3,7 +3,8 @@ date: 2026-01-18
 publishedOn: 2026-03-03
 name: Stadt Gießen
 description: Homepage der Stadt
-tags: [ Lokal ]
+tags:
+  - Lokal
 ---
 
 ## Über die Quelle

@@ -4,7 +4,12 @@ publishedOn: 2026-02-13
 name: Jens Maier
 description: Politiker, AfD
 imageAuthor: Max Gerlach
-tags: [ AfD, Politiker, Bundestag,  Rassismus, Beleidigung ]
+tags:
+  - AfD
+  - Politiker
+  - Bundestag
+  - Rassismus
+  - Beleidigung
 ---
 
 ## Über die Quelle

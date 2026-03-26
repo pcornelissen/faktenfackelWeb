@@ -3,7 +3,9 @@ date: 2026-01-30
 publishedOn: 2026-01-30
 name: Indymedia
 description: Offenes Medienportal
-tags: [ Medien, Politik ]
+tags:
+  - Medien
+  - Politik
 ---
 
 ## Über die Quelle 

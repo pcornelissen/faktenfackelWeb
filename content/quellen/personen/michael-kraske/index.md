@@ -4,7 +4,10 @@ publishedOn: 2026-01-11
 name: Michael Kraske
 description: Journalist und Schriftsteller
 imageAuthor: Paul Maurer
-tags: [ Unabhängig,  Antifaschist, Journalist ]
+tags:
+  - Unabhängig
+  - Antifaschist
+  - Journalist
 ---
 
 ## Über die Quelle

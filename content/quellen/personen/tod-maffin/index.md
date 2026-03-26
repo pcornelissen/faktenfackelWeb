@@ -3,7 +3,8 @@ date: 2026-03-10
 publishedOn: 2026-03-10
 name: Tod Maffin
 description: Kanadischer Journalist und Podcaster, der sich auf Medienkritik und US-Politik spezialisiert hat.
-tags: [more-research-needed]
+tags:
+  - more-research-needed
 ---
 date: 2026-03-10
 publishedOn: 2026-03-10

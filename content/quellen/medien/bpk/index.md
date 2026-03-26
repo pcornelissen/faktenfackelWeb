@@ -3,7 +3,11 @@ date: 2026-01-11
 publishedOn: 2026-02-01
 name: Bundespressekonferenz
 description: Verein, getragen von Journalisten
-tags: [ Politik, Presse, Verein, Unabhängig]
+tags:
+  - Politik
+  - Presse
+  - Verein
+  - Unabhängig
 ---
 
 ## Über die Quelle

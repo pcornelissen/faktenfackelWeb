@@ -4,7 +4,9 @@ publishedOn: 2026-02-16
 name: Alice Weidel
 description: AfD Politikerin und Juristin
 imageAuthor: Sebastian Kahnert, DPA, Picture Alliance
-tags: [ AfD, Jurist-in ]
+tags:
+  - AfD
+  - Jurist-in
 ---
 
 ## Über die Quelle

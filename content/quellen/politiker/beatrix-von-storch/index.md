@@ -4,7 +4,9 @@ publishedOn: 2026-01-11
 name: Beatrix von Storch
 description: AfD Politikerin und Juristin
 imageAuthor: Phoenix vor Ort
-tags: [ AfD, Jurist-in ]
+tags:
+  - AfD
+  - Jurist-in
 ---
 
 ## Über die Quelle

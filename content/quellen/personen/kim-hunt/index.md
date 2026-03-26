@@ -3,7 +3,8 @@ date: 2026-03-10
 publishedOn: 2026-03-10
 name: Kim Hunt
 description: Englischsprachige Aktivistin, postet zu Polizeigewalt und sozialer Gerechtigkeit
-tags: [more-research-needed]
+tags:
+  - more-research-needed
 ---
 date: 2026-03-10
 publishedOn: 2026-03-10

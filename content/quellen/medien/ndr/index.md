@@ -3,7 +3,9 @@ date: 2026-01-15
 publishedOn: 2026-01-16
 name: Norddeutscher Rundfunk (NDR)
 description: Öffentlich rechtlicher Rundfunk
-tags: [ Medien, ÖRR ]
+tags:
+  - Medien
+  - ÖRR
 ---
 
 ## Über die Quelle

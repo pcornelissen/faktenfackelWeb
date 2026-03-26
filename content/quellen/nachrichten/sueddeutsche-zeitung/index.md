@@ -3,7 +3,11 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Süddeutsche Zeitung
 description: Überregionale deutsche Tageszeitung, München
-tags: [ more-research-needed, Deutschland, Nachrichten, Zeitung ]
+tags:
+  - more-research-needed
+  - Deutschland
+  - Nachrichten
+  - Zeitung
 ---
 
 ## Über die Quelle

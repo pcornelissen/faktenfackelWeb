@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Dr Idz
 description: Britischer Arzt und Content-Creator, kommentiert medizinische und Ernährungs-Themen auf Social Media
-tags: [ more-research-needed, Medizin, Ernährung, USA, UK ]
+tags:
+  - more-research-needed
+  - Medizin
+  - Ernährung
+  - USA
+  - UK
 ---
 
 ## Über die Quelle

@@ -3,7 +3,8 @@ date: 2026-01-18
 publishedOn: 2026-01-18
 name: Statista
 description: Privates Unternehmen für Statistische Auswertungen
-tags: [ Wissenschaft ]
+tags:
+  - Wissenschaft
 ---
 
 ## Über die Quelle

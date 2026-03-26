@@ -3,7 +3,9 @@ date: 2026-01-11
 publishedOn: 2026-01-11
 name: Prof. Dr. Gerhard Bäcker
 description: Soziologe
-tags: [ Sozialwissenschaft, Gesellschaftswissenschaft ]
+tags:
+  - Sozialwissenschaft
+  - Gesellschaftswissenschaft
 ---
 
 ## Über die Quelle

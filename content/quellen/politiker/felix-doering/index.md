@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Felix Döring
 description: SPD-Politiker, MdHB Hamburg, Sprecher für Gleichstellung
-tags: [ more-research-needed, SPD, Hamburg, Deutschland, MdHB ]
+tags:
+  - more-research-needed
+  - SPD
+  - Hamburg
+  - Deutschland
+  - MdHB
 imageAuthor: JUSOS
 ---
 

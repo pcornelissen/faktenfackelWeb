@@ -3,7 +3,10 @@ date: 2026-01-11
 publishedOn: 2026-01-11
 name: Statistisches Bundesamt
 description: Bundesamt für Statistiken rund um Deutschland
-tags: [ Staatlich, Statistik, Gesellschaft ]
+tags:
+  - Staatlich
+  - Statistik
+  - Gesellschaft
 ---
 
 ## Über die Quelle

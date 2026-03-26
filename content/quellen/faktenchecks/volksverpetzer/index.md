@@ -4,7 +4,11 @@ publishedOn: 2026-01-11
 name: Volksverpetzer
 description: Faktencheck-Blog
 imageAuthor: Volksverpetzer Teamfoto, Homepage
-tags: [ Unabhängig,  Antifaschist, Journalist, Faktenchecker ]
+tags:
+  - Unabhängig
+  - Antifaschist
+  - Journalist
+  - Faktenchecker
 ---
 
 ## Über die Quelle

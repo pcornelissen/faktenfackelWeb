@@ -4,7 +4,9 @@ date: 2025-12-03
 title: "Begriffserklärung: Dog-Whistle"
 subject: "Dog-Whistle"
 
-tags: [Glossar, Kommunikation ]
+tags:
+  - Glossar
+  - Kommunikation
 ---
 
 Ein **"Dog-Whistle"** (wörtlich: *Hundepfeife*) ist ein Begriff aus der Kommunikations- und Politikanalyse.

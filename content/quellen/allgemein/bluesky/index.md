@@ -4,7 +4,8 @@ publishedOn: 2026-02-01
 name: Bluesky Beiträge
 description: Beiträge von diversen Accounts auf bluesky
 imageAuthor: Bluesky
-tags: [ Bluesky ]
+tags:
+  - Bluesky
 ---
 
 ## Über die Quelle

@@ -3,7 +3,10 @@ date: 2026-01-15
 publishedOn: 2026-01-18
 name: "CORRECTIV"
 description: Recherchen für die Gesellschaft
-tags: [ Faktencheck, Journalismus, NGO ]
+tags:
+  - Faktencheck
+  - Journalismus
+  - NGO
 ---
 
 ## Über die Quelle

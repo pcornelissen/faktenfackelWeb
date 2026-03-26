@@ -3,7 +3,10 @@ date: 2026-01-15
 publishedOn: 2026-01-16
 name: Mediendienst Integration
 description: Recherche-Service für Journalistinnen und Journalisten
-tags: [ Journalist, Zeitschrift, Medien ]
+tags:
+  - Journalist
+  - Zeitschrift
+  - Medien
 ---
 
 ## Über die Quelle

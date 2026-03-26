@@ -4,7 +4,13 @@ publishedOn: 2026-01-25
 name: Anna Connelly
 description: Content Creatorin, Minneapolis
 imageAuthor: Instagram, annaconnellyiscool
-tags: [ Creator, Social Media, Facebook, Instagram, MAGA, Autoritarismus]
+tags:
+  - Creator
+  - Social Media
+  - Facebook
+  - Instagram
+  - MAGA
+  - Autoritarismus
 ---
 
 ## Über die Quelle

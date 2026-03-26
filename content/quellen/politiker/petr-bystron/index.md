@@ -4,7 +4,11 @@ publishedOn: 2026-02-13
 name: Petr Bystron
 description: Politiker, AfD
 imageAuthor: Steffen Prößdorf
-tags: [ AfD, Politiker, Bundestag, Bestechung ]
+tags:
+  - AfD
+  - Politiker
+  - Bundestag
+  - Bestechung
 ---
 
 ## Über die Quelle

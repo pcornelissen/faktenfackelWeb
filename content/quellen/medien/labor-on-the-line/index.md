@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Labor On the Line
 description: US-amerikanische gewerkschaftliche und arbeitsrechtliche Aktivismus-Seite
-tags: [ more-research-needed, USA, Gewerkschaft, Aktivismus, Arbeit ]
+tags:
+  - more-research-needed
+  - USA
+  - Gewerkschaft
+  - Aktivismus
+  - Arbeit
 ---
 
 ## Über die Quelle

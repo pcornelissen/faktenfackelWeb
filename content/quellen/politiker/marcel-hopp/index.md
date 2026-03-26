@@ -4,7 +4,11 @@ publishedOn: 2026-01-30
 name: Marcel Hopp
 description: SPD Politiker, MdA Berlin, Lehrer
 imageAuthor: SPD Berlin
-tags: [ SPD, Lehrer, Politik, Berlin ]
+tags:
+  - SPD
+  - Lehrer
+  - Politik
+  - Berlin
 ---
 
 ## Über die Quelle

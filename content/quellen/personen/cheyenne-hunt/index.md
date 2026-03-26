@@ -4,7 +4,14 @@ publishedOn: 2026-03-09
 name: Cheyenne Hunt
 description: US-amerikanische politische Kommentatorin und Content Creatorin
 imageAuthor: Los Angeles Times
-tags: [ more-research-needed, Creator, Social Media, Facebook, USA, Politik, Gesellschaft ]
+tags:
+  - more-research-needed
+  - Creator
+  - Social Media
+  - Facebook
+  - USA
+  - Politik
+  - Gesellschaft
 ---
 
 ## Über die Quelle

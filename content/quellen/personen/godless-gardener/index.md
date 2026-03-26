@@ -3,7 +3,13 @@ date: 2026-03-10
 publishedOn: 2026-03-10
 name: Godless Gardener
 description: US-amerikanischer Atheist und Skeptiker, der religiöse Behauptungen und konservative Mythen mit Fakten und Humor widerlegt
-tags: [ Facebook, Atheismus, Religion, USA, Englisch, more-research-needed ]
+tags:
+  - Facebook
+  - Atheismus
+  - Religion
+  - USA
+  - Englisch
+  - more-research-needed
 ---
 date: 2026-03-10
 publishedOn: 2026-03-10

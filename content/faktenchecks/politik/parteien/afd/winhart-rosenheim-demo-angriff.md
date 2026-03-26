@@ -4,7 +4,13 @@ date: 2026-03-08
 title: "Laut AFD: Jugendliche greifen 70-jährigen an"
 subtitle: Zum Vorfall vom 28. Februar 2026 am AfD-Wahlkampfstand
 verdict: false
-tags: [ AfD, Demo, Rosenheim, Winhart, Propaganda, Vortäuschung falscher Tatsachen ]
+tags:
+  - AfD
+  - Demo
+  - Rosenheim
+  - Winhart
+  - Propaganda
+  - Vortäuschung falscher Tatsachen
 ---
 
 ## Was ist passiert?

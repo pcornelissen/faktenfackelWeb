@@ -3,7 +3,8 @@ date: 2026-01-09
 publishedOn: 2026-02-01
 name: Tiktok Beiträge
 description: Beiträge von diversen Accounts auf Tiktok
-tags: [ Tiktok ]
+tags:
+  - Tiktok
 ---
 
 ## Über die Quelle

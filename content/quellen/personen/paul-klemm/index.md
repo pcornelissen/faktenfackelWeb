@@ -4,7 +4,8 @@ publishedOn: 2026-01-25
 name: Paul Klemm
 description: Compact TV, Gesellschafter CONSPECT FILM GmbH
 imageAuthor: Jungeuropa Verlag, X/Twitter
-tags: [ Compact ]
+tags:
+  - Compact
 ---
 
 ## Über die Quelle

@@ -3,7 +3,10 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Women in America
 description: Englischsprachiger Kanal zu Frauenrechten und gesellschaftlichen Themen in den USA
-tags: [ more-research-needed, Frauenrechte, USA, Geschichte ]
+tags:
+  - Frauenrechte
+  - USA
+  - Geschichte
 ---
 
 ## Über die Quelle

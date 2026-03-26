@@ -4,7 +4,12 @@ publishedOn: 2026-03-10
 name: We are watching you
 description: Deutsche politische Kommentarseite mit Fokus auf AfD und Demokratiegefährdung
 image: profile.jpg
-tags: [ more-research-needed, Deutschland, AfD, Demokratie, Politik ]
+tags:
+  - more-research-needed
+  - Deutschland
+  - AfD
+  - Demokratie
+  - Politik
 ---
 
 ## Über die Quelle

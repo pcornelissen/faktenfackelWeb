@@ -4,7 +4,12 @@ publishedOn: 2026-03-09
 name: The Justice Guy
 description: Amerikanische Rechtskommentarseite mit rechtspolitischen Analysen zu US-Themen
 image: profile.jpg
-tags: [ more-research-needed, USA, Justiz, Recht, Trump ]
+tags:
+  - more-research-needed
+  - USA
+  - Justiz
+  - Recht
+  - Trump
 ---
 
 ## Über die Quelle

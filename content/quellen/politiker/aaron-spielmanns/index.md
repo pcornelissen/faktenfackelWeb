@@ -3,7 +3,13 @@ date: 2026-01-27
 publishedOn: 2026-03-10
 name: Aaron Spielmanns
 description: SPD-Bundestagskandidat im Rhein-Erft-Kreis I
-tags: [ more-research-needed, SPD, Bundestagswahl, Rhein-Erft-Kreis, NRW, Politiker ]
+tags:
+  - more-research-needed
+  - SPD
+  - Bundestagswahl
+  - Rhein-Erft-Kreis
+  - NRW
+  - Politiker
 ---
 
 ## Über die Quelle

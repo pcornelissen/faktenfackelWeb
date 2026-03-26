@@ -4,7 +4,13 @@ publishedOn: 2026-03-09
 name: Christoph Sieber
 description: Deutscher Kabarettist und Satiriker (WDR)
 imageAuthor: Kultur in Ebersberg
-tags: [ more-research-needed, Kabarett, Satire, Deutschland, Humor, WDR ]
+tags:
+  - more-research-needed
+  - Kabarett
+  - Satire
+  - Deutschland
+  - Humor
+  - WDR
 ---
 
 ## Über die Quelle

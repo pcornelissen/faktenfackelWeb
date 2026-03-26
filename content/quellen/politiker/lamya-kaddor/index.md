@@ -3,7 +3,14 @@ date: 2026-02-01
 publishedOn: 2026-03-09
 name: Lamya Kaddor
 description: Politikerin, SPD, MdB
-tags: [ more-research-needed, SPD, Integration, Islam, Migration, Antifaschismus, Einbürgerung ]
+tags:
+  - more-research-needed
+  - SPD
+  - Integration
+  - Islam
+  - Migration
+  - Antifaschismus
+  - Einbürgerung
 imageAuthor: Deutschlandfunk Kultur
 ---
 

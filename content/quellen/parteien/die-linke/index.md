@@ -3,7 +3,10 @@ date: 2026-01-19
 publishedOn: 2026-01-19
 name: Die Linke
 description: Partei
-tags: [ Partei, links, Die Linke ]
+tags:
+  - Partei
+  - links
+  - Die Linke
 ---
 
 ## Über die Quelle

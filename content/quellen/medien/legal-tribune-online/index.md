@@ -3,7 +3,11 @@ date: 2026-01-24
 publishedOn: 2026-01-24
 name: Legal Tribune Online
 description: Online- und Printmagazin
-tags: [ Journalist, Zeitschrift, Medien, Jura ]
+tags:
+  - Journalist
+  - Zeitschrift
+  - Medien
+  - Jura
 ---
 
 ## Über die Quelle

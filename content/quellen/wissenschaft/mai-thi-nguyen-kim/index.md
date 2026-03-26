@@ -3,7 +3,13 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Dr. Mai Thi Nguyen-Kim
 description: Wissenschaftsjournalistin, Chemikerin und Fernsehmoderatorin (MaiThink X, ZDF)
-tags: [ more-research-needed, Wissenschaft, Journalismus, ZDF, YouTube, Deutschland ]
+tags:
+  - more-research-needed
+  - Wissenschaft
+  - Journalismus
+  - ZDF
+  - YouTube
+  - Deutschland
 ---
 
 ## Über die Quelle

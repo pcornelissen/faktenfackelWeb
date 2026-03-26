@@ -3,7 +3,10 @@ date: 2026-01-15
 publishedOn: 2026-01-16
 name: Der Spiegel
 description: Online- und Printmagazin
-tags: [ Journalist, Zeitschrift, Medien ]
+tags:
+  - Journalist
+  - Zeitschrift
+  - Medien
 ---
 
 ## Über die Quelle

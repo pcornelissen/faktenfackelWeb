@@ -3,7 +3,9 @@ date: 2026-03-08
 publishedOn: 2026-03-08
 name: t-online
 description: Deutsches Nachrichtenportal
-tags: [ Nachrichtenportal, Medien ]
+tags:
+  - Nachrichtenportal
+  - Medien
 ---
 
 ## Über die Quelle

@@ -4,7 +4,11 @@ publishedOn: 2026-01-25
 name: Toni Schuberl
 description: Politiker, Bündnis 90/Die Grünen, Landtag Bayern
 imageAuthor: PNP.de
-tags: [ Die Grünen, Agrarpolitik, Klimaschutz, Antifaschist ]
+tags:
+  - Die Grünen
+  - Agrarpolitik
+  - Klimaschutz
+  - Antifaschist
 ---
 
 ## Über die Quelle

@@ -3,7 +3,11 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Blackoutthesystem
 description: US-amerikanische politische Kommentar-Seite, pro-palästinensisch und kapitalismuskritisch
-tags: [ more-research-needed, USA, Politik, Palästina ]
+tags:
+  - more-research-needed
+  - USA
+  - Politik
+  - Palästina
 ---
 
 ## Über die Quelle

@@ -3,7 +3,10 @@ date: 2026-01-11
 publishedOn: 2026-01-11
 name: Institut der deutschen Wirtschaft
 description:  Wirtschaftsforschungsinstitut, Arbeitgeber-nah
-tags: [ Forschung, Wirtschaft, Institut ]
+tags:
+  - Forschung
+  - Wirtschaft
+  - Institut
 ---
 
 ## Über die Quelle

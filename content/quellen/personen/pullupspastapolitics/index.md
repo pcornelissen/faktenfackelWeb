@@ -3,7 +3,14 @@ date: 2026-03-10
 publishedOn: 2026-03-10
 name: Pullupspastapolitics
 description: US-amerikanische Aktivistin und Content Creatorin, die über Reproduktionsrechte, Abtreibungsgesetze und US-Politik informiert
-tags: [ Facebook, USA, Abtreibung, Reproduktionsrechte, Feminismus, Englisch, more-research-needed ]
+tags:
+  - Facebook
+  - USA
+  - Abtreibung
+  - Reproduktionsrechte
+  - Feminismus
+  - Englisch
+  - more-research-needed
 ---
 date: 2026-03-10
 publishedOn: 2026-03-10

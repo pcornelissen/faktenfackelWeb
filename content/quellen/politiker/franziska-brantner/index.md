@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Franziska Brantner
 description: Bundesvorsitzende von Bündnis 90/Die Grünen, MdB
-tags: [ more-research-needed, Grüne, Deutschland, MdB, Bundesvorsitzende ]
+tags:
+  - more-research-needed
+  - Grüne
+  - Deutschland
+  - MdB
+  - Bundesvorsitzende
 imageAuthor: Kay Nietfeld/dpa
 ---
 

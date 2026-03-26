@@ -4,7 +4,12 @@ publishedOn: 2026-03-08
 name: Charles McBryde
 description: Wissenschaftler, Historiker
 imageAuthor: Substack/@charlespmcbryde
-tags: [ Wissenschaft, Geschichte, Faschismus, USA, more-research-needed ]
+tags:
+  - Wissenschaft
+  - Geschichte
+  - Faschismus
+  - USA
+  - more-research-needed
 ---
 
 ## Über die Quelle

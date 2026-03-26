@@ -3,7 +3,9 @@ date: 2026-01-09
 publishedOn: 2026-01-16
 name: Institut für Arbeitsmarkt- und Berufsforschung
 description: Forschungseinrichtung der Bundesagentur für Arbeit
-tags: [ Wissenschaft, Arbeitsmarkt ]
+tags:
+  - Wissenschaft
+  - Arbeitsmarkt
 ---
 
 ## Über die Quelle

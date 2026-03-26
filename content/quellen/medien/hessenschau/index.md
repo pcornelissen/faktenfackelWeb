@@ -3,7 +3,10 @@ date: 2026-01-18
 publishedOn: 2026-01-19
 name: Hessenschau
 description: Nachrichtenmagazin des Hessischen Rundfunks
-tags: [ Journalist, Medien, ÖRR ]
+tags:
+  - Journalist
+  - Medien
+  - ÖRR
 ---
 
 ## Über die Quelle

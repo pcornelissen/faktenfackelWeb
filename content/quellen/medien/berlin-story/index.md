@@ -3,7 +3,8 @@ date: 2026-01-18
 publishedOn: 2026-01-18
 name: Berlin Story
 description: Online Nachrichtenmagazin
-tags: [ Journalist ]
+tags:
+  - Journalist
 ---
 
 ## Über die Quelle

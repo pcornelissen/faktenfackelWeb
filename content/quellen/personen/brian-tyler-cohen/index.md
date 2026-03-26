@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Brian Tyler Cohen
 description: US-amerikanischer progressiver Politikkommentator, Podcaster und Newsletter-Autor
-tags: [ more-research-needed, USA, Trump, Progressiv, Podcast ]
+tags:
+  - more-research-needed
+  - USA
+  - Trump
+  - Progressiv
+  - Podcast
 ---
 
 ## Über die Quelle

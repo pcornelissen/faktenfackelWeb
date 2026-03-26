@@ -4,7 +4,9 @@ publishedOn: 2026-01-19
 name: Sina Reisch
 description: Klimagerechtigkeitsaktivistin, Podcasterin
 imageAuthor: Georg Kurz - Ende Gelände
-tags: [ Aktivist, Klimawandel ]
+tags:
+  - Aktivist
+  - Klimawandel
 ---
 
 ## Über die Quelle

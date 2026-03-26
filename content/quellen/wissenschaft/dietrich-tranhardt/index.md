@@ -4,7 +4,10 @@ publishedOn: 2026-01-16
 name: Prof. em. Dr. rer. soc. Dietrich Tränhardt
 description: Politikwissenschaftler und Migrationsforscher
 imageAuthor: Stephan Röhl für Heinrich-Böll-Stiftung
-tags: [ Wissenschaft, Politik, Migration ]
+tags:
+  - Wissenschaft
+  - Politik
+  - Migration
 ---
 
 ## Über die Quelle

@@ -3,7 +3,10 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Mercedes Chandler
 description: US-amerikanische Content-Creatorin, kommentiert politische und gesellschaftliche Themen
-tags: [ more-research-needed, USA, Content-Creator ]
+tags:
+  - more-research-needed
+  - USA
+  - Content-Creator
 ---
 
 ## Über die Quelle

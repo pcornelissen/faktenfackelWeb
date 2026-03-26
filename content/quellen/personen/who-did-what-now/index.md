@@ -3,7 +3,13 @@ date: 2026-03-10
 publishedOn: 2026-03-10
 name: Who Did What Now?
 description: Podcast und Social-Media-Kanal von Historikerin Katie Charlwood
-tags: [ Facebook, Podcast, Geschichte, Soziologie, Englisch, more-research-needed ]
+tags:
+  - Facebook
+  - Podcast
+  - Geschichte
+  - Soziologie
+  - Englisch
+  - more-research-needed
 ---
 date: 2026-03-10
 publishedOn: 2026-03-10

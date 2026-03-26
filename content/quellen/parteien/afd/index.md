@@ -3,7 +3,10 @@ date: 2026-01-19
 publishedOn: 2026-02-17
 name: Die "Alternative für Deutschland"
 description: Partei
-tags: [ Partei, rechts, AfD ]
+tags:
+  - Partei
+  - rechts
+  - AfD
 ---
 
 ## Über die Quelle

@@ -4,7 +4,11 @@ date: 2025-12-11
 title: "Begriffserklärung: tl;dr" 
 subject: "tl;dr"  
 
-tags: [Glossar, Rechtlich, Behörde, Verfahren ]
+tags:
+  - Glossar
+  - Rechtlich
+  - Behörde
+  - Verfahren
 ---
 
 Man trifft immer wieder die Abkürzung "**TL;DR**" (oder einfach "tldr"), doch was bedeutet sie?

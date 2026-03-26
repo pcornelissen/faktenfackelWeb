@@ -4,7 +4,11 @@ publishedOn: 2026-01-25
 name: Michael Brück
 description: Ehem. Landesvorsitzender "Die Rechte", "Freie Sachsen" Mitglied
 imageAuthor: WDR
-tags: [ Freie Sachsen, Die Rechte, Pro Chemnitz, DSU ]
+tags:
+  - Freie Sachsen
+  - Die Rechte
+  - Pro Chemnitz
+  - DSU
 ---
 
 ## Über die Quelle

@@ -3,7 +3,10 @@ date: 2026-01-14
 publishedOn: 2026-01-14
 name: Bundeskriminalamt
 description: Bundesbehörde
-tags: [ Staatlich, Kriminalität, Strafverfolgung ]
+tags:
+  - Staatlich
+  - Kriminalität
+  - Strafverfolgung
 ---
 
 ## Über die Quelle

@@ -3,7 +3,9 @@ date: 2025-12-13
 publishedOn: 2026-01-27
 name: Mitteldeutscher Rundfunk (MDR)
 description: Öffentlich rechtlicher Rundfunk
-tags: [ Medien, ÖRR ]
+tags:
+  - Medien
+  - ÖRR
 ---
 
 ## Über die Quelle

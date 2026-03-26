@@ -3,7 +3,9 @@ date: 2026-01-09
 publishedOn: 2026-01-18
 name: Wikipedia
 description: Wiki, Online Enzyklopädie
-tags: [ Unabhängig,  Wiki ]
+tags:
+  - Unabhängig
+  - Wiki
 ---
 
 ## Über die Quelle

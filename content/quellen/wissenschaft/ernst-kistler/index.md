@@ -4,7 +4,9 @@ publishedOn: 2026-01-11
 name: Prof. Dr. Ernst Kistler
 description: 
 imageAuthor: INIFES
-tags: [ Sozialwissenschaftler, Arbeitsmarkt ]
+tags:
+  - Sozialwissenschaftler
+  - Arbeitsmarkt
 ---
 
 ## Über die Quelle

@@ -4,7 +4,13 @@ publishedOn: 2026-03-09
 name: Sarah Bosetti
 description: Deutsche Satirikerin und Autorin, Moderatorin von "Bosetti will reden" (ZDF)
 imageAuthor: Superbass
-tags: [ more-research-needed, Satire, ZDF, Journalismus, Deutschland, Social Media ]
+tags:
+  - more-research-needed
+  - Satire
+  - ZDF
+  - Journalismus
+  - Deutschland
+  - Social Media
 ---
 
 ## Über die Quelle

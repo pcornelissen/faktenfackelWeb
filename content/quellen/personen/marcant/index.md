@@ -3,7 +3,11 @@ date: 2026-03-09
 publishedOn: 2026-01-25
 name: Marcant
 description: Deutschsprachiger Reaktions-Creator, kommentiert Rechtsextremismus und Faschismus
-tags: [ more-research-needed, Deutschland, Antifaschismus, Content-Creator ]
+tags:
+  - more-research-needed
+  - Deutschland
+  - Antifaschismus
+  - Content-Creator
 ---
 
 ## Über die Quelle

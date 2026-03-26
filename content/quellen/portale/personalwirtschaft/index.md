@@ -3,7 +3,11 @@ date: 2026-01-15
 publishedOn: 2026-01-16
 name: Personalwirtschaft
 description: Portal von der F.A.Z. BUSINESS MEDIA GmbH (Bekannt durch die Frankfurter Allgemeine Zeitung)
-tags: [ Journalist, Zeitschrift, Medien, Personalwirtschaft ]
+tags:
+  - Journalist
+  - Zeitschrift
+  - Medien
+  - Personalwirtschaft
 ---
 
 ## Über die Quelle

@@ -4,7 +4,9 @@ publishedOn: 2026-01-11
 name: Erik Türk
 description: Volkswirt, Rentenkammer Wien
 imageAuthor: Erik Türk, LinkedIn
-tags: [ Rente, Wirtschaft ]
+tags:
+  - Rente
+  - Wirtschaft
 ---
 
 ## Über die Quelle

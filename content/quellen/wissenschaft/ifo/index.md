@@ -3,7 +3,9 @@ date: 2026-01-09
 publishedOn: 2026-01-11
 name: ifo Institut
 description: Wirtschaftsforschungsinstitut
-tags: [ Wissenschaft, Wirtschaft ]
+tags:
+  - Wissenschaft
+  - Wirtschaft
 ---
 
 ## Über die Quelle

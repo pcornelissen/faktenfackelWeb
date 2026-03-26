@@ -4,7 +4,13 @@ publishedOn: 2026-03-08
 name: Clara Bünger
 description: Politikerin, Die Linke
 imageAuthor: clarabuenger.de
-tags: [ Partei, Die Linke, Demokratie, Antifaschismus, Migration, more-research-needed  ]
+tags:
+  - Partei
+  - Die Linke
+  - Demokratie
+  - Antifaschismus
+  - Migration
+  - more-research-needed
 ---
 
 ## Über die Quelle

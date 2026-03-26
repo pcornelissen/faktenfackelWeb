@@ -4,7 +4,8 @@ publishedOn: 2026-01-25
 name: Facebook Beiträge
 description: Beiträge von diversen Accounts auf Facebook
 imageAuthor: Facebook 
-tags: [ Facebook ]
+tags:
+  - Facebook
 ---
 
 ## Über die Quelle

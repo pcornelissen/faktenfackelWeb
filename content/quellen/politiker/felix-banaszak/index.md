@@ -4,7 +4,12 @@ publishedOn: 2026-03-09
 name: Felix Banaszak
 description: Politiker, Grüne, MdB, Bundesvorsitzender der Grünen
 imageAuthor: Dominik Butzmann
-tags: [ more-research-needed, Grüne, Sozialpolitik, Deutschland, MdB ]
+tags:
+  - more-research-needed
+  - Grüne
+  - Sozialpolitik
+  - Deutschland
+  - MdB
 ---
 
 ## Über die Quelle

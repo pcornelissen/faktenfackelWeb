@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: The History Wizard
 description: Englischsprachiger Bildungskanal zu Geschichte, Wissenschaft und gesellschaftlichen Themen
-tags: [ more-research-needed, Bildung, Geschichte, Wissenschaft, USA ]
+tags:
+  - more-research-needed
+  - Bildung
+  - Geschichte
+  - Wissenschaft
+  - USA
 ---
 
 ## Über die Quelle

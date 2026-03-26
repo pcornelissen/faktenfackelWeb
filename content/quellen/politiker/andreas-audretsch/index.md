@@ -4,7 +4,13 @@ publishedOn: 2026-01-08
 name: Andreas Audretsch
 description: Politiker, Bündnis-90/Die Grünen
 imageAuthor: Das Progressive Zentrum
-tags: [ SPD, Journalist, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
+tags:
+  - SPD
+  - Journalist
+  - Energie
+  - Klimaschutz
+  - Antifaschist
+  - Gesellschaft
 ---
 
 ## Über die Quelle

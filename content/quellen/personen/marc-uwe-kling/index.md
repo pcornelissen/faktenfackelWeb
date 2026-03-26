@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Marc-Uwe Kling
 description: Deutscher Autor, Kabarettist und Slam-Poet (Känguru-Chroniken)
-tags: [ more-research-needed, Kabarett, Literatur, Social Media, Deutschland ]
+tags:
+  - more-research-needed
+  - Kabarett
+  - Literatur
+  - Social Media
+  - Deutschland
 ---
 
 ## Über die Quelle

@@ -3,7 +3,8 @@ date: 2026-03-10
 publishedOn: 2026-03-10
 name: Fraktion Die Linke im Bundestag
 description: Bundestagsfraktion der Partei Die Linke
-tags: [more-research-needed]
+tags:
+  - more-research-needed
 ---
 date: 2026-03-10
 publishedOn: 2026-03-10

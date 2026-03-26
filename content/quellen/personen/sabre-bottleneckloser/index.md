@@ -3,7 +3,15 @@ date: 2026-02-01
 publishedOn: 2026-03-09
 name: Sabre // bottleneckloser
 description: US-Kommentatorin, Social-Media-Content-Creator
-tags: [ more-research-needed, Creator, Social Media, Facebook, USA, Trans, LGBT, Gesellschaft ]
+tags:
+  - more-research-needed
+  - Creator
+  - Social Media
+  - Facebook
+  - USA
+  - Trans
+  - LGBT
+  - Gesellschaft
 ---
 
 ## Über die Quelle

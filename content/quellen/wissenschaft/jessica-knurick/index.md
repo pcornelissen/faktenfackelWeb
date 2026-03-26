@@ -3,7 +3,14 @@ date: 2026-03-08
 publishedOn: 2026-03-08
 name: Jessica Knurick
 description: Ernährungswissenschaftlerin, PhD, RD
-tags: [ Creator, Social Media, Facebook, Wissenschaft, Ernährung, Faktencheck, more-research-needed ]
+tags:
+  - Creator
+  - Social Media
+  - Facebook
+  - Wissenschaft
+  - Ernährung
+  - Faktencheck
+  - more-research-needed
 ---
 
 ## Über die Quelle

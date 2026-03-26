@@ -4,7 +4,9 @@ publishedOn: 2026-02-20
 name: Maximilian Krah
 description: AfD Politiker und Jurist
 imageAuthor: European Union, 1998 – 2026
-tags: [ AfD, Jurist-in ]
+tags:
+  - AfD
+  - Jurist-in
 ---
 
 ## Über die Quelle

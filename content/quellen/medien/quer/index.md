@@ -3,7 +3,9 @@ date: 2026-01-30
 publishedOn: 2026-01-30
 name: quer
 description: BR-Politmagazin, TV-Format
-tags: [ Journalist, ÖRR ]
+tags:
+  - Journalist
+  - ÖRR
 ---
 
 ## Über die Quelle

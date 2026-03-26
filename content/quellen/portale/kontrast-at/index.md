@@ -3,7 +3,12 @@ date: 2026-02-01
 publishedOn: 2026-03-09
 name: kontrast.at
 description: Österreichisches progressives Online-Medienportal
-tags: [ more-research-needed, Österreich, Medien, Portal, Wirtschaft, Sozialpolitik ]
+tags:
+  - Österreich
+  - Medien
+  - Portal
+  - Wirtschaft
+  - Sozialpolitik
 ---
 
 ## Über die Quelle

@@ -3,7 +3,14 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Chaos Computer Club (CCC)
 description: Größte europäische Hackervereinigung, Medienplattform media.ccc.de
-tags: [ more-research-needed, CCC, Technologie, Datenschutz, Überwachung, Deutschland, Hacking ]
+tags:
+  - more-research-needed
+  - CCC
+  - Technologie
+  - Datenschutz
+  - Überwachung
+  - Deutschland
+  - Hacking
 ---
 
 ## Über die Quelle

@@ -4,7 +4,12 @@ publishedOn: 2026-03-10
 name: Yung Emil
 description: Deutscher Digital Creator mit politischen Kommentaren zu Medien und AfD
 image: profile.jpg
-tags: [ more-research-needed, Deutschland, Medien, AfD, Politik ]
+tags:
+  - more-research-needed
+  - Deutschland
+  - Medien
+  - AfD
+  - Politik
 ---
 
 ## Über die Quelle

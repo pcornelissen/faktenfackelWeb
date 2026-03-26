@@ -3,7 +3,8 @@ date: 2026-01-18
 publishedOn: 2026-01-18
 name: Presseportal
 description: Presseportal der deutschen Presse Agentur
-tags: [ Nachrichten ]
+tags:
+  - Nachrichten
 ---
 
 ## Über die Quelle

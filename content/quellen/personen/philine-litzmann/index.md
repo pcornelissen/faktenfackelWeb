@@ -4,7 +4,11 @@ publishedOn: 2026-01-11
 name: Philine Lietzmann
 description: Journalistin, Focus
 imageAuthor: Philine Lietzmann, Focus Online
-tags: [ Focus, Journalist,  Politik, Wirtschaft ]
+tags:
+  - Focus
+  - Journalist
+  - Politik
+  - Wirtschaft
 ---
 
 ## Über die Quelle

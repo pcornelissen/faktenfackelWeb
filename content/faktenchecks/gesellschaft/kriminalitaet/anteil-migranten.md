@@ -4,7 +4,10 @@ date: 2025-12-12
 title: Kriminalität bei Ausländern und Deutschen
 verdict: misleading
 subtitle: Widersprüche, Probleme und Fakten
-tags: [ Migranten, Kriminalität, Stadtbild ]
+tags:
+  - Migranten
+  - Kriminalität
+  - Stadtbild
 ---
 
 ## Was ist passiert?

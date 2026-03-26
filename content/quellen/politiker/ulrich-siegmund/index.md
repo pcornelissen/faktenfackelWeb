@@ -4,7 +4,9 @@ publishedOn: 2026-01-30
 name: Ulrich Siegmund
 description: AfD Politiker, Bachelor of Arts (Wirtschaftspsychologie, BWL)
 imageAuthor: AFD, Landtag Sachsen-Anhalt
-tags: [ AfD, Jurist-in ]
+tags:
+  - AfD
+  - Jurist-in
 ---
 
 ## Über die Quelle

@@ -4,7 +4,10 @@ date: 2026-01-16
 title: Migranten arbeiten nicht?
 verdict: false
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
-tags: [Migranten, Arbeit, Stadtbild]
+tags:
+  - Migranten
+  - Arbeit
+  - Stadtbild
 ---
 
 ## Was ist passiert?

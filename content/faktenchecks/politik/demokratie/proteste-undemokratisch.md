@@ -4,7 +4,11 @@ date: 2026-01-19
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Proteste, wie in Gießen
 verdict: false
-tags: [ AfD, Generation-Deutschland, Demokratie, Proteste ]
+tags:
+  - AfD
+  - Generation-Deutschland
+  - Demokratie
+  - Proteste
 ---
 
 ## Was ist passiert?

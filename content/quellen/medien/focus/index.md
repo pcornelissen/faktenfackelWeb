@@ -3,7 +3,10 @@ date: 2026-01-11
 publishedOn: 2026-01-11
 name: Focus-Online
 description: Onlineausgabe der Zeitschrift Focus
-tags: [ Journalist, Zeitschrift, Medien ]
+tags:
+  - Journalist
+  - Zeitschrift
+  - Medien
 ---
 
 ## Über die Quelle

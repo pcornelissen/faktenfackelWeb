@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Volker Quaschning
 description: Professor für Regenerative Energiesysteme, HTW Berlin
-tags: [ more-research-needed, Wissenschaft, Energie, Klimaschutz, Deutschland ]
+tags:
+  - more-research-needed
+  - Wissenschaft
+  - Energie
+  - Klimaschutz
+  - Deutschland
 imageAuthor: Hanser
 ---
 

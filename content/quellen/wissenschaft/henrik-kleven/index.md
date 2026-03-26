@@ -3,7 +3,9 @@ date: 2026-01-14
 publishedOn: 2026-01-14
 name: Hendrik Jacobson Kleven
 description: Wirtschaftswissenschaftler, Princeton University
-tags: [ Wirtschaft, Wissenschaftler ]
+tags:
+  - Wirtschaft
+  - Wissenschaftler
 ---
 
 ## Über die Quelle

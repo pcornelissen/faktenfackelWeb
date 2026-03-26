@@ -3,7 +3,12 @@ date: 2026-03-09
 publishedOn: 2026-03-09
 name: Geradeausdenker Plauen
 description: Deutschsprachiger Kommentarkanal zu Politik, AfD und gesellschaftlichen Themen aus Plauen/Sachsen
-tags: [ more-research-needed, Politik, AfD, Deutschland, Sachsen ]
+tags:
+  - more-research-needed
+  - Politik
+  - AfD
+  - Deutschland
+  - Sachsen
 ---
 
 ## Über die Quelle

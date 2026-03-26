@@ -4,7 +4,9 @@ publishedOn: 2026-02-13
 name: Andreas Winhart
 description: AfD Politiker
 imageAuthor: Bayrischer Landtag
-tags: [ AfD, Jurist-in ]
+tags:
+  - AfD
+  - Jurist-in
 ---
 
 ## Über die Quelle

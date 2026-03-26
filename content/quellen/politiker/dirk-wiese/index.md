@@ -4,7 +4,13 @@ publishedOn: 2026-01-08
 name: Dirk Wiese
 description: Politiker, SPD
 imageAuthor: Rafael P. D. Suppmann
-tags: [ SPD, Journalist, Energie, Klimaschutz, Antifaschist, Gesellschaft ]
+tags:
+  - SPD
+  - Journalist
+  - Energie
+  - Klimaschutz
+  - Antifaschist
+  - Gesellschaft
 ---
 
 ## Über die Quelle

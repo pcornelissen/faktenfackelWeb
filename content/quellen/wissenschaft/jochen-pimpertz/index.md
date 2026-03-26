@@ -4,7 +4,9 @@ publishedOn: 2026-01-11
 name: Dr. Jochen Pimpertz
 description: Volkswirt, Leiter des Clusters Staat, Steuern und Soziale Sicherung IW Köln
 imageAuthor: IW Köln
-tags: [ Volkswirt, IWKöln ]
+tags:
+  - Volkswirt
+  - IWKöln
 ---
 
 ## Über die Quelle

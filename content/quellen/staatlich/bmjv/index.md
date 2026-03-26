@@ -3,7 +3,10 @@ date: 2026-01-15
 publishedOn: 2026-01-16
 name: "Bundesministerium der Justiz und Verbraucherschutz"
 description: Bundesministerium
-tags: [ Staatlich, Justiz, Verbraucherschutz ]
+tags:
+  - Staatlich
+  - Justiz
+  - Verbraucherschutz
 ---
 
 ## Über die Quelle

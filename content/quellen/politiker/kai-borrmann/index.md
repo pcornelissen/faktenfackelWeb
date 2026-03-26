@@ -4,7 +4,14 @@ publishedOn: 2026-02-13
 name: Dr. Kai Borrmann
 description: Politiker, AfD
 imageAuthor: IMAGO/Olaf Wagner
-tags: [ AfD, Politiker, Bundestag, Verurteilt, Rassismus, Beleidigung, Körperverletzung ]
+tags:
+  - AfD
+  - Politiker
+  - Bundestag
+  - Verurteilt
+  - Rassismus
+  - Beleidigung
+  - Körperverletzung
 ---
 
 ## Über die Quelle

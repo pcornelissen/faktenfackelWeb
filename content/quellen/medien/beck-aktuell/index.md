@@ -3,7 +3,9 @@ date: 2026-01-11
 publishedOn: 2026-01-18
 name: Beck Aktuell
 description: Verlag, Jura
-tags: [ Verlag, Jura ]
+tags:
+  - Verlag
+  - Jura
 ---
 
 ## Über die Quelle

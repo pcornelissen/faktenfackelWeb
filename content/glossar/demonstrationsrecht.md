@@ -4,7 +4,10 @@ date: 2026-03-02
 title: "Begriffserklärung: Demonstrationsrecht"
 subject: "Demonstrationsrecht"
 
-tags: [Glossar, Recht, Demonstration ]
+tags:
+  - Glossar
+  - Recht
+  - Demonstration
 ---
 
 ## Definition

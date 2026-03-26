@@ -3,7 +3,9 @@ date: 2026-01-29
 publishedOn: 2026-01-30
 name: Monitor
 description: ARD-Politmagazin, TV-Format
-tags: [ Journalist, ÖRR ]
+tags:
+  - Journalist
+  - ÖRR
 ---
 
 ## Über die Quelle
