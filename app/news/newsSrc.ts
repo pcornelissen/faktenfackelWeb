@@ -84,4 +84,8 @@ export const newsSrc: NewsItem[] = [
     date: new Date('2026-03-14'),
     title: 'Video zu "The Hangman" veröffentlicht',
   },
+  {
+    date: new Date('2026-03-26'),
+    title: 'Gut 40 importierte Quellenlinks vervollständigt, es geht voran!',
+  },
 ]
