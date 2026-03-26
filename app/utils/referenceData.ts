@@ -3,6 +3,7 @@ import { nowIso } from '~/utils/contentUtils'
 
 export type Source = {
   date: string
+  publishedOn: string
   name: string
   description: string
   path: string
@@ -11,6 +12,8 @@ export type Source = {
 }
 export type SourceLink = {
   date: string
+  sourceDate: string
+  publishedOn: string
   title: string
   code: string
   uri: string
@@ -47,7 +50,7 @@ export const referencesStore = reactive({
   linkByCode(code: string): SourceLink {
     return this.links.get(code) || {
       title: code + ' not found',
-      date: '', code: '', uri: '', type: '', path: '', tags: [], coSources: [],
+      date: '', sourceDate: '', publishedOn: '', code: '', uri: '', type: '', path: '', tags: [], coSources: [],
     }
   },
   quoteByCode(code: string): Quote {
@@ -59,7 +62,7 @@ export const referencesStore = reactive({
   sourceByLinkPath(path: string): Source {
     return this.sources.get(buildSourcePath(path)) || {
       name: path + ' not found',
-      date: '', description: '', path: '', tags: [], imageAuthor: '',
+      date: '', publishedOn: '', description: '', path: '', tags: [], imageAuthor: '',
     }
   },
   async fetchFor(page: PageWithCodes | null | undefined) {
