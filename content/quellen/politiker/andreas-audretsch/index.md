@@ -1,34 +1,34 @@
 ---
-date: 2026-01-07
+date: 2026-03-26
 publishedOn: 2026-01-08
 name: Andreas Audretsch
-description: Politiker, Bündnis-90/Die Grünen
+description: Stellvertretender Fraktionsvorsitzender Bündnis 90/Die Grünen im Bundestag
 imageAuthor: Das Progressive Zentrum
 tags:
-  - SPD
-  - Journalist
-  - Energie
-  - Klimaschutz
-  - Antifaschist
-  - Gesellschaft
+  - Grüne
+  - Politiker
+  - Bundestag
+  - Haushalt
+  - Soziales
+  - more-research-needed
 ---
 
 ## Über die Quelle
 
-Dirk Wiese ist Mitglied der SPD im Sauerland. Er ist seit 2013 Mitglied des Deutschen Bundestages und seit 2025 erster Parlamentarischer Geschäftsführer der SPD-Bundestagsfraktion.
-In der SPD ist er bisher für die Bereiche Recht, Inneres, Sport, Kultur, Landwirtschaft und Medien sowie Petitionen zuständig (gewesen). Er war im gemeinsamen Ausschuss als auch im Richterwahlausschuss und im Parlamentarischen Kontrollgremium tätig. International, war er in der Deutsch-Indischen Parlamentariergruppe und der Deutsch-Zentralasiatischen, sowie der Deutsch-Südkaukasischen Parlamentariergruppe.
+Andreas Audretsch (geb. 1984) ist seit 2021 Mitglied des Deutschen Bundestages für Bündnis 90/Die Grünen. Seit 2025 ist er stellvertretender Fraktionsvorsitzender, zuständig für Haushalt, Finanzen und Soziales. Zuvor war er haushaltspolitischer Sprecher der Grünen-Fraktion. Seinen Wahlkreis hat er in Berlin-Neukölln.
+
+Vor seiner politischen Karriere arbeitete Audretsch als Journalist und Autor. Er studierte Politikwissenschaft und Publizistik an der FU Berlin.
 
 ## Links
 
-- https://www.dirkwiese.de
-- https://de.wikipedia.org/wiki/Dirk_Wiese
+- [Bundestag-Profil](https://www.bundestag.de/abgeordnete/biografien/A/audretsch_andreas-857170)
+- [Wikipedia](https://de.wikipedia.org/wiki/Andreas_Audretsch)
+- [Instagram](https://www.instagram.com/andreas.audretsch/)
 
 ## Faktenfackel Bewertung
 
-Dirk publiziert u. a. Videos zu vielen aktuellen Themen. Viele der Videos sind direkt von seinen Bundestagsreden oder handeln von den dort behandelten Themen.
-
-Durch seine Aktivitäten in der SPD ist seine Einstellung politisch irgendwo in der Mitte einzuordnen, was sich auch in seinen Videos und öffentlichen Auftritten widerspiegelt.
+Audretsch publiziert regelmäßig auf Social Media zu sozialpolitischen Themen, insbesondere zu Haushaltspolitik und sozialer Gerechtigkeit. Als stellvertretender Fraktionsvorsitzender vertritt er klar die Parteilinie der Grünen.
 
 ### Fazit
 
-Glaubwürdige Quelle, keine uns bekannten Lügen oder Falschinformationen. Insgesamt fachlich sehr solide.
+Politisch positionierte Quelle (Grüne), aber sachlich fundiert in seinen Fachgebieten. Aussagen zu Haushalt und Soziales sind in der Regel belegbar, das Framing ist erwartungsgemäß parteipolitisch.

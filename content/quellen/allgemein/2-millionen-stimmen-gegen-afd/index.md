@@ -8,7 +8,6 @@ tags:
   - AfD
   - Antifaschismus
   - Demokratie
-  - more-research-needed
 ---
 
 ## Über die Quelle

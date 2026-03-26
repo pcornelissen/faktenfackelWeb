@@ -4,7 +4,6 @@ publishedOn: 2026-03-18
 name: Ashleytheebarroness
 description: "US-amerikanische Content Creatorin mit politischen Kommentaren auf Facebook, links-progressiv ausgerichtet"
 tags:
-  - more-research-needed
   - USA
   - Medienkritik
 ---

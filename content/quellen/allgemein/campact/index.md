@@ -1,10 +1,9 @@
 ---
-date: 2026-01-14
+date: 2026-03-26
 publishedOn: 2026-03-10
 name: Campact e.V.
 description: Deutsche Online-Kampagnenorganisation für politisches Engagement
 tags:
-  - more-research-needed
   - Aktivismus
   - Politik
   - Deutschland
@@ -13,7 +12,15 @@ tags:
 
 ## Über die Quelle
 
-Campact e.V. ist eine deutsche gemeinnützige Organisation, die Online-Kampagnen und Petitionen zu politischen Themen initiiert und koordiniert. Der Fokus liegt auf progressiven Themen wie Demokratieschutz, Klimaschutz und soziale Gerechtigkeit. Campact gehört zu den größten Online-Kampagnenplattformen im deutschsprachigen Raum.
+Campact e.V. ist eine 2004 gegründete deutsche Organisation für Online-Kampagnen und politische Mobilisierung. Die Gründer Christoph Bautz und Dr. Felix Kolb ließen sich nach eigenen Angaben von der US-amerikanischen Plattform MoveOn inspirieren. Die Ursprünge liegen in der Anti-Atom- und Umweltbewegung, mittlerweile deckt Campact ein breites Themenspektrum ab: Demokratieschutz, Klimaschutz, soziale Gerechtigkeit und Bürgerrechte.
+
+Die Organisation gibt an, mit über 4,25 Millionen Unterstützern zu arbeiten, und gehört damit zu den größten politischen Online-Kampagnenplattformen im deutschsprachigen Raum. Campact finanziert sich laut eigenen Angaben ausschließlich durch Spenden (Schwarmfinanzierung) und nimmt kein Geld vom Staat oder von Unternehmen.
+
+Im Oktober 2019 verlor Campact den Status der Gemeinnützigkeit. Das Berliner Finanzamt entzog diesen in Folge des Attac-Urteils des Bundesfinanzhofs von Februar 2019, das die Möglichkeiten politisch aktiver Organisationen einschränkte. Der Spendenfluss wurde dadurch laut Medienberichten nicht dauerhaft beeinträchtigt; die Einnahmen stiegen im selben Jahr auf 12,6 Millionen Euro.
+
+Campact hat 2024 laut Medienberichten Parteispenden getätigt: 233.300 Euro an Bündnis 90/Die Grünen, 160.000 Euro an die SPD und 56.600 Euro an Die Linke.
+
+Nicht zu verwechseln mit dem rechtsextremen Magazin [Compact](/quellen/medien/compact), das 2010 von Jürgen Elsässer gegründet wurde und politisch am entgegengesetzten Ende des Spektrums steht.
 
 ## Links
 
@@ -22,8 +29,10 @@ Campact e.V. ist eine deutsche gemeinnützige Organisation, die Online-Kampagnen
 
 ## Faktenfackel Bewertung
 
-Campact ist eine klar politisch positionierte Organisation mit progressivem Profil. Kampagnen und Beiträge sind meinungsstark und mobilisierend. Faktische Aussagen sollten auf Primärquellen geprüft werden.
+Campact ist eine klar progressiv positionierte Organisation, die politische Mobilisierung als Kernaufgabe versteht. Die Inhalte sind dementsprechend meinungsstark und auf Aktivierung ausgerichtet. Das Magazin Cicero bezeichnete Campact als "Empörungsmaschine", was sowohl die Mobilisierungskraft als auch den meinungsorientierten Charakter widerspiegelt.
+
+Faktische Aussagen in Campact-Beiträgen sind in der Regel durch Quellen gestützt, sollten aber unabhängig auf Primärquellen geprüft werden, da die Darstellung stets einer politischen Perspektive folgt. Die Parteispenden an SPD, Grüne und Linke machen die politische Ausrichtung transparent.
 
 ### Fazit
 
-Progressiver politischer Kampagnen-Account. Engagiert und mobilisierend, mit klarer Haltung gegen Rechtsextremismus.
+Reichweitenstarke, progressiv ausgerichtete Kampagnenorganisation. Informationen sind in der Regel faktisch fundiert, aber stets durch eine politische Linse gefiltert. Eignet sich als Quelle für die Dokumentation politischer Mobilisierung und progressiver Positionen; für Faktenbehauptungen sollte auf Primärquellen zurückgegriffen werden.
