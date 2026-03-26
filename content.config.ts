@@ -67,6 +67,7 @@ export default defineContentConfig({
         date: z.date(),
         name: z.string(),
         description: z.string(),
+        publishedOn: z.date().or(z.null()),
         imageAuthor: z.string().or(z.null()).optional(),
         tags: z.set(z.string()),
         referenceCodes: z.array(z.string()).optional(),
@@ -78,8 +79,10 @@ export default defineContentConfig({
       source: 'quellen/*/*/links/**/*.md',
       schema: z.object({
         date: z.date(),
+        sourceDate: z.date(),
         code: z.string(),
         title: z.string(),
+        publishedOn: z.date().or(z.null()),
         uri: z.string(),
         type: z.string(),
         verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
