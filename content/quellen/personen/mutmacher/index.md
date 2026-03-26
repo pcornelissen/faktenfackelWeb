@@ -1,5 +1,6 @@
 ---
 date: 2026-01-11
+publishedOn: 2026-01-25
 name: Der Verrückte Mutmacher
 description: Content Creator, Politik
 tags: [ Creator, Social Media, Facebook, Instagram, Antifaschist]

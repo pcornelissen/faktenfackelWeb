@@ -1,5 +1,6 @@
 ---
 date: 2026-03-26
+publishedOn: 2026-03-26
 name: Jacob Knowles
 description: Hummerfischer und Content Creator aus Maine
 tags: [ Creator, Social Media, TikTok, Facebook, Instagram, YouTube, more-research-needed ]

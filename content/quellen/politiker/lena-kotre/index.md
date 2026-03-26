@@ -1,5 +1,6 @@
 ---
 date: 2026-03-08
+publishedOn: 2026-02-27
 name: Lena Kotré
 description: Politikerin, Juristin, AfD
 imageAuthor:  24. Sitzung der 8. Wahlperiode des Landtages Brandenburg – Lena Kotré (AfD)

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: The Oligarchy Is Here
 description: US-amerikanische politische Kommentar-Seite, kritisiert Oligarchie und Trump-Administration
 tags: [ more-research-needed, USA, Politik, Trump, Protest ]

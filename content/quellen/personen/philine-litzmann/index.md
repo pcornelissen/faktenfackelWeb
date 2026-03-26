@@ -1,5 +1,6 @@
 ---
 date: 2026-01-11
+publishedOn: 2026-01-11
 name: Philine Lietzmann
 description: Journalistin, Focus
 imageAuthor: Philine Lietzmann, Focus Online

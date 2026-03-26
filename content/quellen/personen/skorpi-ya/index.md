@@ -1,5 +1,6 @@
 ---
 date: 2026-02-01
+publishedOn: 2026-03-09
 name: Skorpi Ya
 description: Deutsche Digital Creatorin mit Motto "Hass ist keine Meinung"
 image: profile.jpg

@@ -1,5 +1,6 @@
 ---
 date: 2026-01-08
+publishedOn: 2026-03-09
 name: The Justice Guy
 description: Amerikanische Rechtskommentarseite mit rechtspolitischen Analysen zu US-Themen
 image: profile.jpg

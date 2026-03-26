@@ -1,5 +1,6 @@
 ---
 date: 2026-01-15
+publishedOn: 2026-01-16
 name: Bundesagentur für Arbeit
 description: Bundesbehörde
 tags: [ Staatlich, Arbeitsmarkt, Migration ]

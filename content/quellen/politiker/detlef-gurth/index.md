@@ -1,5 +1,6 @@
 ---
 date: 2026-02-16
+publishedOn: 2026-02-16
 name: Detlef Gürth
 description: Politiker, CDU
 imageAuthor: CDU Fraktion Sachsen-Anhalt

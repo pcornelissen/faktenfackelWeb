@@ -1,5 +1,6 @@
 ---
 date: 2026-01-11
+publishedOn: 2026-01-11
 name: Bundesministerium für Arbeit und Soziales
 description: Bundesministerium
 tags: [ Staatlich, Arbeitsmarkt, Sozialsystem ]

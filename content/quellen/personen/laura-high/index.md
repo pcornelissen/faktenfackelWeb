@@ -1,8 +1,12 @@
 ---
+date: 2026-03-10
+publishedOn: 2026-03-10
 name: Laura High
 description: Englischsprachige Aktivistin, postet zu US-Immigration und Verfassungsrechten
 tags: [more-research-needed]
 ---
+date: 2026-03-10
+publishedOn: 2026-03-10
 
 ## Über die Quelle
 

@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+publishedOn: 2026-01-11
 name: Taylan Kurt
 description: Politiker, Bündnis 90/Die Grünen
 tags: [ Die Grünen, Journalist, Mieten, Energie, Klimaschutz, Antifaschist, Gesellschaft ]

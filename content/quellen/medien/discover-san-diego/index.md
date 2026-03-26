@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Discover San Diego
 description: US-amerikanische Lokalmedien-Seite für San Diego, berichtet über lokale Ereignisse
 tags: [ more-research-needed, USA, Lokalnachrichten ]

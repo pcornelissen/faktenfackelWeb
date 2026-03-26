@@ -1,5 +1,6 @@
 ---
 date: 2026-02-23
+publishedOn: 2026-03-08
 name: Clara Bünger
 description: Politikerin, Die Linke
 imageAuthor: clarabuenger.de

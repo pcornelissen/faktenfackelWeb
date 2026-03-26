@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Tristan Härter
 description: Deutscher Content-Creator, kommentiert rechtsextreme Netzwerke und politische Vetternwirtschaft
 tags: [ more-research-needed, Deutschland, Rechtsextremismus, Content-Creator ]

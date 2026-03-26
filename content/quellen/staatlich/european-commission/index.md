@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: European Commission
 description: Europäische Kommission – Exekutivorgan der Europäischen Union
 tags: [ more-research-needed, EU, Europäische Kommission, DSA, Regulierung ]

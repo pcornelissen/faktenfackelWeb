@@ -1,5 +1,6 @@
 ---
 date: 2026-02-06
+publishedOn: 2026-03-08
 name: DerDara
 description: Content Creator, Politik, News & Debatte
 imageAuthor: YouTube/@DerDara

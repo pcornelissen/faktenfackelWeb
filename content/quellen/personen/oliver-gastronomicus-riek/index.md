@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-10
 name: Oliver Gastronomicus Riek
 description: Deutscher Gastronom und Facebook-Nutzer, bekannt für politische Beiträge
 tags: [ more-research-needed, Deutschland, Facebook ]

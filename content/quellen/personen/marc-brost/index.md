@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Marc Brost
 description: Deutscher Journalist, Chefredakteur Zeit Online und stellv. Chefredakteur DIE ZEIT
 tags: [ more-research-needed, Deutschland, Journalismus, USA, Trump ]

@@ -1,5 +1,6 @@
 ---
 date: 2026-01-18
+publishedOn: 2026-01-18
 name: Verfassungsschutz
 description: Faktencheck-Blog
 tags: [ Staatlich, Sicherheit, Nachrichtendienst ]  

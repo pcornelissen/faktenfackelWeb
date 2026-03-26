@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-10
 name: Deutscher Bundestag
 description: Offizielle Website des Deutschen Bundestages – Plenarprotokolle, Textarchiv und Mediathek
 tags: [ Deutschland, Bundestag, Politik, Primärquelle ]

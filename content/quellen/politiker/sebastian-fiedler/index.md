@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-10
 name: Sebastian Fiedler
 description: SPD-Bundestagsabgeordneter, ehem. BKA-Beamter und Experte für Organisierte Kriminalität
 tags: [ more-research-needed, SPD, Bundestag, Innenpolitik, Deutschland ]

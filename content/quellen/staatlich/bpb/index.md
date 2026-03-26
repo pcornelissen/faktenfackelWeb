@@ -1,5 +1,6 @@
 ---
 date: 2026-01-11
+publishedOn: 2026-01-11
 name: Bundeszentrale für politische Bildung
 description: Staatliche Institution zur politischen Bildung
 tags: [ Staatlich, Bildung, Politik, Gesellschaft ]

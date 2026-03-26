@@ -1,5 +1,6 @@
 ---
 date: 2026-01-07
+publishedOn: 2026-01-08
 name: Andreas Audretsch
 description: Politiker, Bündnis-90/Die Grünen
 imageAuthor: Das Progressive Zentrum

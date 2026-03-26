@@ -1,5 +1,6 @@
 ---
 date: 2026-01-25
+publishedOn: 2026-01-30
 name: Maurice Höfgen
 description: Ökonom, Betriebswirt, Autor & YouTuber
 imageAuthor: Andreas Schmidt, Pressefoto Maurice Höfgen 

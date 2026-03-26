@@ -1,5 +1,6 @@
 ---
 date: 2026-03-08
+publishedOn: 2026-02-13
 name: Jens Maier
 description: Politiker, AfD
 imageAuthor: Max Gerlach

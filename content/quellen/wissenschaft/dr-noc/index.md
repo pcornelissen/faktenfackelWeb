@@ -1,5 +1,6 @@
 ---
 date: 2026-01-01
+publishedOn: 2026-03-09
 name: Dr. Noc
 description: Wissenschaftskommunikator, Science & Health Content Creator
 tags: [ more-research-needed, Creator, Social Media, Facebook, Wissenschaft, Gesundheit, Impfungen, Desinformation ]

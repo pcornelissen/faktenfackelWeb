@@ -1,5 +1,6 @@
 ---
 date: 2026-01-25
+publishedOn: 2026-01-25
 name: Michael Brück
 description: Ehem. Landesvorsitzender "Die Rechte", "Freie Sachsen" Mitglied
 imageAuthor: WDR

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Erika Jordan
 description: Amerikanische Persönlichkeit, kommentiert Psychologie und gesellschaftliche Themen
 tags: [ more-research-needed, Psychologie, USA ]

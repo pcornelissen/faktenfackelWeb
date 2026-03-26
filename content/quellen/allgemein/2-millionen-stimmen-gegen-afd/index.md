@@ -1,5 +1,6 @@
 ---
 date: 2026-02-13
+publishedOn: 2026-03-08
 name: 2.000.000 Stimmen gegen die AfD
 description: Facebook-Gruppe gegen die AfD
 imageAuthor: Facebook/2millionenstimmen

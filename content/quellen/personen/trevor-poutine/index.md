@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Trevor Poutine
 description: Amerikanischer Geschichtslehrer und Kommentator zu US-Politik und Medienphänomenen
 tags: [ more-research-needed, Geschichte, USA, Medien, Bildung ]

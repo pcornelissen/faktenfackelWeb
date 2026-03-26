@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+publishedOn: 2026-01-11
 name: Michael Kraske
 description: Journalist und Schriftsteller
 imageAuthor: Paul Maurer

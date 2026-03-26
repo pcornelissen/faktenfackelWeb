@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Dr. Alice Mann
 description: US-amerikanische Demokratin, Kandidatin für den Minnesota State Senate
 tags: [ more-research-needed, USA, Demokraten, Minnesota, Politikerin ]

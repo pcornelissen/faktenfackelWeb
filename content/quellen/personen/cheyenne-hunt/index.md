@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Cheyenne Hunt
 description: US-amerikanische politische Kommentatorin und Content Creatorin
 imageAuthor: Los Angeles Times

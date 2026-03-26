@@ -1,5 +1,6 @@
 ---
 date: 2026-01-15
+publishedOn: 2026-03-10
 name: Nürnberger Nachrichten
 description: Regionale Tageszeitung aus Nürnberg
 tags: [ more-research-needed, Medien, Zeitung, Bayern, Nürnberg, Regional ]

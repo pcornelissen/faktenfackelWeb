@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Sally McManus
 description: Australische Gewerkschafterin, Vorsitzende des Australian Council of Trade Unions (ACTU)
 tags: [ more-research-needed, Australien, Gewerkschaft, Arbeit, Wirtschaft ]

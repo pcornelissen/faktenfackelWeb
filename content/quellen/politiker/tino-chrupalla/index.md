@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+publishedOn: 2026-01-18
 name: Tino Chrupalla
 description: AfD Politiker und Lackierermeister
 imageAuthor: Deutschlandfunk

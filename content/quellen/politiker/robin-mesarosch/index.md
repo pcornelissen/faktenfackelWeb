@@ -1,5 +1,6 @@
 ---
 date: 2026-01-07
+publishedOn: 2026-01-07
 name: Robin Mesarosch
 description: SPD Politiker, Journalist
 tags: [ SPD, Journalist, Energie, Klimaschutz, Antifaschist, Gesellschaft ]

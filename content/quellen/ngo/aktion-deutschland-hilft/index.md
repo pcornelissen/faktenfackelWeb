@@ -1,5 +1,6 @@
 ---
 date: 2026-01-14
+publishedOn: 2026-01-14
 name: Aktion Deutschland Hilft
 description: Bündnis der Hilfsorganisationen
 tags: [ NGO, Migration, Hilfsorganisation ]

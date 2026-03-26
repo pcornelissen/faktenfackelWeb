@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-10
 name: its.daniel.brln
 description: Berliner TikTok-Kommentator zu deutscher Politik und gesellschaftlichen Themen
 tags: [ more-research-needed, Deutschland, Politik, Berlin ]

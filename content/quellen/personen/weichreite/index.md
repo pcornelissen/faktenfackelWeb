@@ -1,5 +1,6 @@
 ---
 date: 2026-01-29
+publishedOn: 2026-01-29
 name: Weichreite TV
 description: Content Creator, Politik
 imageAuthor: "Christoph Hardt, Credit: IMAGO/Panama Pictures"

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+publishedOn: 2026-03-09
 name: Democratic Socialism Now
 description: Englischsprachige Facebook-Seite mit progressiv-sozialistischen politischen Inhalten
 tags: [ more-research-needed, USA, Sozialismus, Progressiv, Content-Creator ]
