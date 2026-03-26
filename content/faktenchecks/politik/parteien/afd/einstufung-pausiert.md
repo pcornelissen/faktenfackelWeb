@@ -58,7 +58,7 @@ src: https://www.facebook.com/profile.php?id=100010672009055&comment_id=Y29tbWVu
        dürfen, entzieht der politischen und journalistischen Debatte einen wesentlichen Hebel. Das ist ein realer
        Schaden für alle, die diese Kampagne gestützt oder orchestriert haben.
 4. Der Artikel demonstriert genau das, was kritisiert wird:
-       Statt einzugestehen, dass das BfV rechtsstaatlich zurückrudern musste, wird die AfD verbal „klein gehalten“.
+       Statt einzugestehen, dass das BfV rechtsstaatlich zurückrudern musste, wird die AfD verbal "klein gehalten".
        Genau dieser Umgang – maßregeln statt argumentieren – hat die Partei in der Vergangenheit eher gestärkt als
        geschwächt.
        Fazit:
@@ -139,7 +139,7 @@ Es gibt auch keine Hinweise darauf, dass das Ministerium den Verfassungsschutz a
 
 Zusammengefasst, ist die Pausierung natürlich kein direkter Sieg für die AfD und die positiven Effekte sind nur temporär. 
 
-Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. Dass das Bild der Partei, das der Verfassungsschutz in seinem Gutachten beschreibt, nicht aus der Luft gegriffen ist, zeigen immer wieder öffentliche Auftritte von AfD-Mitgliedern — etwa wenn eine <Reference code="mutmacher-lena-afd-vfrau-2026">AfD-Abgeordnete NS-Literatur sichtbar im Regal hat und zum Melden linker Organisationen aufruft</Reference>.
+Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. Dass das Bild der Partei, das der Verfassungsschutz in seinem Gutachten beschreibt, nicht aus der Luft gegriffen ist, zeigen immer wieder öffentliche Auftritte von AfD-Mitgliedern - etwa wenn eine <Reference code="mutmacher-lena-afd-vfrau-2026">AfD-Abgeordnete NS-Literatur sichtbar im Regal hat und zum Melden linker Organisationen aufruft</Reference>.
 
 
 

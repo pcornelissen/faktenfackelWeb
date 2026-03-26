@@ -9,7 +9,7 @@ tags: [ Creator, Social Media, TikTok, Facebook, Instagram, YouTube, more-resear
 
 Jacob Knowles ist ein Hummerfischer in fünfter Generation aus Winter Harbor, Maine (USA). Er dokumentiert seinen Arbeitsalltag als Hummerfischer auf Social Media und vermittelt dabei Wissen über nachhaltige Fischereipraktiken und Meeresbiologie. Bekannt wurde er 2020, als ein TikTok-Video über das Einkerben der Schwanzflossen eiertragender Hummer-Weibchen viral ging.
 
-Im November 2023 fing Knowles einen extrem seltenen bilateralen Gynandromoph-Hummer, der halb männlich und halb weiblich sowie halb blau und halb orange war. Der Hummer wurde von seinen Followern „Bowie" getauft. Die Wahrscheinlichkeit, einen zweifarbigen Hummer zu fangen, liegt bei etwa 1 zu 50 Millionen.
+Im November 2023 fing Knowles einen extrem seltenen bilateralen Gynandromoph-Hummer, der halb männlich und halb weiblich sowie halb blau und halb orange war. Der Hummer wurde von seinen Followern "Bowie" getauft. Die Wahrscheinlichkeit, einen zweifarbigen Hummer zu fangen, liegt bei etwa 1 zu 50 Millionen.
 
 ## Links
 

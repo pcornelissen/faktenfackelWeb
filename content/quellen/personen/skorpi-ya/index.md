@@ -8,7 +8,7 @@ tags: [ more-research-needed, Deutschland, Antifaschismus, Rassismus ]
 
 ## Über die Quelle
 
-Skorpi Ya (Facebook: uta.assura.9) ist eine deutsche Digital Creatorin mit rund 5.100 Followern. Ihr Motto lautet „Hass ist keine Meinung". Sie veröffentlicht politische Kommentare zu Themen wie Antifaschismus, AfD und gesellschaftlicher Inklusion.
+Skorpi Ya (Facebook: uta.assura.9) ist eine deutsche Digital Creatorin mit rund 5.100 Followern. Ihr Motto lautet "Hass ist keine Meinung". Sie veröffentlicht politische Kommentare zu Themen wie Antifaschismus, AfD und gesellschaftlicher Inklusion.
 
 ## Links
 

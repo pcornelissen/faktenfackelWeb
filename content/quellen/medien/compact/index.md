@@ -8,8 +8,8 @@ tags: [ Verlag, Fake News ]
 ## Über die Quelle
 
 Compact ist ein rechtes Onlinemagazin. Die Selbstdarstellung lautet:
-> «COMPACT gibt also keine politische Linie vor, sondern eine Haltung: Magazin für Souveränität. Das ist der aufrechte Gang, das ist der Geist der Freiheit und der Stolz auf unsere Geschichte. Der Souveränist weiß: Positive Veränderungen sind nur aus dem Volk, durch das Volk und für das Volk möglich.  
-Patriotismus ist für uns keine Ideologie, sondern eine Herzenssache. Wir sind eben Deutsche, und das wollen wir bleiben. Unter den Linden, wo wir uns finden – da ist auch Platz für jeden Einzelnen und seine Eigenheiten.»
+> "COMPACT gibt also keine politische Linie vor, sondern eine Haltung: Magazin für Souveränität. Das ist der aufrechte Gang, das ist der Geist der Freiheit und der Stolz auf unsere Geschichte. Der Souveränist weiß: Positive Veränderungen sind nur aus dem Volk, durch das Volk und für das Volk möglich.  
+Patriotismus ist für uns keine Ideologie, sondern eine Herzenssache. Wir sind eben Deutsche, und das wollen wir bleiben. Unter den Linden, wo wir uns finden – da ist auch Platz für jeden Einzelnen und seine Eigenheiten."
 
  
 ## Links

@@ -8,7 +8,7 @@ tags: [ more-research-needed, Deutschland, AfD, Demokratie, Politik ]
 
 ## Über die Quelle
 
-„We are watching you" (Facebook: watchingyou3) ist eine deutschsprachige Facebook-Seite, die politische Inhalte mit Fokus auf die AfD und demokratiegefährdende Entwicklungen veröffentlicht.
+"We are watching you" (Facebook: watchingyou3) ist eine deutschsprachige Facebook-Seite, die politische Inhalte mit Fokus auf die AfD und demokratiegefährdende Entwicklungen veröffentlicht.
 
 ## Links
 

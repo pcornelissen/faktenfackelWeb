@@ -8,7 +8,7 @@ tags: [ AfD, Jurist-in ]
 
 ## Über die Quelle
 
-Maximilian Eugen „Max“ Krah (* 28. Januar 1977 in Räckelwitz) ist ein rechtsextremer deutscher Politiker (AfD) und Jurist. Er ist seit 2025 Mitglied des Deutschen Bundestages (MdB), nachdem er von 2019 bis 2025 Mitglied des Europäischen Parlaments war.[1][2]
+Maximilian Eugen "Max" Krah (* 28. Januar 1977 in Räckelwitz) ist ein rechtsextremer deutscher Politiker (AfD) und Jurist. Er ist seit 2025 Mitglied des Deutschen Bundestages (MdB), nachdem er von 2019 bis 2025 Mitglied des Europäischen Parlaments war.[1][2]
 
 Er war Spitzenkandidat seiner Partei für die [Europawahl 2024](https://www.tagesschau.de/europawahl/parteien_und_programme/maximilian-krah-108.html). Mehrere Kontroversen um Krah führten im Mai 2024 dazu, dass die ID-Fraktion im Europäischen Parlament alle AfD-Abgeordneten ausschloss, zu Krahs Rückzug aus dem Bundesvorstand der AfD sowie zu einem Auftrittsverbot im Europawahlkampf.
 

@@ -6,7 +6,7 @@ tags: [more-research-needed]
 
 ## Über die Quelle
 
-„KlartextmitLilly" ist ein deutschsprachiger Facebook-Account, der politische Kommentare und Analysen zu aktuellen Themen teilt. Der Account befasst sich u.a. mit Medienkritik, Sozialpolitik und gesellschaftlichen Debatten.
+"KlartextmitLilly" ist ein deutschsprachiger Facebook-Account, der politische Kommentare und Analysen zu aktuellen Themen teilt. Der Account befasst sich u.a. mit Medienkritik, Sozialpolitik und gesellschaftlichen Debatten.
 
 ## Links
 

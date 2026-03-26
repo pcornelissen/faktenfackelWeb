@@ -6,7 +6,7 @@ tags: [more-research-needed]
 
 ## Über die Quelle
 
-„Wow motherhood" ist ein englischsprachiger Facebook-Account, der Inhalte rund um Elternschaft, Kindergesundheit und gesellschaftliche Themen teilt. Der Account postet kurze Reels mit teils reißerischen Titeln.
+"Wow motherhood" ist ein englischsprachiger Facebook-Account, der Inhalte rund um Elternschaft, Kindergesundheit und gesellschaftliche Themen teilt. Der Account postet kurze Reels mit teils reißerischen Titeln.
 
 ## Links
 

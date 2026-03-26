@@ -7,7 +7,7 @@ tags: [ more-research-needed, USA, Lokalnachrichten ]
 
 ## Über die Quelle
 
-„The Best of San Diego" ist eine verifizierte Facebook-Seite, die lokale Ereignisse, Neuigkeiten und insbesondere Proteste in San Diego dokumentiert.
+"The Best of San Diego" ist eine verifizierte Facebook-Seite, die lokale Ereignisse, Neuigkeiten und insbesondere Proteste in San Diego dokumentiert.
 
 ## Faktenfackel Bewertung
 

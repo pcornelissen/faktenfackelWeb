@@ -19,7 +19,7 @@ Banaszak setzt sich insbesondere für Sozialpolitik, Klimaschutz und eine gerech
 
 ## Faktenfackel Bewertung
 
-Als Parteivorsitzender der Grünen ist Banaszak eine politische Primärquelle — seine Aussagen spiegeln Parteipositionen wider und sind als solche einzuordnen. Seine Social-Media-Beiträge sind in der Regel sachlich und argumentativ, aber naturgemäß parteipolitisch gefärbt.
+Als Parteivorsitzender der Grünen ist Banaszak eine politische Primärquelle - seine Aussagen spiegeln Parteipositionen wider und sind als solche einzuordnen. Seine Social-Media-Beiträge sind in der Regel sachlich und argumentativ, aber naturgemäß parteipolitisch gefärbt.
 
 ### Fazit
 

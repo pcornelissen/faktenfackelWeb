@@ -10,7 +10,7 @@ tags:
 
 ## Über die Quelle
 
-Trevor Poutine, auch bekannt als „Professor Poutine", ist ein Geschichtslehrer aus Toronto mit drei Hochschulabschlüssen (Honours BA, MA, BEd) und 28 Jahren Unterrichtserfahrung. Er veröffentlicht auf Instagram (über 1 Million Follower), Facebook, TikTok und Threads kurze Reels über Geschichte. Seine Videos stellen historische Ereignisse in den Kontext aktueller politischer Entwicklungen – insbesondere USA, Faschismus, Imperialismus und Demokratie.
+Trevor Poutine, auch bekannt als "Professor Poutine", ist ein Geschichtslehrer aus Toronto mit drei Hochschulabschlüssen (Honours BA, MA, BEd) und 28 Jahren Unterrichtserfahrung. Er veröffentlicht auf Instagram (über 1 Million Follower), Facebook, TikTok und Threads kurze Reels über Geschichte. Seine Videos stellen historische Ereignisse in den Kontext aktueller politischer Entwicklungen – insbesondere USA, Faschismus, Imperialismus und Demokratie.
 
 ## Links
 

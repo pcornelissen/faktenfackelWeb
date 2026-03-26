@@ -7,7 +7,7 @@ tags: [ more-research-needed, USA, Gewerkschaft, Aktivismus, Arbeit ]
 
 ## Über die Quelle
 
-„Labor On the Line" ist eine verifizierte US-amerikanische Facebook-Seite, die gewerkschaftliche und aktivistische Themen dokumentiert und kommentiert, mit Fokus auf Demokratie, Arbeiterrechte und soziale Bewegungen.
+"Labor On the Line" ist eine verifizierte US-amerikanische Facebook-Seite, die gewerkschaftliche und aktivistische Themen dokumentiert und kommentiert, mit Fokus auf Demokratie, Arbeiterrechte und soziale Bewegungen.
 
 ## Faktenfackel Bewertung
 

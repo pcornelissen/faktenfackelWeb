@@ -7,7 +7,7 @@ tags: [ more-research-needed, USA, Politik, Trump, Protest ]
 
 ## Über die Quelle
 
-„The Oligarchy Is Here" ist eine verifizierte politische Facebook-Seite, die Kommentare zu US-amerikanischer Politik, Oligarchie, Protest und der Trump-Administration veröffentlicht.
+"The Oligarchy Is Here" ist eine verifizierte politische Facebook-Seite, die Kommentare zu US-amerikanischer Politik, Oligarchie, Protest und der Trump-Administration veröffentlicht.
 
 ## Faktenfackel Bewertung
 

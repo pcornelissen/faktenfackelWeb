@@ -7,7 +7,7 @@ tags: [ more-research-needed, USA, Politik, Palästina ]
 
 ## Über die Quelle
 
-„Blackoutthesystem" ist eine verifizierte US-amerikanische politische Facebook-Seite mit pro-palästinensischer und systemkritischer Ausrichtung.
+"Blackoutthesystem" ist eine verifizierte US-amerikanische politische Facebook-Seite mit pro-palästinensischer und systemkritischer Ausrichtung.
 
 ## Faktenfackel Bewertung
 

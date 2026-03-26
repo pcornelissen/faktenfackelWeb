@@ -7,7 +7,7 @@ tags: [ more-research-needed, USA, Trump, Progressiv, Podcast ]
 
 ## Über die Quelle
 
-Brian Tyler Cohen ist ein US-amerikanischer progressiver Politikkommentator, Podcaster und Autor des Newsletters „No Lie with Brian Tyler Cohen". Er kommentiert US-Politik aus progressiver Perspektive und hat eine große Reichweite auf Social Media und Substack.
+Brian Tyler Cohen ist ein US-amerikanischer progressiver Politikkommentator, Podcaster und Autor des Newsletters "No Lie with Brian Tyler Cohen". Er kommentiert US-Politik aus progressiver Perspektive und hat eine große Reichweite auf Social Media und Substack.
 
 ## Faktenfackel Bewertung
 

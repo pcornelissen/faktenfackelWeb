@@ -22,7 +22,7 @@ Corona-Maßnahmen, Migration und Klimapolitik.
 Andreas Winhart stand häufiger in der Kritik:
 
 - [Rassistische Äußerungen (2018)](https://www.merkur.de/politik/afd-abgeordneter-winhart-beleidigte-auslaender-fuerchten-muss-er-nichts-zr-10310575.html): Im Wahlkampf vor der Landtagswahl 2018 sorgte Winhart für Empörung, als er in einer
-  Rede von „Negern“ sprach und Asylbewerber mit Krankheiten in Verbindung brachte. Aufgrund dieser Aussagen gab es
+  Rede von "Negern" sprach und Asylbewerber mit Krankheiten in Verbindung brachte. Aufgrund dieser Aussagen gab es
   Forderungen nach Konsequenzen und Ermittlungen wegen des Verdachts der Volksverhetzung. Ein förmliches Strafverfahren
   wurde jedoch nicht eingeleitet.
 - [Volksverhetzungs-Vorwurf](https://www.justiz.bayern.de/gerichte-und-behoerden/staatsanwaltschaft/traunstein/presse/2019/1.php): Eine Gruppe von 20 Bürgern sah in seiner Rede den Tatbestand der Volksverhetzung als erfüllt

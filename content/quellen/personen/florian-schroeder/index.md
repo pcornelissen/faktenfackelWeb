@@ -6,7 +6,7 @@ tags: [ Kabarett, Satire, Politik, Deutschland, Facebook, more-research-needed ]
 
 ## Über die Quelle
 
-Florian Schröder ist ein deutscher Kabarettist und Satiriker, der regelmäßig politische Kommentare zu aktuellen Themen veröffentlicht. Er ist bekannt aus TV-Formaten wie der „Spätschicht" im SWR und für seinen politischen Humor. Auf Facebook teilt er kurze Reels zu Themen wie AfD, Trumps Außenpolitik und gesellschaftlichen Debatten.
+Florian Schröder ist ein deutscher Kabarettist und Satiriker, der regelmäßig politische Kommentare zu aktuellen Themen veröffentlicht. Er ist bekannt aus TV-Formaten wie der "Spätschicht" im SWR und für seinen politischen Humor. Auf Facebook teilt er kurze Reels zu Themen wie AfD, Trumps Außenpolitik und gesellschaftlichen Debatten.
 
 ## Links
 

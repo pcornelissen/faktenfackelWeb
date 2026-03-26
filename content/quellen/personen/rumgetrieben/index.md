@@ -6,7 +6,7 @@ tags: [more-research-needed]
 
 ## Über die Quelle
 
-„Rumgetrieben" ist ein deutschsprachiger Facebook-Account, der politische Kommentare zu aktuellen gesellschaftlichen und politischen Themen teilt. Der Account nimmt progressiv-politische Positionen ein.
+"Rumgetrieben" ist ein deutschsprachiger Facebook-Account, der politische Kommentare zu aktuellen gesellschaftlichen und politischen Themen teilt. Der Account nimmt progressiv-politische Positionen ein.
 
 ## Links
 

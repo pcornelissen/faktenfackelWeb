@@ -6,7 +6,7 @@ tags: [ Facebook, Podcast, Geschichte, Soziologie, Englisch, more-research-neede
 
 ## Über die Quelle
 
-„Who Did What Now?" ist der Podcast und Social-Media-Kanal von Katie Charlwood, Historikerin und Buchautorin. Sie erklärt Geschichte und gesellschaftliche Themen wie Faschismus oder Totalitarismus auf humorvolle, direkte Art – unter dem Motto „the history podcast that's not your history class".
+"Who Did What Now?" ist der Podcast und Social-Media-Kanal von Katie Charlwood, Historikerin und Buchautorin. Sie erklärt Geschichte und gesellschaftliche Themen wie Faschismus oder Totalitarismus auf humorvolle, direkte Art – unter dem Motto "the history podcast that's not your history class".
 
 ## Links
 

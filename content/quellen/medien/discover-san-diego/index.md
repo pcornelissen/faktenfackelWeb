@@ -7,7 +7,7 @@ tags: [ more-research-needed, USA, Lokalnachrichten ]
 
 ## Über die Quelle
 
-„Discover San Diego" ist eine verifizierte Facebook-Seite, die lokale Ereignisse, Neuigkeiten und Entwicklungen aus San Diego und Umgebung dokumentiert.
+"Discover San Diego" ist eine verifizierte Facebook-Seite, die lokale Ereignisse, Neuigkeiten und Entwicklungen aus San Diego und Umgebung dokumentiert.
 
 ## Faktenfackel Bewertung
 

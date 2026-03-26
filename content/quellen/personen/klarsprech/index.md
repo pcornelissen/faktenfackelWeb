@@ -6,7 +6,7 @@ tags: [ YouTube, Satire, Politik, Bildung, Kulturkampf, Deutschland, more-resear
 
 ## Über die Quelle
 
-„Klarsprech" ist ein YouTube-Kanal, der dem Netzwerk „Gottlos auf Mutter" (GaM) zugehört. Der Kanal produziert längere Videoessays zu politischen und gesellschaftlichen Themen aus progressiver Perspektive. Die Inhalte werden von zwei Kunstfiguren präsentiert und sind oft satirisch-polemisch formuliert, enthalten jedoch recherchierte Quellenangaben.
+"Klarsprech" ist ein YouTube-Kanal, der dem Netzwerk "Gottlos auf Mutter" (GaM) zugehört. Der Kanal produziert längere Videoessays zu politischen und gesellschaftlichen Themen aus progressiver Perspektive. Die Inhalte werden von zwei Kunstfiguren präsentiert und sind oft satirisch-polemisch formuliert, enthalten jedoch recherchierte Quellenangaben.
 
 ## Links
 

@@ -21,4 +21,4 @@ Die taz ist eine der wenigen deutschen Tageszeitungen mit explizit linkem Profil
 
 ### Fazit
 
-taz-Artikel sind im Allgemeinen gut recherchiert und quellenbasiert. Die politische Positionierung ist transparent und offen linksprogressiv — das sollte beim Lesen berücksichtigt werden, mindert die Verlässlichkeit faktischer Aussagen aber nur selten.
+taz-Artikel sind im Allgemeinen gut recherchiert und quellenbasiert. Die politische Positionierung ist transparent und offen linksprogressiv - das sollte beim Lesen berücksichtigt werden, mindert die Verlässlichkeit faktischer Aussagen aber nur selten.

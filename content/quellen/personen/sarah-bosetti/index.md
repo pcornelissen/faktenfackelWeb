@@ -8,7 +8,7 @@ tags: [ more-research-needed, Satire, ZDF, Journalismus, Deutschland, Social Med
 
 ## Über die Quelle
 
-Sarah Bosetti ist eine deutsche Satirikerin, Autorin und Moderatorin. Sie ist bekannt für ihr ZDF-Format „Bosetti will reden", in dem sie politische und gesellschaftliche Themen satirisch aufarbeitet.
+Sarah Bosetti ist eine deutsche Satirikerin, Autorin und Moderatorin. Sie ist bekannt für ihr ZDF-Format "Bosetti will reden", in dem sie politische und gesellschaftliche Themen satirisch aufarbeitet.
 
 ## Links
 
@@ -17,7 +17,7 @@ Sarah Bosetti ist eine deutsche Satirikerin, Autorin und Moderatorin. Sie ist be
 
 ## Faktenfackel Bewertung
 
-„Bosetti will reden" ist ein satirisches ZDF-Format. Die Inhalte sind klar als Satire und Meinungsbeitrag einzuordnen, oft aber mit recherchierten Fakten unterlegt. Für die Einordnung von Themen wie Desinformation und Medienpolitik relevant.
+"Bosetti will reden" ist ein satirisches ZDF-Format. Die Inhalte sind klar als Satire und Meinungsbeitrag einzuordnen, oft aber mit recherchierten Fakten unterlegt. Für die Einordnung von Themen wie Desinformation und Medienpolitik relevant.
 
 ### Fazit
 

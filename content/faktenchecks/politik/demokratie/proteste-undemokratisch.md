@@ -181,12 +181,12 @@ für Antifaschisten ist. Für eine tiefergehende Einordnung, <Reference code="wh
 
 #### Antifa und das Grundgesetz
 
-Das Grundgesetz ist nicht ausdrücklich „antifaschistisch“ im ideologischen Sinne, aber es ist klar als Reaktion auf den
+Das Grundgesetz ist nicht ausdrücklich "antifaschistisch" im ideologischen Sinne, aber es ist klar als Reaktion auf den
 Nationalsozialismus entstanden und enthält verfassungsrechtliche Schutzmechanismen, die gegen Faschismus (also
 antifaschistisch) wirken, indem sie jede Form autoritärer, totalitärer oder menschenverachtender Herrschaft verhindern
 sollen.
 
-Der Begriff „antifaschistisch“ kommt im Grundgesetz nicht vor.  
+Der Begriff "antifaschistisch" kommt im Grundgesetz nicht vor.  
 Das liegt daran, dass das Grundgesetz:
 
 - ideologisch offen und politisch neutral formuliert ist,
@@ -234,7 +234,7 @@ Jedoch ist das linke Spektrum sehr vielfältig und umfasst wesentlich mehr demok
 sich für Menschenrechte, soziale Gerechtigkeit und Demokratie einsetzen.
 
 Wie oben bereits beschrieben wurde, ist das Grundgesetz antifaschistisch ausgelegt, also sind alle, die sich konform zum
-Grundgesetz verhalten, zumindest in der Tendenz antifaschistisch. Das antifaschistische Gedicht <Reference code="forrest-valkai-hangman-gedicht">„The Hangman"</Reference> – über Schweigen, Mitschuld und das schrittweise Wegsehen bei faschistischen Entwicklungen – verdeutlicht, warum aktive Gegenwehr demokratisch nicht nur zulässig, sondern geboten ist.
+Grundgesetz verhalten, zumindest in der Tendenz antifaschistisch. Das antifaschistische Gedicht <Reference code="forrest-valkai-hangman-gedicht">"The Hangman"</Reference> – über Schweigen, Mitschuld und das schrittweise Wegsehen bei faschistischen Entwicklungen – verdeutlicht, warum aktive Gegenwehr demokratisch nicht nur zulässig, sondern geboten ist.
 
 Dies ist auch in der Demonstration in Gießen zu erkennen. Dort waren ca. 50.000 Demonstranten vor Ort, um gegen die AfD
 zu protestieren. Das sind wesentlich mehr, als der in Deutschland bekannte Anteil von gewaltbereiten Linksextremen in

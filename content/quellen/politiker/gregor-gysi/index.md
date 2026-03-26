@@ -13,7 +13,7 @@ Gregor Gysi ist einer der bekanntesten deutschen Politiker und langjähriger Bun
 ## Links
 
 - https://www.facebook.com/gregor.gysi (offizielle Seite)
-- Facebook-Clip-Kanal: „Gysi Daily"
+- Facebook-Clip-Kanal: "Gysi Daily"
 
 ## Faktenfackel Bewertung
 

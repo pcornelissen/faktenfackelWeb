@@ -25,7 +25,7 @@ Er ist auch Namensgeber für einen Dissertationspreis für herausragende Dissert
 - In der Fachwelt werden seine Studien jedoch methodisch anerkannt; die Kritik bezieht sich eher auf Schwerpunktsetzung und Interpretation, nicht auf wissenschaftliche Seriosität.
 
 Kritikquellen:
-- M. Möhring: Migrationsforschung als Kritik? Konturen einer Forschungsperspektive (2018) – kritisiert u. a. den engen Fokus migrationspolitischer Forschung und die unzureichende Problematisierung zentraler Begriffe wie „Integration“. (https://library.fes.de/pdf-files/afs/bd58/afs58_20_moehring.pdf)
+- M. Möhring: Migrationsforschung als Kritik? Konturen einer Forschungsperspektive (2018) – kritisiert u. a. den engen Fokus migrationspolitischer Forschung und die unzureichende Problematisierung zentraler Begriffe wie "Integration". (https://library.fes.de/pdf-files/afs/bd58/afs58_20_moehring.pdf)
 - M. Bommes & D. Thränhardt (Hrsg.): National Paradigms of Migration Research (2010) – dient als Grundlage für Diskussionen über Paradigmen der Migrationsforschung und implizite Kritikpunkte. (Quelle: [FES Bibliothek](https://library.fes.de/pdf-files/afs/bd58/afs58_20_moehring.pdf))
 - Beispiele in Literatur zur Migrationsforschung (u. a. in Sammelbänden, die auch Thränhardts Arbeiten kontextualisieren) (Quelle: [Journale bei der Uni Osnabrück](https://journals.ub.uni-osnabrueck.de/index.php/zmf/article/download/102/77/))
 - 

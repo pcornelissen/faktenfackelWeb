@@ -18,7 +18,7 @@ Er bezeichnet eine Aussage, die nach außen **harmlos oder allgemein klingt**, a
   - Hunde aber **sehr wohl** wahrnehmen.
 - Übertragen auf Sprache:
   - Die **Allgemeinheit** hört nur eine neutrale Aussage.
-  - Die **„Eingeweihten“** erkennen eine codierte Botschaft.
+  - Die **"Eingeweihten"** erkennen eine codierte Botschaft.
 
 ## Typische Merkmale einer Dog-Whistle
 
@@ -44,7 +44,7 @@ Er bezeichnet eine Aussage, die nach außen **harmlos oder allgemein klingt**, a
 
 ## Einfache Beispiele
 
-> „Wir müssen unsere traditionellen Werte schützen.“
+> "Wir müssen unsere traditionellen Werte schützen."
 
 - Für viele klingt das nach:
   - allgemeiner Hinweis auf Kultur/Familie.

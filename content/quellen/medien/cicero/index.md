@@ -7,7 +7,7 @@ tags: [ Medien, Politik ]
 
 ## Über die Quelle
 
-Cicero versteht sich selbst als „Magazin für politische Kultur“. Es will politische und gesellschaftliche Debatten reflektieren, Hintergründe liefern und unterschiedliche Positionen diskutieren – nicht nur Nachrichten berichten, sondern politische Entwicklungen einordnen und kommentieren.
+Cicero versteht sich selbst als "Magazin für politische Kultur". Es will politische und gesellschaftliche Debatten reflektieren, Hintergründe liefern und unterschiedliche Positionen diskutieren – nicht nur Nachrichten berichten, sondern politische Entwicklungen einordnen und kommentieren.
 
 Cicero gehört zur Res Publica Verlags GmbH.
  

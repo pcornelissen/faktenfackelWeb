@@ -8,7 +8,7 @@ tags: [ more-research-needed, USA, Nachrichten, Politik, Medien ]
 
 ## Über die Quelle
 
-In The Know (Facebook-ID: 61583499731440, Instagram: real.talk.us) ist eine amerikanische Nachrichten- und Medienseite mit rund 34.300 Followern. Motto: „Speaking truth, asking questions, and refusing to look away. News • Awareness • Humanity." Die Seite berichtet über US-amerikanische und internationale Politik.
+In The Know (Facebook-ID: 61583499731440, Instagram: real.talk.us) ist eine amerikanische Nachrichten- und Medienseite mit rund 34.300 Followern. Motto: "Speaking truth, asking questions, and refusing to look away. News • Awareness • Humanity." Die Seite berichtet über US-amerikanische und internationale Politik.
 
 ## Links
 
