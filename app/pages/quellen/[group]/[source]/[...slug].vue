@@ -26,6 +26,10 @@ const { data: page } = await useAsyncData(
   () => queryCollection('quellenlinks').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
+if (!page.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Quellenlink nicht gefunden' })
+}
+
 const title = 'Link: ' + (page.value?.title || '')
 const sourceName = source.value?.name || ''
 

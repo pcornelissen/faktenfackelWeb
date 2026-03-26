@@ -24,6 +24,10 @@ const { data: page } = await useAsyncData(
   () => queryCollection('zitate').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
+if (!page.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Zitat nicht gefunden' })
+}
+
 const title = page.value?.title || 'Zitat von ' + (source.value?.name || 'unbekannter Quelle')
 const sourceNameForDesc = source.value?.name || ''
 

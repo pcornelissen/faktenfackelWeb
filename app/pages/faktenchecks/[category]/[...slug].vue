@@ -22,6 +22,10 @@ const { data: page } = await useAsyncData(
   () => queryCollection('faktenchecks').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
+if (!page.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Faktencheck nicht gefunden' })
+}
+
 const title = page.value?.title || `Faktencheck`
 const subtitle = page.value?.subtitle || `Faktencheck`
 

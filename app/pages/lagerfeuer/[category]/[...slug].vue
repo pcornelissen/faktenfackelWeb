@@ -20,6 +20,10 @@ const { data: page } = await useAsyncData(
   () => queryCollection('lagerfeuer').path(basePath).where('date', '<=', nowIso()).first(),
 )
 
+if (!page.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Beitrag nicht gefunden' })
+}
+
 const title = page.value?.title || `Lagerfeuer`
 const subtitle = page.value?.subtitle || ``
 
