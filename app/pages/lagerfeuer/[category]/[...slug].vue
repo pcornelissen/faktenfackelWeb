@@ -12,12 +12,12 @@ const basePath = route.path
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('lagerfeuer', basePath, {
     fields: ['subtitle'],
-  }).where('path', 'NOT LIKE', '%_info').where('date', '<=', nowIso())
+  }).where('path', 'NOT LIKE', '%_info').where('publishedOn', '<=', nowIso())
 })
 
 const { data: page } = await useAsyncData(
   `lagerfeuer-${slug}`,
-  () => queryCollection('lagerfeuer').path(basePath).where('date', '<=', nowIso()).first(),
+  () => queryCollection('lagerfeuer').path(basePath).where('publishedOn', '<=', nowIso()).first(),
 )
 
 if (!page.value) {

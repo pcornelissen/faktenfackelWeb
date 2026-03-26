@@ -15,7 +15,7 @@ await definePageData({
 const { data: recentList } = await useAsyncData('faktenchecks-recent-overview', () => {
   return queryCollection('faktenchecks')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
-    .where('date', '<=', nowIso())
+    .where('publishedOn', '<=', nowIso())
     .order('date', 'DESC')
     .all()
 })

@@ -33,7 +33,7 @@ await definePageData({
 const { data: list1 } = await useAsyncData(basePath + '/links/', () => {
   return queryCollection('quellenlinks')
     .where('path', 'LIKE', basePath + '/links/%')
-    .where('date', '<=', nowIso())
+    .where('publishedOn', '<=', nowIso())
     .select('date', 'title', 'uri', 'type', 'tags', 'path')
     .all()
 })
@@ -43,14 +43,14 @@ const coSource = extractNameFromPath(basePath)
 
 const { data: coList1 }
   = await useAsyncData(basePath + '-colinks', () => {
-    const builder = queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%').where('date', '<=', nowIso())
+    const builder = queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%').where('publishedOn', '<=', nowIso())
     return builder.all()
   })
 const coList = coList1.value as SourceLink[]
 
 const { data: quotesRaw }
   = await useAsyncData(basePath + '-quotes', () =>
-    queryCollection('zitate').where('path', 'LIKE', basePath + '/%').where('date', '<=', nowIso())
+    queryCollection('zitate').where('path', 'LIKE', basePath + '/%').where('publishedOn', '<=', nowIso())
       .all())
 const quotes = quotesRaw.value as Quote[] || []
 

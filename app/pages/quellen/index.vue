@@ -15,7 +15,7 @@ const basePath = route.path
 const { data: list1, pending } = useLazyAsyncData(basePath, () => {
   return queryCollection('quellen')
     .select('date', 'name', 'description', 'path', 'tags', 'imageAuthor')
-    .where('date', '<=', nowIso())
+    .where('publishedOn', '<=', nowIso())
     .order('name', 'ASC')
     .all()
 }, { server: false })

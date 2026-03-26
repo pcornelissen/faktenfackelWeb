@@ -12,7 +12,7 @@ await definePageData({
 })
 
 const { data: list1, pending } = useLazyAsyncData(route.path, () => {
-  return queryCollection('zitate').where('date', '<=', nowIso()).order('date', 'DESC').all()
+  return queryCollection('zitate').where('publishedOn', '<=', nowIso()).order('date', 'DESC').all()
 }, { server: false })
 
 const search = ref('')

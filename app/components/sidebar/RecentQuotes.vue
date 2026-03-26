@@ -5,7 +5,7 @@ const { data: recentQuotesRaw } = await useAsyncData('recent-zitate', () =>
   queryCollection('zitate')
     .select('path', 'title', 'teaser', 'date')
     .where('path', 'NOT LIKE', '%/_info')
-    .where('date', '<=', nowIso())
+    .where('publishedOn', '<=', nowIso())
     .order('date', 'DESC')
     .limit(3)
     .all(),

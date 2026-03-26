@@ -11,7 +11,7 @@ const basePath = route.path
 const sourcePath = getSourceFromPath(route.path)
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('zitate', basePath).where('path', 'LIKE', sourcePath + '/%').where('date', '<=', nowIso())
+  return queryCollectionItemSurroundings('zitate', basePath).where('path', 'LIKE', sourcePath + '/%').where('publishedOn', '<=', nowIso())
 })
 
 const { data: source } = await useAsyncData(
@@ -21,7 +21,7 @@ const { data: source } = await useAsyncData(
 
 const { data: page } = await useAsyncData(
   `zitate-${slug}`,
-  () => queryCollection('zitate').path(basePath).where('date', '<=', nowIso()).first(),
+  () => queryCollection('zitate').path(basePath).where('publishedOn', '<=', nowIso()).first(),
 )
 
 if (!page.value) {
@@ -50,21 +50,21 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
       useAsyncData(basePath + '-used-faktenchecks', () =>
         queryCollection('faktenchecks')
           .where('quoteCodes', 'LIKE', '%' + code + '%')
-          .where('date', '<=', nowIso())
+          .where('publishedOn', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'verdict', 'date', 'publishedOn', 'tags')
           .all(),
       ),
       useAsyncData(basePath + '-used-lagerfeuer', () =>
         queryCollection('lagerfeuer')
           .where('quoteCodes', 'LIKE', '%' + code + '%')
-          .where('date', '<=', nowIso())
+          .where('publishedOn', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'date', 'publishedOn', 'tags')
           .all(),
       ),
       useAsyncData(basePath + '-used-quellenlinks', () =>
         queryCollection('quellenlinks')
           .where('quoteCodes', 'LIKE', '%' + code + '%')
-          .where('date', '<=', nowIso())
+          .where('publishedOn', '<=', nowIso())
           .select('title', 'path', 'date')
           .all(),
       ),

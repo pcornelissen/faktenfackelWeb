@@ -15,7 +15,7 @@ await definePageData({
 const { data: recentList } = await useAsyncData('lagerfeuer-recent-overview', () =>
   queryCollection('lagerfeuer')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
-    .where('date', '<=', nowIso())
+    .where('publishedOn', '<=', nowIso())
     .order('date', 'DESC')
     .all(),
 )

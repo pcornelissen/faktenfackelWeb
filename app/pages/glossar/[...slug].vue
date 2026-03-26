@@ -6,12 +6,12 @@ const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('glossar', basePath, {}).where('date', '<=', nowIso())
+  return queryCollectionItemSurroundings('glossar', basePath, {}).where('publishedOn', '<=', nowIso())
 })
 
 const { data: page } = await useAsyncData(
   `glossar-${slug}`,
-  () => queryCollection('glossar').path(basePath).where('date', '<=', nowIso()).first(),
+  () => queryCollection('glossar').path(basePath).where('publishedOn', '<=', nowIso()).first(),
 )
 
 if (!page.value) {

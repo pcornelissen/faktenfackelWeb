@@ -24,32 +24,32 @@ function likeTag(t: string) {
 
 const { data: rawFaktenchecks, pending: p1 } = useLazyAsyncData(
   () => route.path + '-fc',
-  () => queryCollection('faktenchecks').where('tags', 'LIKE', likeTag(tag.value)).where('date', '<=', nowIso()).order('date', 'DESC').all(),
+  () => queryCollection('faktenchecks').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('date', 'DESC').all(),
   { server: false },
 )
 const { data: rawLagerfeuer, pending: p2 } = useLazyAsyncData(
   () => route.path + '-lf',
-  () => queryCollection('lagerfeuer').where('tags', 'LIKE', likeTag(tag.value)).where('date', '<=', nowIso()).order('date', 'DESC').all(),
+  () => queryCollection('lagerfeuer').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('date', 'DESC').all(),
   { server: false },
 )
 const { data: rawGlossar, pending: p3 } = useLazyAsyncData(
   () => route.path + '-gl',
-  () => queryCollection('glossar').where('tags', 'LIKE', likeTag(tag.value)).where('date', '<=', nowIso()).all(),
+  () => queryCollection('glossar').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).all(),
   { server: false },
 )
 const { data: rawZitate, pending: p4 } = useLazyAsyncData(
   () => route.path + '-zi',
-  () => queryCollection('zitate').where('tags', 'LIKE', likeTag(tag.value)).where('date', '<=', nowIso()).all(),
+  () => queryCollection('zitate').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).all(),
   { server: false },
 )
 const { data: rawQuellenlinks, pending: p5 } = useLazyAsyncData(
   () => route.path + '-ql',
-  () => queryCollection('quellenlinks').where('tags', 'LIKE', likeTag(tag.value)).where('date', '<=', nowIso()).order('path', 'ASC').all(),
+  () => queryCollection('quellenlinks').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('path', 'ASC').all(),
   { server: false },
 )
 const { data: rawQuellen, pending: p6 } = useLazyAsyncData(
   () => route.path + '-qu',
-  () => queryCollection('quellen').where('tags', 'LIKE', likeTag(tag.value)).where('date', '<=', nowIso()).order('name', 'ASC').all(),
+  () => queryCollection('quellen').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('name', 'ASC').all(),
   { server: false },
 )
 

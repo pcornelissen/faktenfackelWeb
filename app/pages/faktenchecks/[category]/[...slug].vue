@@ -14,12 +14,12 @@ const basePath = route.path
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   return queryCollectionItemSurroundings('faktenchecks', basePath, {
     fields: ['subtitle'],
-  }).where('path', 'NOT LIKE', '%_info').where('date', '<=', nowIso())
+  }).where('path', 'NOT LIKE', '%_info').where('publishedOn', '<=', nowIso())
 })
 
 const { data: page } = await useAsyncData(
   `faktencheck-${slug}`,
-  () => queryCollection('faktenchecks').path(basePath).where('date', '<=', nowIso()).first(),
+  () => queryCollection('faktenchecks').path(basePath).where('publishedOn', '<=', nowIso()).first(),
 )
 
 if (!page.value) {

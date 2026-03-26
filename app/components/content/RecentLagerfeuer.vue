@@ -4,7 +4,7 @@ import { nowIso, type Post } from '~/utils/contentUtils'
 const { data: listRaw } = await useAsyncData('/lagerfeuer', () => {
   return queryCollection('lagerfeuer')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date')
-    .where('date', '<=', nowIso())
+    .where('publishedOn', '<=', nowIso())
     .order('date', 'DESC')
     .all()
 })
