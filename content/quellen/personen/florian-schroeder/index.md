@@ -1,11 +1,11 @@
 ---
-date: 2026-03-26
+date: 2026-03-10
 publishedOn: 2026-03-10
 name: Florian Schröder
 description: Deutscher Kabarettist, Satiriker und politischer Kommentator
 tags: [ Kabarett, Satire, Politik, Deutschland, Facebook, more-research-needed ]
 ---
-date: 2026-03-26
+date: 2026-03-10
 publishedOn: 2026-03-10
 
 ## Über die Quelle

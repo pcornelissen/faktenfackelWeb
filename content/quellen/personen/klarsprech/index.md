@@ -1,11 +1,11 @@
 ---
-date: 2026-03-26
+date: 2026-03-10
 publishedOn: 2026-03-10
 name: Klarsprech
 description: Deutschsprachiger YouTube-Kanal für politische Bildung und Satire (Teil des GaM-Netzwerks)
 tags: [ YouTube, Satire, Politik, Bildung, Kulturkampf, Deutschland, more-research-needed ]
 ---
-date: 2026-03-26
+date: 2026-03-10
 publishedOn: 2026-03-10
 
 ## Über die Quelle
