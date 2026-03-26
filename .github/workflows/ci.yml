@@ -40,8 +40,8 @@ jobs:
         env:
           COMMITS_JSON: ${{ toJSON(github.event.commits.*.message) }}
         run: |
-          MESSAGES=$(echo "$COMMITS_JSON" | jq -r '.[]' | head -1 | sed 's/Co-Authored-By:.*//' | tr -d '\n' | cut -c1-80)
-          echo "messages=$MESSAGES" >> "$GITHUB_OUTPUT"
+          MESSAGES=$(echo "$COMMITS_JSON" | jq -r '.[]' | head -1 | sed 's/Co-Authored-By:.*//' | tr -d '\n' | tr -dc 'a-zA-Z0-9 _.,:;!?()/-' | cut -c1-60)
+          echo "messages=${MESSAGES:-deploy}" >> "$GITHUB_OUTPUT"
 
       - name: Deploy to Cloudflare Workers
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
