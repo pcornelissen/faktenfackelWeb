@@ -3,7 +3,7 @@ import { nowIso } from '~/utils/contentUtils'
 
 export type Source = {
   date: string
-  publishedOn: string
+  publishedOn: string | null
   name: string
   description: string
   path: string
@@ -13,7 +13,7 @@ export type Source = {
 export type SourceLink = {
   date: string
   sourceDate: string
-  publishedOn: string
+  publishedOn: string | null
   title: string
   code: string
   uri: string
