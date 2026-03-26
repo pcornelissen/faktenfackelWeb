@@ -223,6 +223,12 @@ export default defineEventHandler((event) => {
     }
   }
 
+  // Alte Tag-URLs: /COLLECTION/tags/TAG → /tags/TAG (lowercase)
+  const tagMatch = url.match(/^\/(faktenchecks|lagerfeuer|glossar|zitate|quellen)(\/tags\/.+)/)
+  if (tagMatch) {
+    return sendRedirect(event, tagMatch[2]!.toLowerCase(), 301)
+  }
+
   // Alte URL-Struktur: /quellen/SOURCE/... ohne group-Segment
   if (url.startsWith('/quellen/')) {
     const parts = url.slice('/quellen/'.length).split('/')
