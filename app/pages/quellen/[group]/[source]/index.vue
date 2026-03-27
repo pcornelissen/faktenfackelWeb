@@ -79,6 +79,15 @@ await referencesStore.fetchFor(sourceInfo.value)
     >
       {{ calculateSourceImgAuthor(sourceInfo) }}
     </div>
+    <UAlert
+      v-if="sourceInfo.tags?.includes('more-research-needed')"
+      color="neutral"
+      variant="subtle"
+      icon="i-lucide-search"
+      title="Die Informationen zu dieser Quelle sind noch nicht vollständig und werden bald erweitert."
+      class="mb-4"
+    />
+
     <div class="layout">
       <div
         class="intro px-2"

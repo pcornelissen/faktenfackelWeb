@@ -7,6 +7,7 @@ verdict: false
 tags:
   - AfD
   - Demo
+  - Kriminalität
   - Rosenheim
   - Winhart
   - Propaganda

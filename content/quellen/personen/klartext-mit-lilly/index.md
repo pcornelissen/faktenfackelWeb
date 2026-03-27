@@ -1,26 +1,29 @@
 ---
-date: 2026-03-10
+date: 2026-03-27
 publishedOn: 2026-03-10
 name: KlartextmitLilly
-description: Deutschsprachiger Facebook-Account mit politischem Kommentar
+description: Lilian Thau – deutsche Moderatorin und politische Kommentatorin mit progressivem Schwerpunkt
 tags:
-  - more-research-needed
+  - research-done-review-pending
 ---
-date: 2026-03-10
-publishedOn: 2026-03-10
 
 ## Über die Quelle
 
-"KlartextmitLilly" ist ein deutschsprachiger Facebook-Account, der politische Kommentare und Analysen zu aktuellen Themen teilt. Der Account befasst sich u.a. mit Medienkritik, Sozialpolitik und gesellschaftlichen Debatten.
+KlartextmitLilly ist der Social-Media-Account von Lilian Thau, einer deutschen Moderatorin, politischen Gastgeberin und Analystin aus Inning am Ammersee, Bayern. Sie bezeichnet sich selbst als Schafferin von "Gesprächsräumen, die inhaltlich stechen und medial nachhallen." Thematische Schwerpunkte sind Sozialpolitik, Wirtschaftspolitik und soziale Gerechtigkeit.
+
+Die Inhalte erscheinen auf Facebook, Instagram, TikTok, YouTube und LinkedIn. Stand Februar 2026 erreicht der Account rund 125.000 Instagram-Follower (~7 Millionen Views/Monat) und 16.100 Facebook-Follower (~1,5 Millionen Views/Monat).
 
 ## Links
 
-- Facebook: https://www.facebook.com/profile.php?id=61582441006888
+- Website: [klartext-mit-lilly.de](https://klartext-mit-lilly.de/)
+- Facebook: [KlartextmitLilly](https://www.facebook.com/people/KlartextmitLilly/61582441006888/)
+- TikTok: [@klartext_mit_lilly](https://www.tiktok.com/@klartext_mit_lilly)
+- X: [@Lilianthau](https://x.com/Lilianthau)
 
 ## Faktenfackel Bewertung
 
-Noch nicht ausreichend untersucht. Der Account scheint progressiv-politische Perspektiven zu vertreten.
+Lilian Thau ist eine progressiv positionierte Kommentatorin mit klarer Haltung zu sozialer Gerechtigkeit. Ihre Beiträge sind explizit meinungsgebunden und kein Anspruch auf journalistische Neutralität. Die inhaltlichen Einordnungen sind in der Regel nachvollziehbar, sollten aber an unabhängigen Quellen gemessen werden.
 
 ### Fazit
 
-Unbekannte Quelle – weitere Recherche notwendig.
+Progressiv-politische Kommentatorin mit merklicher Reichweite. Beiträge als Meinungsquelle einordnen, sachliche Behauptungen gesondert prüfen.

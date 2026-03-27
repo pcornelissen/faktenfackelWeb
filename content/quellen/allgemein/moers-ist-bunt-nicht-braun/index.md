@@ -4,7 +4,6 @@ publishedOn: 2026-01-11
 name: Moers ist Bunt, nicht Braun
 description: Lokale Bürgerinitiative gegen Rechtsextremismus in Moers
 tags:
-  - more-research-needed
   - Aktivismus
   - Antifaschismus
   - Deutschland

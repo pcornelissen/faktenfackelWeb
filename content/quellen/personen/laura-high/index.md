@@ -1,26 +1,27 @@
 ---
-date: 2026-03-10
+date: 2026-03-27
 publishedOn: 2026-03-10
 name: Laura High
-description: Englischsprachige Aktivistin, postet zu US-Immigration und Verfassungsrechten
+description: US-amerikanische Digital Creatorin und SAG-AFTRA-Mitglied, kommentiert US-Politik, Verfassungsrechte und gesellschaftliche Themen
 tags:
-  - more-research-needed
+  - research-done-review-pending
 ---
-date: 2026-03-10
-publishedOn: 2026-03-10
 
 ## Über die Quelle
 
-Laura High ist ein englischsprachiger Facebook-Account, der Inhalte zu US-Einwanderungspolitik, Verfassungsrechten und sozialpolitischen Themen in den USA teilt.
+Laura High ist eine US-amerikanische Digital Creatorin aus New York City. Sie ist Mitglied der Gewerkschaft SAG-AFTRA und hat rund 141.500 Facebook-Follower. Ihre Biografie lautet "I'm a punchline" – ein humorvoller Hinweis auf ihren satirisch-politischen Stil. Sie betreibt außerdem die Website [laurahighfive.com](http://laurahighfive.com/).
+
+Ihre Inhalte drehen sich um US-amerikanische Politik, Verfassungsrechte, Einwanderungspolitik und gesellschaftliche Themen. Der Ton ist kritisch-humorvoll und progressiv geprägt.
 
 ## Links
 
-- Facebook: (persönliches Profil, nicht öffentlich verlinkt)
+- Facebook: [Laura High](https://www.facebook.com/laura.high.14/)
+- Website: [laurahighfive.com](http://laurahighfive.com/)
 
 ## Faktenfackel Bewertung
 
-Noch nicht ausreichend untersucht. Weitere Recherche erforderlich.
+Klar progressiv positionierte US-Kommentatorin mit humoristisch-satirischem Ansatz. Faktenbehauptungen sollten an US-Primärquellen geprüft werden. Reichweite und SAG-AFTRA-Mitgliedschaft deuten auf einen professionellen, medienerfahrenen Hintergrund hin.
 
 ### Fazit
 
-Unbekannte Quelle – weitere Recherche notwendig.
+Progressiv-satirische US-Kommentatorin. Als Meinungsquelle einordnen, Faktenbehauptungen gesondert prüfen.

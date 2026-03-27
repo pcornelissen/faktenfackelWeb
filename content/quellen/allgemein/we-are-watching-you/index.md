@@ -5,7 +5,6 @@ name: We are watching you
 description: Deutsche politische Kommentarseite mit Fokus auf AfD und Demokratiegefährdung
 image: profile.jpg
 tags:
-  - more-research-needed
   - Deutschland
   - AfD
   - Demokratie

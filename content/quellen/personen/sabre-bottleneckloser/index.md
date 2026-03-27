@@ -1,10 +1,10 @@
 ---
-date: 2026-02-01
+date: 2026-03-27
 publishedOn: 2026-03-09
 name: Sabre // bottleneckloser
 description: US-Kommentatorin, Social-Media-Content-Creator
 tags:
-  - more-research-needed
+  - research-done-review-pending
   - Creator
   - Social Media
   - Facebook

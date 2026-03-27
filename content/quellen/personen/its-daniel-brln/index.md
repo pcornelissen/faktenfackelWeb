@@ -1,10 +1,10 @@
 ---
-date: 2026-03-09
+date: 2026-03-27
 publishedOn: 2026-03-10
 name: its.daniel.brln
-description: Berliner TikTok-Kommentator zu deutscher Politik und gesellschaftlichen Themen
+description: Berliner TikTok-Kommentator zu deutscher Politik und gesellschaftlichen Themen, 234.000 Follower
 tags:
-  - more-research-needed
+  - research-done-review-pending
   - Deutschland
   - Politik
   - Berlin
@@ -12,16 +12,17 @@ tags:
 
 ## Über die Quelle
 
-`@its.daniel.brln` ist ein deutschsprachiger TikTok-Kanal aus Berlin, der politische Kommentare zu aktuellen Ereignissen in Deutschland produziert. Der Kanal kommentiert u.a. Energiepolitik, AfD und Bundespolitik.
+`@its.daniel.brln` ("It's Daniel") ist ein deutschsprachiger TikTok-Kanal aus Berlin mit rund 234.900 Followern und 9,2 Millionen Likes (Stand März 2026). Der Kanal kommentiert aktuelle politische Ereignisse in Deutschland aus progressiv-kritischer Perspektive, mit Schwerpunkten auf AfD-Kritik, Bundespolitik und gesellschaftlichen Debatten. Daniel ist auch auf YouTube ([@its.danielbrln](https://youtube.com/@its.danielbrln)), Facebook und Instagram aktiv.
 
 ## Links
 
-- https://www.tiktok.com/@its.daniel.brln
+- TikTok: https://www.tiktok.com/@its.daniel.brln
+- YouTube: https://youtube.com/@its.danielbrln
 
 ## Faktenfackel Bewertung
 
-Meinungsbasierter Kommentarkanal. Faktische Behauptungen auf Primärquellen prüfen.
+Meinungsbasierter Kommentarkanal mit deutlich progressiver, AfD-kritischer Haltung. Inhaltlich handelt es sich um politische Kurzkommentare und Reaktionen auf aktuelle Ereignisse, keine investigative Recherche. Faktische Behauptungen an Primärquellen prüfen.
 
 ### Fazit
 
-Politischer Kommentarkanal zu deutschen Themen. Einzelne Faktenbehauptungen nachprüfen.
+Reichweitenstarker politischer Kommentarkanal (234.000 Follower) zu deutschen Themen aus progressiver Perspektive. Einzelne Faktenbehauptungen gesondert nachprüfen.

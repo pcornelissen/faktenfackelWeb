@@ -6,6 +6,7 @@ description: Politiker, AfD
 imageAuthor: Steffen Prößdorf
 tags:
   - AfD
+  - Kriminalität
   - Politiker
   - Bundestag
   - Bestechung

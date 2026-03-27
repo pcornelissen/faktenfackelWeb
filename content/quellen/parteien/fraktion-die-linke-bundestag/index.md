@@ -4,14 +4,16 @@ publishedOn: 2026-03-10
 name: Fraktion Die Linke im Bundestag
 description: Bundestagsfraktion der Partei Die Linke
 tags:
-  - more-research-needed
+  - Partei
+  - Links
+  - Die Linke
 ---
 date: 2026-03-10
 publishedOn: 2026-03-10
 
 ## Über die Quelle
 
-Die Fraktion Die Linke im Bundestag ist der parlamentarische Arm der Partei Die Linke im Deutschen Bundestag. Der Account teilt Parlamentsreden, Positionen und politische Statements.
+Die Fraktion der "Partei Die Linke" im Bundestag ist der parlamentarische Arm der Partei Die Linke im Deutschen Bundestag. Der Account teilt Parlamentsreden, Positionen und politische Statements.
 
 ## Links
 

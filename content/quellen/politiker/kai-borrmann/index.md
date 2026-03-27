@@ -6,6 +6,7 @@ description: Politiker, AfD
 imageAuthor: IMAGO/Olaf Wagner
 tags:
   - AfD
+  - Kriminalität
   - Politiker
   - Bundestag
   - Verurteilt
