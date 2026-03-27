@@ -79,6 +79,23 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
     </BackLink>
 
     <div v-if="page">
+      <UAlert
+        v-if="page.tags?.includes('research-done-review-pending')"
+        color="orange"
+        variant="subtle"
+        icon="i-lucide-eye"
+        title="Dieser Inhalt wurde recherchiert, aber noch nicht final geprüft."
+        class="mb-4 review-alert"
+      />
+      <UAlert
+        v-if="page.tags?.includes('more-research-needed')"
+        color="neutral"
+        variant="subtle"
+        icon="i-lucide-search"
+        title="Dieser Inhalt ist noch rudimentär und wird bald erweitert."
+        class="mb-4"
+      />
+
       <div class="article-header">
         <div class="article-headline">
           Stand: {{ lastChange }}
@@ -163,6 +180,10 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
 </template>
 
 <style scoped>
+.review-alert :deep([class*="icon"]) {
+  color: var(--flame);
+}
+
 .article-header {
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
