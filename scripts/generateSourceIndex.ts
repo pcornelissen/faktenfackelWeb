@@ -7,7 +7,7 @@
  */
 
 import { readdir, readFile, stat, writeFile } from 'node:fs/promises'
-import { join, relative } from 'node:path'
+import { join } from 'node:path'
 
 const CONTENT_DIR = join(import.meta.dirname, '..', 'content', 'quellen')
 const OUTPUT_FILE = join(import.meta.dirname, '..', '_sourceindex.json')
@@ -46,10 +46,13 @@ interface Quote {
   date: string
 }
 
-function parseFrontmatter(content: string): Record<string, any> {
+type FrontmatterValue = string | string[] | boolean
+type Frontmatter = Record<string, FrontmatterValue>
+
+function parseFrontmatter(content: string): Frontmatter {
   const match = content.match(/^---\n([\s\S]*?)\n---/)
   if (!match) return {}
-  const fm: Record<string, any> = {}
+  const fm: Frontmatter = {}
   let currentKey = ''
   let inArray = false
   const lines = match[1].split('\n')
@@ -81,7 +84,12 @@ function parseFrontmatter(content: string): Record<string, any> {
 }
 
 async function exists(path: string): Promise<boolean> {
-  try { await stat(path); return true } catch { return false }
+  try {
+    await stat(path)
+    return true
+  } catch {
+    return false
+  }
 }
 
 async function collectSources(): Promise<{ sources: Source[], links: Link[], quotes: Quote[] }> {
