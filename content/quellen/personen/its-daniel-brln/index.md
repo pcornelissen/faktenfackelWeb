@@ -4,7 +4,6 @@ publishedOn: 2026-03-10
 name: its.daniel.brln
 description: Berliner TikTok-Kommentator zu deutscher Politik und gesellschaftlichen Themen, 234.000 Follower
 tags:
-  - research-done-review-pending
   - Deutschland
   - Politik
   - Berlin

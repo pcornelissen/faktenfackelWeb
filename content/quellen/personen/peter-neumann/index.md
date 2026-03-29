@@ -4,7 +4,6 @@ publishedOn: 2026-03-27
 name: Peter R. Neumann
 description: Politikwissenschaftler und Sicherheitsexperte, King's College London
 tags:
-  - more-research-needed
   - Sicherheitspolitik
   - Terrorismus
   - USA
@@ -18,3 +17,11 @@ Peter R. Neumann ist Professor für Sicherheitsstudien am King's College London 
 ## Links
 
 - https://en.wikipedia.org/wiki/Peter_R._Neumann
+
+## Faktenfackel Bewertung
+
+Peter R. Neumann ist einer der international renommiertesten Experten für Terrorismus und Radikalisierung. Seine Analysen sind wissenschaftlich fundiert und werden regelmäßig von Medien und Regierungen herangezogen. Als akademische Quelle gilt er als sehr verlässlich.
+
+### Fazit
+
+Hochrangige wissenschaftliche Quelle für Sicherheitspolitik, Terrorismus und Radikalisierung. Sehr verlässlich.

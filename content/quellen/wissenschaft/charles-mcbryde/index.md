@@ -9,7 +9,6 @@ tags:
   - Geschichte
   - Faschismus
   - USA
-  - more-research-needed
 ---
 
 ## Über die Quelle

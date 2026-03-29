@@ -4,7 +4,6 @@ publishedOn: 2026-03-26
 name: "Michael Schwarzer"
 description: "Politiker, ehemaliger AfD-Ratsfraktionsvorsitzender Siegen"
 tags:
-  - more-research-needed
   - AfD
   - Aussteiger
 ---
@@ -16,3 +15,11 @@ Michael Schwarzer war Vorsitzender der AfD-Ratsfraktion in Siegen. Er trat am 6.
 ## Links
 
 - https://www.siegener-zeitung.de/lokales/siegerland/siegen/siegener-afd-fraktion-tritt-geschlossen-aus-partei-aus-5BAMBQGLOJAW7M2FH67T4GIMFM.html
+
+## Faktenfackel Bewertung
+
+Michael Schwarzer ist ein ehemaliger AfD-Fraktionsvorsitzender, der die Partei 2023 verlassen hat. Als Aussteiger kann er Einblicke in AfD-Strukturen geben, ist aber als politische Stimme mit entsprechendem Hintergrund einzuordnen.
+
+### Fazit
+
+Perspektivquelle aus dem AfD-Aussteigerlager. Aussagen im historischen Kontext einordnen.

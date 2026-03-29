@@ -9,7 +9,6 @@ tags:
   - Politik
   - Deutschland
   - Facebook
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

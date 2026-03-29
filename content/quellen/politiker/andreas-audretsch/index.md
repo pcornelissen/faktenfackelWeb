@@ -10,7 +10,6 @@ tags:
   - Bundestag
   - Haushalt
   - Soziales
-  - more-research-needed
 ---
 
 ## Über die Quelle

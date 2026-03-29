@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Cory Booker
 description: US-amerikanischer Demokrat, Senator für New Jersey
 tags:
-  - more-research-needed
   - USA
   - Demokraten
   - Senator

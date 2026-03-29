@@ -297,7 +297,7 @@ undemokratisch seien.
 
 Im Gegenteil, sie sind ein Ausdruck der demokratischen Rechte der Bürger, ihre Meinung zu äußern und gegen politische
 Parteien zu protestieren. Solange diese Proteste ohne Gewalt und Zerstörung verlaufen und die Rechte anderer so weit wie
-möglich respektieren, sind sie ein legitimes Mittel der Meinungsäußerung in einer Demokratie. Die davon abzugrenzende Frage, ob man <Reference code="no-afd-sollte-man-reden-2026">mit der AfD überhaupt reden sollte</Reference>, ist eine gesonderte Diskussion.
+möglich respektieren, sind sie ein legitimes Mittel der Meinungsäußerung in einer Demokratie. Die davon abzugrenzende Frage, ob man <Reference code="tim-achtermeyer-sollte-man-reden-2026">mit der AfD überhaupt reden sollte</Reference>, ist eine gesonderte Diskussion. Dass die AfD selbst ein problematisches Verhältnis zur Meinungsfreiheit hat, zeigt <Reference code="rehak-nitsche-afd-meinungsfreiheit-opferrrolle">Katrin Rehak-Nitsche in ihrer Analyse der AfD-Opferrolle</Reference>; <Reference code="ricarda-lang-afd-meinungsfreiheit-bundestag">auch Ricarda Lang hat die AfD im Bundestag mit ihrer eigenen Meinungsfreiheitsrhetorik konfrontiert</Reference>.
 
 Man darf auch nicht vergessen, dass es aktuell ein starkes Ungleichgewicht in der öffentlichen Wahrnehmung der
 verschiedenen Demonstrationen gibt. Eine angemeldete linksorientierte Demo wird gerne auch schon präventiv als

@@ -4,7 +4,6 @@ publishedOn: 2026-03-10
 name: Klarsprech
 description: Deutschsprachiger YouTube-Kanal für politische Bildung und Satire (Teil des GaM-Netzwerks)
 tags:
-  - research-done-review-pending
   - YouTube
   - Satire
   - Politik
@@ -16,7 +15,7 @@ tags:
 
 "Klarsprech" ist ein YouTube-Kanal, der dem Netzwerk "Gottlos auf Mutter" (GaM) zugehört. Der Kanal produziert längere Videoessays zu politischen und gesellschaftlichen Themen aus progressiver Perspektive. Die Inhalte werden von zwei Kunstfiguren präsentiert und sind oft satirisch-polemisch formuliert, enthalten jedoch recherchierte Quellenangaben. Ein Disclaimer im Kanal weist explizit darauf hin, dass Aussagen "subjektiven Perspektiven zweier Kunstfiguren zuzuordnen, häufig extrem sarkastisch, polemisch formuliert und inhaltlich verkürzt" sind.
 
-Das GaM-Netzwerk ist im deutschsprachigen politischen YouTube-Bildungsbereich gut etabliert. Quellen werden in den Videobeschreibungen verlinkt.
+Das GaM-Netzwerk ist im deutschsprachigen politischen YouTube-Bildungsbereich gut etabliert und ist vom Twitch-Streamer Staiy. Quellen werden in den Videobeschreibungen verlinkt.
 
 ## Links
 

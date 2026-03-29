@@ -90,6 +90,7 @@ export default defineContentConfig({
         coSources: z.set(z.string()),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
+        status: z.array(z.string()).optional(),
       }),
       indexes: [
         { columns: ['code'], unique: true },

@@ -4,7 +4,6 @@ publishedOn: 2026-03-26
 name: "Jörg Meuthen"
 description: "Politiker, ehemaliger AfD-Bundessprecher (2015-2022)"
 tags:
-  - more-research-needed
   - AfD
   - Aussteiger
 ---
@@ -16,3 +15,11 @@ Jörg Meuthen (* 1961) war von 2015 bis 2022 Bundessprecher (Vorsitzender) der A
 ## Links
 
 - https://de.wikipedia.org/wiki/J%C3%B6rg_Meuthen
+
+## Faktenfackel Bewertung
+
+Jörg Meuthen war jahrelang einer der führenden AfD-Politiker und trat 2022 aus der Partei aus. Er begründete seinen Austritt mit der zunehmenden Radikalisierung. Als hochrangiger Ex-AfD-Funktionär mit Kenntnissen der internen Strukturen ist er eine wertvolle Primärquelle, auch wenn seine Aussagen durch seinen persönlichen Werdegang geprägt sind.
+
+### Fazit
+
+Hochrangiger AfD-Aussteiger. Wertvolle Einblicke in Parteistrukturen, parteipolitischen Kontext beachten.

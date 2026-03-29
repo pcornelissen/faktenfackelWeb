@@ -97,4 +97,4 @@ Die Behauptung, Gegendemonstranten hätten den AfD-Bürgermeisterkandidaten in R
 
 Der Fall steht exemplarisch für eine bekannte Strategie: Eine von der AfD gesetzte Opfererzählung wurde durch eine unkritische Polizeimeldung rasch zur scheinbar gesicherten Tatsache - bis das Videomaterial sie widerlegte. Der Schaden ist nun aber entstanden und die Zielgruppe wird die widerlegenden Informationen entweder ignorieren oder aktiv als Fake ablehnen, auch wenn nur die AfD-Position erlogen war.
 
-Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference> griff das Umfeld Journalisten an, während die Polizei untätig blieb.
+Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference> griff das Umfeld Journalisten an, während die Polizei untätig blieb. In einem weiteren dokumentierten Fall <Reference code="der-dara-afd-linker-angriff-videobeweis">behauptete die AfD einen "linken Angriff" - auch hier widerlegte ein Video die Behauptung und führte zu Verfahren gegen AfD-Mitglieder selbst</Reference>.

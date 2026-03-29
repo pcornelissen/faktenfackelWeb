@@ -277,7 +277,7 @@ Das Narrativ, dass "die Ausländer kriminell sind", ist also nicht haltbar, wenn
 Altersgruppen hinweg) der Ausländer überhaupt nur einer Tat verdächtigt werden. Kombiniert man das mit der
 Aufklärungsquote so ist zu erwarten, dass auch darin nur zwischen 33 % und 40 % wirklich Taten begangen wurden. Also
 sind es insgesamt eher unter 3-4 %, die wirklich kriminell sind. Da muss man schon sehr kreativ sein, um daher alle
-Ausländer in Misskredit zu ziehen. Das wird ebenfalls vom <Reference code="ifo-migration-kriminalität-2025">ifo Institut untermauert</Reference>, die ebenfalls zum selben Schluss gekommen sind. Auch das verbreitete Narrativ der <Reference code="no-afd-kriminelle-clans-2026">kriminellen Ausländer-Clans</Reference> hält einem Faktencheck nicht stand.
+Ausländer in Misskredit zu ziehen. Das wird ebenfalls vom <Reference code="ifo-migration-kriminalität-2025">ifo Institut untermauert</Reference>, die ebenfalls zum selben Schluss gekommen sind. <Reference code="mai-thi-nguyen-kim-migration-kriminalitaet-trugschluss">Mai Thi Nguyen-Kim erklärt den Trugschluss anschaulich</Reference>: Ohne Kontrolle der sozioökonomischen Faktoren (Alter, Einkommen, Wohnverhältnisse) ist der scheinbare Zusammenhang zwischen Herkunft und Kriminalität statistisch irreführend. Auch das verbreitete Narrativ der <Reference code="no-afd-kriminelle-clans-2026">kriminellen Ausländer-Clans</Reference> hält einem Faktencheck nicht stand.
 
 Es ist vollkommen fair zu verlangen, dass kriminelle Migranten ihr "Besuchsrecht" überstrapazieren und ggf. ausgewiesen
 werden sollten. Man darf die Menschen aber nicht vorher in die Kriminalität leiten, indem man ein menschenwürdiges Leben

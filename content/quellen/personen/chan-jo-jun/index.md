@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Chan-Jo Jun
 description: Deutscher Anwalt, bekannt für Klagen gegen Twitter/X wegen Hassrede
 tags:
-  - more-research-needed
   - Recht
   - Hassrede
   - Social-Media

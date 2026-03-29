@@ -10,7 +10,6 @@ tags:
   - Demokratie
   - Antifaschismus
   - Migration
-  - more-research-needed
 ---
 
 ## Über die Quelle

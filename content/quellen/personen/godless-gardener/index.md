@@ -9,7 +9,6 @@ tags:
   - Religion
   - USA
   - Englisch
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

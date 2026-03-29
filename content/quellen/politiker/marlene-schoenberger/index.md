@@ -4,10 +4,7 @@ publishedOn: 2026-03-10
 name: Marlene Schönberger
 description: MdB Bündnis 90/Die Grünen, Sprecherin für Sucht- und Drogenpolitik
 tags:
-  - more-research-needed
 ---
-date: 2026-03-10
-publishedOn: 2026-03-10
 
 ## Über die Quelle
 

@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Robert Habeck
 description: Bundesvorsitzender von Bündnis 90/Die Grünen, ehem. Bundeswirtschaftsminister, MdB
 tags:
-  - more-research-needed
   - Grüne
   - Deutschland
   - MdB

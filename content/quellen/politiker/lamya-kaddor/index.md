@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Lamya Kaddor
 description: Politikerin, SPD, MdB
 tags:
-  - more-research-needed
   - SPD
   - Integration
   - Islam

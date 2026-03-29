@@ -7,6 +7,8 @@ function typeToIcon(typeStr: string) {
   switch (typeStr) {
     case 'facebook':
       return 'i-lucide:facebook'
+    case 'reel':
+      return 'i-lucide:clapperboard'
     case 'youtube':
       return 'i-lucide:youtube'
     case 'pdf':

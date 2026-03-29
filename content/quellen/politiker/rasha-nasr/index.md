@@ -5,7 +5,6 @@ name: Rasha Nasr
 description: Politikerin, SPD, MdB
 imageAuthor: Julian Hoffmann
 tags:
-  - more-research-needed
   - SPD
   - Deutschland
   - MdB

@@ -10,7 +10,6 @@ tags:
   - Wissenschaft
   - Ernährung
   - Faktencheck
-  - more-research-needed
 ---
 
 ## Über die Quelle

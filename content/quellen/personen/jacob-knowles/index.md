@@ -10,7 +10,6 @@ tags:
   - Facebook
   - Instagram
   - YouTube
-  - more-research-needed
 ---
 
 ## Über die Quelle

@@ -7,7 +7,6 @@ tags:
   - YouTube
   - Video
   - Social Media
-  - more-research-needed
 ---
 
 ## Über die Quelle

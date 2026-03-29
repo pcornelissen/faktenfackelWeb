@@ -5,7 +5,6 @@ name: Heiner Garg
 description: FDP-Politiker, ehemaliger stellvertretender Ministerpräsident Schleswig-Holsteins
 imageAuthor: Stern
 tags:
-  - more-research-needed
   - FDP
   - Schleswig-Holstein
   - Bundespolitik

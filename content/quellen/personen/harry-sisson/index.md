@@ -5,7 +5,6 @@ name: Harry Sisson
 description: US-Politikkommentator, Content Creator
 imageAuthor: SamSchmir
 tags:
-  - research-done-review-pending
   - Creator
   - Social Media
   - Facebook

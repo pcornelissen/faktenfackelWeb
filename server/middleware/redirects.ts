@@ -5,6 +5,9 @@ const linkRedirects: Record<string, string> = {
   '/quellen/allgemein/facebook-divers/links/20261226.gie\u00dfen-auto-f\u00e4hrt-in-menschenmenge': '/quellen/allgemein/facebook/links/20261226.tricks-der-afd',
   '/quellen/allgemein/facebook-divers/links/20260124.tricks-der-afd': '/quellen/allgemein/facebook/links/20251226.afd-missbraucht-rettungsgasse-siegen',
 
+  // gaertner-gust link moved from facebook catch-all to own source
+  '/quellen/allgemein/facebook/links/20260102.gaertner-gust-afd-verurteilungen': '/quellen/personen/andreas-gaertner-gust/links/20260102.gaertner-gust-afd-verurteilungen',
+
   // gegen-die-alternative-fur-deutschland link → facebook (source dissolved)
   '/quellen/allgemein/gegen-die-alternative-fur-deutschland/links/20260109.afd-w\u00e4hler-sind-nicht-alle-nazis': '/quellen/allgemein/facebook/links/20260109.afd-w\u00e4hler-sind-nicht-alle-nazis',
 

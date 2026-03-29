@@ -4,7 +4,6 @@ publishedOn: 2026-03-10
 name: Helen Webberley
 description: Britische Ärztin, GenderGP-Gründerin und Aktivistin für transgender Gesundheitsversorgung
 tags:
-  - research-done-review-pending
   - Medizin
   - Trans
   - LGBTQ

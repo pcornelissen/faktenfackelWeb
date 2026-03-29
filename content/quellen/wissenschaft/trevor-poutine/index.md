@@ -4,7 +4,7 @@ publishedOn: 2026-03-18
 name: Trevor Poutine
 description: "Kanadischer Geschichtslehrer und Content Creator (Toronto), bekannt als 'Professor Poutine' – erklärt historische Ereignisse mit Bezug zur Gegenwart"
 tags:
-  - more-research-needed
+  - research-done-review-pending
   - Geschichte
   - Bildung
 ---

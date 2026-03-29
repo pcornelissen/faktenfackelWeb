@@ -5,7 +5,7 @@ name: ProfessorNeil
 description: Wissenschaftskommunikator, Faktencheck- und Debunking-Creator
 imageAuthor: https://cambriancollege.academia.edu/NeilShyminsky
 tags:
-  - more-research-needed
+  - research-done-review-pending
   - Creator
   - Social Media
   - Facebook
@@ -30,4 +30,4 @@ ProfessorNeil erklärt rhetorische und argumentative Muster verständlich und mi
 
 ### Fazit
 
-Glaubwürdige Quelle für Debunking und Medienkompetenz. Weitere Prüfung ausstehend.
+Glaubwürdige Quelle für Debunking und Medienkompetenz. Akademischer Hintergrund in Englisch und Kulturwissenschaften; inhaltlich befasst er sich auch mit Themen außerhalb seines Fachgebiets, was bei spezifischen Sachfragen beachtet werden sollte.
