@@ -16,7 +16,13 @@
     "indexnow": "node scripts/indexnow.mjs",
     "indexnow:all": "node scripts/indexnow.mjs --all",
     "indexnow:dry": "node scripts/indexnow.mjs --dry-run",
-    "sourceIndex": "node scripts/generateSourceIndex.mjs"
+    "sourceIndex": "node scripts/generateSourceIndex.mjs",
+    "social:bluesky": "node scripts/social/post-bluesky.mjs",
+    "social:mastodon": "node scripts/social/post-mastodon.mjs",
+    "social:twitter": "node scripts/social/post-twitter.mjs",
+    "social:facebook": "node scripts/social/post-facebook.mjs",
+    "social:image": "python3 scripts/social/generate-social-image.py",
+    "social:post": "node scripts/social/post-all.mjs"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.100",
