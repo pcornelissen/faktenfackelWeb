@@ -7,6 +7,8 @@ await definePageData({
   pageSubHeading: 'Rechtliche Informationen',
   description: 'Impressum von Faktenfackel – Angaben gemäß § 5 TMG, Verantwortliche Person und Kontaktdaten.',
 })
+
+defineOgImage('Default', { title: 'Impressum' })
 </script>
 
 <template>

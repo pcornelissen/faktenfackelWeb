@@ -8,6 +8,8 @@ await definePageData({
   description: 'Antworten auf häufige Fragen zu Faktenfackel: Wie arbeiten wir? Wie bewerten wir Quellen? Was bedeuten die Bewertungsstufen? Alles Wissenswerte auf einen Blick.',
 })
 
+defineOgImage('Default', { title: 'Häufig gestellte Fragen' })
+
 useHead({
   script: [
     {

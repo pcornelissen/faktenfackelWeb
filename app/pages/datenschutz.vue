@@ -6,6 +6,8 @@ await definePageData({
   pageHeading: 'Datenschutzerklärung',
   description: 'Datenschutzerklärung von Faktenfackel gemäß DSGVO – Informationen zur Datenverarbeitung, Cookies und deinen Rechten als Nutzer.',
 })
+
+defineOgImage('Default', { title: 'Datenschutzerklärung' })
 </script>
 
 <template>

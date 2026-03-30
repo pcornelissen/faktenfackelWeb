@@ -7,6 +7,10 @@ await definePageData({
   pageSubHeading: 'Obligatorische Selbstdarstellung',
   description: 'Wer steckt hinter Faktenfackel? Unser Ziel, unsere Arbeitsweise und warum wir glauben, dass gute Faktenprüfung für eine mündige Gesellschaft unverzichtbar ist.',
 })
+
+defineOgImage('Default', {
+  title: 'Über Faktenfackel',
+})
 </script>
 
 <template>
