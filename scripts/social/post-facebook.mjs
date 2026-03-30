@@ -62,8 +62,7 @@ if (imagePath) {
 
   const result = await response.json()
   console.log(`Facebook: https://www.facebook.com/${result.post_id || result.id}`)
-}
-else {
+} else {
   // Text Post (mit Link-Preview)
   const response = await fetch(`${graphUrl}/feed`, {
     method: 'POST',

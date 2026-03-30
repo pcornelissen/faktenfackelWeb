@@ -45,6 +45,11 @@ useSeoMeta({
   articleModifiedTime: page.value?.date || new Date().toLocaleDateString(),
 })
 
+defineOgImage('Faktencheck', {
+  title,
+  verdict: page.value?.verdict || 'false',
+})
+
 useClaimReview({
   title: page.value?.title || title,
   subtitle: page.value?.subtitle,

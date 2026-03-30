@@ -41,7 +41,7 @@ function generateOAuthHeader(method, url) {
   }
 
   const sortedParams = Object.keys(params).sort().map(k =>
-    `${encodeURIComponent(k)}=${encodeURIComponent(params[k])}`
+    `${encodeURIComponent(k)}=${encodeURIComponent(params[k])}`,
   ).join('&')
 
   const baseString = `${method}&${encodeURIComponent(url)}&${encodeURIComponent(sortedParams)}`
@@ -51,7 +51,7 @@ function generateOAuthHeader(method, url) {
   params.oauth_signature = signature
 
   return 'OAuth ' + Object.keys(params).sort().map(k =>
-    `${encodeURIComponent(k)}="${encodeURIComponent(params[k])}"`
+    `${encodeURIComponent(k)}="${encodeURIComponent(params[k])}"`,
   ).join(', ')
 }
 

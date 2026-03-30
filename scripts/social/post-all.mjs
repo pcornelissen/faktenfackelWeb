@@ -106,8 +106,7 @@ for (const platform of platforms) {
     })
     console.log(stdout.trim())
     results.push({ platform: platform.name, status: 'ok', url: stdout.trim() })
-  }
-  catch (err) {
+  } catch (err) {
     const errorMsg = err.stderr || err.message
     console.error(`${platform.name}: FEHLER - ${errorMsg}`)
     results.push({ platform: platform.name, status: 'error', error: errorMsg })

@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxtjs/sitemap',
     'nuxt-feedme',
+    'nuxt-og-image',
   ],
   $production: {
     routeRules: {
@@ -201,10 +202,16 @@ export default defineNuxtConfig({
   },
   fonts: {
     families: [
-      { name: 'Playfair Display', weights: [700, 900], display: 'swap' },
+      { name: 'Playfair Display', weights: [700, 900], display: 'swap', global: true },
       { name: 'Source Serif 4', weights: [300, 400, 600], styles: ['normal', 'italic'], display: 'swap' },
-      { name: 'Ubuntu Mono', weights: [400, 700], display: 'swap' },
+      { name: 'Ubuntu Mono', weights: [400, 700], display: 'swap', global: true },
     ],
+  },
+  ogImage: {
+    defaults: {
+      width: 1200,
+      height: 630,
+    },
   },
   sitemap: {
     zeroRuntime: true,

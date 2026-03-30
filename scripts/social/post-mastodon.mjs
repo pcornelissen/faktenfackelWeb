@@ -63,7 +63,10 @@ if (imagePath) {
     for (let i = 0; i < 10; i++) {
       await new Promise(r => setTimeout(r, 1000))
       const check = await fetch(`${instance}/api/v1/media/${mediaId}`, { headers }).then(r => r.json())
-      if (check.url) { ready = true; break }
+      if (check.url) {
+        ready = true
+        break
+      }
     }
     if (!ready) {
       console.error('Bild-Verarbeitung Timeout.')

@@ -41,6 +41,10 @@ useSeoMeta({
   articleModifiedTime: page.value?.date || new Date().toLocaleDateString(),
 })
 
+defineOgImage('Lagerfeuer', {
+  title,
+})
+
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 

@@ -28,6 +28,11 @@ await definePageData({
   lastmod: new Date(page.value?.date || new Date()),
 })
 
+defineOgImage('Default', {
+  title,
+  label: 'GLOSSAR',
+})
+
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 </script>
