@@ -10,7 +10,7 @@ tags:
   - Stand-up
   - Komödie
   - USA
-  - LGBT
+  - LGBTQ
   - Gesellschaft
 ---
 

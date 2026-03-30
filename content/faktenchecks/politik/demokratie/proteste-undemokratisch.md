@@ -8,7 +8,7 @@ tags:
   - AfD
   - Generation-Deutschland
   - Demokratie
-  - Proteste
+  - Protest
 ---
 
 ## Was ist passiert?

@@ -4,7 +4,7 @@ publishedOn: 2026-02-01
 name: Tiktok Beiträge
 description: Beiträge von diversen Accounts auf Tiktok
 tags:
-  - Tiktok
+  - TikTok
 ---
 
 ## Über die Quelle

@@ -8,7 +8,7 @@ tags:
   - Unabhängig
   - Antifaschist
   - Journalist
-  - Faktenchecker
+  - Faktencheck
 ---
 
 ## Über die Quelle

@@ -10,7 +10,7 @@ tags:
   - Facebook
   - USA
   - Trans
-  - LGBT
+  - LGBTQ
   - Gesellschaft
 ---
 

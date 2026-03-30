@@ -4,7 +4,7 @@ publishedOn: 2026-03-09
 name: Gregor Gysi
 description: Politiker, Die Linke, Bundestagsabgeordneter, bekannt für pointierte Reden
 tags:
-  - Linke
+  - Die Linke
   - Deutschland
   - MdB
   - Bundestagsrede

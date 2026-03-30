@@ -5,7 +5,7 @@ name: Die Linke
 description: Partei
 tags:
   - Partei
-  - links
+  - Links
   - Die Linke
 ---
 

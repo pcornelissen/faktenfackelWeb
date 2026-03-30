@@ -4,7 +4,7 @@ publishedOn: 2026-03-09
 name: Heidi Reichinnek
 description: Fraktionsvorsitzende von Die Linke im Deutschen Bundestag, MdB
 tags:
-  - Linke
+  - Die Linke
   - Deutschland
   - MdB
   - Fraktionsvorsitzende

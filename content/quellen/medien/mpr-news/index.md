@@ -6,7 +6,7 @@ description: Minnesota Public Radio - öffentlich-rechtlicher Rundfunk aus Minne
 tags:
   - USA
   - Medien
-  - Öffentlich-rechtlich
+  - ÖRR
 ---
 
 ## Über die Quelle

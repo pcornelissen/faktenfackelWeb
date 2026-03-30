@@ -5,7 +5,7 @@ name: SWR Kultur
 description: Kulturkanal des Südwestrundfunks
 tags:
   - Medien
-  - ÖffentlichRechtlich
+  - ÖRR
   - Deutschland
   - Kultur
 ---

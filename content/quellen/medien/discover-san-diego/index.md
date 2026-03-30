@@ -6,7 +6,7 @@ description: US-amerikanische Facebook-Community-Seite für San Diego, dokumenti
 tags:
   - USA
   - Lokalnachrichten
-  - SocialMedia
+  - Social Media
 ---
 
 ## Über die Quelle

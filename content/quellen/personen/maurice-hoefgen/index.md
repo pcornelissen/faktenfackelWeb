@@ -11,7 +11,7 @@ tags:
   - Instagram
   - Antifaschist
   - Ökonom
-  - Youtube
+  - YouTube
 ---
 
 ## Über die Quelle

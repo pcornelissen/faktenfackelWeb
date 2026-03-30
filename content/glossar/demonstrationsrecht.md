@@ -7,7 +7,7 @@ subject: "Demonstrationsrecht"
 tags:
   - Glossar
   - Recht
-  - Demonstration
+  - Demo
 ---
 
 ## Definition

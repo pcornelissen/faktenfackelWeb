@@ -9,7 +9,7 @@ tags:
   - Facebook
   - Wissenschaft
   - Gesundheit
-  - Impfungen
+  - Impfung
   - Desinformation
 ---
 

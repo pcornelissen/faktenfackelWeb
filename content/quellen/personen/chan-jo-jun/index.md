@@ -6,7 +6,7 @@ description: Deutscher Anwalt, bekannt für Klagen gegen Twitter/X wegen Hassred
 tags:
   - Recht
   - Hassrede
-  - Social-Media
+  - Social Media
   - Deutschland
 ---
 
