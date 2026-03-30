@@ -57,9 +57,14 @@ const imagePath = imageName ? resolve(draftDir, imageName) : null
 
 // Plattform-Texte extrahieren (## Plattformname\nText bis naechstes ##)
 function extractSection(name) {
-  const regex = new RegExp(`^## ${name}\\n([\\s\\S]*?)(?=^## |$)`, 'm')
-  const match = body.match(regex)
-  return match ? match[1].trim() : null
+  // Split body by ## headers, find the matching section
+  const sections = body.split(/^## /m)
+  for (const section of sections) {
+    if (section.startsWith(name + '\n')) {
+      return section.slice(name.length + 1).trim()
+    }
+  }
+  return null
 }
 
 const platforms = [
