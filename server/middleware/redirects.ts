@@ -53,6 +53,7 @@ const prefixRedirects: Record<string, string> = {
   '/quellen/allgemein/facebook-divers': '/quellen/allgemein/facebook',
   '/quellen/allgemein/tiktok-divers': '/quellen/allgemein/tiktok',
   '/quellen/allgemein/x-divers': '/quellen/allgemein/x',
+  '/quellen/portale/x-twitter': '/quellen/allgemein/x',
   '/faktenchecks/gesellschaft/stadtbild': '/lagerfeuer/perspektiven/2025-12-12.merz-stadtbild',
   '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem',
   '/faktenchecks/_vorlage': '/faktenchecks',
