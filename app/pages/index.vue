@@ -69,7 +69,7 @@ await definePageData({
               So arbeitet Faktenfackel
             </h3>
             <p class="sidebar-note-text">
-              Die Quellenbasis bleibt sichtbar, aber die Startseite gibt ihr bewusst eine ruhigere Rolle als dem eigentlichen Faktencheck-Einstieg.
+              Faktenfackel verlinkt nicht nur Quellen, sondern ordnet sie ein. So bleibt nachvollziehbar, woher eine Aussage kommt und wie belastbar sie ist.
             </p>
             <div class="sidebar-links">
               <a href="/about">Über die Arbeitsweise</a>
@@ -88,7 +88,7 @@ await definePageData({
               Unterstütze Faktenfackel
             </div>
             <p class="support-desc">
-              Werbefrei, unabhängig und offen nachvollziehbar. Wenn dir diese Richtung wichtig ist, kannst du sie direkt unterstützen.
+              Unabhängig, werbefrei und offen in der Arbeitsweise. Wenn dir diese Art von Faktencheck wichtig ist, kannst du sie direkt möglich machen.
             </p>
             <a
               href="https://buymeacoffee.com/faktenfackel"

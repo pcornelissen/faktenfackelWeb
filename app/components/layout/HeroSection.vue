@@ -39,7 +39,7 @@ const totalCount = computed(
         <h1>Mythen entlarven.<br><span class="hero-highlight">Fakten ruhig und klar beleuchten.</span></h1>
         <p class="hero-sub">
           Faktenfackel prüft Behauptungen aus Politik und Gesellschaft,
-          ordnet Quellen ein und macht nachvollziehbar, worauf sich ein Urteil stützt.
+          trennt Belegbares von Stimmungsmache und zeigt offen, worauf jedes Urteil beruht.
         </p>
         <div class="hero-cta">
           <a
@@ -104,7 +104,7 @@ const totalCount = computed(
           />Aktuelles Signal</span>
         </div>
         <div class="ticker-intro">
-          Was sich seit dem letzten Besuch wirklich geändert hat.
+          Neue Recherchen, neue Quellen, neue Einordnungen.
         </div>
         <ul class="ticker-list">
           <li

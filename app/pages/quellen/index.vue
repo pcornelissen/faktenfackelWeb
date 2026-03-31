@@ -67,13 +67,13 @@ const filtered = computed(() => {
     />
     <div class="page-intro">
       <p>
-        Die Quellensammlung ist die Vertrauensbasis von Faktenfackel. Hier liegen Quellen, auf die in Faktenchecks, Einordnungen und weiterführenden Recherchen zurückgegriffen wird.
+        Die Quellensammlung ist die Vertrauensbasis von Faktenfackel. Hier liegen die Quellen, auf die in Faktenchecks, Einordnungen und weiterführenden Recherchen zurückgegriffen wird.
       </p>
       <p>
-        Sie ist sowohl für eigene Recherchen als auch für Leser gedacht, die transparent nachvollziehen möchten, welche Personen, Medien, Organisationen und Primärquellen im Projekt eine Rolle spielen.
+        Sie ist für eigene Recherchen gedacht und für Leser, die transparent nachvollziehen möchten, welche Personen, Medien, Organisationen und Primärquellen im Projekt eine Rolle spielen.
       </p>
       <p class="mb-0">
-        Über Filter, Tags und Volltextsuche lässt sich die Sammlung quellenübergreifend durchsuchen, ohne dass sie sich wie ein rohes Archiv anfühlt.
+        Über Filter, Tags und Volltextsuche lässt sich die Sammlung quellenübergreifend durchsuchen, ohne sich wie ein rohes Archiv zu lesen.
       </p>
     </div>
     <div class="filter-section">

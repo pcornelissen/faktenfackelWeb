@@ -36,10 +36,10 @@ const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith
         Im Lagerfeuer erscheinen längere Einordnungen, Analysen und Gedankenstücke, die über den klassischen Faktencheck hinausgehen.
       </p>
       <p>
-        Hier sammeln wir dedizierte Ausarbeitungen zu Themen, die mehr Kontext, mehr Haltung oder mehr Tiefe brauchen. Der Bereich soll sich wie der ruhigere zweite Pfad neben den Faktenchecks anfühlen.
+        Hier geht es um Themen, die mehr Kontext, mehr Ruhe und mehr Raum brauchen als ein knappes Urteil. Der Bereich ergänzt die Faktenchecks um Tiefe, Haltung und Verbindungslinien.
       </p>
       <p>
-        Gelegentlich erscheinen hier auch Beiträge zur Faktenfackel selbst, zu redaktionellen Überlegungen oder zu Themen, die bewusst essayistischer angelegt sind.
+        Gelegentlich erscheinen hier auch Texte zur Faktenfackel selbst, zu redaktionellen Entscheidungen oder zu Fragen, die bewusst essayistischer angelegt sind.
       </p>
     </div>
     <div class="section-block">
