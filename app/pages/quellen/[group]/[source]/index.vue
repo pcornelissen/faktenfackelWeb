@@ -62,64 +62,76 @@ await referencesStore.fetchFor(sourceInfo.value)
     v-if="sourceInfo"
     class="wide"
   >
-    <h1 class="source-title">
-      {{ title }}
-    </h1>
-    <img
-      :src="calculateSourceImg(sourceInfo)"
-      :title="calculateSourceImgAuthor(sourceInfo)"
-      :alt="calculateSourceImgAuthor(sourceInfo)"
-      width="180"
-      height="180"
-      class="img rounded-lg"
-    >
-    <div
-      class="text-sm italic text-gray-400"
-      style="margin-top: -1.2em"
-    >
-      {{ calculateSourceImgAuthor(sourceInfo) }}
-    </div>
-    <UAlert
-      v-if="sourceInfo.tags?.includes('more-research-needed')"
-      color="neutral"
-      variant="subtle"
-      icon="i-lucide-search"
-      title="Die Informationen zu dieser Quelle sind noch nicht vollständig und werden bald erweitert."
-      class="mb-4"
-    />
-
-    <div class="layout">
-      <div
-        class="intro px-2"
-      >
-        <ContentRenderer
-          v-if="sourceInfo"
-          :value="sourceInfo"
-        />
-      </div>
-      <div
-        v-if="list.length > 0 || coList.length > 0|| quotes.length > 0"
-        class="sidebar"
-      >
-        <div
-          v-if="quotes.length > 0"
+    <div class="source-shell">
+      <div class="source-header">
+        <div class="source-kicker">
+          Quelle
+        </div>
+        <h1 class="source-title">
+          {{ title }}
+        </h1>
+        <p
+          v-if="sourceInfo.description"
+          class="source-subtitle"
         >
-          <h2 class="text-2xl font-bold mt-12 mb-5">
-            Zitate
-          </h2>
-          <QuotesList
-            :list="quotes"
+          {{ sourceInfo.description }}
+        </p>
+        <div class="source-brand">
+          <img
+            :src="calculateSourceImg(sourceInfo)"
+            :title="calculateSourceImgAuthor(sourceInfo)"
+            :alt="calculateSourceImgAuthor(sourceInfo)"
+            width="180"
+            height="180"
+            class="img"
+          >
+          <div class="source-author">
+            {{ calculateSourceImgAuthor(sourceInfo) }}
+          </div>
+        </div>
+      </div>
+
+      <UAlert
+        v-if="sourceInfo.tags?.includes('more-research-needed')"
+        color="neutral"
+        variant="subtle"
+        icon="i-lucide-search"
+        title="Die Informationen zu dieser Quelle sind noch nicht vollständig und werden bald erweitert."
+        class="source-alert"
+      />
+
+      <div class="layout">
+        <div class="intro">
+          <ContentRenderer
+            v-if="sourceInfo"
+            :value="sourceInfo"
           />
         </div>
-        <SourceLinksList
-          v-if="list.length > 0"
-          :list="list"
-        />
-        <SourceLinksList
-          v-if="coList.length > 0"
-          :list="coList"
-          title-override="Involviert bei den Links"
-        />
+        <div
+          v-if="list.length > 0 || coList.length > 0 || quotes.length > 0"
+          class="sidebar"
+        >
+          <div
+            v-if="quotes.length > 0"
+            class="sidebar-block"
+          >
+            <h2 class="sidebar-title">
+              Zitate
+            </h2>
+            <QuotesList
+              :list="quotes"
+            />
+          </div>
+          <SourceLinksList
+            v-if="list.length > 0"
+            :list="list"
+          />
+          <SourceLinksList
+            v-if="coList.length > 0"
+            :list="coList"
+            title-override="Involviert bei den Links"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -129,15 +141,77 @@ await referencesStore.fetchFor(sourceInfo.value)
 </template>
 
 <style scoped>
+.source-shell {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(231, 222, 208, 0.9);
+  border-radius: 1.6rem;
+  box-shadow: 0 18px 50px rgba(47, 26, 11, 0.06);
+  overflow: hidden;
+}
+
+.source-header {
+  padding: 2.5rem 2.75rem 1.7rem;
+  background:
+    radial-gradient(circle at top right, rgba(232, 68, 10, 0.1), transparent 32%),
+    linear-gradient(180deg, white, #FCF8F3);
+  border-bottom: 1px solid var(--fackel-border);
+}
+
+.source-kicker {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flame);
+  margin-bottom: 0.9rem;
+}
+
 .source-title {
-  margin: 0 0 1rem;
+  margin: 0 0 0.8rem;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  max-width: 12ch;
+}
+
+.source-subtitle {
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  color: var(--muted);
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.48;
+  max-width: 34ch;
+  text-wrap: balance;
+}
+
+.source-brand {
+  margin-top: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
 }
 
 .img {
   max-width: 180px;
   max-height: 180px;
   object-fit: contain;
-  margin-bottom: 1.5em;
+  border-radius: 1rem;
+  background: white;
+  padding: 0.8rem;
+  border: 1px solid var(--fackel-border);
+}
+
+.source-author {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-family: 'Ubuntu Mono', monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.source-alert {
+  margin: 1.3rem 1.5rem 0;
 }
 
 .layout {
@@ -145,15 +219,21 @@ await referencesStore.fetchFor(sourceInfo.value)
   grid-template-columns: minmax(0, 1fr) clamp(260px, 30%, 380px);
   gap: 2rem;
   align-items: start;
-  margin-top: -2em;
+  padding: 1.8rem 2.75rem 2.8rem;
 }
 
 .sidebar {
   min-width: 0;
 }
 
-.intro {
-  /* Breite durch grid-column limitiert, max 65ch */
+.sidebar-block {
+  margin-bottom: 2rem;
+}
+
+.sidebar-title {
+  margin: 0 0 1rem;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
 }
 
 .intro :deep(p),
@@ -165,21 +245,67 @@ await referencesStore.fetchFor(sourceInfo.value)
 @media screen and (max-width: 900px) {
   .layout {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.2rem 1.15rem 2rem;
   }
 
   .img {
     max-width: 140px;
     max-height: 140px;
-    margin: 0 0 1em 0;
+  }
+
+  .sidebar-block {
+    margin-bottom: 1.5rem;
   }
 }
 
-p {
-  margin-bottom: 1em;
-}
+@media screen and (max-width: 560px) {
+  .source-header {
+    padding: 1.65rem 1.05rem 1.15rem;
+  }
 
-a:hover {
-  color: var(--color-secondary);
-  text-decoration: underline;
+  .source-kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    margin-bottom: 0.75rem;
+  }
+
+  .source-title {
+    margin-bottom: 0.65rem;
+    max-width: 10ch;
+  }
+
+  .source-subtitle {
+    font-size: 1.05rem;
+    line-height: 1.42;
+  }
+
+  .source-brand {
+    margin-top: 1rem;
+    gap: 0.55rem;
+  }
+
+  .img {
+    max-width: 112px;
+    max-height: 112px;
+    padding: 0.65rem;
+  }
+
+  .source-author {
+    font-size: 0.72rem;
+  }
+
+  .source-alert {
+    margin: 1rem 1rem 0;
+  }
+
+  .layout {
+    gap: 1.3rem;
+    padding: 1.05rem 1.05rem 1.75rem;
+  }
+
+  .sidebar-title {
+    margin-bottom: 0.8rem;
+  }
 }
 </style>

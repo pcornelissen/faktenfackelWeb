@@ -126,6 +126,8 @@ onMounted(() => {
   line-height: 1.6;
   font-weight: 400;
   margin-bottom: 1rem;
+  max-width: 30ch;
+  text-wrap: pretty;
 }
 
 .support-link {
@@ -138,6 +140,7 @@ onMounted(() => {
   text-transform: uppercase;
   color: var(--flame);
   text-decoration: none;
+  min-height: 2.25rem;
 }
 
 .support-link:hover {
@@ -163,6 +166,7 @@ onMounted(() => {
   flex-direction: column;
   gap: 8px;
   padding: 0;
+  margin: 0;
 }
 
 .footer-col a {
@@ -170,6 +174,8 @@ onMounted(() => {
   color: #9A8F86;
   text-decoration: none;
   transition: color 0.15s;
+  display: inline-block;
+  padding: 0.12rem 0;
 }
 
 .footer-col a:hover {
@@ -183,6 +189,7 @@ onMounted(() => {
   font-size: 0.78rem;
   color: #9A8F86;
   letter-spacing: 0.05em;
+  line-height: 1.6;
 }
 
 @media screen and (max-width: 900px) {
@@ -196,14 +203,62 @@ onMounted(() => {
 }
 
 @media screen and (max-width: 560px) {
+  .site-footer {
+    margin-top: 3.4rem;
+    padding: 1.8rem 1rem 1rem;
+  }
+
   .footer-inner {
     grid-template-columns: 1fr;
+    gap: 1.4rem;
+    padding-bottom: 1.4rem;
   }
+
   .footer-brand {
     grid-column: 1;
   }
-  .site-footer {
-    padding: 2rem 1rem 1rem;
+
+  .footer-logo {
+    font-size: 1.28rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .footer-tagline {
+    font-size: 0.94rem;
+    line-height: 1.55;
+    margin-bottom: 0.85rem;
+    max-width: none;
+  }
+
+  .support-link {
+    font-size: 0.76rem;
+    letter-spacing: 0.07em;
+  }
+
+  .footer-col {
+    padding-top: 1rem;
+    border-top: 1px solid rgba(154, 143, 134, 0.14);
+  }
+
+  .footer-col-title {
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-col ul {
+    gap: 0.45rem;
+  }
+
+  .footer-col a {
+    font-size: 0.96rem;
+    padding: 0.05rem 0;
+  }
+
+  .footer-bottom {
+    margin-top: 1.1rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
   }
 }
 </style>

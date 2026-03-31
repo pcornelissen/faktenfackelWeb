@@ -44,66 +44,68 @@ const lastChange = dateString(lastChangeStr)
     </BackLink>
 
     <div v-if="page">
-      <div class="article-header">
-        <div class="article-headline">
-          Stand: {{ lastChange }}
+      <div class="article-shell">
+        <div class="article-header">
+          <div class="article-headline">
+            Stand: {{ lastChange }}
+          </div>
+          <h1 class="article-title">
+            {{ page.title }}
+          </h1>
+          <p
+            v-if="page.description"
+            class="article-subtitle"
+          >
+            {{ page.description }}
+          </p>
         </div>
-        <h1 class="article-title">
-          {{ page.title }}
-        </h1>
-        <p
-          v-if="page.description"
-          class="article-subtitle"
-        >
-          {{ page.description }}
-        </p>
-      </div>
 
-      <div class="article-body content">
-        <ContentRenderer
-          v-if="page.body"
-          :value="page"
-        />
-        <USeparator
-          v-if="surround?.filter(Boolean).length"
-          class="my-8"
-        />
-        <div
-          v-if="surround?.filter(Boolean).length"
-          class="surround-nav"
-        >
-          <NuxtLink
-            v-if="surround?.[0]"
-            :to="(surround[0] as any).path"
-            class="surround-card"
-          >
-            <div class="surround-dir">
-              ← Vorheriger Eintrag
-            </div>
-            <div class="surround-title">
-              {{ (surround[0] as any).title }}
-            </div>
-          </NuxtLink>
-          <div
-            v-else
-            class="surround-card surround-empty"
+        <div class="article-body content">
+          <ContentRenderer
+            v-if="page.body"
+            :value="page"
           />
-          <NuxtLink
-            v-if="surround?.[1]"
-            :to="(surround[1] as any).path"
-            class="surround-card surround-card--right"
-          >
-            <div class="surround-dir">
-              Nächster Eintrag →
-            </div>
-            <div class="surround-title">
-              {{ (surround[1] as any).title }}
-            </div>
-          </NuxtLink>
-          <div
-            v-else
-            class="surround-card surround-empty"
+          <USeparator
+            v-if="surround?.filter(Boolean).length"
+            class="my-8"
           />
+          <div
+            v-if="surround?.filter(Boolean).length"
+            class="surround-nav"
+          >
+            <NuxtLink
+              v-if="surround?.[0]"
+              :to="(surround[0] as any).path"
+              class="surround-card"
+            >
+              <div class="surround-dir">
+                ← Vorheriger Eintrag
+              </div>
+              <div class="surround-title">
+                {{ (surround[0] as any).title }}
+              </div>
+            </NuxtLink>
+            <div
+              v-else
+              class="surround-card surround-empty"
+            />
+            <NuxtLink
+              v-if="surround?.[1]"
+              :to="(surround[1] as any).path"
+              class="surround-card surround-card--right"
+            >
+              <div class="surround-dir">
+                Nächster Eintrag →
+              </div>
+              <div class="surround-title">
+                {{ (surround[1] as any).title }}
+              </div>
+            </NuxtLink>
+            <div
+              v-else
+              class="surround-card surround-empty"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -115,36 +117,52 @@ const lastChange = dateString(lastChangeStr)
 </template>
 
 <style scoped>
+.article-shell {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(231, 222, 208, 0.9);
+  border-radius: 1.6rem;
+  box-shadow: 0 18px 50px rgba(47, 26, 11, 0.06);
+  overflow: hidden;
+}
+
 .article-header {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--fackel-border);
+  padding: 2.5rem 2.75rem 1.7rem;
+  background:
+    radial-gradient(circle at top right, rgba(232, 68, 10, 0.1), transparent 32%),
+    linear-gradient(180deg, white, #FCF8F3);
+  border-bottom: 1px solid var(--fackel-border);
 }
 
 .article-headline {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--flame);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
 }
 
 .article-title {
-  margin: 0 0 0.4rem;
-  line-height: 1.15;
+  margin: 0 0 0.8rem;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  max-width: 12ch;
 }
 
 .article-subtitle {
-  font-size: 1.05rem;
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
   color: var(--muted);
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.48;
+  max-width: 34ch;
+  text-wrap: balance;
 }
 
 .article-body {
-  margin-top: 1.5rem;
+  margin-top: 0;
+  padding: 1.8rem 2.75rem 2.8rem;
 }
 
 /* ── SURROUND NAVIGATION ── */
@@ -159,10 +177,10 @@ const lastChange = dateString(lastChangeStr)
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  padding: 1rem 1.2rem;
+  padding: 1.1rem 1.2rem;
   background: white;
   border: 1px solid var(--fackel-border);
-  border-radius: 6px;
+  border-radius: 1rem;
   text-decoration: none;
   color: inherit;
   transition: border-color 0.2s, box-shadow 0.2s;
@@ -202,7 +220,7 @@ const lastChange = dateString(lastChangeStr)
 
 .surround-dir {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.7rem;
+  font-size: 0.74rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--flame);
@@ -211,19 +229,53 @@ const lastChange = dateString(lastChangeStr)
 
 .surround-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 0.95rem;
+  font-size: 1.08rem;
   font-weight: 700;
   color: var(--ink);
-  line-height: 1.3;
+  line-height: 1.15;
+  text-wrap: balance;
 }
 
 @media screen and (max-width: 560px) {
+  .article-header {
+    padding: 1.65rem 1.05rem 1.15rem;
+  }
+
+  .article-headline {
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    margin-bottom: 0.75rem;
+  }
+
+  .article-title {
+    margin-bottom: 0.65rem;
+    max-width: 10ch;
+  }
+
+  .article-subtitle {
+    font-size: 1.05rem;
+    line-height: 1.42;
+  }
+
+  .article-body {
+    padding: 1.15rem 1.05rem 1.8rem;
+  }
+
   .surround-nav {
     grid-template-columns: 1fr;
+    gap: 0.8rem;
   }
 
   .surround-empty {
     display: none;
+  }
+
+  .surround-card {
+    padding: 0.95rem 1rem;
+  }
+
+  .surround-title {
+    font-size: 1rem;
   }
 }
 </style>

@@ -96,80 +96,82 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
         class="mb-4"
       />
 
-      <div class="article-header">
-        <div class="article-headline">
-          Stand: {{ lastChange }}
-        </div>
-        <h1 class="article-title">
-          {{ page.title }}
-        </h1>
-      </div>
-
-      <div class="quote-info">
-        <div class="section-block">
-          <div class="section-label">
-            Zitat
+      <div class="article-shell">
+        <div class="article-header">
+          <div class="article-headline">
+            Stand: {{ lastChange }}
           </div>
-          <blockquote class="quote-text">
+          <h1 class="article-title">
             {{ page.title }}
-          </blockquote>
+          </h1>
+        </div>
+
+        <div class="quote-info">
+          <div class="section-block">
+            <div class="section-label">
+              Zitat
+            </div>
+            <blockquote class="quote-text">
+              {{ page.title }}
+            </blockquote>
+          </div>
+
+          <div
+            v-if="page.tags?.length"
+            class="section-block"
+          >
+            <div class="section-label">
+              Schlagworte
+            </div>
+            <Tags
+              :tags="page.tags"
+            />
+          </div>
         </div>
 
         <div
-          v-if="page.tags?.length"
-          class="section-block"
+          v-if="page.body || usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length"
+          class="article-body content"
         >
-          <div class="section-label">
-            Schlagworte
-          </div>
-          <Tags
-            :tags="page.tags"
+          <ContentRenderer
+            v-if="page.body"
+            :value="page"
           />
+
+          <template v-if="usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length">
+            <h2>Verwendungen</h2>
+            <template v-if="usedInFaktenchecks?.length">
+              <h3>Faktenchecks</h3>
+              <PostsList
+                :list="(usedInFaktenchecks as any)"
+                icon="mdi:magnify"
+                :page-size="100"
+              />
+            </template>
+            <template v-if="usedInLagerfeuer?.length">
+              <h3>Lagerfeuer</h3>
+              <PostsList
+                :list="(usedInLagerfeuer as any)"
+                icon="mdi:book-open-variant"
+                :page-size="100"
+              />
+            </template>
+            <template v-if="usedInQuellenlinks?.length">
+              <h3>Weitere Quellenlinks</h3>
+              <PostsList
+                :list="(usedInQuellenlinks as any)"
+                icon="mdi:link-variant"
+                :page-size="100"
+              />
+            </template>
+          </template>
+
+          <USeparator
+            v-if="surround?.filter(Boolean).length"
+            class="my-8"
+          />
+          <UContentSurround :surround="(surround as any)" />
         </div>
-      </div>
-
-      <div
-        v-if="page.body || usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length"
-        class="article-body content"
-      >
-        <ContentRenderer
-          v-if="page.body"
-          :value="page"
-        />
-
-        <template v-if="usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length">
-          <h2>Verwendungen</h2>
-          <template v-if="usedInFaktenchecks?.length">
-            <h3>Faktenchecks</h3>
-            <PostsList
-              :list="(usedInFaktenchecks as any)"
-              icon="mdi:magnify"
-              :page-size="100"
-            />
-          </template>
-          <template v-if="usedInLagerfeuer?.length">
-            <h3>Lagerfeuer</h3>
-            <PostsList
-              :list="(usedInLagerfeuer as any)"
-              icon="mdi:book-open-variant"
-              :page-size="100"
-            />
-          </template>
-          <template v-if="usedInQuellenlinks?.length">
-            <h3>Weitere Quellenlinks</h3>
-            <PostsList
-              :list="(usedInQuellenlinks as any)"
-              icon="mdi:link-variant"
-              :page-size="100"
-            />
-          </template>
-        </template>
-
-        <USeparator
-          v-if="surround?.filter(Boolean).length"
-          class="my-8"
-        />
-        <UContentSurround :surround="(surround as any)" />
       </div>
     </div>
 
@@ -184,36 +186,51 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
   color: var(--flame);
 }
 
+.article-shell {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(231, 222, 208, 0.9);
+  border-radius: 1.6rem;
+  box-shadow: 0 18px 50px rgba(47, 26, 11, 0.06);
+  overflow: hidden;
+}
+
 .article-header {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--fackel-border);
+  padding: 2.5rem 2.75rem 1.4rem;
+  background:
+    radial-gradient(circle at top right, rgba(232, 68, 10, 0.1), transparent 32%),
+    linear-gradient(180deg, white, #FCF8F3);
+  border-bottom: 1px solid var(--fackel-border);
 }
 
 .article-headline {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--flame);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
 }
 
 .article-title {
   margin: 0;
-  line-height: 1.15;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
+  max-width: 13ch;
+  text-wrap: balance;
 }
 
 .quote-info {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  margin-bottom: 2rem;
+  margin: 0;
+  padding: 1.25rem 2.75rem 0;
 }
 
 .section-label {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--flame);
@@ -222,21 +239,71 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
 }
 
 .section-block {
-  padding-top: 1rem;
-  border-top: 1px solid var(--fackel-border);
+  padding-top: 0.35rem;
 }
 
 .quote-text {
-  font-size: 1.1rem;
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
   font-style: italic;
   color: var(--ink);
-  border-left: 3px solid var(--flame);
+  border-left: 4px solid var(--flame);
   padding-left: 1rem;
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.55;
+  background: #FCF7F0;
+  border-radius: 0 1rem 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  text-wrap: pretty;
 }
 
 .article-body {
-  margin-top: 1.5rem;
+  margin-top: 0;
+  padding: 1.8rem 2.75rem 2.8rem;
+}
+
+@media screen and (max-width: 560px) {
+  .article-header {
+    padding: 1.65rem 1.05rem 1.15rem;
+  }
+
+  .article-headline {
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    margin-bottom: 0.75rem;
+  }
+
+  .article-title {
+    max-width: 10ch;
+  }
+
+  .quote-info,
+  .article-body {
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+  }
+
+  .quote-info {
+    gap: 0.95rem;
+    padding-top: 1rem;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+  }
+
+  .quote-text {
+    font-size: 1.16rem;
+    line-height: 1.45;
+    padding: 0.8rem 0.85rem 0.8rem 0.85rem;
+    border-left-width: 3px;
+    border-radius: 0 0.85rem 0.85rem 0;
+  }
+
+  .article-body {
+    padding-bottom: 1.8rem;
+  }
 }
 </style>
