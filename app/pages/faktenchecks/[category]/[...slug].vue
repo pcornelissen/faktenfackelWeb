@@ -72,127 +72,130 @@ await referencesStore.fetchFor(page.value)
     </BackLink>
 
     <div v-if="page">
-      <div class="article-header">
-        <div class="article-headline">
-          Stand: {{ lastChange }}
-        </div>
-        <h1 class="article-title">
-          {{ page.title }}
-        </h1>
-        <p
-          v-if="page.subtitle"
-          class="article-subtitle"
-        >
-          {{ page.subtitle }}
-        </p>
-        <VerdictLabel
-          v-if="page.verdict !== undefined"
-          :type="page.verdict"
-          class="article-verdict"
-        />
-        <Tags
-          v-if="page.tags?.length"
-          :tags="(page.tags as string[])"
-          class="article-tags"
-        />
-      </div>
-
-      <UAlert
-        v-if="!page.publishedOn || new Date(page.publishedOn) > new Date()"
-        type="info"
-        icon="i-lucide-badge-info"
-        title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"
-      />
-
-      <div class="article-body content">
-        <div
-          v-if="(page.body as any)?.toc?.links?.length > 1"
-          class="article-toc"
-        >
-          <div class="toc-title">
-            Inhalt
+      <div class="article-shell">
+        <div class="article-header">
+          <div class="article-headline">
+            Stand: {{ lastChange }}
           </div>
-          <nav>
-            <ol class="toc-list">
-              <li
-                v-for="link in (page.body as any).toc.links"
-                :key="link.id"
-              >
-                <a :href="'#' + link.id">{{ link.text }}</a>
-                <ol
-                  v-if="link.children?.length"
-                  class="toc-sub"
-                >
-                  <li
-                    v-for="child in link.children"
-                    :key="child.id"
-                  >
-                    <a :href="'#' + child.id">{{ child.text }}</a>
-                  </li>
-                </ol>
-              </li>
-            </ol>
-          </nav>
+          <h1 class="article-title">
+            {{ page.title }}
+          </h1>
+          <p
+            v-if="page.subtitle"
+            class="article-subtitle"
+          >
+            {{ page.subtitle }}
+          </p>
+          <VerdictLabel
+            v-if="page.verdict !== undefined"
+            :type="page.verdict"
+            class="article-verdict"
+          />
+          <Tags
+            v-if="page.tags?.length"
+            :tags="(page.tags as string[])"
+            class="article-tags"
+          />
         </div>
 
-        <ContentRenderer
-          v-if="page.body"
-          :value="page"
+        <UAlert
+          v-if="!page.publishedOn || new Date(page.publishedOn) > new Date()"
+          type="info"
+          icon="i-lucide-badge-info"
+          title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"
+          class="article-alert"
         />
 
-        <USeparator
-          v-if="surround?.filter(Boolean).length"
-          class="my-8"
-        />
+        <div class="article-body content">
+          <div
+            v-if="(page.body as any)?.toc?.links?.length > 1"
+            class="article-toc"
+          >
+            <div class="toc-title">
+              Inhalt
+            </div>
+            <nav>
+              <ol class="toc-list">
+                <li
+                  v-for="link in (page.body as any).toc.links"
+                  :key="link.id"
+                >
+                  <a :href="'#' + link.id">{{ link.text }}</a>
+                  <ol
+                    v-if="link.children?.length"
+                    class="toc-sub"
+                  >
+                    <li
+                      v-for="child in link.children"
+                      :key="child.id"
+                    >
+                      <a :href="'#' + child.id">{{ child.text }}</a>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </nav>
+          </div>
 
-        <div
-          v-if="surround?.filter(Boolean).length"
-          class="surround-nav"
-        >
-          <NuxtLink
-            v-if="surround?.[0]"
-            :to="(surround[0] as any).path"
-            class="surround-card"
-          >
-            <div class="surround-dir">
-              ← Vorheriger Faktencheck
-            </div>
-            <div class="surround-title">
-              {{ (surround[0] as any).title }}
-            </div>
-            <div
-              v-if="(surround[0] as any).subtitle"
-              class="surround-sub"
-            >
-              {{ (surround[0] as any).subtitle }}
-            </div>
-          </NuxtLink>
-          <div
-            v-else
-            class="surround-card surround-empty"
+          <ContentRenderer
+            v-if="page.body"
+            :value="page"
           />
-          <NuxtLink
-            v-if="surround?.[1]"
-            :to="(surround[1] as any).path"
-            class="surround-card surround-card--right"
-          >
-            <div class="surround-dir">
-              Nächster Faktencheck →
-            </div>
-            <div class="surround-title">
-              {{ (surround[1] as any).title }}
-            </div>
-            <div
-              v-if="(surround[1] as any).subtitle"
-              class="surround-sub"
-            >
-              {{ (surround[1] as any).subtitle }}
-            </div>
-          </NuxtLink>
-          <div
-            v-else
-            class="surround-card surround-empty"
+
+          <USeparator
+            v-if="surround?.filter(Boolean).length"
+            class="my-8"
           />
+
+          <div
+            v-if="surround?.filter(Boolean).length"
+            class="surround-nav"
+          >
+            <NuxtLink
+              v-if="surround?.[0]"
+              :to="(surround[0] as any).path"
+              class="surround-card"
+            >
+              <div class="surround-dir">
+                ← Vorheriger Faktencheck
+              </div>
+              <div class="surround-title">
+                {{ (surround[0] as any).title }}
+              </div>
+              <div
+                v-if="(surround[0] as any).subtitle"
+                class="surround-sub"
+              >
+                {{ (surround[0] as any).subtitle }}
+              </div>
+            </NuxtLink>
+            <div
+              v-else
+              class="surround-card surround-empty"
+            />
+            <NuxtLink
+              v-if="surround?.[1]"
+              :to="(surround[1] as any).path"
+              class="surround-card surround-card--right"
+            >
+              <div class="surround-dir">
+                Nächster Faktencheck →
+              </div>
+              <div class="surround-title">
+                {{ (surround[1] as any).title }}
+              </div>
+              <div
+                v-if="(surround[1] as any).subtitle"
+                class="surround-sub"
+              >
+                {{ (surround[1] as any).subtitle }}
+              </div>
+            </NuxtLink>
+            <div
+              v-else
+              class="surround-card surround-empty"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -204,60 +207,79 @@ await referencesStore.fetchFor(page.value)
 </template>
 
 <style scoped>
+.article-shell {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(231, 222, 208, 0.9);
+  border-radius: 1.6rem;
+  box-shadow: 0 18px 50px rgba(47, 26, 11, 0.06);
+  overflow: hidden;
+}
+
 .article-header {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--fackel-border);
+  padding: 2.5rem 2.75rem 1.7rem;
+  background:
+    radial-gradient(circle at top right, rgba(232, 68, 10, 0.1), transparent 32%),
+    linear-gradient(180deg, white, #FCF8F3);
+  border-bottom: 1px solid var(--fackel-border);
 }
 
 .article-headline {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--flame);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
 }
 
 .article-title {
-  margin: 0 0 0.4rem;
-  line-height: 1.15;
+  margin: 0 0 0.8rem;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  max-width: 12ch;
 }
 
 .article-verdict {
   display: inline-block;
-  margin: 0.5rem 0 0.75rem;
+  margin: 0.35rem 0 0.9rem;
 }
 
 .article-tags {
-  margin-top: 0.75rem;
+  margin-top: 0.4rem;
 }
 
 .article-subtitle {
-  font-size: 1.05rem;
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
   color: var(--muted);
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.48;
+  max-width: 34ch;
+}
+
+.article-alert {
+  margin: 1.3rem 1.5rem 0;
 }
 
 .article-body {
-  margin-top: 1.5rem;
+  margin-top: 0;
+  padding: 1.8rem 2.75rem 2.8rem;
 }
 
 /* ── TOC ── */
 .article-toc {
-  margin: 0 0 1.8rem;
-  padding: 0.9rem 1.2rem;
-  background: #FDFAF5;
+  margin: 0 0 2rem;
+  padding: 1.15rem 1.3rem;
+  background: #FCF7F0;
   border: 1px solid var(--fackel-border);
-  border-left: 3px solid var(--flame);
-  border-radius: 4px;
+  border-left: 4px solid var(--flame);
+  border-radius: 1rem;
 }
 
 .toc-title {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--flame);
@@ -283,9 +305,10 @@ await referencesStore.fetchFor(page.value)
 
 .toc-list a,
 .toc-sub a {
-  font-size: 0.9rem;
+  font-size: 0.98rem;
   color: var(--ink);
   text-decoration: none;
+  line-height: 1.5;
 }
 
 .toc-list a:hover,
@@ -299,17 +322,17 @@ await referencesStore.fetchFor(page.value)
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .surround-card {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  padding: 1rem 1.2rem;
+  padding: 1.1rem 1.2rem;
   background: white;
   border: 1px solid var(--fackel-border);
-  border-radius: 6px;
+  border-radius: 1rem;
   text-decoration: none;
   color: inherit;
   transition: border-color 0.2s, box-shadow 0.2s;
@@ -351,7 +374,7 @@ await referencesStore.fetchFor(page.value)
 
 .surround-dir {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.7rem;
+  font-size: 0.74rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--flame);
@@ -360,19 +383,27 @@ await referencesStore.fetchFor(page.value)
 
 .surround-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 0.95rem;
+  font-size: 1.08rem;
   font-weight: 700;
   color: var(--ink);
-  line-height: 1.3;
+  line-height: 1.15;
 }
 
 .surround-sub {
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   color: var(--muted);
-  line-height: 1.4;
+  line-height: 1.48;
 }
 
 @media screen and (max-width: 560px) {
+  .article-header {
+    padding: 1.8rem 1.2rem 1.3rem;
+  }
+
+  .article-body {
+    padding: 1.25rem 1.2rem 2rem;
+  }
+
   .surround-nav {
     grid-template-columns: 1fr;
   }

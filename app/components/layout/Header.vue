@@ -88,7 +88,7 @@ function isActive(href: string) {
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
-  height: 60px;
+  height: 68px;
   gap: 1rem;
 }
 
@@ -106,10 +106,10 @@ function isActive(href: string) {
 
 .logo-text {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.3rem;
+  font-size: 1.45rem;
   font-weight: 700;
   color: var(--paper);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   white-space: nowrap;
 }
 
@@ -175,12 +175,12 @@ function isActive(href: string) {
 
 .mobile-item {
   display: block;
-  padding: 0.9rem 1.5rem;
+  padding: 1rem 1.5rem;
   color: #C4BAB0;
   text-decoration: none;
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.85rem;
-  letter-spacing: 0.06em;
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   border-bottom: 1px solid #2D2822;
   transition: color 0.15s, background 0.15s;

@@ -67,47 +67,50 @@ await referencesStore.fetchFor(page.value)
     </BackLink>
 
     <div v-if="page">
-      <div class="article-header">
-        <div class="article-headline">
-          Stand: {{ lastChange }}
+      <div class="article-shell">
+        <div class="article-header">
+          <div class="article-headline">
+            Stand: {{ lastChange }}
+          </div>
+          <h1 class="article-title">
+            {{ page.title }}
+          </h1>
+          <p
+            v-if="page.subtitle"
+            class="article-subtitle"
+          >
+            {{ page.subtitle }}
+          </p>
+          <Tags
+            v-if="page.tags?.length"
+            :tags="(page.tags as string[])"
+            class="article-tags"
+          />
         </div>
-        <h1 class="article-title">
-          {{ page.title }}
-        </h1>
-        <p
-          v-if="page.subtitle"
-          class="article-subtitle"
-        >
-          {{ page.subtitle }}
-        </p>
-        <Tags
-          v-if="page.tags?.length"
-          :tags="(page.tags as string[])"
-          class="article-tags"
-        />
-      </div>
 
-      <UAlert
-        v-if="!page.publishedOn || new Date(page.publishedOn) > new Date()"
-        type="info"
-        icon="i-lucide-badge-info"
-        title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"
-      />
+        <UAlert
+          v-if="!page.publishedOn || new Date(page.publishedOn) > new Date()"
+          type="info"
+          icon="i-lucide-badge-info"
+          title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"
+          class="article-alert"
+        />
 
-      <div class="article-body content">
-        <ContentRenderer
-          v-if="page.body"
-          :value="page"
-        />
-        <USeparator
-          v-if="surround?.filter(Boolean).length"
-          class="my-8"
-        />
-        <UContentSurround :surround="(surround as any)">
-          <template #link-description="{ link }">
-            {{ link?.subtitle || link?.description }}
-          </template>
-        </UContentSurround>
+        <div class="article-body content">
+          <ContentRenderer
+            v-if="page.body"
+            :value="page"
+          />
+          <USeparator
+            v-if="surround?.filter(Boolean).length"
+            class="my-8"
+          />
+          <UContentSurround :surround="(surround as any)">
+            <template #link-description="{ link }">
+              {{ link?.subtitle || link?.description }}
+            </template>
+          </UContentSurround>
+        </div>
       </div>
     </div>
 
@@ -118,39 +121,68 @@ await referencesStore.fetchFor(page.value)
 </template>
 
 <style scoped>
+.article-shell {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(231, 222, 208, 0.9);
+  border-radius: 1.6rem;
+  box-shadow: 0 18px 50px rgba(47, 26, 11, 0.06);
+  overflow: hidden;
+}
+
 .article-header {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--fackel-border);
+  padding: 2.5rem 2.75rem 1.7rem;
+  background:
+    radial-gradient(circle at top right, rgba(232, 68, 10, 0.1), transparent 32%),
+    linear-gradient(180deg, white, #FCF8F3);
+  border-bottom: 1px solid var(--fackel-border);
 }
 
 .article-headline {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--flame);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
 }
 
 .article-title {
-  margin: 0 0 0.4rem;
-  line-height: 1.15;
+  margin: 0 0 0.8rem;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  max-width: 12ch;
 }
 
 .article-subtitle {
-  font-size: 1.05rem;
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
   color: var(--muted);
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.48;
+  max-width: 34ch;
 }
 
 .article-tags {
-  margin-top: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.article-alert {
+  margin: 1.3rem 1.5rem 0;
 }
 
 .article-body {
-  margin-top: 1.5rem;
+  margin-top: 0;
+  padding: 1.8rem 2.75rem 2.8rem;
+}
+
+@media screen and (max-width: 560px) {
+  .article-header {
+    padding: 1.8rem 1.2rem 1.3rem;
+  }
+
+  .article-body {
+    padding: 1.25rem 1.2rem 2rem;
+  }
 }
 </style>

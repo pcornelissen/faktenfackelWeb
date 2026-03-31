@@ -19,8 +19,7 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
       />
     </div>
     <ul
-      class="flex flex-wrap "
-      style="max-width: 100%"
+      class="cards-grid"
     >
       <LazySourceCard
         v-for="item in pageItems"
@@ -37,16 +36,17 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.l
 </template>
 
 <style scoped>
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
 .pager-top-wrap :deep(.pager) {
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-li {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  list-style: none;
-  border-radius: 0.3rem;
-  padding: 0.5rem;
 }
 </style>

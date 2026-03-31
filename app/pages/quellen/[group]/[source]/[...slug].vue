@@ -127,130 +127,134 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
         class="mb-4"
       />
 
-      <div class="article-header">
-        <div class="article-headline">
-          Stand: {{ lastChange }}
+      <div class="article-shell">
+        <div class="article-header">
+          <div class="article-headline">
+            Stand: {{ lastChange }}
+          </div>
+          <h1 class="article-title">
+            {{ page.title }}
+          </h1>
         </div>
-        <h1 class="article-title">
-          {{ page.title }}
-        </h1>
-      </div>
-      <VerdictLabel
-        v-if="page.verdict !== undefined"
-        :type="page.verdict"
-        class="article-verdict"
-      />
-
-      <div class="link-info">
-        <a
-          :href="page.uri"
-          rel="external"
-          class="link-row"
-        >
-          <SourceLinkIcon :type="page.type" />
-          <span class="link-url">{{ page.uri }}</span>
-          <UIcon
-            name="i-lucide:external-link"
-            class="link-external-icon"
+        <div class="article-meta">
+          <VerdictLabel
+            v-if="page.verdict !== undefined"
+            :type="page.verdict"
+            class="article-verdict"
           />
-        </a>
 
-        <div
-          v-if="page.tags?.length"
-          class="section-block"
-        >
-          <div class="section-label">
-            Schlagworte
-          </div>
-          <Tags
-            :tags="page.tags"
-          />
-        </div>
-
-        <div class="section-block">
-          <div class="section-label">
-            Quelle
-          </div>
-          <div
-            v-if="source"
-            class="source-link"
-          >
-            <a :href="source.path">
-              <img
-                :src="calculateSourceImg(source)"
-                :title="calculateSourceImgAuthor(source)"
-                :alt="calculateSourceImgAuthor(source)"
-                class="source-img"
-              >
-              <span class="source-name">{{ source.name }}</span>
-            </a>
-          </div>
-          <div
-            v-else
-            class="text-red-500"
-          >
-            Quelle konnte nicht geladen werden!
-          </div>
-        </div>
-
-        <div
-          v-if="coList && coList.length > 0"
-          class="section-block"
-        >
-          <div class="section-label">
-            Weitere beteiligte Quelle{{ coList.length > 1 ? 'n' : '' }}
-          </div>
-          <ul class="list-disc ml-4">
-            <li
-              v-for="co in coList"
-              :key="co.path"
+          <div class="link-info">
+            <a
+              :href="page.uri"
+              rel="external"
+              class="link-row"
             >
-              <nuxt-link :to="co.path">{{ co.name }}</nuxt-link>
-            </li>
-          </ul>
+              <SourceLinkIcon :type="page.type" />
+              <span class="link-url">{{ page.uri }}</span>
+              <UIcon
+                name="i-lucide:external-link"
+                class="link-external-icon"
+              />
+            </a>
+
+            <div
+              v-if="page.tags?.length"
+              class="section-block"
+            >
+              <div class="section-label">
+                Schlagworte
+              </div>
+              <Tags
+                :tags="page.tags"
+              />
+            </div>
+
+            <div class="section-block">
+              <div class="section-label">
+                Quelle
+              </div>
+              <div
+                v-if="source"
+                class="source-link"
+              >
+                <a :href="source.path">
+                  <img
+                    :src="calculateSourceImg(source)"
+                    :title="calculateSourceImgAuthor(source)"
+                    :alt="calculateSourceImgAuthor(source)"
+                    class="source-img"
+                  >
+                  <span class="source-name">{{ source.name }}</span>
+                </a>
+              </div>
+              <div
+                v-else
+                class="text-red-500"
+              >
+                Quelle konnte nicht geladen werden!
+              </div>
+            </div>
+
+            <div
+              v-if="coList && coList.length > 0"
+              class="section-block"
+            >
+              <div class="section-label">
+                Weitere beteiligte Quelle{{ coList.length > 1 ? 'n' : '' }}
+              </div>
+              <ul class="list-disc ml-4">
+                <li
+                  v-for="co in coList"
+                  :key="co.path"
+                >
+                  <nuxt-link :to="co.path">{{ co.name }}</nuxt-link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div
-        v-if="page.body"
-        class="article-body content"
-      >
-        <h2>Link Beschreibung</h2>
-        <ContentRenderer :value="page" />
+        <div
+          v-if="page.body"
+          class="article-body content"
+        >
+          <h2>Link Beschreibung</h2>
+          <ContentRenderer :value="page" />
 
-        <template v-if="usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length">
-          <h2>Verwendungen</h2>
-          <template v-if="usedInFaktenchecks?.length">
-            <h3>Faktenchecks</h3>
-            <PostsList
-              :list="(usedInFaktenchecks as any)"
-              icon="mdi:magnify"
-              :page-size="100"
-            />
+          <template v-if="usedInFaktenchecks?.length || usedInLagerfeuer?.length || usedInQuellenlinks?.length">
+            <h2>Verwendungen</h2>
+            <template v-if="usedInFaktenchecks?.length">
+              <h3>Faktenchecks</h3>
+              <PostsList
+                :list="(usedInFaktenchecks as any)"
+                icon="mdi:magnify"
+                :page-size="100"
+              />
+            </template>
+            <template v-if="usedInLagerfeuer?.length">
+              <h3>Lagerfeuer</h3>
+              <PostsList
+                :list="(usedInLagerfeuer as any)"
+                icon="mdi:book-open-variant"
+                :page-size="100"
+              />
+            </template>
+            <template v-if="usedInQuellenlinks?.length">
+              <h3>Weitere Quellenlinks</h3>
+              <PostsList
+                :list="(usedInQuellenlinks as any)"
+                icon="mdi:link-variant"
+                :page-size="100"
+              />
+            </template>
           </template>
-          <template v-if="usedInLagerfeuer?.length">
-            <h3>Lagerfeuer</h3>
-            <PostsList
-              :list="(usedInLagerfeuer as any)"
-              icon="mdi:book-open-variant"
-              :page-size="100"
-            />
-          </template>
-          <template v-if="usedInQuellenlinks?.length">
-            <h3>Weitere Quellenlinks</h3>
-            <PostsList
-              :list="(usedInQuellenlinks as any)"
-              icon="mdi:link-variant"
-              :page-size="100"
-            />
-          </template>
-        </template>
 
-        <USeparator
-          v-if="surround?.filter(Boolean).length"
-          class="my-8"
-        />
-        <UContentSurround :surround="(surround as any)" />
+          <USeparator
+            v-if="surround?.filter(Boolean).length"
+            class="my-8"
+          />
+          <UContentSurround :surround="(surround as any)" />
+        </div>
       </div>
     </div>
 
@@ -265,35 +269,52 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
   color: var(--flame);
 }
 
+.article-shell {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(231, 222, 208, 0.9);
+  border-radius: 1.6rem;
+  box-shadow: 0 18px 50px rgba(47, 26, 11, 0.06);
+  overflow: hidden;
+}
+
 .article-header {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--fackel-border);
+  padding: 2.5rem 2.75rem 1.4rem;
+  background:
+    radial-gradient(circle at top right, rgba(232, 68, 10, 0.1), transparent 32%),
+    linear-gradient(180deg, white, #FCF8F3);
+  border-bottom: 1px solid var(--fackel-border);
 }
 
 .article-headline {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--flame);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
 }
 
 .article-title {
   margin: 0;
-  line-height: 1.15;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
+  max-width: 13ch;
 }
 
 .article-verdict {
   display: inline-block;
-  margin: 0.5rem 0 0;
+  margin: 0;
+}
+
+.article-meta {
+  padding: 1.25rem 2.75rem 0;
 }
 
 .link-info {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.4rem;
   margin-bottom: 2rem;
 }
 
@@ -301,10 +322,10 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.75rem 1rem;
+  padding: 1rem 1.1rem;
   border: 1px solid var(--fackel-border);
-  border-radius: 0.4rem;
-  background: var(--paper);
+  border-radius: 1rem;
+  background: white;
   text-decoration: none;
   transition: border-color 0.15s, background 0.15s;
 }
@@ -317,7 +338,7 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
 .link-url {
   flex: 1;
   color: var(--flame);
-  font-size: 0.875rem;
+  font-size: 0.98rem;
   word-break: break-all;
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -335,7 +356,7 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
 
 .section-label {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--flame);
@@ -348,18 +369,19 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
   max-height: 5rem;
   display: inline;
   margin-right: 1rem;
-  border-radius: 4px;
+  border-radius: 0.5rem;
 }
 
 .source-name {
   font-weight: bold;
+  font-size: 1.02rem;
 }
 
 .source-link {
-  border-radius: 4px;
+  border-radius: 1rem;
   transition: background 0.15s;
   width: fit-content;
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 0.9rem;
 }
 
 .source-link:hover {
@@ -367,6 +389,19 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
 }
 
 .article-body {
-  margin-top: 1.5rem;
+  margin-top: 0;
+  padding: 1.8rem 2.75rem 2.8rem;
+}
+
+@media screen and (max-width: 560px) {
+  .article-header {
+    padding: 1.8rem 1.2rem 1.3rem;
+  }
+
+  .article-meta,
+  .article-body {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
 }
 </style>

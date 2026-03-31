@@ -21,22 +21,23 @@ defineProps<{ to: string }>()
   align-items: center;
   gap: 0.5rem;
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--ember);
   text-decoration: none;
-  margin-bottom: 1.75rem;
-  padding: 5px 10px 5px 8px;
+  margin-bottom: 2rem;
+  padding: 0.6rem 0.9rem 0.6rem 0.75rem;
   border: 1px solid var(--fackel-border);
-  border-radius: 3px;
-  background: white;
-  transition: color 0.15s, border-color 0.15s;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  transition: color 0.15s, border-color 0.15s, transform 0.15s;
 }
 
 .back-link:hover {
   color: var(--flame);
   border-color: var(--flame);
+  transform: translateX(-2px);
 }
 
 .back-arrow {

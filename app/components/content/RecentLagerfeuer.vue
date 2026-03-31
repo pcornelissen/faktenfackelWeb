@@ -61,39 +61,47 @@ function filter(list: Post[]) {
 
 .post-item {
   display: grid;
-  grid-template-columns: 28px 1fr;
+  grid-template-columns: 36px 1fr;
   gap: 1rem;
-  align-items: center;
-  padding: 1.1rem 0;
-  border-bottom: 1px solid var(--fackel-border);
-  transition: background 0.1s;
+  align-items: start;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--fackel-border);
+  border-radius: 1.1rem;
+  background: white;
+  box-shadow: 0 10px 24px rgba(31, 22, 15, 0.04);
+  margin-bottom: 0.9rem;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
 }
 
-.post-item:last-child {
-  border-bottom: none;
+.post-item:hover {
+  transform: translateY(-2px);
+  border-color: #E6C6A7;
+  box-shadow: 0 16px 34px rgba(31, 22, 15, 0.08);
 }
 
 .post-num {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.62rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
   color: #8C8078;
-  padding-top: 3px;
+  padding-top: 0.25rem;
+  letter-spacing: 0.08em;
 }
 
 .post-meta {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 4px;
+  margin-bottom: 0.5rem;
   flex-wrap: wrap;
 }
 
 .post-tag {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.6rem;
-  letter-spacing: 0.08em;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--flame);
+  font-weight: 600;
 }
 
 .post-dot {
@@ -102,16 +110,16 @@ function filter(list: Post[]) {
 }
 
 .post-date {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.6rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
   color: var(--muted);
 }
 
 .post-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.05rem;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.08;
   color: var(--ink);
   text-decoration: none;
   display: block;
@@ -123,19 +131,24 @@ function filter(list: Post[]) {
 }
 
 .post-subtitle {
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: #5C5550;
-  line-height: 1.5;
-  margin: 4px 0 0;
+  line-height: 1.55;
+  margin: 0.45rem 0 0;
   font-weight: 400;
-  font-style: italic;
 }
 
 @media screen and (max-width: 560px) {
   .post-item {
     grid-template-columns: 1fr;
-    gap: 0.3rem;
+    padding: 1rem;
   }
   .post-num { display: none; }
+  .post-title {
+    font-size: 1.25rem;
+  }
+  .post-subtitle {
+    font-size: 0.95rem;
+  }
 }
 </style>

@@ -53,28 +53,28 @@ const source = props.source
 .source-card {
   display: flex;
   flex-direction: column;
-  width: clamp(14rem, 22%, 22rem);
-  margin: 0.5rem;
+  width: 100%;
   background: white;
   border: 1px solid var(--fackel-border);
-  border-radius: 6px;
+  border-radius: 1.1rem;
   overflow: hidden;
   cursor: pointer;
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
   list-style: none;
+  box-shadow: 0 10px 24px rgba(31, 22, 15, 0.04);
 }
 
 .source-card:hover {
-  border-color: var(--flame);
-  box-shadow: 0 3px 10px rgba(249, 140, 53, 0.12);
-  transform: translateY(-1px);
+  border-color: #E6C6A7;
+  box-shadow: 0 16px 34px rgba(31, 22, 15, 0.08);
+  transform: translateY(-2px);
 }
 
 .card-img-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 88px;
+  height: 96px;
   background: #FDFAF6;
   border-bottom: 1px solid var(--fackel-border);
   padding: 0.75rem 1.25rem;
@@ -88,19 +88,19 @@ const source = props.source
 }
 
 .card-body {
-  padding: 0.85rem 1rem 0.6rem;
+  padding: 1rem 1.05rem 0.75rem;
   flex: 1;
 }
 
 .card-name {
   display: block;
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1rem;
+  font-size: 1.18rem;
   font-weight: 700;
   color: var(--ink);
   text-decoration: none;
-  line-height: 1.3;
-  margin-bottom: 0.3rem;
+  line-height: 1.14;
+  margin-bottom: 0.45rem;
   transition: color 0.15s;
 }
 
@@ -109,9 +109,9 @@ const source = props.source
 }
 
 .card-desc {
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   color: var(--muted);
-  line-height: 1.45;
+  line-height: 1.52;
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -120,7 +120,7 @@ const source = props.source
 }
 
 .card-footer {
-  padding: 0.5rem 0.75rem 0.6rem;
+  padding: 0.6rem 0.85rem 0.8rem;
   border-top: 1px solid var(--fackel-border);
   display: flex;
   flex-wrap: wrap;

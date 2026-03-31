@@ -67,22 +67,18 @@ const filtered = computed(() => {
     />
     <div class="page-intro">
       <p>
-        Im täglichen Leben begegnen einem immer wieder interessante Links zu Artikeln, Videos etc. Viele sind gut geeignet
-        um hier jetzt oder später in Beiträgen genutzt zu werden.
-        Zu diesem Zweck werden sie hier abgelegt und thematisch sortiert. Die Quelle selber wird ggf. auch beschrieben,
-        weil es interessant ist, wer die Information erstellt/ausgegeben hat.
+        Die Quellensammlung ist die Vertrauensbasis von Faktenfackel. Hier liegen Quellen, auf die in Faktenchecks, Einordnungen und weiterführenden Recherchen zurückgegriffen wird.
       </p>
       <p>
-        Die Quellensammlung ist über die Schlagwortsuche und die Volltextsuche oben rechts sehr gut für Recherchen geeignet.
+        Sie ist sowohl für eigene Recherchen als auch für Leser gedacht, die transparent nachvollziehen möchten, welche Personen, Medien, Organisationen und Primärquellen im Projekt eine Rolle spielen.
       </p>
       <p class="mb-0">
-        Sie ist nach Quellen organisiert und zu den Quellen gibt es dann thematisch sortierte Listen mit
-        Artikeln, Videos, etc. Dazu gibt es eine Verschlagwortung nach Tags, um Themen quellenübergreifend finden zu können.
+        Über Filter, Tags und Volltextsuche lässt sich die Sammlung quellenübergreifend durchsuchen, ohne dass sie sich wie ein rohes Archiv anfühlt.
       </p>
     </div>
     <div class="filter-section">
       <div class="filter-header">
-        <span class="filter-label">Filter</span>
+        <span class="filter-label">Quellen filtern</span>
         <span
           v-if="list1"
           class="filter-count"
@@ -178,15 +174,15 @@ const filtered = computed(() => {
 
 <style scoped>
 .page-intro {
-  background: white;
+  background: linear-gradient(180deg, white, #FCF8F3);
   border: 1px solid var(--fackel-border);
-  border-left: 3px solid var(--flame);
-  border-radius: 4px;
-  padding: 1.1rem 1.3rem;
-  margin-bottom: 2rem;
-  font-size: 0.95rem;
+  border-left: 4px solid var(--flame);
+  border-radius: 1rem;
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 2.1rem;
+  font-size: 1rem;
   color: var(--muted);
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .page-intro p {
@@ -198,7 +194,7 @@ const filtered = computed(() => {
 }
 
 .filter-section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .filter-header {
@@ -210,16 +206,16 @@ const filtered = computed(() => {
 
 .filter-label {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--flame);
   font-weight: 600;
 }
 
 .filter-count {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.7rem;
+  font-size: 0.78rem;
   color: var(--flame);
 }
 
@@ -229,9 +225,9 @@ const filtered = computed(() => {
   gap: 0.5rem;
   background: white;
   border: 1px solid var(--fackel-border);
-  border-radius: 4px;
-  padding: 0.35rem 0.75rem;
-  margin-bottom: 0.75rem;
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.95rem;
   transition: border-color 0.15s;
   max-width: 26rem;
 }
@@ -243,14 +239,14 @@ const filtered = computed(() => {
 
 .search-icon {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   flex-shrink: 0;
 }
 
 .search-input {
   flex: 1;
   font-family: 'Source Serif 4', serif;
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   color: var(--ink);
   background: none;
   border: none;
@@ -269,19 +265,21 @@ const filtered = computed(() => {
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
 .filter {
   background-color: white;
   color: var(--muted);
-  padding: 4px 10px;
-  border-radius: 4px;
+  padding: 0.52rem 0.88rem;
+  border-radius: 999px;
   border: 1px solid var(--fackel-border);
   cursor: pointer;
   font-size: 0.8rem;
   font-family: 'Ubuntu Mono', monospace;
   transition: border-color 0.15s, background 0.15s, color 0.15s;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .filter:hover:not(.filter-empty) {
@@ -316,6 +314,16 @@ const filtered = computed(() => {
   height: 72px;
   opacity: 0.35;
   animation: pulse 1.8s ease-in-out infinite;
+}
+
+@media screen and (max-width: 560px) {
+  .page-intro {
+    padding: 1rem 1rem 1.05rem;
+  }
+
+  .search-wrap {
+    max-width: none;
+  }
 }
 
 .loading-text {

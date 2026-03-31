@@ -33,28 +33,28 @@ const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith
     />
     <div class="introduction">
       <p>
-        Lagerfeuer sind die gemütlichen, lange brennenden Möglichkeiten der Zusammenkunft, bei denen wir uns austauschen
-        können.
+        Im Lagerfeuer erscheinen längere Einordnungen, Analysen und Gedankenstücke, die über den klassischen Faktencheck hinausgehen.
       </p>
       <p>
-        Daher ist dies ist der Bereich, in dem wir <strong>dedizierte Ausarbeitungen</strong> von interessanten
-        Themen veröffentlichen, die nicht unbedingt in die anderen Kategorien passen. <br>
-        Hier teilen wir unsere <strong>Meinungen, Gedanken und Analysen</strong> zu
-        verschiedenen Aspekten der Gesellschaft und darüber hinaus. Es ist ein Ort für tiefere
-        Einblicke, <strong>persönliche Perspektiven</strong> und kreative Ideen, die über die üblichen Faktenchecks und
-        Quellen Inhalte
-        hinausgehen.
+        Hier sammeln wir dedizierte Ausarbeitungen zu Themen, die mehr Kontext, mehr Haltung oder mehr Tiefe brauchen. Der Bereich soll sich wie der ruhigere zweite Pfad neben den Faktenchecks anfühlen.
       </p>
       <p>
-        Um nicht noch einen Bereich aufzumachen, werden hier auch gelegentlich als Blog <strong>Themen zur
-          Faktenfackel an sich</strong> veröffentlicht.
+        Gelegentlich erscheinen hier auch Beiträge zur Faktenfackel selbst, zu redaktionellen Überlegungen oder zu Themen, die bewusst essayistischer angelegt sind.
       </p>
     </div>
-    <div>
-      <h2>Kategorien</h2>
+    <div class="section-block">
+      <div class="section-kicker">
+        Einordnung
+      </div>
+      <h2 class="section-title">
+        Kategorien
+      </h2>
       <CategoriesOverview />
     </div>
     <div class="recent-section">
+      <div class="section-kicker">
+        Neu
+      </div>
       <h2 class="recent-title">
         Neueste Beiträge
       </h2>
@@ -67,11 +67,51 @@ const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith
 </template>
 
 <style scoped>
+.introduction {
+  background: linear-gradient(180deg, white, #FCF8F3);
+  border: 1px solid var(--fackel-border);
+  border-left: 4px solid var(--flame);
+  border-radius: 1rem;
+  padding: 1.3rem 1.4rem;
+  margin-bottom: 2.4rem;
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.section-block {
+  margin-bottom: 2.7rem;
+}
+
+.section-kicker {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--flame);
+  font-weight: 600;
+  margin-bottom: 0.45rem;
+}
+
 .recent-section {
   margin-top: 2.5rem;
 }
 
 .recent-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 560px) {
+  .introduction {
+    padding: 1rem 1rem 1.05rem;
+  }
 }
 </style>

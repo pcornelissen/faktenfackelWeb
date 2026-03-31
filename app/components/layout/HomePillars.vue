@@ -6,35 +6,27 @@ function pillarImgName(iconPath: string) {
 const pillars = [
   {
     icon: '/img/categories/fake-news.png',
-    label: 'Bereich',
+    label: 'Kernbereich',
     title: 'Faktenchecks',
-    desc: 'Geprüfte Behauptungen mit Quellen und klarem Urteil.',
+    desc: 'Der wichtigste Einstieg: überprüfte Behauptungen mit klarer Einordnung und offen nachvollziehbaren Quellen.',
     href: '/faktenchecks',
     cta: 'Alle Faktenchecks',
   },
   {
     icon: '/img/categories/bonfire.png',
-    label: 'Bereich',
+    label: 'Einordnung',
     title: 'Lagerfeuer',
-    desc: 'Blogeinträge, vertiefende Hintergrundartikel und Analysen.',
+    desc: 'Hintergrund, Kontext und längere Analysen als zweiter Pfad für Leser, die tiefer einsteigen wollen.',
     href: '/lagerfeuer',
     cta: 'Zum Lagerfeuer',
   },
   {
     icon: '/img/categories/blogging.png',
-    label: 'Bereich',
-    title: 'Quellen',
-    desc: 'Kuratierte Quellensammlung für eigene Recherchen.',
+    label: 'Transparenz',
+    title: 'Quellen & Zitate',
+    desc: 'Die Wissensbasis bleibt sichtbar, tritt aber stärker als Vertrauensebene statt als zusätzlicher Hauptstrom auf.',
     href: '/quellen',
-    cta: 'Quellen entdecken',
-  },
-  {
-    icon: '/img/categories/feedback.png',
-    label: 'Bereich',
-    title: 'Zitate',
-    desc: 'Überprüfte Aussagen von Personen des öffentlichen Lebens.',
-    href: '/zitate',
-    cta: 'Zitate ansehen',
+    cta: 'Quellenbasis ansehen',
   },
 ]
 </script>
@@ -84,84 +76,93 @@ const pillars = [
 <style scoped>
 .pillars {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  border: 1px solid var(--fackel-border);
-  border-radius: 6px;
-  overflow: hidden;
-  margin: 2.5rem 0;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2.5rem 0 3rem;
 }
 
 .pillar {
-  padding: 1.8rem 1.4rem;
-  border-right: 1px solid var(--fackel-border);
+  padding: 1.6rem 1.5rem;
   text-decoration: none;
   color: inherit;
   position: relative;
-  transition: background 0.2s;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
   background: white;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.55rem;
+  border: 1px solid var(--fackel-border);
+  border-radius: 1.1rem;
+  box-shadow: 0 10px 26px rgba(31, 22, 15, 0.04);
 }
 
-.pillar:last-child { border-right: none; }
-.pillar:hover { background: #FDFAF5; }
+.pillar:hover {
+  transform: translateY(-2px);
+  border-color: #E6C6A7;
+  box-shadow: 0 16px 36px rgba(31, 22, 15, 0.08);
+}
 
 .pillar::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
+  top: 0.85rem;
+  left: 1.5rem;
+  width: 2rem;
+  height: 2px;
   background: var(--flame);
-  transform: scaleX(0);
-  transition: transform 0.25s;
-  transform-origin: left;
+  opacity: 0.8;
 }
 
-.pillar:hover::before { transform: scaleX(1); }
+.pillar picture {
+  display: block;
+  align-self: flex-start;
+  margin-top: 0.85rem;
+  margin-bottom: 0.1rem;
+  line-height: 0;
+}
 
-.pillar picture { display: block; align-self: center; margin-bottom: 0.3rem; line-height: 0; }
-.pillar-icon { width: 52px; height: 52px; object-fit: contain; }
+.pillar-icon { width: 44px; height: 44px; object-fit: contain; }
 
 .pillar-label {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
+  font-size: 0.74rem;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
   color: var(--flame);
   font-weight: 600;
-  margin-top: -0.3rem;
+  margin-top: 0.1rem;
 }
 
 .pillar-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--ink);
-  line-height: 1.2;
+  line-height: 1.05;
   margin: 0;
 }
 
 .pillar-desc {
-  font-size: 0.88rem;
+  font-size: 1rem;
   color: var(--muted);
-  line-height: 1.5;
-  font-weight: 300;
+  line-height: 1.55;
+  font-weight: 400;
   margin: 0;
 }
 
 .pillar-cta {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
-  color: var(--muted);
+  font-size: 0.78rem;
+  color: var(--ember);
   margin-top: auto;
-  padding-top: 0.8rem;
+  padding-top: 1rem;
   border-top: 1px solid var(--fackel-border);
   display: flex;
   align-items: center;
   gap: 6px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .pillar-cta :deep(span) {
@@ -170,16 +171,19 @@ const pillars = [
 }
 
 @media screen and (max-width: 1000px) {
-  .pillars { grid-template-columns: repeat(2, 1fr); }
-  .pillar { border-bottom: 1px solid var(--fackel-border); }
-  .pillar:nth-child(2) { border-right: none; }
-  .pillar:nth-child(3), .pillar:nth-child(4) { border-bottom: none; }
-  .pillar:nth-child(3) { border-right: 1px solid var(--fackel-border); }
+  .pillars { grid-template-columns: 1fr; }
 }
 
 @media screen and (max-width: 560px) {
-  .pillars { grid-template-columns: 1fr; }
-  .pillar { border-right: none; border-bottom: 1px solid var(--fackel-border); }
-  .pillar:last-child { border-bottom: none; }
+  .pillars {
+    margin-top: 2rem;
+    margin-bottom: 2.4rem;
+  }
+  .pillar {
+    padding: 1.35rem 1.2rem;
+  }
+  .pillar-title {
+    font-size: 1.4rem;
+  }
 }
 </style>

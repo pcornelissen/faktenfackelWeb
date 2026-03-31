@@ -18,13 +18,16 @@ await definePageData({
 
       <!-- CONTENT GRID -->
       <div class="content-grid">
-        <!-- MAIN COLUMN -->
         <div class="main-col">
           <div class="section-header">
-            <h2 class="section-title">
-              Neueste Faktenchecks
-              <span class="badge badge-new">NEU</span>
-            </h2>
+            <div class="section-copy">
+              <div class="section-kicker">
+                Kernbereich
+              </div>
+              <h2 class="section-title">
+                Aktuelle Faktenchecks
+              </h2>
+            </div>
             <a
               href="/faktenchecks"
               class="section-link"
@@ -37,9 +40,14 @@ await definePageData({
           <RecentPosts />
 
           <div class="section-header section-header--spaced">
-            <h2 class="section-title">
-              Neueste Lagerfeuer-Artikel
-            </h2>
+            <div class="section-copy">
+              <div class="section-kicker">
+                Einordnung
+              </div>
+              <h2 class="section-title">
+                Neue Lagerfeuer-Artikel
+              </h2>
+            </div>
             <a
               href="/lagerfeuer"
               class="section-link"
@@ -52,45 +60,35 @@ await definePageData({
           <RecentLagerfeuer />
         </div>
 
-        <!-- SIDEBAR -->
         <aside class="sidebar">
-          <!-- KONTAKT BOX -->
-          <div class="sidebar-box">
-            <div class="sidebar-box-header">
-              <span class="sidebar-box-title"><UIcon
-                name="mdi:email-outline"
-                class="size-3.5"
-              /> Kontakt & Feedback</span>
+          <div class="sidebar-note">
+            <div class="sidebar-note-label">
+              Vertrauensebene
             </div>
-            <div class="sidebar-box-body">
-              <p>
-                Die Seite ist im Dezember 2025 gestartet und wird kontinuierlich erweitert.
-                Schau gerne regelmäßig vorbei!
-              </p>
-              <p>
-                Feedback und Vorschläge per E-Mail an
-                <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">kontakt@faktenfackel.de</a>
-                oder im <a href="https://discord.faktenfackel.de">Discord</a>.
-              </p>
+            <h3 class="sidebar-note-title">
+              So arbeitet Faktenfackel
+            </h3>
+            <p class="sidebar-note-text">
+              Die Quellenbasis bleibt sichtbar, aber die Startseite gibt ihr bewusst eine ruhigere Rolle als dem eigentlichen Faktencheck-Einstieg.
+            </p>
+            <div class="sidebar-links">
+              <a href="/about">Über die Arbeitsweise</a>
+              <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">Kontakt</a>
             </div>
           </div>
 
           <RecentSources />
           <RecentQuotes />
 
-          <!-- SUPPORT -->
           <div class="support-box">
-            <div class="support-icon">
-              <UIcon
-                name="mdi:coffee"
-                class="size-7"
-              />
+            <div class="support-label">
+              Unterstützung
             </div>
             <div class="support-title">
               Unterstütze Faktenfackel
             </div>
             <p class="support-desc">
-              Die Seite ist werbefrei und unabhängig – mit deiner Hilfe bleibt sie es.
+              Werbefrei, unabhängig und offen nachvollziehbar. Wenn dir diese Richtung wichtig ist, kannst du sie direkt unterstützen.
             </p>
             <a
               href="https://buymeacoffee.com/faktenfackel"
@@ -139,60 +137,62 @@ await definePageData({
 .page-body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem 4rem;
+  padding: 0 2rem 4.5rem;
 }
 
 /* ── CONTENT GRID ── */
 .content-grid {
   display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 1.75rem;
 }
 
 /* ── SECTION HEADER ── */
 .section-header--spaced {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 }
 
 .section-header {
   display: flex;
-  align-items: baseline;
+  align-items: end;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.8rem;
-  border-bottom: 2px solid var(--ink);
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--fackel-border);
+}
+
+.section-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.section-kicker {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--flame);
+  font-weight: 600;
 }
 
 .section-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.4rem;
+  font-size: clamp(2rem, 4vw, 2.8rem);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.04em;
   color: var(--ink);
-  display: flex;
-  align-items: center;
-  gap: 10px;
   margin: 0;
+  line-height: 0.98;
 }
-
-.badge {
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 3px 8px;
-  border-radius: 2px;
-  font-weight: 600;
-}
-
-.badge-new { background: var(--flame); color: white; }
 
 .section-link {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.78rem;
-  color: var(--flame);
+  font-size: 0.8rem;
+  color: var(--ember);
   text-decoration: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   white-space: nowrap;
   display: inline-flex;
@@ -205,72 +205,116 @@ await definePageData({
 .section-link:hover { text-decoration: underline; }
 
 /* ── SIDEBAR ── */
-.sidebar { display: flex; flex-direction: column; gap: 1.5rem; }
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
-.sidebar-box {
-  background: white;
+.sidebar-note {
+  background: linear-gradient(180deg, white, #FBF6EF);
   border: 1px solid var(--fackel-border);
-  border-radius: 6px;
-  overflow: hidden;
+  border-radius: 1.1rem;
+  padding: 1.3rem;
+  box-shadow: 0 10px 24px rgba(31, 22, 15, 0.04);
 }
 
-.sidebar-box-header {
-  padding: 10px 16px;
-  background: var(--smoke);
-  border-bottom: 1px solid #2D2822;
-}
-
-.sidebar-box-title {
+.sidebar-note-label {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.74rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--flame);
   font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  margin-bottom: 0.7rem;
 }
 
-.sidebar-box-body {
-  padding: 1rem;
-  font-size: 0.92rem;
-  line-height: 1.6;
-  color: var(--ink);
+.sidebar-note-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.6rem;
+  line-height: 1.04;
+  margin: 0 0 0.7rem;
 }
 
-.sidebar-box-body p { margin-bottom: 0.8em; }
-.sidebar-box-body p:last-child { margin-bottom: 0; }
+.sidebar-note-text {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
 
-.sidebar-box-body a {
-  color: var(--flame);
-  text-decoration: underline;
+.sidebar-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar-links a {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.78rem;
+  color: var(--ember);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* ── SUPPORT BOX ── */
 .support-box {
-  background: linear-gradient(135deg, var(--smoke), var(--ash));
-  border: 1px solid #3D3530;
-  border-radius: 6px;
-  padding: 1.5rem;
-  text-align: center;
+  background: linear-gradient(180deg, #FFF, #FAF2E7);
+  border: 1px solid var(--fackel-border);
+  border-radius: 1.1rem;
+  padding: 1.3rem;
+  box-shadow: 0 10px 24px rgba(31, 22, 15, 0.04);
 }
 
-.support-icon { display: flex; justify-content: center; margin-bottom: 0.6rem; color: var(--flame); }
+.support-label {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--flame);
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
 
 .support-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1rem;
-  color: var(--paper);
-  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  color: var(--ink);
+  margin-bottom: 0.55rem;
   font-weight: 700;
+  line-height: 1.05;
 }
 
 .support-desc {
-  font-size: 0.88rem;
-  color: #9A8F86;
+  font-size: 1rem;
+  color: var(--muted);
   margin-bottom: 1rem;
-  line-height: 1.5;
+  line-height: 1.55;
+}
+
+.btn-primary {
+  background: var(--flame);
+  color: white;
+  padding: 0.85rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background 0.2s, transform 0.1s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-primary:hover { background: var(--flame); filter: brightness(0.9); transform: translateY(-1px); }
+
+.btn-small {
+  width: fit-content;
 }
 
 /* ── RESPONSIVE ── */
@@ -280,6 +324,16 @@ await definePageData({
   }
   .page-body {
     padding: 0 1rem 3rem;
+  }
+  .section-header {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .section-title {
+    font-size: 1.8rem;
   }
 }
 </style>

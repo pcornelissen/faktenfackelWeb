@@ -6,7 +6,7 @@ export default defineAppConfig({
     },
     contentSearchButton: {
       slots: {
-        base: 'font-mono text-[0.72rem] uppercase tracking-[0.1em] text-[#C4BAB0] border border-[#3D3530] rounded-sm px-2.5 py-1 hover:text-[var(--flame)] hover:border-[var(--flame)] transition-colors bg-transparent gap-1.5',
+        base: 'font-mono text-[0.78rem] uppercase tracking-[0.1em] text-[#D1C5B7] border border-[#4B4038] rounded-full px-3.5 py-2 hover:text-[var(--flame)] hover:border-[var(--flame)] transition-colors bg-transparent gap-1.5',
         label: 'font-mono',
         leadingIcon: 'text-[var(--flame)] size-3.5',
       },

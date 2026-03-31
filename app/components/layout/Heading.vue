@@ -65,36 +65,58 @@ const props = defineProps<{
 </template>
 
 <style scoped>
+.heading-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.icon-wrap {
+  flex-shrink: 0;
+}
+
+.heading-el {
+  margin: 0.25rem 0 0.15rem;
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+
+h1.heading-el {
+  font-size: clamp(2.2rem, 4.2vw, 3.7rem);
+}
+
+h2.heading-el,
+h3.heading-el {
+  font-size: clamp(1.5rem, 2vw, 2.1rem);
+}
+
+img {
+  height: 3rem;
+  opacity: 0.92;
+}
+
+.subtitle {
+  font-size: 0.86rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+  font-family: 'Ubuntu Mono', monospace;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 560px) {
   .heading-row {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .icon-wrap {
-    flex-shrink: 0;
-  }
-
-  .heading-el {
-    margin: 0.4rem 0 0.2rem;
-    font-weight: 700;
-  }
-
-  h2.heading-el,
-  h3.heading-el {
-    font-size: 1.2rem;
+    align-items: flex-start;
   }
 
   img {
     height: 2.5rem;
-    opacity: 0.9;
   }
 
   .subtitle {
-    font-size: 0.82rem;
-    color: var(--muted);
-    margin-bottom: 0.5rem;
-    font-family: 'Ubuntu Mono', monospace;
-    letter-spacing: 0.04em;
+    font-size: 0.8rem;
+    margin-bottom: 0.65rem;
   }
+}
 </style>

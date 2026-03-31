@@ -93,8 +93,8 @@ onMounted(() => {
 .site-footer {
   background: var(--smoke);
   border-top: 1px solid #2D2822;
-  margin-top: 4rem;
-  padding: 3rem 2rem 1.5rem;
+  margin-top: 5rem;
+  padding: 3.5rem 2rem 1.6rem;
 }
 
 .footer-inner {
@@ -109,7 +109,7 @@ onMounted(() => {
 
 .footer-logo {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   font-weight: 700;
   color: var(--paper);
   margin-bottom: 0.6rem;
@@ -121,10 +121,10 @@ onMounted(() => {
 }
 
 .footer-tagline {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #9A8F86;
   line-height: 1.6;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 
@@ -133,7 +133,7 @@ onMounted(() => {
   align-items: center;
   gap: 6px;
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--flame);
@@ -146,7 +146,7 @@ onMounted(() => {
 
 .footer-col-title {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--flame);
@@ -166,7 +166,7 @@ onMounted(() => {
 }
 
 .footer-col a {
-  font-size: 0.92rem;
+  font-size: 1rem;
   color: #9A8F86;
   text-decoration: none;
   transition: color 0.15s;
@@ -180,7 +180,7 @@ onMounted(() => {
   max-width: 1200px;
   margin: 1.5rem auto 0;
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   color: #9A8F86;
   letter-spacing: 0.05em;
 }

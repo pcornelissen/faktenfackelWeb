@@ -61,21 +61,20 @@ const recentQuotes = recentQuotesRaw.value as Quote[]
 
 <style scoped>
 .sidebar-box {
-  background: white;
+  background: linear-gradient(180deg, white, #FBF6EF);
   border: 1px solid var(--fackel-border);
-  border-radius: 6px;
+  border-radius: 1.1rem;
   overflow: hidden;
+  box-shadow: 0 10px 24px rgba(31, 22, 15, 0.04);
 }
 
 .sidebar-box-header {
-  padding: 10px 16px;
-  background: var(--smoke);
-  border-bottom: 1px solid #2D2822;
+  padding: 1rem 1rem 0.5rem;
 }
 
 .sidebar-box-title {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.74rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--flame);
@@ -92,32 +91,30 @@ const recentQuotes = recentQuotesRaw.value as Quote[]
 }
 
 .quote-list li {
-  border-bottom: 1px solid var(--fackel-border);
+  border-top: 1px solid var(--fackel-border);
 }
 
-.quote-list li:last-child {
-  border-bottom: none;
-}
+.quote-list li:first-child { border-top: none; }
 
 .quote-item {
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: auto auto;
   align-items: start;
-  gap: 0.1rem 0.5rem;
-  padding: 0.6rem 1rem;
+  gap: 0.35rem 0.5rem;
+  padding: 0.95rem 1rem;
   text-decoration: none;
   transition: background 0.15s;
 }
 
 .quote-item:hover {
-  background: #FDFAF5;
+  background: rgba(255,255,255,0.75);
 }
 
 .quote-title {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--flame);
   grid-column: 1;
@@ -125,9 +122,9 @@ const recentQuotes = recentQuotesRaw.value as Quote[]
 }
 
 .quote-teaser {
-  font-size: 0.83rem;
+  font-size: 0.96rem;
   color: var(--ink);
-  line-height: 1.4;
+  line-height: 1.48;
   grid-column: 1;
   grid-row: 2;
   display: -webkit-box;
@@ -150,15 +147,14 @@ const recentQuotes = recentQuotesRaw.value as Quote[]
 }
 
 .sidebar-box-footer {
-  padding: 8px 16px;
-  background: rgba(0,0,0,0.02);
+  padding: 0.9rem 1rem 1rem;
   border-top: 1px solid var(--fackel-border);
 }
 
 .sidebar-box-footer a {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
-  color: var(--flame);
+  font-size: 0.78rem;
+  color: var(--ember);
   text-decoration: none;
   letter-spacing: 0.08em;
   text-transform: uppercase;

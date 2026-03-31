@@ -36,10 +36,10 @@ const totalCount = computed(
         <div class="hero-tag">
           Demokratie braucht Licht
         </div>
-        <h1>Mythen entlarven.<br><span class="hero-highlight">Fakten beleuchten.</span></h1>
+        <h1>Mythen entlarven.<br><span class="hero-highlight">Fakten ruhig und klar beleuchten.</span></h1>
         <p class="hero-sub">
-          Unabhängige Faktenchecks zu Behauptungen, Mythen und Desinformation
-          aus Politik und Gesellschaft – mit belegten Quellen.
+          Faktenfackel prüft Behauptungen aus Politik und Gesellschaft,
+          ordnet Quellen ein und macht nachvollziehbar, worauf sich ein Urteil stützt.
         </p>
         <div class="hero-cta">
           <a
@@ -48,14 +48,14 @@ const totalCount = computed(
           ><UIcon
             name="mdi:magnify"
             class="size-4"
-          /> Alle Faktenchecks</a>
+          /> Neueste Faktenchecks</a>
           <a
-            href="/quellen"
+            href="/about"
             class="btn-secondary"
           ><UIcon
-            name="mdi:book-open-variant"
+            name="mdi:book-open-page-variant-outline"
             class="size-4"
-          /> Quellensammlung</a>
+          /> Wie wir arbeiten</a>
         </div>
 
         <div
@@ -68,7 +68,7 @@ const totalCount = computed(
             aria-describedby="stat-tooltip"
           >
             <strong class="hero-stat-num">{{ totalCount }}</strong>
-            <span class="hero-stat-label">Faktenchecks, Links und Artikel</span>
+            <span class="hero-stat-label">Faktenchecks, Quellen und redaktionelle Inhalte</span>
             <div
               id="stat-tooltip"
               class="stat-tooltip"
@@ -101,8 +101,10 @@ const totalCount = computed(
           <span class="ticker-label"><UIcon
             name="mdi:clock-edit-outline"
             class="size-3.5"
-          />Letzte Änderungen</span>
-          <span class="ticker-dot" />
+          />Aktuelles Signal</span>
+        </div>
+        <div class="ticker-intro">
+          Was sich seit dem letzten Besuch wirklich geändert hat.
         </div>
         <ul class="ticker-list">
           <li
@@ -128,7 +130,7 @@ const totalCount = computed(
 <style scoped>
 .hero {
   background: var(--smoke);
-  padding: 4rem 2rem 3rem;
+  padding: 3rem 2rem 3.75rem;
   position: relative;
   overflow: hidden;
 }
@@ -148,18 +150,18 @@ const totalCount = computed(
   margin: 0 auto;
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 340px;
+  grid-template-columns: minmax(0, 1.3fr) 360px;
   gap: 3rem;
-  align-items: center;
+  align-items: end;
 }
 
 .hero-tag {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   color: var(--flame);
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -174,25 +176,28 @@ const totalCount = computed(
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-size: clamp(2.75rem, 6vw, 4.8rem);
   color: var(--paper);
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.35rem;
+  line-height: 0.94;
+  letter-spacing: -0.04em;
+  max-width: 10ch;
 }
 
 .hero-highlight { color: var(--flame); }
 
 .hero-sub {
   color: #9A8F86;
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.6;
-  max-width: 480px;
-  margin-bottom: 2rem;
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  font-weight: 400;
+  line-height: 1.48;
+  max-width: 34rem;
+  margin-bottom: 2.1rem;
 }
 
 .hero-cta {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   flex-wrap: wrap;
 }
 
@@ -200,12 +205,12 @@ const totalCount = computed(
 .btn-primary {
   background: var(--flame);
   color: white;
-  padding: 10px 20px;
-  border-radius: 3px;
+  padding: 0.95rem 1.3rem;
+  border-radius: 999px;
   text-decoration: none;
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
   transition: background 0.2s, transform 0.1s;
@@ -218,15 +223,15 @@ const totalCount = computed(
 
 .btn-secondary {
   background: transparent;
-  color: #C4BAB0;
-  padding: 10px 20px;
-  border-radius: 3px;
+  color: var(--paper);
+  padding: 0.95rem 1.3rem;
+  border-radius: 999px;
   text-decoration: none;
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  border: 1px solid #3D3530;
+  border: 1px solid #4B4038;
   transition: border-color 0.2s, color 0.2s;
   display: inline-flex;
   align-items: center;
@@ -237,8 +242,8 @@ const totalCount = computed(
 
 /* ── STATS ── */
 .hero-stats {
-  margin-top: 1.5rem;
-  padding-top: 1.25rem;
+  margin-top: 1.75rem;
+  padding-top: 1.2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -262,7 +267,7 @@ const totalCount = computed(
 
 .hero-stat-num {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--paper);
   letter-spacing: -0.01em;
@@ -270,9 +275,9 @@ const totalCount = computed(
 
 .hero-stat-label {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   color: #9A8F86;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-decoration: underline;
   text-decoration-style: dashed;
   text-underline-offset: 3px;
@@ -332,26 +337,24 @@ const totalCount = computed(
 
 /* ── TICKER ── */
 .ticker-box {
-  background: var(--ash);
-  border: 1px solid #3D3530;
-  border-top: 2px solid var(--flame);
-  border-radius: 4px;
-  overflow: hidden;
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 1.35rem 1.35rem 1rem;
+  backdrop-filter: blur(8px);
 }
 
 .ticker-header {
-  background: rgba(232,68,10,0.1);
-  padding: 10px 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #3D3530;
+  justify-content: flex-start;
+  margin-bottom: 0.7rem;
 }
 
 .ticker-label {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.15em;
+  font-size: 0.73rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--flame);
   font-weight: 600;
@@ -360,18 +363,12 @@ const totalCount = computed(
   gap: 5px;
 }
 
-.ticker-dot {
-  width: 7px;
-  height: 7px;
-  background: var(--flame);
-  border-radius: 50%;
-  animation: pulse 1.5s infinite;
-  display: block;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(0.8); }
+.ticker-intro {
+  color: var(--paper);
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.85rem;
+  line-height: 1.05;
+  margin-bottom: 0.9rem;
 }
 
 .ticker-list {
@@ -381,41 +378,44 @@ const totalCount = computed(
 }
 
 .ticker-item {
-  padding: 5px 16px;
-  border-bottom: 1px solid #2D2822;
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 0.7rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  align-items: start;
 }
 
-.ticker-item:last-child { border-bottom: none; }
+.ticker-item:first-child {
+  border-top: none;
+  padding-top: 0.2rem;
+}
 
 .ticker-date {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
-  color: #9A8F86;
-  white-space: nowrap;
-  margin-top: 2px;
-  min-width: 62px;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--flame);
 }
 
 .ticker-text {
-  font-size: 0.9rem;
-  color: #C4BAB0;
-  line-height: 1.4;
+  font-size: 0.94rem;
+  color: #D2C5B7;
+  line-height: 1.45;
 }
 
 .ticker-footer {
-  padding: 10px 16px;
-  background: rgba(0,0,0,0.15);
+  margin-top: 0.9rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(255,255,255,0.07);
 }
 
 .ticker-footer a {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.74rem;
   color: var(--flame);
   text-decoration: none;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
@@ -430,12 +430,21 @@ const totalCount = computed(
   .hero-inner {
     grid-template-columns: 1fr;
   }
+  .ticker-box {
+    max-width: 36rem;
+  }
   .hero {
-    padding: 2.5rem 1rem 2rem;
+    padding: 2.35rem 1rem 2.6rem;
   }
 }
 
 @media screen and (max-width: 560px) {
+  .hero h1 {
+    max-width: 9.5ch;
+  }
+  .ticker-intro {
+    font-size: 1.6rem;
+  }
   .hero-cta { flex-direction: column; }
   .btn-primary, .btn-secondary { justify-content: center; text-align: center; }
 }

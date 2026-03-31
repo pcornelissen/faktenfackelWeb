@@ -17,17 +17,20 @@ const props = defineProps<{
 
 <style scoped>
 .tag {
-  font-size: 0.78rem;
-  font-weight: 500;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.74rem;
+  font-weight: 600;
   background-color: white;
   color: var(--muted);
   border: 1px solid var(--fackel-border);
-  padding: 0.2rem 0.5rem;
-  margin: 0.2rem 0.3rem;
-  border-radius: 0.2rem;
+  padding: 0.38rem 0.62rem;
+  margin: 0.22rem 0.34rem 0.22rem 0;
+  border-radius: 999px;
   white-space: nowrap;
   text-decoration: none;
   transition: border-color 0.15s, color 0.15s, background 0.15s;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .tag:hover {
