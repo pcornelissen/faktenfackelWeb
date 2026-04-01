@@ -90,14 +90,6 @@ export const newsSrc: NewsItem[] = [
   },
   {
     date: new Date('2026-04-01'),
-    title: 'Neuer Artikel: Angriff auf unsere Wahlen (Desinformation rund um die BaWü-Landtagswahl)',
-  },
-  {
-    date: new Date('2026-04-01'),
-    title: 'Neuer Faktencheck: AfD-Klimaleugnung widerlegt',
-  },
-  {
-    date: new Date('2026-04-01'),
-    title: '3 neue Quellen und 6 neue Quellenlinks recherchiert',
+    title: 'Neuer Artikel zur Wahl-Desinformation, Faktencheck zur AfD-Klimaleugnung, 3 neue Quellen und 6 Quellenlinks',
   },
 ]
