@@ -237,7 +237,7 @@ await referencesStore.fetchFor(page.value)
   line-height: 0.98;
   letter-spacing: -0.04em;
   font-size: clamp(2.4rem, 5vw, 4rem);
-  max-width: 12ch;
+  max-width: 24ch;
 }
 
 .article-verdict {
