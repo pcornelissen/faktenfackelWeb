@@ -44,6 +44,12 @@ const linkRedirects: Record<string, string> = {
 
   // generation-deutschland link → facebook
   '/quellen/allgemein/generation-deutschland/links/20260131.generation-deutschland-auto-tatwaffe-rechtsextreme': '/quellen/allgemein/facebook/links/20260131.generation-deutschland-auto-tatwaffe-rechtsextreme',
+
+  // Faktenchecks: moved articles and category listings (exact match only — articles remain at original paths)
+  '/faktenchecks/gesellschaft/stadtbild': '/lagerfeuer/perspektiven/2025-12-12.merz-stadtbild',
+  '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem',
+  '/faktenchecks/_vorlage': '/faktenchecks',
+  '/faktenchecks/politik/parteien': '/faktenchecks',
 }
 
 // ─── Prefix redirects (source-level, applies to all sub-paths) ─────────────
@@ -54,10 +60,6 @@ const prefixRedirects: Record<string, string> = {
   '/quellen/allgemein/tiktok-divers': '/quellen/allgemein/tiktok',
   '/quellen/allgemein/x-divers': '/quellen/allgemein/x',
   '/quellen/portale/x-twitter': '/quellen/allgemein/x',
-  '/faktenchecks/gesellschaft/stadtbild': '/lagerfeuer/perspektiven/2025-12-12.merz-stadtbild',
-  '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem',
-  '/faktenchecks/_vorlage': '/faktenchecks',
-  '/faktenchecks/politik/parteien': '/faktenchecks',
   '/quellen/medien/ndr/links': '/quellen/medien/ndr',
   '/quellen/nachrichten/tagesschau/links/quellen/tags/SPD': '/tags/spd',
 
