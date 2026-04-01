@@ -1,5 +1,5 @@
 ---
-publishedOn: null
+publishedOn: 2026-04-01
 date: 2026-04-01
 title: "AfD: Menschengemachter Klimawandel ist nicht bewiesen"
 subtitle: Was die Wissenschaft tatsächlich sagt
