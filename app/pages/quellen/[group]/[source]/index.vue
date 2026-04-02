@@ -36,23 +36,26 @@ const { data: list1 } = await useAsyncData(basePath + '/links/', () => {
     .where('publishedOn', '<=', nowIso())
     .select('date', 'title', 'uri', 'type', 'tags', 'path')
     .all()
+    .catch(() => [])
 })
-const list = list1.value as SourceLink[]
+const list = (list1.value || []) as SourceLink[]
 
 const coSource = extractNameFromPath(basePath)
 
 const { data: coList1 }
   = await useAsyncData(basePath + '-colinks', () => {
-    const builder = queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%').where('publishedOn', '<=', nowIso())
-    return builder.all()
+    return queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%').where('publishedOn', '<=', nowIso())
+      .all()
+      .catch(() => [])
   })
-const coList = coList1.value as SourceLink[]
+const coList = (coList1.value || []) as SourceLink[]
 
 const { data: quotesRaw }
   = await useAsyncData(basePath + '-quotes', () =>
     queryCollection('zitate').where('path', 'LIKE', basePath + '/%').where('publishedOn', '<=', nowIso())
-      .all())
-const quotes = quotesRaw.value as Quote[] || []
+      .all()
+      .catch(() => []))
+const quotes = (quotesRaw.value || []) as Quote[]
 
 await referencesStore.fetchFor(sourceInfo.value)
 </script>

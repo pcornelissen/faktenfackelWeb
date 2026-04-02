@@ -63,6 +63,11 @@ const prefixRedirects: Record<string, string> = {
   '/quellen/medien/ndr/links': '/quellen/medien/ndr',
   '/quellen/nachrichten/tagesschau/links/quellen/tags/SPD': '/tags/spd',
 
+  // Source renames (D1 LIKE pattern complexity limit)
+  '/quellen/allgemein/2-millionen-stimmen-gegen-afd': '/quellen/allgemein/2mio-gegen-afd',
+  '/quellen/parteien/fraktion-die-linke-bundestag': '/quellen/parteien/linke-bt-fraktion',
+  '/quellen/allgemein/moers-ist-bunt-nicht-braun': '/quellen/allgemein/moers-bunt',
+
   // Source renames
   '/quellen/personen/sabre': '/quellen/personen/sabre-bottleneckloser',
   '/quellen/personen/maurice-hofgen': '/quellen/personen/maurice-hoefgen',
@@ -108,11 +113,13 @@ const prefixRedirects: Record<string, string> = {
 
 // ─── 2-Segment sourceGroups: /quellen/SOURCE/... → /quellen/GROUP/SOURCE/... ──
 const sourceGroups: Record<string, string> = {
+  '2mio-gegen-afd': 'allgemein',
   '2-millionen-stimmen-gegen-afd': 'allgemein',
   'bluesky': 'allgemein',
   'campact': 'allgemein',
   'facebook': 'allgemein',
   'giessen': 'allgemein',
+  'moers-bunt': 'allgemein',
   'moers-ist-bunt-nicht-braun': 'allgemein',
   'omas-gegen-rechts': 'allgemein',
   'tiktok': 'allgemein',
@@ -172,6 +179,7 @@ const sourceGroups: Record<string, string> = {
   'pro-asyl': 'ngo',
   'afd': 'parteien',
   'die-linke': 'parteien',
+  'linke-bt-fraktion': 'parteien',
   'fraktion-die-linke-bundestag': 'parteien',
   'gruene-bayern': 'parteien',
   'spd-rheinland-pfalz': 'parteien',

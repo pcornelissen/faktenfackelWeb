@@ -83,21 +83,21 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
           .where('referenceCodes', 'LIKE', '%' + code + '%')
           .where('publishedOn', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'verdict', 'date', 'publishedOn', 'tags')
-          .all(),
+          .all().catch(() => []),
       ),
       useAsyncData(basePath + '-used-lagerfeuer', () =>
         queryCollection('lagerfeuer')
           .where('referenceCodes', 'LIKE', '%' + code + '%')
           .where('publishedOn', '<=', nowIso())
           .select('title', 'subtitle', 'path', 'date', 'publishedOn', 'tags')
-          .all(),
+          .all().catch(() => []),
       ),
       useAsyncData(basePath + '-used-quellenlinks', () =>
         queryCollection('quellenlinks')
           .where('referenceCodes', 'LIKE', '%' + code + '%')
           .where('publishedOn', '<=', nowIso())
           .select('title', 'path', 'date')
-          .all(),
+          .all().catch(() => []),
       ),
     ])
   : [{ data: ref([]) }, { data: ref([]) }, { data: ref([]) }]
