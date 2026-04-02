@@ -22,7 +22,8 @@
     "social:twitter": "node scripts/social/post-twitter.mjs",
     "social:facebook": "node scripts/social/post-facebook.mjs",
     "social:image": "python3 scripts/social/generate-social-image.py",
-    "social:post": "node scripts/social/post-all.mjs"
+    "social:post": "node scripts/social/post-all.mjs",
+    "test:smoke": "playwright test --project smoke"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.100",
@@ -49,6 +50,7 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
     "@nuxt/eslint": "^1.15.2",
+    "@playwright/test": "^1.59.1",
     "@types/node": "^25.5.0",
     "better-sqlite3": "^12.8.0",
     "bindings": "^1.5.0",

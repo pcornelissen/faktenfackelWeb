@@ -54,3 +54,13 @@ jobs:
       - name: Notify IndexNow
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: node scripts/indexnow.mjs
+
+      - name: Install Playwright
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: npx playwright install --with-deps chromium
+
+      - name: Smoke Tests
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: pnpm test:smoke
+        env:
+          SMOKE_TEST_URL: https://faktenfackel.de
