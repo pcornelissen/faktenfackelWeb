@@ -215,7 +215,6 @@ export default defineNuxtConfig({
     },
   },
   sitemap: {
-    zeroRuntime: true,
     sitemapName: 'sitemap.xml',
     defaultSitemapsChunkSize: 1000,
     sources: [
