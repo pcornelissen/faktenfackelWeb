@@ -74,6 +74,15 @@ export default defineContentConfig({
         quoteCodes: z.array(z.string()).optional(),
       }),
     }),
+    news: defineCollection({
+      type: 'page',
+      source: 'news/**/*.md',
+      schema: z.object({
+        date: z.date(),
+        title: z.string(),
+        publishedOn: z.date().or(z.null()),
+      }),
+    }),
     quellenlinks: defineCollection({
       type: 'page',
       source: 'quellen/*/*/links/**/*.md',

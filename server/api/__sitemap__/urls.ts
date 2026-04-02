@@ -3,13 +3,14 @@ import { queryCollection } from '@nuxt/content/server'
 
 export default defineEventHandler(async (e) => {
   const now = new Date().toISOString()
-  const [faktenchecks, lagerfeuer, glossar, zitate, quellenlinks, quellen] = await Promise.all([
+  const [faktenchecks, lagerfeuer, glossar, zitate, quellenlinks, quellen, news] = await Promise.all([
     queryCollection(e, 'faktenchecks').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'lagerfeuer').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'glossar').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'zitate').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'quellenlinks').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'quellen').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
+    queryCollection(e, 'news').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
   ])
 
   return [
@@ -19,6 +20,7 @@ export default defineEventHandler(async (e) => {
     ...zitate,
     ...quellenlinks,
     ...quellen,
+    ...news,
   ]
     .filter(p => p.path && p.date)
     .map(p => ({

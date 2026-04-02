@@ -1,4 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+/// https://nuxt.com/docs/api/configuration/nuxt-config
 import { fileURLToPath } from 'node:url'
 
 const isDev = process.env.NODE_ENV !== 'production'
@@ -24,6 +24,7 @@ export default defineNuxtConfig({
       '/quellen/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
       '/tags/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
       '/glossar/**': { swr: 86400, headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800' } },
+      '/news/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
     },
   },
   components: [

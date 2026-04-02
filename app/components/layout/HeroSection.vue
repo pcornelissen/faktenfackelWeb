@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import { newsSrc } from '~/news/newsSrc'
+import { nowIso } from '~/utils/contentUtils'
 
-const recentNews = [...newsSrc]
-  .sort((a, b) => b.date.getTime() - a.date.getTime())
-  .slice(0, 4)
+const { data: recentNewsData } = await useAsyncData('hero-news', () =>
+  queryCollection('news')
+    .select('title', 'path', 'date', 'publishedOn')
+    .where('publishedOn', '<=', nowIso())
+    .order('date', 'DESC')
+    .limit(3)
+    .all(),
+)
+
+const recentNews = computed(() => recentNewsData.value || [])
 
 const [
   { data: faktenchecksCount },
@@ -96,12 +103,15 @@ const totalCount = computed(
       </div>
 
       <!-- NEWS TICKER -->
-      <div class="ticker-box">
+      <div
+        v-if="recentNews.length"
+        class="ticker-box"
+      >
         <div class="ticker-header">
           <span class="ticker-label"><UIcon
             name="mdi:clock-edit-outline"
             class="size-3.5"
-          />Aktuelles Signal</span>
+          />Aktuelles</span>
         </div>
         <div class="ticker-intro">
           Neue Recherchen, neue Quellen, neue Einordnungen.
@@ -109,18 +119,23 @@ const totalCount = computed(
         <ul class="ticker-list">
           <li
             v-for="item in recentNews"
-            :key="item.date.toString()"
+            :key="item.path"
             class="ticker-item"
           >
             <span class="ticker-date">{{ dateString(item.date) }}</span>
-            <span class="ticker-text">{{ item.title }}</span>
+            <NuxtLink
+              :to="item.path"
+              class="ticker-text"
+            >
+              {{ item.title }}
+            </NuxtLink>
           </li>
         </ul>
         <div class="ticker-footer">
-          <a href="/news/"><UIcon
+          <NuxtLink to="/news/"><UIcon
             name="mdi:arrow-right"
             class="size-3.5"
-          /> Vollständiges Änderungslog</a>
+          /> Vollständiges Änderungslog</NuxtLink>
         </div>
       </div>
     </div>
@@ -402,6 +417,12 @@ const totalCount = computed(
   font-size: 0.94rem;
   color: #D2C5B7;
   line-height: 1.45;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.ticker-text:hover {
+  color: var(--flame);
 }
 
 .ticker-footer {
