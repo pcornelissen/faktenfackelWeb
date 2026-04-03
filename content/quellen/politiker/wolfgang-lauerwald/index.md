@@ -4,7 +4,6 @@ publishedOn: 2026-04-02
 name: Wolfgang Lauerwald
 description: AfD-Politiker, Thüringer Landtagsabgeordneter und Stadtrat Gera
 tags:
-  - research-done
   - AfD
 ---
 

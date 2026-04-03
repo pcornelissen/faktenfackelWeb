@@ -8,7 +8,6 @@ tags:
   - Forschung
   - Hochschule
   - Niederrhein
-  - research-done
 ---
 
 ## Über die Quelle

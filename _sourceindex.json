@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-02T09:08:53.405Z",
+  "generatedAt": "2026-04-03T06:02:54.074Z",
   "stats": {
-    "sources": 251,
-    "links": 518,
+    "sources": 256,
+    "links": 527,
     "quotes": 25,
     "groups": 12,
-    "codes": 535
+    "codes": 544
   },
   "sources": [
     {
@@ -227,7 +227,7 @@
         "Zivilgesellschaft"
       ],
       "date": "2026-04-02",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/berlin-story",
@@ -505,7 +505,7 @@
         "Links"
       ],
       "date": "2026-04-02",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/labor-on-the-line",
@@ -630,7 +630,7 @@
         "Links"
       ],
       "date": "2026-04-02",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/ndr",
@@ -1079,6 +1079,18 @@
         "Metallsektor"
       ],
       "date": "2026-01-11",
+      "hasImage": true
+    },
+    {
+      "path": "ngo/internationale-jugend",
+      "group": "ngo",
+      "slug": "internationale-jugend",
+      "name": "Internationale Jugend",
+      "description": "Sozialistische Jugendorganisation, Mitglied der FKO",
+      "tags": [
+        "research-done"
+      ],
+      "date": "2026-04-02",
       "hasImage": true
     },
     {
@@ -2127,6 +2139,18 @@
       "hasImage": true
     },
     {
+      "path": "personen/xavier-naidoo",
+      "group": "personen",
+      "slug": "xavier-naidoo",
+      "name": "Xavier Naidoo",
+      "description": "Deutscher Sänger und Verschwörungstheoretiker",
+      "tags": [
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-02",
+      "hasImage": true
+    },
+    {
       "path": "personen/yung-emil",
       "group": "personen",
       "slug": "yung-emil",
@@ -3047,6 +3071,19 @@
       "hasImage": true
     },
     {
+      "path": "politiker/wolfgang-lauerwald",
+      "group": "politiker",
+      "slug": "wolfgang-lauerwald",
+      "name": "Wolfgang Lauerwald",
+      "description": "AfD-Politiker, Thüringer Landtagsabgeordneter und Stadtrat Gera",
+      "tags": [
+        "research-done",
+        "AfD"
+      ],
+      "date": "2026-04-02",
+      "hasImage": true
+    },
+    {
       "path": "portale/chaos-computer-club",
       "group": "portale",
       "slug": "chaos-computer-club",
@@ -3446,6 +3483,21 @@
       "hasImage": true
     },
     {
+      "path": "wissenschaft/fraunhofer-ise",
+      "group": "wissenschaft",
+      "slug": "fraunhofer-ise",
+      "name": "Fraunhofer ISE",
+      "description": "Fraunhofer-Institut für Solare Energiesysteme, Freiburg",
+      "tags": [
+        "Wissenschaft",
+        "Energie",
+        "Klimaschutz",
+        "Deutschland"
+      ],
+      "date": "2026-04-03",
+      "hasImage": true
+    },
+    {
       "path": "wissenschaft/gerhard-backer",
       "group": "wissenschaft",
       "slug": "gerhard-backer",
@@ -3469,6 +3521,22 @@
         "Wissenschaftler"
       ],
       "date": "2026-01-14",
+      "hasImage": true
+    },
+    {
+      "path": "wissenschaft/hochschule-niederrhein",
+      "group": "wissenschaft",
+      "slug": "hochschule-niederrhein",
+      "name": "Hochschule Niederrhein",
+      "description": "Staatliche Fachhochschule in Mönchengladbach und Krefeld",
+      "tags": [
+        "Bildung",
+        "Forschung",
+        "Hochschule",
+        "Niederrhein",
+        "research-done"
+      ],
+      "date": "2026-04-02",
       "hasImage": true
     },
     {
@@ -3611,7 +3679,6 @@
       "name": "Trevor Poutine",
       "description": "Kanadischer Geschichtslehrer und Content Creator (Toronto), bekannt als 'Professor Poutine' – erklärt historische Ereignisse mit Bezug zur Gegenwart",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "Bildung"
       ],
@@ -3974,11 +4041,11 @@
       "path": "ngo/amadeu-antonio-stiftung/links/20260330.feindbild-zivilgesellschaft",
       "source": "ngo/amadeu-antonio-stiftung",
       "code": "amadeu-antonio-feindbild-zivilgesellschaft",
-      "title": "Feindbild Zivilgesellschaft — Sicherheitsreport der Amadeu Antonio Stiftung",
+      "title": "Feindbild Zivilgesellschaft: Sicherheitsreport der Amadeu Antonio Stiftung",
       "uri": "https://www.amadeu-antonio-stiftung.de/publikationen/feindbild-zivilgesellschaft/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Statistik",
@@ -3986,7 +4053,10 @@
         "Studie"
       ],
       "sourceDate": "2026-03-30",
-      "coSources": []
+      "verdict": "true",
+      "coSources": [
+        "hochschule-niederrhein"
+      ]
     },
     {
       "path": "ngo/amadeu-antonio-stiftung/links/20241022.klimawandelleugnung-afd",
@@ -4341,14 +4411,15 @@
       "uri": "https://www.belltower.news/afd-strategie-die-dorfkneipe-als-kaderschmiede-165105/",
       "type": "article",
       "tags": [
-        "more-research-needed",
         "AfD",
         "Strategie",
         "Radikalisierung",
         "Ländlicher Raum"
       ],
       "sourceDate": "2026-03-20",
-      "coSources": []
+      "coSources": [
+        "amadeu-antonio-stiftung"
+      ]
     },
     {
       "path": "medien/belltower-news/links/20260331.feindbild-zivilgesellschaft-demokratieprojekte",
@@ -4358,7 +4429,7 @@
       "uri": "https://www.belltower.news/quo-vadis-zivilgesellschaft-jeden-dritten-tag-werden-demokratieprojekte-angegriffen-165349/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Statistik",
@@ -4366,7 +4437,9 @@
         "Amadeu Antonio Stiftung"
       ],
       "sourceDate": "2026-03-31",
-      "coSources": []
+      "coSources": [
+        "amadeu-antonio-stiftung"
+      ]
     },
     {
       "path": "medien/belltower-news/links/20260402.knockout51-milde-urteile",
@@ -4376,7 +4449,7 @@
       "uri": "https://www.belltower.news/knockout-51-milde-urteile-im-prozess-gegen-neonazi-schlaeger-165377/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Straflosigkeit",
@@ -4384,7 +4457,9 @@
         "Thüringen"
       ],
       "sourceDate": "2026-04-02",
-      "coSources": []
+      "coSources": [
+        "amadeu-antonio-stiftung"
+      ]
     },
     {
       "path": "medien/berlin-story/links/20251023.chrupalla-merz-doppelmoral",
@@ -4731,6 +4806,27 @@
       "coSources": [
         "julian-brüning",
         "steffen-john"
+      ]
+    },
+    {
+      "path": "staatlich/bundestag/links/20260319.afd-kernkraft-3-cent-behauptung",
+      "source": "staatlich/bundestag",
+      "code": "bundestag-afd-kernkraft-3-cent-behauptung",
+      "title": "AfD behauptet Kernkraftstrom koste 3 Cent pro kWh",
+      "uri": "https://www.bundestag.de/dokumente/textarchiv/2026/kw12-de-kernkraftausstieg-1156112",
+      "type": "bundestag",
+      "tags": [
+        "research-done-review-pending",
+        "AfD",
+        "Kernkraft",
+        "Energiepolitik",
+        "Desinformation"
+      ],
+      "sourceDate": "2026-03-19",
+      "verdict": "false",
+      "coSources": [
+        "afd",
+        "die-linke"
       ]
     },
     {
@@ -5206,14 +5302,36 @@
       "uri": "https://correctiv.org/aktuelles/afd/2026/03/05/justiz-ab-wann-ist-die-afd-gesichert-rechtsextrem/",
       "type": "article",
       "tags": [
-        "more-research-needed",
         "AfD",
         "Rechtsextremismus",
         "Verfassungsschutz",
         "Justiz"
       ],
       "sourceDate": "2026-03-05",
-      "coSources": []
+      "coSources": [
+        "afd",
+        "verfassungsschutz",
+        "martin-sellner",
+        "alice-weidel"
+      ]
+    },
+    {
+      "path": "faktenchecks/correctiv/links/20260402.afd-niedersachsen-untreue-ermittlungen",
+      "source": "faktenchecks/correctiv",
+      "code": "correctiv-afd-niedersachsen-untreue-schledde",
+      "title": "Staatsanwaltschaft ermittelt gegen elf AfD-Personen in Niedersachsen wegen Untreue",
+      "uri": "https://correctiv.org/aktuelles/afd/2026/04/02/ermittlungen-afd-niedersachsen-untreue-schledde/",
+      "type": "recherche",
+      "tags": [
+        "research-done-review-pending",
+        "AfD",
+        "Untreue",
+        "Niedersachsen"
+      ],
+      "sourceDate": "2026-04-02",
+      "coSources": [
+        "afd"
+      ]
     },
     {
       "path": "faktenchecks/correctiv/links/20260224.afd-reno-schmidt-toetungsfantasien-linke",
@@ -5223,14 +5341,15 @@
       "uri": "https://correctiv.org/aktuelles/afd/2026/02/24/der-wird-erschossen-verfahren-gegen-afd-politiker-wegen-toetungsfantasien-gegen-linke-eingestellt/",
       "type": "article",
       "tags": [
-        "more-research-needed",
         "AfD",
         "Politische Gewalt",
         "Straflosigkeit",
         "Radikalisierung"
       ],
       "sourceDate": "2026-02-24",
-      "coSources": []
+      "coSources": [
+        "afd"
+      ]
     },
     {
       "path": "faktenchecks/correctiv/links/20260326.chrupalla-wahlbetrug-bw-falscher-kontext",
@@ -5244,8 +5363,7 @@
         "AfD",
         "Desinformation",
         "Baden-Württemberg",
-        "Faktencheck",
-        "research-done-review-pending"
+        "Faktencheck"
       ],
       "sourceDate": "2026-03-26",
       "verdict": "false",
@@ -5376,13 +5494,31 @@
         "Wahlbetrug",
         "Desinformation",
         "Baden-Württemberg",
-        "Faktencheck",
-        "research-done-review-pending"
+        "Faktencheck"
       ],
       "sourceDate": "2026-03-23",
       "verdict": "false",
       "coSources": [
         "markus-krall"
+      ]
+    },
+    {
+      "path": "faktenchecks/correctiv/links/20260402.naidoo-demo-ki-luftbild",
+      "source": "faktenchecks/correctiv",
+      "code": "correctiv-naidoo-demo-ki-luftbild",
+      "title": "Naidoo-Demo in Berlin: KI-generiertes Luftbild viral verbreitet",
+      "uri": "https://correctiv.org/faktencheck/2026/04/02/teilnehmerzahl-bei-naidoo-demo-in-berlin-luftaufnahme-ist-ki-generiert/",
+      "type": "faktencheck",
+      "tags": [
+        "research-done-review-pending",
+        "Xavier-Naidoo",
+        "KI-Desinformation",
+        "Faktencheck"
+      ],
+      "sourceDate": "2026-04-02",
+      "verdict": "false",
+      "coSources": [
+        "xavier-naidoo"
       ]
     },
     {
@@ -5435,14 +5571,17 @@
       "uri": "https://correctiv.org/aktuelles/politik-2/2026/02/27/kein-thueringen-2-0-sachsen-anhalt-will-politik-vor-afd-blockade-schuetzen/",
       "type": "article",
       "tags": [
-        "more-research-needed",
         "AfD",
         "Demokratie",
         "Sachsen-Anhalt",
         "Verfassung"
       ],
       "sourceDate": "2026-02-27",
-      "coSources": []
+      "coSources": [
+        "afd",
+        "landtag-sachsen-anhalt",
+        "ulrich-siegmund"
+      ]
     },
     {
       "path": "faktenchecks/correctiv/links/20251123.Merz-stadtbild-aussage-gestrichen",
@@ -5709,7 +5848,7 @@
       "path": "nachrichten/deutschlandfunk/links/20180906.hambacher-forst-stillhaltezusage",
       "source": "nachrichten/deutschlandfunk",
       "code": "deutschlandfunk-hambacher-forst-2018",
-      "title": "Bürgerinitiative für Hambacher Forst\"Es sind Bäume gefällt worden\"",
+      "title": "Bürgerinitiative für Hambacher Forst - \\\"Es sind Bäume gefällt worden\\\"",
       "uri": "https://www.deutschlandfunk.de/buergerinitiative-fuer-hambacher-forst-es-sind-baeume-100.html",
       "type": "article",
       "tags": [
@@ -7220,6 +7359,24 @@
       ]
     },
     {
+      "path": "wissenschaft/fraunhofer-ise/links/20240701.fraunhofer-ise-stromgestehungskosten-studie-2024",
+      "source": "wissenschaft/fraunhofer-ise",
+      "code": "fraunhofer-ise-stromgestehungskosten-2024",
+      "title": "Fraunhofer ISE: Stromgestehungskosten Erneuerbare Energien, Ausgabe Juli 2024",
+      "uri": "https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/studie-stromgestehungskosten-erneuerbare-energien.html",
+      "type": "study",
+      "tags": [
+        "research-done-review-pending",
+        "Kernkraft",
+        "Energiepolitik",
+        "Erneuerbare Energien",
+        "Stromgestehungskosten"
+      ],
+      "sourceDate": "2024-07-01",
+      "verdict": "false",
+      "coSources": []
+    },
+    {
       "path": "allgemein/facebook/links/20251229.afd-sozialbetrug-bei-afd",
       "source": "allgemein/facebook",
       "code": "fulst-afd-rupp-kassiert-doppelte-bezuege",
@@ -7358,7 +7515,7 @@
       "tags": [
         "AfD",
         "Gesellschaft",
-        "research-done-review-pending"
+        "more-research-needed"
       ],
       "sourceDate": "2026-01-18",
       "coSources": []
@@ -7705,6 +7862,26 @@
         "Propaganda"
       ],
       "sourceDate": "2026-01-08",
+      "coSources": [
+        "donald-trump"
+      ]
+    },
+    {
+      "path": "personen/harry-sisson/links/20260318.harry-sisson-epstein-dokument-mar-a-lago",
+      "source": "personen/harry-sisson",
+      "code": "harry-sisson-epstein-dokument-mar-a-lago",
+      "title": "Harry Sisson: Enthülltes Epstein-Dokument widerspricht Trumps Mar-a-Lago-Darstellung",
+      "uri": "https://www.facebook.com/reel/785533917943426",
+      "type": "facebook",
+      "tags": [
+        "Harry-Sisson",
+        "Epstein",
+        "Trump",
+        "USA",
+        "Dokumente",
+        "research-done-review-needed"
+      ],
+      "sourceDate": "2026-03-18",
       "coSources": [
         "donald-trump"
       ]
@@ -8619,15 +8796,19 @@
       "uri": "https://www.jungewelt.de/artikel/520261.ultrarechte-gewalt-attacke-mit-machete.html",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Berlin",
         "Neonazis",
         "Antifaschismus"
       ],
-      "sourceDate": "2026-03-31",
-      "coSources": []
+      "sourceDate": "2026-04-01",
+      "verdict": "true",
+      "coSources": [
+        "internationale-jugend",
+        "mediendienst-integration"
+      ]
     },
     {
       "path": "personen/the-justice-guy/links/20260108.justice-guy-ice-renee-nicole-good-arzt-blockiert",
@@ -9444,6 +9625,41 @@
       "coSources": []
     },
     {
+      "path": "personen/marcant/links/20260327.marcant-interview",
+      "source": "personen/marcant",
+      "code": "marcant-interview-schuldkult",
+      "title": "Marcant über \\\"Schuldkult\\\"-Narrativ und Erinnerungsverantwortung",
+      "uri": "https://www.facebook.com/reel/789094984257188",
+      "type": "facebook",
+      "tags": [
+        "research-done-review-pending",
+        "Marcant",
+        "Erinnerungskultur",
+        "Nationalsozialismus",
+        "Schuldkult"
+      ],
+      "sourceDate": "2026-03-27",
+      "coSources": []
+    },
+    {
+      "path": "personen/marcant/links/20260331.marcant-interview-2",
+      "source": "personen/marcant",
+      "code": "marcant-rechtsausstieg-wegen-marcant",
+      "title": "Marcant trifft rechten Aussteiger, der durch seine Videos die AfD hinter sich ließ",
+      "uri": "https://www.facebook.com/reel/2398402963942220",
+      "type": "facebook",
+      "tags": [
+        "research-done-review-pending",
+        "Marcant",
+        "Interview",
+        "AfD",
+        "Rechtsextremismus",
+        "Deradikalisierung"
+      ],
+      "sourceDate": "2026-03-31",
+      "coSources": []
+    },
+    {
       "path": "personen/marcant/links/20251226.ulrich-siegmund-geschichtsrevision",
       "source": "personen/marcant",
       "code": "marcant-siegmund-geschichtsrevision",
@@ -9852,6 +10068,24 @@
       ]
     },
     {
+      "path": "politiker/robin-mesarosch/links/20250919.afd-wahre-demokraten",
+      "source": "politiker/robin-mesarosch",
+      "code": "mesarosch-afd-wahre-demokraten",
+      "title": "AfD als 'wahre Demokraten' - eine Täuschung",
+      "uri": "https://www.facebook.com/reel/1526071768824104",
+      "type": "facebook",
+      "tags": [
+        "research-done-review-pending",
+        "AfD",
+        "Demokratie",
+        "Rechtsextremismus",
+        "SPD",
+        "AfD-Verbot"
+      ],
+      "sourceDate": "2025-09-19",
+      "coSources": []
+    },
+    {
       "path": "politiker/robin-mesarosch/links/20260107.engagierte-politiker",
       "source": "politiker/robin-mesarosch",
       "code": "mesarosch-engagierte-politiker",
@@ -9897,8 +10131,7 @@
         "AfD",
         "Nationalsozialismus",
         "Neonazis",
-        "Facebook",
-        "research-done-review-pending"
+        "Facebook"
       ],
       "sourceDate": "2026-01-09",
       "coSources": [
@@ -9918,7 +10151,7 @@
         "Demo",
         "Polizeigewalt",
         "Facebook",
-        "research-done-review-pending"
+        "more-research"
       ],
       "sourceDate": "2026-01-17",
       "coSources": []
@@ -10333,7 +10566,7 @@
       "uri": "https://www.nd-aktuell.de/artikel/1198695.antifaschismus-berlin-naziangriff-mit-machete.html",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Berlin",
@@ -10341,7 +10574,10 @@
         "Antifaschismus"
       ],
       "sourceDate": "2026-03-30",
-      "coSources": []
+      "verdict": "true",
+      "coSources": [
+        "internationale-jugend"
+      ]
     },
     {
       "path": "medien/ndr/links/20251025.merz-stadtbild-reaktionen",
@@ -10403,7 +10639,6 @@
       "uri": "https://newzs.de/2026/03/22/angriffe-auf-gedenkstaetten-wenn-antisemitismus-sichtbar-wird/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Antisemitismus",
         "Gedenkstätten",
@@ -10485,6 +10720,23 @@
       "sourceDate": "2026-01-23",
       "coSources": [
         "helge-lindh"
+      ]
+    },
+    {
+      "path": "allgemein/no-afd/links/20260402.no-afd-was-afd-bewirkt",
+      "source": "allgemein/no-afd",
+      "code": "no-afd-was-afd-bewirkt",
+      "title": "Was die AfD so bewirkt hat",
+      "uri": "https://www.facebook.com/reel/1874997616543735",
+      "type": "facebook",
+      "tags": [
+        "AfD",
+        "NoAfD",
+        "Kommunalpolitik"
+      ],
+      "sourceDate": "2026-04-02",
+      "coSources": [
+        "wolfgang-lauerwald"
       ]
     },
     {
@@ -11973,7 +12225,6 @@
       "uri": "https://taz.de/Rechter-Ueberfall-in-Friedrichshain/!6166855/",
       "type": "article",
       "tags": [
-        "more-research-needed",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Berlin",
@@ -11981,7 +12232,10 @@
         "Antifaschismus"
       ],
       "sourceDate": "2026-03-29",
-      "coSources": []
+      "verdict": "true",
+      "coSources": [
+        "internationale-jugend"
+      ]
     },
     {
       "path": "medien/taz/links/20260302.rosenheim-afd-schwalbe",
@@ -12315,7 +12569,7 @@
       "uri": "https://www.facebook.com/reel/1821366088592759",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
+        "more-research-needed",
         "Geschichte",
         "Erinnerungskultur"
       ],
