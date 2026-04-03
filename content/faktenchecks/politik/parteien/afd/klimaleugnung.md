@@ -32,7 +32,7 @@ Der Weltklimarat (IPCC) stützt sich auf die Arbeit tausender Wissenschaftler we
 
 **"Nicht evident und nicht bewiesen":** Der menschliche Einfluss auf das Klimasystem ist laut IPCC "eindeutig" (AR6, 2021). Die AfD-Position widerspricht tausenden begutachteten Studien.
 
-**"Erneuerbare Energien sind unsinnig":** Windräder, Solaranlagen und E-Autos werden als umweltschädigend dargestellt. Die IEA und zahlreiche Studien belegen das Gegenteil: Erneuerbare sind inzwischen die günstigste Form der Stromerzeugung in den meisten Märkten.
+**"Erneuerbare Energien sind unsinnig":** Windräder, Solaranlagen und E-Autos werden als umweltschädigend dargestellt. AfD-Abgeordnete behaupteten im Bundestag, <Reference code="bundestag-afd-kernkraft-3-cent-behauptung">Kernkraftstrom koste nur 3 Cent pro Kilowattstunde</Reference> — tatsächlich liegen die Kosten bei 31 bis 50 Cent. Die IEA und zahlreiche Studien belegen das Gegenteil der AfD-Darstellung: <Reference code="fraunhofer-ise-stromgestehungskosten-2024">Laut Fraunhofer ISE sind Erneuerbare inzwischen die günstigste Form der Stromerzeugung</Reference> in den meisten Märkten.
 
 **"Fossile Energien sichern Wohlstand":** Kohle und Diesel als Garanten wirtschaftlicher Stabilität darzustellen, ignoriert, dass fossile Brennstoffe die Hauptursache der Klimakrise sind und deren Folgekosten (Extremwetter, Ernteausfälle, Gesundheitsschäden) den kurzfristigen Nutzen übersteigen.
 
@@ -46,7 +46,7 @@ Das Bundesverfassungsgericht hat im Klimaurteil vom 24. März 2021 klargestellt,
 
 ### Strategie statt Überzeugung
 
-Die Strategie hat sich verfeinert: Klassische Leugnung ("Es gibt keinen Klimawandel") tritt zunehmend in den Hintergrund. Stattdessen richtet sich die Desinformation gegen konkrete Klimaschutzmaßnahmen. Kritiker nennen das "Desinformation in Gesetzesform": Die AfD bringt Bundestagsanträge ein, die auf der Leugnung wissenschaftlicher Erkenntnisse basieren, etwa zur "Beseitigung der Klimaschutzfolgen und Wiederherstellung der Energieinfrastruktur in Deutschland".
+Die Strategie hat sich verfeinert: Klassische Leugnung ("Es gibt keinen Klimawandel") tritt zunehmend in den Hintergrund. Stattdessen richtet sich die Desinformation gegen konkrete Klimaschutzmaßnahmen. Kritiker nennen das "Desinformation in Gesetzesform": Die AfD bringt Bundestagsanträge ein, die auf der Leugnung wissenschaftlicher Erkenntnisse basieren, etwa zur "Beseitigung der Klimaschutzfolgen und Wiederherstellung der Energieinfrastruktur in Deutschland" oder dem <Reference code="bundestag-afd-klimaneutralitaet-streichen">Antrag, sämtliche Klimaneutralitätsziele zu streichen</Reference>.
 
 ### Folgen in der Bildungspolitik
 

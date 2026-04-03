@@ -23,7 +23,7 @@ möglichen Verbots.
 
 Die AfD reagierte mit einem Einspruch vor dem Verwaltungsgericht Köln gegen den Bericht. Daraufhin hat der
 Verfassungsschutz <Reference code="vg-köln-afd-stillhaltezusage">die Einstufung als gesichert rechtsextrem</Reference> mit einer <Glossar>Stillhaltezusage</Glossar> pausiert, bis das Gericht über
-den Einspruch entschieden hat.
+den Einspruch entschieden hat. <Reference code="correctiv-afd-gesichert-rechtsextremistisch">Correctiv hat die widersprüchlichen Urteile analysiert</Reference>: Das VG Köln sah zwar verfassungsfeindliche Elemente in der AfD, bewertete sie aber nicht als parteiprägend. Das OVG Bautzen dagegen stufte den sächsischen Landesverband als gesichert rechtsextremistisch ein, weil der aufgelöste "Flügel" dort besonders stark verankert war und sich führende Vertreter nicht distanzierten. Entscheidend ist der Begriff der "beherrschenden Grundtendenz": Einzelne verfassungsfeindliche Äußerungen reichen nicht, die Bestrebungen müssen das Gesamtbild der Organisation prägen.
 
 Zuvor wurde die AfD als Verdachtsfall eingestuft. Auch hier hatte die AfD Einspruch eingelegt, was jedoch vom
 Oberverwaltungsgericht Münster im August 2025 abgelehnt wurde.
@@ -130,7 +130,7 @@ Es ist aber in dem Sinne ein Gewinn, dass die AfD z.B. nicht nachrichtendienstli
 
 Sobald das Verwaltungsgericht Köln über den Einspruch entschieden hat und die Stillhaltezusage aufgehoben wird, kann der Verfassungsschutz die Einstufung der AfD als rechtsextreme Partei wieder aufnehmen, sofern das Gericht den Einspruch abweist. Dann treten auch die nachteiligen Effekte für die Partei und ihre Mitglieder in Kraft.
 
-Die Pausierung wird auch ins Feld geführt, warum manche Parteien einem Antrag auf Prüfung durch das Bundesverfassungsgericht gegen ein mögliches Verbot der AfD nicht zustimmen. Das kann als weiterer kleiner Sieg zählen, der die Zeit, bis ein Verbotsverfahren angestrebt wird, weiter herauszögert.
+Die Pausierung wird auch ins Feld geführt, warum manche Parteien einem Antrag auf Prüfung durch das Bundesverfassungsgericht gegen ein mögliches Verbot der AfD nicht zustimmen. Das kann als weiterer kleiner Sieg zählen, der die Zeit, bis ein Verbotsverfahren angestrebt wird, weiter herauszögert. Dass die AfD gezielt Druck auf zivilgesellschaftliche Organisationen und demokratische Institutionen ausübt, zeigt auch ein <Reference code="amadeu-antonio-feindbild-zivilgesellschaft">Sicherheitsreport der Amadeu Antonio Stiftung</Reference>, der 663 parlamentarische Anfragen der AfD gegen Zivilgesellschaft dokumentiert.
 
 ### Hat das Innenministerium den Verfassungsschutz politisch instrumentalisiert?
 
@@ -144,7 +144,7 @@ Es gibt auch keine Hinweise darauf, dass das Ministerium den Verfassungsschutz a
 
 Zusammengefasst, ist die Pausierung natürlich kein direkter Sieg für die AfD und die positiven Effekte sind nur temporär. 
 
-Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. Dass das Bild der Partei, das der Verfassungsschutz in seinem Gutachten beschreibt, nicht aus der Luft gegriffen ist, zeigen immer wieder öffentliche Auftritte von AfD-Mitgliedern - etwa wenn eine <Reference code="mutmacher-lena-afd-vfrau-2026">AfD-Abgeordnete NS-Literatur sichtbar im Regal hat und zum Melden linker Organisationen aufruft</Reference>. <Reference code="correctiv-völkisches-denken-afd-14-beispiele">Correctiv hat 14 konkrete Beispiele für völkisches Denken in der AfD dokumentiert</Reference>, und das <Reference code="fragdenstaat-afd-verfassungsfeindlich">Bundesamt für Verfassungsschutz selbst hat erste Belege zur Verfassungsfeindlichkeit der AfD veröffentlicht</Reference>.
+Die verbreiteten Aussagen, dass dies ein Beleg dafür sei, dass die AfD keine rechtsextreme Partei sei oder dass die ursprüngliche Einstufung des Verfassungsschutzes falsch war, sind absichtlich oder aus taktischen Gründen irreführend. Dass das Bild der Partei, das der Verfassungsschutz in seinem Gutachten beschreibt, nicht aus der Luft gegriffen ist, zeigen immer wieder öffentliche Auftritte von AfD-Mitgliedern - etwa wenn eine <Reference code="mutmacher-lena-afd-vfrau-2026">AfD-Abgeordnete NS-Literatur sichtbar im Regal hat und zum Melden linker Organisationen aufruft</Reference>. <Reference code="correctiv-völkisches-denken-afd-14-beispiele">Correctiv hat 14 konkrete Beispiele für völkisches Denken in der AfD dokumentiert</Reference>, und das <Reference code="fragdenstaat-afd-verfassungsfeindlich">Bundesamt für Verfassungsschutz selbst hat erste Belege zur Verfassungsfeindlichkeit der AfD veröffentlicht</Reference>. Wie systematisch die organisatorische Radikalisierung voranschreitet, zeigt ein <Reference code="belltower-afd-dorfkneipe-kaderschmiede">Strategiepapier der AfD, das Belltower.News analysiert hat</Reference>: Die Partei setzt gezielt auf lokale Netzwerke als "Kaderschmiede" für ihre richtungstreuen Mitglieder.
 
 
 
