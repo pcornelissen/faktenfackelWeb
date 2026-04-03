@@ -13,6 +13,7 @@ tags:
   - Debunking
   - Faktencheck
 ---
+<!-- claude:reviewed 2026-04-02 -->
 
 ## Über die Quelle
 
