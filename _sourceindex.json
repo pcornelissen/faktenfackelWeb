@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T06:02:54.074Z",
+  "generatedAt": "2026-04-05T07:03:58.286Z",
   "stats": {
     "sources": 256,
     "links": 527,
@@ -1087,9 +1087,7 @@
       "slug": "internationale-jugend",
       "name": "Internationale Jugend",
       "description": "Sozialistische Jugendorganisation, Mitglied der FKO",
-      "tags": [
-        "research-done"
-      ],
+      "tags": [],
       "date": "2026-04-02",
       "hasImage": true
     },
@@ -3077,7 +3075,6 @@
       "name": "Wolfgang Lauerwald",
       "description": "AfD-Politiker, Thüringer Landtagsabgeordneter und Stadtrat Gera",
       "tags": [
-        "research-done",
         "AfD"
       ],
       "date": "2026-04-02",
@@ -3533,8 +3530,7 @@
         "Bildung",
         "Forschung",
         "Hochschule",
-        "Niederrhein",
-        "research-done"
+        "Niederrhein"
       ],
       "date": "2026-04-02",
       "hasImage": true
@@ -4816,7 +4812,6 @@
       "uri": "https://www.bundestag.de/dokumente/textarchiv/2026/kw12-de-kernkraftausstieg-1156112",
       "type": "bundestag",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Kernkraft",
         "Energiepolitik",
@@ -4826,7 +4821,10 @@
       "verdict": "false",
       "coSources": [
         "afd",
-        "die-linke"
+        "die-linke",
+        "mareike-hermeier",
+        "paul-schmidt",
+        "klaus-wiener"
       ]
     },
     {
@@ -5330,7 +5328,12 @@
       ],
       "sourceDate": "2026-04-02",
       "coSources": [
-        "afd"
+        "afd",
+        "ansgar-schledde",
+        "stefan-henze",
+        "martina-uhr",
+        "andreas-paul",
+        "micha-fehre"
       ]
     },
     {
@@ -7366,14 +7369,12 @@
       "uri": "https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/studie-stromgestehungskosten-erneuerbare-energien.html",
       "type": "study",
       "tags": [
-        "research-done-review-pending",
         "Kernkraft",
         "Energiepolitik",
         "Erneuerbare Energien",
         "Stromgestehungskosten"
       ],
       "sourceDate": "2024-07-01",
-      "verdict": "false",
       "coSources": []
     },
     {
