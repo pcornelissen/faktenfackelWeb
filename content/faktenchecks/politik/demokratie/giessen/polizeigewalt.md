@@ -34,7 +34,6 @@ Um das in Relation zur "<Reference code="verfassungsschutz-rechtsextremismus-zah
 In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 1488 Straftaten registriert.
 
 Auch in <Reference code="statista-artikel-politische-lager-straftaten">anderen Statistiken</Reference> zeigt sich ein ähnliches Bild.
-<img src="/files/faktenchecks/kriminalitaet/kriminalitaet-statista-2024.jpeg" alt="Diagramm zur Kriminalität von Statista zu 2023/2024" style="max-height: 35rem;width: auto"/>
 
 Diese Zahlen zeigen: Gewaltaffine linksextremistische Gruppen existieren, sie bilden aber nur einen kleinen Teil aller Demonstrierenden bei linken oder antifaschistischen Protesten. Aus bundesweiten Statistiken lässt sich jedoch nicht direkt ableiten, wie hoch die konkrete Gefährdungslage in Gießen am 29. November 2025 an einer bestimmten Stelle tatsächlich war.
 
@@ -53,7 +52,7 @@ Solche Aufnahmen ersetzen keine genaue Rekonstruktion einzelner Konfliktsituatio
 
 ### Das "Brückenvideo"
 
-Besonders viel Aufmerksamkeit erhielt ein Video von einer Situation an einer Brücke. Die Aufnahme wurde unter anderem von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference> verbreitet. Zusätzlich hat die <Reference code="hessenschau-gießen-2025">Hessenschau</Reference> die Sequenz und den damaligen Kenntnisstand zusammengefasst.
+Besonders viel Aufmerksamkeit erhielt ein Video von einer Situation an einer Brücke. Die Aufnahme wurde unter anderem von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference> verbreitet. Zusätzlich hat die [Hessenschau](https://www.hessenschau.de/panorama/demo-gegen-afd-in-giessen-das-ist-zum-video-ueber-den-b49-polizeieinsatz-bekannt-v1,video-giessen-bundesstrasse-polizei-100.html) die Sequenz und den damaligen Kenntnisstand zusammengefasst.
 
 Was auf Grundlage der öffentlich bekannten Ausschnitte gesagt werden kann:
 
@@ -68,9 +67,7 @@ Damit stützen die Videos den Vorwurf, dass der Einsatz für Außenstehende plö
 
 Falsch war dagegen die in rechten Kreisen verbreitete Behauptung, ein Polizeipferd sei von Demonstrierenden schwer verletzt oder getötet worden.
 
-Die Polizei selber hat [veröffentlicht](https://x.com/bpol_koblenz/status/1994771899776208902), dass das Pferd ohne externe Beeinflussung gestürzt ist und sowohl Reiter und Pferd wohl auf sind.
-
-<img src="/files/faktenchecks/politik/polizeipferd-2024.png" alt="X-Post von der Polizei Koblenz zum Polizeipferd, dass in Gießen ohne Fremdeinwirkung verletzt wurde" style="max-height: 30rem;width: auto; border: gray solid 1px">
+Die Polizei selber hat [veröffentlicht](https://x.com/bpol_koblenz/status/1994771899776208902), dass das Pferd ohne externe Beeinflussung gestürzt ist und sowohl Reiter und Pferd wohlauf sind.
 
 Der Vorfall mit dem Pferd ist deshalb kein Beleg für Gewalt durch Demonstrierende gegen das Tier. Er zeigt vielmehr, wie schnell sich in aufgeheizten Lagen unzutreffende Behauptungen verbreiten können.
 
@@ -78,11 +75,12 @@ Der Vorfall mit dem Pferd ist deshalb kein Beleg für Gewalt durch Demonstrieren
 
 Neben den bekannten Videos gibt es weitere Berichte über Schläge und hartes Vorgehen der Polizei, etwa von einer Reporterin von Perspektive Online [auf Telegram](https://t.me/perspektiveon/8254).
 
-Auch "[Moers ist bunt nicht Braun](https://www.facebook.com/Moersistbunt?__cft__[0]=AZVtranIeSylb4XHXsujcUUFCrA1O1-uC8aAhYc_P3R7zjhk_ylIAsH_rR0VTwF3fVJPM0tOkZeaW6vShFf9EHCzP0k1_nvYde1K-x4XDocGWaS041yM23gtUaf3L9aOEE8MD7LYYP4DkJw0crvOtzOX0T83tAYpTN5Xt198Q4_-U9wc3bKnfqGrjCJad4PEEHpG-1mP9pYXTY9JVqQQga8T&__tn__=-UC%2CP-R)" dokumentierte Vorwürfe von Polizeigewalt an den Lahnbrücken bei <Reference code="moers-afd-demo-gießen">Facebook</Reference>.
+Auch "[Moers ist bunt nicht Braun](https://www.facebook.com/Moersistbunt?__cft__[0]=AZVtranIeSylb4XHXsujcUUFCrA1O1-uC8aAhYc_P3R7zjhk_ylIAsH_rR0VTwF3fVJPM0tOkZeaW6vShFf9EHCzP0k1_nvYde1K-x4XDocGWaS041yM23gtUaf3L9aOEE8MD7LYYP4DkJw0crvOtzOX0T83tAYpTN5Xt198Q4_-U9wc3bKnfqGrjCJad4PEEHpG-1mP9pYXTY9JVqQQga8T&__tn__=-UC%2CP-R)" dokumentierte entsprechende Vorwürfe an den Lahnbrücken auch in [diesem Facebook-Beitrag](https://www.facebook.com/Moersistbunt/posts/pfbid0GgjyEeonqnmazF7DznTbWD1fiUbiamhYTDHC3sCgBKe36eNewsMCyzWmqHiL42N9l).
 
-Dokumentiertes Verhalten der Gegenseite: <Reference code="gegen-die-afd-gießen-auto-rettungsgasse">AfD-Mitglieder fuhren in Gießen hinter einem Rettungswagen durch eine Rettungsgasse</Reference>, die von Demonstrierenden für den Notfall freigehalten worden war.
+Dokumentiertes Verhalten der Gegenseite: [AfD-Mitglieder fuhren in Gießen hinter einem Rettungswagen durch eine Rettungsgasse](https://www.facebook.com/reel/1193961026013925), die von Demonstrierenden für den Notfall freigehalten worden war.
+
 > Trotz friedlicher Demo eskaliert die Gewalt an den Lahnbrücken
-Bei den Protesten gegen die AfD-Jugend kam es zu Zusammenstößen. Polizeigewalt und Taxiservice-Vorwürfe sorgen für Empörung. ...
+> Bei den Protesten gegen die AfD-Jugend kam es zu Zusammenstößen. Polizeigewalt und Taxiservice-Vorwürfe sorgen für Empörung. ...
 
 Solche Berichte sind als zusätzliche Hinweise relevant. Sie ersetzen aber keine unabhängige Rekonstruktion durch vollständiges Videomaterial, Einsatzprotokolle oder spätere gerichtliche bzw. behördliche Aufarbeitung.
 
