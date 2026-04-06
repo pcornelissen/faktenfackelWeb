@@ -96,6 +96,22 @@ await referencesStore.fetchFor(page.value)
           title="Achtung! Dieser Artikel ist aktuell in Bearbeitung und kann fehlende, falsche und unbelegte Informationen enthalten"
           class="article-alert"
         />
+        <UAlert
+          v-if="page.tags?.includes('research-done-review-pending')"
+          color="orange"
+          variant="subtle"
+          icon="i-lucide-eye"
+          title="Dieser Inhalt wurde recherchiert, aber noch nicht final geprüft."
+          class="article-alert review-alert"
+        />
+        <UAlert
+          v-if="page.tags?.includes('more-research-needed')"
+          color="neutral"
+          variant="subtle"
+          icon="i-lucide-search"
+          title="Dieser Inhalt ist noch rudimentär und wird bald erweitert."
+          class="article-alert"
+        />
 
         <div class="article-body content">
           <ContentRenderer
@@ -122,6 +138,10 @@ await referencesStore.fetchFor(page.value)
 </template>
 
 <style scoped>
+.review-alert :deep([class*="icon"]) {
+  color: var(--flame);
+}
+
 .article-shell {
   background: rgba(255, 255, 255, 0.68);
   border: 1px solid rgba(231, 222, 208, 0.9);
