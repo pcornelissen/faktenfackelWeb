@@ -36,15 +36,17 @@ Reiche behauptet also, drei Milliarden Euro würden "weggeworfen", aber der tats
 Erneuerbare liegt bei 554 Millionen Euro und damit um ein Vielfaches niedriger. Von den 2,776 Milliarden geht zudem
 über eine Milliarde an fossile Kraftwerke, die mehr Strom produzieren sollen. Das ist etwas anderes als "Wegwerfen".
 
-Und: 96,5 % des erneuerbaren Stroms wurde 2024 erfolgreich ins Netz eingespeist.
+Hinzu kommt: 96,5 % des erneuerbaren Stroms wurde 2024 erfolgreich ins Netz eingespeist.
 
 ### "Weggeworfen" ist das falsche Wort
 
-Wenn bei Netzengpässen die Leistung von Wind- oder Solaranlagen reduziert wird, wird kein Strom produziert und dann vernichtet. Die Anlagen drehen einfach runter. Das Wort "weggeworfen" suggeriert Verschwendung, aber es handelt sich um reguläres Netzmanagement, vergleichbar mit einer Ampel, die den Verkehr steuert.
+Wenn bei Netzengpässen die Leistung von Wind- oder Solaranlagen reduziert wird, wird kein Strom produziert und dann
+vernichtet. Die Anlagen fahren ihre Leistung einfach herunter. Das Wort "weggeworfen" suggeriert Verschwendung, aber
+es handelt sich um reguläres Netzmanagement.
 
 ### Die Kosten sinken
 
-Die Gesamtkosten für das Netzengpassmanagement sind [rückläufig](https://www.smard.de/page/home/topic-article/444/213590/netzengpassmanagement-im-jahr-2023): von 3,335 Milliarden (2023) auf 2,776 Milliarden (2024), ein Minus von 17 %. Mit der Fertigstellung wichtiger Nord-Süd-Stromtrassen (Ultranet 2026, A-Nord/SüdOstLink 2027, SüdLink 2028) haben die Netzbetreiber ihre Prognosen für 2026 bis 2028 um fast 4 Milliarden Euro gesenkt. Das Problem löst sich also gerade von selbst, weil die Infrastruktur endlich gebaut wird.
+Die Gesamtkosten für das Netzengpassmanagement sind [rückläufig](https://www.smard.de/page/home/topic-article/444/213590/netzengpassmanagement-im-jahr-2023): von 3,335 Milliarden (2023) auf 2,776 Milliarden (2024), ein Minus von 17 %. Mit der Fertigstellung wichtiger Nord-Süd-Stromtrassen (Ultranet 2026, A-Nord/SüdOstLink 2027, SüdLink 2028) haben die Netzbetreiber ihre Prognosen für 2026 bis 2028 um fast 4 Milliarden Euro gesenkt. Das spricht dafür, dass sich das Problem mit dem Netzausbau verringern wird.
 
 ### Warum gibt es überhaupt Netzengpässe?
 
@@ -53,14 +55,16 @@ traten im Hochspannungs-Übertragungsnetz auf, nicht an den Erneuerbaren-Anlagen
 Norden erzeugt, die Nachfragezentren liegen im Süden. Die großen Nord-Süd-Leitungen wie SüdLink hätten
 [eigentlich schon 2022 fertig sein sollen](https://de.wikipedia.org/wiki/Suedlink), sind aber um Jahre verzögert.
 
-Der Grund: 2015 setzte der bayerische CSU-Ministerpräsident Horst Seehofer den sogenannten "Erdkabel-Kompromiss" durch. Die bereits geplanten Freileitungen mussten komplett als Erdkabel neu geplant werden, was Jahre zusätzlicher Verzögerung und Milliarden an Mehrkosten verursachte.
+Ein wichtiger Grund: 2015 setzte der bayerische CSU-Ministerpräsident Horst Seehofer den sogenannten
+"Erdkabel-Kompromiss" durch. Die bereits geplanten Freileitungen mussten komplett als Erdkabel neu geplant werden,
+was Jahre zusätzlicher Verzögerung und erhebliche Mehrkosten verursachte.
 
 ## Politischer Hintergrund
 
-### Peter Altmaier: Der politische Vater
+### Peter Altmaier und die frühere CDU-Energiepolitik
 
 Katherina Reiche war von 2012 bis 2013 parlamentarische Staatssekretärin unter Bundesumweltminister Peter Altmaier
-(CDU). Genau in dieser Zeit wurde der sogenannte
+(CDU). In dieser Zeit wurde der sogenannte
 ["Altmaier-Knick"](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) umgesetzt, der die
 deutsche Energiewende um Jahre zurückwarf:
 
@@ -70,7 +74,8 @@ deutsche Energiewende um Jahre zurückwarf:
 
 ### Die Folgen für Deutschland
 
-Die Konsequenzen waren verheerend. Der Solarausbau brach von über 8000 MW pro Jahr (2012) auf unter 2000 MW ein. Über [100.000 Arbeitsplätze](https://www.igmetall.de/politik-und-gesellschaft/umwelt-und-energie/solarindustrie-auferstehen-aus-ruinen) gingen in der Solarindustrie verloren, dazu etwa 60.000 in der Windenergie. Deutsche Weltmarktführer wie SolarWorld, Q-Cells, Solon und Conergy gingen in die Insolvenz. Das "Solar Valley" bei Bitterfeld-Wolfen, einst Zentrum der deutschen Solarindustrie, wurde verwüstet. Deutschland verlor seine führende Position in der Solarproduktion an China.
+Die Folgen waren erheblich. Der Solarausbau brach von über 8000 MW pro Jahr (2012) auf unter 2000 MW ein. Über
+[100.000 Arbeitsplätze](https://www.igmetall.de/politik-und-gesellschaft/umwelt-und-energie/solarindustrie-auferstehen-aus-ruinen) gingen in der Solarindustrie verloren, dazu etwa 60.000 in der Windenergie. Deutsche Unternehmen wie SolarWorld, Q-Cells, Solon und Conergy gingen in die Insolvenz. Deutschland verlor damit seine frühere Führungsrolle in der Solarproduktion an China.
 
 Eine [Studie von Energy Brainpool](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) errechnete: Ohne den Altmaier-Knick hätte Deutschland 20.000 MW mehr Solar und 30.000 MW mehr Windkraft gehabt. Die Strompreise wären im August 2022, mitten in der Energiekrise, um über 8 ct/kWh niedriger gewesen, Haushalte hätten rund 111 Euro pro Jahr gespart. Und Deutschland hätte laut einer CREA-Studie 2022 rund 23 Milliarden Euro weniger für russisches Gas ausgeben müssen.
 

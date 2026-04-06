@@ -1,8 +1,8 @@
 ---
 publishedOn: 2026-03-08
 date: 2026-03-08
-title: "Laut AFD: Jugendliche greifen 70-jährigen an"
-subtitle: Zum Vorfall vom 28. Februar 2026 am AfD-Wahlkampfstand
+title: "AfD behauptet: Jugendliche greifen 70-Jährigen an"
+subtitle: Was das Video zum Vorfall am 28. Februar 2026 zeigt
 verdict: false
 tags:
   - AfD
@@ -17,7 +17,11 @@ tags:
 
 ## Was ist passiert?
 
-Am 28. Februar 2026 passierte eine Gruppe Gegendemonstranten des "Offenen Antifaschistischen Plenums" (OAP) mit einem zusammengefalteten Banner den Bereich neben einem AfD-Wahlkampfstand in Rosenheim. Das Banner berührte dabei leicht den Boden. AfD-Landtagsabgeordneter Andreas Winhart trat vom Stand vor und ergriff das Banner. Es folgte ein minutenlanges Gerangel, bei dem mehrere AfD-Mitglieder an dem Stoff zerrten. Der 70-jährige AfD-Bürgermeisterkandidat Michael Maurer, der sich in das Gemenge einmischte, stürzte zu Boden und verletzte sich am Knie.
+Am 28. Februar 2026 passierte eine Gruppe Gegendemonstranten des "Offenen Antifaschistischen Plenums" (OAP) mit einem
+zusammengefalteten Banner den Bereich neben einem AfD-Wahlkampfstand in Rosenheim. Das Banner berührte dabei leicht
+den Boden. AfD-Landtagsabgeordneter Andreas Winhart trat vom Stand vor und griff nach dem Banner. Es folgte ein
+minutenlanges Gerangel, bei dem mehrere AfD-Mitglieder an dem Stoff zerrten. Der 70-jährige AfD-Bürgermeisterkandidat
+Michael Maurer, der sich in das Gemenge einmischte, stürzte zu Boden und verletzte sich am Knie.
 
 Die AfD erstattete daraufhin Anzeige wegen gefährlicher Körperverletzung gegen die Gegendemonstranten. Die Polizei Rosenheim übernahm diese Darstellung in einer Pressemitteilung, und die Geschichte eines "brutalen Angriffs auf einen älteren Mann" verbreitete sich bundesweit in Medien und sozialen Netzwerken.
 
@@ -70,15 +74,20 @@ Ein <Reference code="winhart-rosenheim-konfrontation">Video von Sinom Tiew auf B
 4. Maurer, der sich aktiv in das Gerangel einmischt, stürzt in dem Gemenge.
 5. Weder Schläge noch Tritte gegen Maurer sind auf dem Video erkennbar.
 
-Die <Reference code="taz-rosenheim-afd-schwalbe">taz</Reference> beschreibt den Videobeweis als "klare Schwalbe": Das Video zeige lediglich "ein Tauziehen und Gerangel um ein Banner, im Zuge dessen der besagte 70-Jährige sich selbst ins Getümmel begibt und daraufhin tatsächlich hinfällt oder sich fallen lässt. Keine Spur von gefährlicher Körperverletzung."
+Die <Reference code="taz-rosenheim-afd-schwalbe">taz</Reference> beschreibt den Videobeweis entsprechend deutlich: Das
+Video zeige lediglich "ein Tauziehen und Gerangel um ein Banner, im Zuge dessen der besagte 70-Jährige sich selbst ins
+Getümmel begibt und daraufhin tatsächlich hinfällt oder sich fallen lässt. Keine Spur von gefährlicher
+Körperverletzung."
 
 ### Wer initiierte den Körperkontakt?
 
-Das Video macht eindeutig sichtbar: **Winhart und andere AfD-Mitglieder haben den Körperkontakt initiiert.** Die Gegendemonstranten beabsichtigten lediglich, den Stand zu passieren. Den ersten Griff ans Banner tätigte Winhart.
+Das Video legt klar nahe: **Winhart und andere AfD-Mitglieder initiierten den Körperkontakt.** Die
+Gegendemonstranten beabsichtigten zunächst, den Stand zu passieren. Den ersten Griff ans Banner tätigte Winhart.
 
 ### Reaktion der AfD nach Bekanntwerden des Videos
 
-Nachdem das Video öffentlich wurde, versuchte die AfD zunächst, den Vorfall als "Missverständnis" darzustellen und behauptete, Winhart habe das Banner nur aus Versehen berührt - was angesichts der Videoaufnahme nicht haltbar ist.
+Nachdem das Video öffentlich wurde, versuchte die AfD zunächst, den Vorfall als "Missverständnis" darzustellen und
+behauptete, Winhart habe das Banner nur aus Versehen berührt. Diese Darstellung passt nicht zur Videoaufnahme.
 
 ### Reaktion von Maurer und Staatsanwaltschaft
 
@@ -98,13 +107,15 @@ zunächst genau die AfD-Version wiedergaben.
 
 ## Fazit
 
-Die Behauptung, Gegendemonstranten hätten den AfD-Bürgermeisterkandidaten in Rosenheim angegriffen, ist **falsch**. Das Video zeigt eindeutig: AfD-Mitglieder um Winhart initiierten den Körperkontakt, indem sie nach dem Banner der vorbeigehenden Gruppe griffen. Von Schlägen oder Tritten gegen Maurer ist nichts zu sehen.
+Die Behauptung, Gegendemonstranten hätten den AfD-Bürgermeisterkandidaten in Rosenheim angegriffen, ist **falsch**.
+Das Video zeigt, dass AfD-Mitglieder um Winhart nach dem Banner der vorbeigehenden Gruppe griffen und so das
+Gerangel auslösten. Von Schlägen oder Tritten gegen Maurer ist nichts zu sehen.
 
 Der Fall steht exemplarisch für ein bekanntes Muster: Eine von der AfD gesetzte Opfererzählung wurde durch eine
-unkritische Polizeimeldung rasch zur scheinbar gesicherten Tatsache - bis das Videomaterial sie widerlegte. Der
+unkritische Polizeimeldung rasch zur scheinbar gesicherten Tatsache, bis das Videomaterial sie widerlegte. Der
 mediale Schaden entstand damit schon, bevor die Korrektur öffentlich wirksam werden konnte.
 
-Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference>
-griff das Umfeld Journalisten an, während die Polizei untätig blieb. In einem weiteren dokumentierten Fall
-<Reference code="der-dara-afd-linker-angriff-videobeweis">behauptete die AfD einen "linken Angriff" - auch dort
-widerlegte ein Video die Behauptung und führte zu Verfahren gegen AfD-Mitglieder selbst</Reference>.
+Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in
+Sachsen-Anhalt</Reference> griff das Umfeld Journalisten an, während die Polizei untätig blieb. In einem weiteren
+dokumentierten Fall <Reference code="der-dara-afd-linker-angriff-videobeweis">behauptete die AfD einen "linken
+Angriff"; auch dort widerlegte ein Video die Behauptung und führte zu Verfahren gegen AfD-Mitglieder selbst</Reference>.
