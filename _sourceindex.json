@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-06T08:18:36.668Z",
+  "generatedAt": "2026-04-06T21:26:51.275Z",
   "stats": {
-    "sources": 265,
-    "links": 541,
+    "sources": 271,
+    "links": 551,
     "quotes": 25,
     "groups": 12,
-    "codes": 558
+    "codes": 568
   },
   "sources": [
     {
@@ -933,6 +933,22 @@
       "hasImage": true
     },
     {
+      "path": "medien/uebermedien",
+      "group": "medien",
+      "slug": "uebermedien",
+      "name": "Übermedien",
+      "description": "Deutsches Medienkritik-Portal, das Berichterstattung großer Medien analysiert und bewertet",
+      "tags": [
+        "Deutschland",
+        "Medien",
+        "Medienkritik",
+        "Journalismus",
+        "more-research-needed"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
+    },
+    {
       "path": "medien/volksstimme",
       "group": "medien",
       "slug": "volksstimme",
@@ -1166,6 +1182,22 @@
       ],
       "date": "2026-01-30",
       "hasImage": true
+    },
+    {
+      "path": "ngo/hans-boeckler-stiftung",
+      "group": "ngo",
+      "slug": "hans-boeckler-stiftung",
+      "name": "Hans-Böckler-Stiftung",
+      "description": "Gewerkschaftsnahe Forschungsstiftung mit Fokus auf Arbeit, Wirtschaft und soziale Ungleichheit",
+      "tags": [
+        "NGO",
+        "Wirtschaft",
+        "Arbeit",
+        "Ungleichheit",
+        "more-research-needed"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
     },
     {
       "path": "ngo/igmetall",
@@ -3340,6 +3372,21 @@
       "hasImage": true
     },
     {
+      "path": "staatlich/bundesbank",
+      "group": "staatlich",
+      "slug": "bundesbank",
+      "name": "Deutsche Bundesbank",
+      "description": "Zentralbank Deutschlands, zuständig für Geldpolitik, Bankenaufsicht und wirtschaftliche Forschung",
+      "tags": [
+        "Staatlich",
+        "Wirtschaft",
+        "Finanzen",
+        "more-research-needed"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
+    },
+    {
       "path": "staatlich/bundeskanzler-de",
       "group": "staatlich",
       "slug": "bundeskanzler-de",
@@ -3451,6 +3498,22 @@
       "hasImage": true
     },
     {
+      "path": "staatlich/kek",
+      "group": "staatlich",
+      "slug": "kek",
+      "name": "KEK - Kommission zur Ermittlung der Konzentration im Medienbereich",
+      "description": "Staatliche Regulierungsbehörde, die Medienkonzentration in Deutschland überwacht und bewertet",
+      "tags": [
+        "Staatlich",
+        "Medien",
+        "Medienkonzentration",
+        "Regulierung",
+        "more-research-needed"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
+    },
+    {
       "path": "staatlich/landtag-sachsen-anhalt",
       "group": "staatlich",
       "slug": "landtag-sachsen-anhalt",
@@ -3546,6 +3609,22 @@
       ],
       "date": "2026-01-20",
       "hasImage": true
+    },
+    {
+      "path": "wissenschaft/dellavigna-kaplan",
+      "group": "wissenschaft",
+      "slug": "dellavigna-kaplan",
+      "name": "DellaVigna & Kaplan (2007) - Fox News Effect",
+      "description": "Ökonometrische Studie zum kausalen Einfluss von Fox News auf das Wahlverhalten in den USA",
+      "tags": [
+        "Wissenschaft",
+        "Medieneinfluss",
+        "Agenda-Setting",
+        "USA",
+        "more-research-needed"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
     },
     {
       "path": "wissenschaft/dietrich-tranhardt",
@@ -3795,6 +3874,22 @@
       ],
       "date": "2026-02-01",
       "hasImage": true
+    },
+    {
+      "path": "wissenschaft/reuters-institute",
+      "group": "wissenschaft",
+      "slug": "reuters-institute",
+      "name": "Reuters Institute for the Study of Journalism",
+      "description": "Unabhängiges Forschungsinstitut der Universität Oxford zu Journalismus und digitalen Medien",
+      "tags": [
+        "Wissenschaft",
+        "Medien",
+        "Journalismus",
+        "Forschung",
+        "more-research-needed"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
     },
     {
       "path": "wissenschaft/trevor-poutine",
@@ -4955,6 +5050,22 @@
       ]
     },
     {
+      "path": "staatlich/bundesbank/links/20250424.phf-vermoegensverteilung-2023",
+      "source": "staatlich/bundesbank",
+      "code": "bundesbank-phf-vermoegensverteilung-2023",
+      "title": "Vermögen und Finanzen privater Haushalte in Deutschland: Ergebnisse der Vermögensbefragung 2023",
+      "uri": "https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/vermoegen-und-finanzen-privater-haushalte-in-deutschland-ergebnisse-der-vermoegensbefragung-2023--954598",
+      "type": "study",
+      "tags": [
+        "more-research-needed",
+        "Wirtschaft",
+        "Ungleichheit",
+        "Vermögen"
+      ],
+      "sourceDate": "2025-04-24",
+      "coSources": []
+    },
+    {
       "path": "staatlich/bundestag/links/20260319.afd-kernkraft-3-cent-behauptung",
       "source": "staatlich/bundestag",
       "code": "bundestag-afd-kernkraft-3-cent-behauptung",
@@ -5854,6 +5965,24 @@
       "coSources": []
     },
     {
+      "path": "wissenschaft/dellavigna-kaplan/links/20070801.dellavigna-kaplan-fox-news-effect-wahlverhalten",
+      "source": "wissenschaft/dellavigna-kaplan",
+      "code": "dellavigna-kaplan-fox-news-effect-2007",
+      "title": "DellaVigna & Kaplan: The Fox News Effect - Media Bias and Voting (2007)",
+      "uri": "https://academic.oup.com/qje/article/122/3/1187/1879517",
+      "type": "study",
+      "tags": [
+        "Medieneinfluss",
+        "Medienkonzentration",
+        "Agenda-Setting",
+        "Wahlverhalten",
+        "USA",
+        "more-research-needed"
+      ],
+      "sourceDate": "2007-08-01",
+      "coSources": []
+    },
+    {
       "path": "medien/democratic-socialism-now/links/20260110.democratic-socialism-now-venezuela-generalstreik",
       "source": "medien/democratic-socialism-now",
       "code": "democratic-socialism-now-venezuela-generalstreik",
@@ -5964,6 +6093,22 @@
         "research-done-review-pending"
       ],
       "sourceDate": "2026-01-11",
+      "coSources": []
+    },
+    {
+      "path": "statistik/destatis/links/20260203.einkommensungleichheit",
+      "source": "statistik/destatis",
+      "code": "destatis-einkommensungleichheit-gini-2026",
+      "title": "Einkommensungleichheit in Deutschland: Gini-Koeffizient nach EU-SILC",
+      "uri": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-ungleichheit-zvgl.html",
+      "type": "statistics",
+      "tags": [
+        "more-research-needed",
+        "Wirtschaft",
+        "Ungleichheit",
+        "Einkommen"
+      ],
+      "sourceDate": "2026-02-03",
       "coSources": []
     },
     {
@@ -9222,6 +9367,40 @@
       ]
     },
     {
+      "path": "staatlich/kek/links/20250101.kek-26-jahresbericht-2024",
+      "source": "staatlich/kek",
+      "code": "kek-jahresbericht-2024",
+      "title": "KEK: 26. Jahresbericht 2024 - KI im Medienbereich und European Media Freedom Act",
+      "uri": "https://www.kek-online.de/publikationen/jahresberichte/26-jahresbericht/",
+      "type": "report",
+      "tags": [
+        "Medienkonzentration",
+        "Medien",
+        "Regulierung",
+        "Deutschland",
+        "more-research-needed"
+      ],
+      "sourceDate": "2025-01-01",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/kek/links/20250101.kek-achter-konzentrationsbericht-2025",
+      "source": "staatlich/kek",
+      "code": "kek-konzentrationsbericht-2025",
+      "title": "KEK: Achter Konzentrationsbericht 2025 - Social Media, KI & Co.: Neue Gefährdungslagen für die Meinungsvielfalt",
+      "uri": "https://www.kek-online.de/publikationen/medienkonzentrationsberichte/achter-konzentrationsbericht-2025/",
+      "type": "report",
+      "tags": [
+        "Medienkonzentration",
+        "Medien",
+        "Meinungsvielfalt",
+        "Deutschland",
+        "more-research-needed"
+      ],
+      "sourceDate": "2025-01-01",
+      "coSources": []
+    },
+    {
       "path": "allgemein/facebook/links/20260201.kelly-banks-adhd-paradox",
       "source": "allgemein/facebook",
       "code": "kelly-banks-adhd-paradox-2026",
@@ -11540,6 +11719,24 @@
       ]
     },
     {
+      "path": "wissenschaft/reuters-institute/links/20240617.reuters-institute-digital-news-report-2024-deutschland",
+      "source": "wissenschaft/reuters-institute",
+      "code": "reuters-institute-digital-news-report-2024-de",
+      "title": "Reuters Institute: Digital News Report 2024 - Deutschland",
+      "uri": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/germany",
+      "type": "study",
+      "tags": [
+        "Medienvertrauen",
+        "Medien",
+        "Mediennutzung",
+        "Deutschland",
+        "Bild-Zeitung",
+        "more-research-needed"
+      ],
+      "sourceDate": "2024-06-17",
+      "coSources": []
+    },
+    {
       "path": "politiker/ricarda-lang/links/20250918.ricarda-lang-afd-meinungsfreiheit-bundestag",
       "source": "politiker/ricarda-lang",
       "code": "ricarda-lang-afd-meinungsfreiheit-bundestag",
@@ -13081,6 +13278,42 @@
       "coSources": []
     },
     {
+      "path": "medien/uebermedien/links/20240613.uebermedien-bild-buergergeld-sozialneid",
+      "source": "medien/uebermedien",
+      "code": "uebermedien-bild-buergergeld-sozialneid-2024",
+      "title": "Übermedien: Sozialneid statt Fakten - wie Bild die Debatte über das Bürgergeld verzerrt",
+      "uri": "https://uebermedien.de/96227/sozialneid-statt-fakten-wie-bild-die-debatte-ueber-das-buergergeld-verzerrt/",
+      "type": "article",
+      "tags": [
+        "Medienkonzentration",
+        "Medien",
+        "Bild-Zeitung",
+        "Sozialleistungen",
+        "Statistikmissbrauch",
+        "more-research-needed"
+      ],
+      "sourceDate": "2024-06-13",
+      "coSources": []
+    },
+    {
+      "path": "medien/uebermedien/links/20231026.uebermedien-bild-stimmung-gegen-erwerbslose",
+      "source": "medien/uebermedien",
+      "code": "uebermedien-bild-stimmung-erwerbslose-2023",
+      "title": "Übermedien: Klassistisch, einseitig, polemisch - so macht Bild Stimmung gegen Erwerbslose",
+      "uri": "https://uebermedien.de/89329/klassistisch-einseitig-polemisch-so-macht-bild-stimmung-gegen-erwerbslose/",
+      "type": "article",
+      "tags": [
+        "Medienkonzentration",
+        "Medien",
+        "Bild-Zeitung",
+        "Sozialleistungen",
+        "Stigmatisierung",
+        "more-research-needed"
+      ],
+      "sourceDate": "2023-10-26",
+      "coSources": []
+    },
+    {
       "path": "allgemein/facebook/links/20251216.uebermedien-bild-trump-kriminalitaet",
       "source": "allgemein/facebook",
       "code": "uebermedien-bild-trump-kriminalitaet",
@@ -13828,6 +14061,38 @@
       "coSources": [
         "wonach-wir-suchen"
       ]
+    },
+    {
+      "path": "ngo/hans-boeckler-stiftung/links/20241206.tarifloehne-reallohne-2024",
+      "source": "ngo/hans-boeckler-stiftung",
+      "code": "wsi-tarifloehne-reallohne-2024",
+      "title": "Tariflöhne steigen 2024 nominal um 5,5 Prozent - erstmals wieder kräftiger Reallohnzuwachs von 3,2 Prozent",
+      "uri": "https://www.boeckler.de/de/pressemitteilungen-2675-nominale-tarifloehne-steigen-2024-65447.htm",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Wirtschaft",
+        "Löhne",
+        "Reallöhne"
+      ],
+      "sourceDate": "2024-12-06",
+      "coSources": []
+    },
+    {
+      "path": "ngo/hans-boeckler-stiftung/links/20251120.wsi-verteilungsbericht-2025",
+      "source": "ngo/hans-boeckler-stiftung",
+      "code": "wsi-verteilungsbericht-2025-ungleichheit",
+      "title": "WSI-Verteilungsbericht 2025: Mehr Ungleichheit - weniger politische Teilhabe",
+      "uri": "https://www.boeckler.de/de/pressemitteilungen-2675-einkommensungleichheit-seit-2018-weiter-angestiegen-72959.htm",
+      "type": "report",
+      "tags": [
+        "more-research-needed",
+        "Wirtschaft",
+        "Ungleichheit",
+        "Einkommen"
+      ],
+      "sourceDate": "2025-11-20",
+      "coSources": []
     },
     {
       "path": "personen/yung-emil/links/20260201.yung-emil-afd-verbot-kompromisse",
