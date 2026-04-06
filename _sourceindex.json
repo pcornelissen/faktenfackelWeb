@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-06T21:26:51.275Z",
+  "generatedAt": "2026-04-06T21:54:48.189Z",
   "stats": {
     "sources": 271,
-    "links": 551,
+    "links": 557,
     "quotes": 25,
     "groups": 12,
-    "codes": 568
+    "codes": 574
   },
   "sources": [
     {
@@ -4904,6 +4904,23 @@
       "coSources": []
     },
     {
+      "path": "staatlich/bpb/links/20221202.afd-wahlergebnisse-waehlerschaft",
+      "source": "staatlich/bpb",
+      "code": "bpb-afd-wahlergebnisse-waehlerschaft",
+      "title": "Wahlergebnisse und Wählerschaft der AfD",
+      "uri": "https://www.bpb.de/themen/parteien/parteien-in-deutschland/afd/273131/wahlergebnisse-und-waehlerschaft-der-afd/",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "AfD",
+        "Ostdeutschland",
+        "Wahlverhalten",
+        "Populismus"
+      ],
+      "sourceDate": "2022-12-02",
+      "coSources": []
+    },
+    {
       "path": "staatlich/bpb/links/20260111.ursachen.geburtenentwicklung",
       "source": "staatlich/bpb",
       "code": "bpb-demografischer-wandel-ursachen-geburtenentwicklung",
@@ -4951,6 +4968,60 @@
       ]
     },
     {
+      "path": "staatlich/bpb/links/20200817.einkommen-vermoegen-ost-west",
+      "source": "staatlich/bpb",
+      "code": "bpb-einkommen-vermoegen-ost-west-ungleichheit",
+      "title": "Einkommen und Vermögen - wachsende Ungleichheiten",
+      "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47436/einkommen-und-vermoegen-wachsende-ungleichheiten/",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Ostdeutschland",
+        "Ost-West-Ungleichheit",
+        "Einkommen",
+        "Vermögen",
+        "Deutsche Einheit"
+      ],
+      "sourceDate": "2020-08-17",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/bpb/links/20200528.entindustrialisierter-osten",
+      "source": "staatlich/bpb",
+      "code": "bpb-entindustrialisierter-osten",
+      "title": "Der entindustrialisierte Osten",
+      "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/310288/der-entindustrialisierte-osten/",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Geschichte",
+        "Ostdeutschland",
+        "Deindustrialisierung",
+        "Deutsche Einheit",
+        "Wirtschaft"
+      ],
+      "sourceDate": "2020-05-28",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/bpb/links/20201119.kosten-ertraege-wiedervereinigung",
+      "source": "staatlich/bpb",
+      "code": "bpb-kosten-ertraege-wiedervereinigung",
+      "title": "Die Kosten und Erträge der Wiedervereinigung Deutschlands",
+      "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47534/die-kosten-und-ertraege-der-wiedervereinigung-deutschlands/",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Geschichte",
+        "Deutsche Einheit",
+        "Treuhand",
+        "Wirtschaft",
+        "Ostdeutschland"
+      ],
+      "sourceDate": "2020-11-19",
+      "coSources": []
+    },
+    {
       "path": "staatlich/bpb/links/20260114.sicherheit-ländlicher-raum",
       "source": "staatlich/bpb",
       "code": "bpb-sicherheit-ländlicher-raum",
@@ -4963,6 +5034,43 @@
         "research-done-review-pending"
       ],
       "sourceDate": "2026-01-14",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/bpb/links/20200527.treuhand-wirtschaftlicher-zusammenbruch",
+      "source": "staatlich/bpb",
+      "code": "bpb-treuhand-wirtschaftlicher-zusammenbruch-1990",
+      "title": "Wirtschaftlicher Zusammenbruch und Neuanfang nach 1990",
+      "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47133/wirtschaftlicher-zusammenbruch-und-neuanfang-nach-1990/",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Geschichte",
+        "Treuhand",
+        "Ostdeutschland",
+        "Privatisierung",
+        "Deutsche Einheit",
+        "Wirtschaft"
+      ],
+      "sourceDate": "2020-05-27",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/bpb/links/20201201.treuhand-wirtschaftsumbau",
+      "source": "staatlich/bpb",
+      "code": "bpb-treuhand-wirtschaftsumbau",
+      "title": "Treuhandanstalt und Wirtschaftsumbau",
+      "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/315873/treuhandanstalt-und-wirtschaftsumbau/",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Geschichte",
+        "Treuhand",
+        "Ostdeutschland",
+        "Privatisierung",
+        "Deutsche Einheit"
+      ],
+      "sourceDate": "2020-12-01",
       "coSources": []
     },
     {
