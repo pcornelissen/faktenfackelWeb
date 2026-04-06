@@ -14,7 +14,10 @@ tags:
 
 ## Was wird behauptet?
 
-Die AfD behauptet in ihrem Grundsatzprogramm, ein "signifikanter Einfluss" menschlicher CO2-Emissionen auf das Klima sei "weder evident noch wissenschaftlich bewiesen". Im Bundestag fordert die Partei die Aufkündigung aller Klimavereinbarungen und den Stopp sämtlicher Klimaschutzmaßnahmen. AfD-Abgeordnete bezeichnen den Klimaschutz als "grüne Ideologie" und Klimaschutzgesetze als "Gesellschaftsumbau".
+Die AfD behauptet in ihrem Grundsatzprogramm, ein "signifikanter Einfluss" menschlicher CO2-Emissionen auf das Klima
+sei "weder evident noch wissenschaftlich bewiesen". Im Bundestag fordert die Partei die Aufkündigung aller
+Klimavereinbarungen und den Stopp sämtlicher Klimaschutzmaßnahmen. AfD-Abgeordnete bezeichnen Klimaschutz als "grüne
+Ideologie" und Klimaschutzgesetze als "Gesellschaftsumbau".
 
 ## Die Fakten
 
@@ -31,22 +34,26 @@ der Forschung.
 
 ### Was die AfD konkret falsch behauptet
 
-**"Nicht evident und nicht bewiesen":** Der menschliche Einfluss auf das Klimasystem ist laut IPCC "eindeutig" (AR6,
-2021). Die AfD-Position widerspricht damit tausenden begutachteten Studien.
+**"Nicht evident und nicht bewiesen":** Der menschliche Einfluss auf das Klimasystem ist laut IPCC seit dem
+[AR6-Bericht von 2021](https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/) "eindeutig". Die
+AfD-Position widerspricht damit tausenden begutachteten Studien.
 
 **"Erneuerbare Energien sind unsinnig":** Windräder, Solaranlagen und E-Autos werden von der AfD regelmäßig als
 umweltschädigend oder unwirtschaftlich dargestellt. AfD-Abgeordnete behaupteten im Bundestag,
 <Reference code="bundestag-afd-kernkraft-3-cent-behauptung">Kernkraftstrom koste nur 3 Cent pro Kilowattstunde</Reference>.
-Tatsächlich liegen die Kosten deutlich höher. Die IEA und zahlreiche Studien kommen außerdem zu einem gegenteiligen
-Befund: <Reference code="fraunhofer-ise-stromgestehungskosten-2024">Laut Fraunhofer ISE sind Erneuerbare inzwischen die günstigste Form der Stromerzeugung</Reference> in vielen Märkten.
+Tatsächlich liegen die Kosten deutlich höher. Auch der generelle Befund fällt anders aus, als die AfD suggeriert:
+<Reference code="fraunhofer-ise-stromgestehungskosten-2024">Laut Fraunhofer ISE sind Erneuerbare inzwischen in vielen
+Fällen die günstigste Form der Stromerzeugung</Reference>.
 
 **"Fossile Energien sichern Wohlstand":** Kohle und Diesel als Garanten wirtschaftlicher Stabilität darzustellen,
-blendet aus, dass fossile Brennstoffe die Hauptursache der Klimakrise sind und ihre Folgekosten
-(Extremwetter, Ernteausfälle, Gesundheitsschäden) den kurzfristigen Nutzen massiv relativieren.
+blendet aus, dass fossile Brennstoffe die Hauptursache der Klimakrise sind und ihre Folgekosten wie Extremwetter,
+Ernteausfälle und Gesundheitsschäden den kurzfristigen Nutzen massiv relativieren.
 
 ### Das Bundesverfassungsgericht
 
-Das Bundesverfassungsgericht hat im Klimaurteil vom 24. März 2021 klargestellt, dass der Schutz künftiger Generationen vor den Folgen des Klimawandels eine verfassungsrechtliche Pflicht ist. Unzureichender Klimaschutz heute verletzt die Freiheitsrechte künftiger Generationen. Die Klimapolitik der AfD steht dazu in direktem Widerspruch.
+Das Bundesverfassungsgericht hat im Klimaurteil vom 24. März 2021 klargestellt, dass der Schutz künftiger
+Generationen vor den Folgen des Klimawandels eine verfassungsrechtliche Pflicht ist. Unzureichender Klimaschutz heute
+verletzt die Freiheitsrechte künftiger Generationen. Die Klimapolitik der AfD steht dazu in direktem Widerspruch.
 
 ### Die Verschwörungserzählung
 
@@ -56,8 +63,8 @@ angeblich eine "Klimadiktatur" errichten. So wird aus einer wissenschaftlichen F
 
 ### Strategie statt Überzeugung
 
-Die Strategie hat sich verfeinert: Klassische Leugnung ("Es gibt keinen Klimawandel") tritt zunehmend in den
-Hintergrund. Stattdessen richtet sich die Desinformation gegen konkrete Klimaschutzmaßnahmen. Die AfD bringt
+Die Strategie hat sich verschoben: Klassische Leugnung ("Es gibt keinen Klimawandel") tritt zunehmend in den
+Hintergrund. Stattdessen richtet sich die Desinformation stärker gegen konkrete Klimaschutzmaßnahmen. Die AfD bringt
 Bundestagsanträge ein, die wissenschaftliche Erkenntnisse grundsätzlich in Frage stellen, etwa zur "Beseitigung der
 Klimaschutzfolgen und Wiederherstellung der Energieinfrastruktur in Deutschland" oder mit dem
 <Reference code="bundestag-afd-klimaneutralitaet-streichen">Antrag, sämtliche Klimaneutralitätsziele zu streichen</Reference>.
@@ -68,5 +75,5 @@ Die Behauptung der AfD, der menschengemachte Klimawandel sei nicht bewiesen, ist
 wissenschaftlichen Konsens, den Berichten des Weltklimarats und der Rechtsprechung des Bundesverfassungsgerichts.
 
 Die AfD bestreitet dabei nicht nur wissenschaftliche Ergebnisse, sondern rahmt Klimaschutz gezielt als Ideologie,
-wirtschaftliche Bedrohung oder verschwörungspolitisches Projekt. Genau das macht die Aussage politisch wirksam, aber
-nicht richtiger.
+wirtschaftliche Bedrohung oder verschwörungspolitisches Projekt. Das kann politisch mobilisieren, ändert aber nichts
+am Stand der Forschung.
