@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { useSlots } from 'vue'
+import { useReferencesStore } from '~/utils/referenceData'
 
 const props = defineProps<{
   code: string
 }>()
 
 const slots = useSlots()
+const referencesStore = useReferencesStore()
 const quote = computed(() => {
   return referencesStore.quoteByCode(props.code)
 })
@@ -15,7 +17,7 @@ const source = computed(() => {
 </script>
 
 <template>
-  <div
+  <span
     v-if="!referencesStore.hasQuoteForCode(props.code)"
     class="bg-warning"
   >
@@ -27,10 +29,10 @@ const source = computed(() => {
       :title="`Zitat nicht gefunden! (${props.code})`"
     />
     )
-  </div>
-  <div
+  </span>
+  <span
     v-else
-    style="display: inline"
+    class="quote-reference"
   >
     Zitat:
     <nuxt-link
@@ -57,11 +59,11 @@ const source = computed(() => {
         />
       </template>
     </nuxt-link>
-  </div>
+  </span>
 </template>
 
 <style scoped>
-:root {
+.quote-reference {
   display: inline;
 }
 

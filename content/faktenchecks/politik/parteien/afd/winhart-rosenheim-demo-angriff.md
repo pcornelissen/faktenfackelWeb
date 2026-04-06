@@ -90,12 +90,21 @@ Die Staatsanwaltschaft prüft nun ihrerseits, ob gegen Maurer Ermittlungen **weg
 
 ### Wie die Falschinformation entstand
 
-Die Polizei Rosenheim veröffentlichte eine Pressemitteilung, bevor sie die Gegenseite gehört hatte. Aus einer parteiischen Darstellung wurde dadurch schnell eine scheinbar amtlich bestätigte Tatsache, die <Reference code="volksverpetzer-rosenheim-afd-angriff">Medien bundesweit unkritisch übernahmen</Reference>. Besonders paradox: AfD-Accounts behaupteten gleichzeitig, die Medien würden den Vorfall "verschweigen" - obwohl die meisten Berichte genau die AfD-Version wiedergaben. Ein weiterer Beleg dafür, wie egal der AfD die Realität ist, wenn sie mit erfundenen Geschichten Meinungen beeinflussen kann.
+Die Polizei Rosenheim veröffentlichte eine Pressemitteilung, bevor sie die Gegenseite gehört hatte. Aus einer
+einseitigen Darstellung wurde dadurch schnell eine scheinbar amtlich bestätigte Tatsache, die
+<Reference code="volksverpetzer-rosenheim-afd-angriff">Medien bundesweit unkritisch übernahmen</Reference>. Besonders
+paradox: AfD-Accounts behaupteten gleichzeitig, die Medien würden den Vorfall "verschweigen" - obwohl viele Berichte
+zunächst genau die AfD-Version wiedergaben.
 
 ## Fazit
 
 Die Behauptung, Gegendemonstranten hätten den AfD-Bürgermeisterkandidaten in Rosenheim angegriffen, ist **falsch**. Das Video zeigt eindeutig: AfD-Mitglieder um Winhart initiierten den Körperkontakt, indem sie nach dem Banner der vorbeigehenden Gruppe griffen. Von Schlägen oder Tritten gegen Maurer ist nichts zu sehen.
 
-Der Fall steht exemplarisch für eine bekannte Strategie: Eine von der AfD gesetzte Opfererzählung wurde durch eine unkritische Polizeimeldung rasch zur scheinbar gesicherten Tatsache - bis das Videomaterial sie widerlegte. Der Schaden ist nun aber entstanden und die Zielgruppe wird die widerlegenden Informationen entweder ignorieren oder aktiv als Fake ablehnen, auch wenn nur die AfD-Position erlogen war.
+Der Fall steht exemplarisch für ein bekanntes Muster: Eine von der AfD gesetzte Opfererzählung wurde durch eine
+unkritische Polizeimeldung rasch zur scheinbar gesicherten Tatsache - bis das Videomaterial sie widerlegte. Der
+mediale Schaden entstand damit schon, bevor die Korrektur öffentlich wirksam werden konnte.
 
-Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference> griff das Umfeld Journalisten an, während die Polizei untätig blieb. In einem weiteren dokumentierten Fall <Reference code="der-dara-afd-linker-angriff-videobeweis">behauptete die AfD einen "linken Angriff" - auch hier widerlegte ein Video die Behauptung und führte zu Verfahren gegen AfD-Mitglieder selbst</Reference>.
+Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference>
+griff das Umfeld Journalisten an, während die Polizei untätig blieb. In einem weiteren dokumentierten Fall
+<Reference code="der-dara-afd-linker-angriff-videobeweis">behauptete die AfD einen "linken Angriff" - auch dort
+widerlegte ein Video die Behauptung und führte zu Verfahren gegen AfD-Mitglieder selbst</Reference>.

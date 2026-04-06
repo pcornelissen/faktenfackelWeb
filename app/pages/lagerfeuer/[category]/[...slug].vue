@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, nowIso } from '~/utils/contentUtils'
-import { referencesStore } from '~/utils/referenceData'
+import { useReferencesStore } from '~/utils/referenceData'
 
 const route = useRoute()
+const referencesStore = useReferencesStore()
 const category = route.params.category as string
 const slug = (route.params.slug as string[]).join('/')
 const categoryPath = `/lagerfeuer/${category}`

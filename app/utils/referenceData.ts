@@ -1,3 +1,4 @@
+import { useNuxtApp } from 'nuxt/app'
 import { reactive } from 'vue'
 import { nowIso } from '~/utils/contentUtils'
 
@@ -28,80 +29,108 @@ type PageWithCodes = {
   quoteCodes?: string[]
 }
 
+type ReferencesStore = ReturnType<typeof createReferencesStore>
+
 export function buildSourcePath(path: string) {
   const segments = path.split('/')
   return '/quellen/' + segments[2] + '/' + segments[3]
 }
 
-export const referencesStore = reactive({
-  sources: new Map<string, Source>(),
-  links: new Map<string, SourceLink>(),
-  quotes: new Map<string, Quote>(),
+function createReferencesStore() {
+  return reactive({
+    sources: new Map<string, Source>(),
+    links: new Map<string, SourceLink>(),
+    quotes: new Map<string, Quote>(),
 
-  hasQuoteForCode(code: string) {
-    return this.quotes.has(code)
-  },
-  hasLinkForCode(code: string) {
-    return this.links.has(code)
-  },
-  hasSourceFor(path: string) {
-    return this.sources.has(buildSourcePath(path))
-  },
-  linkByCode(code: string): SourceLink {
-    return this.links.get(code) || {
-      title: code + ' not found',
-      date: '', sourceDate: '', publishedOn: '', code: '', uri: '', type: '', path: '', tags: [], coSources: [],
-    }
-  },
-  quoteByCode(code: string): Quote {
-    return this.quotes.get(code) || {
-      title: code + ' not found',
-      date: '', code: '', uri: '', type: '', path: '', tags: [], teaser: '', publishedOn: '',
-    } as Quote
-  },
-  sourceByLinkPath(path: string): Source {
-    return this.sources.get(buildSourcePath(path)) || {
-      name: path + ' not found',
-      date: '', publishedOn: '', description: '', path: '', tags: [], imageAuthor: '',
-    }
-  },
-  async fetchFor(page: PageWithCodes | null | undefined) {
-    const referenceCodes = page?.referenceCodes || []
-    const quoteCodes = page?.quoteCodes || []
-    const sourceLinks: SourceLink[] = referenceCodes.length
-      ? await queryCollection('quellenlinks').where('code', 'IN', referenceCodes).where('publishedOn', '<=', nowIso()).all() as SourceLink[]
-      : []
+    hasQuoteForCode(code: string) {
+      return this.quotes.has(code)
+    },
+    hasLinkForCode(code: string) {
+      return this.links.has(code)
+    },
+    hasSourceFor(path: string) {
+      return this.sources.has(buildSourcePath(path))
+    },
+    linkByCode(code: string): SourceLink {
+      return this.links.get(code) || {
+        title: code + ' not found',
+        date: '', sourceDate: '', publishedOn: '', code: '', uri: '', type: '', path: '', tags: [], coSources: [],
+      }
+    },
+    quoteByCode(code: string): Quote {
+      return this.quotes.get(code) || {
+        title: code + ' not found',
+        date: '', code: '', uri: '', type: '', path: '', tags: [], teaser: '', publishedOn: '',
+      } as Quote
+    },
+    sourceByLinkPath(path: string): Source {
+      return this.sources.get(buildSourcePath(path)) || {
+        name: path + ' not found',
+        date: '', publishedOn: '', description: '', path: '', tags: [], imageAuthor: '',
+      }
+    },
+    async fetchFor(page: PageWithCodes | null | undefined) {
+      const referenceCodes = page?.referenceCodes || []
+      const quoteCodes = page?.quoteCodes || []
+      const sourceLinks: SourceLink[] = referenceCodes.length
+        ? await queryCollection('quellenlinks')
+          .where('publishedOn', '<=', nowIso())
+          .orWhere((q) => {
+            for (const code of referenceCodes) {
+              q.where('code', '=', code)
+            }
+            return q
+          })
+          .all() as SourceLink[]
+        : []
 
-    const quotes: Quote[] = quoteCodes.length
-      ? await queryCollection('zitate').where('code', 'IN', quoteCodes).where('publishedOn', '<=', nowIso()).all() as Quote[]
-      : []
+      const quotes: Quote[] = quoteCodes.length
+        ? await queryCollection('zitate')
+          .where('publishedOn', '<=', nowIso())
+          .orWhere((q) => {
+            for (const code of quoteCodes) {
+              q.where('code', '=', code)
+            }
+            return q
+          })
+          .all() as Quote[]
+        : []
 
-    this.links.clear()
-    this.quotes.clear()
-    this.sources.clear()
+      this.links.clear()
+      this.quotes.clear()
+      this.sources.clear()
 
-    for (const link of sourceLinks) {
-      this.links.set(link.code, link)
-    }
-    for (const quote of quotes) {
-      this.quotes.set(quote.code, quote)
-    }
-    await this.updateSources()
-  },
+      for (const link of sourceLinks) {
+        this.links.set(link.code, link)
+      }
+      for (const quote of quotes) {
+        this.quotes.set(quote.code, quote)
+      }
+      await this.updateSources()
+    },
 
-  async updateSources() {
-    const sourcePaths = [
-      ...new Set([
-        ...this.links.values().map(l => buildSourcePath(l.path)),
-        ...this.quotes.values().map(l => buildSourcePath(l.path)),
-      ]),
-    ]
-    if (this.links.size + this.quotes.size === 0) return
+    async updateSources() {
+      const sourcePaths = [
+        ...new Set([
+          ...this.links.values().map(l => buildSourcePath(l.path)),
+          ...this.quotes.values().map(l => buildSourcePath(l.path)),
+        ]),
+      ]
+      if (this.links.size + this.quotes.size === 0) return
 
-    const sources = await queryCollection('quellen').where('path', 'IN', sourcePaths).all() as Source[]
+      const sources = await queryCollection('quellen').where('path', 'IN', sourcePaths).all() as Source[]
 
-    for (const source of sources) {
-      this.sources.set(source.path, source)
-    }
-  },
-})
+      for (const source of sources) {
+        this.sources.set(source.path, source)
+      }
+    },
+  })
+}
+
+export function useReferencesStore(): ReferencesStore {
+  const nuxtApp = useNuxtApp()
+  if (!nuxtApp._referencesStore) {
+    nuxtApp._referencesStore = createReferencesStore()
+  }
+  return nuxtApp._referencesStore as ReferencesStore
+}

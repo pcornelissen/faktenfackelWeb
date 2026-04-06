@@ -1,20 +1,22 @@
 <script setup lang="ts">
 import { useSlots } from 'vue'
+import { useReferencesStore } from '~/utils/referenceData'
 
 const props = defineProps<{
   code: string
 }>()
 
 const slots = useSlots()
+const referencesStore = useReferencesStore()
 const link = computed(() => {
   return referencesStore.linkByCode(props.code)
 })
 </script>
 
 <template>
-  <div
+  <span
     v-if="!referencesStore.hasLinkForCode(props.code)"
-    class="bg-warning"
+    class="bg-warning ref-missing"
   >
     <slot />
     (Kein Link gefunden! <span class="source">{{ props.code }}</span>
@@ -24,7 +26,7 @@ const link = computed(() => {
       :title="`Link nicht gefunden! (${props.code})`"
     />
     )
-  </div>
+  </span>
   <span
     v-else
     class="ref"
@@ -55,6 +57,10 @@ const link = computed(() => {
 
 <style scoped>
 .ref {
+  display: inline;
+}
+
+.ref-missing {
   display: inline;
 }
 

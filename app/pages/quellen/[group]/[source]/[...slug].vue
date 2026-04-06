@@ -3,10 +3,11 @@ import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, getSourceFromPath, nowIso } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
-import { referencesStore } from '~/utils/referenceData'
+import { useReferencesStore } from '~/utils/referenceData'
 import { calculateSourceImg, calculateSourceImgAuthor } from '~/pages/quellen/[group]/sources'
 
 const route = useRoute()
+const referencesStore = useReferencesStore()
 
 const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path

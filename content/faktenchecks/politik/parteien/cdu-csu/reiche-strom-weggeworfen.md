@@ -2,7 +2,7 @@
 publishedOn: null
 date: 2026-03-30
 title: "Strom für drei Milliarden Euro weggeworfen?"
-subtitle: Wie die Wirtschaftsministerin die Energiewende mit falschen Zahlen sabotiert
+subtitle: Warum die Zahl irreführend ist
 verdict: misleading
 tags:
   - CDU
@@ -14,7 +14,10 @@ tags:
 
 ## Was ist passiert?
 
-Bundeswirtschaftsministerin Katherina Reiche (CDU) behauptete am 4. März 2026 in einem offiziellen Video ihres Ministeriums: "Jedes Jahr wird Strom für drei Milliarden Euro einfach weggeworfen." Die Behauptung dient als Begründung für ihr sogenanntes "Netzpaket", das die Einspeisevergütung für neue Erneuerbare-Energien-Anlagen streichen und den Einspeisevorrang für erneuerbare Energien abschaffen soll.
+Bundeswirtschaftsministerin Katherina Reiche (CDU) behauptete am 4. März 2026 in einem offiziellen Video ihres
+Ministeriums: "Jedes Jahr wird Strom für drei Milliarden Euro einfach weggeworfen." Die Behauptung dient als
+Begründung für ihr sogenanntes "Netzpaket", das die Einspeisevergütung für neue Erneuerbare-Energien-Anlagen streichen
+und den Einspeisevorrang für erneuerbare Energien abschaffen soll.
 
 ## Faktencheck
 
@@ -29,7 +32,9 @@ Bundeswirtschaftsministerin Katherina Reiche (CDU) behauptete am 4. März 2026 
 | Reservekapazität | ~940 Mio. Euro | Backup-Kraftwerke in Bereitschaft halten |
 | Grenzüberschreitender Handel | 69 Mio. Euro | Internationaler Netzausgleich |
 
-Reiche behauptet also, drei Milliarden Euro würden "weggeworfen", aber der tatsächliche Betrag für abgeregelte Erneuerbare ist 554 Millionen, also um den Faktor fünf kleiner. Von den 2,776 Milliarden geht über eine Milliarde an fossile Kraftwerke, die mehr Strom produzieren sollen. Das ist das Gegenteil von "Wegwerfen".
+Reiche behauptet also, drei Milliarden Euro würden "weggeworfen", aber der tatsächliche Betrag für abgeregelte
+Erneuerbare liegt bei 554 Millionen Euro und damit um ein Vielfaches niedriger. Von den 2,776 Milliarden geht zudem
+über eine Milliarde an fossile Kraftwerke, die mehr Strom produzieren sollen. Das ist etwas anderes als "Wegwerfen".
 
 Und: 96,5 % des erneuerbaren Stroms wurde 2024 erfolgreich ins Netz eingespeist.
 
@@ -43,15 +48,21 @@ Die Gesamtkosten für das Netzengpassmanagement sind [rückläufig](https://www.
 
 ### Warum gibt es überhaupt Netzengpässe?
 
-Die Ursache ist nicht "zu viel" erneuerbare Energie, sondern zu wenig Stromleitungen. 74 % der Netzengpässe 2024 traten im Hochspannungs-Übertragungsnetz auf, nicht an den Erneuerbaren-Anlagen selbst. Windstrom wird überwiegend im Norden erzeugt, die Nachfragezentren liegen im Süden. Die großen Nord-Süd-Leitungen wie SüdLink hätten [eigentlich schon 2022 fertig sein sollen](https://de.wikipedia.org/wiki/Suedlink), sind aber um über sechs Jahre verzögert.
+Die Ursache ist nicht "zu viel" erneuerbare Energie, sondern zu wenig Stromleitungen. 74 % der Netzengpässe 2024
+traten im Hochspannungs-Übertragungsnetz auf, nicht an den Erneuerbaren-Anlagen selbst. Windstrom wird überwiegend im
+Norden erzeugt, die Nachfragezentren liegen im Süden. Die großen Nord-Süd-Leitungen wie SüdLink hätten
+[eigentlich schon 2022 fertig sein sollen](https://de.wikipedia.org/wiki/Suedlink), sind aber um Jahre verzögert.
 
 Der Grund: 2015 setzte der bayerische CSU-Ministerpräsident Horst Seehofer den sogenannten "Erdkabel-Kompromiss" durch. Die bereits geplanten Freileitungen mussten komplett als Erdkabel neu geplant werden, was Jahre zusätzlicher Verzögerung und Milliarden an Mehrkosten verursachte.
 
-## Die Ironie: Wer hat das Problem verursacht?
+## Politischer Hintergrund
 
 ### Peter Altmaier: Der politische Vater
 
-Katherina Reiche war von 2012 bis 2013 parlamentarische Staatssekretärin unter Bundesumweltminister Peter Altmaier (CDU). Genau in dieser Zeit wurde der sogenannte ["Altmaier-Knick"](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) umgesetzt, der die deutsche Energiewende um Jahre zurückwarf:
+Katherina Reiche war von 2012 bis 2013 parlamentarische Staatssekretärin unter Bundesumweltminister Peter Altmaier
+(CDU). Genau in dieser Zeit wurde der sogenannte
+["Altmaier-Knick"](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) umgesetzt, der die
+deutsche Energiewende um Jahre zurückwarf:
 
 - Die EEG-Vergütung für Solar wurde innerhalb eines Jahres um bis zu 50 % gekürzt, mit einer Woche Vorlaufzeit (die sogenannte "Fallbeilnovelle")
 - Ein Solardeckel bei 52 GW sollte alle Förderung beenden
@@ -63,14 +74,24 @@ Die Konsequenzen waren verheerend. Der Solarausbau brach von über 8000 MW pro J
 
 Eine [Studie von Energy Brainpool](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) errechnete: Ohne den Altmaier-Knick hätte Deutschland 20.000 MW mehr Solar und 30.000 MW mehr Windkraft gehabt. Die Strompreise wären im August 2022, mitten in der Energiekrise, um über 8 ct/kWh niedriger gewesen, Haushalte hätten rund 111 Euro pro Jahr gespart. Und Deutschland hätte laut einer CREA-Studie 2022 rund 23 Milliarden Euro weniger für russisches Gas ausgeben müssen.
 
-### Vom Altmaier-Knick zur Reiche-Schlucht
+### Kontinuität der Argumentation
 
-Als Altmaier 2018 Wirtschaftsminister wurde, setzte er die restriktive Linie fort: verschärfte Abstandsregeln für Windkraft, keine Beschleunigung des Netzausbaus. Die Branche warnte vor einer ["Altmaier-Delle"](https://www.sfv.de/artikel/wie_wirtschaftsminister_peter_altmaier_die_deutsche_energiewende_verhindert).
+Als Altmaier 2018 Wirtschaftsminister wurde, setzte er die restriktive Linie fort: verschärfte Abstandsregeln für
+Windkraft, keine Beschleunigung des Netzausbaus. Die Branche warnte vor einer
+["Altmaier-Delle"](https://www.sfv.de/artikel/wie_wirtschaftsminister_peter_altmaier_die_deutsche_energiewende_verhindert).
 
-Und jetzt? Reiche, die unter Altmaier an der Verlangsamung der Energiewende mitgewirkt hat, danach fünf Jahre für den Gas-Lobbyverband VKU und dann fünf Jahre für den Gasnetzbetreiber Westenergie (E.ON) gearbeitet hat, nutzt als Ministerin eine irreführende Zahl, um genau die Energiewende weiter zu bremsen. Der [Solarförderverein](https://www.sfv.de/2026-frontalangriff-auf-den-klimaschutz) hat dafür den Begriff "Reiche-Schlucht" geprägt, als Nachfolger des "Altmaier-Knicks".
+Reiche, die unter Altmaier an dieser Politik mitwirkte und später in der Energiewirtschaft tätig war, nutzt als
+Ministerin nun eine irreführende Zahl, um erneut gegen zentrale Mechanismen der Energiewende zu argumentieren. Der
+[Solarförderverein](https://www.sfv.de/2026-frontalangriff-auf-den-klimaschutz) hat dafür den Begriff
+"Reiche-Schlucht" geprägt, als Nachfolger des "Altmaier-Knicks".
 
-Ihr ["Netzpaket"](https://www.t-online.de/heim-garten/aktuelles/id_101121408/katherina-reiche-netzpaket-wird-frontalangriff-auf-die-energiewende-.html) wurde von Branchenverbänden, Opposition und über 100.000 Petitionsunterzeichnern als "Frontalangriff auf die Energiewende" bezeichnet. Selbst RWE-Chef Markus Krebber nannte es "absurd". Wenn die fossile Industrie findet, dass man zu weit gegen Erneuerbare geht, ist das bemerkenswert.
+Ihr ["Netzpaket"](https://www.t-online.de/heim-garten/aktuelles/id_101121408/katherina-reiche-netzpaket-wird-frontalangriff-auf-die-energiewende-.html)
+wurde von Branchenverbänden, Opposition und über 100.000 Petitionsunterzeichnern scharf kritisiert. Selbst RWE-Chef
+Markus Krebber nannte es "absurd".
 
 ## Fazit
 
-Katherina Reiches Behauptung, Strom für drei Milliarden Euro werde "weggeworfen", übertreibt die tatsächlichen Kosten für abgeregelte Erneuerbare um den Faktor fünf und stellt reguläres Netzmanagement als Verschwendung dar. Die Ursache für Netzengpässe sind fehlende Stromleitungen, die unter CDU/CSU-geführten Regierungen über Jahre verzögert wurden. Reiche selbst war als Altmaiers Staatssekretärin direkt an der Politik beteiligt, die den Ausbau erneuerbarer Energien abwürgte und damit die Netzprobleme mitverursachte. Ihre Lösung adressiert nicht die Ursache (fehlende Leitungen), sondern bestraft die Erneuerbaren für ein Problem, das sie nicht geschaffen haben.
+Katherina Reiches Behauptung, Strom für drei Milliarden Euro werde "weggeworfen", ist irreführend. Sie übertreibt die
+tatsächlichen Kosten für abgeregelte Erneuerbare deutlich und stellt reguläres Netzmanagement als Verschwendung dar.
+Die eigentliche Ursache für Netzengpässe sind fehlende Stromleitungen. Ihre vorgeschlagene Lösung adressiert deshalb
+nicht die Hauptursache des Problems, sondern verlagert die politische Verantwortung auf die Erneuerbaren.

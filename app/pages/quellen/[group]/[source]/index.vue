@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import { definePageData, nowIso } from '~/utils/contentUtils'
-import { referencesStore, type SourceLink } from '~/utils/referenceData'
+import { useReferencesStore, type SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
 
 const route = useRoute()
+const referencesStore = useReferencesStore()
 
 const source = route.params.source as string
 const basePath = route.path
