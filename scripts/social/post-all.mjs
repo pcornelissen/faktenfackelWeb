@@ -20,6 +20,25 @@ import { fileURLToPath } from 'node:url'
 const execFileAsync = promisify(execFileCb)
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
+// .env.local laden (ohne dotenv-Dependency)
+const websiteDir = resolve(__dirname, '../..')
+try {
+  const envContent = await readFile(resolve(websiteDir, '.env.local'), 'utf-8')
+  for (const line of envContent.split('\n')) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith('#')) continue
+    const eqIdx = trimmed.indexOf('=')
+    if (eqIdx === -1) continue
+    const key = trimmed.slice(0, eqIdx).trim()
+    let val = trimmed.slice(eqIdx + 1).trim()
+    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'")))
+      val = val.slice(1, -1)
+    if (!process.env[key]) process.env[key] = val
+  }
+} catch {
+  // .env.local nicht vorhanden — weiter mit bestehenden env vars
+}
+
 const args = process.argv.slice(2)
 const dryRun = args.includes('--dry-run')
 if (dryRun) args.splice(args.indexOf('--dry-run'), 1)
