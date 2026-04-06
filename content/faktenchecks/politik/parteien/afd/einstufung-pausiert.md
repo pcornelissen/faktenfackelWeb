@@ -16,8 +16,8 @@ tags:
 
 Im Mai 2025 kursierte der <Reference code="cicero-afd-verfassungsschutz-bericht-leak">Bericht des Verfassungsschutzes</Reference>
 zur Einschätzung der AfD. Die Veröffentlichung des internen Berichts durch Cicero sorgte für Aufruhr in der politischen
-Landschaft. Der Bericht kam zu dem Schluss, dass die AfD als gesichert rechtsextremistisch eingestuft werden könne, was
-weitreichende politische und rechtliche Folgen für die Partei hätte.
+Landschaft. Der Bericht kam zu dem Schluss, dass die AfD als gesichert rechtsextremistisch eingestuft werden könne. Das
+hätte weitreichende politische und rechtliche Folgen für die Partei.
 
 Die AfD reagierte mit einem Eilantrag vor dem Verwaltungsgericht Köln. Daraufhin hat der Verfassungsschutz
 <Reference code="vg-köln-afd-stillhaltezusage">die Einstufung als gesichert rechtsextrem</Reference>
@@ -30,8 +30,8 @@ Bautzen dagegen stufte den sächsischen Landesverband als gesichert rechtsextrem
 Begriff der "beherrschenden Grundtendenz": Einzelne verfassungsfeindliche Äußerungen reichen nicht, die Bestrebungen
 müssen das Gesamtbild der Organisation prägen.
 
-Zuvor wurde die AfD als Verdachtsfall eingestuft. Auch hier hatte die AfD Einspruch eingelegt, was jedoch vom
-Oberverwaltungsgericht Münster im August 2025 abgelehnt wurde.
+Zuvor wurde die AfD bereits als Verdachtsfall eingestuft. Auch dagegen war die Partei gerichtlich vorgegangen. Das
+Oberverwaltungsgericht Münster bestätigte diese Einstufung im August 2025.
 
 ## Zitate
 
@@ -88,13 +88,15 @@ uvm.
 
 ## Argumentation
 
-Kern der Aussagen ist, dass es ein Erfolg sei, dass der Verfassungsschutz die Einstufung der AfD als rechtsextreme Partei pausiert habe. Dies wird als Beleg dafür gesehen, dass die AfD keine rechtsextreme Partei sei und die Einstufung des Verfassungsschutzes falsch gewesen ist.
+Kern dieser Deutungen ist, dass die pausierte Einstufung ein Erfolg für die AfD sei. Daraus wird dann abgeleitet, die
+Partei sei nicht rechtsextrem und der Verfassungsschutz habe falsch gehandelt.
 
-Dazu kommt häufig die Behauptung dazu, dass Nancy Faeser (Bundesministerin des Innern und für Heimat) den Verfassungsschutz politisch instrumentalisiert habe, um der AfD zu schaden.
+Hinzu kommt häufig die Behauptung, Nancy Faeser habe den Verfassungsschutz politisch instrumentalisiert, um der AfD zu
+schaden.
 
 ## Faktencheck
 
-### Sofortige Aussetzung der Einstufung der AfD als rechtsextreme Partei
+### Die Aussetzung ist kein Freispruch
 
 Der Verfassungsschutz hat die Einstufung der AfD als rechtsextreme Partei nicht aus politischen Gründen pausiert,
 sondern wegen des laufenden Rechtsstreits.
@@ -123,7 +125,7 @@ bei dem die anwesende Polizei nicht einschritt.
 
 Die Löschung der Pressemitteilung des Verfassungsschutzes zur Einstufung der AfD als rechtsextreme Partei ist <Reference code="tagesschau-afd-stillhaltezusage">kein Beleg dafür, dass die ursprüngliche Einstufung falsch war</Reference>. Vielmehr handelt es sich um eine übliche Praxis, um Verwirrung zu vermeiden und die Kommunikation während eines laufenden Rechtsstreits zu steuern.
 
-### Sind Stillhaltezusagen etwas Besonderes
+### Sind Stillhaltezusagen etwas Besonderes?
 
 Stillhaltezusagen sind in rechtlichen Auseinandersetzungen **nicht ungewöhnlich**. Sie dienen dazu, den Status quo während eines Rechtsstreits zu bewahren und mögliche negative Auswirkungen auf die betroffene Partei zu minimieren. Solche Zusagen werden häufig in Fällen gegeben, in denen eine Organisation gegen eine Entscheidung einer Behörde Einspruch einlegt.
 
@@ -136,7 +138,7 @@ Es gibt keine Liste mit bisherigen Stillhaltezusagen von Behörden, aber es lass
 
 Auch hier sieht man, dass die Zusage nur ein Aufschub ist und kein Eingeständnis, dass die ursprüngliche Entscheidung falsch war.
 
-### Ist die Stillhaltezusage ein Gewinn für die AfD
+### Ist die Stillhaltezusage ein Gewinn für die AfD?
 
 Die Stillhaltezusage ist kein inhaltlicher Freispruch für die AfD, sondern zunächst eine Maßnahme, um den Status quo
 während des Rechtsstreits zu bewahren. Sie bedeutet weder, dass die Partei unbedenklich wäre, noch dass die
@@ -149,7 +151,10 @@ Folgen, die mit einer solchen Einstufung verbunden wären.
 Sobald das Verwaltungsgericht Köln im Hauptsacheverfahren entschieden hat oder die Stillhaltezusage aufgehoben wird,
 kann die Einstufung wieder wirksam werden, sofern die AfD damit unterliegt.
 
-Die Pausierung wird auch ins Feld geführt, warum manche Parteien einem Antrag auf Prüfung durch das Bundesverfassungsgericht gegen ein mögliches Verbot der AfD nicht zustimmen. Das kann als weiterer kleiner Sieg zählen, der die Zeit, bis ein Verbotsverfahren angestrebt wird, weiter herauszögert. Dass die AfD gezielt Druck auf zivilgesellschaftliche Organisationen und demokratische Institutionen ausübt, zeigt auch ein <Reference code="amadeu-antonio-feindbild-zivilgesellschaft">Sicherheitsreport der Amadeu Antonio Stiftung</Reference>, der 663 parlamentarische Anfragen der AfD gegen Zivilgesellschaft dokumentiert.
+Die Pausierung wird außerdem als Argument genutzt, warum manche Parteien einem Antrag auf Prüfung eines möglichen
+AfD-Verbots durch das Bundesverfassungsgericht derzeit nicht zustimmen. Politisch verschafft das der AfD vor allem
+Zeit. Dass die Partei zugleich gezielt Druck auf zivilgesellschaftliche Organisationen und demokratische Institutionen
+ausübt, zeigt auch ein <Reference code="amadeu-antonio-feindbild-zivilgesellschaft">Sicherheitsreport der Amadeu Antonio Stiftung</Reference>, der 663 parlamentarische Anfragen der AfD gegen Zivilgesellschaft dokumentiert.
 
 ### Hat das Innenministerium den Verfassungsschutz politisch instrumentalisiert?
 
@@ -161,7 +166,10 @@ Der Bericht <Reference code="tagesschau-afd-gutachten-2025-05-02">habe das Innen
 <Reference code="beck-afd-stillhaltezusage">Ende April 2025 erreicht</Reference>, also kurz bevor der interne Bericht
 durch Cicero veröffentlicht wurde.
 
-Es gibt auch keine Hinweise darauf, dass das Ministerium den Verfassungsschutz angewiesen hat, die AfD zu untersuchen oder die Einstufung zu beeinflussen. Dies wird üblicherweise durch den Verfassungsschutz selbst entschieden, basierend auf den vorliegenden Informationen und Analysen. Wie am Bericht zu erkennen ist, gibt es ohnehin umfangreiche Belege und Analysen, die die Einstufung der AfD als rechtsextreme Partei unterstützen. Eine Einmischung durch das Innenministerium wäre daher so oder so unnötig.
+Es gibt auch keine Hinweise darauf, dass das Ministerium den Verfassungsschutz angewiesen hat, die AfD zu untersuchen
+oder die Einstufung zu beeinflussen. Solche Bewertungen beruhen auf den nachrichtendienstlichen und rechtlichen
+Prüfungen der Behörde selbst. Der Umfang des Berichts zeigt zudem, dass die Einstufung auf einer umfangreichen
+Materialsammlung beruhte.
 
 ## Fazit
 

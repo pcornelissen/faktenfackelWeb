@@ -1,8 +1,8 @@
 ---
 publishedOn: 2026-04-05
 date: 2026-04-05
-title: "\"Merz leck Eier\" — darf man das sagen?"
-subtitle: Ein Faktencheck über Meinungsfreiheit, Satire und die Grenzen des Strafrechts
+title: "\"Merz leck Eier\" - darf man das sagen?"
+subtitle: Was Meinungsfreiheit und Strafrecht dazu sagen
 verdict: complex
 tags:
   - Meinungsfreiheit
@@ -28,22 +28,22 @@ dahintersteckt, ist offiziell unbekannt.
 ### Art. 5 GG: Meinungsfreiheit
 
 <Reference code="gii-gg-5">Artikel 5 des Grundgesetzes</Reference> schützt die freie Äußerung von
-Meinungen in Wort, Schrift und Bild — ohne Zensur, ohne Genehmigungsvorbehalt. Diese Freiheit endet dort, wo allgemeine
+Meinungen in Wort, Schrift und Bild, ohne Zensur und ohne Genehmigungsvorbehalt. Diese Freiheit endet dort, wo allgemeine
 Gesetze anfangen. Und zu den allgemeinen Gesetzen gehört das Strafgesetzbuch.
 
 ### §185 StGB: Beleidigung
 
-<Reference code="gii-stgb-185">§185 StGB</Reference> stellt Beleidigungen unter Strafe — Freiheitsstrafe bis zu einem
-Jahr, bei öffentlicher Begehung bis zu zwei Jahren. Das klingt eindeutig, das Gesetz selbst definiert den Begriff der
+<Reference code="gii-stgb-185">§185 StGB</Reference> stellt Beleidigungen unter Strafe. Es droht Freiheitsstrafe bis
+zu einem Jahr, bei öffentlicher Begehung bis zu zwei Jahren. Das klingt eindeutig, das Gesetz selbst definiert den Begriff der
 Beleidigung aber nicht. Diese Lücke füllt die Rechtsprechung mit dem Konzept der "Kundgabe von Missachtung oder
 Nichtachtung". Ob "Merz leck Eier" diesen Tatbestand erfüllt, ist deshalb nicht selbstverständlich.
 
-### §188 StGB: Der Politikerschutzschild
+### §188 StGB: Besonderer Schutz für Personen des politischen Lebens
 
 <Reference code="gii-stgb-188">§188 StGB</Reference> bietet Politikern einen verschärften Schutz: Wer einen Amtsträger
 oder eine Person des politischen Lebens so beleidigt, dass dies seine öffentliche Wirksamkeit gefährdet, dem drohen
 bis zu drei Jahre Freiheitsstrafe. Der Paragraf wurde 2021 erweitert. Seither stiegen die Fallzahlen deutlich: Das
-BKA meldete für 2025 insgesamt 6.246 Fälle nach §188 — 2022 waren es noch 1.404.
+BKA meldete für 2025 insgesamt 6.246 Fälle nach §188, 2022 waren es noch 1.404.
 
 ### Was das Bundesverfassungsgericht dazu sagt
 
@@ -53,14 +53,16 @@ persönliche Diffamierung so sehr im Vordergrund steht, dass ein sachlicher Bezu
 
 > Eine Äußerung nimmt den Charakter einer Schmähung erst dann an, wenn nicht mehr die Auseinandersetzung in der Sache, sondern die Diffamierung der Person im Vordergrund steht.
 
-Mit anderen Worten: Auch überzogene, ausfällige, ja beleidigende Äußerungen können durch Art. 5 GG geschützt sein, sofern sie einen nachvollziehbaren politischen Anlass haben. Und "Merz leck Eier" auf einem Demonstrationsplakat hat einen solchen Anlass — die Kritik an einem Bundeskanzler und seiner Politik.
+Mit anderen Worten: Auch überzogene, ausfällige oder beleidigende Äußerungen können durch Art. 5 GG geschützt sein,
+sofern sie einen nachvollziehbaren politischen Anlass haben. Bei einem Demonstrationsplakat gegen einen
+Bundeskanzler spricht zumindest einiges dafür, dass ein solcher politischer Kontext vorliegt.
 
 ## Die Strafanzeigen-Praxis
 
 Friedrich Merz ist nicht nur Bundeskanzler. Er nutzt auch den §188 StGB konsequent. Seit 2021 lässt er über die
 Agentur "So Done" systematisch das Internet nach Beleidigungen seiner Person durchsuchen.
 <Reference code="tagesspiegel-merz-strafanzeigen-4999">Wie der Tagesspiegel berichtete</Reference>,
-sind die Anzeigen durchnummeriert — die Liste soll bis mindestens Nummer 4.999 reichen.
+sind die Anzeigen durchnummeriert. Die Liste soll bis mindestens Nummer 4.999 reichen.
 
 Zwei Fälle sind besonders aufschlussreich:
 
@@ -73,17 +75,22 @@ rechtswidrig. <Reference code="netzpolitik-merz-strafanzeigen-meinungsfreiheit">
 wie aus einer unflätigen Beleidigung im Netz eine unverhältnismäßige
 staatliche Reaktion werden kann.
 
-## Die Asymmetrie der Durchsetzung
+## Die Frage der Verhältnismäßigkeit
 
-Bürgerinnen und Bürger, die sich in sozialen Medien politisch äußern und dafür Beleidigungen oder Morddrohungen erhalten, hören von Polizei und Staatsanwaltschaft regelmäßig denselben Satz: "Sie müssen sich ja nicht öffentlich äußern." Das Verfahren wird nicht selten eingestellt, weil der Täter "nicht ermittelbar" sei. Oder weil kein öffentliches Interesse bestehe. Oder beides.
+Der Fall wirft auch eine Frage der Verhältnismäßigkeit auf: Drei Menschen mit einem "Merz leck Eier"-Plakat erhielten
+Platzverweise, in Berlin wurde ein 18-Jähriger wegen eines ähnlichen Plakats kurzzeitig festgenommen.
 
-Bremer Stadtabgeordnete erhielten Morddrohungen per E-Mail — alle Verfahren wurden eingestellt. Kommunalpolitikerinnen in kleinen Gemeinden, die nach einer Äußerung zur Geflüchtetenpolitik Drohungen bekommen, werden gebeten, Verständnis zu haben. Die Behörden seien ausgelastet.
+Das zeigt, wie schnell eine derbe politische Zuspitzung in den Bereich strafrechtlicher Verfolgung geraten kann. Gerade
+dadurch fällt auch eine Asymmetrie auf: Für systematische Anzeigen gegen grobe politische Meinungsäußerungen stehen
+offenbar erhebliche Ressourcen bereit, während Betroffene von ernsthaften Bedrohungen und Einschüchterungen oft
+erleben, dass Verfahren eingestellt werden oder Täter nicht ermittelt werden. Auf diese Lücke weist auch das
+[KoMo-Spotlight von MOTRA/BKA](https://www.motra.info/wp-content/uploads/2024/05/motra_Spotlight_04_24.pdf) hin:
+Von den dort erfassten angezeigten Fällen kam es nur selten zu Verurteilungen, während ein spürbarer Teil eingestellt
+wurde oder ganz ohne strafrechtliche Verfolgung blieb.
 
-Gleichzeitig werden drei Menschen mit einem "Merz leck Eier"-Plakat mit Platzverweisen belegt. Ein 18-Jähriger wird in Berlin festgenommen.
-
-Die unterschiedliche Verfolgung solcher Fälle wirft deshalb eine naheliegende Frage auf: Warum reagieren Behörden bei
-derben Äußerungen gegen prominente Politiker teils sehr schnell, während Bedrohungen gegen weniger mächtige Betroffene
-oft folgenlos bleiben?
+Das ist kein Freibrief für Beleidigungen. Es macht aber erklärungsbedürftig, warum der Staat bei einer vulgären
+politischen Parole teils schneller und härter reagiert als bei Fällen, in denen Menschen tatsächlich eingeschüchtert
+oder bedroht werden.
 
 ## Fazit
 
@@ -94,5 +101,5 @@ Das BVerfG legt Schmähkritik eng aus. Politische Satire und überzogene Zuspitz
 geschützt, solange noch ein sachlicher Bezug zur politischen Auseinandersetzung erkennbar bleibt.
 
 Der Fall zeigt deshalb vor allem, wie unklar die Grenze zwischen strafbarer Beleidigung und geschützter politischer
-Zuspitzung im Einzelfall sein kann. Gleichzeitig wirft er Fragen nach der Verhältnismäßigkeit staatlicher Reaktionen und
-nach der ungleichen Durchsetzung des Ehrschutzes auf.
+Zuspitzung im Einzelfall sein kann. Gleichzeitig wirft er Fragen nach der Verhältnismäßigkeit staatlicher Reaktionen
+und nach den Prioritäten staatlicher Verfolgung auf.
