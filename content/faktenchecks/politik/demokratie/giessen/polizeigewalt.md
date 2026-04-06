@@ -1,7 +1,7 @@
 ---
 publishedOn: 2025-12-11
 date: 2025-12-11
-title: War die Reaktion der Polizei in Gießen gerechtfertigt? 
+title: War die Reaktion der Polizei in Gießen gerechtfertigt?
 subtitle: Was die bisher bekannten Videos und Berichte zum Polizeieinsatz zeigen
 verdict: complex
 tags:
@@ -15,11 +15,14 @@ tags:
 
 ## Was ist passiert?
 
-Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. 
+Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In
+Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren.
 
 Im Vorfeld gab es Warnungen vor möglicher linker Gewalt. Gleichzeitig riefen zahlreiche demokratische und zivilgesellschaftliche Gruppen, darunter auch Kirchen, zu Protesten auf. Bei einer Demonstration dieser Größenordnung ist daher zwischen friedlichen Demonstrierenden, organisierten Gegendemonstrationen und möglichen gewaltbereiten Gruppen zu unterscheiden.
 
-Im Verlauf des Tages kam es an mehreren Stellen zu angespannten Situationen und zu körperlicher Gewalt durch Polizeikräfte. In sozialen Medien verbreiteten sich daraufhin Videos und Berichte, die den Vorwurf unverhältnismäßigen Vorgehens erhoben.
+Im Verlauf des Tages kam es an mehreren Stellen zu angespannten Situationen und zu körperlicher Gewalt durch
+Polizeikräfte. In sozialen Medien verbreiteten sich daraufhin Videos und Berichte, die den Vorwurf
+unverhältnismäßigen Vorgehens erhoben.
 
 Einzelne kurze Videos zeigen allerdings immer nur Ausschnitte. Die zentrale Frage ist deshalb nicht, ob es friedliche Proteste gab, sondern ob der konkrete Gewalteinsatz der Polizei an den dokumentierten Stellen nachvollziehbar, verhältnismäßig und ausreichend angekündigt war.
 
@@ -27,11 +30,16 @@ Einzelne kurze Videos zeigen allerdings immer nur Ausschnitte. Die zentrale Frag
 
 ### Wie groß ist der gewaltbereite "linksextremistische Block"?
 
-Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> ist die Gruppe der linksextremistischen Personen in 2024 ca. 11.200 Personen groß, davon sind 8400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als sehr gewaltbereit gelten. Diese sind in 2024 laut Verfassungsschutz für ca. 5000 Straftaten verantwortlich, davon ca. 1000 Gewalttaten gegen Menschen. Dies sind auch Widerstände gegen Polizisten bei Demonstrationen.
-In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 762 Straftaten registriert. (Die Unterschiede zwischen Verfassungsschutz und Polizeistatistik liegen an wesentlich lockereren Kriterien, was politisch motiviert ist, und was nicht, und die Polizei wertet nur abgeschlossene Straftaten aus, die angezeigt wurden. Der Verfassungsschutz wertet auch Propaganda, Hassreden, ...)
+Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> gab es 2024
+etwa 11.200 linksextremistische Personen, darunter 8.400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als besonders gewaltbereit gelten. Der Verfassungsschutz ordnet diesem Spektrum rund 5.000
+Straftaten zu, darunter etwa 1.000 Gewalttaten gegen Menschen. In der Polizeistatistik für politisch motivierte
+Straftaten werden für 2024 rund 762 linksmotivierte Gewaltdelikte erfasst. Die Unterschiede zwischen
+Verfassungsschutz- und Polizeistatistik beruhen auf unterschiedlichen Kriterien und Zählweisen.
 
-Um das in Relation zur "<Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">Gegenseite</Reference>" zu setzen, es gab in 2024 ca. 50.250 rechtsextremistische bekannte Personen, davon 15.300 gewaltbereite Rechtsextremisten. Diese waren laut Verfassungsschutz für 37835 Straftaten verantwortlich gewesen, davon 1281 Gewalttaten.  
-In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 1488 Straftaten registriert.
+Zum Vergleich: Im <Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">rechtsextremistischen Spektrum</Reference>
+gab es 2024 etwa 50.250 bekannte Personen, darunter 15.300 gewaltbereite Rechtsextremisten. Der Verfassungsschutz
+ordnet diesem Spektrum 37.835 Straftaten und 1.281 Gewalttaten zu. In der Polizeistatistik für politisch motivierte
+Gewaltdelikte werden rund 1.488 rechtsextrem motivierte Taten erfasst.
 
 Auch in <Reference code="statista-artikel-politische-lager-straftaten">anderen Statistiken</Reference> zeigt sich ein ähnliches Bild.
 
@@ -67,7 +75,8 @@ Damit stützen die Videos den Vorwurf, dass der Einsatz für Außenstehende plö
 
 Falsch war dagegen die in rechten Kreisen verbreitete Behauptung, ein Polizeipferd sei von Demonstrierenden schwer verletzt oder getötet worden.
 
-Die Polizei selber hat [veröffentlicht](https://x.com/bpol_koblenz/status/1994771899776208902), dass das Pferd ohne externe Beeinflussung gestürzt ist und sowohl Reiter und Pferd wohlauf sind.
+Die Polizei selbst hat [veröffentlicht](https://x.com/bpol_koblenz/status/1994771899776208902), dass das Pferd ohne
+externe Beeinflussung gestürzt ist und sowohl Reiter als auch Pferd wohlauf sind.
 
 Der Vorfall mit dem Pferd ist deshalb kein Beleg für Gewalt durch Demonstrierende gegen das Tier. Er zeigt vielmehr, wie schnell sich in aufgeheizten Lagen unzutreffende Behauptungen verbreiten können.
 
@@ -92,5 +101,5 @@ Gleichzeitig lässt sich auf Basis kurzer Social-Media-Ausschnitte nicht jede Ma
 
 Der Artikel lässt deshalb kein einfaches Ja oder Nein zu. Belastbar ist vor allem diese Feststellung: Die bekannten Bilder begründen erhebliche Zweifel daran, dass jeder dokumentierte Gewalteinsatz der Polizei in Gießen transparent angekündigt, notwendig und verhältnismäßig war.
 
-Sehr sehenswert ist auch die Aufarbeitung von Marcant:
+Ergänzend gibt es auch eine ausführlichere Videoaufarbeitung von Marcant:
 <YoutubeEmbed src="https://www.youtube-nocookie.com/embed/HFy55GnpI5w?si=2vPonmclM72p7pzw" title="Aufarbeitung der Gießen-Demo – Marcant" />

@@ -21,7 +21,7 @@ Personen des politischen Lebens) eingeleitet. In Berlin wurde ein 18-Jähriger w
 kurzzeitig festgenommen.
 
 Parallel dazu leitet die Domain `leck-meine-eier.de` auf Friedrich Merz' Biografie beim Piper-Verlag weiter. Wer
-dahintersteckt, ist offiziell unbekannt.
+dahintersteckt, ist öffentlich nicht bekannt.
 
 ## Was sagt das Recht?
 
@@ -53,7 +53,7 @@ persönliche Diffamierung so sehr im Vordergrund steht, dass ein sachlicher Bezu
 
 > Eine Äußerung nimmt den Charakter einer Schmähung erst dann an, wenn nicht mehr die Auseinandersetzung in der Sache, sondern die Diffamierung der Person im Vordergrund steht.
 
-Mit anderen Worten: Auch überzogene, ausfällige oder beleidigende Äußerungen können durch Art. 5 GG geschützt sein,
+Auch überzogene, ausfällige oder beleidigende Äußerungen können durch Art. 5 GG geschützt sein,
 sofern sie einen nachvollziehbaren politischen Anlass haben. Bei einem Demonstrationsplakat gegen einen
 Bundeskanzler spricht zumindest einiges dafür, dass ein solcher politischer Kontext vorliegt.
 

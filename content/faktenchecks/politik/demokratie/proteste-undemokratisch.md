@@ -77,7 +77,7 @@ Linksextreme, die selbst eine Gefahr für die Demokratie seien.
 Die vorgebrachten Argumente bleiben dabei meist pauschal. Für einen Faktencheck lässt sich der Vorwurf auf einige
 wiederkehrende Kernthesen herunterbrechen.
 
-### Zusammengefasst
+### Kernthesen
 
 Die Kritik an den Protesten lässt sich so zusammenfassen:
 
@@ -89,7 +89,7 @@ Die Kritik an den Protesten lässt sich so zusammenfassen:
 
 ## Faktencheck
 
-Die entscheidende Frage ist also: Tragen diese Vorwürfe demokratisch und rechtlich überhaupt?
+Entscheidend ist daher: Tragen diese Vorwürfe demokratisch und rechtlich überhaupt?
 
 ### Demokratische Prinzipien
 

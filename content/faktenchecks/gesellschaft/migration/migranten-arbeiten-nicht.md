@@ -14,14 +14,13 @@ tags:
 
 Immer wieder wird behauptet, Migranten oder Geflüchtete wollten in Deutschland nicht arbeiten und lebten lieber von Sozialleistungen. Daraus werden dann hohe Belastungen für die Sozialsysteme und ein generelles Bild von Arbeitsunwilligkeit abgeleitet.
 
-
 ## Faktencheck
 
 Die pauschale Aussage, Migranten oder Geflüchtete wollten nicht arbeiten, ist durch die verfügbaren Daten nicht gedeckt. Der Großteil der Flüchtlinge und Zugewanderten <Reference code="bfa-arbeitsmarktbericht-migranten-2025">will arbeiten</Reference>. Zudem arbeiten aktuell <Reference code="mdintegration-flüchtlinge-in-arbeit">mehr Flüchtlinge, als im Sozialhilfebezug oder in Arbeitslosigkeit</Reference> sind.
 
 ### Wer grundsätzlich arbeiten darf
 
-Grundsätzlich gilt, <Reference code="aa-arbeitsmöglichkeiten-faq">es dürfen arbeiten</Reference>:
+Grundsätzlich dürfen <Reference code="aa-arbeitsmöglichkeiten-faq">folgende Gruppen arbeiten</Reference>:
 - Anerkannte Flüchtlinge, subsidiär Schutzberechtigte und Personen mit humanitärem Aufenthalt:
   - Dürfen in der Regel uneingeschränkt arbeiten.
 - Asylsuchende und Geduldete:
@@ -77,16 +76,12 @@ Deutschland fehlen nicht nur Fachkräfte, sondern in vielen Bereichen auch Arbei
 
 Vor diesem Hintergrund wird in Studien häufig betont, dass Arbeit ein zentraler Integrationsfaktor ist. Wer arbeitet, sichert nicht nur den eigenen Lebensunterhalt, sondern kommt auch leichter mit Kollegen, Arbeitgebern, Behörden und dem Alltag in Deutschland in Kontakt. Erwerbstätigkeit erleichtert dadurch Teilhabe, schafft Verbindlichkeit im Alltag und kann sprachliche wie soziale Integration deutlich beschleunigen. Gelingende Arbeitsmarktintegration ist deshalb sowohl für die Betroffenen als auch für den Arbeitsmarkt insgesamt sinnvoll.
 
-Siehe u. a. Studien von:
+Siehe dazu unter anderem:
 
 - Institut für Arbeitsmarkt- und Berufsforschung  
-  <Reference code="iab-arbeitsmarktintegration-gefluechteten">"Verbesserte institutionelle
-  Rahmenbedingungen fördern
-  die Erwerbstätigkeit" (PDF)</Reference>
+  <Reference code="iab-arbeitsmarktintegration-gefluechteten">"Verbesserte institutionelle Rahmenbedingungen fördern die Erwerbstätigkeit" (PDF)</Reference>
 - Universität Duisburg-Essen  
   <Reference code="intmon-arbeitsmarktintegration-migranten-2025">Arbeitsmarktintegration von Geflüchteten und Migrant*innen</Reference>
-
-
 
 ## Fazit
 

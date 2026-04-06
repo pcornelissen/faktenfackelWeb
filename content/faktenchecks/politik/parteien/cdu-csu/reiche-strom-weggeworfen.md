@@ -53,7 +53,7 @@ Die Gesamtkosten für das Netzengpassmanagement sind [rückläufig](https://www.
 Die Ursache ist nicht "zu viel" erneuerbare Energie, sondern zu wenig Stromleitungen. 74 % der Netzengpässe 2024
 traten im Hochspannungs-Übertragungsnetz auf, nicht an den Erneuerbaren-Anlagen selbst. Windstrom wird überwiegend im
 Norden erzeugt, die Nachfragezentren liegen im Süden. Die großen Nord-Süd-Leitungen wie SüdLink hätten
-[eigentlich schon 2022 fertig sein sollen](https://de.wikipedia.org/wiki/Suedlink), sind aber um Jahre verzögert.
+[nach früheren Planungen schon 2022 fertig sein sollen](https://de.wikipedia.org/wiki/Suedlink), sind aber um Jahre verzögert.
 
 Ein wichtiger Grund: 2015 setzte der bayerische CSU-Ministerpräsident Horst Seehofer den sogenannten
 "Erdkabel-Kompromiss" durch. Die bereits geplanten Freileitungen mussten komplett als Erdkabel neu geplant werden,

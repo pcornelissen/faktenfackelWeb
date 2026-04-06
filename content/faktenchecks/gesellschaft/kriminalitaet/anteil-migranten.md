@@ -16,8 +16,8 @@ In der Bevölkerung ist der Eindruck weit verbreitet, dass ausländische Mitbür
 in Deutschland verantwortlich seien. Diese Deutung wird regelmäßig von der AfD, ihrem Umfeld und auch in Teilen
 konservativer Debatten aufgegriffen, etwa mit Verweisen auf das "[Stadtbild](/lagerfeuer/perspektiven/2025-12-12.merz-stadtbild)".
 
-Es wird quasi jedes Verbrechen, über das berichtet wird reflexartig dem "Stadtbild" und damit den ausländisch
-aussehenden Mitbürgern angelastet.
+Viele öffentlich diskutierte Verbrechen werden dann reflexartig dem "Stadtbild" und damit ausländisch aussehenden
+Menschen zugeschrieben.
 
 **Achtung:** Die verwendeten Statistiken unterscheiden nicht zwischen ausländischen Besuchern, nicht-deutschen
 EU-Bürgern, Asylsuchenden und Migranten. Sollte jemand Quellen zu einer solchen Aufschlüsselung haben, sind wir für
@@ -33,10 +33,9 @@ Kriminalstatistiken.
 
 ## Faktencheck
 
-Es gibt jedes Jahr
-eine <Reference code="bka-kriminalstatistik-2024">Kriminalstatistik</Reference>,
+Es gibt jedes Jahr eine <Reference code="bka-kriminalstatistik-2024">Kriminalstatistik</Reference>,
 die mit konkreten Zahlen für eine korrekte Einordnung genutzt werden kann. Man muss sie aber sehr sorgfältig lesen und
-auch beachten, welche Gruppe in einer Zahl enthalten ist und wie sie sich zusammen setzt, um keine falschen Schlüsse zu
+auch beachten, welche Gruppe in einer Zahl enthalten ist und wie sie sich zusammensetzt, um keine falschen Schlüsse zu
 ziehen. Ein anschauliches Beispiel: <Reference code="godless-gardener-kriminalitaet-christen">Ein Vergleich der US-Kriminalitätsrate nach Religionszugehörigkeit</Reference> zeigt, wie leicht eine Gruppe "krimineller" erscheinen kann, wenn man die Bevölkerungsstruktur unberücksichtigt lässt.
 
 Aus den folgenden Quellen haben wir Diagramme erstellt und Daten
@@ -46,15 +45,16 @@ gruppiert, [hier unsere Aufbereitung als Excel-Datei](/files/faktenchecks/krimin
 
 **Wichtig:** Die Kriminalitätsstatistik bezieht sich auf **Tatverdächtige, nicht auf verurteilte Straftäter**.
 
-Also der reine Verdacht, dass jemand in etwas verwickelt sein kann, reicht aus, um in der Statistik zu erscheinen, egal
-ob man unschuldig ist oder nicht. Zudem ist plausibel, dass polizeiliche Kontrolldichte, Wohnort und Sichtbarkeit im
-öffentlichen Raum Einfluss darauf haben können, wer häufiger als tatverdächtig erfasst wird. Dazu kommt ein weiterer
+Schon der Verdacht, dass jemand in etwas verwickelt sein könnte, reicht aus, um in der Statistik zu erscheinen, egal
+ob die Person unschuldig ist oder nicht. Zudem ist plausibel, dass polizeiliche Kontrolldichte, Wohnort und
+Sichtbarkeit im öffentlichen Raum Einfluss darauf haben können, wer häufiger als tatverdächtig erfasst wird. Hinzu
+kommt ein weiterer
 Verzerrungsfaktor: Wer von der Polizei häufiger als "fremd" oder "nicht deutsch" wahrgenommen und deshalb öfter
 kontrolliert wird, hat auch ein höheres Risiko, überhaupt als tatverdächtig in Erscheinung zu treten. Solche Effekte
-werden in Debatten über Kriminalitätszahlen oft ausgeblendet, obwohl sie für die Einordnung relevant sind. Dazu leben
-ausländische Mitbürger überwiegend in Ballungsgebieten, wie Städten und in denen gibt es mehr Polizei und somit auch
-mehr Kontrollen. Es gibt aber keine Datenbasis, mit der man all diese Effekte sauber herausrechnen könnte. Dazu kommt,
-dass <Reference code="monitor-herkunft-tatverda-2025">die Herkunft von Tatverdächtigen in den Medien häufiger thematisiert wird, als es ihrem tatsächlichen Anteil entspricht</Reference> – was das öffentliche Bild weiter verzerrt.
+werden in Debatten über Kriminalitätszahlen oft ausgeblendet, obwohl sie für die Einordnung relevant sind. Außerdem
+leben ausländische Mitbürger überdurchschnittlich oft in Ballungsräumen, wo auch mehr Polizei präsent ist und häufiger
+kontrolliert wird. Es gibt aber keine Datenbasis, mit der man all diese Effekte sauber herausrechnen könnte. Hinzu
+kommt, dass <Reference code="monitor-herkunft-tatverda-2025">die Herkunft von Tatverdächtigen in den Medien häufiger thematisiert wird, als es ihrem tatsächlichen Anteil entspricht</Reference>, was das öffentliche Bild weiter verzerrt.
 
 Die <Reference code="bka-kriminalstatistik-2024">Aufklärungsquote</Reference>,
 liegt in den vergangenen Jahren um 58 %, also **42 %** der erkannten Taten werden **nicht aufgeklärt**. <br/>
