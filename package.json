@@ -57,6 +57,7 @@
     "eslint": "^10.1.0",
     "eslint-plugin-format": "^2.0.1",
     "tailwindcss": "^4.2.2",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "unplugin-icons": "^23.0.1",
     "vue-tsc": "^3.2.6",

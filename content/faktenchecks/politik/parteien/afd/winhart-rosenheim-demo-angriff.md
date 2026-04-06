@@ -12,6 +12,7 @@ tags:
   - Winhart
   - Propaganda
   - Vortäuschung falscher Tatsachen
+  - Rechte Gewalt
 ---
 
 ## Was ist passiert?

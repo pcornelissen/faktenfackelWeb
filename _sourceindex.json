@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-05T07:03:58.286Z",
+  "generatedAt": "2026-04-06T08:18:36.668Z",
   "stats": {
-    "sources": 256,
-    "links": 527,
+    "sources": 265,
+    "links": 541,
     "quotes": 25,
     "groups": 12,
-    "codes": 544
+    "codes": 558
   },
   "sources": [
     {
@@ -369,6 +369,21 @@
       "hasImage": true
     },
     {
+      "path": "medien/euronews",
+      "group": "medien",
+      "slug": "euronews",
+      "name": "Euronews",
+      "description": "Europäischer Nachrichtensender mit Fokus auf EU- und internationale Politik",
+      "tags": [
+        "Medien",
+        "Nachrichten",
+        "Europa",
+        "TV"
+      ],
+      "date": "2026-04-05",
+      "hasImage": false
+    },
+    {
       "path": "medien/fakten-gegen-rechts",
       "group": "medien",
       "slug": "fakten-gegen-rechts",
@@ -411,6 +426,21 @@
       ],
       "date": "2026-03-09",
       "hasImage": true
+    },
+    {
+      "path": "medien/giessener-anzeiger",
+      "group": "medien",
+      "slug": "giessener-anzeiger",
+      "name": "Gießener Anzeiger",
+      "description": "Regionalzeitung für Gießen und die Region Mittelhessen",
+      "tags": [
+        "Medien",
+        "Zeitung",
+        "Regionalmedien",
+        "Hessen"
+      ],
+      "date": "2026-04-05",
+      "hasImage": false
     },
     {
       "path": "medien/gute-nacht-oesterreich",
@@ -492,6 +522,21 @@
       ],
       "date": "2026-01-18",
       "hasImage": true
+    },
+    {
+      "path": "medien/journalistenwatch",
+      "group": "medien",
+      "slug": "journalistenwatch",
+      "name": "Journalistenwatch",
+      "description": "Rechtsextremes Online-Medium mit systematischer Medienhetze und Desinformation",
+      "tags": [
+        "Medien",
+        "Rechtsextremismus",
+        "Fake News",
+        "Desinformation"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
     },
     {
       "path": "medien/junge-welt",
@@ -646,6 +691,21 @@
       "hasImage": true
     },
     {
+      "path": "medien/netzpolitik-org",
+      "group": "medien",
+      "slug": "netzpolitik-org",
+      "name": "netzpolitik.org",
+      "description": "Gemeinnütziges Onlinemedium mit Schwerpunkt auf Digitalpolitik, Überwachung und Bürgerrechte",
+      "tags": [
+        "Medien",
+        "Digitalpolitik",
+        "Bürgerrechte",
+        "Journalismus"
+      ],
+      "date": "2026-04-05",
+      "hasImage": false
+    },
+    {
       "path": "medien/newzs",
       "group": "medien",
       "slug": "newzs",
@@ -745,6 +805,19 @@
       "hasImage": true
     },
     {
+      "path": "medien/staatsanzeiger-bw",
+      "group": "medien",
+      "slug": "staatsanzeiger-bw",
+      "name": "Staatsanzeiger Baden-Württemberg",
+      "tags": [
+        "medien",
+        "regional",
+        "baden-württemberg"
+      ],
+      "date": "2026-04-05",
+      "hasImage": false
+    },
+    {
       "path": "medien/swr-kultur",
       "group": "medien",
       "slug": "swr-kultur",
@@ -771,6 +844,20 @@
       ],
       "date": "2026-03-08",
       "hasImage": true
+    },
+    {
+      "path": "medien/tagesspiegel",
+      "group": "medien",
+      "slug": "tagesspiegel",
+      "name": "Der Tagesspiegel",
+      "description": "Berliner Tageszeitung mit Schwerpunkt auf Hauptstadtpolitik und Berlin-Themen",
+      "tags": [
+        "Zeitung",
+        "Medien",
+        "Berlin"
+      ],
+      "date": "2026-04-05",
+      "hasImage": false
     },
     {
       "path": "medien/taz",
@@ -857,6 +944,19 @@
       ],
       "date": "2026-04-01",
       "hasImage": true
+    },
+    {
+      "path": "medien/volksverpetzer",
+      "group": "medien",
+      "slug": "volksverpetzer",
+      "name": "Volksverpetzer",
+      "tags": [
+        "medien",
+        "faktenchecks",
+        "antifakenews"
+      ],
+      "date": "2026-04-05",
+      "hasImage": false
     },
     {
       "path": "medien/welt",
@@ -3155,6 +3255,20 @@
       "hasImage": true
     },
     {
+      "path": "staatlich/berliner-polizei",
+      "group": "staatlich",
+      "slug": "berliner-polizei",
+      "name": "Berliner Polizei",
+      "description": "Offizielle Pressemitteilungen und Meldungen der Berliner Polizei (Polizei Berlin)",
+      "tags": [
+        "Behörde",
+        "Berlin",
+        "Primärquelle"
+      ],
+      "date": "2026-04-06",
+      "hasImage": false
+    },
+    {
       "path": "staatlich/bfa",
       "group": "staatlich",
       "slug": "bfa",
@@ -3252,6 +3366,20 @@
       ],
       "date": "2026-03-09",
       "hasImage": true
+    },
+    {
+      "path": "staatlich/bverfg",
+      "group": "staatlich",
+      "slug": "bverfg",
+      "name": "Bundesverfassungsgericht",
+      "description": "Höchstes deutsches Gericht für Verfassungsrecht, Entscheidungen sind bindend für alle Staatsorgane",
+      "tags": [
+        "Staatlich",
+        "Justiz",
+        "Gericht"
+      ],
+      "date": "2026-04-05",
+      "hasImage": false
     },
     {
       "path": "staatlich/europarl",
@@ -4450,11 +4578,32 @@
         "Politische Gewalt",
         "Straflosigkeit",
         "Neonazis",
-        "Thüringen"
+        "Thüringen",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-04-02",
       "coSources": [
         "amadeu-antonio-stiftung"
+      ]
+    },
+    {
+      "path": "staatlich/berliner-polizei/links/20260325.machetenangriff-friedrichshain-polizeimeldung",
+      "source": "staatlich/berliner-polizei",
+      "code": "berliner-polizei-machetenangriff-friedrichshain",
+      "title": "Polizeimeldung: Machetenangriff in Friedrichshain (25. März 2026)",
+      "uri": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1656267.php",
+      "type": "article",
+      "tags": [
+        "Rechtsextremismus",
+        "Berlin",
+        "Friedrichshain",
+        "Primärquelle",
+        "Rechte Gewalt"
+      ],
+      "sourceDate": "2026-03-25",
+      "verdict": "true",
+      "coSources": [
+        "internationale-jugend"
       ]
     },
     {
@@ -4587,7 +4736,8 @@
         "Rechtsextremismus",
         "Kriminalität",
         "Statistik",
-        "Deutschland"
+        "Deutschland",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-03-29",
       "verdict": "true",
@@ -4860,6 +5010,24 @@
         "Deutschland"
       ],
       "sourceDate": "2026-01-15",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/bverfg/links/19950610.schmaehkritik-soldaten",
+      "source": "staatlich/bverfg",
+      "code": "bverfg-schmaehkritik-soldaten-1995",
+      "title": "BVerfG: Schmähkritik ist eng auszulegen (\\\"Soldaten sind Mörder\\\")",
+      "uri": "https://www.bverfg.de/e/rs19950610_1bvr178291.html",
+      "type": "article",
+      "tags": [
+        "Meinungsfreiheit",
+        "Grundgesetz",
+        "Strafrecht",
+        "Schmähkritik",
+        "BVerfG"
+      ],
+      "sourceDate": "1995-06-10",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -5718,7 +5886,8 @@
         "Fake News",
         "Gewalt",
         "Videobeweis",
-        "Rechtsextremismus"
+        "Rechtsextremismus",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-03-06",
       "coSources": [
@@ -6205,6 +6374,25 @@
       "sourceDate": "2026-01-09",
       "coSources": [
         "x-twitter"
+      ]
+    },
+    {
+      "path": "medien/euronews/links/20260224.merz-pinocchio-verfahren-eingestellt",
+      "source": "medien/euronews",
+      "code": "euronews-merz-pinocchio-einstellung",
+      "title": "Strafverfahren eingestellt: 'Pinocchio' ist zulässige Kritik an Merz",
+      "uri": "https://de.euronews.com/2026/02/24/strafverfahren-eingestellt-pinocchio-zulassige-kritik-merz",
+      "type": "article",
+      "tags": [
+        "Meinungsfreiheit",
+        "Strafrecht",
+        "Friedrich Merz",
+        "Satire"
+      ],
+      "sourceDate": "2026-02-24",
+      "verdict": "true",
+      "coSources": [
+        "friedrich-merz"
       ]
     },
     {
@@ -7461,7 +7649,8 @@
       "tags": [
         "Rechtsextremismus",
         "Tatwaffe",
-        "Geschichte"
+        "Geschichte",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-01-31",
       "verdict": "complex",
@@ -7516,10 +7705,30 @@
       "tags": [
         "AfD",
         "Gesellschaft",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
-      "sourceDate": "2026-01-18",
+      "sourceDate": "2025-11-30",
+      "verdict": "true",
       "coSources": []
+    },
+    {
+      "path": "medien/giessener-anzeiger/links/20260320.merz-leck-eier-demo-platzverweise",
+      "source": "medien/giessener-anzeiger",
+      "code": "giessener-anzeiger-merz-leck-eier-demo",
+      "title": "Wegen \\\"Merz leck Eier\\\"-Plakaten: Drei Demonstranten erhalten Platzverweise",
+      "uri": "https://www.giessener-anzeiger.de/stadt-giessen/wegen-merz-leck-eier-plakaten-drei-demonstranten-vor-gericht-94226506.html",
+      "type": "article",
+      "tags": [
+        "Meinungsfreiheit",
+        "Demo",
+        "Strafrecht",
+        "Friedrich Merz",
+        "Gießen"
+      ],
+      "sourceDate": "2026-03-20",
+      "coSources": [
+        "friedrich-merz"
+      ]
     },
     {
       "path": "staatlich/gesetze-im-internet/links/20260115.asylg-artikel-61",
@@ -7602,6 +7811,41 @@
         "research-done-review-pending"
       ],
       "sourceDate": "2026-01-19",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/gesetze-im-internet/links/20260405.stgb-185",
+      "source": "staatlich/gesetze-im-internet",
+      "code": "gii-stgb-185",
+      "title": "§185 StGB - Beleidigung",
+      "uri": "https://www.gesetze-im-internet.de/stgb/__185.html",
+      "type": "article",
+      "tags": [
+        "Strafrecht",
+        "Justiz",
+        "Gesetz",
+        "Meinungsfreiheit"
+      ],
+      "sourceDate": "2026-04-05",
+      "verdict": "true",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/gesetze-im-internet/links/20260405.stgb-188",
+      "source": "staatlich/gesetze-im-internet",
+      "code": "gii-stgb-188",
+      "title": "§188 StGB — Gegen Personen des politischen Lebens gerichtete Beleidigung, üble Nachrede und Verleumdung",
+      "uri": "https://www.gesetze-im-internet.de/stgb/__188.html",
+      "type": "article",
+      "tags": [
+        "Strafrecht",
+        "Justiz",
+        "Gesetz",
+        "Meinungsfreiheit",
+        "Politik"
+      ],
+      "sourceDate": "2026-04-05",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -8790,6 +9034,27 @@
       ]
     },
     {
+      "path": "medien/journalistenwatch/links/20260404.ice-anschlag-koran-umdeutung",
+      "source": "medien/journalistenwatch",
+      "code": "journalistenwatch-ice-koran-umdeutung",
+      "title": "Journalistenwatch: ICE-Täter mit Koran - Umdeutung als Islamist",
+      "uri": "https://journalistenwatch.com/2026/04/04/ice-anschlagsdrohung-bei-siegburg-der-rechtsextreme-mit-dem-koran-im-handgepaeck/",
+      "type": "article",
+      "tags": [
+        "Rechtsextremismus",
+        "Desinformation",
+        "Umdeutung",
+        "ICE",
+        "Siegburg",
+        "Rechte Gewalt"
+      ],
+      "sourceDate": "2026-04-04",
+      "verdict": "misleading",
+      "coSources": [
+        "personen/michael-stuerzenberger"
+      ]
+    },
+    {
       "path": "medien/junge-welt/links/20260331.machete-angriff-friedrichshain",
       "source": "medien/junge-welt",
       "code": "junge-welt-machete-friedrichshain",
@@ -8802,7 +9067,8 @@
         "Politische Gewalt",
         "Berlin",
         "Neonazis",
-        "Antifaschismus"
+        "Antifaschismus",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-04-01",
       "verdict": "true",
@@ -10334,6 +10600,7 @@
         "Pressefreiheit",
         "Gewalt",
         "Sachsen-Anhalt",
+        "Rechte Gewalt",
         "Brandenburg",
         "Rechtsextremismus",
         "research-done-review-pending"
@@ -10560,6 +10827,28 @@
       ]
     },
     {
+      "path": "medien/nd-aktuell/links/20260404.ice-attentaeter-rechtsextremist",
+      "source": "medien/nd-aktuell",
+      "code": "nd-ice-attentaeter-rechtsextremist",
+      "title": "ICE-Attentäter in Untersuchungshaft: Von Polizei als Rechtsextremist geführt",
+      "uri": "https://www.nd-aktuell.de/artikel/1198779.untersuchungshaft-ice-attentaeter-von-polizei-als-rechtsextremist-gefuehrt.html",
+      "type": "article",
+      "tags": [
+        "Rechtsextremismus",
+        "Gewalt",
+        "Deutschland",
+        "NRW",
+        "Rechte Gewalt"
+      ],
+      "sourceDate": "2026-04-04",
+      "verdict": "true",
+      "coSources": [
+        "taz",
+        "generalstaatsanwaltschaft-duesseldorf",
+        "bundespolizei"
+      ]
+    },
+    {
       "path": "medien/nd-aktuell/links/20260330.naziangriff-machete-berlin",
       "source": "medien/nd-aktuell",
       "code": "nd-naziangriff-machete-berlin",
@@ -10572,7 +10861,8 @@
         "Politische Gewalt",
         "Berlin",
         "Neonazis",
-        "Antifaschismus"
+        "Antifaschismus",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-03-30",
       "verdict": "true",
@@ -10633,6 +10923,26 @@
       ]
     },
     {
+      "path": "medien/netzpolitik-org/links/20251210.merz-arschloch-meinungsfreiheit",
+      "source": "medien/netzpolitik-org",
+      "code": "netzpolitik-merz-strafanzeigen-meinungsfreiheit",
+      "title": "Beleidigter Bundeskanzler: Wie viel 'Arschloch' darfs denn sein?",
+      "uri": "https://netzpolitik.org/2025/beleidigter-bundeskanzler-wie-viel-arschloch-darfs-denn-sein/",
+      "type": "article",
+      "tags": [
+        "Meinungsfreiheit",
+        "Strafrecht",
+        "Friedrich Merz",
+        "Hausdurchsuchung"
+      ],
+      "sourceDate": "2025-12-10",
+      "verdict": "true",
+      "coSources": [
+        "friedrich-merz",
+        "tagesspiegel"
+      ]
+    },
+    {
       "path": "medien/newzs/links/20260322.angriffe-gedenkstaetten-antisemitismus",
       "source": "medien/newzs",
       "code": "newzs-angriffe-gedenkstaetten-antisemitismus",
@@ -10643,7 +10953,8 @@
         "Rechtsextremismus",
         "Antisemitismus",
         "Gedenkstätten",
-        "Deutschland"
+        "Deutschland",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-03-22",
       "coSources": []
@@ -11941,6 +12252,25 @@
       "coSources": []
     },
     {
+      "path": "medien/staatsanzeiger-bw/links/20230831.afd-rat-hakenkreuze-ukraine-autos",
+      "source": "medien/staatsanzeiger-bw",
+      "code": "staatsanzeiger-bw-afd-rat-hakenkreuze-ukraine-autos",
+      "title": "Hakenkreuze auf Ukraine-Autos: AfD-Rat tritt ab",
+      "uri": "https://www.staatsanzeiger.de/nachrichten/hakenkreuze-auf-ukraine-autos-afd-rat-tritt-ab/",
+      "type": "article",
+      "tags": [
+        "AfD",
+        "Hakenkreuz",
+        "Baden-Baden",
+        "Ukraine",
+        "Sachbeschädigung",
+        "Rechtsextremismus"
+      ],
+      "coSources": [
+        "afd"
+      ]
+    },
+    {
       "path": "statistik/statista/links/20250521.rechts-oder-links-mehr-straftaten",
       "source": "statistik/statista",
       "code": "statista-artikel-politische-lager-straftaten",
@@ -12180,6 +12510,47 @@
       ]
     },
     {
+      "path": "medien/tagesspiegel/links/20260401.demo-nach-machetenangriff-friedrichshain",
+      "source": "medien/tagesspiegel",
+      "code": "tagesspiegel-demo-machetenangriff-friedrichshain",
+      "title": "Demo nach Neonazi-Machetenangriff in Friedrichshain angekündigt",
+      "uri": "https://www.tagesspiegel.de/berlin/uberlassen-unsere-viertel-nicht-den-faschistischen-schlagertrupps-neonazis-sollen-linke-in-friedrichshain-mit-machete-attackiert-haben--demo-angekundigt-15426237.html",
+      "type": "article",
+      "tags": [
+        "Rechtsextremismus",
+        "Berlin",
+        "Friedrichshain",
+        "Neonazis",
+        "Demo",
+        "Rechte Gewalt"
+      ],
+      "sourceDate": "2026-04-01",
+      "verdict": "true",
+      "coSources": [
+        "internationale-jugend",
+        "taz"
+      ]
+    },
+    {
+      "path": "medien/tagesspiegel/links/20230401.merz-strafanzeigen-4999",
+      "source": "medien/tagesspiegel",
+      "code": "tagesspiegel-merz-strafanzeigen-4999",
+      "title": "Als 'kleiner Nazi' und 'drecks Suffkopf' beschimpft: Merz stellte als Fraktionschef hunderte Strafanzeigen wegen Beleidigung",
+      "uri": "https://www.tagesspiegel.de/politik/als-kleiner-nazi-und-drecks-suffkopf-beschimpft-merz-stellte-als-fraktionschef-hunderte-strafanzeigen-wegen-beleidigung-15028333.html",
+      "type": "article",
+      "tags": [
+        "Friedrich Merz",
+        "Strafrecht",
+        "Meinungsfreiheit",
+        "Strafanzeige"
+      ],
+      "sourceDate": "2023-04-01",
+      "coSources": [
+        "friedrich-merz",
+        "robert-habeck"
+      ]
+    },
+    {
       "path": "politiker/taylan-kurt/links/20260109.immobilienhaie-finanzieren-afd",
       "source": "politiker/taylan-kurt",
       "code": "taylan-afd-immobilienhaie",
@@ -12219,6 +12590,26 @@
       ]
     },
     {
+      "path": "medien/taz/links/20260403.ice-anschlagsversuch-nrw",
+      "source": "medien/taz",
+      "code": "taz-ice-anschlagsversuch-nrw",
+      "title": "Anschlagsversuch im ICE: 20-Jähriger zündet Sprengsätze, politisches Motiv nicht ausgeschlossen",
+      "uri": "https://taz.de/Mutmasslicher-Anschlagsversuch-in-NRW/!6168479/",
+      "type": "article",
+      "tags": [
+        "Rechtsextremismus",
+        "Gewalt",
+        "Deutschland",
+        "NRW",
+        "Rechte Gewalt"
+      ],
+      "sourceDate": "2026-04-03",
+      "verdict": "true",
+      "coSources": [
+        "bild"
+      ]
+    },
+    {
       "path": "medien/taz/links/20260329.neonazi-machete-friedrichshain",
       "source": "medien/taz",
       "code": "taz-neonazi-machete-friedrichshain",
@@ -12230,7 +12621,8 @@
         "Politische Gewalt",
         "Berlin",
         "Neonazis",
-        "Antifaschismus"
+        "Antifaschismus",
+        "Rechte Gewalt"
       ],
       "sourceDate": "2026-03-29",
       "verdict": "true",
@@ -13077,10 +13469,30 @@
         "Rosenheim",
         "Winhart",
         "Propaganda",
+        "Rechte Gewalt",
         "Vortäuschung falscher Tatsachen"
       ],
       "sourceDate": "2026-03-03",
       "coSources": []
+    },
+    {
+      "path": "medien/volksverpetzer/links/20260403.siegburg-rechte-medien",
+      "source": "medien/volksverpetzer",
+      "code": "volksverpetzer-siegburg-rechte-medien",
+      "title": "Siegburg: Warum dir diese Medien die Herkunft des Angreifers verschweigen",
+      "uri": "https://www.volksverpetzer.de/aktuelles/siegburg-rechte-medien/",
+      "type": "article",
+      "tags": [
+        "Siegburg",
+        "Medien",
+        "Messerangriff",
+        "Berichterstattung",
+        "selektive-Berichterstattung",
+        "Rechte Gewalt"
+      ],
+      "coSources": [
+        "mediendienst-integration"
+      ]
     },
     {
       "path": "faktenchecks/volksverpetzer/links/20260201.volksverpetzer-wahrheit-buergergeld",
