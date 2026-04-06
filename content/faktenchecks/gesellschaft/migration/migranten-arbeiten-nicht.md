@@ -12,14 +12,14 @@ tags:
 
 ## Was ist passiert?
 
-Ein beliebtes Argument gegen Migranten ist, dass sie nicht arbeiten (wollen). Das führt zu hohen Belastungen der Sozialsysteme bei leeren Kassen und einem Gefühl der Ungerechtigkeit bei einigen deutschen Bürgern.
+Immer wieder wird behauptet, Migranten oder Geflüchtete wollten in Deutschland nicht arbeiten und lebten lieber von Sozialleistungen. Daraus werden dann hohe Belastungen für die Sozialsysteme und ein generelles Bild von Arbeitsunwilligkeit abgeleitet.
 
 
 ## Faktencheck
 
 Die pauschale Aussage, Migranten oder Geflüchtete wollten nicht arbeiten, ist durch die verfügbaren Daten nicht gedeckt. Der Großteil der Flüchtlinge und Zugewanderten <Reference code="bfa-arbeitsmarktbericht-migranten-2025">will arbeiten</Reference>. Zudem arbeiten aktuell <Reference code="mdintegration-flüchtlinge-in-arbeit">mehr Flüchtlinge, als im Sozialhilfebezug oder in Arbeitslosigkeit</Reference> sind.
 
-###  Wer grundsätzlich arbeiten darf
+### Wer grundsätzlich arbeiten darf
 
 Grundsätzlich gilt, <Reference code="aa-arbeitsmöglichkeiten-faq">es dürfen arbeiten</Reference>:
 - Anerkannte Flüchtlinge, subsidiär Schutzberechtigte und Personen mit humanitärem Aufenthalt:
@@ -27,20 +27,20 @@ Grundsätzlich gilt, <Reference code="aa-arbeitsmöglichkeiten-faq">es dürfen a
 - Asylsuchende und Geduldete:
   - Dürfen nur unter bestimmten Bedingungen und mit Erlaubnis arbeiten.
 
-In die erste Gruppe fallen z.B. viele Flüchtlinge aus der Ukraine. Für Asylsuchende und Geduldete ist der Zugang zum Arbeitsmarkt deutlich komplizierter. Oft ist eine Erlaubnis nur für eine konkrete Stelle möglich, und auch ein Arbeitgeberwechsel löst erneut Verwaltungsaufwand aus.
+In die erste Gruppe fallen z. B. viele Geflüchtete aus der Ukraine. Für Asylsuchende und Geduldete ist der Zugang zum Arbeitsmarkt deutlich komplizierter. Oft gilt die Erlaubnis nur für eine konkrete Stelle, und auch ein Arbeitgeberwechsel löst erneut Verwaltungsaufwand aus.
 
 ### Wartezeiten
 
-Eine Arbeitsaufnahme kann <Reference code="bmas-arbeitsmarktzugang-geflüchtete">nicht sofort vorgenommen werden</Reference>, es gilt:
+Eine Arbeitsaufnahme kann <Reference code="bmas-arbeitsmarktzugang-geflüchtete">nicht sofort erfolgen</Reference>. Es gilt:
 
 - **Generelles Arbeitsverbot** für Asylsuchende (<Reference code="gii-asylg-61">§61 Asyl Gesetz</Reference>)
   - **in den ersten 3 Monaten** 
   - wenn eine **Ausweisung bevorsteht**
   - wenn der Asylantrag abgelehnt wurde und kein Duldungsstatus vorliegt
   - wenn der Asylbewerber aus einem sicheren Herkunftsland stammt (Albanien, Bosnien und Herzegowina, Georgien, Ghana, Kosovo, Montenegro, Nordmazedonien, Republik Moldau, Senegal und Serbien) und der Antrag nach 2015 gestellt wurde
-  - Geduldete Personen (also die kein Asyl haben, aber nicht ausgewiesen werden können) und das Ausweisungshindernis selbst verursacht haben
+  - für Geduldete, also Menschen ohne Asylstatus, die aktuell nicht ausgewiesen werden können, wenn sie das Ausweisungshindernis selbst verursacht haben
 - **Nach 3 Monaten** dürfen Asylsuchende **eventuell** arbeiten, wenn bestimmte Bedingungen erfüllt sind (abhängig vom anvisierten Beruf, der Herkunftsregion, der Zustimmung der Bundesagentur für Arbeit usw.).
-- **Nach 6 Monaten** dürfen Asylsuchende arbeiten, wenn sie in einer Erstaufnahmeeinrichtung wohnen und das generelle Verbot nicht greift 
+- **Nach 6 Monaten** dürfen Asylsuchende arbeiten, wenn sie in einer Erstaufnahmeeinrichtung wohnen und das generelle Verbot nicht greift.
 
 Wer arbeiten möchte, kann also häufig nicht sofort anfangen. Schon die gesetzlichen Wartezeiten und die an den Aufenthaltsstatus geknüpften Bedingungen bremsen den Einstieg in Arbeit deutlich.
 
@@ -51,7 +51,7 @@ Wenn eine Arbeitsaufnahme grundsätzlich möglich ist, müssen je nach Status zu
 - Asylsuchende / Geduldete:
   - Brauchen eine Arbeitserlaubnis von der Ausländerbehörde.
   - Oft zusätzlich Zustimmung der Bundesagentur für Arbeit für eine konkrete Stelle.
-- Für jeden neuen Job ist oft ein neues Verfahren nötig 
+- Für jeden neuen Job ist oft ein neues Verfahren nötig.
 
 ### Typische Hürden in der Praxis
 
@@ -69,21 +69,21 @@ Natürlich gibt es auch Personen, die trotz Erlaubnis nicht arbeiten wollen. Dar
 
 ### Der Arbeitsmarkt in Deutschland
 
-Wie in "[Krise am Rentensystem](/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem)" aufgearbeitet, ist der Arbeitsmarkt in Deutschland in der Krise. Der Wendepunkt ist schon lange überschritten, Maßnahmen bleiben aus.
+Wie in "[Krise am Rentensystem](/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem)" aufgearbeitet, steht der Arbeitsmarkt in Deutschland zusätzlich unter Druck.
 
-Die Arbeitnehmer werden im Schnitt immer älter, die Zahl der zahlenden Arbeitnehmer pro Rentner sind jetzt schon seit Jahrzehnten zu gering und der Effekt wird jedes Jahr schlimmer.
+Die Erwerbsbevölkerung wird im Schnitt älter, und auf immer weniger Beschäftigte kommen immer mehr Rentner.
 
-Deutschland fehlen nicht nur Facharbeiter, es fehlt in vielen Bereichen an Arbeitnehmern, die offene Aufgaben übernehmen können.
+Deutschland fehlen nicht nur Fachkräfte, sondern in vielen Bereichen auch Arbeitskräfte für offene Stellen insgesamt.
 
 Vor diesem Hintergrund wird in Studien häufig betont, dass Arbeit ein zentraler Integrationsfaktor ist. Wer arbeitet, sichert nicht nur den eigenen Lebensunterhalt, sondern kommt auch leichter mit Kollegen, Arbeitgebern, Behörden und dem Alltag in Deutschland in Kontakt. Erwerbstätigkeit erleichtert dadurch Teilhabe, schafft Verbindlichkeit im Alltag und kann sprachliche wie soziale Integration deutlich beschleunigen. Gelingende Arbeitsmarktintegration ist deshalb sowohl für die Betroffenen als auch für den Arbeitsmarkt insgesamt sinnvoll.
 
 Siehe u. a. Studien von:
 
 - Institut für Arbeitsmarkt- und Berufsforschung  
-  <Reference code="iab-arbeitsmarktintegration-gefluechteten"> "Verbesserte institutionelle
+  <Reference code="iab-arbeitsmarktintegration-gefluechteten">"Verbesserte institutionelle
   Rahmenbedingungen fördern
   die Erwerbstätigkeit" (PDF)</Reference>
-- Universität Duisburg Essen  
+- Universität Duisburg-Essen  
   <Reference code="intmon-arbeitsmarktintegration-migranten-2025">Arbeitsmarktintegration von Geflüchteten und Migrant*innen</Reference>
 
 
