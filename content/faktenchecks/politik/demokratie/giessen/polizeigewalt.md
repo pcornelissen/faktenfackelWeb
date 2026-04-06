@@ -2,8 +2,8 @@
 publishedOn: 2025-12-11
 date: 2025-12-11
 title: War die Reaktion der Polizei in Gießen gerechtfertigt? 
-subtitle: Polizeigewalt oder Deeskalation und Ordnung
-verdict: false
+subtitle: Was die bisher bekannten Videos und Berichte zum Polizeieinsatz zeigen
+verdict: complex
 tags:
   - AfD
   - Generation-Deutschland
@@ -17,11 +17,11 @@ tags:
 
 Am 29. November 2025 fand in Gießen eine Veranstaltung der AfD-Jugendorganisation "Generation Deutschland" statt. In Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisation zu protestieren. 
 
-Im Vorfeld wurden angebliche Ankündigungen von massiver linker Gewalt Stimmung in der Bevölkerung gemacht. Auch wenn im Wesentlichen demokratische friedliche Organisationen, wie die Kirchen und andere Demokraten zu den Protesten aufgerufen haben. Der "<Reference code="wikipedia-schwarzer-block">Linke schwarze Block</Reference>" war natürlich ebenso tätig, stellt aber nur eine geringe Zahl an Personen in Deutschland und auf der Demo in Gießen.
+Im Vorfeld gab es Warnungen vor möglicher linker Gewalt. Gleichzeitig riefen zahlreiche demokratische und zivilgesellschaftliche Gruppen, darunter auch Kirchen, zu Protesten auf. Bei einer Demonstration dieser Größenordnung ist daher zwischen friedlichen Demonstrierenden, organisierten Gegendemonstrationen und möglichen gewaltbereiten Gruppen zu unterscheiden.
 
-Im Rahmen der Demonstration kam es zu diversen Vorkommnissen, wo die Polizei fragwürdig viel Gewalt eingesetzt hat, die augenscheinlich nicht begründet ist.
+Im Verlauf des Tages kam es an mehreren Stellen zu angespannten Situationen und zu körperlicher Gewalt durch Polizeikräfte. In sozialen Medien verbreiteten sich daraufhin Videos und Berichte, die den Vorwurf unverhältnismäßigen Vorgehens erhoben.
 
-Es gibt vor allen Dingen auf Instagram Videos, die die friedlichen Demonstrationen zeigen. Beispiel: Illustrationen zu "<Reference code="insta-till-hentschel-gießen-demo-friedlich">Gießen brennt</Reference>" oder [Mittelhessen-Youtube-Short](https://www.youtube.com/shorts/M37wRPKM_Bo). 
+Einzelne kurze Videos zeigen allerdings immer nur Ausschnitte. Die zentrale Frage ist deshalb nicht, ob es friedliche Proteste gab, sondern ob der konkrete Gewalteinsatz der Polizei an den dokumentierten Stellen nachvollziehbar, verhältnismäßig und ausreichend angekündigt war.
 
 ## Faktencheck
 
@@ -36,51 +36,63 @@ In der Polizeistatistik für politisch motivierte Straftaten sind für 2024 ca. 
 Auch in <Reference code="statista-artikel-politische-lager-straftaten">anderen Statistiken</Reference> zeigt sich ein ähnliches Bild.
 <img src="/files/faktenchecks/kriminalitaet/kriminalitaet-statista-2024.jpeg" alt="Diagramm zur Kriminalität von Statista zu 2023/2024" style="max-height: 35rem;width: auto"/>
 
-Der "Linke Block" ist also vergleichsweise klein und für wenig Taten verantwortlich. Dennoch wird es medial immer sehr hoch gekocht und aufgebauscht, während rechte Gewalt heruntergespielt oder ignoriert wird in vielen Medien.
+Diese Zahlen zeigen: Gewaltaffine linksextremistische Gruppen existieren, sie bilden aber nur einen kleinen Teil aller Demonstrierenden bei linken oder antifaschistischen Protesten. Aus bundesweiten Statistiken lässt sich jedoch nicht direkt ableiten, wie hoch die konkrete Gefährdungslage in Gießen am 29. November 2025 an einer bestimmten Stelle tatsächlich war.
 
 ### War das Polizeiaufgebot gerechtfertigt?
 
-Man sieht im Abschnitt zur Größe des linken Blocks, dass die Panikmache nicht gerechtfertigt war, der "linke Block" ist insgesamt für eine geringe Menge an Gewalt und Straftaten verantwortlich und die Menge an potenziellen Gefährdern bei der Demo in Gießen war erwartungsgemäß gering.
-Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Reference> auch, dass die Demonstration überwiegend friedlich ablief. Der Bürgermeister von Gießen meldete, "<Reference code="giessen-leuchtet-2025">Gießen hat geleuchtet, nicht gebrannt</Reference>" und bestätigte den friedlichen Protest.
+Ein großes Polizeiaufgebot ist für eine politisch aufgeladene Versammlung mit AfD-Bezug zunächst nicht ungewöhnlich. Daraus folgt aber noch nicht, dass auch jeder einzelne körperliche Einsatz gerechtfertigt war.
+
+Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Reference> selbst, dass die Demonstration insgesamt überwiegend friedlich verlaufen sei. Auch der Bürgermeister zog mit der Formulierung <Reference code="giessen-leuchtet-2025">"Gießen hat geleuchtet, nicht gebrannt"</Reference> eine positive Gesamtbilanz des Protesttages. Das spricht gegen ein pauschales Bild einer flächendeckend eskalierten Lage.
+
+### Wie friedlich war der Protest insgesamt?
+
+Zusätzliche Aufnahmen aus Gießen zeigen zahlreiche friedliche Szenen der Demonstration. Dazu gehören etwa die auf Instagram verbreiteten Bilder zu <Reference code="insta-till-hentschel-gießen-demo-friedlich">"Gießen brennt"</Reference> sowie ein [Kurzclip von Mittelhessen](https://www.youtube.com/shorts/M37wRPKM_Bo).
+
+Solche Aufnahmen ersetzen keine genaue Rekonstruktion einzelner Konfliktsituationen. Sie sind aber als Gegenbeleg zu pauschalen Behauptungen relevant, die gesamte Demonstration sei von linker Gewalt geprägt oder insgesamt eskaliert gewesen.
 
 
 ### Das "Brückenvideo"
 
-Was ist passiert? Hierzu ein Zitat von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference>, einer deutschen Klimagerechtigkeitsaktivistin und Podcasterin. Sie war vor Ort und hat auch ein Video von der Situation dort aufgenommen:
+Besonders viel Aufmerksamkeit erhielt ein Video von einer Situation an einer Brücke. Die Aufnahme wurde unter anderem von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference> verbreitet. Zusätzlich hat die <Reference code="hessenschau-gießen-2025">Hessenschau</Reference> die Sequenz und den damaligen Kenntnisstand zusammengefasst.
 
-> Sie sind ausgestiegen, haben sich aufgereiht. Es gab keinerlei Versuch einer Kontaktaufnahme, keine Durchsage, keine Ansage – nichts. Dann sind sie brüllend losgerannt wie eine Horde, ja, wie so eine zugekokste Prügelbande und haben auf die Leute eingeprügelt, ohne Vorwarnung, ohne Ansage – nichts.  
-  &mdash; <cite><Reference code="facebook-reisch-gießen">Zitat von Sina Reisch</Reference></cite> 
+Was auf Grundlage der öffentlich bekannten Ausschnitte gesagt werden kann:
 
-Nach ihrer Aussage in einem anderen Video sind die Beamten nach der Prügelei einfach wieder weggefahren. Es wurde also nichts aufgelöst oder umgeleitet. Es wurde Gewalt ausgeübt und nach "getaner Arbeit" sind die Beamten weggefahren. Wenn das Ziel war z.B. die Strecke zu räumen, dann ist nicht nachvollziehbar, warum ohne das Ziel zu erreichen der Einsatz da abgebrochen wurde. Der einzige Effekt der Aktion war die Demonstranten, die friedlich auf dem Weg zur Demo waren, zu verletzen und einzuschüchtern.
+- Polizeikräfte rücken geschlossen vor.
+- Es kommt innerhalb kurzer Zeit zu Schlägen und hektischen Bewegungen.
+- In den bekannten Ausschnitten ist nicht klar erkennbar, dass der Gewalteinsatz vorab deutlich und für alle Beteiligten verständlich angekündigt wurde.
+- Ebenso ist aus den kurzen Aufnahmen allein nicht abschließend zu beurteilen, was unmittelbar vor Beginn des Einsatzes außerhalb des Bildausschnitts geschah.
 
-Ihre <Reference code="instagram-reisch-gießen">Stellungnahme auf Instagram</Reference> (Alternativ auf <Reference code="facebook-reisch-gießen">Facebook</Reference>) wo sie mitteilt, dass die Polizei ohne Durchsage und Vorwarnung auf die Demonstranten eingeprügelt hat.
-
-Die <Reference code="hessenschau-gießen-2025">Hessenschau hat sich dem bekannten Video gewidmet</Reference> und hat eine Zusammenfassung der zu dem Zeitpunkt bekannten Fakten zusammengestellt.
+Damit stützen die Videos den Vorwurf, dass der Einsatz für Außenstehende plötzlich und hart wirkte. Sie reichen für sich genommen aber nicht aus, um jede Einzelmaßnahme abschließend juristisch zu bewerten.
 
 ### Das Polizeipferd
 
-Eine erfundene Geschichte ist das Polizeipferd, das angeblich getötet oder verletzt wurde.
+Falsch war dagegen die in rechten Kreisen verbreitete Behauptung, ein Polizeipferd sei von Demonstrierenden schwer verletzt oder getötet worden.
 
 Die Polizei selber hat [veröffentlicht](https://x.com/bpol_koblenz/status/1994771899776208902), dass das Pferd ohne externe Beeinflussung gestürzt ist und sowohl Reiter und Pferd wohl auf sind.
 
 <img src="/files/faktenchecks/politik/polizeipferd-2024.png" alt="X-Post von der Polizei Koblenz zum Polizeipferd, dass in Gießen ohne Fremdeinwirkung verletzt wurde" style="max-height: 30rem;width: auto; border: gray solid 1px">
 
-Das hält die rechte Szene nicht davon ab auch nach dem Dementi der Polizei die Lügen weiterzuverbreiten und immer weiter auszuschmücken. Das sollte Anhängern der rechten Ideologie mal zu denken geben, wenn deren Medien in diesem sehr einfach nachprüfbaren Fall schon so lügen, was ist dann beim Rest. Aber da ist von Einsicht leider selten etwas zu spüren. (Spannend, dass diejenigen, die andere als Schlafschafe bezeichnen, blind und taub hinter ihren Vorbildern herlaufen, ohne "selbst zu denken", was immer propagiert wird)
+Der Vorfall mit dem Pferd ist deshalb kein Beleg für Gewalt durch Demonstrierende gegen das Tier. Er zeigt vielmehr, wie schnell sich in aufgeheizten Lagen unzutreffende Behauptungen verbreiten können.
 
 ### Weitere Berichte zu den Protesten
 
-Reporterin von Perspektive Online [berichtet über Schläge durch die Polizei](https://t.me/perspektiveon/8254).
+Neben den bekannten Videos gibt es weitere Berichte über Schläge und hartes Vorgehen der Polizei, etwa von einer Reporterin von Perspektive Online [auf Telegram](https://t.me/perspektiveon/8254).
 
-Bericht zu Polizeigewalt an den Lahnbrücken durch "[Moers ist bunt nicht Braun](https://www.facebook.com/Moersistbunt?__cft__[0]=AZVtranIeSylb4XHXsujcUUFCrA1O1-uC8aAhYc_P3R7zjhk_ylIAsH_rR0VTwF3fVJPM0tOkZeaW6vShFf9EHCzP0k1_nvYde1K-x4XDocGWaS041yM23gtUaf3L9aOEE8MD7LYYP4DkJw0crvOtzOX0T83tAYpTN5Xt198Q4_-U9wc3bKnfqGrjCJad4PEEHpG-1mP9pYXTY9JVqQQga8T&__tn__=-UC%2CP-R) bei <Reference code="moers-afd-demo-gießen">Facebook</Reference>
+Auch "[Moers ist bunt nicht Braun](https://www.facebook.com/Moersistbunt?__cft__[0]=AZVtranIeSylb4XHXsujcUUFCrA1O1-uC8aAhYc_P3R7zjhk_ylIAsH_rR0VTwF3fVJPM0tOkZeaW6vShFf9EHCzP0k1_nvYde1K-x4XDocGWaS041yM23gtUaf3L9aOEE8MD7LYYP4DkJw0crvOtzOX0T83tAYpTN5Xt198Q4_-U9wc3bKnfqGrjCJad4PEEHpG-1mP9pYXTY9JVqQQga8T&__tn__=-UC%2CP-R)" dokumentierte Vorwürfe von Polizeigewalt an den Lahnbrücken bei <Reference code="moers-afd-demo-gießen">Facebook</Reference>.
 
 Dokumentiertes Verhalten der Gegenseite: <Reference code="gegen-die-afd-gießen-auto-rettungsgasse">AfD-Mitglieder fuhren in Gießen hinter einem Rettungswagen durch eine Rettungsgasse</Reference>, die von Demonstrierenden für den Notfall freigehalten worden war.
 > Trotz friedlicher Demo eskaliert die Gewalt an den Lahnbrücken
 Bei den Protesten gegen die AfD-Jugend kam es zu Zusammenstößen. Polizeigewalt und Taxiservice-Vorwürfe sorgen für Empörung. ...
 
+Solche Berichte sind als zusätzliche Hinweise relevant. Sie ersetzen aber keine unabhängige Rekonstruktion durch vollständiges Videomaterial, Einsatzprotokolle oder spätere gerichtliche bzw. behördliche Aufarbeitung.
+
 ## Fazit
 
-Das Vorgehen der Polizei ist höchst fragwürdig bei dem Einsatz in Gießen und wird hoffentlich noch gerichtlich aufgearbeitet.
-Es wurden viele Menschen die ihr <Glossar name="demonstrationsrecht">Demonstrationsrecht</Glossar> friedlich genutzt haben verletzt. Eine deeskalierende Strategie war an vielen Stellen nicht zu erkennen.
+Die bisher öffentlich bekannten Videos und Berichte sprechen dafür, dass es in Gießen mindestens einzelne Polizeieinsätze gab, die für Außenstehende abrupt, hart und nur unzureichend nachvollziehbar wirkten. Besonders dort, wo keine klare Vorwarnung erkennbar ist, bleibt der Vorwurf der Unverhältnismäßigkeit plausibel.
+
+Gleichzeitig lässt sich auf Basis kurzer Social-Media-Ausschnitte nicht jede Maßnahme abschließend bewerten. Sicher ist aber: Die Gesamtlage war nach Polizeiangaben überwiegend friedlich. Das spricht gegen pauschale Darstellungen, die den gesamten Protest als gewalttätig framen oder harte Polizeigewalt ohne genaue Prüfung als selbstverständlich darstellen.
+
+Der Artikel lässt deshalb kein einfaches Ja oder Nein zu. Belastbar ist vor allem diese Feststellung: Die bekannten Bilder begründen erhebliche Zweifel daran, dass jeder dokumentierte Gewalteinsatz der Polizei in Gießen transparent angekündigt, notwendig und verhältnismäßig war.
 
 Sehr sehenswert ist auch die Aufarbeitung von Marcant:
 <YoutubeEmbed src="https://www.youtube-nocookie.com/embed/HFy55GnpI5w?si=2vPonmclM72p7pzw" title="Aufarbeitung der Gießen-Demo – Marcant" />
