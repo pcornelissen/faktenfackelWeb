@@ -2,7 +2,7 @@
 publishedOn: 2025-12-03
 date: 2026-01-19
 title: Proteste gegen die AfD sind undemokratisch
-subtitle: Proteste, wie in Gießen
+subtitle: Warum Gegenprotest demokratisch geschützt ist
 verdict: false
 tags:
   - AfD
@@ -18,7 +18,7 @@ Gießen versammelten sich zahlreiche Demonstranten, um gegen die neue Organisati
 Ort, um die [Sicherheit zu gewährleisten](/faktenchecks/politik/demokratie/giessen/polizeigewalt) und die Veranstaltung
 zu schützen.
 
-In den sozialen Medien kursierten Berichte, die argumentieren, dass diese Proteste undemokratisch seien, da sie die
+In den sozialen Medien kursierten daraufhin Behauptungen, diese Proteste seien undemokratisch, weil sie die
 Meinungsfreiheit der AfD einschränkten.
 
 ## Zitate
@@ -65,18 +65,17 @@ uvm.
 
 ## Argumentation
 
-Die Idee fußt darauf, dass die Proteste gegen die AfD die Meinungsfreiheit der Partei einschränken und somit
-undemokratisch seien. Befürworter dieser Ansicht argumentieren, dass in einer Demokratie alle politischen Meinungen,
-auch die der AfD, respektiert werden müssen.
+Die Behauptung lautet, dass Proteste gegen die AfD deren Meinungsfreiheit einschränkten und deshalb undemokratisch
+seien. Dahinter steht die Vorstellung, in einer Demokratie müssten politische Positionen nicht nur ausgehalten, sondern
+auch von aktivem Widerspruch weitgehend verschont bleiben.
 
-Das bedeutet auch, dass anscheinend jegliche Widerrede gegen die AfD-Themen und die Partei als solche als undemokratisch
-angesehen wird.
+In dieser Logik erscheint dann schon öffentliche Widerrede gegen die AfD oder ihre Inhalte als problematisch.
 
-Es schwingt auch als Argument mit, dass die Proteste nur gewaltbereiten Linksextremen zuzuordnen seien, die die
-Demokratie gefährden würden.
+Oft wird das zusätzlich mit der Behauptung verbunden, hinter solchen Protesten stünden vor allem gewaltbereite
+Linksextreme, die selbst eine Gefahr für die Demokratie seien.
 
-Leider werden diese Aussagen in der Regel nicht begründet, wenn man dort nachfragt. Daher ist es aktuell schwierig eine
-konsistente Argumentation dazu aufzubauen.
+Die vorgebrachten Argumente bleiben dabei meist pauschal. Für einen Faktencheck lässt sich der Vorwurf aber auf einige
+wiederkehrende Kernthesen herunterbrechen.
 
 ### Zusammengefasst
 
@@ -90,13 +89,12 @@ Die Kritik an den Protesten lässt sich so zusammenfassen:
 
 ## Faktencheck
 
-Sind diese Forderungen überhaupt sinnvoll und mit einer Demokratie vereinbar?
+Sind diese Vorwürfe überhaupt sinnvoll und mit demokratischen Grundprinzipien vereinbar?
 
 ### Demokratische Prinzipien
 
-Ist es denn demokratisch, wenn man Teilnehmer in der Demokratie kritisiert?
-Kern von allen funktionierenden Demokratien ist unter anderem die Meinungsfreiheit und auch die Möglichkeit sich
-friedlich zu versammeln, um die öffentliche Meinung kund zu tun und die Diskussion zu lenken.
+Kern jeder funktionierenden Demokratie ist nicht nur die Meinungsfreiheit, sondern auch das Recht, sich friedlich zu
+versammeln und öffentlich Widerspruch zu äußern.
 
 #### Ist es undemokratisch, gegen die AfD zu protestieren oder gegen ihre Aussagen zu demonstrieren?
 
@@ -122,16 +120,16 @@ Würde ein Protest gegen die AfD die Meinungsfreiheit der Partei einschränken, 
 in der Lage wäre, ihre Ansichten zu äußern oder Veranstaltungen abzuhalten. Solange die AfD ihre Veranstaltungen
 durchführen kann und ihre Ansichten äußern darf, wird ihre Meinungsfreiheit nicht eingeschränkt.
 
-Protest gegen die Parteien, wie die AfD ist eine Meinungsäußerung, die in einer Demokratie geschützt ist. Würde dies
+Protest gegen Parteien wie die AfD ist eine Meinungsäußerung, die in einer Demokratie geschützt ist. Würde dies
 nicht erlaubt sein, wäre die Meinungsfreiheit der AfD-Gegner eingeschränkt und damit würde keine Meinungsfreiheit für
 alle mehr gelten. Da diese von der AfD ständig gefordert wird, kann sie nicht gegen Proteste argumentieren, ohne ihre
 eigene Forderung nach Meinungsfreiheit zu untergraben.
 
 ##### Bewertung
 
-Nein, Meinungsfreiheit bedeutet, dass man nicht nur seine Meinung äußern darf, sondern auch die Meinung anderer
-respektieren muss, selbst wenn man sie nicht teilt. Proteste gegen die AfD schränken deren Meinungsfreiheit nicht ein,
-solange die Partei weiterhin ihre Ansichten äußern und Veranstaltungen abhalten kann.
+Nein. Meinungsfreiheit bedeutet, dass politische Positionen geäußert, kritisiert und öffentlich zurückgewiesen werden
+dürfen. Proteste gegen die AfD schränken deren Meinungsfreiheit nicht ein, solange die Partei weiterhin ihre Ansichten
+äußern und Veranstaltungen abhalten kann.
 
 Die AfD ist nicht nur regelmäßig in Print- und TV-Medien präsent, sondern veranstaltet auch regelmäßig Kundgebungen,
 Demonstrationen und Parteitage, bei denen sie ihre politischen Ansichten öffentlich äußert. Solange die AfD diese
@@ -163,7 +161,7 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > Jeder Mensch hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein,
 > Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und
 > Gedankengut zu suchen, zu empfangen und zu verbreiten.  
-> &mdash; <cite><Reference code="gii-gg-19">Grundgesetz §19</Reference>, dazu <Reference code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</Reference></cite>
+> &mdash; <cite><Reference code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</Reference></cite>
 
 ### Antifa gefährdet die Demokratie
 
@@ -177,8 +175,8 @@ Es gibt "die Antifa" nicht als einheitliche Organisation. Vielmehr handelt es si
 Einzelpersonen, die sich gegen Faschismus, Rassismus und rechte Ideologien stellen. Diese Gruppen operieren unabhängig
 voneinander und haben unterschiedliche Strukturen, Ziele und Methoden.
 
-Es ist vergleichbar damit, dass "die Vegetarier" eine Partei oder Gruppierung wären. Hier ist der Widerspruch zur
-Annahme sehr deutlich. Das Gleiche gilt auch für "die Antifa".
+Es ist ungefähr so ungenau, als würde man von "den Vegetariern" als geschlossener politischer Organisation sprechen. Das
+trifft auf "die Antifa" ebenso wenig zu.
 
 Alle, die sich gegen Faschismus und rechte Ideologien stellen, können sich als Antifa betrachten, da es nur eine Abkürzung
 für Antifaschisten ist. Für eine tiefergehende Einordnung, <Reference code="who-did-what-now-faschismus">was Faschismus soziologisch bedeutet</Reference>, hilft es zu verstehen, warum eine antifaschistische Gegenbewegung historisch nötig war und ist.
@@ -240,21 +238,20 @@ sich für Menschenrechte, soziale Gerechtigkeit und Demokratie einsetzen.
 Wie oben bereits beschrieben wurde, ist das Grundgesetz antifaschistisch ausgelegt, also sind alle, die sich konform zum
 Grundgesetz verhalten, zumindest in der Tendenz antifaschistisch. Das antifaschistische Gedicht <Reference code="forrest-valkai-hangman-gedicht">"The Hangman"</Reference> – über Schweigen, Mitschuld und das schrittweise Wegsehen bei faschistischen Entwicklungen – verdeutlicht, warum aktive Gegenwehr demokratisch nicht nur zulässig, sondern geboten ist.
 
-Dies ist auch in der Demonstration in Gießen zu erkennen. Dort waren ca. 50.000 Demonstranten vor Ort, um gegen die AfD
-zu protestieren. Das sind wesentlich mehr, als der in Deutschland bekannte Anteil von gewaltbereiten Linksextremen in
-der Bevölkerung, von denen auch nur ein Bruchteil anwesend war.
+Auch in Gießen zeigt sich dieser Unterschied: Dort waren rund 50.000 Menschen vor Ort, um gegen die AfD zu protestieren.
+Schon deshalb ist es unplausibel, den gesamten Protest pauschal als Projekt gewaltbereiter Linksextremer darzustellen.
 
 Es gab nach Polizeiangaben auch nur wenige Zwischenfälle mit Gewalt, die aber von der Polizei schnell unterbunden
 wurden. Die überwältigende Mehrheit der Demonstranten hat ohne Gewaltausübung demonstriert.
 
 **Gewalt** ist in einer Demokratie **niemals akzeptabel**, egal von welcher Seite sie ausgeht. Gewalt gegen
-Menschen oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen. Dies ist auch grundsätzlich im breiten
-linken Spektrum Konsens. Gewalt ist aber auch kein linkes Phänomen, wie man daran erkennen kann, dass es im Jahr 2024
+Menschen oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen. Gewalt ist aber auch kein rein linkes
+Phänomen, wie man daran erkennen kann, dass es im Jahr 2024
 ca. 40.000 politisch motivierte Straftaten aus dem rechten Milieu gab und ca. 10.000 aus dem linken Spektrum. Gewalt
 gegen Menschen ist wesentlich mehr im rechten Spektrum vertreten, als Eigentumsdelikte, die im linken Spektrum für die
 Mehrheit der Straftaten verantwortlich sind. Ein aktuelles Beispiel: Bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</Reference> wurden Journalisten angegriffen, während die Polizei nicht einschritt.
 
-### Demonstrationen, was is erlaubt und was nicht
+### Demonstrationen: Was ist erlaubt und was nicht?
 
 Das Recht auf Versammlungsfreiheit und das Recht zu demonstrieren ist in Deutschland wichtig und grundgesetzlich
 geschützt. Nicht ohne Grund dürfen Städte und Gemeinden nicht einfach so eine Demonstration verbieten.
