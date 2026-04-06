@@ -91,7 +91,7 @@ export default defineContentConfig({
         sourceDate: z.date(),
         code: z.string(),
         title: z.string(),
-        publishedOn: z.date().or(z.null()),
+        publishedOn: z.date(),
         uri: z.string(),
         type: z.string(),
         verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
