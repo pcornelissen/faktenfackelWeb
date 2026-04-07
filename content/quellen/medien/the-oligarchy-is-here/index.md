@@ -6,7 +6,7 @@ description: US-amerikanische politische Kommentar-Seite, kritisiert Oligarchie 
 tags:
   - USA
   - Politik
-  - Trump
+  - Donald Trump
   - Protest
 ---
 

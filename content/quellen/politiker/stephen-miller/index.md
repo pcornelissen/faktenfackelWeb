@@ -5,8 +5,8 @@ name: Stephen Miller
 description: Stellvertretender Stabschef (Policy) im Weißen Haus unter Trump, Architekt der Einwanderungspolitik
 tags:
   - USA
-  - Trump
-  - Einwanderung
+  - Donald Trump
+  - Migration
   - Politik
 ---
 

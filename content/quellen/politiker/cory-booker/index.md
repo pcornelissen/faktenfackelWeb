@@ -7,7 +7,7 @@ tags:
   - USA
   - Demokraten
   - Senator
-  - Trump
+  - Donald Trump
 imageAuthor: U.S. Senat
 ---
 

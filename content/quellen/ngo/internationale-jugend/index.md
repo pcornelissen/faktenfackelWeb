@@ -7,7 +7,6 @@ tags:
   - Linksextremismus
   - Jugendorganisation
 ---
-<!-- claude:reviewed 2026-04-02 -->
 
 ## Über die Quelle
 

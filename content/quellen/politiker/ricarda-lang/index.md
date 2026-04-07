@@ -4,7 +4,7 @@ publishedOn: 2026-03-09
 name: Ricarda Lang
 description: Ehem. Bundesvorsitzende von Bündnis 90/Die Grünen, MdB
 tags:
-  - Grüne
+  - Bündnis 90/Die Grünen
   - Deutschland
   - MdB
 imageAuthor: Harald Krichel

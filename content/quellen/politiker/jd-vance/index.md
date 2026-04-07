@@ -5,7 +5,7 @@ name: JD Vance
 description: US-amerikanischer Politiker, Vizepräsident der USA (ab Januar 2025)
 tags:
   - USA
-  - Trump
+  - Donald Trump
   - MAGA
 ---
 

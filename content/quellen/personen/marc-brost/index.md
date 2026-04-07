@@ -8,7 +8,7 @@ tags:
   - Deutschland
   - Journalismus
   - USA
-  - Trump
+  - Donald Trump
 ---
 
 ## Über die Quelle

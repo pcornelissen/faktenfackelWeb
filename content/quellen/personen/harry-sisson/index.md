@@ -10,7 +10,7 @@ tags:
   - Facebook
   - TikTok
   - USA
-  - Trump
+  - Donald Trump
   - MAGA
   - Progressive
 ---

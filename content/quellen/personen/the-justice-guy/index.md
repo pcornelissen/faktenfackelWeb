@@ -9,7 +9,7 @@ tags:
   - USA
   - Justiz
   - Recht
-  - Trump
+  - Donald Trump
 ---
 
 ## Über die Quelle

@@ -5,7 +5,7 @@ name: Compact
 description: Verlag, Rechtsorientiert
 tags:
   - Verlag
-  - Fake News
+  - Desinformation
 ---
 
 ## Über die Quelle

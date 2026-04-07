@@ -6,7 +6,6 @@ description: Rechtsextremes Online-Medium mit systematischer Medienhetze und Des
 tags:
   - Medien
   - Rechtsextremismus
-  - Fake News
   - Desinformation
 ---
 

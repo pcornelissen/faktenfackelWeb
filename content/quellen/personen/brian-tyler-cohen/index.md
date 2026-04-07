@@ -5,7 +5,7 @@ name: Brian Tyler Cohen
 description: US-amerikanischer progressiver Politikkommentator, Podcaster und Newsletter-Autor
 tags:
   - USA
-  - Trump
+  - Donald Trump
   - Progressiv
   - Podcast
 ---

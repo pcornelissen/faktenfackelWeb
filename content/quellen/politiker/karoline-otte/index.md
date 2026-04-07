@@ -5,7 +5,7 @@ name: Karoline "Karo" Otte
 description: Bundestagsabgeordnete (Bündnis 90/Die Grünen), MdB
 imageAuthor: Stefan Kaminski
 tags:
-  - Grüne
+  - Bündnis 90/Die Grünen
   - Bundestag
   - Deutschland
   - Bundespolitik

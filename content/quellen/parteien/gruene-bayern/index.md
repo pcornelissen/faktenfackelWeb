@@ -4,7 +4,7 @@ publishedOn: 2026-03-09
 name: GRÜNE Bayern
 description: Landesverband Bündnis 90/Die Grünen Bayern
 tags:
-  - Grüne
+  - Bündnis 90/Die Grünen
   - Bayern
   - Deutschland
   - Klimapolitik
