@@ -4,6 +4,8 @@ publishedOn: 2026-04-02
 name: Internationale Jugend
 description: Sozialistische Jugendorganisation, Mitglied der FKO
 tags:
+  - Linksextremismus
+  - Jugendorganisation
 ---
 <!-- claude:reviewed 2026-04-02 -->
 
