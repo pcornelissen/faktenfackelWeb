@@ -3,6 +3,8 @@ import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, nowIso } from '~/utils/contentUtils'
 import { useReferencesStore } from '~/utils/referenceData'
 
+definePageMeta({ key: route => route.fullPath })
+
 const route = useRoute()
 const referencesStore = useReferencesStore()
 const category = route.params.category as string
@@ -10,11 +12,48 @@ const slug = (route.params.slug as string[]).join('/')
 const categoryPath = `/lagerfeuer/${category}`
 const basePath = route.path
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('lagerfeuer', basePath, {
-    fields: ['subtitle'],
-  }).where('path', 'NOT LIKE', '%_info').where('publishedOn', '<=', nowIso())
-})
+// Series detection: path has 5+ segments → /lagerfeuer/category/series/article
+const pathSegments = basePath.split('/')
+const isSeries = pathSegments.length >= 5
+const seriesPath = isSeries ? pathSegments.slice(0, -1).join('/') : null
+
+function chapterLabel(part: number | undefined): string {
+  if (part == null) return ''
+  if (part === 0) return 'Einleitung'
+  return `Teil ${part}`
+}
+
+// Global surround only for non-series articles
+const { data: surround } = isSeries
+  ? { data: ref(null) }
+  : await useAsyncData(`${route.path}-surround`, () => {
+      return queryCollectionItemSurroundings('lagerfeuer', basePath, {
+        fields: ['subtitle'],
+      }).where('path', 'NOT LIKE', '%_info').where('publishedOn', '<=', nowIso())
+    })
+
+// Series chapter navigation
+type SeriesChapter = { title: string, path: string, part: number }
+const { data: seriesChapters } = isSeries
+  ? await useAsyncData(`series-${seriesPath}`, () =>
+      queryCollection('lagerfeuer')
+        .where('path', 'LIKE', seriesPath + '/%')
+        .where('publishedOn', '<=', nowIso())
+        .order('part', 'ASC')
+        .all() as Promise<SeriesChapter[]>,
+    )
+  : { data: ref<SeriesChapter[] | null>(null) }
+
+const currentSeriesIndex = computed(() =>
+  seriesChapters.value?.findIndex(c => c.path === basePath) ?? -1,
+)
+const firstChapter = computed(() => seriesChapters.value?.[0] ?? null)
+const prevChapter = computed(() =>
+  currentSeriesIndex.value > 0 ? (seriesChapters.value?.[currentSeriesIndex.value - 1] ?? null) : null,
+)
+const nextChapter = computed(() =>
+  seriesChapters.value?.[currentSeriesIndex.value + 1] ?? null,
+)
 
 const { data: page } = await useAsyncData(
   `lagerfeuer-${slug}`,
@@ -27,9 +66,10 @@ if (!page.value) {
 
 const title = page.value?.title || `Lagerfeuer`
 const subtitle = page.value?.subtitle || ``
+const displayChapterLabel = chapterLabel(page.value?.part)
 
 await definePageData({
-  title: title + ' - Faktenfackel',
+  title: (displayChapterLabel ? `${displayChapterLabel}: ` : '') + title + ' - Faktenfackel',
   pageHeading: title,
   pageSubHeading: subtitle as string,
   description: page.value?.description,
@@ -37,7 +77,7 @@ await definePageData({
 })
 
 useSeoMeta({
-  title: title + ' - Faktenfackel',
+  title: (displayChapterLabel ? `${displayChapterLabel}: ` : '') + title + ' - Faktenfackel',
   description: page.value?.description || subtitle,
   articleModifiedTime: page.value?.date || new Date().toLocaleDateString(),
 })
@@ -63,14 +103,22 @@ await referencesStore.fetchFor(page.value)
 
 <template>
   <div>
-    <BackLink :to="categoryPath">
-      Zurück zum Bereich {{ capitalize(category) }}
+    <BackLink :to="(isSeries && seriesPath) || categoryPath || '/lagerfeuer'">
+      {{ isSeries ? 'Zur Serie' : `Zurück zum Bereich ${capitalize(category)}` }}
     </BackLink>
 
     <div v-if="page">
       <div class="article-shell">
         <div class="article-header">
           <div class="article-headline">
+            <span
+              v-if="displayChapterLabel"
+              class="article-chapter-label"
+            >{{ displayChapterLabel }}</span>
+            <span
+              v-if="displayChapterLabel"
+              class="article-headline-sep"
+            >·</span>
             Stand: {{ lastChange }}
           </div>
           <h1 class="article-title">
@@ -118,15 +166,54 @@ await referencesStore.fetchFor(page.value)
             v-if="page.body"
             :value="page"
           />
-          <USeparator
-            v-if="surround?.filter(Boolean).length"
-            class="my-8"
-          />
-          <UContentSurround :surround="(surround as any)">
-            <template #link-description="{ link }">
-              {{ link?.subtitle || link?.description }}
-            </template>
-          </UContentSurround>
+
+          <!-- Series navigation for chapter articles -->
+          <template v-if="isSeries && seriesChapters?.length">
+            <USeparator class="my-8" />
+            <nav class="series-nav">
+              <NuxtLink
+                v-if="prevChapter"
+                :to="prevChapter.path"
+                class="series-nav__item series-nav__prev"
+              >
+                <span class="series-nav__dir">← {{ chapterLabel(prevChapter.part) }}</span>
+                <span class="series-nav__title">{{ prevChapter.title }}</span>
+              </NuxtLink>
+              <div
+                v-else
+                class="series-nav__item series-nav__placeholder"
+              />
+              <NuxtLink
+                v-if="firstChapter && firstChapter.path !== basePath"
+                :to="seriesPath!"
+                class="series-nav__overview"
+              >
+                Zur Serienübersicht
+              </NuxtLink>
+              <NuxtLink
+                v-if="nextChapter"
+                :to="nextChapter.path"
+                class="series-nav__item series-nav__next"
+              >
+                <span class="series-nav__dir">{{ chapterLabel(nextChapter.part) }} →</span>
+                <span class="series-nav__title">{{ nextChapter.title }}</span>
+              </NuxtLink>
+              <div
+                v-else
+                class="series-nav__item series-nav__placeholder"
+              />
+            </nav>
+          </template>
+
+          <!-- Global surround for regular articles -->
+          <template v-else-if="surround?.filter(Boolean).length">
+            <USeparator class="my-8" />
+            <UContentSurround :surround="(surround as any)">
+              <template #link-description="{ link }">
+                {{ link?.subtitle || link?.description }}
+              </template>
+            </UContentSurround>
+          </template>
         </div>
       </div>
     </div>
@@ -165,6 +252,18 @@ await referencesStore.fetchFor(page.value)
   text-transform: uppercase;
   color: var(--flame);
   margin-bottom: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.article-headline-sep {
+  opacity: 0.4;
+}
+
+.article-chapter-label {
+  font-weight: 700;
 }
 
 .article-title {
@@ -197,6 +296,78 @@ await referencesStore.fetchFor(page.value)
   padding: 1.8rem 2.75rem 2.8rem;
 }
 
+/* Series navigation */
+.series-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.series-nav__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--fackel-border);
+  border-radius: 0.75rem;
+  background: #faf7f2;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.series-nav__item:hover {
+  background: #f3ede4;
+  border-color: var(--flame);
+}
+
+.series-nav__placeholder {
+  background: transparent;
+  border-color: transparent;
+}
+
+.series-nav__next {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.series-nav__dir {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--flame);
+  font-weight: 600;
+}
+
+.series-nav__title {
+  font-size: 0.95rem;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.series-nav__overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.9rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid var(--fackel-border);
+  border-radius: 0.75rem;
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.series-nav__overview:hover {
+  color: var(--flame);
+  border-color: var(--flame);
+}
+
 @media screen and (max-width: 560px) {
   .article-header {
     padding: 1.8rem 1.2rem 1.3rem;
@@ -204,6 +375,20 @@ await referencesStore.fetchFor(page.value)
 
   .article-body {
     padding: 1.25rem 1.2rem 2rem;
+  }
+
+  .series-nav {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .series-nav__next {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .series-nav__overview {
+    justify-content: flex-start;
   }
 }
 </style>

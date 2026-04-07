@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-07T08:47:05.529Z",
+  "generatedAt": "2026-04-07T22:32:55.871Z",
   "stats": {
-    "sources": 273,
-    "links": 563,
+    "sources": 278,
+    "links": 567,
     "quotes": 25,
     "groups": 12,
-    "codes": 580
+    "codes": 584
   },
   "sources": [
     {
@@ -242,6 +242,21 @@
       "hasImage": true
     },
     {
+      "path": "medien/bild-zeitung",
+      "group": "medien",
+      "slug": "bild-zeitung",
+      "name": "Bild-Zeitung",
+      "description": "Größte deutsche Boulevardzeitung, erschienen im Axel-Springer-Verlag seit 1952",
+      "tags": [
+        "Deutschland",
+        "Medien",
+        "Boulevardpresse",
+        "more-research-needed"
+      ],
+      "date": "2026-04-08",
+      "hasImage": true
+    },
+    {
       "path": "medien/blackoutthesystem",
       "group": "medien",
       "slug": "blackoutthesystem",
@@ -291,7 +306,7 @@
       "description": "Verlag, Rechtsorientiert",
       "tags": [
         "Verlag",
-        "Fake News"
+        "Desinformation"
       ],
       "date": "2026-01-11",
       "hasImage": true
@@ -532,7 +547,6 @@
       "tags": [
         "Medien",
         "Rechtsextremismus",
-        "Fake News",
         "Desinformation"
       ],
       "date": "2026-04-06",
@@ -810,7 +824,7 @@
       "slug": "staatsanzeiger-bw",
       "name": "Staatsanzeiger Baden-Württemberg",
       "tags": [
-        "medien",
+        "Medien",
         "regional",
         "baden-württemberg"
       ],
@@ -911,7 +925,7 @@
       "tags": [
         "USA",
         "Politik",
-        "Trump",
+        "Donald Trump",
         "Protest"
       ],
       "date": "2026-03-09",
@@ -943,10 +957,10 @@
         "Medien",
         "Medienkritik",
         "Journalismus",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
-      "date": "2026-04-06",
-      "hasImage": false
+      "date": "2026-04-08",
+      "hasImage": true
     },
     {
       "path": "medien/volksstimme",
@@ -967,7 +981,7 @@
       "slug": "volksverpetzer",
       "name": "Volksverpetzer",
       "tags": [
-        "medien",
+        "Medien",
         "faktenchecks",
         "antifakenews"
       ],
@@ -1219,7 +1233,10 @@
       "slug": "internationale-jugend",
       "name": "Internationale Jugend",
       "description": "Sozialistische Jugendorganisation, Mitglied der FKO",
-      "tags": [],
+      "tags": [
+        "Linksextremismus",
+        "Jugendorganisation"
+      ],
       "date": "2026-04-02",
       "hasImage": true
     },
@@ -1287,7 +1304,7 @@
       "name": "GRÜNE Bayern",
       "description": "Landesverband Bündnis 90/Die Grünen Bayern",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Bayern",
         "Deutschland",
         "Klimapolitik"
@@ -1415,7 +1432,7 @@
       "description": "US-amerikanischer progressiver Politikkommentator, Podcaster und Newsletter-Autor",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Progressiv",
         "Podcast"
       ],
@@ -1603,7 +1620,7 @@
         "Facebook",
         "TikTok",
         "USA",
-        "Trump",
+        "Donald Trump",
         "MAGA",
         "Progressive"
       ],
@@ -1766,7 +1783,7 @@
         "Deutschland",
         "Journalismus",
         "USA",
-        "Trump"
+        "Donald Trump"
       ],
       "date": "2026-03-27",
       "hasImage": true
@@ -2142,7 +2159,7 @@
         "USA",
         "Justiz",
         "Recht",
-        "Trump"
+        "Donald Trump"
       ],
       "date": "2026-03-27",
       "hasImage": true
@@ -2359,7 +2376,7 @@
       "name": "Andreas Audretsch",
       "description": "Stellvertretender Fraktionsvorsitzender Bündnis 90/Die Grünen im Bundestag",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Politiker",
         "Bundestag",
         "Haushalt",
@@ -2401,7 +2418,7 @@
       "name": "Belit Onay",
       "description": "Oberbürgermeister der Landeshauptstadt Hannover (Bündnis 90/Die Grünen), seit 2019 im Amt",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Deutschland",
         "Kommunalpolitik",
         "Hannover"
@@ -2477,7 +2494,7 @@
         "USA",
         "Demokraten",
         "Senator",
-        "Trump"
+        "Donald Trump"
       ],
       "date": "2026-03-09",
       "hasImage": true
@@ -2549,7 +2566,7 @@
       "name": "Felix Banaszak",
       "description": "Politiker, Grüne, MdB, Bundesvorsitzender der Grünen",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Sozialpolitik",
         "Deutschland",
         "MdB"
@@ -2595,7 +2612,7 @@
       "name": "Franziska Brantner",
       "description": "Bundesvorsitzende von Bündnis 90/Die Grünen, MdB",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Deutschland",
         "MdB",
         "Bundesvorsitzende"
@@ -2686,7 +2703,7 @@
       "description": "US-amerikanischer Politiker, Vizepräsident der USA (ab Januar 2025)",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "MAGA"
       ],
       "date": "2026-03-27",
@@ -2762,7 +2779,7 @@
       "name": "Karoline \"Karo\" Otte",
       "description": "Bundestagsabgeordnete (Bündnis 90/Die Grünen), MdB",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Bundestag",
         "Deutschland",
         "Bundespolitik"
@@ -2854,7 +2871,11 @@
       "slug": "lisa-badum",
       "name": "Lisa Badum",
       "description": "MdB Bündnis 90/Die Grünen, klima- und energiepolitische Sprecherin",
-      "tags": [],
+      "tags": [
+        "Bündnis 90/Die Grünen",
+        "Bundestag",
+        "Klimapolitik"
+      ],
       "date": "2026-03-10",
       "hasImage": true
     },
@@ -2909,7 +2930,10 @@
       "slug": "marlene-schoenberger",
       "name": "Marlene Schönberger",
       "description": "MdB Bündnis 90/Die Grünen, Sprecherin für Sucht- und Drogenpolitik",
-      "tags": [],
+      "tags": [
+        "Bündnis 90/Die Grünen",
+        "Bundestag"
+      ],
       "date": "2026-03-10",
       "hasImage": true
     },
@@ -3035,7 +3059,7 @@
       "name": "Ricarda Lang",
       "description": "Ehem. Bundesvorsitzende von Bündnis 90/Die Grünen, MdB",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Deutschland",
         "MdB"
       ],
@@ -3049,7 +3073,7 @@
       "name": "Robert Habeck",
       "description": "Bundesvorsitzender von Bündnis 90/Die Grünen, ehem. Bundeswirtschaftsminister, MdB",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Deutschland",
         "MdB",
         "Klimapolitik",
@@ -3112,8 +3136,8 @@
       "description": "Stellvertretender Stabschef (Policy) im Weißen Haus unter Trump, Architekt der Einwanderungspolitik",
       "tags": [
         "USA",
-        "Trump",
-        "Einwanderung",
+        "Donald Trump",
+        "Migration",
         "Politik"
       ],
       "date": "2026-03-27",
@@ -3126,7 +3150,7 @@
       "name": "Taylan Kurt",
       "description": "Politiker, Bündnis 90/Die Grünen",
       "tags": [
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Journalist",
         "Mieten",
         "Energie",
@@ -3144,7 +3168,7 @@
       "name": "Till Steffen",
       "description": "Politiker, Bündnis 90/Die Grünen",
       "tags": [
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Journalist",
         "Mieten",
         "Energie",
@@ -3165,7 +3189,7 @@
         "Deutschland",
         "NRW",
         "Landtag",
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Antifaschismus"
       ],
       "date": "2026-03-10",
@@ -3191,7 +3215,7 @@
       "name": "Toni Schuberl",
       "description": "Politiker, Bündnis 90/Die Grünen, Landtag Bayern",
       "tags": [
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Agrarpolitik",
         "Klimaschutz",
         "Antifaschist"
@@ -3271,6 +3295,22 @@
       ],
       "date": "2026-01-15",
       "hasImage": true
+    },
+    {
+      "path": "portale/strom-report",
+      "group": "portale",
+      "slug": "strom-report",
+      "name": "Strom-Report",
+      "description": "Unabhängiges Energie-Informationsportal mit Datenauswertungen zu Strompreisen und Energiemarkt, basierend auf Eurostat- und BDEW-Daten",
+      "tags": [
+        "Energie",
+        "Strompreise",
+        "Eurostat",
+        "Deutschland",
+        "Europa"
+      ],
+      "date": "2026-04-07",
+      "hasImage": false
     },
     {
       "path": "portale/wikipedia",
@@ -3412,6 +3452,22 @@
       "hasImage": true
     },
     {
+      "path": "staatlich/bundesnetzagentur",
+      "group": "staatlich",
+      "slug": "bundesnetzagentur",
+      "name": "Bundesnetzagentur",
+      "description": "Offizielle Regulierungsbehörde für Strom, Gas, Telekommunikation, Post und Eisenbahnen in Deutschland",
+      "tags": [
+        "Deutschland",
+        "Regulierung",
+        "Energie",
+        "Infrastruktur",
+        "Primärquelle"
+      ],
+      "date": "2026-04-07",
+      "hasImage": false
+    },
+    {
       "path": "staatlich/bundestag",
       "group": "staatlich",
       "slug": "bundestag",
@@ -3438,6 +3494,24 @@
         "Gericht"
       ],
       "date": "2026-04-05",
+      "hasImage": false
+    },
+    {
+      "path": "staatlich/eaudeparis",
+      "group": "staatlich",
+      "slug": "eaudeparis",
+      "name": "Eau de Paris",
+      "description": "Öffentlicher Wasserversorger der Stadt Paris nach der Rekommunalisierung 2010",
+      "tags": [
+        "research-done-review-pending",
+        "Frankreich",
+        "Paris",
+        "Wasser",
+        "Rekommunalisierung",
+        "Daseinsvorsorge",
+        "Primärquelle"
+      ],
+      "date": "2026-04-07",
       "hasImage": false
     },
     {
@@ -3520,9 +3594,9 @@
         "Medien",
         "Medienkonzentration",
         "Regulierung",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
-      "date": "2026-04-06",
+      "date": "2026-04-08",
       "hasImage": false
     },
     {
@@ -3614,7 +3688,9 @@
       "name": "CeMAS",
       "description": "Center für Monitoring, Analyse und Strategie - Forschung zu Verschwörungsideologien und Desinformation",
       "tags": [
-        "research-done-review-pending"
+        "Desinformation",
+        "Extremismus",
+        "Forschung"
       ],
       "date": "2026-04-07",
       "hasImage": false
@@ -3638,16 +3714,16 @@
       "path": "wissenschaft/dellavigna-kaplan",
       "group": "wissenschaft",
       "slug": "dellavigna-kaplan",
-      "name": "DellaVigna & Kaplan (2007) - Fox News Effect",
+      "name": "DellaVigna & Kaplan (2007) - The Fox News Effect",
       "description": "Ökonometrische Studie zum kausalen Einfluss von Fox News auf das Wahlverhalten in den USA",
       "tags": [
         "Wissenschaft",
         "Medieneinfluss",
         "Agenda-Setting",
         "USA",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
-      "date": "2026-04-06",
+      "date": "2026-04-08",
       "hasImage": false
     },
     {
@@ -3662,6 +3738,18 @@
         "Migration"
       ],
       "date": "2026-01-16",
+      "hasImage": true
+    },
+    {
+      "path": "wissenschaft/diw-berlin",
+      "group": "wissenschaft",
+      "slug": "diw-berlin",
+      "name": "DIW Berlin",
+      "description": "Deutsches Institut für Wirtschaftsforschung, führendes unabhängiges Wirtschaftsforschungsinstitut und Herausgeber des Sozio-oekonomischen Panels (SOEP)",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-07",
       "hasImage": true
     },
     {
@@ -3910,9 +3998,9 @@
         "Medien",
         "Journalismus",
         "Forschung",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
-      "date": "2026-04-06",
+      "date": "2026-04-08",
       "hasImage": false
     },
     {
@@ -4051,7 +4139,7 @@
       "type": "reel",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Politik",
         "Stephen Miller"
       ],
@@ -4075,8 +4163,8 @@
       "sourceDate": "2026-02-01",
       "verdict": "complex",
       "coSources": [
-        "tino-chrupalla",
-        "friedrich-merz"
+        "Tino Chrupalla",
+        "Friedrich Merz"
       ]
     },
     {
@@ -4088,7 +4176,7 @@
       "type": "post",
       "tags": [
         "AfD",
-        "Trump",
+        "Donald Trump",
         "Außenpolitik"
       ],
       "sourceDate": "2026-01-25",
@@ -4196,7 +4284,7 @@
       ],
       "sourceDate": "2026-01-27",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -4211,7 +4299,7 @@
         "SPD",
         "Bundestag",
         "Verschwörungstheorie",
-        "Fake News",
+        "Desinformation",
         "Klimawandel",
         "Facebook",
         "research-done-review-pending"
@@ -4270,7 +4358,7 @@
         "ICE",
         "Migration",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Abschiebung",
         "Menschenrechte"
       ],
@@ -4358,13 +4446,13 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "MAGA",
         "Recht"
       ],
       "sourceDate": "2025-10-16",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -4377,13 +4465,13 @@
       "tags": [
         "USA",
         "ICE",
-        "Immigration",
+        "Migration",
         "Minneapolis",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-07",
       "coSources": [
-        "donald-trump",
+        "Donald Trump",
         "jd-vance"
       ]
     },
@@ -4420,7 +4508,7 @@
       ],
       "sourceDate": "2026-01-19",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -4451,7 +4539,7 @@
       "uri": "https://www.facebook.com/reel/1164927768977659",
       "type": "facebook",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "Faschismus",
         "USA",
         "Geschichte",
@@ -4461,7 +4549,7 @@
       ],
       "sourceDate": "2025-10-31",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -4476,7 +4564,7 @@
         "Faschismus",
         "Geschichte",
         "ICE",
-        "Einwanderungspolitik"
+        "Migration"
       ],
       "sourceDate": "2026-01-13",
       "coSources": []
@@ -4528,11 +4616,11 @@
         "Geflüchtete",
         "Migration",
         "Spaltung",
-        "Grüne"
+        "Bündnis 90/Die Grünen"
       ],
       "sourceDate": "2026-01-01",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -4547,13 +4635,13 @@
         "Deutschland",
         "CDU",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Europa"
       ],
       "sourceDate": "2026-02-01",
       "coSources": [
-        "donald-trump",
-        "friedrich-merz"
+        "Donald Trump",
+        "Friedrich Merz"
       ]
     },
     {
@@ -4588,8 +4676,8 @@
       "tags": [
         "USA",
         "ICE",
-        "Trump",
-        "Einwanderungspolitik"
+        "Donald Trump",
+        "Migration"
       ],
       "sourceDate": "2026-01-11",
       "coSources": []
@@ -4603,7 +4691,7 @@
       "type": "facebook",
       "tags": [
         "research-done-review-pending",
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Bürgergeld",
         "Union",
         "Sozialpolitik",
@@ -4643,7 +4731,7 @@
       "sourceDate": "2025-10-28",
       "verdict": "null",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -4743,7 +4831,7 @@
       "verdict": "null",
       "coSources": [
         "dts-nachrichtenagentur",
-        "tino-chrupalla"
+        "Tino Chrupalla"
       ]
     },
     {
@@ -4770,7 +4858,7 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Asbest",
         "Russland",
         "Gesundheit",
@@ -4944,7 +5032,7 @@
       ],
       "sourceDate": "2022-12-02",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -5155,13 +5243,13 @@
       "tags": [
         "USA",
         "ICE",
-        "Immigration",
+        "Migration",
         "Minneapolis",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-08",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -5192,12 +5280,32 @@
       "uri": "https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/vermoegen-und-finanzen-privater-haushalte-in-deutschland-ergebnisse-der-vermoegensbefragung-2023--954598",
       "type": "study",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Wirtschaft",
         "Ungleichheit",
         "Vermögen"
       ],
       "sourceDate": "2025-04-24",
+      "verdict": "true",
+      "coSources": []
+    },
+    {
+      "path": "staatlich/bundesnetzagentur/links/20241120.marktuntersuchung-eisenbahnen-2024",
+      "source": "staatlich/bundesnetzagentur",
+      "code": "bundesnetzagentur-marktuntersuchung-eisenbahnen-2024",
+      "title": "Bundesnetzagentur: Marktuntersuchung Eisenbahnen 2024",
+      "uri": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2024/20241120_EisenbahnMarkt.html",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Deutsche Bahn",
+        "Eisenbahn",
+        "Infrastruktur",
+        "Pünktlichkeit",
+        "Deutschland"
+      ],
+      "sourceDate": "2024-11-20",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -5216,8 +5324,8 @@
       "sourceDate": "2026-03-19",
       "verdict": "false",
       "coSources": [
-        "afd",
-        "die-linke",
+        "AfD",
+        "Die Linke",
         "mareike-hermeier",
         "paul-schmidt",
         "klaus-wiener"
@@ -5239,7 +5347,27 @@
       ],
       "sourceDate": "2026-03-29",
       "coSources": [
-        "afd"
+        "AfD"
+      ]
+    },
+    {
+      "path": "staatlich/bundestag/links/20240226.bahn-puenktlichkeit-2023",
+      "source": "staatlich/bundestag",
+      "code": "bundestag-bahn-puenktlichkeit-2023",
+      "title": "Bundestag: Nur 64 Prozent der Fernverkehrszüge waren 2023 pünktlich",
+      "uri": "https://www.bundestag.de/presse/hib/kurzmeldungen-991576",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Deutsche Bahn",
+        "Pünktlichkeit",
+        "Infrastruktur",
+        "Deutschland"
+      ],
+      "sourceDate": "2024-02-26",
+      "verdict": "true",
+      "coSources": [
+        "deutsche-bahn"
       ]
     },
     {
@@ -5327,7 +5455,7 @@
       ],
       "sourceDate": "2026-03-13",
       "coSources": [
-        "afd",
+        "AfD",
         "ulrich-siegmund",
         "mdr",
         "deutschlandfunk",
@@ -5362,7 +5490,6 @@
       "uri": "https://cemas.io/publikationen/desinformation-ueber-entwicklungszusammenarbeit",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Desinformation",
         "Russland",
         "Telegram",
@@ -5385,14 +5512,14 @@
         "Social Media",
         "Politik",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Sanktionen",
         "Erpressung",
         "research-done-review-pending"
       ],
       "sourceDate": "2026-01-01",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -5451,19 +5578,19 @@
       "type": "reel",
       "tags": [
         "ICE",
-        "Trump",
+        "Donald Trump",
         "USA",
         "Kongress",
         "Pfefferspray",
         "Adelita Grijalva",
-        "Einwanderung",
+        "Migration",
         "research-done-review-pending"
       ],
       "sourceDate": "2026-03-08",
       "verdict": "null",
       "coSources": [
         "adelita-grijalva",
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -5477,13 +5604,13 @@
         "ICE",
         "USA",
         "Polizeigewalt",
-        "Einwanderung",
+        "Migration",
         "Bürgerrechte"
       ],
       "sourceDate": "2026-01-15",
       "verdict": "true",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -5497,13 +5624,13 @@
         "ICE",
         "USA",
         "Polizeigewalt",
-        "Einwanderung",
+        "Migration",
         "Recht"
       ],
       "sourceDate": "2026-01-24",
       "verdict": "misleading",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -5604,7 +5731,7 @@
       "sourceDate": "2026-02-23",
       "verdict": "true",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -5619,7 +5746,7 @@
         "Schwarzenberg",
         "Demo",
         "Antifa",
-        "Fake News",
+        "Desinformation",
         "Weihnachtsmarkt"
       ],
       "sourceDate": "2025-12-23",
@@ -5639,7 +5766,6 @@
         "Migration",
         "MAGA",
         "USA",
-        "Einwanderung",
         "Mythen"
       ],
       "sourceDate": "2026-02-01",
@@ -5675,7 +5801,7 @@
       "type": "reel",
       "tags": [
         "Autoritarismus",
-        "Fake News",
+        "Desinformation",
         "Strategie",
         "MAGA",
         "research-done-review-pending"
@@ -5740,10 +5866,10 @@
       ],
       "sourceDate": "2026-03-05",
       "coSources": [
-        "afd",
+        "AfD",
         "verfassungsschutz",
         "martin-sellner",
-        "alice-weidel"
+        "Alice Weidel"
       ]
     },
     {
@@ -5761,7 +5887,7 @@
       ],
       "sourceDate": "2026-04-02",
       "coSources": [
-        "afd",
+        "AfD",
         "ansgar-schledde",
         "stefan-henze",
         "martina-uhr",
@@ -5784,7 +5910,7 @@
       ],
       "sourceDate": "2026-02-24",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -5804,7 +5930,7 @@
       "sourceDate": "2026-03-26",
       "verdict": "false",
       "coSources": [
-        "tino-chrupalla"
+        "Tino Chrupalla"
       ]
     },
     {
@@ -5827,7 +5953,7 @@
       "coSources": [
         "peter-hahne",
         "markus-krall",
-        "alice-weidel",
+        "Alice Weidel",
         "AfD"
       ]
     },
@@ -5916,7 +6042,7 @@
       "sourceDate": "2026-03-10",
       "verdict": "misleading",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -5975,7 +6101,7 @@
       "coSources": [
         "peter-hahne",
         "markus-krall",
-        "tino-chrupalla",
+        "Tino Chrupalla",
         "AfD"
       ]
     },
@@ -6014,7 +6140,7 @@
       ],
       "sourceDate": "2026-02-27",
       "coSources": [
-        "afd",
+        "AfD",
         "landtag-sachsen-anhalt",
         "ulrich-siegmund"
       ]
@@ -6030,7 +6156,7 @@
         "Kriminalität",
         "Migration",
         "CDU",
-        "Merz",
+        "Friedrich Merz",
         "research-done-review-pending"
       ],
       "sourceDate": "2025-10-23",
@@ -6061,7 +6187,7 @@
         "enrico-komning",
         "dietmar-friedhof",
         "lena-kotre",
-        "alice-weidel"
+        "Alice Weidel"
       ]
     },
     {
@@ -6074,13 +6200,13 @@
       "tags": [
         "research-done-review-pending",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Verfassung",
         "Demokraten"
       ],
       "sourceDate": "2025-11-20",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -6093,9 +6219,9 @@
       "tags": [
         "ICE",
         "USA",
-        "Einwanderung",
+        "Migration",
         "Verhaftung",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-17",
       "verdict": "complex",
@@ -6121,8 +6247,8 @@
     {
       "path": "wissenschaft/dellavigna-kaplan/links/20070801.dellavigna-kaplan-fox-news-effect-wahlverhalten",
       "source": "wissenschaft/dellavigna-kaplan",
-      "code": "dellavigna-kaplan-fox-news-effect-2007",
-      "title": "DellaVigna & Kaplan: The Fox News Effect - Media Bias and Voting (2007)",
+      "code": "dellavigna-kaplan-fox-news-effect-wahlverhalten-2007",
+      "title": "The Fox News Effect: Medienbias und Wahlverhalten in den USA (2007)",
       "uri": "https://academic.oup.com/qje/article/122/3/1187/1879517",
       "type": "study",
       "tags": [
@@ -6131,7 +6257,7 @@
         "Agenda-Setting",
         "Wahlverhalten",
         "USA",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2007-08-01",
       "coSources": []
@@ -6153,7 +6279,7 @@
       "verdict": "misleading",
       "coSources": [
         "nicolas-maduro",
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -6166,7 +6292,7 @@
       "tags": [
         "AfD",
         "Kriminalität",
-        "Fake News",
+        "Desinformation",
         "Gewalt",
         "Videobeweis",
         "Rechtsextremismus",
@@ -6174,7 +6300,7 @@
       ],
       "sourceDate": "2026-03-06",
       "coSources": [
-        "afd",
+        "AfD",
         "michael-maurer",
         "winhart-andreas"
       ]
@@ -6194,7 +6320,7 @@
       ],
       "sourceDate": "2026-02-06",
       "coSources": [
-        "afd",
+        "AfD",
         "daniel-halemba",
         "bjorn-hoecke",
         "arppe-holger"
@@ -6252,17 +6378,18 @@
     {
       "path": "statistik/destatis/links/20260203.einkommensungleichheit",
       "source": "statistik/destatis",
-      "code": "destatis-einkommensungleichheit-gini-2026",
+      "code": "destatis-einkommensungleichheit-gini-eusilc",
       "title": "Einkommensungleichheit in Deutschland: Gini-Koeffizient nach EU-SILC",
       "uri": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-ungleichheit-zvgl.html",
       "type": "statistics",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Wirtschaft",
         "Ungleichheit",
         "Einkommen"
       ],
       "sourceDate": "2026-02-03",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -6306,9 +6433,9 @@
         "USA",
         "Texas",
         "ICE",
-        "Einwanderung",
+        "Migration",
         "Abschiebung",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2025-10-18",
       "coSources": [
@@ -6357,7 +6484,7 @@
         "USA",
         "Protest",
         "ICE",
-        "Immigration"
+        "Migration"
       ],
       "sourceDate": "2026-01-11",
       "verdict": "misleading",
@@ -6415,7 +6542,7 @@
       ],
       "sourceDate": "2026-01-07",
       "coSources": [
-        "robert-kennedy-jr"
+        "Robert Kennedy Jr."
       ]
     },
     {
@@ -6435,7 +6562,7 @@
       "sourceDate": "2026-02-01",
       "verdict": "true",
       "coSources": [
-        "robert-kennedy-jr"
+        "Robert Kennedy Jr."
       ]
     },
     {
@@ -6485,7 +6612,7 @@
       "tags": [
         "Impfung",
         "RFK",
-        "Robert-Kennedy-Jr",
+        "Robert Kennedy Jr.",
         "Falschinformation",
         "USA",
         "Gesundheitspolitik",
@@ -6493,7 +6620,7 @@
       ],
       "sourceDate": "2025-12-14",
       "coSources": [
-        "robert-kennedy-jr"
+        "Robert Kennedy Jr."
       ]
     },
     {
@@ -6505,7 +6632,7 @@
       "type": "facebook",
       "tags": [
         "RFK",
-        "Robert-Kennedy-Jr",
+        "Robert Kennedy Jr.",
         "Impfung",
         "Quecksilber",
         "Thimerosal",
@@ -6517,7 +6644,7 @@
       "sourceDate": "2025-06-16",
       "verdict": "false",
       "coSources": [
-        "robert-kennedy-jr"
+        "Robert Kennedy Jr."
       ]
     },
     {
@@ -6529,7 +6656,7 @@
       "type": "facebook",
       "tags": [
         "RFK",
-        "Robert-Kennedy-Jr",
+        "Robert Kennedy Jr.",
         "Spanische-Grippe",
         "Impfung",
         "Geschichte",
@@ -6540,7 +6667,7 @@
       ],
       "sourceDate": "2025-12-15",
       "coSources": [
-        "robert-kennedy-jr"
+        "Robert Kennedy Jr."
       ]
     },
     {
@@ -6561,7 +6688,7 @@
       ],
       "sourceDate": "2026-02-01",
       "coSources": [
-        "robert-kennedy-jr"
+        "Robert Kennedy Jr."
       ]
     },
     {
@@ -6579,6 +6706,28 @@
       "sourceDate": "2026-01-10",
       "coSources": [
         "drayton-nay"
+      ]
+    },
+    {
+      "path": "staatlich/eaudeparis/links/20100101.paris-rekommunalisierung-wasser-2010",
+      "source": "staatlich/eaudeparis",
+      "code": "eaudeparis-rekommunalisierung-paris-2010",
+      "title": "Eau de Paris: Warum Paris 2010 die Wasserversorgung rekommunalisierte",
+      "uri": "https://www.eaudeparis.fr/en/faq/why-does-the-city-of-paris-want-to-remunicipalise-the-public-water-service-in-2010",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Paris",
+        "Wasser",
+        "Rekommunalisierung",
+        "Daseinsvorsorge",
+        "Frankreich"
+      ],
+      "sourceDate": "2010-01-01",
+      "verdict": "true",
+      "coSources": [
+        "veolia",
+        "suez"
       ]
     },
     {
@@ -6631,7 +6780,7 @@
       ],
       "sourceDate": "2026-01-10",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -6642,7 +6791,7 @@
       "uri": "https://www.facebook.com/reel/906685915147866",
       "type": "facebook",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "South Park",
         "Kennedy Center",
         "USA",
@@ -6691,7 +6840,7 @@
       "sourceDate": "2026-02-24",
       "verdict": "true",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -6811,7 +6960,7 @@
       "tags": [
         "USA",
         "Politik",
-        "Trump",
+        "Donald Trump",
         "Hitler-Vergleich"
       ],
       "sourceDate": "2026-01-15",
@@ -6901,7 +7050,7 @@
       "tags": [
         "USA",
         "MAGA",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-27",
       "coSources": [
@@ -6918,13 +7067,13 @@
       "tags": [
         "USA",
         "ICE",
-        "Trump",
-        "Einwanderung",
+        "Donald Trump",
+        "Migration",
         "Deportation"
       ],
       "sourceDate": "2026-01-11",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -6957,8 +7106,8 @@
       "tags": [
         "USA",
         "ICE",
-        "Trump",
-        "Einwanderung",
+        "Donald Trump",
+        "Migration",
         "Aktivismus"
       ],
       "sourceDate": "2026-01-08",
@@ -6982,7 +7131,7 @@
       "sourceDate": "2025-10-17",
       "verdict": "true",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -7031,12 +7180,12 @@
         "USA",
         "Wahlrecht",
         "Wählerunterdrückung",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-21",
       "verdict": "true",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -7122,7 +7271,6 @@
       "type": "facebook",
       "tags": [
         "Migration",
-        "Einwanderung",
         "USA",
         "Wirtschaft",
         "MAGA"
@@ -7178,9 +7326,9 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Einwanderung",
+        "Migration",
         "Abschiebung",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2025-09-25",
       "verdict": "true",
@@ -7409,14 +7557,14 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Venezuela",
         "Außenpolitik",
         "Krieg"
       ],
       "sourceDate": "2026-01-03",
       "coSources": [
-        "donald-trump",
+        "Donald Trump",
         "nicolas-maduro"
       ]
     },
@@ -7436,7 +7584,7 @@
       ],
       "sourceDate": "2025-12-13",
       "coSources": [
-        "alice-weidel",
+        "Alice Weidel",
         "frauke-brosius-gersdorf"
       ]
     },
@@ -7907,7 +8055,7 @@
       "type": "facebook",
       "tags": [
         "research-done-review-pending",
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "EU",
         "Lieferkettengesetz",
         "Brandmauer",
@@ -8097,7 +8245,7 @@
       ],
       "sourceDate": "2026-03-20",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -8306,7 +8454,7 @@
       "tags": [
         "Bayern",
         "Klimakrise",
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Wissenschaft"
       ],
       "sourceDate": "2025-10-10",
@@ -8324,7 +8472,7 @@
         "Klimaschutz",
         "Friedrich Merz",
         "Bayern",
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Menschenrechte",
         "Fliegen"
       ],
@@ -8342,9 +8490,9 @@
         "AfD",
         "Erneuerbare-Energie",
         "Sachsen",
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Thomas-Löser",
-        "noafd",
+        "NoAfD",
         "Deutschland",
         "Landtag"
       ],
@@ -8432,13 +8580,13 @@
       "tags": [
         "USA",
         "Demokratie",
-        "Trump",
+        "Donald Trump",
         "Rechtsstaatlichkeit"
       ],
       "sourceDate": "2025-12-10",
       "verdict": "true",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -8471,14 +8619,14 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "MAGA",
         "Medien",
         "Propaganda"
       ],
       "sourceDate": "2026-01-08",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -8491,14 +8639,14 @@
       "tags": [
         "Harry-Sisson",
         "Epstein",
-        "Trump",
+        "Donald Trump",
         "USA",
         "Dokumente",
         "research-done-review-needed"
       ],
       "sourceDate": "2026-03-18",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -8509,7 +8657,7 @@
       "uri": "https://www.facebook.com/reel/1515737236387412",
       "type": "reel",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "Jack Smith",
         "Deposition",
         "USA",
@@ -8531,7 +8679,7 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "JD Vance",
         "Lügen"
       ],
@@ -8549,7 +8697,7 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Venezuela",
         "MAGA"
       ],
@@ -8567,11 +8715,11 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-10",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -8582,7 +8730,7 @@
       "uri": "https://www.facebook.com/reel/2592585774453349",
       "type": "reel",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "Epstein",
         "USA",
         "Leaks",
@@ -8590,7 +8738,7 @@
       ],
       "sourceDate": "2026-02-01",
       "coSources": [
-        "donald-trump",
+        "Donald Trump",
         "jeffrey-epstein"
       ]
     },
@@ -8603,12 +8751,12 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Grönland"
       ],
       "sourceDate": "2026-01-11",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -8619,7 +8767,7 @@
       "uri": "https://www.facebook.com/reel/3763704000438281",
       "type": "facebook",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "USA",
         "Venezuela",
         "Außenpolitik",
@@ -8627,7 +8775,7 @@
       ],
       "sourceDate": "2026-01-04",
       "coSources": [
-        "donald-trump",
+        "Donald Trump",
         "nicolas-maduro"
       ]
     },
@@ -8684,7 +8832,7 @@
       "sourceDate": "2026-01-02",
       "verdict": "true",
       "coSources": [
-        "alice-weidel"
+        "Alice Weidel"
       ]
     },
     {
@@ -8769,7 +8917,7 @@
         "Deutschland",
         "Kindergeld",
         "Sozialpolitik",
-        "Fake News"
+        "Desinformation"
       ],
       "sourceDate": "2026-01-31",
       "verdict": "true",
@@ -8790,7 +8938,7 @@
         "Medien",
         "Wirtschaft",
         "Lanz",
-        "Fake News"
+        "Desinformation"
       ],
       "sourceDate": "2026-02-05",
       "verdict": "complex",
@@ -8980,7 +9128,7 @@
       "sourceDate": "2026-02-04",
       "verdict": "true",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -9017,7 +9165,7 @@
         "Bundestag",
         "Russland",
         "Deutschland",
-        "noafd"
+        "NoAfD"
       ],
       "sourceDate": "2025-11-05",
       "coSources": [
@@ -9128,7 +9276,7 @@
       "uri": "https://www.facebook.com/reel/2839692939756177",
       "type": "facebook",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "Travel Ban",
         "Mali",
         "Burkina Faso",
@@ -9139,7 +9287,7 @@
       "sourceDate": "2025-12-31",
       "verdict": "true",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -9150,7 +9298,7 @@
       "uri": "https://www.facebook.com/reel/648978701570509",
       "type": "facebook",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "Veto",
         "USA",
         "Kongress",
@@ -9161,7 +9309,7 @@
       "sourceDate": "2025-12-31",
       "verdict": "true",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -9376,7 +9524,7 @@
       "uri": "https://www.facebook.com/reel/758177757327880",
       "type": "reel",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "USA",
         "Wahl",
         "Reue"
@@ -9458,14 +9606,14 @@
         "research-done-review-pending",
         "USA",
         "ICE",
-        "Immigration",
+        "Migration",
         "Minneapolis",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-08",
       "verdict": "true",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -9477,7 +9625,7 @@
       "type": "facebook",
       "tags": [
         "research-done-review-pending",
-        "Trump",
+        "Donald Trump",
         "DOJ",
         "FIFA",
         "FIFAGate",
@@ -9488,7 +9636,7 @@
       "sourceDate": "2026-02-01",
       "verdict": "misleading",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -9541,13 +9689,13 @@
         "Studie",
         "Rechtsextremismus",
         "AfD-Verbot",
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "research-done-review-pending"
       ],
       "sourceDate": "2025-02-20",
       "verdict": "null",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -9592,6 +9740,26 @@
       ]
     },
     {
+      "path": "staatlich/kek/links/20250101.kek-achter-konzentrationsbericht-2025",
+      "source": "staatlich/kek",
+      "code": "kek-achter-konzentrationsbericht-social-media-ki-2025",
+      "title": "KEK: Achter Konzentrationsbericht 2025 - Social Media, KI & Co.: Neue Gefährdungslagen für die Meinungsvielfalt",
+      "uri": "https://www.kek-online.de/publikationen/medienkonzentrationsberichte/achter-konzentrationsbericht-2025/",
+      "type": "report",
+      "tags": [
+        "Medienkonzentration",
+        "Medien",
+        "Meinungsvielfalt",
+        "Deutschland",
+        "KI",
+        "Social-Media",
+        "Regulierung",
+        "research-done-review-pending"
+      ],
+      "sourceDate": "2025-07-08",
+      "coSources": []
+    },
+    {
       "path": "staatlich/kek/links/20250101.kek-26-jahresbericht-2024",
       "source": "staatlich/kek",
       "code": "kek-jahresbericht-2024",
@@ -9603,27 +9771,12 @@
         "Medien",
         "Regulierung",
         "Deutschland",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2025-01-01",
-      "coSources": []
-    },
-    {
-      "path": "staatlich/kek/links/20250101.kek-achter-konzentrationsbericht-2025",
-      "source": "staatlich/kek",
-      "code": "kek-konzentrationsbericht-2025",
-      "title": "KEK: Achter Konzentrationsbericht 2025 - Social Media, KI & Co.: Neue Gefährdungslagen für die Meinungsvielfalt",
-      "uri": "https://www.kek-online.de/publikationen/medienkonzentrationsberichte/achter-konzentrationsbericht-2025/",
-      "type": "report",
-      "tags": [
-        "Medienkonzentration",
-        "Medien",
-        "Meinungsvielfalt",
-        "Deutschland",
-        "more-research-needed"
-      ],
-      "sourceDate": "2025-01-01",
-      "coSources": []
+      "coSources": [
+        "bundeskartellamt"
+      ]
     },
     {
       "path": "allgemein/facebook/links/20260201.kelly-banks-adhd-paradox",
@@ -9765,7 +9918,7 @@
       "sourceDate": "2026-03-04",
       "verdict": "misleading",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -9809,7 +9962,7 @@
       "uri": "https://www.facebook.com/reel/4197927687200848",
       "type": "facebook",
       "tags": [
-        "Fake News",
+        "Desinformation",
         "KI",
         "ChatGPT",
         "Wissenschaft",
@@ -9867,7 +10020,7 @@
       "uri": "https://www.facebook.com/reel/831547033212135",
       "type": "facebook",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "Windenergie",
         "USA",
         "Desinformation",
@@ -9889,7 +10042,7 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Geschichte",
         "Faschismus",
         "ICE"
@@ -9947,12 +10100,12 @@
       "tags": [
         "research-done-review-pending",
         "USA",
-        "Immigration",
+        "Migration",
         "Verfassung"
       ],
       "sourceDate": "2026-01-17",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -10034,7 +10187,7 @@
         "Die Linke",
         "AfD",
         "FDP",
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "research-done-review-pending"
       ],
       "sourceDate": "2025-11-14",
@@ -10134,12 +10287,12 @@
         "Sprache",
         "Doppelmoral",
         "Deutschland",
-        "noafd"
+        "NoAfD"
       ],
       "sourceDate": "2025-12-30",
       "verdict": "true",
       "coSources": [
-        "alice-weidel"
+        "Alice Weidel"
       ]
     },
     {
@@ -10172,13 +10325,13 @@
       "tags": [
         "research-done-review-pending",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Geschichte",
         "Geschichtspolitik"
       ],
       "sourceDate": "2026-01-07",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -10462,7 +10615,7 @@
       "sourceDate": "2025-08-18",
       "verdict": "true",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -10483,7 +10636,7 @@
       "sourceDate": "2026-01-15",
       "verdict": "false",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -10506,7 +10659,7 @@
       "coSources": [
         "nius",
         "heidi-reichinnek",
-        "linke"
+        "Die Linke"
       ]
     },
     {
@@ -10715,7 +10868,7 @@
       ],
       "sourceDate": "2025-09-06",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -10728,14 +10881,14 @@
       "tags": [
         "research-done-review-pending",
         "USA",
-        "Trump",
+        "Donald Trump",
         "MAGA",
         "Konsequenzen",
         "FAFO"
       ],
       "sourceDate": "2025-12-12",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -10981,7 +11134,7 @@
       "type": "x",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Politik",
         "Bild",
         "Kommentar"
@@ -11052,7 +11205,7 @@
       "type": "facebook",
       "tags": [
         "AfD",
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Doppelmoral",
         "Sexismus"
       ],
@@ -11105,7 +11258,7 @@
       "type": "facebook",
       "tags": [
         "AfD",
-        "Weidel",
+        "Alice Weidel",
         "Fachkräftemangel",
         "Tagesschau",
         "research-done-review-pending"
@@ -11113,7 +11266,7 @@
       "sourceDate": "2025-12-23",
       "verdict": "true",
       "coSources": [
-        "alice-weidel"
+        "Alice Weidel"
       ]
     },
     {
@@ -11124,7 +11277,7 @@
       "uri": "https://www.facebook.com/reel/694423006942227",
       "type": "reel",
       "tags": [
-        "Fake News",
+        "Desinformation",
         "Debunking",
         "Peru",
         "AfD",
@@ -11142,7 +11295,7 @@
       "uri": "https://www.facebook.com/reel/2650325561979327",
       "type": "reel",
       "tags": [
-        "Fake News",
+        "Desinformation",
         "Debunking",
         "Syrer",
         "AfD",
@@ -11189,7 +11342,7 @@
       ],
       "sourceDate": "2026-02-07",
       "coSources": [
-        "afd",
+        "AfD",
         "ulrich-siegmund"
       ]
     },
@@ -11287,7 +11440,7 @@
       ],
       "sourceDate": "2025-10-25",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -11342,7 +11495,7 @@
       "sourceDate": "2025-12-10",
       "verdict": "true",
       "coSources": [
-        "friedrich-merz",
+        "Friedrich Merz",
         "tagesspiegel"
       ]
     },
@@ -11427,9 +11580,8 @@
       "tags": [
         "Deutschland",
         "AfD",
-        "Fake News",
-        "Bundestag",
         "Desinformation",
+        "Bundestag",
         "Russland",
         "SPD"
       ],
@@ -11496,14 +11648,14 @@
       "type": "reel",
       "tags": [
         "AfD",
-        "Weidel",
+        "Alice Weidel",
         "Parteiinterna",
         "Rechtsextremismus"
       ],
       "sourceDate": "2025-10-30",
       "verdict": "complex",
       "coSources": [
-        "alice-weidel"
+        "Alice Weidel"
       ]
     },
     {
@@ -11640,7 +11792,7 @@
       "tags": [
         "Dänemark",
         "Grönland",
-        "Trump",
+        "Donald Trump",
         "USA",
         "Humor",
         "Arktis"
@@ -11692,7 +11844,7 @@
       "uri": "https://www.facebook.com/reel/1471082354694370",
       "type": "reel",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "USA",
         "Außenpolitik",
         "Demokratie",
@@ -11869,7 +12021,7 @@
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
-        "alice-weidel",
+        "Alice Weidel",
         "stephanie-probst"
       ]
     },
@@ -11933,7 +12085,7 @@
         "Rechtsextremismus",
         "Deutschland",
         "Demokratie",
-        "Merz",
+        "Friedrich Merz",
         "reschkefernsehen"
       ],
       "sourceDate": "2026-02-01",
@@ -11956,7 +12108,7 @@
         "Mediennutzung",
         "Deutschland",
         "Bild-Zeitung",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2024-06-17",
       "coSources": []
@@ -11973,11 +12125,11 @@
         "AfD",
         "Meinungsfreiheit",
         "Bundestag",
-        "Grüne"
+        "Bündnis 90/Die Grünen"
       ],
       "sourceDate": "2025-09-18",
       "coSources": [
-        "alice-weidel"
+        "Alice Weidel"
       ]
     },
     {
@@ -12007,7 +12159,7 @@
       "uri": "https://www.facebook.com/reel/1198797514945791",
       "type": "facebook",
       "tags": [
-        "Grüne",
+        "Bündnis 90/Die Grünen",
         "Klimapolitik",
         "Bundestagswahl",
         "Deutschland",
@@ -12053,11 +12205,11 @@
         "Marginalisierung",
         "Rechtsextremismus",
         "ICE",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-20",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -12116,7 +12268,7 @@
       ],
       "sourceDate": "2025-12-21",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -12278,7 +12430,7 @@
       "uri": "https://www.facebook.com/reel/1341227683961142",
       "type": "facebook",
       "tags": [
-        "Trump",
+        "Donald Trump",
         "Trans",
         "LGBTQ",
         "Gefängnis",
@@ -12289,7 +12441,7 @@
       "sourceDate": "2026-02-01",
       "verdict": "true",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -12379,7 +12531,7 @@
       "type": "reel",
       "tags": [
         "AfD",
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Antisemitismus",
         "Beatrix von Storch",
         "Spionage",
@@ -12403,7 +12555,7 @@
         "Politik",
         "Englisch",
         "IOC",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2025-11-13",
       "coSources": [
@@ -12618,7 +12770,7 @@
       ],
       "sourceDate": "2025-10-21",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -12689,7 +12841,7 @@
         "Rechtsextremismus"
       ],
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -12720,7 +12872,7 @@
         "Protest",
         "USA",
         "Minneapolis",
-        "Einwanderung"
+        "Migration"
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
@@ -12761,6 +12913,25 @@
       "coSources": [
         "walter-masterson"
       ]
+    },
+    {
+      "path": "portale/strom-report/links/20251201.strompreise-europa-eu-vergleich",
+      "source": "portale/strom-report",
+      "code": "strom-report-strompreise-europa-eu-vergleich",
+      "title": "Strom-Report: Strompreise in Europa - Was Strom in der EU kostet",
+      "uri": "https://strom-report.com/strompreise-europa/",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Strompreise",
+        "Europa",
+        "Deutschland",
+        "Eurostat",
+        "Energie"
+      ],
+      "sourceDate": "2025-12-01",
+      "verdict": "true",
+      "coSources": []
     },
     {
       "path": "allgemein/facebook/links/20251227.söder-lügt-über-kernkraft",
@@ -12812,12 +12983,12 @@
       "tags": [
         "Venezuela",
         "USA",
-        "Merz",
+        "Friedrich Merz",
         "Völkerrecht"
       ],
       "sourceDate": "2026-01-05",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -12885,13 +13056,13 @@
         "Bundeswehr",
         "NATO",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Arktis",
         "Deutschland"
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -12905,7 +13076,7 @@
         "USA",
         "Europa",
         "Sicherheitspolitik",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2025-12-10",
       "coSources": [
@@ -12928,7 +13099,7 @@
       ],
       "sourceDate": "2026-01-18",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -12968,7 +13139,7 @@
       ],
       "sourceDate": "2023-04-01",
       "coSources": [
-        "friedrich-merz",
+        "Friedrich Merz",
         "robert-habeck"
       ]
     },
@@ -12981,7 +13152,7 @@
       "type": "reel",
       "tags": [
         "AfD",
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Beatrix von Storch",
         "research-done-review-pending"
       ],
@@ -13100,7 +13271,7 @@
         "USA",
         "Protest",
         "Iran",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-10",
       "coSources": []
@@ -13114,14 +13285,14 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Grönland",
         "UK",
         "Geopolitik"
       ],
       "sourceDate": "2026-01-07",
       "coSources": [
-        "donald-trump",
+        "Donald Trump",
         "stephen-miller"
       ]
     },
@@ -13136,7 +13307,7 @@
         "USA",
         "Venezuela",
         "Angriff",
-        "Trump",
+        "Donald Trump",
         "Außenpolitik",
         "Caracas",
         "Militär"
@@ -13176,7 +13347,7 @@
       "type": "reel",
       "tags": [
         "AfD",
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Markus Lanz",
         "Beatrix von Storch",
         "USA",
@@ -13203,7 +13374,7 @@
       ],
       "sourceDate": "2026-01-10",
       "coSources": [
-        "no-afd"
+        "NoAfD"
       ]
     },
     {
@@ -13224,7 +13395,7 @@
       "sourceDate": "2026-01-12",
       "verdict": "true",
       "coSources": [
-        "no-afd"
+        "NoAfD"
       ]
     },
     {
@@ -13238,8 +13409,8 @@
         "research-done-review-pending",
         "Kanada",
         "USA",
-        "Einwanderung",
-        "Fake News",
+        "Migration",
+        "Desinformation",
         "Vance"
       ],
       "sourceDate": "2025-11-22",
@@ -13260,7 +13431,7 @@
         "Geschichte",
         "Terrorismus",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Informationskompetenz"
       ],
       "sourceDate": "2025-10-01",
@@ -13312,9 +13483,26 @@
         "Rechtsextremismus",
         "Geschichte",
         "USA",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-30",
+      "coSources": []
+    },
+    {
+      "path": "wissenschaft/trevor-poutine/links/20250811.genozid-vs-ethnische-saeuberung",
+      "source": "wissenschaft/trevor-poutine",
+      "code": "trevor-poutine-genozid-vs-etnische-saeuberung",
+      "title": "Unterschied zwischen Genozid und ethnischer Säuberung",
+      "uri": "https://www.facebook.com/reel/1821366088592759",
+      "type": "reel",
+      "tags": [
+        "research-done-review-pending",
+        "Geschichte",
+        "Erinnerungskultur",
+        "Völkerrecht",
+        "Genozid"
+      ],
+      "sourceDate": "2025-08-11",
       "coSources": []
     },
     {
@@ -13331,7 +13519,7 @@
         "Medizindaten",
         "USA",
         "Bürgerrechte",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2025-09-24",
       "verdict": "true",
@@ -13349,14 +13537,14 @@
       "tags": [
         "research-done-review-pending",
         "USA",
-        "Einwanderung",
-        "Trump",
+        "Migration",
+        "Donald Trump",
         "Einschüchterung",
         "ICE"
       ],
       "sourceDate": "2026-01-22",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -13374,21 +13562,6 @@
         "Informationskompetenz"
       ],
       "sourceDate": "2025-12-18",
-      "coSources": []
-    },
-    {
-      "path": "wissenschaft/trevor-poutine/links/20250811.reel-neverforget",
-      "source": "wissenschaft/trevor-poutine",
-      "code": "trevor-poutine-neverforget",
-      "title": "Historisches Reel: Never Forget",
-      "uri": "https://www.facebook.com/reel/1821366088592759",
-      "type": "reel",
-      "tags": [
-        "more-research-needed",
-        "Geschichte",
-        "Erinnerungskultur"
-      ],
-      "sourceDate": "2025-08-11",
       "coSources": []
     },
     {
@@ -13422,12 +13595,12 @@
         "USA",
         "Geschichte",
         "Kuba",
-        "Trump",
+        "Donald Trump",
         "Imperialismus"
       ],
       "sourceDate": "2025-09-02",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -13441,12 +13614,12 @@
         "research-done-review-pending",
         "Geschichte",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Argumentation"
       ],
       "sourceDate": "2025-08-14",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -13465,7 +13638,7 @@
       ],
       "sourceDate": "2026-01-06",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -13478,13 +13651,13 @@
       "tags": [
         "research-done-review-pending",
         "USA",
-        "Trump",
+        "Donald Trump",
         "Faschismus",
         "Doppelmoral"
       ],
       "sourceDate": "2026-01-09",
       "coSources": [
-        "donald-trump"
+        "Donald Trump"
       ]
     },
     {
@@ -13528,15 +13701,17 @@
       "uri": "https://uebermedien.de/89329/klassistisch-einseitig-polemisch-so-macht-bild-stimmung-gegen-erwerbslose/",
       "type": "article",
       "tags": [
-        "Medienkonzentration",
         "Medien",
         "Bild-Zeitung",
         "Sozialleistungen",
         "Stigmatisierung",
-        "more-research-needed"
+        "Bürgergeld",
+        "research-done-review-pending"
       ],
       "sourceDate": "2023-10-26",
-      "coSources": []
+      "coSources": [
+        "bild-zeitung"
+      ]
     },
     {
       "path": "allgemein/facebook/links/20251216.uebermedien-bild-trump-kriminalitaet",
@@ -13549,7 +13724,7 @@
         "Deutschland",
         "BILD",
         "Übermedien",
-        "Trump",
+        "Donald Trump",
         "Medienkritik",
         "Berichterstattung"
       ],
@@ -13671,7 +13846,7 @@
       "uri": "https://www.facebook.com/reel/1980901845788383",
       "type": "reel",
       "tags": [
-        "Fake News",
+        "Desinformation",
         "Hass",
         "TikTok",
         "research-done-review-pending"
@@ -13849,7 +14024,7 @@
         "petr-bystron",
         "andreas-winhart",
         "nicolaus-fest",
-        "alice-weidel",
+        "Alice Weidel",
         "peter-boehringer"
       ]
     },
@@ -13902,7 +14077,7 @@
       "uri": "https://www.facebook.com/reel/1374419644104515",
       "type": "facebook",
       "tags": [
-        "Merz",
+        "Friedrich Merz",
         "CDU",
         "Migration",
         "Stadtbild"
@@ -13910,7 +14085,7 @@
       "sourceDate": "2025-10-29",
       "verdict": "true",
       "coSources": [
-        "friedrich-merz"
+        "Friedrich Merz"
       ]
     },
     {
@@ -13984,7 +14159,7 @@
         "Aussteiger",
         "Alexander-Leschik",
         "Deutschland",
-        "noafd"
+        "NoAfD"
       ],
       "sourceDate": "2026-02-01",
       "coSources": [
@@ -14067,7 +14242,7 @@
       "type": "article",
       "tags": [
         "AfD",
-        "Die Grünen",
+        "Bündnis 90/Die Grünen",
         "Mercosur",
         "Brandmauer",
         "Selbstkritik",
@@ -14076,7 +14251,7 @@
       "sourceDate": "2026-01-23",
       "coSources": [
         "felix-banaszak",
-        "die-grünen",
+        "Bündnis 90/Die Grünen",
         "der-spiegel"
       ]
     },
@@ -14091,13 +14266,13 @@
         "Migration",
         "CDU",
         "AfD",
-        "Merz",
+        "Friedrich Merz",
         "research-done-review-pending"
       ],
       "sourceDate": "2026-01-18",
       "coSources": [
-        "tino-chrupalla",
-        "friedrich-merz"
+        "Tino Chrupalla",
+        "Friedrich Merz"
       ]
     },
     {
@@ -14249,7 +14424,7 @@
       "type": "facebook",
       "tags": [
         "USA",
-        "Trump",
+        "Donald Trump",
         "Schwangerschaft",
         "Reproduktionsrechte",
         "Frauenpolitik",
@@ -14258,7 +14433,7 @@
       "sourceDate": "2025-12-24",
       "verdict": "misleading",
       "coSources": [
-        "donald-trump",
+        "Donald Trump",
         "jeffrey-epstein"
       ]
     },
@@ -14276,12 +14451,12 @@
         "Konföderation",
         "Bürgerkrieg",
         "Nationalsozialismus",
-        "Trump"
+        "Donald Trump"
       ],
       "sourceDate": "2026-01-11",
       "verdict": "misleading",
       "coSources": [
-        "donald-trump",
+        "Donald Trump",
         "jeffrey-epstein"
       ]
     },
@@ -14310,12 +14485,14 @@
       "uri": "https://www.boeckler.de/de/pressemitteilungen-2675-nominale-tarifloehne-steigen-2024-65447.htm",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Wirtschaft",
         "Löhne",
-        "Reallöhne"
+        "Reallöhne",
+        "Tarifpolitik"
       ],
       "sourceDate": "2024-12-06",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -14326,13 +14503,16 @@
       "uri": "https://www.boeckler.de/de/pressemitteilungen-2675-einkommensungleichheit-seit-2018-weiter-angestiegen-72959.htm",
       "type": "report",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Wirtschaft",
         "Ungleichheit",
         "Einkommen"
       ],
       "sourceDate": "2025-11-20",
-      "coSources": []
+      "verdict": "true",
+      "coSources": [
+        "diw-berlin"
+      ]
     },
     {
       "path": "personen/yung-emil/links/20260201.yung-emil-afd-verbot-kompromisse",
@@ -14349,7 +14529,7 @@
       ],
       "sourceDate": "2026-02-01",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {
@@ -14369,7 +14549,7 @@
       ],
       "sourceDate": "2026-02-19",
       "coSources": [
-        "afd"
+        "AfD"
       ]
     },
     {

@@ -30,6 +30,7 @@ export default defineContentConfig({
         quoteCodes: z.array(z.string()).optional(),
         icon: z.string().optional(),
         iconTxt: z.string().optional(),
+        part: z.number().optional(),
       }),
     }),
     glossar: defineCollection({

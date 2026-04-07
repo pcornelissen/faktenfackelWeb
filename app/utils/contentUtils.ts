@@ -10,9 +10,11 @@ interface PageData {
 }
 
 export function filter(list: Post[], category: string, sectionName: string = 'faktenchecks') {
+  const prefix = `/${sectionName}/${category}/`
   return list
     .filter(item => !item.path.endsWith(`/_info`))
-    .filter(item => item.path.startsWith(`/${sectionName}/${category}/`))
+    .filter(item => item.path.startsWith(prefix))
+    .filter(item => !item.path.slice(prefix.length).includes('/'))
 }
 
 export async function definePageData(data: PageData) {
@@ -44,6 +46,7 @@ export type Post = {
   tags: string[]
   date: string
   publishedOn: string
+  part: number | undefined
 }
 
 export type Quote = {
