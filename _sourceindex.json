@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-06T21:54:48.189Z",
+  "generatedAt": "2026-04-07T08:41:00.535Z",
   "stats": {
-    "sources": 271,
-    "links": 557,
+    "sources": 272,
+    "links": 562,
     "quotes": 25,
     "groups": 12,
-    "codes": 574
+    "codes": 579
   },
   "sources": [
     {
@@ -1336,6 +1336,18 @@
         "Landespolitik"
       ],
       "date": "2026-02-01",
+      "hasImage": true
+    },
+    {
+      "path": "personen/alex-barnicoat",
+      "group": "personen",
+      "slug": "alex-barnicoat",
+      "name": "Alex Barnicoat",
+      "description": "Britischer Social-Media-Kommentator und selbsternannter Nachrichtenmacher",
+      "tags": [
+        "Social-Media"
+      ],
+      "date": "2026-04-07",
       "hasImage": true
     },
     {
@@ -4689,6 +4701,7 @@
       "uri": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1656267.php",
       "type": "article",
       "tags": [
+        "research-done-review-pending",
         "Rechtsextremismus",
         "Berlin",
         "Friedrichshain",
@@ -4911,13 +4924,33 @@
       "uri": "https://www.bpb.de/themen/parteien/parteien-in-deutschland/afd/273131/wahlergebnisse-und-waehlerschaft-der-afd/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "AfD",
         "Ostdeutschland",
         "Wahlverhalten",
         "Populismus"
       ],
       "sourceDate": "2022-12-02",
+      "coSources": [
+        "afd"
+      ]
+    },
+    {
+      "path": "staatlich/bpb/links/20200528.entindustrialisierter-osten",
+      "source": "staatlich/bpb",
+      "code": "bpb-deindustrialisierung-ostdeutschland",
+      "title": "Der entindustrialisierte Osten",
+      "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/310288/der-entindustrialisierte-osten/",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Geschichte",
+        "Ostdeutschland",
+        "Deindustrialisierung",
+        "Deutsche Einheit",
+        "Wirtschaft"
+      ],
+      "sourceDate": "2020-05-28",
       "coSources": []
     },
     {
@@ -4975,7 +5008,7 @@
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47436/einkommen-und-vermoegen-wachsende-ungleichheiten/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Ostdeutschland",
         "Ost-West-Ungleichheit",
         "Einkommen",
@@ -4986,24 +5019,6 @@
       "coSources": []
     },
     {
-      "path": "staatlich/bpb/links/20200528.entindustrialisierter-osten",
-      "source": "staatlich/bpb",
-      "code": "bpb-entindustrialisierter-osten",
-      "title": "Der entindustrialisierte Osten",
-      "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/310288/der-entindustrialisierte-osten/",
-      "type": "article",
-      "tags": [
-        "more-research-needed",
-        "Geschichte",
-        "Ostdeutschland",
-        "Deindustrialisierung",
-        "Deutsche Einheit",
-        "Wirtschaft"
-      ],
-      "sourceDate": "2020-05-28",
-      "coSources": []
-    },
-    {
       "path": "staatlich/bpb/links/20201119.kosten-ertraege-wiedervereinigung",
       "source": "staatlich/bpb",
       "code": "bpb-kosten-ertraege-wiedervereinigung",
@@ -5011,7 +5026,7 @@
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47534/die-kosten-und-ertraege-der-wiedervereinigung-deutschlands/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Geschichte",
         "Deutsche Einheit",
         "Treuhand",
@@ -5044,7 +5059,7 @@
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47133/wirtschaftlicher-zusammenbruch-und-neuanfang-nach-1990/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Geschichte",
         "Treuhand",
         "Ostdeutschland",
@@ -5058,12 +5073,12 @@
     {
       "path": "staatlich/bpb/links/20201201.treuhand-wirtschaftsumbau",
       "source": "staatlich/bpb",
-      "code": "bpb-treuhand-wirtschaftsumbau",
+      "code": "bpb-treuhandanstalt-wirtschaftsumbau",
       "title": "Treuhandanstalt und Wirtschaftsumbau",
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/315873/treuhandanstalt-und-wirtschaftsumbau/",
       "type": "article",
       "tags": [
-        "more-research-needed",
+        "research-done-review-pending",
         "Geschichte",
         "Treuhand",
         "Ostdeutschland",
@@ -6701,6 +6716,42 @@
       ]
     },
     {
+      "path": "allgemein/facebook/links/20260309.egypt-betrayed-barnicoat",
+      "source": "allgemein/facebook",
+      "code": "facebook-barnicoat-aegypten-gas-iran",
+      "title": "Ägypten verraten: Israel stoppt Gaslieferungen nach Angriff auf Iran",
+      "uri": "https://www.facebook.com/reel/975797602292587",
+      "type": "reel",
+      "tags": [
+        "Geopolitik",
+        "Nahost",
+        "Energie"
+      ],
+      "sourceDate": "2026-03-09",
+      "verdict": "misleading",
+      "coSources": [
+        "alex-barnicoat"
+      ]
+    },
+    {
+      "path": "allgemein/facebook/links/20260406.baumann-ausgedachte-grafik",
+      "source": "allgemein/facebook",
+      "code": "facebook-baumann-ausgedachte-grafik",
+      "title": "AfD-Abgeordneter blamiert sich mit unbelegter Grafik",
+      "uri": "https://www.facebook.com/reel/1785622572401081",
+      "type": "reel",
+      "tags": [
+        "AfD",
+        "Bundestag",
+        "Falschbehauptung"
+      ],
+      "sourceDate": "2026-04-06",
+      "verdict": "misleading",
+      "coSources": [
+        "bernd-baumann"
+      ]
+    },
+    {
       "path": "allgemein/facebook/links/20260108.bill-mccamley-christian-nation",
       "source": "allgemein/facebook",
       "code": "facebook-bill-mccamley-christian-nation-2026",
@@ -6754,6 +6805,41 @@
       "verdict": "true",
       "coSources": [
         "der-spiegel"
+      ]
+    },
+    {
+      "path": "allgemein/facebook/links/20250925.when-was-the-last-time-diaz",
+      "source": "allgemein/facebook",
+      "code": "facebook-diaz-when-was-the-last-time-liberals",
+      "title": "\\\"Wann war das letzte Mal, dass Liberale Rechte eingeschränkt haben?\\\"",
+      "uri": "https://www.facebook.com/reel/1943360683124994",
+      "type": "reel",
+      "tags": [
+        "Politik",
+        "USA",
+        "Satire"
+      ],
+      "sourceDate": "2025-09-25",
+      "coSources": []
+    },
+    {
+      "path": "allgemein/facebook/links/20260331.drei-gruende-gegen-afd-friedmann",
+      "source": "allgemein/facebook",
+      "code": "facebook-drei-gruende-afd-rechtsextrem-friedmann",
+      "title": "3 gute Gründe, nicht die AfD zu wählen",
+      "uri": "https://www.facebook.com/reel/1561845211571228",
+      "type": "reel",
+      "tags": [
+        "AfD",
+        "Rechtsextremismus"
+      ],
+      "sourceDate": "2026-03-31",
+      "verdict": "true",
+      "coSources": [
+        "marcant",
+        "kurt-haettasch",
+        "birgit-malsack-winkemann",
+        "daniel-halemba"
       ]
     },
     {
@@ -13892,6 +13978,21 @@
       "coSources": [
         "ulf-poschardt"
       ]
+    },
+    {
+      "path": "allgemein/facebook/links/20260407.nicht-gelesen-aber-meinung",
+      "source": "allgemein/facebook",
+      "code": "weichelt-wehrpflicht-klarstellung-afd",
+      "title": "Klarstellung zur Wehrpflicht - und was das mit der AfD zu tun hat",
+      "uri": "https://www.facebook.com/stefanakweichelt/posts/pfbid0p8jFNjuFPfkzPuxBnGZQkFLPJoe18qjwXpf2FBkrBNS7Hc3rwGvUybCM9KYMQNRwl",
+      "type": "facebook",
+      "tags": [
+        "AfD",
+        "Wehrpflicht",
+        "Desinformation"
+      ],
+      "sourceDate": "2026-04-06",
+      "coSources": []
     },
     {
       "path": "personen/weichreite/links/20251213.schwarzenberg-demo",
