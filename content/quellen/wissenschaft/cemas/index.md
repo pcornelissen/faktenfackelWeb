@@ -5,6 +5,9 @@ name: "CeMAS"
 description: "Center für Monitoring, Analyse und Strategie - Forschung zu Verschwörungsideologien und Desinformation"
 tags:
   - research-done-review-pending
+  - Desinformation
+  - Extremismus
+  - Forschung
 ---
 
 ## Über die Quelle
