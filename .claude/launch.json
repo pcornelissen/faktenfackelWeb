@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "dev",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "/opt/homebrew/bin/pnpm",
       "runtimeArgs": ["dev"],
       "port": 3000
     }
