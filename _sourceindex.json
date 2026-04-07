@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-07T08:41:00.535Z",
+  "generatedAt": "2026-04-07T08:47:05.529Z",
   "stats": {
-    "sources": 272,
-    "links": 562,
+    "sources": 273,
+    "links": 563,
     "quotes": 25,
     "groups": 12,
-    "codes": 579
+    "codes": 580
   },
   "sources": [
     {
@@ -3608,6 +3608,18 @@
       "hasImage": true
     },
     {
+      "path": "wissenschaft/cemas",
+      "group": "wissenschaft",
+      "slug": "cemas",
+      "name": "CeMAS",
+      "description": "Center für Monitoring, Analyse und Strategie - Forschung zu Verschwörungsideologien und Desinformation",
+      "tags": [
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-07",
+      "hasImage": false
+    },
+    {
       "path": "wissenschaft/charles-mcbryde",
       "group": "wissenschaft",
       "slug": "charles-mcbryde",
@@ -5341,6 +5353,25 @@
       "coSources": [
         "jens-spahn"
       ]
+    },
+    {
+      "path": "wissenschaft/cemas/links/20260325.desinformation-entwicklungszusammenarbeit",
+      "source": "wissenschaft/cemas",
+      "code": "cemas-desinformation-entwicklungszusammenarbeit",
+      "title": "Nach dem Ende von USAID: Desinformation über Entwicklungszusammenarbeit",
+      "uri": "https://cemas.io/publikationen/desinformation-ueber-entwicklungszusammenarbeit",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Desinformation",
+        "Russland",
+        "Telegram",
+        "USAID",
+        "Entwicklungspolitik"
+      ],
+      "sourceDate": "2026-03-25",
+      "verdict": "true",
+      "coSources": []
     },
     {
       "path": "personen/chan-jo-jun/links/20260101.chan-jo-jun-politischer-kommentar",
