@@ -129,6 +129,14 @@
   text-underline-offset: 0.12em;
 }
 
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a {
+  text-decoration: none;
+}
+
 .content a:hover {
   color: var(--ember);
 }
@@ -212,7 +220,6 @@
   border-bottom: 1px solid var(--fackel-border);
 }
 
-.content tr:last-child td { border-bottom: none; }
 .content tr:nth-child(even) td { background: #FAF6F0; }
 
 /* Verdicts */
@@ -239,4 +246,3 @@
     font-size: 1rem;
   }
 }
-
