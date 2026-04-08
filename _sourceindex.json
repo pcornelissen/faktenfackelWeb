@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-07T22:32:55.871Z",
+  "generatedAt": "2026-04-08T06:35:49.256Z",
   "stats": {
-    "sources": 278,
-    "links": 567,
+    "sources": 279,
+    "links": 571,
     "quotes": 25,
     "groups": 12,
-    "codes": 584
+    "codes": 588
   },
   "sources": [
     {
@@ -982,8 +982,8 @@
       "name": "Volksverpetzer",
       "tags": [
         "Medien",
-        "faktenchecks",
-        "antifakenews"
+        "Faktencheck",
+        "Desinformation"
       ],
       "date": "2026-04-05",
       "hasImage": false
@@ -1268,6 +1268,20 @@
       ],
       "date": "2026-01-15",
       "hasImage": true
+    },
+    {
+      "path": "ngo/vsw",
+      "group": "ngo",
+      "slug": "vsw",
+      "name": "Verband für Sicherheit in der Wirtschaft (VSW)",
+      "description": "Dachverband der deutschen Wirtschaftsschutzverbände, Forschung zu Desinformation und Wirtschaftssicherheit",
+      "tags": [
+        "research-done-review-pending",
+        "Wirtschaft",
+        "Desinformation"
+      ],
+      "date": "2026-04-08",
+      "hasImage": false
     },
     {
       "path": "parteien/afd",
@@ -8185,7 +8199,7 @@
       "type": "facebook",
       "tags": [
         "AfD",
-        "Migranten",
+        "Migration",
         "Remigration",
         "Lucreta"
       ],
@@ -11384,6 +11398,22 @@
       ]
     },
     {
+      "path": "medien/nd-aktuell/links/20260407.flensburg-brandanschlaege-parteibueros",
+      "source": "medien/nd-aktuell",
+      "code": "nd-aktuell-flensburg-osterwochenende-anschlaege",
+      "title": "Brandanschläge und rechte Parolen auf Parteibüros in Flensburg",
+      "uri": "https://www.nd-aktuell.de/artikel/1198820.flensburg-brandanschlaege-und-rechte-parolen-auf-parteibueros.html",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Rechtsextremismus",
+        "Rechte Gewalt",
+        "Schleswig-Holstein"
+      ],
+      "sourceDate": "2026-04-07",
+      "coSources": []
+    },
+    {
       "path": "medien/nd-aktuell/links/20260404.ice-attentaeter-rechtsextremist",
       "source": "medien/nd-aktuell",
       "code": "nd-ice-attentaeter-rechtsextremist",
@@ -12992,6 +13022,22 @@
       ]
     },
     {
+      "path": "medien/t-online/links/20260407.flensburg-anschlaege-parteibueros",
+      "source": "medien/t-online",
+      "code": "t-online-flensburg-osterwochenende-anschlaege",
+      "title": "Anschlagsserie auf Parteibüros in Flensburg und Kiel",
+      "uri": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101202556/flensburg-serie-von-anschlaegen-erschuettert-parteien-in-schleswig-holstein.html",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Rechtsextremismus",
+        "Rechte Gewalt",
+        "Schleswig-Holstein"
+      ],
+      "sourceDate": "2026-04-07",
+      "coSources": []
+    },
+    {
       "path": "medien/t-online/links/20260306.rosenheim-afd-kandidat-verdaechtiger",
       "source": "medien/t-online",
       "code": "t-online-rosenheim-afd-kandidat",
@@ -13181,6 +13227,22 @@
       "coSources": [
         "medien/hessenschau"
       ]
+    },
+    {
+      "path": "medien/taz/links/20260407.flensburg-anschlaege-rechtsextrem",
+      "source": "medien/taz",
+      "code": "taz-flensburg-osterwochenende-anschlaege",
+      "title": "Mutmaßlich rechtsextreme Tat: Anschläge auf Parteibüros in Flensburg",
+      "uri": "https://taz.de/Mutmassllich-rechtsextreme-Tat/!6169005/",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Rechtsextremismus",
+        "Rechte Gewalt",
+        "Schleswig-Holstein"
+      ],
+      "sourceDate": "2026-04-07",
+      "coSources": []
     },
     {
       "path": "medien/taz/links/20260403.ice-anschlagsversuch-nrw",
@@ -13491,7 +13553,7 @@
     {
       "path": "wissenschaft/trevor-poutine/links/20250811.genozid-vs-ethnische-saeuberung",
       "source": "wissenschaft/trevor-poutine",
-      "code": "trevor-poutine-genozid-vs-etnische-saeuberung",
+      "code": "trevor-poutine-genozid-vs-ethnische-saeuberung",
       "title": "Unterschied zwischen Genozid und ethnischer Säuberung",
       "uri": "https://www.facebook.com/reel/1821366088592759",
       "type": "reel",
@@ -13688,10 +13750,18 @@
         "Bild-Zeitung",
         "Sozialleistungen",
         "Statistikmissbrauch",
-        "more-research-needed"
+        "Bürgergeld",
+        "research-done-review-pending"
       ],
       "sourceDate": "2024-06-13",
-      "coSources": []
+      "verdict": "true",
+      "coSources": [
+        "bild-zeitung",
+        "bfa",
+        "ifo",
+        "iw-koeln",
+        "bmas"
+      ]
     },
     {
       "path": "medien/uebermedien/links/20231026.uebermedien-bild-stimmung-gegen-erwerbslose",
@@ -14144,6 +14214,23 @@
       "sourceDate": "2026-02-01",
       "verdict": "true",
       "coSources": []
+    },
+    {
+      "path": "ngo/vsw/links/20260407.desinformationsangriffe-unternehmen",
+      "source": "ngo/vsw",
+      "code": "vsw-desinformationsangriffe-unternehmen-studie",
+      "title": "Desinformationsangriffe auf deutsche Unternehmen",
+      "uri": "https://de.euronews.com/2026/04/07/desinformation-angriffe-treffen-deutsche-unternehmen",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Desinformation",
+        "Wirtschaft"
+      ],
+      "sourceDate": "2026-04-07",
+      "coSources": [
+        "euronews"
+      ]
     },
     {
       "path": "allgemein/we-are-watching-you/links/20260201.we-are-watching-you-afd-aussteiger-leschik",
@@ -14613,7 +14700,7 @@
       "tags": [
         "AfD",
         "Asylrecht",
-        "Migranten",
+        "Migration",
         "Hass"
       ],
       "date": "2017-11-27"
