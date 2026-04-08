@@ -2,6 +2,12 @@
 import { fileURLToPath } from 'node:url'
 
 const isDev = process.env.NODE_ENV !== 'production'
+const lifecycleEvent = process.env.npm_lifecycle_event ?? ''
+const isDevCommand = lifecycleEvent === 'dev' || process.argv.includes('dev')
+const contentDatabaseFile = isDevCommand
+  ? './.data/content/dev.sqlite'
+  : './.data/content/build.sqlite'
+const nitroPreset = isDevCommand ? 'node_server' : 'cloudflare_module'
 
 export default defineNuxtConfig({
   modules: [
@@ -47,6 +53,10 @@ export default defineNuxtConfig({
     preference: 'light',
   },
   content: {
+    database: {
+      type: 'sqlite',
+      filename: contentDatabaseFile,
+    },
     build: {
       markdown: {
         toc: {
@@ -93,7 +103,7 @@ export default defineNuxtConfig({
             maxAge: 60 * 60 * 24 * 365,
           },
         ],
-    preset: 'cloudflare_module',
+    preset: nitroPreset,
     esbuild: {
       options: {
         logOverride: { 'duplicate-object-key': 'silent' },
