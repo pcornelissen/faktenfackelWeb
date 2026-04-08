@@ -22,3 +22,4 @@ Wirtschaftliche Ungleichheit in Deutschland ist kein Unfall. Sie ist das Ergebni
 - [Teil 7: Wohnen als Ware](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.07-wohnen-als-ware)
 - [Teil 8: Die unsichtbare Hand im Gesetz](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.08-die-unsichtbare-hand-im-gesetz)
 - [Teil 9: Prekarisierung by Design](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.09-prekarisierung-by-design)
+- [Teil 10: Der Mechanismus](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.10-der-mechanismus)
