@@ -17,7 +17,7 @@ tags:
 
 Das Portal beschäftigt sich mit der Arbeit von Journalisten und Medien in Deutschland, deckt Fehler auf und kommentiert journalistische Standards. Schwerpunkte sind Boulevardmedien (besonders Bild-Zeitung), Framing und politische Einflussnahme auf Medienberichterstattung. Übermedien veröffentlicht sowohl eigene Analysen als auch Gastbeiträge von Journalisten und Wissenschaftlern.
 
-2017 gewann Übermedien den Bert-Donnepp-Preis für Medienpublizistik und wurde für den Grimme Online Award nominiert. 2025 verkaufte Niggemeier seinen 50-Prozent-Anteil an das unabhängige Medienmagazin DWDL.de; Boris Rosenkranz hält die anderen 50 Prozent. Niggemeier blieb als Autor tätig.
+2017 gewann Übermedien den [Bert-Donnepp-Preis](https://de.wikipedia.org/wiki/Bert-Donnepp-Preis) für Medienpublizistik. 2025 verkaufte Niggemeier seinen 50-Prozent-Anteil an das unabhängige Medienmagazin DWDL.de; Boris Rosenkranz hält die anderen 50 Prozent. Niggemeier blieb als Autor tätig.
 
 ## Links
 
