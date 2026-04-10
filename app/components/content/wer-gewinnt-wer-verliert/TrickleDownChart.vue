@@ -56,8 +56,7 @@ const linePath = (accessor: (d: DataPoint) => number) =>
 const profitPath = linePath(d => d.profit)
 const taxPath = linePath(d => d.tax)
 
-const lastProfit = data[data.length - 1]
-const lastTax = data[data.length - 1]
+const lastPoint = data[data.length - 1]!
 </script>
 
 <template>
@@ -147,16 +146,16 @@ const lastTax = data[data.length - 1]
       <text
         class="chart-figure__series-end chart-figure__series-end--profit"
         :x="xFor(2023) + 8"
-        :y="yFor(lastProfit.profit) - 4"
+        :y="yFor(lastPoint.profit) - 4"
       >
-        ${{ (lastProfit.profit / 1000).toFixed(1) }} Bio.
+        ${{ (lastPoint.profit / 1000).toFixed(1) }} Bio.
       </text>
       <text
         class="chart-figure__series-end chart-figure__series-end--tax"
         :x="xFor(2023) + 8"
-        :y="yFor(lastTax.tax) + 4"
+        :y="yFor(lastPoint.tax) + 4"
       >
-        ${{ lastTax.tax }} Mrd.
+        ${{ lastPoint.tax }} Mrd.
       </text>
     </svg>
 

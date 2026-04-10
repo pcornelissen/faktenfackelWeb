@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-10T06:48:36.153Z",
+  "generatedAt": "2026-04-10T08:00:09.263Z",
   "stats": {
-    "sources": 281,
-    "links": 574,
+    "sources": 283,
+    "links": 577,
     "quotes": 25,
     "groups": 12,
-    "codes": 591
+    "codes": 594
   },
   "sources": [
     {
@@ -187,6 +187,22 @@
       "hasImage": true
     },
     {
+      "path": "faktenchecks/maldita",
+      "group": "faktenchecks",
+      "slug": "maldita",
+      "name": "Maldita.es",
+      "description": "Spanische Faktencheck-Organisation und Medienkompetenz-Initiative",
+      "tags": [
+        "research-done-review-pending",
+        "Faktencheck",
+        "Spanien",
+        "Desinformation",
+        "Medienkompetenz"
+      ],
+      "date": "2026-04-10",
+      "hasImage": true
+    },
+    {
       "path": "faktenchecks/volksverpetzer",
       "group": "faktenchecks",
       "slug": "volksverpetzer",
@@ -250,10 +266,9 @@
       "tags": [
         "Deutschland",
         "Medien",
-        "Boulevardpresse",
-        "more-research-needed"
+        "Boulevardpresse"
       ],
-      "date": "2026-04-08",
+      "date": "2026-04-10",
       "hasImage": true
     },
     {
@@ -557,12 +572,12 @@
       "group": "medien",
       "slug": "junge-freiheit",
       "name": "Junge Freiheit",
-      "description": "Deutsche Wochenzeitung und Online-Medium aus dem Milieu der Neuen Rechten",
+      "description": "Rechtes Wochenblatt, Scharnier zwischen Konservativismus und Rechtsextremismus",
       "tags": [
         "Deutschland",
         "Medien",
         "Neue Rechte",
-        "research-done-review-pending"
+        "Rechtsextremismus"
       ],
       "date": "2026-04-09",
       "hasImage": true
@@ -1219,14 +1234,16 @@
       "name": "Hans-Böckler-Stiftung",
       "description": "Gewerkschaftsnahe Forschungsstiftung mit Fokus auf Arbeit, Wirtschaft und soziale Ungleichheit",
       "tags": [
+        "research-done-review-pending",
         "NGO",
         "Wirtschaft",
         "Arbeit",
         "Ungleichheit",
-        "more-research-needed"
+        "Gewerkschaft",
+        "Forschung"
       ],
-      "date": "2026-04-06",
-      "hasImage": false
+      "date": "2026-04-10",
+      "hasImage": true
     },
     {
       "path": "ngo/igmetall",
@@ -2073,7 +2090,6 @@
       "name": "Robert Reich",
       "description": "US-Ökonom, ehemaliger Arbeitsminister, Professor in Berkeley, Autor und politischer Kommentator",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Wirtschaft",
         "Ungleichheit"
@@ -3473,13 +3489,15 @@
       "name": "Deutsche Bundesbank",
       "description": "Zentralbank Deutschlands, zuständig für Geldpolitik, Bankenaufsicht und wirtschaftliche Forschung",
       "tags": [
+        "research-done-review-pending",
         "Staatlich",
         "Wirtschaft",
         "Finanzen",
-        "more-research-needed"
+        "Geldpolitik",
+        "Forschung"
       ],
-      "date": "2026-04-06",
-      "hasImage": false
+      "date": "2026-04-10",
+      "hasImage": true
     },
     {
       "path": "staatlich/bundeskanzler-de",
@@ -3584,6 +3602,22 @@
         "Regulierung"
       ],
       "date": "2026-03-27",
+      "hasImage": true
+    },
+    {
+      "path": "staatlich/generalbundesanwalt",
+      "group": "staatlich",
+      "slug": "generalbundesanwalt",
+      "name": "Generalbundesanwalt",
+      "description": "Bundesanwaltschaft beim Bundesgerichtshof, zuständig für Staatsschutzdelikte und Terrorismus",
+      "tags": [
+        "research-done-review-pending",
+        "Justiz",
+        "Staatsschutz",
+        "Terrorismus",
+        "Staatlich"
+      ],
+      "date": "2026-04-10",
       "hasImage": true
     },
     {
@@ -3790,9 +3824,13 @@
       "name": "DIW Berlin",
       "description": "Deutsches Institut für Wirtschaftsforschung, führendes unabhängiges Wirtschaftsforschungsinstitut und Herausgeber des Sozio-oekonomischen Panels (SOEP)",
       "tags": [
-        "more-research-needed"
+        "research-done-review-pending",
+        "Wissenschaft",
+        "Wirtschaft",
+        "Forschung",
+        "Ungleichheit"
       ],
-      "date": "2026-04-07",
+      "date": "2026-04-10",
       "hasImage": true
     },
     {
@@ -4447,6 +4485,23 @@
       "sourceDate": "2024-10-22",
       "verdict": "reliable",
       "coSources": []
+    },
+    {
+      "path": "ngo/amadeu-antonio-stiftung/links/20260328.letzte-verteidigungswelle-jugendliche-terroristen",
+      "source": "ngo/amadeu-antonio-stiftung",
+      "code": "amadeu-antonio-lvw-jugendradikalisierung",
+      "title": "Wenn Jugendliche Rechtsterroristen werden: Analyse der Letzten Verteidigungswelle",
+      "uri": "https://www.amadeu-antonio-stiftung.de/razzia-gegen-letzte-verteidigungswelle-wenn-jugendliche-rechtsterroristen-werden-137651/",
+      "type": "article",
+      "tags": [
+        "Rechtsextremismus",
+        "Rechtsterrorismus",
+        "Radikalisierung"
+      ],
+      "sourceDate": "2026-03-28",
+      "coSources": [
+        "generalbundesanwalt"
+      ]
     },
     {
       "path": "ngo/amnesty/links/20260119.menschenrechte",
@@ -6146,6 +6201,23 @@
         "markus-krall",
         "Tino Chrupalla",
         "AfD"
+      ]
+    },
+    {
+      "path": "faktenchecks/correctiv/links/20260318.pop-desinformation-laendliche-regionen",
+      "source": "faktenchecks/correctiv",
+      "code": "correctiv-pop-medienkompetenz-laendlich",
+      "title": "POP: Sechs europäische Organisationen gegen Desinformation in ländlichen Regionen",
+      "uri": "https://correctiv.org/in-eigener-sache/2026/03/18/pop-sechs-europaeische-organisationen-buendeln-kraefte-gegen-desinformation/",
+      "type": "article",
+      "tags": [
+        "Desinformation",
+        "Europa",
+        "Medienkompetenz"
+      ],
+      "sourceDate": "2026-03-18",
+      "coSources": [
+        "maldita"
       ]
     },
     {
@@ -8996,7 +9068,6 @@
       "uri": "https://www.facebook.com/watch/?v=1877540019542210",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Rente",
         "Sozialpolitik",
         "Steuerpolitik",
@@ -9646,8 +9717,7 @@
         "AfD",
         "Verfassungsschutz",
         "Rechtsextremismus",
-        "Desinformation",
-        "research-done-review-pending"
+        "Desinformation"
       ],
       "sourceDate": "2026-03-02",
       "verdict": "misleading",
@@ -12276,7 +12346,6 @@
       "uri": "http://youtube.com/post/UgkxsD5XbOittSyJ0PAc-iff2dz5Gp_JlPh7",
       "type": "post",
       "tags": [
-        "research-done-review-pending",
         "Wirtschaft",
         "Ungleichheit",
         "USA",
@@ -13254,6 +13323,23 @@
       "coSources": [
         "internationale-jugend",
         "taz"
+      ]
+    },
+    {
+      "path": "medien/tagesspiegel/links/20260328.lvw-zweite-razzia",
+      "source": "medien/tagesspiegel",
+      "code": "tagesspiegel-lvw-zweite-razzia-maerz-2026",
+      "title": "Zweite Razzia gegen rechtsextreme Terrorzelle Letzte Verteidigungswelle",
+      "uri": "https://www.tagesspiegel.de/politik/zehn-mutmassliche-mitglieder-weitere-razzia-bei-rechtsextremer-zelle-letzte-verteidigungswelle-15366941.html",
+      "type": "article",
+      "tags": [
+        "Rechtsextremismus",
+        "Rechtsterrorismus"
+      ],
+      "sourceDate": "2026-03-28",
+      "coSources": [
+        "generalbundesanwalt",
+        "bka"
       ]
     },
     {

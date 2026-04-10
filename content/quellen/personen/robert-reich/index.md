@@ -3,7 +3,6 @@ date: 2026-04-10
 publishedOn: 2026-04-10
 name: "Robert Reich"
 description: "US-Ökonom, ehemaliger Arbeitsminister, Professor in Berkeley, Autor und politischer Kommentator"
-image: profile.webp
 imageAuthor: "Larry D. Moore, CC BY-SA 4.0, via Wikimedia Commons"
 tags:
   - USA
