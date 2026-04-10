@@ -38,6 +38,13 @@ Oberverwaltungsgericht Münster bestätigte diese Einstufung im August 2025.
 In diversen Medien und sozialen Netzwerken wurde die Entscheidung des Verfassungsschutzes als Sieg für die AfD gefeiert.
 Hier einige Beispiele:
 
+### <Reference code="junge-freiheit-afd-eilverfahren-aufgabe">Junge Freiheit zur Nicht-Beschwerde im Eilverfahren</Reference>
+
+Schon die Überschrift "Verfassungsschutz gibt im Eilverfahren gegen die AfD auf" rahmt die Entscheidung als
+vollständigen Rückzug. Im Text bleibt zwar erwähnt, dass sich das Innenministerium auf das Hauptsacheverfahren
+konzentrieren will und die AfD weiter als Verdachtsfall beobachtet wird. Die Schlagzeile transportiert aber genau die
+irreführende Siegererzählung, die sich danach in rechten Kommentaren weiterverbreitete.
+
 ### <Reference code="zeit-fb-afd-aussetzung-2025">Zeit Artikel bei Facebook zur Einstufung</Reference> 
 
 ::quote-block

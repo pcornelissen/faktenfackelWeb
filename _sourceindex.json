@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-08T06:35:49.256Z",
+  "generatedAt": "2026-04-10T06:48:36.153Z",
   "stats": {
-    "sources": 279,
-    "links": 571,
+    "sources": 281,
+    "links": 574,
     "quotes": 25,
     "groups": 12,
-    "codes": 588
+    "codes": 591
   },
   "sources": [
     {
@@ -551,6 +551,21 @@
       ],
       "date": "2026-04-06",
       "hasImage": false
+    },
+    {
+      "path": "medien/junge-freiheit",
+      "group": "medien",
+      "slug": "junge-freiheit",
+      "name": "Junge Freiheit",
+      "description": "Deutsche Wochenzeitung und Online-Medium aus dem Milieu der Neuen Rechten",
+      "tags": [
+        "Deutschland",
+        "Medien",
+        "Neue Rechte",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-09",
+      "hasImage": true
     },
     {
       "path": "medien/junge-welt",
@@ -1276,7 +1291,6 @@
       "name": "Verband für Sicherheit in der Wirtschaft (VSW)",
       "description": "Dachverband der deutschen Wirtschaftsschutzverbände, Forschung zu Desinformation und Wirtschaftssicherheit",
       "tags": [
-        "research-done-review-pending",
         "Wirtschaft",
         "Desinformation"
       ],
@@ -2050,6 +2064,21 @@
         "research-done-review-pending"
       ],
       "date": "2026-03-27",
+      "hasImage": true
+    },
+    {
+      "path": "personen/robert-reich",
+      "group": "personen",
+      "slug": "robert-reich",
+      "name": "Robert Reich",
+      "description": "US-Ökonom, ehemaliger Arbeitsminister, Professor in Berkeley, Autor und politischer Kommentator",
+      "tags": [
+        "research-done-review-pending",
+        "USA",
+        "Wirtschaft",
+        "Ungleichheit"
+      ],
+      "date": "2026-04-10",
       "hasImage": true
     },
     {
@@ -6397,7 +6426,6 @@
       "uri": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-ungleichheit-zvgl.html",
       "type": "statistics",
       "tags": [
-        "research-done-review-pending",
         "Wirtschaft",
         "Ungleichheit",
         "Einkommen"
@@ -8961,6 +8989,27 @@
       ]
     },
     {
+      "path": "personen/maurice-hoefgen/links/20251209.nius-rente-debunk",
+      "source": "personen/maurice-hoefgen",
+      "code": "hoefgen-nius-rente-spitzensteuersatz-debunk",
+      "title": "Höfgen widerlegt Nius-Darstellung zum Rentenproblem",
+      "uri": "https://www.facebook.com/watch/?v=1877540019542210",
+      "type": "reel",
+      "tags": [
+        "research-done-review-pending",
+        "Rente",
+        "Sozialpolitik",
+        "Steuerpolitik",
+        "Lohnentwicklung"
+      ],
+      "sourceDate": "2025-12-09",
+      "verdict": "true",
+      "coSources": [
+        "nius",
+        "heidi-reichinnek"
+      ]
+    },
+    {
       "path": "personen/maurice-hoefgen/links/20260203.hoefgen-wirtschaftsrat-cdu",
       "source": "personen/maurice-hoefgen",
       "code": "hoefgen-wirtschaftsrat-cdu-2026",
@@ -9584,6 +9633,27 @@
       "verdict": "misleading",
       "coSources": [
         "personen/michael-stuerzenberger"
+      ]
+    },
+    {
+      "path": "medien/junge-freiheit/links/20260302.junge-freiheit-afd-eilverfahren-aufgabe",
+      "source": "medien/junge-freiheit",
+      "code": "junge-freiheit-afd-eilverfahren-aufgabe",
+      "title": "Junge Freiheit: \\\"Verfassungsschutz gibt im Eilverfahren gegen die AfD auf\\\"",
+      "uri": "https://jungefreiheit.de/politik/deutschland/2026/verfassungsschutz-gibt-im-eilverfahren-gegen-die-afd-auf/",
+      "type": "article",
+      "tags": [
+        "AfD",
+        "Verfassungsschutz",
+        "Rechtsextremismus",
+        "Desinformation",
+        "research-done-review-pending"
+      ],
+      "sourceDate": "2026-03-02",
+      "verdict": "misleading",
+      "coSources": [
+        "afd",
+        "verfassungsschutz"
       ]
     },
     {
@@ -11405,7 +11475,6 @@
       "uri": "https://www.nd-aktuell.de/artikel/1198820.flensburg-brandanschlaege-und-rechte-parolen-auf-parteibueros.html",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Rechte Gewalt",
         "Schleswig-Holstein"
@@ -12197,6 +12266,24 @@
       ],
       "sourceDate": "2025-02-17",
       "verdict": "complex",
+      "coSources": []
+    },
+    {
+      "path": "personen/robert-reich/links/20260409.trickle-down-nothing-trickled",
+      "source": "personen/robert-reich",
+      "code": "robert-reich-trickle-down-fred-chart",
+      "title": "Trickle-Down-Theorie widerlegt: Nichts ist durchgesickert",
+      "uri": "http://youtube.com/post/UgkxsD5XbOittSyJ0PAc-iff2dz5Gp_JlPh7",
+      "type": "post",
+      "tags": [
+        "research-done-review-pending",
+        "Wirtschaft",
+        "Ungleichheit",
+        "USA",
+        "Steuerpolitik"
+      ],
+      "sourceDate": "2026-04-09",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -13029,7 +13116,6 @@
       "uri": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101202556/flensburg-serie-von-anschlaegen-erschuettert-parteien-in-schleswig-holstein.html",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Rechte Gewalt",
         "Schleswig-Holstein"
@@ -13558,7 +13644,6 @@
       "uri": "https://www.facebook.com/reel/1821366088592759",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "Erinnerungskultur",
         "Völkerrecht",
@@ -13750,8 +13835,7 @@
         "Bild-Zeitung",
         "Sozialleistungen",
         "Statistikmissbrauch",
-        "Bürgergeld",
-        "research-done-review-pending"
+        "Bürgergeld"
       ],
       "sourceDate": "2024-06-13",
       "verdict": "true",
@@ -13775,8 +13859,7 @@
         "Bild-Zeitung",
         "Sozialleistungen",
         "Stigmatisierung",
-        "Bürgergeld",
-        "research-done-review-pending"
+        "Bürgergeld"
       ],
       "sourceDate": "2023-10-26",
       "coSources": [
@@ -14223,7 +14306,6 @@
       "uri": "https://de.euronews.com/2026/04/07/desinformation-angriffe-treffen-deutsche-unternehmen",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Desinformation",
         "Wirtschaft"
       ],
