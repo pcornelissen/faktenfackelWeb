@@ -14,7 +14,6 @@ export function filter(list: Post[], category: string, sectionName: string = 'fa
   return list
     .filter(item => !item.path.endsWith(`/_info`))
     .filter(item => item.path.startsWith(prefix))
-    .filter(item => !item.path.slice(prefix.length).includes('/'))
 }
 
 export async function definePageData(data: PageData) {
