@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-10T08:00:09.263Z",
+  "generatedAt": "2026-04-11T07:06:37.796Z",
   "stats": {
     "sources": 283,
-    "links": 577,
+    "links": 578,
     "quotes": 25,
     "groups": 12,
-    "codes": 594
+    "codes": 595
   },
   "sources": [
     {
@@ -1234,7 +1234,6 @@
       "name": "Hans-Böckler-Stiftung",
       "description": "Gewerkschaftsnahe Forschungsstiftung mit Fokus auf Arbeit, Wirtschaft und soziale Ungleichheit",
       "tags": [
-        "research-done-review-pending",
         "NGO",
         "Wirtschaft",
         "Arbeit",
@@ -3824,7 +3823,6 @@
       "name": "DIW Berlin",
       "description": "Deutsches Institut für Wirtschaftsforschung, führendes unabhängiges Wirtschaftsforschungsinstitut und Herausgeber des Sozio-oekonomischen Panels (SOEP)",
       "tags": [
-        "research-done-review-pending",
         "Wissenschaft",
         "Wirtschaft",
         "Forschung",
@@ -6275,6 +6273,26 @@
         "research-done-review-pending"
       ],
       "sourceDate": "2025-10-23",
+      "coSources": []
+    },
+    {
+      "path": "faktenchecks/correctiv/links/20260410.ungarn-brics-beitritt-falsch",
+      "source": "faktenchecks/correctiv",
+      "code": "correctiv-ungarn-brics-beitritt-falsch",
+      "title": "Ungarn ist den BRICS-Staaten nicht beigetreten",
+      "uri": "https://correctiv.org/faktencheck/2026/04/10/nein-ungarn-ist-den-brics-staaten-nicht-beigetreten/",
+      "type": "article",
+      "tags": [
+        "research-done-review-pending",
+        "Desinformation",
+        "Europa",
+        "Russland",
+        "Ungarn",
+        "BRICS",
+        "Wahlen"
+      ],
+      "sourceDate": "2026-04-10",
+      "verdict": "false",
       "coSources": []
     },
     {
@@ -15016,7 +15034,7 @@
       "source": "parteien/afd",
       "code": "koenig-bevölkerungsaustausch-2024",
       "title": "König phantasiert über Bevölkerungsaustausch",
-      "teaser": "++ Mehrheit sieht den großen Austausch kommen ++ Das Bundesamt für Verfassungsschutz deutet Begriffe wie \"Großer Austausch\" oder \"Bevölkerungsaustausch\" als rechtsextreme Verschwörungsvokabeln. […] Herr Haldenwang kann sich das rechtsextreme Framing \"in die Haare schmieren\". Weitere Erkenntnisse der INSA-Umfrage: 45 % glauben, dass die Europäer nach und nach durch Afrikaner und Menschen aus dem Nahen Osten ersetzt werden. […] Liebe Leute, jetzt heißt es Konsequenzen ziehen und AfD wählen! Denn die AfD ist die einzige Partei, die konsequent dagegen ist!",
+      "teaser": "54 % der Deutschen haben Angst, dass die Deutschen im eigenen Land zur Minderheit werden. Herr Haldenwang kann sich das rechtsextreme Framing in die Haare schmieren. Liebe Leute, jetzt heißt es Konsequenzen ziehen und AfD wählen!",
       "tags": [
         "AfD",
         "Rassismus",
