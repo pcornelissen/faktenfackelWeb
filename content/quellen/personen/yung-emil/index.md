@@ -5,7 +5,6 @@ name: Yung Emil
 description: Deutscher Digital Creator mit politischen Kommentaren zu Medien, AfD und gesellschaftlichen Themen
 image: profile.jpg
 tags:
-  - research-done-review-pending
   - Deutschland
   - Medien
   - AfD
@@ -14,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Yung Emil (Facebook: nur.noch.emil, Profil-ID: 61571929696752) ist ein deutscher Digital Creator auf Facebook. Er veröffentlicht politische Kommentarreels, insbesondere zu deutschen Medien (Nius, Julian Reichelt), der AfD und aktuellen wirtschafts- und gesellschaftspolitischen Themen. Seine Reels erzielen mehrere Hundert bis einige Tausend Likes. Der Account ist klar politisch links-progressiv positioniert.
+Yung Emil (Facebook: nur.noch.emil) ist ein deutscher Digital Creator auf Facebook. Er veröffentlicht politische Kommentarreels, insbesondere zu deutschen Medien (Nius, Julian Reichelt), der AfD und aktuellen wirtschafts- und gesellschaftspolitischen Themen. Seine Reels erzielen mehrere Hundert bis einige Tausend Likes. Der Account ist klar politisch links-progressiv positioniert.
 
 ## Links
 

@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Sally McManus
 description: Australische Gewerkschaftssekretärin, Vorsitzende des Australian Council of Trade Unions (ACTU)
 tags:
-  - research-done-review-pending
   - Australien
   - Gewerkschaft
   - Arbeit

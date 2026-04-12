@@ -4,7 +4,6 @@ publishedOn: 2026-03-10
 name: Tod Maffin
 description: Kanadischer Journalist, CBC-Radio-Moderator und Podcaster mit Fokus auf Medienkritik und kanadisch-amerikanische Politik
 tags:
-  - research-done-review-pending
   - Kanada
   - Journalismus
   - Podcast

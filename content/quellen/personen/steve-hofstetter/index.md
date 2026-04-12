@@ -5,7 +5,6 @@ name: Steve Hofstetter
 description: US-amerikanischer Stand-up-Comedian und politischer Kommentator
 imageAuthor: Albin Olsson
 tags:
-  - research-done-review-pending
   - Creator
   - Stand-up
   - Komödie

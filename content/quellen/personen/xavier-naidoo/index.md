@@ -3,8 +3,7 @@ date: 2026-04-02
 publishedOn: 2026-04-03
 name: "Xavier Naidoo"
 description: "Deutscher Sänger und Verschwörungstheoretiker"
-tags:
-  - research-done-review-pending
+tags: []
 ---
 
 ## Über die Quelle

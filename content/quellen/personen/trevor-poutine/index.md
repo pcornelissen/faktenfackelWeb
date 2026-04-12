@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Trevor Poutine
 description: Kanadischer Geschichtslehrer und Social-Media-Kommentator aus Toronto zu US-Politik, Geschichte und Medienkritik
 tags:
-  - research-done-review-pending
   - Geschichte
   - USA
   - Medien

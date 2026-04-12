@@ -3,13 +3,12 @@ date: 2026-03-27
 publishedOn: 2026-03-10
 name: Wow motherhood
 description: Englischsprachiger Facebook-Account mit politischen und gesellschaftlichen Inhalten, teils im Verschwörungsnarrativ-Format
-tags:
-  - research-done-review-pending
+tags: []
 ---
 
 ## Über die Quelle
 
-"Wow motherhood" ist ein englischsprachiger Facebook-Account (Profil-ID: 61573986930761), der im Dezember 2025 erstmals im Kontext dieser Datenbank auftauchte. Der Account postet kurze Reels zu politischen und gesellschaftlichen Themen. Die Inhalte sind englischsprachig und offenbar auf ein US-amerikanisches Publikum ausgerichtet. Der Account-Name deutet auf Elternschaftsthemen hin, aber die beobachteten Reels haben politischen Charakter. Zwei der im Dezember 2025 geposteten Reels sind inzwischen nicht mehr abrufbar.
+"Wow motherhood" ist ein englischsprachiger Facebook-Account, der im Dezember 2025 erstmals im Kontext dieser Datenbank auftauchte. Der Account postet kurze Reels zu politischen und gesellschaftlichen Themen. Die Inhalte sind englischsprachig und offenbar auf ein US-amerikanisches Publikum ausgerichtet. Der Account-Name deutet auf Elternschaftsthemen hin, aber die beobachteten Reels haben politischen Charakter. Zwei der im Dezember 2025 geposteten Reels sind inzwischen nicht mehr abrufbar.
 
 ## Links
 

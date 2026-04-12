@@ -5,7 +5,6 @@ name: The Justice Guy
 description: Amerikanischer Rechtskommentator und Content Creator mit Fokus auf Verfassungsrecht und US-Justizpolitik (Matteo il Pazzeo)
 image: profile.jpg
 tags:
-  - research-done-review-pending
   - USA
   - Justiz
   - Recht
