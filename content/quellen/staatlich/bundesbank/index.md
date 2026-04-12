@@ -4,7 +4,6 @@ publishedOn: 2026-04-06
 name: Deutsche Bundesbank
 description: Zentralbank Deutschlands, zuständig für Geldpolitik, Bankenaufsicht und wirtschaftliche Forschung
 tags:
-  - research-done-review-pending
   - Staatlich
   - Wirtschaft
   - Finanzen
