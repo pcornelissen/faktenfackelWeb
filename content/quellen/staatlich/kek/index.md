@@ -8,7 +8,6 @@ tags:
   - Medien
   - Medienkonzentration
   - Regulierung
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

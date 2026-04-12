@@ -5,7 +5,6 @@ name: ProfessorNeil
 description: Wissenschaftskommunikator, Faktencheck- und Debunking-Creator
 imageAuthor: https://cambriancollege.academia.edu/NeilShyminsky
 tags:
-  - research-done-review-pending
   - Creator
   - Social Media
   - Facebook
@@ -13,7 +12,6 @@ tags:
   - Debunking
   - Faktencheck
 ---
-<!-- claude:reviewed 2026-04-02 -->
 
 ## Über die Quelle
 

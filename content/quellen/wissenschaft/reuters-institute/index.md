@@ -8,7 +8,6 @@ tags:
   - Medien
   - Journalismus
   - Forschung
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

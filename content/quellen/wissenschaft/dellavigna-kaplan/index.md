@@ -8,7 +8,6 @@ tags:
   - Medieneinfluss
   - Agenda-Setting
   - USA
-  - research-done-review-pending
 ---
 
 ## Über die Quelle
