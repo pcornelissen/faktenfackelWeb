@@ -4,7 +4,6 @@ publishedOn: 2026-03-09
 name: Marc Brost
 description: Deutscher Journalist, Auslandschef und Mitglied der Chefredaktion bei Focus
 tags:
-  - research-done-review-pending
   - Deutschland
   - Journalismus
   - USA

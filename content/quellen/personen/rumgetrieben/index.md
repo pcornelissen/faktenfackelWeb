@@ -3,13 +3,12 @@ date: 2026-03-27
 publishedOn: 2026-03-10
 name: Rumgetrieben
 description: Deutschsprachiger Facebook-Account mit progressiv-politischem Kommentar zu gesellschaftlichen Themen
-tags:
-  - research-done-review-pending
+tags: []
 ---
 
 ## Über die Quelle
 
-"Rumgetrieben" ist ein deutschsprachiger Facebook-Account (Profil-ID: 61558683867285), der seit spätestens 2024 politische Kurzvideos (Reels) zu gesellschaftlichen und wirtschaftspolitischen Themen veröffentlicht. Der Account greift aktuelle Debatten auf und kommentiert sie aus progressiver Perspektive – mit einem Schwerpunkt auf Verteilungsgerechtigkeit, Rechtsextremismus und sozialer Ungleichheit. Die Inhalte zeichnen sich durch einen sachlichen Ton aus, der gelegentlich mit Humor und Popkultur-Referenzen (z.B. Batman-Vergleiche) arbeitet.
+"Rumgetrieben" ist ein deutschsprachiger Facebook-Account, der seit spätestens 2024 politische Kurzvideos (Reels) zu gesellschaftlichen und wirtschaftspolitischen Themen veröffentlicht. Der Account greift aktuelle Debatten auf und kommentiert sie aus progressiver Perspektive – mit einem Schwerpunkt auf Verteilungsgerechtigkeit, Rechtsextremismus und sozialer Ungleichheit. Die Inhalte zeichnen sich durch einen sachlichen Ton aus, der gelegentlich mit Humor und Popkultur-Referenzen (z.B. Batman-Vergleiche) arbeitet.
 
 Über die Person oder das Team hinter dem Account ist öffentlich wenig bekannt. Der Account verlinkt keine externen Websites oder Impressumsangaben.
 

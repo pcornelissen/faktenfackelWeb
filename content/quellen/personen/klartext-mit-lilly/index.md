@@ -3,8 +3,7 @@ date: 2026-03-27
 publishedOn: 2026-03-10
 name: KlartextmitLilly
 description: Lilian Thau – deutsche Moderatorin und politische Kommentatorin mit progressivem Schwerpunkt
-tags:
-  - research-done-review-pending
+tags: []
 ---
 
 ## Über die Quelle
