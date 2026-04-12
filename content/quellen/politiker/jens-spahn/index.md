@@ -29,4 +29,4 @@ Jens Spahn ist als Fraktionsvorsitzender eine politisch einflussreiche Figur, de
 
 ### Fazit
 
-Spahn ist eine wichtige politische Primärquelle für CDU-Positionen, seine faktischen Aussagen - besonders zu Migration und gesellschaftspolitischen Themen - bedürfen jedoch regelmäßiger Überprüfung.
+Spahn ist eine wichtige politische Primärquelle für CDU-Positionen, seine faktischen Aussagen, besonders zu Migration und gesellschaftspolitischen Themen, bedürfen jedoch regelmäßiger Überprüfung.

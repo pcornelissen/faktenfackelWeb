@@ -12,7 +12,7 @@ tags:
 
 ## Über die Quelle
 
-Philipp Amthor (* 1992 in Ueckermünde) ist ein CDU-Politiker aus Mecklenburg-Vorpommern, der seit 2017 dem Deutschen Bundestag angehört. Er gilt als eine der bekanntesten jungen Stimmen der Union und wurde früh als aufsteigendes Talent gehandelt - sein rhetorisches Geschick im Bundestag und seine konservative Profilierung machten ihn zu einem medienpräsenten Vertreter des "jungen Flügels" der CDU.
+Philipp Amthor (* 1992 in Ueckermünde) ist ein CDU-Politiker aus Mecklenburg-Vorpommern, der seit 2017 dem Deutschen Bundestag angehört. Er gilt als eine der bekanntesten jungen Stimmen der Union und wurde früh als aufsteigendes Talent gehandelt, sein rhetorisches Geschick im Bundestag und seine konservative Profilierung machten ihn zu einem medienpräsenten Vertreter des "jungen Flügels" der CDU.
 
 Im Jahr 2020 geriet Amthor in eine schwere Lobbying-Affäre: Er hatte sich als Bundestagsabgeordneter für das amerikanische IT-Unternehmen Augustus Intelligence eingesetzt und dabei Optionsscheine auf Unternehmensanteile erhalten. Nach Bekanntwerden dieser Verbindung gab er die Optionsscheine zurück und beendete seine Tätigkeit für das Unternehmen. Die Affäre beschädigte sein Image erheblich und beendete zwischenzeitlich seine politische Aufwärtsbewegung.
 

@@ -12,7 +12,7 @@ tags:
 
 ## Über die Quelle
 
-Daniel Günther (* 1973 in Kiel) ist CDU-Politiker und seit 2017 Ministerpräsident von Schleswig-Holstein. Er gewann die Landtagswahl 2017 überraschend gegen den amtierenden SPD-Ministerpräsidenten Torsten Albig und führte zunächst eine Jamaika-Koalition aus CDU, FDP und Grünen. Bei der Landtagswahl 2022 erzielte die CDU unter seiner Führung die absolute Mehrheit - ein beachtlicher Erfolg in einer Zeit, in der die Unionsparteien bundesweit schwächelten.
+Daniel Günther (* 1973 in Kiel) ist CDU-Politiker und seit 2017 Ministerpräsident von Schleswig-Holstein. Er gewann die Landtagswahl 2017 überraschend gegen den amtierenden SPD-Ministerpräsidenten Torsten Albig und führte zunächst eine Jamaika-Koalition aus CDU, FDP und Grünen. Bei der Landtagswahl 2022 erzielte die CDU unter seiner Führung die absolute Mehrheit, ein beachtlicher Erfolg in einer Zeit, in der die Unionsparteien bundesweit schwächelten.
 
 Günther gilt als einer der gemäßigteren CDU-Politiker auf Bundesebene. Er profilierte sich mehrfach als Stimme für pragmatische Kompromisse, auch mit der SPD und den Grünen, und distanzierte sich wiederholt von allzu harten Tönen in der Migrationsdebatte. Innerhalb der CDU wird er dem moderaten Flügel zugerechnet. Sein Regierungsstil wird als konsensorientiert und unideologisch beschrieben.
 

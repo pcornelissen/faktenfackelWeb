@@ -22,7 +22,7 @@ Bundestag-Profil: [bundestag.de](https://www.bundestag.de)
 
 ## Faktenfackel Bewertung
 
-Manuel Krauthausen ist als Quelle aufgrund dokumentierter antisemitischer Äußerungen nicht verlässlich. Seine Aussagen -- insbesondere zu Israel, jüdischem Leben oder verwandten Themen -- sind mit großer Vorsicht zu behandeln. Als AfD-Mitglied vertritt er eine Partei, deren Teile vom Verfassungsschutz als gesichert rechtsextrem eingestuft werden.
+Manuel Krauthausen ist als Quelle aufgrund dokumentierter antisemitischer Äußerungen nicht verlässlich. Seine Aussagen, insbesondere zu Israel, jüdischem Leben oder verwandten Themen, sind mit großer Vorsicht zu behandeln. Als AfD-Mitglied vertritt er eine Partei, deren Teile vom Verfassungsschutz als gesichert rechtsextrem eingestuft werden.
 
 ### Fazit
 

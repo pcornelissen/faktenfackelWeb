@@ -30,4 +30,4 @@ Als Bundeskanzler ist Friedrich Merz eine wichtige politische Primärquelle. Sei
 
 ### Fazit
 
-Friedrich Merz ist als amtierender Bundeskanzler eine zentrale politische Quelle, dessen faktische Behauptungen - besonders im Bereich Migration - regelmäßig einer Prüfung standhalten müssen.
+Friedrich Merz ist als amtierender Bundeskanzler eine zentrale politische Quelle, dessen faktische Behauptungen, besonders im Bereich Migration, regelmäßig einer Prüfung standhalten müssen.

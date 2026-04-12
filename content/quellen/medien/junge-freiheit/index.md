@@ -20,7 +20,7 @@ Die [Bundeszentrale für politische Bildung](https://www.bpb.de/themen/rechtsext
 
 - Website: [jungefreiheit.de](https://jungefreiheit.de)
 - Eigenbeschreibung: [Über den Verlag](https://jungefreiheit.de/service/ueber-uns/ueber-den-verlag/)
-- Einordnung: [bpb: Die Junge Freiheit - Sprachrohr einer radikal-nationalistischen Opposition](https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/230020/die-junge-freiheit-sprachrohr-einer-radikal-nationalistischen-opposition/?p=0)
+- Einordnung: [bpb: Die Junge Freiheit, Sprachrohr einer radikal-nationalistischen Opposition](https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/230020/die-junge-freiheit-sprachrohr-einer-radikal-nationalistischen-opposition/?p=0)
 
 ## Faktenfackel Bewertung
 

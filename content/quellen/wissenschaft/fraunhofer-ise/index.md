@@ -12,7 +12,7 @@ tags:
 
 ## Über die Quelle
 
-Das Fraunhofer-Institut für Solare Energiesysteme (ISE) in Freiburg ist Europas größtes Solarforschungsinstitut und eines der führenden Institute für Energiesystemforschung. Es veröffentlicht regelmäßig Studien zu Stromgestehungskosten (LCOE) für verschiedene Energieträger - darunter Photovoltaik, Wind, Biomasse und konventionelle Kraftwerke - und gilt als Referenz für die Energiekostendebatte in Deutschland.
+Das Fraunhofer-Institut für Solare Energiesysteme (ISE) in Freiburg ist Europas größtes Solarforschungsinstitut und eines der führenden Institute für Energiesystemforschung. Es veröffentlicht regelmäßig Studien zu Stromgestehungskosten (LCOE) für verschiedene Energieträger, darunter Photovoltaik, Wind, Biomasse und konventionelle Kraftwerke, und gilt als Referenz für die Energiekostendebatte in Deutschland.
 
 ## Links
 

@@ -45,11 +45,11 @@ Seit 2004 dokumentiert das Medienblog [BILDblog](https://bildblog.de/) systemati
 
 ## Links
 
-- [bild.de](https://www.bild.de/) - Offizielle Website
+- [bild.de](https://www.bild.de/), Offizielle Website
 - [Wikipedia: Bild (Zeitung)](https://de.wikipedia.org/wiki/Bild_(Zeitung))
-- [BILDblog](https://bildblog.de/) - Medienkritisches Blog, ursprünglich auf Bild-Kritik spezialisiert
-- [BILDblog: Presserat-Rügen](https://www.bildblog.de/ruegen.php) - Dokumentation aller Presserat-Rügen
-- [Media Bias/Fact Check: Bild](https://mediabiasfactcheck.com/bild/) - Internationale Medienbewertung
+- [BILDblog](https://bildblog.de/), Medienkritisches Blog, ursprünglich auf Bild-Kritik spezialisiert
+- [BILDblog: Presserat-Rügen](https://www.bildblog.de/ruegen.php), Dokumentation aller Presserat-Rügen
+- [Media Bias/Fact Check: Bild](https://mediabiasfactcheck.com/bild/), Internationale Medienbewertung
 
 ## Faktenfackel Bewertung
 

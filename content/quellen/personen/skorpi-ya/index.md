@@ -28,4 +28,4 @@ Kleine, aber engagierte Kreatorin mit klar positionierter linker Perspektive. Ih
 
 ### Fazit
 
-Meinungsstimme mit linker Haltung zu deutschen Gesellschaftsthemen. Inhaltlich engagiert, aber parteiisch - faktische Behauptungen separat prüfen.
+Meinungsstimme mit linker Haltung zu deutschen Gesellschaftsthemen. Inhaltlich engagiert, aber parteiisch, faktische Behauptungen separat prüfen.

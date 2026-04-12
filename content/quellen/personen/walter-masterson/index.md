@@ -21,7 +21,7 @@ Seine Videos verbreiteten sich vor allem auf TikTok und YouTube und erreichten e
 
 ## Faktenfackel Bewertung
 
-Mastersons Inhalte sind Satire und politischer Kommentar, keine Nachrichtenberichterstattung. Als Dokument dafür, was bei MAGA-Veranstaltungen geäußert wird, haben seine Videos einen gewissen Zeugniswert - allerdings durch das Format der Satire gerahmt und selektiv geschnitten.
+Mastersons Inhalte sind Satire und politischer Kommentar, keine Nachrichtenberichterstattung. Als Dokument dafür, was bei MAGA-Veranstaltungen geäußert wird, haben seine Videos einen gewissen Zeugniswert, allerdings durch das Format der Satire gerahmt und selektiv geschnitten.
 
 ### Fazit
 

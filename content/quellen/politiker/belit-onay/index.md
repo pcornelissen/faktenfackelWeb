@@ -12,7 +12,7 @@ tags:
 
 ## Über die Quelle
 
-Belit Onay (* 1981 in Hannover) ist Politiker von Bündnis 90/Die Grünen und seit November 2019 Oberbürgermeister der Landeshauptstadt Hannover. Mit seiner Wahl wurde er zum ersten Oberbürgermeister Hannovers mit Migrationsgeschichte - seine Familie stammt aus der Türkei. Er gewann die Stichwahl 2019 überraschend gegen den SPD-Kandidaten Marc Hansmann und setzte sich damit als Außenseiter durch.
+Belit Onay (* 1981 in Hannover) ist Politiker von Bündnis 90/Die Grünen und seit November 2019 Oberbürgermeister der Landeshauptstadt Hannover. Mit seiner Wahl wurde er zum ersten Oberbürgermeister Hannovers mit Migrationsgeschichte, seine Familie stammt aus der Türkei. Er gewann die Stichwahl 2019 überraschend gegen den SPD-Kandidaten Marc Hansmann und setzte sich damit als Außenseiter durch.
 
 Onay hat sich als progressiver Stadtpolitiker profiliert. Schwerpunkte seiner Amtszeit sind Klimaschutz und nachhaltige Stadtentwicklung, Verkehrswende sowie soziale Stadtpolitik. Hannover hat unter seiner Führung ehrgeizige Klimaziele formuliert und Maßnahmen zur Förderung des öffentlichen Nahverkehrs und des Radverkehrs umgesetzt. Er tritt regelmäßig auch zu bundespolitischen Themen auf und wird als möglicher Kandidat für höhere politische Ämter gehandelt.
 
@@ -20,7 +20,7 @@ Als Oberbürgermeister einer Großstadt ist Onay eine Stimme für urbane, progre
 
 ## Links
 
-- [Offizielle Website der Stadt Hannover - OB](https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Oberbuergermeister)
+- [Offizielle Website der Stadt Hannover, OB](https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Oberbuergermeister)
 
 ## Faktenfackel Bewertung
 

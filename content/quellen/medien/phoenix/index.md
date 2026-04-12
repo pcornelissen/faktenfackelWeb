@@ -25,7 +25,7 @@ Phoenix betreibt einen aktiven YouTube-Kanal (@PhoenixDE), auf dem Bundestagssit
 
 ## Faktenfackel Bewertung
 
-Phoenix ist für Faktenchecks auf eine sehr spezifische Art wertvoll: als Primärquelle für den Originalwortlaut politischer Debatten. Während Nachrichtenberichte immer nur Auszüge und Zusammenfassungen liefern, bieten phoenix-Aufzeichnungen das vollständige Transkript - unverzichtbar, wenn es darum geht zu überprüfen, ob ein Politiker etwas tatsächlich so gesagt hat, wie es berichtet wurde.
+Phoenix ist für Faktenchecks auf eine sehr spezifische Art wertvoll: als Primärquelle für den Originalwortlaut politischer Debatten. Während Nachrichtenberichte immer nur Auszüge und Zusammenfassungen liefern, bieten phoenix-Aufzeichnungen das vollständige Transkript, unverzichtbar, wenn es darum geht zu überprüfen, ob ein Politiker etwas tatsächlich so gesagt hat, wie es berichtet wurde.
 
 Zu unterscheiden ist dabei zwischen phoenix als Quelle und den Inhalten, die phoenix überträgt. phoenix selbst nimmt keine redaktionelle Wertung der Inhalte vor; die Behauptungen und Positionen der Redner in übertragenen Veranstaltungen sind eigenständig zu prüfen.
 

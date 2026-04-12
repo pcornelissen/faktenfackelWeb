@@ -32,7 +32,7 @@ Weber ist Mitglied der AfD, saß im Stadtrat von Borna und im Kreistag des Landk
 
 ## Faktenfackel Bewertung
 
-Weber beruft sich auf seinen Status als Journalist, agiert aber regelmäßig polemisch und provozierend. Seine Inhalte richten sich primär an ein AfD-nahes Publikum. Er produziert aktivistischen Content mit klarer politischer Agenda - keine neutrale Berichterstattung.
+Weber beruft sich auf seinen Status als Journalist, agiert aber regelmäßig polemisch und provozierend. Seine Inhalte richten sich primär an ein AfD-nahes Publikum. Er produziert aktivistischen Content mit klarer politischer Agenda, keine neutrale Berichterstattung.
 
 ### Fazit
 

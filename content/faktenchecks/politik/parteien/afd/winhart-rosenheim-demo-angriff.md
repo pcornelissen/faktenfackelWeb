@@ -68,7 +68,7 @@ In den Medien landet aber am Ende die Schlagzeile "AfD-Kandidat wird an Wahlkamp
 
 Ein <Reference code="winhart-rosenheim-konfrontation">Video von Sinom Tiew auf Bluesky</Reference> dokumentiert den vollständigen Vorfall über rund zwei Minuten. Es zeigt klar die zeitliche Abfolge:
 
-1. Die Gegendemonstrantengruppe passiert den AfD-Stand mit einem **zusammengefalteten** Banner, das den Boden leicht berührt - sie bewegen sich am Stand vorbei.
+1. Die Gegendemonstrantengruppe passiert den AfD-Stand mit einem **zusammengefalteten** Banner, das den Boden leicht berührt, sie bewegen sich am Stand vorbei.
 2. **Winhart tritt vom Stand vor** und greift nach dem Banner.
 3. Mehrere AfD-Mitglieder zerren minutenlang an dem Banner.
 4. Maurer, der sich aktiv in das Gerangel einmischt, stürzt in dem Gemenge.
@@ -102,7 +102,7 @@ Die Staatsanwaltschaft prüft nun ihrerseits, ob gegen Maurer Ermittlungen **weg
 Die Polizei Rosenheim veröffentlichte eine Pressemitteilung, bevor sie die Gegenseite gehört hatte. Aus einer
 einseitigen Darstellung wurde dadurch schnell eine scheinbar amtlich bestätigte Tatsache, die
 <Reference code="volksverpetzer-rosenheim-afd-angriff">Medien bundesweit unkritisch übernahmen</Reference>. Besonders
-paradox: AfD-Accounts behaupteten gleichzeitig, die Medien würden den Vorfall "verschweigen" - obwohl viele Berichte
+paradox: AfD-Accounts behaupteten gleichzeitig, die Medien würden den Vorfall "verschweigen", obwohl viele Berichte
 zunächst genau die AfD-Version wiedergaben.
 
 ## Fazit

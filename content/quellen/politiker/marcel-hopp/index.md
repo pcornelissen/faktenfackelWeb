@@ -18,7 +18,7 @@ Selbstdarstellung:
 > **Wer ich bin**  
   Ich wurde im Februar 1988 als Sohn einer Krankenschwester aus Südkorea und einem gelernten Schlosser und Ingenieur (über den zweiten Bildungsweg) aus der Eifel in der Neuköllner Frauenklinik am Mariendorfer Weg geboren.  
 >
-> Meine Kindheit und Jugend habe ich im Gebiet zwischen der Hufeisensiedlung, der Kleingartenkolonie am Teltow Kanal, über den "großen Spielplatz" Möwenweg, überall rund um das Krankenhaus Neukölln hin zur Gropius Passage und dem Sommerbad Gropiusstadt - verbracht. Heute wohne ich nach wie vor in Neukölln und arbeite seit 2015 als Lehrer an der Clay-Schule in Rudow.
+> Meine Kindheit und Jugend habe ich im Gebiet zwischen der Hufeisensiedlung, der Kleingartenkolonie am Teltow Kanal, über den "großen Spielplatz" Möwenweg, überall rund um das Krankenhaus Neukölln hin zur Gropius Passage und dem Sommerbad Gropiusstadt, verbracht. Heute wohne ich nach wie vor in Neukölln und arbeite seit 2015 als Lehrer an der Clay-Schule in Rudow.
 
 Sprecher der SPD-Fraktion für
 - Bildung

@@ -11,7 +11,7 @@ tags:
 
 ## Über die Quelle
 
-ProPublica ist ein unabhängiges, gemeinnütziges investigatives Nachrichtenmagazin mit Sitz in New York. Es wurde 2007 gegründet und finanziert sich überwiegend durch Spenden und Stiftungsgelder. ProPublica kooperiert regelmäßig mit anderen Medien -- darunter New York Times, Washington Post und lokale Nachrichtenredaktionen -- um Recherchen zu veröffentlichen.
+ProPublica ist ein unabhängiges, gemeinnütziges investigatives Nachrichtenmagazin mit Sitz in New York. Es wurde 2007 gegründet und finanziert sich überwiegend durch Spenden und Stiftungsgelder. ProPublica kooperiert regelmäßig mit anderen Medien, darunter New York Times, Washington Post und lokale Nachrichtenredaktionen, um Recherchen zu veröffentlichen.
 
 Der Fokus liegt auf investigativem Journalismus zu Themen wie Regierungskorruption, Versagen von Behörden, Ungerechtigkeiten im Gesundheitssystem und Umweltvergehen. ProPublica hat mehrere Pulitzer-Preise gewonnen, darunter für Recherchen zur Behandlung von Hurrikan-Katrina-Opfern, zu Steuervermeidung durch Superreiche und zu Missständen im US-Gesundheitssystem.
 
@@ -27,4 +27,4 @@ ProPublica gilt als eine der renommiertesten investigativen Nachrichtenorganisat
 
 ### Fazit
 
-ProPublica ist eine hochwertige, unabhängige Quelle für investigativen Journalismus. Berichte aus diesem Haus sind in der Regel gut recherchiert und belegt -- als Quelle für Faktenchecks gut geeignet.
+ProPublica ist eine hochwertige, unabhängige Quelle für investigativen Journalismus. Berichte aus diesem Haus sind in der Regel gut recherchiert und belegt, als Quelle für Faktenchecks gut geeignet.

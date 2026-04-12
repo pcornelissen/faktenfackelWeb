@@ -139,21 +139,21 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung
 > durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.  
 > ...  
-> &mdash; <cite><Reference code="gii-gg-5">Grundgesetz Artikel 5 - Meinungsfreiheit</Reference></cite>
+> &mdash; <cite><Reference code="gii-gg-5">Grundgesetz Artikel 5, Meinungsfreiheit</Reference></cite>
 
 > (1) Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln.  
 (2) Für Versammlungen unter freiem Himmel kann dieses Recht durch Gesetz oder auf Grund eines Gesetzes beschränkt
 > werden.  
-> &mdash; <cite><Reference code="gii-gg-8">Grundgesetz Artikel 8 - Versammlungsfreiheit</Reference></cite>
+> &mdash; <cite><Reference code="gii-gg-8">Grundgesetz Artikel 8, Versammlungsfreiheit</Reference></cite>
 
 > (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere
 > Ordnung muss demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über
 > ihr Vermögen öffentlich Rechenschaft geben.  
-> &mdash; <cite><Reference code="gii-gg-21">Grundgesetz Artikel 21 - Parteien</Reference></cite>
+> &mdash; <cite><Reference code="gii-gg-21">Grundgesetz Artikel 21, Parteien</Reference></cite>
 
 > Demokratie ist eine Herrschaftsform, in der das Volk die oberste Macht ausübt. Wesentliche Merkmale der Demokratie
 > sind die Wahlen, die Meinungsfreiheit, die Versammlungsfreiheit und die Gewaltenteilung.  
-> &mdash; <cite>[Bundeszentrale für politische Bildung - Demokratie](https://www.bpb.de/nachschlagen/lexika/das-junge-politik-lexikon/314929/demokratie)</cite>
+> &mdash; <cite>[Bundeszentrale für politische Bildung, Demokratie](https://www.bpb.de/nachschlagen/lexika/das-junge-politik-lexikon/314929/demokratie)</cite>
 
 > **Artikel 19 (Meinungs- und Informationsfreiheit)**  
 > Jeder Mensch hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein,

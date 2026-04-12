@@ -14,7 +14,7 @@ Tucker Carlson (* 1969) ist ein US-amerikanischer Medienkommentator und ehemalig
 
 Danach gründete Carlson das Tucker Carlson Network, über das er weiterhin Videos und Interviews veröffentlicht. Im Februar 2024 führte er ein viel beachtetes Interview mit dem russischen Präsidenten Wladimir Putin in Moskau.
 
-Carlson ist bekannt für die Verbreitung von Verschwörungstheorien, Fehlinformationen zur COVID-19-Pandemie, pro-russische Narrative sowie Inhalte, die Experten als "White Nationalist Talking Points" einordnen - also Argumente, die aus dem Umfeld der weißen Vorherrschaftsideologie stammen und in gemäßigterer Sprache für ein breiteres Publikum aufbereitet werden. Er unterstützte Donald Trump offen.
+Carlson ist bekannt für die Verbreitung von Verschwörungstheorien, Fehlinformationen zur COVID-19-Pandemie, pro-russische Narrative sowie Inhalte, die Experten als "White Nationalist Talking Points" einordnen, also Argumente, die aus dem Umfeld der weißen Vorherrschaftsideologie stammen und in gemäßigterer Sprache für ein breiteres Publikum aufbereitet werden. Er unterstützte Donald Trump offen.
 
 ## Links
 
@@ -27,4 +27,4 @@ Tucker Carlson gehört zu den einflussreichsten Verbreitern von Desinformation i
 
 ### Fazit
 
-Keine verlässliche Quelle für Fakten. Carlsons Aussagen taugen als Beleg dafür, welche Narrative im rechts-populistischen und rechtsextremen US-Medienmilieu verbreitet werden - niemals aber als sachliche Grundlage.
+Keine verlässliche Quelle für Fakten. Carlsons Aussagen taugen als Beleg dafür, welche Narrative im rechts-populistischen und rechtsextremen US-Medienmilieu verbreitet werden, niemals aber als sachliche Grundlage.

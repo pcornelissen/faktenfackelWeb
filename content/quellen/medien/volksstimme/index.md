@@ -12,7 +12,7 @@ Die Volksstimme ist eine regionale Tageszeitung mit Sitz in Magdeburg und die au
 
 ## Über die Quelle
 
-Die Volksstimme wurde [1890 als sozialdemokratische Zeitung](https://de.wikipedia.org/wiki/Volksstimme) gegründet. Die Nationalsozialisten verboten sie 1933; nach dem Zweiten Weltkrieg erschien sie ab 1947 als Parteiorgan der SED für den Bezirk Magdeburg. Nach dem Ende der DDR trennte sich die Redaktion im Januar 1990 vom SED-Herausgeberapparat. Im Zuge der Privatisierung übernahm die [Bauer Media Group](https://en.wikipedia.org/wiki/Volksstimme_(Saxony-Anhalt)) (Hamburg) den Verlag - heute firmiert das Tochterunternehmen als Mitteldeutsche Verlags- und Druckhaus GmbH.
+Die Volksstimme wurde [1890 als sozialdemokratische Zeitung](https://de.wikipedia.org/wiki/Volksstimme) gegründet. Die Nationalsozialisten verboten sie 1933; nach dem Zweiten Weltkrieg erschien sie ab 1947 als Parteiorgan der SED für den Bezirk Magdeburg. Nach dem Ende der DDR trennte sich die Redaktion im Januar 1990 vom SED-Herausgeberapparat. Im Zuge der Privatisierung übernahm die [Bauer Media Group](https://en.wikipedia.org/wiki/Volksstimme_(Saxony-Anhalt)) (Hamburg) den Verlag, heute firmiert das Tochterunternehmen als Mitteldeutsche Verlags- und Druckhaus GmbH.
 
 Die Zeitung erscheint montags bis samstags in 18 Lokalausgaben und deckt schwerpunktmäßig das nördliche Sachsen-Anhalt ab. Die verkaufte Auflage (inkl. E-Paper) lag laut IVW bei rund 132.000 Exemplaren (Stand 2023); Mitte der 1990er-Jahre hatte sie noch über 300.000 Abonnenten. Seit 2020 gehört auch die [Mitteldeutsche Zeitung](https://en.wikipedia.org/wiki/Mitteldeutsche_Zeitung) zur Bauer-Gruppe, womit ein Konzern beide großen Tageszeitungen Sachsen-Anhalts kontrolliert.
 
@@ -26,7 +26,7 @@ Die Volksstimme ist Teil der [Mediengruppe Magdeburg](https://mediengruppe-magde
 
 ## Faktenfackel Bewertung
 
-Die Volksstimme ist die wichtigste regionale Nachrichtenquelle für Sachsen-Anhalt und erfüllt eine publizistische Grundversorgungsfunktion für die Region. Die journalistische Qualität ist für eine Regionalzeitung ordentlich; im Lokalteil dominieren erwartungsgemäß Agenturmeldungen und redaktionelle Kurzberichte. Bei Themen mit regionalem Bezug - insbesondere Kommunal- und Landespolitik - berichtet die Redaktion eigenständig und recherchiert.
+Die Volksstimme ist die wichtigste regionale Nachrichtenquelle für Sachsen-Anhalt und erfüllt eine publizistische Grundversorgungsfunktion für die Region. Die journalistische Qualität ist für eine Regionalzeitung ordentlich; im Lokalteil dominieren erwartungsgemäß Agenturmeldungen und redaktionelle Kurzberichte. Bei Themen mit regionalem Bezug, insbesondere Kommunal- und Landespolitik, berichtet die Redaktion eigenständig und recherchiert.
 
 Die historische Belastung durch die SED-Vergangenheit wurde nach 1990 durch den Eigentümerwechsel und redaktionellen Neuanfang abgelöst. Kritisch zu bemerken ist, dass die Bauer Media Group als Alleingesellschafterin nun beide großen Tageszeitungen des Landes kontrolliert, was strukturelle Fragen zur medialen Meinungsvielfalt in Sachsen-Anhalt aufwirft. Verlegerische Einflussnahme auf Inhalte ist aus der öffentlichen Berichterstattung nicht bekannt.
 

@@ -23,7 +23,7 @@ Endstation Rechts betreibt u.a. eine Bayern-Regionalseite ("Endstation Rechts Ba
 
 ## Faktenfackel Bewertung
 
-Seriöses Recherche-Portal mit klarer antifaschistischer Ausrichtung. Berichterstattung gut dokumentiert und auf Primärquellen gestützt. Politische Einordnung beachten - das Portal versteht sich explizit als Gegenöffentlichkeit zum Rechtsextremismus.
+Seriöses Recherche-Portal mit klarer antifaschistischer Ausrichtung. Berichterstattung gut dokumentiert und auf Primärquellen gestützt. Politische Einordnung beachten, das Portal versteht sich explizit als Gegenöffentlichkeit zum Rechtsextremismus.
 
 ### Fazit
 

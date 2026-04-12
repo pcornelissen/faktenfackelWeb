@@ -14,7 +14,7 @@ tags:
 
 Das Cato Institute ist ein 1977 in Washington D.C. gegründeter libertärer Think-Tank. Es wurde ursprünglich unter maßgeblicher Beteiligung von Charles Koch ins Leben gerufen und ist bis heute Teil des Koch-Netzwerks. Das Institut setzt sich für freie Märkte, individuelle Bürgerrechte und minimale staatliche Eingriffe ein.
 
-Das Cato Institute ist einer der einflussreichsten libertären Think-Tanks in den USA und hat sowohl auf republikanische als auch - in Bürgerrechtsfragen - gelegentlich auf libertär-linke Debatten Einfluss. Es veröffentlicht Studien, Policy-Briefs und Kommentare zu Wirtschafts-, Sozial- und Außenpolitik.
+Das Cato Institute ist einer der einflussreichsten libertären Think-Tanks in den USA und hat sowohl auf republikanische als auch, in Bürgerrechtsfragen, gelegentlich auf libertär-linke Debatten Einfluss. Es veröffentlicht Studien, Policy-Briefs und Kommentare zu Wirtschafts-, Sozial- und Außenpolitik.
 
 ## Links
 

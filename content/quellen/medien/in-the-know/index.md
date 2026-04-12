@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-In The Know (Facebook-ID: 61583499731440, Instagram: real.talk.us) ist eine amerikanische Nachrichten- und Medienseite. Motto: "Speaking truth, asking questions, and refusing to look away. News • Awareness • Humanity." Die Seite berichtet über US-amerikanische und internationale Politik, oft in Kurzvideoformat (Facebook Reels). Es gibt keine klare institutionelle Trägerschaft oder redaktionelle Transparenz - Herausgeber, Redaktionsleitung und Finanzierung sind nicht öffentlich ersichtlich. Die politische Ausrichtung ist erkennbar progressiv-kritisch gegenüber Trump und der Republikanischen Partei.
+In The Know (Facebook-ID: 61583499731440, Instagram: real.talk.us) ist eine amerikanische Nachrichten- und Medienseite. Motto: "Speaking truth, asking questions, and refusing to look away. News • Awareness • Humanity." Die Seite berichtet über US-amerikanische und internationale Politik, oft in Kurzvideoformat (Facebook Reels). Es gibt keine klare institutionelle Trägerschaft oder redaktionelle Transparenz, Herausgeber, Redaktionsleitung und Finanzierung sind nicht öffentlich ersichtlich. Die politische Ausrichtung ist erkennbar progressiv-kritisch gegenüber Trump und der Republikanischen Partei.
 
 ## Links
 
@@ -25,7 +25,7 @@ In The Know ist eine amerikanische Social-Media-Nachrichtenseite ohne erkennbare
 
 **Positiv:** Die bisher geprüften Kernaussagen sind faktisch korrekt und beziehen sich auf belegbare Ereignisse (z.B. Trumps erste Vetos seiner zweiten Amtszeit). 
 
-**Negativ:** Die Aufmachung ist eindeutig parteiisch - Fakten werden korrekt berichtet, aber durch emotionalen Kommentar und Rahmengebung in eine klare politische Richtung gelenkt. Es gibt keine erkennbare Trennung zwischen Nachricht und Meinung. Herkunft, Finanzierung und Redaktion sind intransparent.
+**Negativ:** Die Aufmachung ist eindeutig parteiisch, Fakten werden korrekt berichtet, aber durch emotionalen Kommentar und Rahmengebung in eine klare politische Richtung gelenkt. Es gibt keine erkennbare Trennung zwischen Nachricht und Meinung. Herkunft, Finanzierung und Redaktion sind intransparent.
 
 Als Primärquelle für Faktenrecherche wenig geeignet. Die berichteten Fakten sollten stets durch unabhängige Quellen (PBS, NPR, ABC News, AP) gegengeprüft werden.
 

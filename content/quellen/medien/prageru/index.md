@@ -28,4 +28,4 @@ PragerU ist keine Bildungseinrichtung, sondern eine politisch motivierte Propaga
 
 ### Fazit
 
-PragerU ist als Quelle nicht verlässlich. Der Bildungsanspruch ist irreführend -- die Inhalte sind politische Propaganda mit konservativ-nationalistischer Ausrichtung und sollten grundsätzlich faktengeprüft werden.
+PragerU ist als Quelle nicht verlässlich. Der Bildungsanspruch ist irreführend, die Inhalte sind politische Propaganda mit konservativ-nationalistischer Ausrichtung und sollten grundsätzlich faktengeprüft werden.

@@ -16,7 +16,7 @@ Julian Reichelt (* 1980) ist ein deutscher Journalist und Medienmacher. Von 2017
 
 ## Links
 
-- [Nius](https://www.nius.de) - Sein aktuelles Medium
+- [Nius](https://www.nius.de), Sein aktuelles Medium
 - [Wikipedia: Julian Reichelt](https://de.wikipedia.org/wiki/Julian_Reichelt)
 
 ## Faktenfackel Bewertung

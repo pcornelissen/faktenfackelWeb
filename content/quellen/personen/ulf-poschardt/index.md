@@ -26,4 +26,4 @@ Poschardts Kommentare und die von ihm verantworteten Leitlinien der Welt sind vo
 
 ### Fazit
 
-Als Meinungsquelle mit klarer konservativer Positionierung einzuordnen. Sachaussagen aus der Welt sollten wie bei anderen Qualitätszeitungen behandelt werden - mit dem Zusatzhinweis auf die redaktionelle Linie des Blattes.
+Als Meinungsquelle mit klarer konservativer Positionierung einzuordnen. Sachaussagen aus der Welt sollten wie bei anderen Qualitätszeitungen behandelt werden, mit dem Zusatzhinweis auf die redaktionelle Linie des Blattes.

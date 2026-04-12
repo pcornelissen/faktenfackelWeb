@@ -22,7 +22,7 @@ Das Portal beschäftigt sich mit der Arbeit von Journalisten und Medien in Deuts
 ## Links
 
 - Website: [uebermedien.de](https://uebermedien.de)
-- Wikipedia: [Übermedien - Wikipedia](https://de.wikipedia.org/wiki/%C3%9Cbermedien)
+- Wikipedia: [Übermedien, Wikipedia](https://de.wikipedia.org/wiki/%C3%9Cbermedien)
 
 ## Faktenfackel Bewertung
 

@@ -24,7 +24,7 @@ Das Medium wurde von Gerald Demmel und Patricia Huber gegründet und wird von ei
 
 ## Faktenfackel Bewertung
 
-kontrast.at liefert gut aufbereitete Artikel zu wirtschafts- und sozialpolitischen Themen, oft mit Daten und Studien unterlegt. Die SPÖ-Nähe ist transparent, sollte aber bei der Einordnung berücksichtigt werden - insbesondere bei parteipolitischen Themen ist eine gewisse redaktionelle Schlagseite zu erwarten.
+kontrast.at liefert gut aufbereitete Artikel zu wirtschafts- und sozialpolitischen Themen, oft mit Daten und Studien unterlegt. Die SPÖ-Nähe ist transparent, sollte aber bei der Einordnung berücksichtigt werden, insbesondere bei parteipolitischen Themen ist eine gewisse redaktionelle Schlagseite zu erwarten.
 
 ### Fazit
 

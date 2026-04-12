@@ -35,12 +35,12 @@ Naidoos Karriere ist seit Mitte der 2010er Jahre zunehmend von rechten und versc
 
 **April 2022:** In einem YouTube-Video entschuldigte sich Naidoo öffentlich für frühere Aussagen und erklärte, der russische Angriffskrieg auf die Ukraine habe ihm "die Augen geöffnet", da seine Frau Ukrainerin sei. Er gab an, seine Informationsquellen kritisch zu überdenken. Die [taz](https://taz.de/Naidoos-Abkehr-vom-Verschwoerungsglauben/!5846586/) bewertete die Entschuldigung als unzureichend: Naidoo bleibe zu vage, benenne keine konkreten Fehler und gebe keine Zusagen, wie er sein Verhalten in Zukunft ändern wolle.
 
-**2026:** Naidoo meldete für den 14.&nbsp;März 2026 eine Demo in Berlin an der Siegessäule an, offiziell unter dem Titel "Transparenz, Rechtsstaat und Schutz von Minderjährigen - Aufklärung möglicher deutscher Verbindungen im Epstein-Komplex." Politikwissenschaftler und Medien ordneten die Veranstaltung als Verschwörungsdemonstration ein. Laut [taz](https://taz.de/Xavier-Naidoo-ruft-zu-Verschwoerungs-Demo-in-Berlin-auf-Kinder-als-Vorwand/!6161139/) bediente Naidoo dabei QAnon-nahe Narrative. Laut [Tagesspiegel](https://www.tagesspiegel.de/berlin/verschworungs-demo-in-berlin-xavier-naidoo-singt-dieser-weg-auf-der-buhne--rund-1000-teilnehmende-15357477.html) sprach die Polizei von 750 Teilnehmenden, obwohl 10.000 angemeldet waren.
+**2026:** Naidoo meldete für den 14.&nbsp;März 2026 eine Demo in Berlin an der Siegessäule an, offiziell unter dem Titel "Transparenz, Rechtsstaat und Schutz von Minderjährigen, Aufklärung möglicher deutscher Verbindungen im Epstein-Komplex." Politikwissenschaftler und Medien ordneten die Veranstaltung als Verschwörungsdemonstration ein. Laut [taz](https://taz.de/Xavier-Naidoo-ruft-zu-Verschwoerungs-Demo-in-Berlin-auf-Kinder-als-Vorwand/!6161139/) bediente Naidoo dabei QAnon-nahe Narrative. Laut [Tagesspiegel](https://www.tagesspiegel.de/berlin/verschworungs-demo-in-berlin-xavier-naidoo-singt-dieser-weg-auf-der-buhne--rund-1000-teilnehmende-15357477.html) sprach die Polizei von 750 Teilnehmenden, obwohl 10.000 angemeldet waren.
 
 ## Links
 
 - [Wikipedia (englisch)](https://en.wikipedia.org/wiki/Xavier_Naidoo)
-- [t-online.de: Verschwörungen und Nazi-Thesen - eine Chronik](https://www.t-online.de/unterhaltung/stars/id_87628350/xavier-naidoo-verschwoerungen-und-nazi-thesen-eine-chronik.html)
+- [t-online.de: Verschwörungen und Nazi-Thesen, eine Chronik](https://www.t-online.de/unterhaltung/stars/id_87628350/xavier-naidoo-verschwoerungen-und-nazi-thesen-eine-chronik.html)
 - [taz: Naidoos Abkehr vom Verschwörungsglauben](https://taz.de/Naidoos-Abkehr-vom-Verschwoerungsglauben/!5846586/)
 - [Tagesspiegel: Verschwörungs-Demo in Berlin](https://www.tagesspiegel.de/berlin/verschworungs-demo-in-berlin-xavier-naidoo-singt-dieser-weg-auf-der-buhne--rund-1000-teilnehmende-15357477.html)
 

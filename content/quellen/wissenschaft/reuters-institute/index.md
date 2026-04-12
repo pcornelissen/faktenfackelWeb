@@ -26,7 +26,7 @@ Bekannt ist das Institut vor allem für den jährlich erscheinenden [Digital New
 
 ## Faktenfackel Bewertung
 
-Das Reuters Institute gilt als eine der renommiertesten internationalen Forschungseinrichtungen zu Journalismus und Medien. Die Daten des Digital News Report sind methodisch solide und gut dokumentiert - die Methodik wird intern, mit Länderpartnern und einem Advisory Board regelmäßig überprüft.
+Das Reuters Institute gilt als eine der renommiertesten internationalen Forschungseinrichtungen zu Journalismus und Medien. Die Daten des Digital News Report sind methodisch solide und gut dokumentiert, die Methodik wird intern, mit Länderpartnern und einem Advisory Board regelmäßig überprüft.
 
 Die Finanzierungsstruktur wird vom Institut vollständig offengelegt. Kernförderer ist die [Thomson Reuters Foundation](https://www.trust.org/), die seit 2006 rund 8,1 Millionen Pfund bereitgestellt hat und die einzige Geldgeberin ist, die eine Rolle in der Governance-Struktur hat. Weitere Geldgeber im Jahr 2024/25 umfassen unter anderem YouTube (zwischen 200.000 und 500.000 Pfund), die Knight Foundation sowie zahlreiche Universitäten und Medienhäuser. Diese Verflechtung mit Technologie- und Medienunternehmen ist bei der Interpretation von Befunden zu berücksichtigen, schränkt die wissenschaftliche Qualität der Umfragedaten aber nicht grundsätzlich ein.
 

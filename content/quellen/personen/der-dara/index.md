@@ -15,7 +15,7 @@ tags:
 
 ## Über die Quelle
 
-DerDara ist das Pseudonym von Dara Marc Sasmaz, einem deutschen politischen Content-Creator. Er produziert seit 2021 Videos auf YouTube und Twitch unter dem Kanal "DerDara - Politik, News & Debatte" (Handle: @DerDaraUncut). Stand März 2026 hat der Kanal rund 161 000 Abonnenten und über 44 Millionen Aufrufe bei mehr als 1500 Videos.
+DerDara ist das Pseudonym von Dara Marc Sasmaz, einem deutschen politischen Content-Creator. Er produziert seit 2021 Videos auf YouTube und Twitch unter dem Kanal "DerDara, Politik, News & Debatte" (Handle: @DerDaraUncut). Stand März 2026 hat der Kanal rund 161 000 Abonnenten und über 44 Millionen Aufrufe bei mehr als 1500 Videos.
 
 Dara ist seit 2015 Mitglied der Partei Die Linke und arbeitet gemeinsam mit seinem Kollegen Kolja als Social-Media-Berater für die Linksfraktion im Deutschen Bundestag. In dieser Funktion beraten sie die Partei in Fragen der digitalen Kommunikationsstrategie.
 

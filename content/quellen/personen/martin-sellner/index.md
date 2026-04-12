@@ -14,7 +14,7 @@ tags:
 
 Martin Sellner (* 1989) ist ein österreichischer Rechtsextremist und einer der bekanntesten Köpfe der europäischen Identitären Bewegung. Er war Mitbegründer und langjähriger Leiter der Identitären Bewegung Österreich (IBÖ), die vom österreichischen Verfassungsschutz als rechtsextremistisch eingestuft wird und 2023 offiziell aufgelöst wurde.
 
-Sellner ist ein zentraler Vordenker des Konzepts der "Remigration" - der Forderung nach massenweiser Abschiebung von Menschen mit Migrationshintergrund, darunter auch Personen mit deutschen oder österreichischen Pässen. Dieses Konzept erlangte in Deutschland im Januar 2024 breite öffentliche Aufmerksamkeit, als über ein Treffen in Potsdam berichtet wurde, an dem Sellner und AfD-nahe Personen teilgenommen hatten.
+Sellner ist ein zentraler Vordenker des Konzepts der "Remigration", der Forderung nach massenweiser Abschiebung von Menschen mit Migrationshintergrund, darunter auch Personen mit deutschen oder österreichischen Pässen. Dieses Konzept erlangte in Deutschland im Januar 2024 breite öffentliche Aufmerksamkeit, als über ein Treffen in Potsdam berichtet wurde, an dem Sellner und AfD-nahe Personen teilgenommen hatten.
 
 Sellner hat Einreiseverbote in Deutschland, das Vereinigte Königreich und die USA. Er lebt in Wien und verbreitet seine Inhalte über eigene Plattformen sowie Telegram. Seine Frau ist die ehemalige US-amerikanische Anti-Feminismus-Aktivistin Brittany Pettibone.
 

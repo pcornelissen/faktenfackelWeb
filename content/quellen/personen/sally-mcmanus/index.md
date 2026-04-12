@@ -26,7 +26,7 @@ McManus ist eine der profiliertesten Stimmen Australiens zu Arbeitnehmerrechten,
 
 ## Faktenfackel Bewertung
 
-Sally McManus ist eine glaubwürdige Primärquelle für die Positionen der australischen Gewerkschaftsbewegung. Ihre politischen Einschätzungen zu Unternehmensmacht und Ungleichheit sind faktenbasiert und werden von unabhängigen Quellen gestützt - z.B. ihre Aussage, dass 679 der größten australischen Konzerne keine Einkommensteuer zahlen (laut ATO-Daten für 2014/15 korrekt). Sie steht klar auf Seiten der Arbeitnehmer, was bei der Einordnung ihrer Aussagen zu berücksichtigen ist.
+Sally McManus ist eine glaubwürdige Primärquelle für die Positionen der australischen Gewerkschaftsbewegung. Ihre politischen Einschätzungen zu Unternehmensmacht und Ungleichheit sind faktenbasiert und werden von unabhängigen Quellen gestützt, z.B. ihre Aussage, dass 679 der größten australischen Konzerne keine Einkommensteuer zahlen (laut ATO-Daten für 2014/15 korrekt). Sie steht klar auf Seiten der Arbeitnehmer, was bei der Einordnung ihrer Aussagen zu berücksichtigen ist.
 
 ### Fazit
 

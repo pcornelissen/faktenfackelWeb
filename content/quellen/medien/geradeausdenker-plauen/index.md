@@ -20,7 +20,7 @@ tags:
 
 ## Faktenfackel Bewertung
 
-Politisch kommentierender Kanal mit kritischer Haltung gegenüber der AfD. Inhalte auf Originalquellen (z.B. heute-show, Bundestag, Parteidokumente) zurückführen. Die in Reels formulierten Behauptungen sind in der untersuchten Stichprobe sachlich korrekt und durch Primärquellen belegbar - allerdings mit klar parteiischer Rahmung (framing). Keine eigene journalistische Recherche, sondern Kommentierung von Berichten anderer Medien.
+Politisch kommentierender Kanal mit kritischer Haltung gegenüber der AfD. Inhalte auf Originalquellen (z.B. heute-show, Bundestag, Parteidokumente) zurückführen. Die in Reels formulierten Behauptungen sind in der untersuchten Stichprobe sachlich korrekt und durch Primärquellen belegbar, allerdings mit klar parteiischer Rahmung (framing). Keine eigene journalistische Recherche, sondern Kommentierung von Berichten anderer Medien.
 
 ### Fazit
 

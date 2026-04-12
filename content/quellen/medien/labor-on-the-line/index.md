@@ -27,7 +27,7 @@ Konkrete Angaben zu Gründern oder leitenden Personen sind öffentlich nicht zug
 
 ## Faktenfackel Bewertung
 
-Klar progressive/gewerkschaftlich orientierte Quelle ohne redaktionelle Transparenz (keine namentlich genannten Autoren oder Herausgeber). Die Inhalte dokumentieren Proteste und Arbeitskampfe aus Gewerkschaftsperspektive und sind inhaltlich in der Regel faktisch korrekt, aber mit aktivistischem Framing versehen - radikale Forderungen einzelner Demonstrierender werden gerne als repräsentativ für eine gesamte Bewegung dargestellt (vgl. das General-Strike-Banner beim #NoKings-March Oktober 2025).
+Klar progressive/gewerkschaftlich orientierte Quelle ohne redaktionelle Transparenz (keine namentlich genannten Autoren oder Herausgeber). Die Inhalte dokumentieren Proteste und Arbeitskampfe aus Gewerkschaftsperspektive und sind inhaltlich in der Regel faktisch korrekt, aber mit aktivistischem Framing versehen, radikale Forderungen einzelner Demonstrierender werden gerne als repräsentativ für eine gesamte Bewegung dargestellt (vgl. das General-Strike-Banner beim #NoKings-March Oktober 2025).
 
 ### Fazit
 

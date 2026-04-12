@@ -1,7 +1,7 @@
 ---
 date: 2026-04-08
 publishedOn: 2026-04-06
-name: DellaVigna & Kaplan (2007) - The Fox News Effect
+name: DellaVigna & Kaplan (2007), The Fox News Effect
 description: Ökonometrische Studie zum kausalen Einfluss von Fox News auf das Wahlverhalten in den USA
 tags:
   - Wissenschaft
@@ -28,7 +28,7 @@ Stefano DellaVigna und Ethan Kaplan sind Wirtschaftswissenschaftler, die 2007 ge
 
 ## Faktenfackel Bewertung
 
-Die Studie wurde nach Peer-Review in einer der renommiertesten wirtschaftswissenschaftlichen Fachzeitschriften der Welt veröffentlicht. Beide Autoren sind anerkannte Wissenschaftler an führenden Universitäten. Die Nutzung eines natürlichen Experiments - der geographisch zufälligen Verteilung des Fox-News-Kabeleintritts - erlaubt kausale Schlüsse, die reine Korrelationsstudien nicht erlauben. Die Studie wurde vielfach repliziert und durch Folgestudien bestätigt.
+Die Studie wurde nach Peer-Review in einer der renommiertesten wirtschaftswissenschaftlichen Fachzeitschriften der Welt veröffentlicht. Beide Autoren sind anerkannte Wissenschaftler an führenden Universitäten. Die Nutzung eines natürlichen Experiments, der geographisch zufälligen Verteilung des Fox-News-Kabeleintritts, erlaubt kausale Schlüsse, die reine Korrelationsstudien nicht erlauben. Die Studie wurde vielfach repliziert und durch Folgestudien bestätigt.
 
 ### Fazit
 

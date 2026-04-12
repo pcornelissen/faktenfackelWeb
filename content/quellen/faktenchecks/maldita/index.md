@@ -4,7 +4,6 @@ publishedOn: 2026-04-10
 name: "Maldita.es"
 description: "Spanische Faktencheck-Organisation und Medienkompetenz-Initiative"
 tags:
-  - research-done-review-pending
   - Faktencheck
   - Spanien
   - Desinformation

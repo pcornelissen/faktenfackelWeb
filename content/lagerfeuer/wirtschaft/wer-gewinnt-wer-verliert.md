@@ -3,14 +3,14 @@ publishedOn: 2026-04-07
 date: 2026-04-07
 title: "Wer gewinnt, wer verliert"
 subtitle: "Eine Untersuchung der Mechanismen, die Ungleichheit in Deutschland systematisch produzieren"
-description: "Wirtschaftliche Ungleichheit in Deutschland ist kein Naturgesetz. Sie ist das Ergebnis konkreter politischer Entscheidungen über Jahrzehnte. Diese Serie untersucht neun Achsen - von Steuerpolitik über Medienkonzentration bis zu Privatisierung und Prekarisierung."
+description: "Wirtschaftliche Ungleichheit in Deutschland ist kein Naturgesetz. Sie ist das Ergebnis konkreter politischer Entscheidungen über Jahrzehnte. Diese Serie untersucht neun Achsen, von Steuerpolitik über Medienkonzentration bis zu Privatisierung und Prekarisierung."
 tags:
   - Wirtschaft
   - Ungleichheit
   - Serie
 ---
 
-Wirtschaftliche Ungleichheit in Deutschland ist kein Unfall. Sie ist das Ergebnis von Jahrzehnten konkreter politischer Entscheidungen. Diese Serie untersucht die Mechanismen, die dieses System produzieren und reproduzieren - Achse für Achse.
+Wirtschaftliche Ungleichheit in Deutschland ist kein Unfall. Sie ist das Ergebnis von Jahrzehnten konkreter politischer Entscheidungen. Diese Serie untersucht die Mechanismen, die dieses System produzieren und reproduzieren, Achse für Achse.
 
 - [Einleitung: Das System, das kein Versehen ist](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.00-einleitung-das-system)
 - [Teil 1: Wer zahlt, wer spart](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.01-wer-zahlt-wer-spart)

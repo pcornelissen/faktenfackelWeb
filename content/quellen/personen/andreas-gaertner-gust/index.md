@@ -12,11 +12,11 @@ Facebook-Nutzer, der eine vielgeteilte Liste von AfD-Mandatsträgern mit rechtsk
 
 ## Über die Quelle
 
-Andreas Gärtner Gust ist eine Privatperson mit Facebook-Präsenz. Laut seinem Facebook-Profil gibt er an, als Richter am Landgericht und Amtsgericht Hamburg tätig zu sein. Zudem bezeichnet er sich dort als „Digital Creator". Darüber hinaus sind keine öffentlich zugänglichen Informationen über seinen beruflichen Hintergrund, seine Ausbildung oder seine sonstigen Aktivitäten verfügbar. Er ist weder als Journalist noch als politischer Aktivist öffentlich bekannt.
+Andreas Gärtner Gust ist eine Privatperson mit Facebook-Präsenz. Laut seinem Facebook-Profil gibt er an, als Richter am Landgericht und Amtsgericht Hamburg tätig zu sein. Zudem bezeichnet er sich dort als "Digital Creator". Darüber hinaus sind keine öffentlich zugänglichen Informationen über seinen beruflichen Hintergrund, seine Ausbildung oder seine sonstigen Aktivitäten verfügbar. Er ist weder als Journalist noch als politischer Aktivist öffentlich bekannt.
 
 Seine Bekanntheit im Kontext der Faktenfackel-Recherche beruht auf einer umfangreichen Facebook-Liste, in der er rechtskräftige Verurteilungen, laufende Ermittlungsverfahren und weitere strafrechtlich relevante Sachverhalte im Zusammenhang mit AfD-Mandatsträgern zusammengestellt hat.
 
-**Hinweis:** Die Angabe „Richter am Landgericht und Amtsgericht Hamburg" stammt ausschließlich aus seinem Facebook-Profil und konnte nicht unabhängig verifiziert werden.
+**Hinweis:** Die Angabe "Richter am Landgericht und Amtsgericht Hamburg" stammt ausschließlich aus seinem Facebook-Profil und konnte nicht unabhängig verifiziert werden.
 
 ## Links
 

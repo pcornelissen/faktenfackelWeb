@@ -1,7 +1,7 @@
 ---
 publishedOn: 2026-04-05
 date: 2026-04-05
-title: "\"Merz leck Eier\" - darf man das sagen?"
+title: "\"Merz leck Eier\", darf man das sagen?"
 subtitle: Was Meinungsfreiheit und Strafrecht dazu sagen
 verdict: complex
 tags:

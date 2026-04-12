@@ -16,7 +16,7 @@ Dr. Alice Mann (geb. 1980 in Porto Alegre, Brasilien) ist eine US-amerikanische 
 
 Mann war von 2019 bis 2021 Mitglied des Minnesota House of Representatives (District 56B) und sitzt seit 2023 im Minnesota State Senate (District 50, Edina und Umgebung südwestlich der Twin Cities). Im Dezember 2025 gab sie bekannt, 2026 nicht erneut zu kandidieren.
 
-Sie kommentiert auf Social Media regelmäßig wirtschaftliche und politische Themen aus demokratischer Perspektive - dabei sind faktische Behauptungen mit Primärquellen zu prüfen.
+Sie kommentiert auf Social Media regelmäßig wirtschaftliche und politische Themen aus demokratischer Perspektive, dabei sind faktische Behauptungen mit Primärquellen zu prüfen.
 
 ## Links
 
@@ -27,8 +27,8 @@ Sie kommentiert auf Social Media regelmäßig wirtschaftliche und politische The
 
 ## Faktenfackel Bewertung
 
-Primärquelle für DFL-Positionen in Minnesota. Politisch klar positioniert. Geprüfter Quellenlink zeigt eine sachlich falsche Behauptung zu Benzinpreisen (50 Cent Anstieg pro Woche im Januar 2026 - tatsächlicher Anstieg: ca. 3 Cent). Faktische Behauptungen stets mit unabhängigen Quellen abgleichen.
+Primärquelle für DFL-Positionen in Minnesota. Politisch klar positioniert. Geprüfter Quellenlink zeigt eine sachlich falsche Behauptung zu Benzinpreisen (50 Cent Anstieg pro Woche im Januar 2026, tatsächlicher Anstieg: ca. 3 Cent). Faktische Behauptungen stets mit unabhängigen Quellen abgleichen.
 
 ### Fazit
 
-DFL-Senatorin aus Minnesota mit medizinischem Hintergrund. Politische Aussagen und wirtschaftliche Behauptungen mit Primärquellen gegenchecken - mindestens eine belegte Falschaussage zu Energiepreisen.
+DFL-Senatorin aus Minnesota mit medizinischem Hintergrund. Politische Aussagen und wirtschaftliche Behauptungen mit Primärquellen gegenchecken, mindestens eine belegte Falschaussage zu Energiepreisen.

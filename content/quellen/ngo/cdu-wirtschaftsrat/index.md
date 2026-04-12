@@ -27,4 +27,4 @@ Der Wirtschaftsrat ist eine Lobbyorganisation mit klar marktliberaler und CDU-na
 
 ### Fazit
 
-Als Lobbyquelle einzuordnen. Positionen spiegeln die Interessen der Mitglieder wider. Gut geeignet als Beleg dafür, was der wirtschaftsliberale Flügel der Union fordert - nicht als neutrale Sachaussage.
+Als Lobbyquelle einzuordnen. Positionen spiegeln die Interessen der Mitglieder wider. Gut geeignet als Beleg dafür, was der wirtschaftsliberale Flügel der Union fordert, nicht als neutrale Sachaussage.

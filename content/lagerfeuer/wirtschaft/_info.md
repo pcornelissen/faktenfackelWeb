@@ -3,7 +3,7 @@ title: Wirtschaft
 subtitle: Wirtschaftliche Zusammenhänge, Ungleichheit und politische Entscheidungen
 description: Lagerfeuer-Artikel zu Wirtschaft, Ungleichheit und den politischen Entscheidungen dahinter.
 icon: blogging
-iconTxt: Blogging Icons erstellt von Freepik - Flaticon
+iconTxt: Blogging Icons erstellt von Freepik, Flaticon
 date: 1970-01-01
 publishedOn: null
 tags: []

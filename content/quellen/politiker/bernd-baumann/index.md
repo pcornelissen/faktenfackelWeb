@@ -17,7 +17,7 @@ Bernd Baumann (* 1955 in Hamburg) ist ein AfD-Bundestagsabgeordneter und parlame
 
 Baumann ist bekannt für scharfe Bundestagsreden gegen Migration und gegen das, was er als "politische Korrektheit" bezeichnet. Er bedient regelmäßig Narrative, die Einwanderung als Bedrohung für Sicherheit und Wohlstand darstellen, und greift dabei auf Zahlen und Formulierungen zurück, die von Faktencheckern wiederholt als irreführend oder falsch bewertet wurden. Sein Ton ist dabei oft polemisch und auf maximale Provokation ausgelegt.
 
-Als parlamentarischer Geschäftsführer ist Baumann auch für die taktische Parlamentsarbeit der AfD-Fraktion mitverantwortlich - darunter der strategische Einsatz von Anfragen und Debatten zur öffentlichen Profilierung der Partei.
+Als parlamentarischer Geschäftsführer ist Baumann auch für die taktische Parlamentsarbeit der AfD-Fraktion mitverantwortlich, darunter der strategische Einsatz von Anfragen und Debatten zur öffentlichen Profilierung der Partei.
 
 ## Links
 
@@ -26,7 +26,7 @@ Als parlamentarischer Geschäftsführer ist Baumann auch für die taktische Parl
 
 ## Faktenfackel Bewertung
 
-Bernd Baumann steht für eine Partei, bei der ein dokumentiertes Muster falscher und irreführender Aussagen besteht. Faktenchecks von Correctiv, dpa und anderen haben AfD-Behauptungen zu Migration, Kriminalität und Wirtschaft vielfach widerlegt. Aussagen Baumanns - insbesondere zu Migrationsstatistiken und Sicherheitsthemen - sollten grundsätzlich als unzuverlässig eingestuft werden, bis sie durch belastbare Quellen bestätigt wurden.
+Bernd Baumann steht für eine Partei, bei der ein dokumentiertes Muster falscher und irreführender Aussagen besteht. Faktenchecks von Correctiv, dpa und anderen haben AfD-Behauptungen zu Migration, Kriminalität und Wirtschaft vielfach widerlegt. Aussagen Baumanns, insbesondere zu Migrationsstatistiken und Sicherheitsthemen, sollten grundsätzlich als unzuverlässig eingestuft werden, bis sie durch belastbare Quellen bestätigt wurden.
 
 ### Fazit
 
