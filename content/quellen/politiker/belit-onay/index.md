@@ -4,7 +4,7 @@ publishedOn: 2026-03-27
 name: "Belit Onay"
 description: "Oberbürgermeister der Landeshauptstadt Hannover (Bündnis 90/Die Grünen), seit 2019 im Amt"
 tags:
-  - Bündnis 90/Die Grünen
+  - Bündnis 90-Die Grünen
   - Deutschland
   - Kommunalpolitik
   - Hannover

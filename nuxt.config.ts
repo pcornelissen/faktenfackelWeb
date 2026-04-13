@@ -228,6 +228,10 @@ export default defineNuxtConfig({
   sitemap: {
     sitemapName: 'sitemap.xml',
     defaultSitemapsChunkSize: 1000,
+    exclude: [
+      '/tags',
+      '/tags/**',
+    ],
     sources: [
       '/api/__sitemap__/urls',
     ],

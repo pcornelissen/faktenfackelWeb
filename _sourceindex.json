@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-11T07:06:37.796Z",
+  "generatedAt": "2026-04-13T06:31:35.179Z",
   "stats": {
-    "sources": 283,
-    "links": 578,
+    "sources": 282,
+    "links": 577,
     "quotes": 25,
     "groups": 12,
-    "codes": 595
+    "codes": 594
   },
   "sources": [
     {
@@ -193,7 +193,6 @@
       "name": "Maldita.es",
       "description": "Spanische Faktencheck-Organisation und Medienkompetenz-Initiative",
       "tags": [
-        "research-done-review-pending",
         "Faktencheck",
         "Spanien",
         "Desinformation",
@@ -698,7 +697,7 @@
       "group": "medien",
       "slug": "mpr-news",
       "name": "MPR News",
-      "description": "Minnesota Public Radio - öffentlich-rechtlicher Rundfunk aus Minnesota, USA",
+      "description": "Minnesota Public Radio, öffentlich-rechtlicher Rundfunk aus Minnesota, USA",
       "tags": [
         "USA",
         "Medien",
@@ -986,8 +985,7 @@
         "Deutschland",
         "Medien",
         "Medienkritik",
-        "Journalismus",
-        "research-done-review-pending"
+        "Journalismus"
       ],
       "date": "2026-04-08",
       "hasImage": true
@@ -1348,7 +1346,7 @@
       "name": "GRÜNE Bayern",
       "description": "Landesverband Bündnis 90/Die Grünen Bayern",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Bayern",
         "Deutschland",
         "Klimapolitik"
@@ -1769,7 +1767,6 @@
       "name": "Kim Hunt",
       "description": "Verifizierter US-amerikanischer Facebook-Account aus Arizona mit politischen Kommentaren zu sozialer Gerechtigkeit",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Politik"
       ],
@@ -1798,9 +1795,7 @@
       "slug": "klartext-mit-lilly",
       "name": "KlartextmitLilly",
       "description": "Lilian Thau – deutsche Moderatorin und politische Kommentatorin mit progressivem Schwerpunkt",
-      "tags": [
-        "research-done-review-pending"
-      ],
+      "tags": [],
       "date": "2026-03-27",
       "hasImage": true
     },
@@ -1810,9 +1805,7 @@
       "slug": "laura-high",
       "name": "Laura High",
       "description": "US-amerikanische Digital Creatorin und SAG-AFTRA-Mitglied, kommentiert US-Politik, Verfassungsrechte und gesellschaftliche Themen",
-      "tags": [
-        "research-done-review-pending"
-      ],
+      "tags": [],
       "date": "2026-03-27",
       "hasImage": true
     },
@@ -1823,7 +1816,6 @@
       "name": "Marc Brost",
       "description": "Deutscher Journalist, Auslandschef und Mitglied der Chefredaktion bei Focus",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Journalismus",
         "USA",
@@ -1996,20 +1988,6 @@
       "hasImage": true
     },
     {
-      "path": "personen/oliver-gastronomicus-riek",
-      "group": "personen",
-      "slug": "oliver-gastronomicus-riek",
-      "name": "Oliver Gastronomicus Riek",
-      "description": "Deutscher Gastronom und Facebook-Nutzer, bekannt für politische Beiträge gegen die AfD",
-      "tags": [
-        "research-done-review-pending",
-        "Deutschland",
-        "Facebook"
-      ],
-      "date": "2026-03-27",
-      "hasImage": true
-    },
-    {
       "path": "personen/paul-klemm",
       "group": "personen",
       "slug": "paul-klemm",
@@ -2076,8 +2054,7 @@
         "Abtreibung",
         "Reproduktionsrechte",
         "Feminismus",
-        "Englisch",
-        "research-done-review-pending"
+        "Englisch"
       ],
       "date": "2026-03-27",
       "hasImage": true
@@ -2102,9 +2079,7 @@
       "slug": "rumgetrieben",
       "name": "Rumgetrieben",
       "description": "Deutschsprachiger Facebook-Account mit progressiv-politischem Kommentar zu gesellschaftlichen Themen",
-      "tags": [
-        "research-done-review-pending"
-      ],
+      "tags": [],
       "date": "2026-03-27",
       "hasImage": true
     },
@@ -2115,7 +2090,6 @@
       "name": "Sabre // bottleneckloser",
       "description": "US-Kommentatorin, Social-Media-Content-Creator",
       "tags": [
-        "research-done-review-pending",
         "Creator",
         "Social Media",
         "Facebook",
@@ -2134,7 +2108,6 @@
       "name": "Sally McManus",
       "description": "Australische Gewerkschaftssekretärin, Vorsitzende des Australian Council of Trade Unions (ACTU)",
       "tags": [
-        "research-done-review-pending",
         "Australien",
         "Gewerkschaft",
         "Arbeit",
@@ -2179,7 +2152,6 @@
       "name": "Skorpi Ya",
       "description": "Deutsche Digital Creatorin mit Motto \"Hass ist keine Meinung",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Antifaschismus",
         "Rassismus",
@@ -2195,7 +2167,6 @@
       "name": "Steve Hofstetter",
       "description": "US-amerikanischer Stand-up-Comedian und politischer Kommentator",
       "tags": [
-        "research-done-review-pending",
         "Creator",
         "Stand-up",
         "Komödie",
@@ -2213,7 +2184,6 @@
       "name": "The Justice Guy",
       "description": "Amerikanischer Rechtskommentator und Content Creator mit Fokus auf Verfassungsrecht und US-Justizpolitik (Matteo il Pazzeo)",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Justiz",
         "Recht",
@@ -2229,7 +2199,6 @@
       "name": "Tod Maffin",
       "description": "Kanadischer Journalist, CBC-Radio-Moderator und Podcaster mit Fokus auf Medienkritik und kanadisch-amerikanische Politik",
       "tags": [
-        "research-done-review-pending",
         "Kanada",
         "Journalismus",
         "Podcast",
@@ -2245,7 +2214,6 @@
       "name": "Trevor Poutine",
       "description": "Kanadischer Geschichtslehrer und Social-Media-Kommentator aus Toronto zu US-Politik, Geschichte und Medienkritik",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "USA",
         "Medien",
@@ -2262,7 +2230,6 @@
       "name": "Tristan Härter",
       "description": "Deutscher Content-Creator und ehemaliger Lehrer aus Thüringen, kommentiert rechtsextreme Netzwerke und politische Vetternwirtschaft",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Rechtsextremismus",
         "Content-Creator"
@@ -2349,9 +2316,7 @@
       "slug": "wow-motherhood",
       "name": "Wow motherhood",
       "description": "Englischsprachiger Facebook-Account mit politischen und gesellschaftlichen Inhalten, teils im Verschwörungsnarrativ-Format",
-      "tags": [
-        "research-done-review-pending"
-      ],
+      "tags": [],
       "date": "2026-03-27",
       "hasImage": true
     },
@@ -2361,9 +2326,7 @@
       "slug": "xavier-naidoo",
       "name": "Xavier Naidoo",
       "description": "Deutscher Sänger und Verschwörungstheoretiker",
-      "tags": [
-        "research-done-review-pending"
-      ],
+      "tags": [],
       "date": "2026-04-02",
       "hasImage": true
     },
@@ -2374,7 +2337,6 @@
       "name": "Yung Emil",
       "description": "Deutscher Digital Creator mit politischen Kommentaren zu Medien, AfD und gesellschaftlichen Themen",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Medien",
         "AfD",
@@ -2434,7 +2396,7 @@
       "name": "Andreas Audretsch",
       "description": "Stellvertretender Fraktionsvorsitzender Bündnis 90/Die Grünen im Bundestag",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Politiker",
         "Bundestag",
         "Haushalt",
@@ -2476,7 +2438,7 @@
       "name": "Belit Onay",
       "description": "Oberbürgermeister der Landeshauptstadt Hannover (Bündnis 90/Die Grünen), seit 2019 im Amt",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Deutschland",
         "Kommunalpolitik",
         "Hannover"
@@ -2624,7 +2586,7 @@
       "name": "Felix Banaszak",
       "description": "Politiker, Grüne, MdB, Bundesvorsitzender der Grünen",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Sozialpolitik",
         "Deutschland",
         "MdB"
@@ -2670,7 +2632,7 @@
       "name": "Franziska Brantner",
       "description": "Bundesvorsitzende von Bündnis 90/Die Grünen, MdB",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Deutschland",
         "MdB",
         "Bundesvorsitzende"
@@ -2837,7 +2799,7 @@
       "name": "Karoline \"Karo\" Otte",
       "description": "Bundestagsabgeordnete (Bündnis 90/Die Grünen), MdB",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Bundestag",
         "Deutschland",
         "Bundespolitik"
@@ -2930,7 +2892,7 @@
       "name": "Lisa Badum",
       "description": "MdB Bündnis 90/Die Grünen, klima- und energiepolitische Sprecherin",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Bundestag",
         "Klimapolitik"
       ],
@@ -2989,7 +2951,7 @@
       "name": "Marlene Schönberger",
       "description": "MdB Bündnis 90/Die Grünen, Sprecherin für Sucht- und Drogenpolitik",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Bundestag"
       ],
       "date": "2026-03-10",
@@ -3117,7 +3079,7 @@
       "name": "Ricarda Lang",
       "description": "Ehem. Bundesvorsitzende von Bündnis 90/Die Grünen, MdB",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Deutschland",
         "MdB"
       ],
@@ -3131,7 +3093,7 @@
       "name": "Robert Habeck",
       "description": "Bundesvorsitzender von Bündnis 90/Die Grünen, ehem. Bundeswirtschaftsminister, MdB",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Deutschland",
         "MdB",
         "Klimapolitik",
@@ -3208,7 +3170,7 @@
       "name": "Taylan Kurt",
       "description": "Politiker, Bündnis 90/Die Grünen",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Journalist",
         "Mieten",
         "Energie",
@@ -3226,7 +3188,7 @@
       "name": "Till Steffen",
       "description": "Politiker, Bündnis 90/Die Grünen",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Journalist",
         "Mieten",
         "Energie",
@@ -3247,7 +3209,7 @@
         "Deutschland",
         "NRW",
         "Landtag",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Antifaschismus"
       ],
       "date": "2026-03-10",
@@ -3273,7 +3235,7 @@
       "name": "Toni Schuberl",
       "description": "Politiker, Bündnis 90/Die Grünen, Landtag Bayern",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Agrarpolitik",
         "Klimaschutz",
         "Antifaschist"
@@ -3488,7 +3450,6 @@
       "name": "Deutsche Bundesbank",
       "description": "Zentralbank Deutschlands, zuständig für Geldpolitik, Bankenaufsicht und wirtschaftliche Forschung",
       "tags": [
-        "research-done-review-pending",
         "Staatlich",
         "Wirtschaft",
         "Finanzen",
@@ -3563,7 +3524,6 @@
       "name": "Eau de Paris",
       "description": "Öffentlicher Wasserversorger der Stadt Paris nach der Rekommunalisierung 2010",
       "tags": [
-        "research-done-review-pending",
         "Frankreich",
         "Paris",
         "Wasser",
@@ -3610,7 +3570,6 @@
       "name": "Generalbundesanwalt",
       "description": "Bundesanwaltschaft beim Bundesgerichtshof, zuständig für Staatsschutzdelikte und Terrorismus",
       "tags": [
-        "research-done-review-pending",
         "Justiz",
         "Staatsschutz",
         "Terrorismus",
@@ -3663,14 +3622,13 @@
       "path": "staatlich/kek",
       "group": "staatlich",
       "slug": "kek",
-      "name": "KEK - Kommission zur Ermittlung der Konzentration im Medienbereich",
+      "name": "KEK, Kommission zur Ermittlung der Konzentration im Medienbereich",
       "description": "Staatliche Regulierungsbehörde, die Medienkonzentration in Deutschland überwacht und bewertet",
       "tags": [
         "Staatlich",
         "Medien",
         "Medienkonzentration",
-        "Regulierung",
-        "research-done-review-pending"
+        "Regulierung"
       ],
       "date": "2026-04-08",
       "hasImage": false
@@ -3762,7 +3720,7 @@
       "group": "wissenschaft",
       "slug": "cemas",
       "name": "CeMAS",
-      "description": "Center für Monitoring, Analyse und Strategie - Forschung zu Verschwörungsideologien und Desinformation",
+      "description": "Center für Monitoring, Analyse und Strategie, Forschung zu Verschwörungsideologien und Desinformation",
       "tags": [
         "Desinformation",
         "Extremismus",
@@ -3790,14 +3748,13 @@
       "path": "wissenschaft/dellavigna-kaplan",
       "group": "wissenschaft",
       "slug": "dellavigna-kaplan",
-      "name": "DellaVigna & Kaplan (2007) - The Fox News Effect",
+      "name": "DellaVigna & Kaplan (2007), The Fox News Effect",
       "description": "Ökonometrische Studie zum kausalen Einfluss von Fox News auf das Wahlverhalten in den USA",
       "tags": [
         "Wissenschaft",
         "Medieneinfluss",
         "Agenda-Setting",
-        "USA",
-        "research-done-review-pending"
+        "USA"
       ],
       "date": "2026-04-08",
       "hasImage": false
@@ -4055,7 +4012,6 @@
       "name": "ProfessorNeil",
       "description": "Wissenschaftskommunikator, Faktencheck- und Debunking-Creator",
       "tags": [
-        "research-done-review-pending",
         "Creator",
         "Social Media",
         "Facebook",
@@ -4076,8 +4032,7 @@
         "Wissenschaft",
         "Medien",
         "Journalismus",
-        "Forschung",
-        "research-done-review-pending"
+        "Forschung"
       ],
       "date": "2026-04-08",
       "hasImage": false
@@ -4324,8 +4279,7 @@
       "tags": [
         "Energiewende",
         "Klima",
-        "Verbrenner",
-        "research-done-review-pending"
+        "Verbrenner"
       ],
       "sourceDate": "2025-10-03",
       "coSources": [
@@ -4342,7 +4296,7 @@
       "tags": [
         "Arbeitsmarkt",
         "Migration",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -4355,7 +4309,6 @@
       "uri": "https://www.facebook.com/reel/868344092631264",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "SPD",
         "Politik",
         "Bundestagswahlkampf",
@@ -4363,7 +4316,7 @@
       ],
       "sourceDate": "2026-01-27",
       "coSources": [
-        "Friedrich Merz"
+        "friedrich-merz"
       ]
     },
     {
@@ -4380,8 +4333,7 @@
         "Verschwörungstheorie",
         "Desinformation",
         "Klimawandel",
-        "Facebook",
-        "research-done-review-pending"
+        "Facebook"
       ],
       "sourceDate": "2026-01-24",
       "coSources": [
@@ -4408,7 +4360,7 @@
       "path": "allgemein/facebook/links/20251221.alicia-trautwein-corporate-welfare",
       "source": "allgemein/facebook",
       "code": "alicia-trautwein-corporate-welfare",
-      "title": "Alicia Trautwein: Corporate Welfare - Subventionen gehen an Konzerne, nicht an Arme",
+      "title": "Alicia Trautwein: Corporate Welfare, Subventionen gehen an Konzerne, nicht an Arme",
       "uri": "https://www.facebook.com/reel/1552786372534368",
       "type": "facebook",
       "tags": [
@@ -4455,7 +4407,6 @@
       "uri": "https://www.amadeu-antonio-stiftung.de/publikationen/feindbild-zivilgesellschaft/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Statistik",
@@ -4505,13 +4456,12 @@
       "path": "ngo/amnesty/links/20260119.menschenrechte",
       "source": "ngo/amnesty",
       "code": "amnesty-menschenrechte-2025",
-      "title": "Die Allgemeine Erklärung der Menschenrechte: Deine Rechte auf einen Blick - Alle 30 Artikel der Allgemeinen Erklärung der Menschenrechte",
+      "title": "Die Allgemeine Erklärung der Menschenrechte: Deine Rechte auf einen Blick, Alle 30 Artikel der Allgemeinen Erklärung der Menschenrechte",
       "uri": "https://www.amnesty.de/alle-30-artikel-der-allgemeinen-erklaerung-der-menschenrechte",
       "type": "article",
       "tags": [
         "Migration",
-        "Menschenrechte",
-        "research-done-review-pending"
+        "Menschenrechte"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -4675,8 +4625,7 @@
       "tags": [
         "AfD",
         "Nazi-Zitate",
-        "Nationalsozialismus",
-        "research-done-review-pending"
+        "Nationalsozialismus"
       ],
       "sourceDate": "2025-12-26",
       "coSources": [
@@ -4712,7 +4661,7 @@
         "Geflüchtete",
         "Migration",
         "Spaltung",
-        "Bündnis 90/Die Grünen"
+        "Bündnis 90-Die Grünen"
       ],
       "sourceDate": "2026-01-01",
       "coSources": [
@@ -4727,7 +4676,6 @@
       "uri": "https://www.facebook.com/reel/1593826244985170",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "CDU",
         "USA",
@@ -4736,8 +4684,8 @@
       ],
       "sourceDate": "2026-02-01",
       "coSources": [
-        "Donald Trump",
-        "Friedrich Merz"
+        "donald-trump",
+        "friedrich-merz"
       ]
     },
     {
@@ -4748,7 +4696,6 @@
       "uri": "https://www.facebook.com/reel/1933316920936541",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Katharina Reiche",
         "CDU",
@@ -4786,8 +4733,7 @@
       "uri": "https://www.facebook.com/reel/835653449235438",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Bürgergeld",
         "Union",
         "Sozialpolitik",
@@ -4821,8 +4767,7 @@
       "tags": [
         "AfD",
         "CDU",
-        "Migration",
-        "research-done-review-pending"
+        "Migration"
       ],
       "sourceDate": "2025-10-28",
       "verdict": "null",
@@ -4856,7 +4801,6 @@
       "uri": "https://www.belltower.news/quo-vadis-zivilgesellschaft-jeden-dritten-tag-werden-demokratieprojekte-angegriffen-165349/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Statistik",
@@ -4876,7 +4820,6 @@
       "uri": "https://www.belltower.news/knockout-51-milde-urteile-im-prozess-gegen-neonazi-schlaeger-165377/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Straflosigkeit",
@@ -4897,7 +4840,6 @@
       "uri": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1656267.php",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Berlin",
         "Friedrichshain",
@@ -4920,8 +4862,7 @@
       "tags": [
         "AfD",
         "CDU",
-        "Migration",
-        "research-done-review-pending"
+        "Migration"
       ],
       "sourceDate": "2025-10-23",
       "verdict": "null",
@@ -4940,7 +4881,7 @@
       "tags": [
         "Arbeitsmarkt",
         "Demografie",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -4977,8 +4918,7 @@
       "type": "article",
       "tags": [
         "Kriminalität",
-        "Demografie",
-        "research-done-review-pending"
+        "Demografie"
       ],
       "sourceDate": "2026-01-14",
       "coSources": []
@@ -4992,8 +4932,7 @@
       "type": "excel",
       "tags": [
         "Kriminalität",
-        "Demografie",
-        "research-done-review-pending"
+        "Demografie"
       ],
       "sourceDate": "2026-01-14",
       "coSources": []
@@ -5007,8 +4946,7 @@
       "type": "excel",
       "tags": [
         "Kriminalität",
-        "Demografie",
-        "research-done-review-pending"
+        "Demografie"
       ],
       "sourceDate": "2026-01-14",
       "coSources": []
@@ -5022,8 +4960,7 @@
       "type": "excel",
       "tags": [
         "Kriminalität",
-        "Demografie",
-        "research-done-review-pending"
+        "Demografie"
       ],
       "sourceDate": "2026-01-14",
       "coSources": []
@@ -5036,7 +4973,6 @@
       "uri": "https://www.bka.de/DE/UnsereAufgaben/Deliktsbereiche/PMK/PMKrechts/PMKrechts_node.html",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Kriminalität",
         "Statistik",
@@ -5051,7 +4987,7 @@
       "path": "medien/blackoutthesystem/links/20260110.blackoutthesystem-stop-zionizing-us",
       "source": "medien/blackoutthesystem",
       "code": "blackoutthesystem-stop-zionizing-us",
-      "title": "\\\"Stop Zionizing Us\\\" - Bassem Youssef im Debatte mit dem ehemaligen IDF-Sprecher",
+      "title": "\\\"Stop Zionizing Us\\\", Bassem Youssef im Debatte mit dem ehemaligen IDF-Sprecher",
       "uri": "https://www.facebook.com/reel/883663447727736",
       "type": "facebook",
       "tags": [
@@ -5077,7 +5013,7 @@
       "tags": [
         "Arbeitsmarkt",
         "Migration",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -5091,7 +5027,7 @@
       "type": "article",
       "tags": [
         "Rente",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2025-02-11",
       "coSources": []
@@ -5120,7 +5056,6 @@
       "uri": "https://www.bpb.de/themen/parteien/parteien-in-deutschland/afd/273131/wahlergebnisse-und-waehlerschaft-der-afd/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Ostdeutschland",
         "Wahlverhalten",
@@ -5139,7 +5074,6 @@
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/310288/der-entindustrialisierte-osten/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "Ostdeutschland",
         "Deindustrialisierung",
@@ -5200,11 +5134,10 @@
       "path": "staatlich/bpb/links/20200817.einkommen-vermoegen-ost-west",
       "source": "staatlich/bpb",
       "code": "bpb-einkommen-vermoegen-ost-west-ungleichheit",
-      "title": "Einkommen und Vermögen - wachsende Ungleichheiten",
+      "title": "Einkommen und Vermögen, wachsende Ungleichheiten",
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47436/einkommen-und-vermoegen-wachsende-ungleichheiten/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Ostdeutschland",
         "Ost-West-Ungleichheit",
         "Einkommen",
@@ -5222,7 +5155,6 @@
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47534/die-kosten-und-ertraege-der-wiedervereinigung-deutschlands/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "Deutsche Einheit",
         "Treuhand",
@@ -5241,8 +5173,7 @@
       "type": "article",
       "tags": [
         "Kriminalität",
-        "Ländlicher Raum",
-        "research-done-review-pending"
+        "Ländlicher Raum"
       ],
       "sourceDate": "2026-01-14",
       "coSources": []
@@ -5255,7 +5186,6 @@
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47133/wirtschaftlicher-zusammenbruch-und-neuanfang-nach-1990/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "Treuhand",
         "Ostdeutschland",
@@ -5274,7 +5204,6 @@
       "uri": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/315873/treuhandanstalt-und-wirtschaftsumbau/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "Treuhand",
         "Ostdeutschland",
@@ -5318,7 +5247,6 @@
       "uri": "https://www.facebook.com/reel/1415349920189370",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "CSU",
         "Erbschaftsteuer",
@@ -5376,7 +5304,6 @@
       "uri": "https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/vermoegen-und-finanzen-privater-haushalte-in-deutschland-ergebnisse-der-vermoegensbefragung-2023--954598",
       "type": "study",
       "tags": [
-        "research-done-review-pending",
         "Wirtschaft",
         "Ungleichheit",
         "Vermögen"
@@ -5393,7 +5320,6 @@
       "uri": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2024/20241120_EisenbahnMarkt.html",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Deutsche Bahn",
         "Eisenbahn",
         "Infrastruktur",
@@ -5435,7 +5361,6 @@
       "uri": "https://www.bundestag.de/dokumente/textarchiv/2025/kw26-de-klimaschutzfolgenbereinigung-1084784",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Klimawandel",
         "Desinformation",
@@ -5454,7 +5379,6 @@
       "uri": "https://www.bundestag.de/presse/hib/kurzmeldungen-991576",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Deutsche Bahn",
         "Pünktlichkeit",
         "Infrastruktur",
@@ -5610,12 +5534,11 @@
         "USA",
         "Donald Trump",
         "Sanktionen",
-        "Erpressung",
-        "research-done-review-pending"
+        "Erpressung"
       ],
       "sourceDate": "2026-01-01",
       "coSources": [
-        "Donald Trump"
+        "donald-trump"
       ]
     },
     {
@@ -5643,8 +5566,7 @@
       "type": "facebook",
       "tags": [
         "Faschismus",
-        "Psychologie",
-        "research-done-review-pending"
+        "Psychologie"
       ],
       "sourceDate": "2026-02-19",
       "coSources": []
@@ -5659,8 +5581,7 @@
       "tags": [
         "Faschismus",
         "Geschichte",
-        "USA",
-        "research-done-review-pending"
+        "USA"
       ],
       "sourceDate": "2026-01-20",
       "coSources": []
@@ -5669,7 +5590,7 @@
       "path": "personen/cheyenne-hunt/links/20260308.grijalva-ice-pfefferspray",
       "source": "personen/cheyenne-hunt",
       "code": "cheyenne-hunt-grijalva-ice-pfefferspray",
-      "title": "Kongressabgeordnete Grijalva von ICE-Agenten mit Pfefferspray besprüht - Trump-Regierung ändert Geschichte",
+      "title": "Kongressabgeordnete Grijalva von ICE-Agenten mit Pfefferspray besprüht, Trump-Regierung ändert Geschichte",
       "uri": "https://www.facebook.com/reel/2039165876623656",
       "type": "reel",
       "tags": [
@@ -5679,14 +5600,13 @@
         "Kongress",
         "Pfefferspray",
         "Adelita Grijalva",
-        "Migration",
-        "research-done-review-pending"
+        "Migration"
       ],
       "sourceDate": "2026-03-08",
       "verdict": "null",
       "coSources": [
         "adelita-grijalva",
-        "Donald Trump"
+        "donald-trump"
       ]
     },
     {
@@ -5733,7 +5653,7 @@
       "path": "personen/cheyenne-hunt/links/20250220.peace-walk-monks",
       "source": "personen/cheyenne-hunt",
       "code": "cheyenne-hunt-peace-walk-monks",
-      "title": "Friedensmarsch von Mönchen in den USA - Kommentar",
+      "title": "Friedensmarsch von Mönchen in den USA, Kommentar",
       "uri": "https://www.facebook.com/reel/732395359492859",
       "type": "reel",
       "tags": [
@@ -5741,8 +5661,7 @@
         "Friedensmarsch",
         "Mönche",
         "Gesellschaft",
-        "Gewalt",
-        "research-done-review-pending"
+        "Gewalt"
       ],
       "sourceDate": "2025-02-20",
       "verdict": "null",
@@ -5771,7 +5690,7 @@
       "path": "personen/christoph-sieber/links/20251115.christoph-sieber-doppelmoral-feminismus",
       "source": "personen/christoph-sieber",
       "code": "christoph-sieber-doppelmoral-feminismus",
-      "title": "Christoph Sieber: Wir sind nicht zu nett - wir haben den Anstand verloren",
+      "title": "Christoph Sieber: Wir sind nicht zu nett, wir haben den Anstand verloren",
       "uri": "https://www.facebook.com/reel/2024970048237306",
       "type": "facebook",
       "tags": [
@@ -5799,8 +5718,7 @@
         "AfD",
         "Verfassungsschutz",
         "BfV",
-        "Primärdokument",
-        "research-done-review-pending"
+        "Primärdokument"
       ],
       "sourceDate": "2025-05-13",
       "coSources": []
@@ -5821,8 +5739,7 @@
         "Medien",
         "Frauen",
         "Bildung",
-        "Wahlen",
-        "research-done-review-pending"
+        "Wahlen"
       ],
       "sourceDate": "2026-02-23",
       "verdict": "true",
@@ -5899,8 +5816,7 @@
         "Autoritarismus",
         "Desinformation",
         "Strategie",
-        "MAGA",
-        "research-done-review-pending"
+        "MAGA"
       ],
       "sourceDate": "2026-01-24",
       "coSources": []
@@ -5976,7 +5892,6 @@
       "uri": "https://correctiv.org/aktuelles/afd/2026/04/02/ermittlungen-afd-niedersachsen-untreue-schledde/",
       "type": "recherche",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Untreue",
         "Niedersachsen"
@@ -6127,7 +6042,6 @@
       "uri": "https://correctiv.org/faktencheck/2026/03/10/kinderkriminalitaet-und-migration-afd-stellt-falschen-zusammenhang-her/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Kriminalität",
         "Migration",
@@ -6168,7 +6082,6 @@
       "uri": "https://correctiv.org/faktencheck/2026/04/02/teilnehmerzahl-bei-naidoo-demo-in-berlin-luftaufnahme-ist-ki-generiert/",
       "type": "faktencheck",
       "tags": [
-        "research-done-review-pending",
         "Xavier-Naidoo",
         "KI-Desinformation",
         "Faktencheck"
@@ -6269,8 +6182,7 @@
         "Kriminalität",
         "Migration",
         "CDU",
-        "Friedrich Merz",
-        "research-done-review-pending"
+        "Friedrich Merz"
       ],
       "sourceDate": "2025-10-23",
       "coSources": []
@@ -6283,7 +6195,6 @@
       "uri": "https://correctiv.org/faktencheck/2026/04/10/nein-ungarn-ist-den-brics-staaten-nicht-beigetreten/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Desinformation",
         "Europa",
         "Russland",
@@ -6331,7 +6242,6 @@
       "uri": "https://www.facebook.com/reel/1917214525894958",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Donald Trump",
         "Verfassung",
@@ -6339,14 +6249,14 @@
       ],
       "sourceDate": "2025-11-20",
       "coSources": [
-        "Donald Trump"
+        "donald-trump"
       ]
     },
     {
       "path": "allgemein/facebook/links/20260117.dawokefarmer2-kidnapped-by-ice",
       "source": "allgemein/facebook",
       "code": "dawokefarmer2-kidnapped-by-ice",
-      "title": "\\\"Ich wurde heute von ICE entführt\\\" - DawokeFarmer2",
+      "title": "\\\"Ich wurde heute von ICE entführt\\\", DawokeFarmer2",
       "uri": "https://www.facebook.com/reel/1271527304816603",
       "type": "reel",
       "tags": [
@@ -6371,8 +6281,7 @@
       "type": "article",
       "tags": [
         "Migration",
-        "Wirtschaft",
-        "research-done-review-pending"
+        "Wirtschaft"
       ],
       "sourceDate": "2025-02-14",
       "coSources": []
@@ -6389,8 +6298,7 @@
         "Medienkonzentration",
         "Agenda-Setting",
         "Wahlverhalten",
-        "USA",
-        "research-done-review-pending"
+        "USA"
       ],
       "sourceDate": "2007-08-01",
       "coSources": []
@@ -6503,7 +6411,7 @@
       "type": "article",
       "tags": [
         "Demografie",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-11",
       "coSources": []
@@ -6534,7 +6442,7 @@
       "tags": [
         "lebenserwartung",
         "Demografie",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-11",
       "coSources": []
@@ -6549,7 +6457,7 @@
       "tags": [
         "lebenserwartung",
         "Demografie",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-11",
       "coSources": []
@@ -6578,14 +6486,13 @@
       "path": "nachrichten/deutschlandfunk/links/20180906.hambacher-forst-stillhaltezusage",
       "source": "nachrichten/deutschlandfunk",
       "code": "deutschlandfunk-hambacher-forst-2018",
-      "title": "Bürgerinitiative für Hambacher Forst - \\\"Es sind Bäume gefällt worden\\\"",
+      "title": "Bürgerinitiative für Hambacher Forst, \\\"Es sind Bäume gefällt worden\\\"",
       "uri": "https://www.deutschlandfunk.de/buergerinitiative-fuer-hambacher-forst-es-sind-baeume-100.html",
       "type": "article",
       "tags": [
         "RWE",
         "Hambacher Forst",
-        "Stillhaltezusagen",
-        "research-done-review-pending"
+        "Stillhaltezusagen"
       ],
       "sourceDate": "2018-09-06",
       "coSources": []
@@ -6626,7 +6533,7 @@
       "path": "allgemein/facebook/links/20260201.diskurspunkt-enteignung-gg14",
       "source": "allgemein/facebook",
       "code": "diskurspunkt-enteignung-gg14-2026",
-      "title": "Diskurspunkt (Jung & Naiv): Enteignung ist normal - GG Artikel 14",
+      "title": "Diskurspunkt (Jung & Naiv): Enteignung ist normal, GG Artikel 14",
       "uri": "https://www.facebook.com/reel/779264871748358",
       "type": "reel",
       "tags": [
@@ -6634,8 +6541,7 @@
         "Grundgesetz",
         "Artikel14",
         "Wohnungspolitik",
-        "Jung und Naiv",
-        "research-done-review-pending"
+        "Jung und Naiv"
       ],
       "sourceDate": "2026-02-01",
       "verdict": "true",
@@ -6848,7 +6754,6 @@
       "uri": "https://www.eaudeparis.fr/en/faq/why-does-the-city-of-paris-want-to-remunicipalise-the-public-water-service-in-2010",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Paris",
         "Wasser",
         "Rekommunalisierung",
@@ -6984,8 +6889,7 @@
       "type": "article",
       "tags": [
         "Migration",
-        "EU-Parlament",
-        "research-done-review-pending"
+        "EU-Parlament"
       ],
       "sourceDate": "2025-02-14",
       "coSources": []
@@ -7000,8 +6904,7 @@
       "tags": [
         "Europa",
         "Wirtschaft",
-        "Digitale Grundrechte",
-        "research-done-review-pending"
+        "Digitale Grundrechte"
       ],
       "sourceDate": "2025-12-29",
       "coSources": [
@@ -7308,7 +7211,6 @@
       "uri": "https://www.facebook.com/reel/1597746148014963",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Wahlrecht",
         "Wählerunterdrückung",
@@ -7480,8 +7382,7 @@
         "Gießen",
         "Demo",
         "AfD",
-        "Folgsschwärmer",
-        "research-done-review-pending"
+        "Folgsschwärmer"
       ],
       "sourceDate": "2026-01-18",
       "coSources": [
@@ -7595,7 +7496,7 @@
       "path": "allgemein/facebook/links/20251225.was-passiert-wenn-alle-migranten-weg-sind",
       "source": "allgemein/facebook",
       "code": "fakten-gegen-rechts-alle-migranten-weg",
-      "title": "Fakten gegen Rechts - Was passiert, wenn alle Migranten abgeschoben werden?",
+      "title": "Fakten gegen Rechts, Was passiert, wenn alle Migranten abgeschoben werden?",
       "uri": "https://www.facebook.com/reel/1193961026013925",
       "type": "facebook",
       "tags": [
@@ -7639,8 +7540,7 @@
         "Trans",
         "Frauenrechte",
         "Gewalt",
-        "SPD",
-        "research-done-review-pending"
+        "SPD"
       ],
       "sourceDate": "2025-11-28",
       "verdict": "true",
@@ -7654,7 +7554,6 @@
       "uri": "https://www.tiktok.com/@fiedelseb/video/7600761151252729111",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Clankriminalität",
         "Bundestag",
@@ -7671,7 +7570,6 @@
       "uri": "https://www.facebook.com/reel/871862352416699",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Europa",
         "Strafverfolgung",
         "Sicherheitspolitik",
@@ -7803,7 +7701,6 @@
       "uri": "https://www.facebook.com/reel/853892690928081",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Paläontologie",
         "Dinosaurier",
         "Wissenschaft"
@@ -7872,8 +7769,7 @@
         "Gedicht",
         "Politik",
         "Englisch",
-        "Deutsch",
-        "research-done-review-pending"
+        "Deutsch"
       ],
       "sourceDate": "2025-11-17",
       "coSources": []
@@ -7893,8 +7789,7 @@
         "Gedicht",
         "Politik",
         "Englisch",
-        "Deutsch",
-        "research-done-review-pending"
+        "Deutsch"
       ],
       "sourceDate": "2026-01-27",
       "coSources": []
@@ -8132,8 +8027,7 @@
         "Wissenschaft",
         "Biologie",
         "Englisch",
-        "USA",
-        "research-done-review-pending"
+        "USA"
       ],
       "sourceDate": "2025-12-17",
       "coSources": []
@@ -8148,8 +8042,7 @@
       "tags": [
         "AfD",
         "Verfassungsschutz",
-        "Verbotsverfahren",
-        "research-done-review-pending"
+        "Verbotsverfahren"
       ],
       "sourceDate": "2025-05-07",
       "coSources": [
@@ -8186,8 +8079,7 @@
       "uri": "https://www.facebook.com/reel/2261447937692208",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "EU",
         "Lieferkettengesetz",
         "Brandmauer",
@@ -8263,7 +8155,7 @@
         "AfD",
         "Rechte Gewalt",
         "Facebook",
-        "research-done-review-pending"
+        "more-research-needed"
       ],
       "sourceDate": "2025-12-17",
       "verdict": "true",
@@ -8354,8 +8246,7 @@
       "type": "article",
       "tags": [
         "AfD",
-        "Gesellschaft",
-        "research-done-review-pending"
+        "Gesellschaft"
       ],
       "sourceDate": "2025-11-30",
       "verdict": "true",
@@ -8392,7 +8283,7 @@
         "Justiz",
         "Gesetz",
         "Asylgesetz",
-        "research-done-review-pending"
+        "more-research-needed"
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
@@ -8410,7 +8301,7 @@
         "Grundgesetz",
         "Justiz",
         "Gesetz",
-        "research-done-review-pending"
+        "more-research-needed"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -8426,7 +8317,7 @@
         "Grundgesetz",
         "Justiz",
         "Gesetz",
-        "research-done-review-pending"
+        "more-research-needed"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -8442,7 +8333,7 @@
         "Grundgesetz",
         "Justiz",
         "Gesetz",
-        "research-done-review-pending"
+        "more-research-needed"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -8458,7 +8349,7 @@
         "Grundgesetz",
         "Justiz",
         "Gesetz",
-        "research-done-review-pending"
+        "more-research-needed"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -8467,7 +8358,7 @@
       "path": "staatlich/gesetze-im-internet/links/20260405.stgb-185",
       "source": "staatlich/gesetze-im-internet",
       "code": "gii-stgb-185",
-      "title": "§185 StGB - Beleidigung",
+      "title": "§185 StGB, Beleidigung",
       "uri": "https://www.gesetze-im-internet.de/stgb/__185.html",
       "type": "article",
       "tags": [
@@ -8521,7 +8412,7 @@
       "path": "personen/godless-gardener/links/20251129.godless-gardener-kriminalitaet-christen",
       "source": "personen/godless-gardener",
       "code": "godless-gardener-kriminalitaet-christen",
-      "title": "Godless Gardener: US-Kriminalitätsstatistik nach Religion - Christen stellen zwei Drittel der Gefängnisinsassen",
+      "title": "Godless Gardener: US-Kriminalitätsstatistik nach Religion, Christen stellen zwei Drittel der Gefängnisinsassen",
       "uri": "https://www.facebook.com/reel/24792019730499331",
       "type": "reel",
       "tags": [
@@ -8530,8 +8421,7 @@
         "Religion",
         "Christen",
         "Statistik",
-        "MAGA",
-        "research-done-review-pending"
+        "MAGA"
       ],
       "sourceDate": "2025-11-29",
       "coSources": []
@@ -8586,7 +8476,7 @@
       "tags": [
         "Bayern",
         "Klimakrise",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Wissenschaft"
       ],
       "sourceDate": "2025-10-10",
@@ -8604,7 +8494,7 @@
         "Klimaschutz",
         "Friedrich Merz",
         "Bayern",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Menschenrechte",
         "Fliegen"
       ],
@@ -8622,7 +8512,7 @@
         "AfD",
         "Erneuerbare-Energie",
         "Sachsen",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Thomas-Löser",
         "NoAfD",
         "Deutschland",
@@ -8949,7 +8839,7 @@
       "path": "politiker/heiner-garg/links/20260102.afd-doppelmoral-weidel-massnahmen",
       "source": "politiker/heiner-garg",
       "code": "heiner-garg-afd-doppelmoral-weidel-massnahmen",
-      "title": "Die Doppelmoral der AfD - Alice Weidel forderte selbst mehr Maßnahmen",
+      "title": "Die Doppelmoral der AfD, Alice Weidel forderte selbst mehr Maßnahmen",
       "uri": "https://www.facebook.com/reel/714171491503516",
       "type": "reel",
       "tags": [
@@ -8958,8 +8848,7 @@
         "Doppelmoral",
         "Corona",
         "FDP",
-        "Widerspruch",
-        "research-done-review-pending"
+        "Widerspruch"
       ],
       "sourceDate": "2026-01-02",
       "verdict": "true",
@@ -9009,7 +8898,6 @@
       "uri": "https://www.facebook.com/reel/3029060523965816",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Steuerpolitik",
         "Neoliberalismus",
         "CDU"
@@ -9065,7 +8953,6 @@
       "uri": "https://www.facebook.com/reel/1610881776602694",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Medien",
         "Wirtschaft",
@@ -9152,7 +9039,7 @@
       "path": "personen/maurice-hoefgen/links/20251229.afd-steuerkonzept-2025",
       "source": "personen/maurice-hoefgen",
       "code": "höfgen-afd-stsuerkonzept-2025",
-      "title": "Steuerkonzept der AfD, 75% Entlastung für die reichsten 10%",
+      "title": "Steuerkonzept der AfD, 75 % Entlastung für die reichsten 10 %",
       "uri": "https://www.facebook.com/reel/2162280344514351",
       "type": "facebook",
       "tags": [
@@ -9171,7 +9058,6 @@
       "uri": "https://www.facebook.com/reel/1369632981622192",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Neoliberalismus",
         "Schulden",
         "Haushalt",
@@ -9212,7 +9098,6 @@
       "uri": "https://www.facebook.com/reel/1494187484952646",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Sozialleistungen",
         "Grundsicherung",
         "Bürgergeld",
@@ -9270,7 +9155,6 @@
       "uri": "https://www.facebook.com/reel/882512751430894",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "AfD",
         "CDU",
@@ -9287,7 +9171,7 @@
       "path": "politiker/marcel-hopp/links/20251226.afd-verbotsferfahren-grund-41",
       "source": "politiker/marcel-hopp",
       "code": "hopp-afd-verbotsverfahren-grund-41",
-      "title": "Grund 41 für ein Verbotsverfahren gegen die AfD: Höcke bezeichnet Journalisten als 'parasitär' - NS-Vokabular",
+      "title": "Grund 41 für ein Verbotsverfahren gegen die AfD: Höcke bezeichnet Journalisten als 'parasitär', NS-Vokabular",
       "uri": "https://www.facebook.com/reel/838643319071795",
       "type": "reel",
       "tags": [
@@ -9295,8 +9179,7 @@
         "Nazi-Zitate",
         "Nationalsozialismus",
         "Pressefreiheit",
-        "Höcke",
-        "research-done-review-pending"
+        "Höcke"
       ],
       "sourceDate": "2025-12-26",
       "coSources": [
@@ -9369,8 +9252,7 @@
       "type": "pdf",
       "tags": [
         "Migration",
-        "Arbeitsmarkt",
-        "research-done-review-pending"
+        "Arbeitsmarkt"
       ],
       "sourceDate": "2025-11-18",
       "coSources": []
@@ -9413,8 +9295,7 @@
       "tags": [
         "Rente",
         "igmetall",
-        "Sozialpolitik",
-        "research-done-review-pending"
+        "Sozialpolitik"
       ],
       "sourceDate": "2026-01-09",
       "verdict": "null",
@@ -9495,7 +9376,7 @@
         "AfD",
         "Demo",
         "Gießen",
-        "research-done-review-pending"
+        "Friedlich"
       ],
       "sourceDate": "2026-01-18",
       "coSources": []
@@ -9509,8 +9390,7 @@
       "type": "reel",
       "tags": [
         "Gießen",
-        "Polizeigewalt",
-        "research-done-review-pending"
+        "Polizeigewalt"
       ],
       "sourceDate": "2026-01-18",
       "coSources": []
@@ -9542,8 +9422,7 @@
       "tags": [
         "Rente",
         "Beamte",
-        "SPD",
-        "research-done-review-pending"
+        "SPD"
       ],
       "sourceDate": "2026-01-11",
       "coSources": [
@@ -9559,8 +9438,7 @@
       "type": "article",
       "tags": [
         "Rente",
-        "Selbständigkeit",
-        "research-done-review-pending"
+        "Selbständigkeit"
       ],
       "sourceDate": "2026-01-11",
       "coSources": [
@@ -9610,7 +9488,7 @@
       "path": "allgemein/facebook/links/20251207.james-stew-uruguay-erneuerbare-energie-fuenf-jahre",
       "source": "allgemein/facebook",
       "code": "james-stew-uruguay-erneuerbare-energie-fuenf-jahre",
-      "title": "Wie Uruguay in fünf Jahren auf 98% erneuerbare Energie umstieg",
+      "title": "Wie Uruguay in fünf Jahren auf 98 % erneuerbare Energie umstieg",
       "uri": "https://www.facebook.com/reel/1139652944820539",
       "type": "facebook",
       "tags": [
@@ -9707,7 +9585,7 @@
       "path": "medien/journalistenwatch/links/20260404.ice-anschlag-koran-umdeutung",
       "source": "medien/journalistenwatch",
       "code": "journalistenwatch-ice-koran-umdeutung",
-      "title": "Journalistenwatch: ICE-Täter mit Koran - Umdeutung als Islamist",
+      "title": "Journalistenwatch: ICE-Täter mit Koran, Umdeutung als Islamist",
       "uri": "https://journalistenwatch.com/2026/04/04/ice-anschlagsdrohung-bei-siegburg-der-rechtsextreme-mit-dem-koran-im-handgepaeck/",
       "type": "article",
       "tags": [
@@ -9752,13 +9630,12 @@
       "uri": "https://www.jungewelt.de/artikel/520261.ultrarechte-gewalt-attacke-mit-machete.html",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
+        "Rechte Gewalt",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Berlin",
         "Neonazis",
-        "Antifaschismus",
-        "Rechte Gewalt"
+        "Antifaschismus"
       ],
       "sourceDate": "2026-04-01",
       "verdict": "true",
@@ -9775,7 +9652,6 @@
       "uri": "https://www.facebook.com/reel/2081608599277588",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "ICE",
         "Migration",
@@ -9796,7 +9672,6 @@
       "uri": "https://www.facebook.com/reel/1020745096940648",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Donald Trump",
         "DOJ",
         "FIFA",
@@ -9808,7 +9683,7 @@
       "sourceDate": "2026-02-01",
       "verdict": "misleading",
       "coSources": [
-        "Donald Trump"
+        "donald-trump"
       ]
     },
     {
@@ -9819,7 +9694,6 @@
       "uri": "https://www.facebook.com/reel/781673798233178",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Einbürgerung",
         "Migration",
@@ -9840,8 +9714,7 @@
         "Migration",
         "Digitalisierung",
         "Energieversorgung",
-        "Arbeitsmarkt",
-        "research-done-review-pending"
+        "Arbeitsmarkt"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -9850,7 +9723,7 @@
       "path": "politiker/karoline-otte/links/20250220.cambridge-studie-rechtsextreme-diskurs",
       "source": "politiker/karoline-otte",
       "code": "karoline-otte-cambridge-studie-rechtsextreme-diskurs",
-      "title": "Cambridge-Studie - Wiederholen rechtsextremer Positionen stärkt Rechtsextreme",
+      "title": "Cambridge-Studie, Wiederholen rechtsextremer Positionen stärkt Rechtsextreme",
       "uri": "https://www.facebook.com/reel/1176673277751338",
       "type": "reel",
       "tags": [
@@ -9861,8 +9734,7 @@
         "Studie",
         "Rechtsextremismus",
         "AfD-Verbot",
-        "Bündnis 90/Die Grünen",
-        "research-done-review-pending"
+        "Bündnis 90-Die Grünen"
       ],
       "sourceDate": "2025-02-20",
       "verdict": "null",
@@ -9878,7 +9750,6 @@
       "uri": "https://www.facebook.com/reel/1509053933639156",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Abschiebung",
         "Migration",
         "Hannover",
@@ -9915,7 +9786,7 @@
       "path": "staatlich/kek/links/20250101.kek-achter-konzentrationsbericht-2025",
       "source": "staatlich/kek",
       "code": "kek-achter-konzentrationsbericht-social-media-ki-2025",
-      "title": "KEK: Achter Konzentrationsbericht 2025 - Social Media, KI & Co.: Neue Gefährdungslagen für die Meinungsvielfalt",
+      "title": "KEK: Achter Konzentrationsbericht 2025, Social Media, KI & Co.: Neue Gefährdungslagen für die Meinungsvielfalt",
       "uri": "https://www.kek-online.de/publikationen/medienkonzentrationsberichte/achter-konzentrationsbericht-2025/",
       "type": "report",
       "tags": [
@@ -9925,8 +9796,7 @@
         "Deutschland",
         "KI",
         "Social-Media",
-        "Regulierung",
-        "research-done-review-pending"
+        "Regulierung"
       ],
       "sourceDate": "2025-07-08",
       "coSources": []
@@ -9935,15 +9805,14 @@
       "path": "staatlich/kek/links/20250101.kek-26-jahresbericht-2024",
       "source": "staatlich/kek",
       "code": "kek-jahresbericht-2024",
-      "title": "KEK: 26. Jahresbericht 2024 - KI im Medienbereich und European Media Freedom Act",
+      "title": "KEK: 26. Jahresbericht 2024, KI im Medienbereich und European Media Freedom Act",
       "uri": "https://www.kek-online.de/publikationen/jahresberichte/26-jahresbericht/",
       "type": "report",
       "tags": [
         "Medienkonzentration",
         "Medien",
         "Regulierung",
-        "Deutschland",
-        "research-done-review-pending"
+        "Deutschland"
       ],
       "sourceDate": "2025-01-01",
       "coSources": [
@@ -9993,7 +9862,6 @@
       "uri": "https://www.facebook.com/share/r/1GFujEArjm/",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Arizona"
       ],
@@ -10008,14 +9876,11 @@
       "uri": "https://www.facebook.com/share/r/1FT47mgaGw/",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Polizeigewalt"
       ],
       "sourceDate": "2026-01-11",
-      "coSources": [
-        "araceli-unfiltered"
-      ]
+      "coSources": []
     },
     {
       "path": "personen/klarsprech/links/20260118.klarsprech-kulturkampf-klassenkampf",
@@ -10120,8 +9985,7 @@
       "type": "pdf",
       "tags": [
         "Migration",
-        "Wirtschaft",
-        "research-done-review-pending"
+        "Wirtschaft"
       ],
       "sourceDate": "2025-02-14",
       "coSources": []
@@ -10175,8 +10039,7 @@
         "Russland",
         "E-Mail",
         "Funktionäre",
-        "Russland-Verbindungen",
-        "research-done-review-pending"
+        "Russland-Verbindungen"
       ],
       "sourceDate": "2025-11-18",
       "verdict": "true",
@@ -10270,7 +10133,6 @@
       "uri": "https://www.facebook.com/share/r/1GFcrWM7SA/",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Migration",
         "Verfassung"
@@ -10299,7 +10161,7 @@
       ]
     },
     {
-      "path": "parteien/die-linke/links/20260119.spd-niedersachen-gießen",
+      "path": "parteien/die-linke/links/20260119.linke-niedersachen-gießen",
       "source": "parteien/die-linke",
       "code": "linke-niedersachsen-gießen-gruß",
       "title": "Solidarische Grüße der Partei Die Linke nach Gießen",
@@ -10309,8 +10171,7 @@
         "Die Linke",
         "Niedersachsen",
         "AfD",
-        "Gießen",
-        "research-done-review-pending"
+        "Gießen"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -10323,7 +10184,6 @@
       "uri": "https://www.facebook.com/share/r/1FuNMqZmJn/",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Klimapolitik",
         "Griechenland",
         "Kohle"
@@ -10359,8 +10219,7 @@
         "Die Linke",
         "AfD",
         "FDP",
-        "Bündnis 90/Die Grünen",
-        "research-done-review-pending"
+        "Bündnis 90-Die Grünen"
       ],
       "sourceDate": "2025-11-14",
       "verdict": "null",
@@ -10370,15 +10229,14 @@
       "path": "medien/legal-tribune-online/links/20180723.bamf-sami-a",
       "source": "medien/legal-tribune-online",
       "code": "lto-bamf-sami-a-2018",
-      "title": "LTO exklusiv - BAMF gibt keine Stillhaltezusagen zu Abschiebungen mehr Das neue Misstrauen ",
+      "title": "LTO exklusiv, BAMF gibt keine Stillhaltezusagen zu Abschiebungen mehr Das neue Misstrauen ",
       "uri": "https://www.lto.de/recht/justiz/j/abschiebung-bamf-verwaltungsgerichte-stillhaltezusage-sami-a-zwischenverfuegung",
       "type": "article",
       "tags": [
         "Abschiebung",
         "BAMF",
         "Stillhaltezusagen",
-        "Verwaltungsgerichte",
-        "research-done-review-pending"
+        "Verwaltungsgerichte"
       ],
       "sourceDate": "2018-07-23",
       "coSources": [
@@ -10418,8 +10276,7 @@
       "tags": [
         "AfD",
         "Verbotsverfahren",
-        "Stillhaltezusagen",
-        "research-done-review-pending"
+        "Stillhaltezusagen"
       ],
       "sourceDate": "2025-05-08",
       "verdict": "null",
@@ -10436,8 +10293,7 @@
       "type": "article",
       "tags": [
         "AfD",
-        "Stillhaltezusagen",
-        "research-done-review-pending"
+        "Stillhaltezusagen"
       ],
       "sourceDate": "2023-08-04",
       "verdict": "null",
@@ -10480,8 +10336,7 @@
         "Statistik",
         "Vorurteile",
         "Mai Thi Nguyen-Kim",
-        "ifo Institut",
-        "research-done-review-pending"
+        "ifo Institut"
       ],
       "sourceDate": "2025-02-18",
       "verdict": "true",
@@ -10495,7 +10350,6 @@
       "uri": "https://www.facebook.com/reel/1237546228235500",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Donald Trump",
         "Geschichte",
@@ -10503,14 +10357,14 @@
       ],
       "sourceDate": "2026-01-07",
       "coSources": [
-        "Donald Trump"
+        "donald-trump"
       ]
     },
     {
       "path": "personen/marc-uwe-kling/links/20250202.digital-independence-day",
       "source": "personen/marc-uwe-kling",
       "code": "marc-uwe-kling-digital-independence-day",
-      "title": "Digital Independence Day - Aufruf aus dem Big-Tech-Gefängnis auszubrechen",
+      "title": "Digital Independence Day, Aufruf aus dem Big-Tech-Gefängnis auszubrechen",
       "uri": "https://www.facebook.com/reel/3212337375635259",
       "type": "reel",
       "tags": [
@@ -10518,8 +10372,7 @@
         "Big Tech",
         "Datenschutz",
         "digitale Freiheit",
-        "di.day",
-        "research-done-review-pending"
+        "di.day"
       ],
       "sourceDate": "2025-02-02",
       "verdict": "null",
@@ -10628,7 +10481,6 @@
       "uri": "https://www.facebook.com/reel/789094984257188",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Marcant",
         "Erinnerungskultur",
         "Nationalsozialismus",
@@ -10645,7 +10497,6 @@
       "uri": "https://www.facebook.com/reel/2398402963942220",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Marcant",
         "Interview",
         "AfD",
@@ -10659,7 +10510,7 @@
       "path": "personen/marcant/links/20251226.ulrich-siegmund-geschichtsrevision",
       "source": "personen/marcant",
       "code": "marcant-siegmund-geschichtsrevision",
-      "title": "Ulrich Siegmund - Geschichtsrevision",
+      "title": "Ulrich Siegmund, Geschichtsrevision",
       "uri": "https://www.facebook.com/reel/1501632621102463",
       "type": "facebook",
       "tags": [
@@ -10702,7 +10553,6 @@
       "uri": "https://www.facebook.com/share/r/1PMDGkHfUn/",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Verbot",
         "Krauthausen"
@@ -10720,7 +10570,6 @@
       "uri": "https://www.facebook.com/share/r/1FC5WyFhTq/",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Antisemitismus",
         "AfD",
         "Bundestag"
@@ -10802,8 +10651,7 @@
         "Friedrich Merz",
         "CDU",
         "Sparkonten",
-        "Wirtschaft",
-        "research-done-review-pending"
+        "Wirtschaft"
       ],
       "sourceDate": "2026-01-15",
       "verdict": "false",
@@ -10880,8 +10728,7 @@
       "type": "article",
       "tags": [
         "Migration",
-        "Arbeitsmarkt",
-        "research-done-review-pending"
+        "Arbeitsmarkt"
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
@@ -10896,8 +10743,7 @@
       "uri": "https://mediendienst-integration.de/fluechtlinge/fluechtlinge-in-deutschland/dauer-von-asylverfahren-und-offene-asylantraege/",
       "type": "article",
       "tags": [
-        "Migration",
-        "research-done-review-pending"
+        "Migration"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -10911,8 +10757,7 @@
       "type": "article",
       "tags": [
         "Migration",
-        "Arbeitsmarkt",
-        "research-done-review-pending"
+        "Arbeitsmarkt"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -10929,8 +10774,7 @@
         "AfD",
         "Antifa",
         "Rechte Gewalt",
-        "Schwarzenberg",
-        "research-done-review-pending"
+        "Schwarzenberg"
       ],
       "sourceDate": "2025-12-13",
       "coSources": []
@@ -10959,7 +10803,7 @@
       "path": "portale/chaos-computer-club/links/20251228.blackbox-palantir",
       "source": "portale/chaos-computer-club",
       "code": "media-ccc-de-blackbox-palantir",
-      "title": "Blackbox Palantir - Überwachungssoftware bei deutschen Behörden",
+      "title": "Blackbox Palantir, Überwachungssoftware bei deutschen Behörden",
       "uri": "https://www.youtube.com/watch?v=8hTcdLRIxoQ",
       "type": "video",
       "tags": [
@@ -10969,8 +10813,7 @@
         "Datenschutz",
         "CCC",
         "39C3",
-        "Alexander Dobrindt",
-        "research-done-review-pending"
+        "Alexander Dobrindt"
       ],
       "sourceDate": "2025-12-28",
       "verdict": "null",
@@ -10984,7 +10827,6 @@
       "uri": "https://www.facebook.com/reel/828382616474406",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "MAGA"
       ],
@@ -11051,7 +10893,6 @@
       "uri": "https://www.facebook.com/reel/1198040028948666",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Donald Trump",
         "MAGA",
@@ -11067,11 +10908,10 @@
       "path": "politiker/robin-mesarosch/links/20250919.afd-wahre-demokraten",
       "source": "politiker/robin-mesarosch",
       "code": "mesarosch-afd-wahre-demokraten",
-      "title": "AfD als 'wahre Demokraten' - eine Täuschung",
+      "title": "AfD als 'wahre Demokraten', eine Täuschung",
       "uri": "https://www.facebook.com/reel/1526071768824104",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "AfD",
         "Demokratie",
         "Rechtsextremismus",
@@ -11091,8 +10931,7 @@
       "tags": [
         "AfD",
         "SPD",
-        "Kommunalpolitik",
-        "research-done-review-pending"
+        "Kommunalpolitik"
       ],
       "sourceDate": "2025-12-03",
       "coSources": []
@@ -11156,15 +10995,14 @@
       "path": "allgemein/moers-bunt/links/20251226.afd-greift-studenten-an",
       "source": "allgemein/moers-bunt",
       "code": "moers-afd-greift-studenten-an",
-      "title": "AfD-Wähler ermächtigen Rechtsextremisten - auch wenn sie keine Nazis sind",
+      "title": "AfD-Wähler ermächtigen Rechtsextremisten, auch wenn sie keine Nazis sind",
       "uri": "https://www.facebook.com/reel/843471168530689",
       "type": "reel",
       "tags": [
         "AfD",
         "AfD-Wähler",
         "Verantwortung",
-        "Facebook",
-        "research-done-review-pending"
+        "Facebook"
       ],
       "sourceDate": "2025-12-26",
       "coSources": []
@@ -11207,7 +11045,7 @@
       "path": "allgemein/moers-bunt/links/20250220.chrupalla-markus-lanz",
       "source": "allgemein/moers-bunt",
       "code": "moers-ist-bunt-chrupalla-markus-lanz",
-      "title": "Tino Chrupalla bei Markus Lanz - Ausschnitt",
+      "title": "Tino Chrupalla bei Markus Lanz, Ausschnitt",
       "uri": "https://www.facebook.com/reel/1811704156271197",
       "type": "reel",
       "tags": [
@@ -11216,8 +11054,7 @@
         "Markus Lanz",
         "ZDF",
         "Interview",
-        "Israel",
-        "research-done-review-pending"
+        "Israel"
       ],
       "sourceDate": "2025-02-20",
       "verdict": "null",
@@ -11254,8 +11091,7 @@
       "tags": [
         "AfD",
         "Nationalsozialismus",
-        "Neonazis",
-        "research-done-review-pending"
+        "Neonazis"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -11283,7 +11119,7 @@
       "path": "medien/monitor/links/20250914.monitor-thiele-erbschaftsteuer",
       "source": "medien/monitor",
       "code": "monitor-thiele-erbschaftsteuer-2025",
-      "title": "Familienstiftungen: Wie Superreiche Erbschaftsteuer vermeiden - der Fall Thiele",
+      "title": "Familienstiftungen: Wie Superreiche Erbschaftsteuer vermeiden, der Fall Thiele",
       "uri": "https://www.facebook.com/reel/4154109678180638",
       "type": "facebook",
       "tags": [
@@ -11331,8 +11167,7 @@
         "Sachsen-Anhalt",
         "Rechte Gewalt",
         "Brandenburg",
-        "Rechtsextremismus",
-        "research-done-review-pending"
+        "Rechtsextremismus"
       ],
       "sourceDate": "2026-02-02",
       "verdict": "true",
@@ -11351,8 +11186,7 @@
       "tags": [
         "AfD",
         "Rechte Gewalt",
-        "Aussteiger",
-        "research-done-review-pending"
+        "Aussteiger"
       ],
       "sourceDate": "2025-12-23",
       "coSources": [
@@ -11377,7 +11211,7 @@
       "type": "facebook",
       "tags": [
         "AfD",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Doppelmoral",
         "Sexismus"
       ],
@@ -11390,15 +11224,14 @@
       "path": "personen/mutmacher/links/20251227.baerbock-lag-bei-northstream2l",
       "source": "personen/mutmacher",
       "code": "mutmacher-afd-bikini-jette",
-      "title": "AfD kritisiert Grüne-Jugend-Chefin wegen Bikini-Foto - und nutzt selbst Bikini-Fotos in der Parteiwerbung",
+      "title": "AfD kritisiert Grüne-Jugend-Chefin wegen Bikini-Foto, und nutzt selbst Bikini-Fotos in der Parteiwerbung",
       "uri": "https://www.facebook.com/reel/4293345330908735",
       "type": "reel",
       "tags": [
         "AfD",
         "Sexismus",
         "Doppelmoral",
-        "Grüne Jugend",
-        "research-done-review-pending"
+        "Grüne Jugend"
       ],
       "sourceDate": "2025-12-23",
       "coSources": [
@@ -11415,8 +11248,7 @@
       "tags": [
         "AfD",
         "Bürgergeld",
-        "Bundestag",
-        "research-done-review-pending"
+        "Bundestag"
       ],
       "sourceDate": "2025-11-08",
       "coSources": []
@@ -11432,8 +11264,7 @@
         "AfD",
         "Alice Weidel",
         "Fachkräftemangel",
-        "Tagesschau",
-        "research-done-review-pending"
+        "Tagesschau"
       ],
       "sourceDate": "2025-12-23",
       "verdict": "true",
@@ -11452,8 +11283,7 @@
         "Desinformation",
         "Debunking",
         "Peru",
-        "AfD",
-        "research-done-review-pending"
+        "AfD"
       ],
       "sourceDate": "2025-12-25",
       "verdict": "misleading",
@@ -11470,8 +11300,7 @@
         "Desinformation",
         "Debunking",
         "Syrer",
-        "AfD",
-        "research-done-review-pending"
+        "AfD"
       ],
       "sourceDate": "2025-12-29",
       "verdict": "false",
@@ -11509,8 +11338,7 @@
         "Kriminalität",
         "Sachsen-Anhalt",
         "Vetternwirtschaft",
-        "Ulrich-Siegmund",
-        "research-done-review-pending"
+        "Ulrich-Siegmund"
       ],
       "sourceDate": "2026-02-07",
       "coSources": [
@@ -11526,7 +11354,6 @@
       "uri": "https://www.facebook.com/reel/24627715263571963",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Linksextremismus",
         "Aktivismus",
@@ -11600,7 +11427,6 @@
       "uri": "https://www.nd-aktuell.de/artikel/1198695.antifaschismus-berlin-naziangriff-mit-machete.html",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Politische Gewalt",
         "Berlin",
@@ -11622,8 +11448,7 @@
       "uri": "https://www.ndr.de/nachrichten/niedersachsen/merz-stadtbild-aussage-so-reagiert-norddeutschland-im-internet,stadtbild-120.html",
       "type": "article",
       "tags": [
-        "Migration",
-        "research-done-review-pending"
+        "Migration"
       ],
       "sourceDate": "2025-10-25",
       "coSources": [
@@ -11639,8 +11464,7 @@
       "type": "article",
       "tags": [
         "Migration",
-        "Arbeitsmarkt",
-        "research-done-review-pending"
+        "Arbeitsmarkt"
       ],
       "sourceDate": "2025-03-11",
       "coSources": []
@@ -11811,22 +11635,6 @@
       "coSources": []
     },
     {
-      "path": "personen/oliver-gastronomicus-riek/links/20260124.oliver-gastronomicus-riek-drohmail-afd",
-      "source": "personen/oliver-gastronomicus-riek",
-      "code": "oliver-gastronomicus-riek-drohmail-afd",
-      "title": "Oliver Gastronomicus Riek veröffentlicht Drohmail im AfD-Kontext",
-      "uri": "https://www.facebook.com/share/p/184BarGrck/",
-      "type": "post",
-      "tags": [
-        "research-done-review-pending",
-        "AfD",
-        "Drohung",
-        "Einschüchterung"
-      ],
-      "sourceDate": "2026-01-24",
-      "coSources": []
-    },
-    {
       "path": "allgemein/facebook/links/20251030.oma-antje-weidel-afd-macht-position",
       "source": "allgemein/facebook",
       "code": "oma-antje-weidel-afd-macht-position",
@@ -11914,7 +11722,7 @@
       "path": "allgemein/facebook/links/20260201.osorio-sofia-union-erklaert-politik",
       "source": "allgemein/facebook",
       "code": "osorio-sofia-union-erklaert-politik-2026",
-      "title": "Osório Sofia: Die Union erklärt Politik - Populismus und Scheindebatte",
+      "title": "Osório Sofia: Die Union erklärt Politik, Populismus und Scheindebatte",
       "uri": "https://www.facebook.com/reel/1769885807041169",
       "type": "facebook",
       "tags": [
@@ -11999,8 +11807,7 @@
       "tags": [
         "Migration",
         "Arbeitsmarkt",
-        "Personalwesen",
-        "research-done-review-pending"
+        "Personalwesen"
       ],
       "sourceDate": "2021-09-15",
       "coSources": []
@@ -12027,7 +11834,7 @@
       "path": "allgemein/facebook/links/20260103.trump-captured-presidents-plan",
       "source": "allgemein/facebook",
       "code": "politico-joe-trump-captured-presidents-plan",
-      "title": "Trump hat einen ausländischen Präsidenten festgenommen - was ist der Plan?",
+      "title": "Trump hat einen ausländischen Präsidenten festgenommen, was ist der Plan?",
       "uri": "https://www.facebook.com/reel/1471082354694370",
       "type": "reel",
       "tags": [
@@ -12054,8 +11861,7 @@
         "Demo",
         "Politik",
         "Polizei",
-        "AfD",
-        "research-done-review-pending"
+        "AfD"
       ],
       "sourceDate": "2025-11-29",
       "coSources": []
@@ -12069,8 +11875,7 @@
       "type": "article",
       "tags": [
         "Migration",
-        "Arbeitsmarkt",
-        "research-done-review-pending"
+        "Arbeitsmarkt"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -12102,7 +11907,6 @@
       "uri": "https://www.facebook.com/reel/1088496156555659",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Gesellschaft",
         "Solidarität",
         "Reaktionsvideo",
@@ -12120,7 +11924,6 @@
       "uri": "https://www.facebook.com/reel/3406813169474129",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Abtreibung",
         "Reproduktionsrechte",
@@ -12143,7 +11946,6 @@
       "uri": "https://www.facebook.com/reel/1168914335376508",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Abtreibung",
         "Reproduktionsrechte",
@@ -12163,7 +11965,6 @@
       "uri": "https://www.facebook.com/reel/1956191408260462",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Abtreibung",
         "Fehlgeburt",
         "USA",
@@ -12203,8 +12004,7 @@
       "tags": [
         "AfD",
         "Verfassungsschutz",
-        "Verbotsverfahren",
-        "research-done-review-pending"
+        "Verbotsverfahren"
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
@@ -12222,8 +12022,7 @@
       "tags": [
         "AfD",
         "AfD-Verbot",
-        "SPD",
-        "research-done-review-pending"
+        "SPD"
       ],
       "sourceDate": "2025-10-09",
       "coSources": []
@@ -12265,7 +12064,7 @@
       "path": "allgemein/facebook/links/20260201.reschkefernsehen-aufstehen-gegen-extremismus",
       "source": "allgemein/facebook",
       "code": "reschkefernsehen-aufstehen-extremismus-2026",
-      "title": "reschkefernsehen: Aufstehen gegen Extremismus - wehrhafte Demokratie erklärt",
+      "title": "reschkefernsehen: Aufstehen gegen Extremismus, wehrhafte Demokratie erklärt",
       "uri": "https://www.facebook.com/reel/3252699584904946",
       "type": "facebook",
       "tags": [
@@ -12286,7 +12085,7 @@
       "path": "wissenschaft/reuters-institute/links/20240617.reuters-institute-digital-news-report-2024-deutschland",
       "source": "wissenschaft/reuters-institute",
       "code": "reuters-institute-digital-news-report-2024-de",
-      "title": "Reuters Institute: Digital News Report 2024 - Deutschland",
+      "title": "Reuters Institute: Digital News Report 2024, Deutschland",
       "uri": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/germany",
       "type": "study",
       "tags": [
@@ -12294,8 +12093,7 @@
         "Medien",
         "Mediennutzung",
         "Deutschland",
-        "Bild-Zeitung",
-        "research-done-review-pending"
+        "Bild-Zeitung"
       ],
       "sourceDate": "2024-06-17",
       "coSources": []
@@ -12312,7 +12110,7 @@
         "AfD",
         "Meinungsfreiheit",
         "Bundestag",
-        "Bündnis 90/Die Grünen"
+        "Bündnis 90-Die Grünen"
       ],
       "sourceDate": "2025-09-18",
       "coSources": [
@@ -12346,7 +12144,7 @@
       "uri": "https://www.facebook.com/reel/1198797514945791",
       "type": "facebook",
       "tags": [
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Klimapolitik",
         "Bundestagswahl",
         "Deutschland",
@@ -12381,7 +12179,6 @@
       "uri": "https://www.facebook.com/reel/1221898086571461",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Bayern",
         "Aiwanger",
@@ -12402,7 +12199,6 @@
       "uri": "https://www.facebook.com/reel/876784091775674",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "USA",
         "Faschismus",
@@ -12413,7 +12209,7 @@
       ],
       "sourceDate": "2026-01-20",
       "coSources": [
-        "Donald Trump"
+        "donald-trump"
       ]
     },
     {
@@ -12424,10 +12220,9 @@
       "uri": "https://www.facebook.com/reel/1425439632515750",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
-        "Deutschland",
-        "Vermögenssteuer",
         "Steuerpolitik",
+        "Vermögenssteuer",
+        "Deutschland",
         "Umverteilung",
         "Wirtschaft",
         "Gerechtigkeit"
@@ -12582,8 +12377,7 @@
         "Nancy Mace",
         "Newsweek",
         "LGBTQ",
-        "Diskriminierung",
-        "research-done-review-pending"
+        "Diskriminierung"
       ],
       "sourceDate": "2025-02-24",
       "verdict": "null",
@@ -12602,8 +12396,7 @@
         "USA",
         "Trans",
         "LGBTQ",
-        "Solidarität",
-        "research-done-review-pending"
+        "Solidarität"
       ],
       "sourceDate": "2025-10-13",
       "coSources": []
@@ -12652,15 +12445,15 @@
       "path": "personen/sally-mcmanus/links/20251023.sally-mcmanus-big-business-power-australia",
       "source": "personen/sally-mcmanus",
       "code": "sally-mcmanus-big-business-power-australia",
-      "title": "Die Macht der Großunternehmen in Australien - was niemand offen ansprechen will",
+      "title": "Die Macht der Großunternehmen in Australien, was niemand offen ansprechen will",
       "uri": "https://www.facebook.com/reel/749665308128942",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Australien",
         "Wirtschaft",
         "Unternehmenseinfluss",
-        "Gewerkschaft"
+        "Gewerkschaft",
+        "more-research-needed"
       ],
       "sourceDate": "2025-10-23",
       "coSources": []
@@ -12689,7 +12482,7 @@
       "path": "personen/sarah-bosetti/links/20251105.grokipedia-elon-musk-paralleluniversum",
       "source": "personen/sarah-bosetti",
       "code": "sarah-bosetti-grokipedia-elon-musk-2025",
-      "title": "Grokipedia - Elon Musks Paralleluniversum",
+      "title": "Grokipedia, Elon Musks Paralleluniversum",
       "uri": "https://www.youtube.com/watch?v=pynsGHA2NLM",
       "type": "video",
       "tags": [
@@ -12699,8 +12492,7 @@
         "Desinformation",
         "USA",
         "Tech",
-        "Satire",
-        "research-done-review-pending"
+        "Satire"
       ],
       "sourceDate": "2025-11-05",
       "verdict": "true",
@@ -12735,11 +12527,10 @@
       "type": "reel",
       "tags": [
         "AfD",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Antisemitismus",
         "Beatrix von Storch",
-        "Spionage",
-        "research-done-review-pending"
+        "Spionage"
       ],
       "sourceDate": "2026-01-09",
       "coSources": []
@@ -12835,7 +12626,6 @@
       "uri": "https://www.facebook.com/reel/773352942418518",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Feminismus",
         "Sexismus",
@@ -12856,7 +12646,6 @@
       "uri": "https://www.facebook.com/reel/2258471654894583",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Politik",
         "Reaktion",
@@ -12873,7 +12662,6 @@
       "uri": "https://www.facebook.com/reel/2131580193917193",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Antifaschismus",
         "Deutschland",
         "Reaktionsvideo",
@@ -12954,8 +12742,7 @@
       "type": "article",
       "tags": [
         "Migration",
-        "Arbeitsmarkt",
-        "research-done-review-pending"
+        "Arbeitsmarkt"
       ],
       "sourceDate": "2023-09-29",
       "coSources": []
@@ -12970,7 +12757,7 @@
       "tags": [
         "Migration",
         "CDU",
-        "research-done-review-pending"
+        "Stadtbild"
       ],
       "sourceDate": "2025-10-21",
       "coSources": [
@@ -13002,7 +12789,6 @@
       "uri": "https://www.facebook.com/reel/1451411186572199",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Deutschland",
         "Wirtschaft",
         "Löhne",
@@ -13058,8 +12844,7 @@
       "tags": [
         "Statistik",
         "Rechtsextremismus",
-        "Linksextremismus",
-        "research-done-review-pending"
+        "Linksextremismus"
       ],
       "sourceDate": "2026-01-09",
       "coSources": []
@@ -13087,7 +12872,7 @@
       "path": "personen/steve-hofstetter/links/20260122.steve-hofstetter-pronomen-namen-comedy",
       "source": "personen/steve-hofstetter",
       "code": "steve-hofstetter-pronomen-namen-comedy",
-      "title": "Wenn du Pronomen schwierig findest - warte bis du Namen hörst",
+      "title": "Wenn du Pronomen schwierig findest, warte bis du Namen hörst",
       "uri": "https://www.facebook.com/reel/1662145488479788",
       "type": "reel",
       "tags": [
@@ -13122,11 +12907,10 @@
       "path": "portale/strom-report/links/20251201.strompreise-europa-eu-vergleich",
       "source": "portale/strom-report",
       "code": "strom-report-strompreise-europa-eu-vergleich",
-      "title": "Strom-Report: Strompreise in Europa - Was Strom in der EU kostet",
+      "title": "Strom-Report: Strompreise in Europa, Was Strom in der EU kostet",
       "uri": "https://strom-report.com/strompreise-europa/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Strompreise",
         "Europa",
         "Deutschland",
@@ -13223,8 +13007,7 @@
         "Kriminalität",
         "Rosenheim",
         "Winhart",
-        "Propaganda",
-        "research-done-review-pending"
+        "Propaganda"
       ],
       "sourceDate": "2026-03-06",
       "coSources": [
@@ -13240,8 +13023,7 @@
       "type": "article",
       "tags": [
         "AfD",
-        "Verbotsverfahren",
-        "research-done-review-pending"
+        "Verbotsverfahren"
       ],
       "sourceDate": "2025-05-08",
       "coSources": [
@@ -13257,8 +13039,7 @@
       "type": "article",
       "tags": [
         "AfD",
-        "Verbotsverfahren",
-        "research-done-review-pending"
+        "Verbotsverfahren"
       ],
       "sourceDate": "2025-05-08",
       "coSources": []
@@ -13313,8 +13094,7 @@
         "Migration",
         "Demografie",
         "SPD",
-        "CDU",
-        "research-done-review-pending"
+        "CDU"
       ],
       "sourceDate": "2026-01-18",
       "coSources": [
@@ -13388,9 +13168,8 @@
       "type": "reel",
       "tags": [
         "AfD",
-        "Bündnis 90/Die Grünen",
-        "Beatrix von Storch",
-        "research-done-review-pending"
+        "Bündnis 90-Die Grünen",
+        "Beatrix von Storch"
       ],
       "sourceDate": "2026-01-09",
       "verdict": "null",
@@ -13426,7 +13205,6 @@
       "uri": "https://taz.de/Mutmassllich-rechtsextreme-Tat/!6169005/",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Rechte Gewalt",
         "Schleswig-Holstein"
@@ -13488,8 +13266,7 @@
         "Kriminalität",
         "Rosenheim",
         "Winhart",
-        "Propaganda",
-        "research-done-review-pending"
+        "Propaganda"
       ],
       "sourceDate": "2026-03-02",
       "coSources": [
@@ -13578,7 +13355,6 @@
       "uri": "https://www.facebook.com/reel/1436516294542547",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Remigration",
         "AfD",
         "Sellner",
@@ -13599,11 +13375,10 @@
       "type": "reel",
       "tags": [
         "AfD",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Markus Lanz",
         "Beatrix von Storch",
-        "USA",
-        "research-done-review-pending"
+        "USA"
       ],
       "sourceDate": "2026-01-09",
       "coSources": [
@@ -13641,8 +13416,7 @@
         "NRW",
         "Gleichberechtigung",
         "Landtag",
-        "E-Sport",
-        "research-done-review-pending"
+        "E-Sport"
       ],
       "sourceDate": "2026-01-12",
       "verdict": "true",
@@ -13658,7 +13432,6 @@
       "uri": "https://www.facebook.com/reel/879380771429572",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Kanada",
         "USA",
         "Migration",
@@ -13679,7 +13452,6 @@
       "uri": "https://www.facebook.com/reel/1144844717573405",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "Terrorismus",
         "USA",
@@ -13693,11 +13465,10 @@
       "path": "personen/trevor-poutine/links/20251104.trevor-poutine-brauche-eine-quelle",
       "source": "personen/trevor-poutine",
       "code": "trevor-poutine-brauche-eine-quelle-2025",
-      "title": "\\\"Ich brauche eine Quelle\\\" - Quellenarbeit und Informationskompetenz",
+      "title": "\\\"Ich brauche eine Quelle\\\", Quellenarbeit und Informationskompetenz",
       "uri": "https://www.facebook.com/reel/1523846225593456",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Medien",
         "Informationskompetenz",
         "Quellenarbeit"
@@ -13713,7 +13484,6 @@
       "uri": "https://www.facebook.com/reel/1129606515935308",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Faschismus",
         "Geschichte",
         "USA",
@@ -13730,7 +13500,6 @@
       "uri": "https://www.facebook.com/reel/684385171368247",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Faschismus",
         "Rechtsextremismus",
         "Geschichte",
@@ -13764,7 +13533,6 @@
       "uri": "https://www.facebook.com/reel/1470407877332614",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "ICE",
         "Überwachung",
         "Medizindaten",
@@ -13782,11 +13550,10 @@
       "path": "personen/trevor-poutine/links/20260122.trevor-poutine-intimidation-immigration",
       "source": "personen/trevor-poutine",
       "code": "trevor-poutine-intimidation-immigration-2026",
-      "title": "Einschüchterung, keine Einwanderungspolitik - Trump und ICE",
+      "title": "Einschüchterung, keine Einwanderungspolitik, Trump und ICE",
       "uri": "https://www.facebook.com/reel/1196870435758128",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Migration",
         "Donald Trump",
@@ -13806,7 +13573,6 @@
       "uri": "https://www.facebook.com/reel/851087944186888",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Logik",
         "Social Media",
         "USA",
@@ -13823,7 +13589,6 @@
       "uri": "https://www.facebook.com/reel/662654360189625",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "TuckerCarlson",
         "USA",
         "Medien",
@@ -13842,7 +13607,6 @@
       "uri": "https://www.facebook.com/reel/1837872437114176",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Geschichte",
         "Kuba",
@@ -13862,7 +13626,6 @@
       "uri": "https://www.facebook.com/reel/1142325891284063",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Geschichte",
         "USA",
         "Donald Trump",
@@ -13881,7 +13644,6 @@
       "uri": "https://www.facebook.com/reel/882392224540291",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "Rechtsextremismus",
         "Deutschland",
         "Steuergelder",
@@ -13900,7 +13662,6 @@
       "uri": "https://www.facebook.com/reel/1217735243816357",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
         "USA",
         "Donald Trump",
         "Faschismus",
@@ -13908,7 +13669,7 @@
       ],
       "sourceDate": "2026-01-09",
       "coSources": [
-        "Donald Trump"
+        "donald-trump"
       ]
     },
     {
@@ -13919,7 +13680,6 @@
       "uri": "https://www.facebook.com/reel/1575247567765082",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Querdenken",
         "LGBTQ"
       ],
@@ -13930,7 +13690,7 @@
       "path": "medien/uebermedien/links/20240613.uebermedien-bild-buergergeld-sozialneid",
       "source": "medien/uebermedien",
       "code": "uebermedien-bild-buergergeld-sozialneid-2024",
-      "title": "Übermedien: Sozialneid statt Fakten - wie Bild die Debatte über das Bürgergeld verzerrt",
+      "title": "Übermedien: Sozialneid statt Fakten, wie Bild die Debatte über das Bürgergeld verzerrt",
       "uri": "https://uebermedien.de/96227/sozialneid-statt-fakten-wie-bild-die-debatte-ueber-das-buergergeld-verzerrt/",
       "type": "article",
       "tags": [
@@ -13955,7 +13715,7 @@
       "path": "medien/uebermedien/links/20231026.uebermedien-bild-stimmung-gegen-erwerbslose",
       "source": "medien/uebermedien",
       "code": "uebermedien-bild-stimmung-erwerbslose-2023",
-      "title": "Übermedien: Klassistisch, einseitig, polemisch - so macht Bild Stimmung gegen Erwerbslose",
+      "title": "Übermedien: Klassistisch, einseitig, polemisch, so macht Bild Stimmung gegen Erwerbslose",
       "uri": "https://uebermedien.de/89329/klassistisch-einseitig-polemisch-so-macht-bild-stimmung-gegen-erwerbslose/",
       "type": "article",
       "tags": [
@@ -14002,8 +13762,7 @@
         "Demo",
         "Schwarzenberg",
         "Rechte Gewalt",
-        "Sachsen",
-        "research-done-review-pending"
+        "Sachsen"
       ],
       "sourceDate": "2026-01-27",
       "coSources": []
@@ -14055,8 +13814,7 @@
         "LGBTQ",
         "Geschlechter",
         "Biologie",
-        "Homosexualität",
-        "research-done-review-pending"
+        "Homosexualität"
       ],
       "sourceDate": "2025-12-25",
       "coSources": []
@@ -14089,8 +13847,7 @@
         "LGBTQ",
         "Biologie",
         "Gleichberechtigung",
-        "Diskriminierung",
-        "research-done-review-pending"
+        "Diskriminierung"
       ],
       "sourceDate": "2026-02-01",
       "coSources": []
@@ -14105,8 +13862,7 @@
       "tags": [
         "Desinformation",
         "Hass",
-        "TikTok",
-        "research-done-review-pending"
+        "TikTok"
       ],
       "sourceDate": "2026-01-24",
       "coSources": []
@@ -14157,8 +13913,7 @@
       "type": "article",
       "tags": [
         "Linksextremismus",
-        "Verfassungsschutz",
-        "research-done-review-pending"
+        "Verfassungsschutz"
       ],
       "sourceDate": "2026-01-18",
       "coSources": []
@@ -14173,7 +13928,7 @@
       "tags": [
         "Linksextremismus",
         "Verfassungsschutz",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-09",
       "coSources": []
@@ -14188,7 +13943,7 @@
       "tags": [
         "Rechtsextremismus",
         "Verfassungsschutz",
-        "research-done-review-pending"
+        "needs-more-research"
       ],
       "sourceDate": "2026-01-09",
       "coSources": []
@@ -14203,8 +13958,7 @@
       "tags": [
         "AfD",
         "Verbotsverfahren",
-        "Stillhaltezusagen",
-        "research-done-review-pending"
+        "Stillhaltezusagen"
       ],
       "sourceDate": "2025-05-08",
       "verdict": "null",
@@ -14253,8 +14007,7 @@
         "AfD",
         "Faktencheck",
         "Social Media",
-        "Algorithmus",
-        "research-done-review-pending"
+        "Algorithmus"
       ],
       "sourceDate": "2026-01-09",
       "coSources": []
@@ -14269,8 +14022,7 @@
       "tags": [
         "AfD",
         "Rechtsextremismus",
-        "Zitate",
-        "research-done-review-pending"
+        "Zitate"
       ],
       "sourceDate": "2023-09-01",
       "verdict": "null",
@@ -14317,8 +14069,7 @@
         "AfD",
         "Rechtsextremismus",
         "Zitate",
-        "Höcke",
-        "research-done-review-pending"
+        "Höcke"
       ],
       "sourceDate": "2023-07-03",
       "verdict": "null",
@@ -14462,7 +14213,7 @@
       "path": "allgemein/facebook/links/20260407.nicht-gelesen-aber-meinung",
       "source": "allgemein/facebook",
       "code": "weichelt-wehrpflicht-klarstellung-afd",
-      "title": "Klarstellung zur Wehrpflicht - und was das mit der AfD zu tun hat",
+      "title": "Klarstellung zur Wehrpflicht, und was das mit der AfD zu tun hat",
       "uri": "https://www.facebook.com/stefanakweichelt/posts/pfbid0p8jFNjuFPfkzPuxBnGZQkFLPJoe18qjwXpf2FBkrBNS7Hc3rwGvUybCM9KYMQNRwl",
       "type": "facebook",
       "tags": [
@@ -14484,8 +14235,7 @@
         "Demo",
         "Antifa",
         "AfD",
-        "Schwarzenberg",
-        "research-done-review-pending"
+        "Schwarzenberg"
       ],
       "sourceDate": "2025-12-13",
       "coSources": []
@@ -14494,14 +14244,13 @@
       "path": "medien/welt/links/20260114.welt-afd-remigration-gießen",
       "source": "medien/welt",
       "code": "welt-afd-remigration-giessen",
-      "title": "AfD-Jugend in Gießen: \"Sprecher haben millionenfache Remigration gefordert– unter heftigem Applaus\"",
+      "title": "AfD-Jugend in Gießen: Sprecher haben millionenfache Remigration gefordert– unter heftigem Applaus",
       "uri": "https://www.welt.de/politik/deutschland/video692d5d90392d5c38e38525bd/afd-jugend-in-giessen-sprecher-haben-millionenfache-remigration-gefordert-unter-heftigem-applaus.html",
       "type": "video",
       "tags": [
         "AfD",
         "Migration",
-        "Remigration",
-        "research-done-review-pending"
+        "Remigration"
       ],
       "sourceDate": "2025-12-01",
       "coSources": []
@@ -14515,16 +14264,15 @@
       "type": "article",
       "tags": [
         "AfD",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "Mercosur",
         "Brandmauer",
-        "Selbstkritik",
-        "research-done-review-pending"
+        "Selbstkritik"
       ],
       "sourceDate": "2026-01-23",
       "coSources": [
         "felix-banaszak",
-        "Bündnis 90/Die Grünen",
+        "Bündnis 90-Die Grünen",
         "der-spiegel"
       ]
     },
@@ -14539,8 +14287,7 @@
         "Migration",
         "CDU",
         "AfD",
-        "Friedrich Merz",
-        "research-done-review-pending"
+        "Friedrich Merz"
       ],
       "sourceDate": "2026-01-18",
       "coSources": [
@@ -14552,13 +14299,12 @@
       "path": "medien/welt/links/20260118.welt-gefühlte-sicherheit",
       "source": "medien/welt",
       "code": "welt-stadtbild-umfrage-angst",
-      "title": "\"Stadtbild\"-Umfrage: Sicherheitsempfinden in deutschen Städten sinkt – Bürgermeister fordern Maßnahmen",
+      "title": "Stadtbild-Umfrage: Sicherheitsempfinden in deutschen Städten sinkt – Bürgermeister fordern Maßnahmen",
       "uri": "https://www.welt.de/politik/deutschland/video690d7e8f0166cd59ef9978aa/stadtbild-umfrage-sicherheitsempfinden-in-deutschen-staedten-sinkt-buergermeister-fordern-massnahmen.html",
       "type": "video",
       "tags": [
         "Migration",
-        "Angstmacherei",
-        "research-done-review-pending"
+        "Angstmacherei"
       ],
       "sourceDate": "2026-01-18",
       "coSources": []
@@ -14590,8 +14336,7 @@
       "tags": [
         "AfD",
         "Chile",
-        "SPD",
-        "research-done-review-pending"
+        "SPD"
       ],
       "sourceDate": "2025-12-03",
       "verdict": "null",
@@ -14638,13 +14383,10 @@
       "uri": "https://de.wikipedia.org/wiki/Sina_Reisch",
       "type": "article",
       "tags": [
-        "Wikipedia",
-        "research-done-review-pending"
+        "Wikipedia"
       ],
       "sourceDate": "2026-01-18",
-      "coSources": [
-        "sina-reisch"
-      ]
+      "coSources": []
     },
     {
       "path": "politiker/andreas-winhart/links/20260302.winhart-rosenheim-konfrontation",
@@ -14754,11 +14496,10 @@
       "path": "ngo/hans-boeckler-stiftung/links/20241206.tarifloehne-reallohne-2024",
       "source": "ngo/hans-boeckler-stiftung",
       "code": "wsi-tarifloehne-reallohne-2024",
-      "title": "Tariflöhne steigen 2024 nominal um 5,5 Prozent - erstmals wieder kräftiger Reallohnzuwachs von 3,2 Prozent",
+      "title": "Tariflöhne steigen 2024 nominal um 5,5 Prozent, erstmals wieder kräftiger Reallohnzuwachs von 3,2 Prozent",
       "uri": "https://www.boeckler.de/de/pressemitteilungen-2675-nominale-tarifloehne-steigen-2024-65447.htm",
       "type": "article",
       "tags": [
-        "research-done-review-pending",
         "Wirtschaft",
         "Löhne",
         "Reallöhne",
@@ -14772,11 +14513,10 @@
       "path": "ngo/hans-boeckler-stiftung/links/20251120.wsi-verteilungsbericht-2025",
       "source": "ngo/hans-boeckler-stiftung",
       "code": "wsi-verteilungsbericht-2025-ungleichheit",
-      "title": "WSI-Verteilungsbericht 2025: Mehr Ungleichheit - weniger politische Teilhabe",
+      "title": "WSI-Verteilungsbericht 2025: Mehr Ungleichheit, weniger politische Teilhabe",
       "uri": "https://www.boeckler.de/de/pressemitteilungen-2675-einkommensungleichheit-seit-2018-weiter-angestiegen-72959.htm",
       "type": "report",
       "tags": [
-        "research-done-review-pending",
         "Wirtschaft",
         "Ungleichheit",
         "Einkommen"
@@ -14795,10 +14535,9 @@
       "uri": "https://www.facebook.com/reel/1230270125744844",
       "type": "facebook",
       "tags": [
-        "research-done-review-pending",
+        "AfD-Verbot",
         "Deutschland",
-        "AfD",
-        "AfD-Verbot"
+        "AfD"
       ],
       "sourceDate": "2026-02-01",
       "coSources": [
@@ -14817,8 +14556,7 @@
         "Wirtschaft",
         "Deutschland",
         "Arbeitsplätze",
-        "Industrie",
-        "research-done-review-pending"
+        "Industrie"
       ],
       "sourceDate": "2026-02-19",
       "coSources": [
@@ -14833,7 +14571,6 @@
       "uri": "https://www.facebook.com/reel/748613898311523",
       "type": "reel",
       "tags": [
-        "research-done-review-pending",
         "Nius",
         "JulianReichelt",
         "Meinungsfreiheit",
@@ -14855,8 +14592,7 @@
       "type": "facebook",
       "tags": [
         "AfD",
-        "Verbotsverfahren",
-        "research-done-review-pending"
+        "Verbotsverfahren"
       ],
       "sourceDate": "2025-05-08",
       "coSources": []

@@ -1,6 +1,14 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
 
+definePageMeta({
+  sitemap: false,
+})
+
+useSeoMeta({
+  robots: 'noindex, follow',
+})
+
 await definePageData({
   title: 'Schlagwörter – Faktenfackel',
   pageHeading: '',

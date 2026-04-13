@@ -4,7 +4,7 @@ publishedOn: 2026-03-10
 name: Lisa Badum
 description: MdB Bündnis 90/Die Grünen, klima- und energiepolitische Sprecherin
 tags:
-  - Bündnis 90/Die Grünen
+  - Bündnis 90-Die Grünen
   - Bundestag
   - Klimapolitik
 ---

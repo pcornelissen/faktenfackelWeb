@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import PostsList from '~/components/content/PostsList.vue'
+import type { Post } from '~/utils/contentUtils'
 import { definePageData, filter, nowIso } from '~/utils/contentUtils'
 
 const route = useRoute()
@@ -16,15 +17,6 @@ const { data: categoryInfo }
       return queryCollection('faktenchecks').path(`${basePath}/_info`).first()
     })
 
-const title = categoryInfo.value?.title || `Faktenchecks im Bereich ${capitalize(category)}`
-
-await definePageData({
-  title: title,
-  pageHeading: 'Faktenfackel - Faktenchecks',
-  pageSubHeading: 'Themenbereiche',
-  description: categoryInfo.value?.description,
-})
-
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('faktenchecks')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
@@ -32,11 +24,31 @@ const { data: list1 } = await useAsyncData(route.path, () => {
     .order('date', 'DESC')
     .all()
 })
-const list = list1.value as Post[]
+const list = computed(() => (list1.value || []) as Post[])
+const categoryPosts = computed(() => filter(list.value, category))
+const isIndexableCategory = computed(() => Boolean(categoryInfo.value) && categoryPosts.value.length >= 4)
+const title = categoryInfo.value?.title || `Faktenchecks im Bereich ${capitalize(category)}`
+
+await definePageData({
+  title: title,
+  pageHeading: 'Faktenfackel - Faktenchecks',
+  pageSubHeading: 'Themenbereiche',
+  description: categoryInfo.value?.description,
+  sitemap: isIndexableCategory.value
+    ? {
+        priority: 0.8,
+        changefreq: 'daily',
+      }
+    : false,
+})
+
+useSeoMeta({
+  robots: isIndexableCategory.value ? 'index, follow' : 'noindex, follow',
+})
 </script>
 
 <template>
-  <div v-if="list">
+  <div v-if="list.length">
     <h1 style="margin-top: 0">
       {{ title }}
     </h1>
@@ -46,7 +58,7 @@ const list = list1.value as Post[]
       class="intro"
     />
     <PostsList
-      :list="filter(list, category)"
+      :list="categoryPosts"
     />
   </div>
   <div v-else>

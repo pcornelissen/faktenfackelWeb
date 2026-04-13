@@ -7,6 +7,10 @@ interface PageData {
   pageSubHeading?: string
   description?: string
   lastmod?: Date
+  sitemap?: false | {
+    priority: 0.8
+    changefreq: 'daily'
+  }
 }
 
 export function filter(list: Post[], category: string, sectionName: string = 'faktenchecks') {
@@ -18,7 +22,11 @@ export function filter(list: Post[], category: string, sectionName: string = 'fa
 
 export async function definePageData(data: PageData) {
   definePageMeta({
-    title: '', pageHeading: '', pageSubHeading: '', description: '', sitemap: {
+    title: '',
+    pageHeading: '',
+    pageSubHeading: '',
+    description: '',
+    sitemap: data.sitemap ?? {
       priority: 0.8,
       changefreq: 'daily',
     },

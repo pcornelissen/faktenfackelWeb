@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
 import PostsList from '~/components/content/PostsList.vue'
+import type { Post } from '~/utils/contentUtils'
 import { definePageData, filter, nowIso } from '~/utils/contentUtils'
 
 const route = useRoute()
@@ -23,6 +24,16 @@ const { data: post }
       return queryCollection('lagerfeuer').path(`${basePath}`).first()
     })
 
+const { data: list1 } = await useAsyncData(route.path, () => {
+  return queryCollection('lagerfeuer')
+    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
+    .where('publishedOn', '<=', nowIso())
+    .order('date', 'DESC')
+    .all()
+})
+const list = computed(() => (list1.value || []) as Post[])
+const categoryPosts = computed(() => filter(list.value, category, 'lagerfeuer'))
+const isIndexableCategory = computed(() => Boolean(categoryInfo.value) && categoryPosts.value.length >= 4)
 const title = categoryInfo.value?.title || `Lagerfeuer Beiträge im Bereich ${capitalize(category)}`
 
 await definePageData({
@@ -31,20 +42,21 @@ await definePageData({
   pageSubHeading: 'Beiträge',
   description: post.value?.description,
   lastmod: new Date(post.value?.date || new Date()),
+  sitemap: isIndexableCategory.value
+    ? {
+        priority: 0.8,
+        changefreq: 'daily',
+      }
+    : false,
 })
 
-const { data: list1 } = await useAsyncData(route.path, () => {
-  return queryCollection('lagerfeuer')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all()
+useSeoMeta({
+  robots: isIndexableCategory.value ? 'index, follow' : 'noindex, follow',
 })
-const list = list1.value as Post[]
 </script>
 
 <template>
-  <div v-if="list">
+  <div v-if="list.length">
     <h1 style="margin-top: 0">
       {{ title }}
     </h1>
@@ -54,7 +66,7 @@ const list = list1.value as Post[]
       class="intro content"
     />
     <PostsList
-      :list="filter(list, category, 'lagerfeuer')"
+      :list="categoryPosts"
     />
   </div>
   <div v-else>

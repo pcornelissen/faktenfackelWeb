@@ -5,7 +5,7 @@ name: Andreas Audretsch
 description: Stellvertretender Fraktionsvorsitzender Bündnis 90/Die Grünen im Bundestag
 imageAuthor: Das Progressive Zentrum
 tags:
-  - Bündnis 90/Die Grünen
+  - Bündnis 90-Die Grünen
   - Politiker
   - Bundestag
   - Haushalt

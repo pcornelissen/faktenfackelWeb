@@ -3,6 +3,14 @@ import { capitalize } from '~/utils/stringUtils'
 import { definePageData, nowIso, type Post, type Quote } from '~/utils/contentUtils'
 import type { Source, SourceLink } from '~/utils/referenceData'
 
+definePageMeta({
+  sitemap: false,
+})
+
+useSeoMeta({
+  robots: 'noindex, follow',
+})
+
 const route = useRoute()
 const tag = computed(() => route.params.tag as string)
 

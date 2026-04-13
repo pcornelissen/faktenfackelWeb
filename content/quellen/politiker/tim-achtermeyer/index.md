@@ -7,7 +7,7 @@ tags:
   - Deutschland
   - NRW
   - Landtag
-  - Bündnis 90/Die Grünen
+  - Bündnis 90-Die Grünen
   - Antifaschismus
 imageAuthor: Federico Gambarini/dpa 
 ---
