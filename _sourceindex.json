@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T14:16:57.312Z",
+  "generatedAt": "2026-04-13T15:11:13.108Z",
   "stats": {
     "sources": 293,
     "links": 589,
@@ -123,9 +123,7 @@
       "slug": "pepsico",
       "name": "PepsiCo",
       "description": "US-amerikanischer Lebensmittel- und Getränkekonzern (Pepsi, Doritos, Frito-Lay, Quaker)",
-      "tags": [
-        "more-research-needed"
-      ],
+      "tags": [],
       "date": "2026-04-13",
       "hasImage": true
     },
@@ -135,9 +133,7 @@
       "slug": "spoor",
       "name": "Spoor",
       "description": "KI-Unternehmen, spezialisiert auf automatisierte Beobachtung von Vogelbewegungen rund um Windkraftanlagen",
-      "tags": [
-        "more-research-needed"
-      ],
+      "tags": [],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -159,9 +155,7 @@
       "slug": "vattenfall",
       "name": "Vattenfall",
       "description": "Schwedischer Energiekonzern, betreibt Windparks und andere Energieanlagen in Europa",
-      "tags": [
-        "more-research-needed"
-      ],
+      "tags": [],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -1224,9 +1218,7 @@
       "slug": "bwo",
       "name": "Bundesverband Windenergie Offshore (BWO)",
       "description": "Branchenverband der deutschen Offshore-Windenergie-Unternehmen",
-      "tags": [
-        "more-research-needed"
-      ],
+      "tags": [],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -1266,9 +1258,7 @@
       "slug": "deutsche-wildtierstiftung",
       "name": "Deutsche Wildtierstiftung",
       "description": "Naturschutzstiftung, setzt sich für den Schutz heimischer Wildtiere und ihrer Lebensräume ein",
-      "tags": [
-        "more-research-needed"
-      ],
+      "tags": [],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -2111,7 +2101,6 @@
       "slug": "politico-joe",
       "name": "Politico Joe",
       "tags": [
-        "more-research-needed",
         "USA",
         "Politik"
       ],
@@ -2274,7 +2263,6 @@
       "slug": "the-woke-ginger",
       "name": "The Woke Ginger",
       "tags": [
-        "more-research-needed",
         "USA",
         "LGBTQ",
         "Satire"
@@ -2559,7 +2547,10 @@
       "name": "Buddy Carter",
       "description": "Republikanischer US-Abgeordneter aus Georgia (bürgerlicher Name: Earl LeRoy Carter), MAGA-Flügel",
       "tags": [
-        "more-research-needed"
+        "USA",
+        "Kongress",
+        "Republikaner",
+        "MAGA"
       ],
       "date": "2026-04-13",
       "hasImage": false
@@ -3106,7 +3097,10 @@
       "name": "Mike Collins",
       "description": "Republikanischer US-Abgeordneter aus Georgia, MAGA-Flügel",
       "tags": [
-        "more-research-needed"
+        "USA",
+        "Kongress",
+        "Republikaner",
+        "MAGA"
       ],
       "date": "2026-04-13",
       "hasImage": false
@@ -3271,8 +3265,7 @@
       "tags": [
         "AfD",
         "Stuttgart",
-        "Stadtrat",
-        "more-research-needed"
+        "Stadtrat"
       ],
       "date": "2026-04-13",
       "hasImage": true
@@ -3850,9 +3843,7 @@
       "slug": "bioconsult-sh",
       "name": "BioConsult SH",
       "description": "Wissenschaftliches Planungs- und Beratungsbüro für Naturschutz und Umweltplanung, spezialisiert auf Meereskunde und Vogelkunde",
-      "tags": [
-        "more-research-needed"
-      ],
+      "tags": [],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -4436,8 +4427,7 @@
       "type": "article",
       "tags": [
         "Arbeitsmarkt",
-        "Migration",
-        "more-research-needed"
+        "Migration"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -5038,8 +5028,7 @@
       "type": "pdf",
       "tags": [
         "Arbeitsmarkt",
-        "Demografie",
-        "more-research-needed"
+        "Demografie"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -5184,8 +5173,7 @@
       "uri": "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Fakten-zur-Rente/Gesetzliche-Rentenversicherung/gesetzliche-rentenversicherung.html#docaf7937a7-ce9e-4571-ae2f-7a9b45a7fd67bodyText1",
       "type": "article",
       "tags": [
-        "Rente",
-        "more-research-needed"
+        "Rente"
       ],
       "sourceDate": "2025-02-11",
       "coSources": []
@@ -6568,8 +6556,7 @@
       "uri": "https://www-genesis.destatis.de/datenbank/online/table/12411-0006/search/s/MTI0MTEtMDAwNg==",
       "type": "article",
       "tags": [
-        "Demografie",
-        "more-research-needed"
+        "Demografie"
       ],
       "sourceDate": "2026-01-11",
       "coSources": []
@@ -6599,8 +6586,7 @@
       "type": "article",
       "tags": [
         "lebenserwartung",
-        "Demografie",
-        "more-research-needed"
+        "Demografie"
       ],
       "sourceDate": "2026-01-11",
       "coSources": []
@@ -6614,8 +6600,7 @@
       "type": "article",
       "tags": [
         "lebenserwartung",
-        "Demografie",
-        "more-research-needed"
+        "Demografie"
       ],
       "sourceDate": "2026-01-11",
       "coSources": []
@@ -7048,8 +7033,7 @@
       "tags": [
         "Windkraft",
         "Artenschutz",
-        "Erneuerbare Energien",
-        "research-done-review-pending"
+        "Erneuerbare Energien"
       ],
       "sourceDate": "2026-04-11",
       "verdict": "complex",
@@ -7103,8 +7087,7 @@
       "tags": [
         "AfD",
         "Rechte Gewalt",
-        "Facebook",
-        "research-done-review-pending"
+        "Facebook"
       ],
       "sourceDate": "2025-12-17",
       "verdict": "true",
@@ -7845,8 +7828,7 @@
         "Gewalt gegen Frauen",
         "BKA",
         "Statistik",
-        "Dunkelfeldstudie",
-        "research-done-review-pending"
+        "Dunkelfeldstudie"
       ],
       "sourceDate": "2026-04-02",
       "verdict": "complex",
@@ -8484,8 +8466,7 @@
         "Asylgesetz",
         "Erwerbstätigkeit",
         "Justiz",
-        "Gesetz",
-        "research-done-review-pending"
+        "Gesetz"
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
@@ -8504,8 +8485,7 @@
         "Grundrechte",
         "Rechtsweg",
         "Justiz",
-        "Gesetz",
-        "research-done-review-pending"
+        "Gesetz"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -8522,8 +8502,7 @@
         "Parteienrecht",
         "Parteiverbot",
         "Justiz",
-        "Gesetz",
-        "research-done-review-pending"
+        "Gesetz"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -8540,8 +8519,7 @@
         "Meinungsfreiheit",
         "Pressefreiheit",
         "Justiz",
-        "Gesetz",
-        "research-done-review-pending"
+        "Gesetz"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -8557,8 +8535,7 @@
         "Grundgesetz",
         "Versammlungsfreiheit",
         "Justiz",
-        "Gesetz",
-        "research-done-review-pending"
+        "Gesetz"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -10630,8 +10607,7 @@
         "AfD",
         "Demo",
         "Polizei",
-        "Pressefreiheit",
-        "research-done-review-pending"
+        "Pressefreiheit"
       ],
       "sourceDate": "2025-12-27",
       "coSources": []
@@ -11108,8 +11084,7 @@
         "MAGA",
         "Selbstbetroffenheit",
         "Republikaner",
-        "Frauenrechte",
-        "research-done-review-pending"
+        "Frauenrechte"
       ],
       "sourceDate": "2025-10-08",
       "coSources": []
@@ -11205,20 +11180,22 @@
     {
       "path": "allgemein/moers-bunt/links/20260118.afd-demo-gießen",
       "source": "allgemein/moers-bunt",
-      "code": "moers-afd-demo-gießen",
+      "code": "moers-afd-demo-gießen-november-2025",
       "title": "Trotz friedlicher Demo eskaliert die Gewalt an den Lahnbrücken (Gießen)",
       "uri": "https://www.facebook.com/Moersistbunt/posts/pfbid0GgjyEeonqnmazF7DznTbWD1fiUbiamhYTDHC3sCgBKe36eNewsMCyzWmqHiL42N9l",
       "type": "facebook",
       "tags": [
+        "Polizeigewalt",
         "AfD",
         "AfD-Jugend",
         "Demo",
-        "Polizeigewalt",
-        "Facebook",
-        "more-research"
+        "Facebook"
       ],
-      "sourceDate": "2026-01-17",
-      "coSources": []
+      "sourceDate": "2025-11-29",
+      "verdict": "complex",
+      "coSources": [
+        "giessener-anzeiger"
+      ]
     },
     {
       "path": "allgemein/moers-bunt/links/20251226.afd-greift-studenten-an",
@@ -11493,8 +11470,7 @@
         "Bauernproteste",
         "Subventionen",
         "CDU",
-        "CSU",
-        "research-done-review-pending"
+        "CSU"
       ],
       "sourceDate": "2026-03-31",
       "verdict": "complex",
@@ -11806,8 +11782,7 @@
         "Markus Söder",
         "Energiepolitik",
         "EDF",
-        "Hinkley Point C",
-        "research-done-review-pending"
+        "Hinkley Point C"
       ],
       "sourceDate": "2026-04-12",
       "verdict": "true",
@@ -12001,8 +11976,7 @@
       "tags": [
         "Bürgergeld",
         "Sozialstaat",
-        "Wirtschaft",
-        "research-done-review-pending"
+        "Wirtschaft"
       ],
       "sourceDate": "2026-03-30",
       "verdict": "true",
@@ -12131,8 +12105,7 @@
         "USA",
         "SAVE Act",
         "Wahlrecht",
-        "Wahlrechtseinschränkung",
-        "research-done-review-pending"
+        "Wahlrechtseinschränkung"
       ],
       "sourceDate": "2026-03-09",
       "verdict": "true",
@@ -12531,8 +12504,7 @@
         "AfD",
         "Ostern",
         "Satire",
-        "Desinformation",
-        "research-done-review-pending"
+        "Desinformation"
       ],
       "sourceDate": "2026-03-03",
       "coSources": []
@@ -12777,8 +12749,7 @@
         "Australien",
         "Wirtschaft",
         "Unternehmenseinfluss",
-        "Gewerkschaft",
-        "research-done-review-pending"
+        "Gewerkschaft"
       ],
       "sourceDate": "2025-10-23",
       "verdict": "true",
@@ -14272,8 +14243,7 @@
       "type": "article",
       "tags": [
         "Linksextremismus",
-        "Verfassungsschutz",
-        "more-research-needed"
+        "Verfassungsschutz"
       ],
       "sourceDate": "2026-01-09",
       "coSources": []
@@ -14287,8 +14257,7 @@
       "type": "article",
       "tags": [
         "Rechtsextremismus",
-        "Verfassungsschutz",
-        "more-research-needed"
+        "Verfassungsschutz"
       ],
       "sourceDate": "2026-01-09",
       "coSources": []
@@ -14764,8 +14733,7 @@
       "tags": [
         "LGBTQ",
         "USA",
-        "Heuchelei",
-        "research-done-review-pending"
+        "Heuchelei"
       ],
       "sourceDate": "2026-04-09",
       "verdict": "true",
@@ -14785,8 +14753,7 @@
         "Verbraucherpreise",
         "USA",
         "Wirtschaft",
-        "Konsum",
-        "research-done-review-pending"
+        "Konsum"
       ],
       "sourceDate": "2026-04-10",
       "verdict": "complex",

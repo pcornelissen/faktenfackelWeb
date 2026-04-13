@@ -8,7 +8,6 @@ tags:
   - AfD
   - Stuttgart
   - Stadtrat
-  - more-research-needed
 ---
 
 ## Über die Quelle
