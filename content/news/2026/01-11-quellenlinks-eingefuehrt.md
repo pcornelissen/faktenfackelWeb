@@ -1,6 +1,7 @@
 ---
 date: 2026-01-11
 title: "Ausführliche Quellenlinks eingeführt"
+teaser: "Quellenlinks sind als neues Feature online, beginnend mit dem Rentenkrise-Artikel und nach und nach auf weitere Faktenchecks ausgerollt."
 publishedOn: 2026-01-11
 ---
 

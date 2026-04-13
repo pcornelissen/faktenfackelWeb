@@ -50,6 +50,22 @@ const linkRedirects: Record<string, string> = {
   '/faktenchecks/gesellschaft/arbeitsmarkt/krise-im-rentensystem': '/lagerfeuer/perspektiven/2026-01-05.krise-im-rentensystem',
   '/faktenchecks/_vorlage': '/faktenchecks',
   '/faktenchecks/politik/parteien': '/faktenchecks',
+
+  // News: moved into year directories with MM-DD prefix
+  '/news/quellenlinks-eingefuehrt': '/news/2026/01-11-quellenlinks-eingefuehrt',
+  '/news/viele-neue-quellen': '/news/2026/01-25-viele-neue-quellen',
+  '/news/quellenbilder-copyright': '/news/2026/02-06-quellenbilder-copyright',
+  '/news/zitate-eingefuehrt': '/news/2026/02-13-zitate-eingefuehrt',
+  '/news/lagerfeuer-bereich': '/news/2026/03-01-lagerfeuer-bereich',
+  '/news/redesign': '/news/2026/03-02-redesign',
+  '/news/tags-bereich': '/news/2026/03-03-tags-bereich',
+  '/news/afd-gerichtsurteil-redesign': '/news/2026/03-06-afd-gerichtsurteil-redesign',
+  '/news/artikel-verschoben-rosenheim': '/news/2026/03-08-artikel-verschoben-rosenheim',
+  '/news/quellenlinks-importiert': '/news/2026/03-10-quellenlinks-importiert',
+  '/news/video-the-hangman': '/news/2026/03-14-video-the-hangman',
+  '/news/quellenlinks-vervollstaendigt': '/news/2026/03-26-quellenlinks-vervollstaendigt',
+  '/news/wahl-desinformation-klimaleugnung': '/news/2026/04-01-wahl-desinformation-klimaleugnung',
+  '/news/updates-april-2026': '/news/2026/04-03-updates-april-2026',
 }
 
 // ─── Prefix redirects (source-level, applies to all sub-paths) ─────────────

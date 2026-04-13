@@ -1,6 +1,7 @@
 ---
 date: 2026-03-08
 title: "Artikel verschoben und neuer Faktencheck"
+teaser: "Zwei Artikel sind von Faktencheck nach Lagerfeuer umgezogen, dazu ein neuer Faktencheck zum AfD-Vorfall in Rosenheim."
 publishedOn: 2026-03-08
 ---
 

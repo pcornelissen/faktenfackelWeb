@@ -1,6 +1,7 @@
 ---
 date: 2026-03-03
 title: "Tags-Bereich eingeführt"
+teaser: "Schlagworte verknüpfen Inhalte jetzt thematisch über einen eigenen Tags-Bereich."
 publishedOn: 2026-03-03
 ---
 

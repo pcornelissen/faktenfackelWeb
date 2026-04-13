@@ -1,6 +1,7 @@
 ---
 date: 2026-03-26
 title: "40 Quellenlinks vervollständigt"
+teaser: "Rund 40 importierte Quellenlinks haben jetzt ausführliche Beschreibungen und Bewertungen bekommen."
 publishedOn: 2026-03-26
 ---
 

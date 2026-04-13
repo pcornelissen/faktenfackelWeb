@@ -62,7 +62,7 @@ onMounted(() => {
         <ul>
           <li><NuxtLink to="/about/">Über Faktenfackel</NuxtLink></li>
           <li><NuxtLink to="/faq/">FAQ</NuxtLink></li>
-          <li><a href="/news/">Änderungslog</a></li>
+          <li><a href="/news/">Neuigkeiten</a></li>
           <li><NuxtLink to="/mehr/">Social Media</NuxtLink></li>
           <li><a href="https://mein.online-impressum.de/faktenfackel/">Social Hub</a></li>
           <li><a href="/feed.xml">RSS Feed</a></li>

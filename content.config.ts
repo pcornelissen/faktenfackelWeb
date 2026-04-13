@@ -81,6 +81,7 @@ export default defineContentConfig({
       schema: z.object({
         date: z.date(),
         title: z.string(),
+        teaser: z.string().optional(),
         publishedOn: z.date().or(z.null()),
       }),
     }),

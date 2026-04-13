@@ -1,6 +1,7 @@
 ---
 date: 2026-04-03
 title: "Neue Artikel, Faktenchecks und Quellenlinks"
+teaser: "Lagerfeuer-Artikel zu Xavier Naidoo, ergänzte AfD-Faktenchecks zu Klimaleugnung und Einstufung sowie mehrere neue Quellenlinks."
 publishedOn: 2026-04-03
 ---
 

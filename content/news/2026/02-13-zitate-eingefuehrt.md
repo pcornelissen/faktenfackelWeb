@@ -1,6 +1,7 @@
 ---
 date: 2026-02-13
 title: "Zitate eingeführt"
+teaser: "Zitate lassen sich jetzt zentral als eigene Einträge anlegen und in mehreren Faktenchecks referenzieren."
 publishedOn: 2026-02-13
 ---
 

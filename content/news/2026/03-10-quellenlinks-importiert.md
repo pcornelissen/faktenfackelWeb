@@ -1,6 +1,7 @@
 ---
 date: 2026-03-10
 title: "400+ Quellenlinks importiert"
+teaser: "In wenigen Tagen wurden über 400 Quellenlinks importiert und damit die Quellenbasis deutlich erweitert."
 publishedOn: 2026-03-10
 ---
 

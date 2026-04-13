@@ -1,6 +1,7 @@
 ---
 date: 2026-03-01
 title: "Lagerfeuer-Bereich eingeführt"
+teaser: "Der neue Lagerfeuer-Bereich ergänzt die Faktenchecks um längere Einordnungen, Analysen und Blog-Beiträge."
 publishedOn: 2026-03-01
 ---
 

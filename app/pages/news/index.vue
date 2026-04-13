@@ -1,17 +1,18 @@
 <script setup lang="ts">
 import Heading from '~/components/layout/Heading.vue'
 import { definePageData, nowIso } from '~/utils/contentUtils'
+import { dateString } from '~/utils/stringUtils'
 
 await definePageData({
-  title: 'Neueste Änderungen & Ergänzungen auf Faktenfackel',
-  pageHeading: 'Faktenfackel - Änderungen',
+  title: 'Neuigkeiten & Ergänzungen auf Faktenfackel',
+  pageHeading: 'Faktenfackel - Neuigkeiten',
   pageSubHeading: 'Was hat sich in letzter Zeit geändert?',
-  description: 'Übersicht der neuesten Änderungen und Ergänzungen auf Faktenfackel – neue Faktenchecks, Quellenlinks, Glossareinträge und Verbesserungen der Seite.',
+  description: 'Übersicht der Neuigkeiten und Ergänzungen auf Faktenfackel – neue Faktenchecks, Quellenlinks, Glossareinträge und Verbesserungen der Seite.',
 })
 
 const { data: allNews } = await useAsyncData('news-list', () =>
   queryCollection('news')
-    .select('title', 'path', 'date', 'publishedOn')
+    .select('title', 'path', 'date', 'publishedOn', 'teaser')
     .where('publishedOn', '<=', nowIso())
     .order('date', 'DESC')
     .all(),
@@ -26,7 +27,7 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => newsLis
   <div>
     <Heading
       as="h1"
-      title="Änderungen"
+      title="Neuigkeiten"
       icon="news-medien"
       icon-txt="News Icons erstellt von Freepik - Flaticon"
     />
@@ -34,24 +35,44 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => newsLis
       Welche Seiten oder Bereiche haben sich in letzter Zeit geändert?
     </p>
 
-    <ul
+    <nav
       v-if="pageItems.length"
-      class="news-list"
+      class="navigation"
     >
-      <li
-        v-for="item in pageItems"
-        :key="item.path"
-        class="news-item"
-      >
-        <span class="news-date">{{ dateString(item.date) }}</span>
-        <NuxtLink
-          :to="item.path"
-          class="news-link"
+      <ul class="flex flex-col">
+        <li
+          v-for="item in pageItems"
+          :key="item.path"
+          class="flex flex-row grow"
         >
-          {{ item.title }}
-        </NuxtLink>
-      </li>
-    </ul>
+          <UIcon
+            name="mdi:newspaper-variant-outline"
+            class="item-icon size-8"
+          />
+          <div class="flex flex-row grow gap-2">
+            <div class="flex-auto ml-2">
+              <NuxtLink
+                :to="item.path"
+                class="link"
+              >
+                {{ item.title }}
+              </NuxtLink>
+              <div
+                v-if="item.teaser"
+                class="text-sm description"
+              >
+                {{ item.teaser }}
+              </div>
+            </div>
+            <div class="meta-right">
+              <div class="lastChange">
+                {{ dateString(item.date) }}
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
 
     <p
       v-else
@@ -76,47 +97,46 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => newsLis
   margin-bottom: 1.5rem;
 }
 
-.news-list {
+li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  border: 1px solid var(--fackel-border);
-  border-top: 2px solid var(--flame);
-  border-radius: 4px;
-  overflow: hidden;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
 }
 
-.news-item {
+li:hover {
+  background-color: #FAF6F0;
+}
+
+.link {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.meta-right {
   display: flex;
-  gap: 12px;
-  align-items: flex-start;
-  padding: 9px 16px;
-  border-bottom: 1px solid var(--fackel-border);
-  background: white;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+  gap: 0.25rem;
 }
 
-.news-item:last-child {
-  border-bottom: none;
-}
-
-.news-date {
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.8rem;
-  color: var(--muted);
+.lastChange {
+  font-size: 0.6rem;
+  font-weight: 200;
   white-space: nowrap;
-  margin-top: 2px;
-  min-width: 72px;
 }
 
-.news-link {
-  font-size: 0.9rem;
-  color: var(--ink);
-  line-height: 1.4;
-  text-decoration: none;
+.description {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
 }
 
-.news-link:hover {
-  color: var(--ember);
+.item-icon {
+  flex-shrink: 0;
+  color: var(--flame);
+  opacity: 0.85;
 }
 
 .empty {

@@ -1,6 +1,7 @@
 ---
 date: 2026-02-06
 title: "Quellenbilder und Copyright-Informationen"
+teaser: "Alle Quellenbilder kommen jetzt von Faktenfackel selbst, mit ergänzten Copyright-Informationen."
 publishedOn: 2026-02-06
 ---
 

@@ -135,7 +135,7 @@ const totalCount = computed(
           <NuxtLink to="/news/"><UIcon
             name="mdi:arrow-right"
             class="size-3.5"
-          /> Vollständiges Änderungslog</NuxtLink>
+          /> Alle Neuigkeiten</NuxtLink>
         </div>
       </div>
     </div>

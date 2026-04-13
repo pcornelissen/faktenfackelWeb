@@ -1,6 +1,7 @@
 ---
 date: 2026-03-06
 title: "AfD-Gerichtsurteil und Optimierungen"
+teaser: "Das AfD-Gerichtsurteil zum Verbotsverfahren ist eingepflegt, dazu kleinere Verbesserungen am Redesign."
 publishedOn: 2026-03-06
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2026-01-25
 title: "Viele neue Quellen hinzugefügt"
+teaser: "Die Quellendatenbank wurde deutlich erweitert, damit Faktenchecks besser belegt und nachvollziehbar sind."
 publishedOn: 2026-01-25
 ---
 

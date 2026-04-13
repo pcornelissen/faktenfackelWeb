@@ -1,6 +1,7 @@
 ---
 date: 2026-03-14
 title: "Video zu 'The Hangman' veröffentlicht"
+teaser: "Das erste Faktenfackel-Video ist online und behandelt das Gedicht \"The Hangman\"."
 publishedOn: 2026-03-14
 ---
 
