@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-13T09:33:36.265Z",
+  "generatedAt": "2026-04-13T14:16:57.312Z",
   "stats": {
-    "sources": 284,
+    "sources": 293,
     "links": 589,
     "quotes": 25,
     "groups": 12,
@@ -118,6 +118,30 @@
       "hasImage": true
     },
     {
+      "path": "allgemein/pepsico",
+      "group": "allgemein",
+      "slug": "pepsico",
+      "name": "PepsiCo",
+      "description": "US-amerikanischer Lebensmittel- und Getränkekonzern (Pepsi, Doritos, Frito-Lay, Quaker)",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": true
+    },
+    {
+      "path": "allgemein/spoor",
+      "group": "allgemein",
+      "slug": "spoor",
+      "name": "Spoor",
+      "description": "KI-Unternehmen, spezialisiert auf automatisierte Beobachtung von Vogelbewegungen rund um Windkraftanlagen",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
+    },
+    {
       "path": "allgemein/tiktok",
       "group": "allgemein",
       "slug": "tiktok",
@@ -128,6 +152,18 @@
       ],
       "date": "2026-01-09",
       "hasImage": true
+    },
+    {
+      "path": "allgemein/vattenfall",
+      "group": "allgemein",
+      "slug": "vattenfall",
+      "name": "Vattenfall",
+      "description": "Schwedischer Energiekonzern, betreibt Windparks und andere Energieanlagen in Europa",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
     },
     {
       "path": "allgemein/we-are-watching-you",
@@ -1183,6 +1219,18 @@
       "hasImage": true
     },
     {
+      "path": "ngo/bwo",
+      "group": "ngo",
+      "slug": "bwo",
+      "name": "Bundesverband Windenergie Offshore (BWO)",
+      "description": "Branchenverband der deutschen Offshore-Windenergie-Unternehmen",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
+    },
+    {
       "path": "ngo/cato-institute",
       "group": "ngo",
       "slug": "cato-institute",
@@ -1211,6 +1259,18 @@
       ],
       "date": "2026-03-27",
       "hasImage": true
+    },
+    {
+      "path": "ngo/deutsche-wildtierstiftung",
+      "group": "ngo",
+      "slug": "deutsche-wildtierstiftung",
+      "name": "Deutsche Wildtierstiftung",
+      "description": "Naturschutzstiftung, setzt sich für den Schutz heimischer Wildtiere und ihrer Lebensräume ein",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
     },
     {
       "path": "ngo/frag-den-staat",
@@ -1423,9 +1483,9 @@
       "hasImage": true
     },
     {
-      "path": "personen/anna-connely",
+      "path": "personen/anna-connelly",
       "group": "personen",
-      "slug": "anna-connely",
+      "slug": "anna-connelly",
       "name": "Anna Connelly",
       "description": "Content Creatorin, Minneapolis",
       "tags": [
@@ -1433,8 +1493,11 @@
         "Social Media",
         "Facebook",
         "Instagram",
+        "USA",
         "MAGA",
-        "Autoritarismus"
+        "Autoritarismus",
+        "Satire",
+        "Politik"
       ],
       "date": "2026-01-11",
       "hasImage": true
@@ -2053,7 +2116,7 @@
         "Politik"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "personen/pullupspastapolitics",
@@ -2217,7 +2280,7 @@
         "Satire"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "personen/tod-maffin",
@@ -2488,6 +2551,18 @@
       ],
       "date": "2026-03-27",
       "hasImage": true
+    },
+    {
+      "path": "politiker/buddy-carter",
+      "group": "politiker",
+      "slug": "buddy-carter",
+      "name": "Buddy Carter",
+      "description": "Republikanischer US-Abgeordneter aus Georgia (bürgerlicher Name: Earl LeRoy Carter), MAGA-Flügel",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
     },
     {
       "path": "politiker/christopher-emden",
@@ -3025,6 +3100,18 @@
       "hasImage": false
     },
     {
+      "path": "politiker/mike-collins",
+      "group": "politiker",
+      "slug": "mike-collins",
+      "name": "Mike Collins",
+      "description": "Republikanischer US-Abgeordneter aus Georgia, MAGA-Flügel",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
+    },
+    {
       "path": "politiker/nancy-mace",
       "group": "politiker",
       "slug": "nancy-mace",
@@ -3173,6 +3260,21 @@
         "Deutschland"
       ],
       "date": "2026-03-09",
+      "hasImage": true
+    },
+    {
+      "path": "politiker/steffen-degler",
+      "group": "politiker",
+      "slug": "steffen-degler",
+      "name": "Steffen Degler",
+      "description": "AfD-Stadtrat in Stuttgart, stellvertretender Fraktionsvorsitzender, Jahrgang 1990",
+      "tags": [
+        "AfD",
+        "Stuttgart",
+        "Stadtrat",
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
       "hasImage": true
     },
     {
@@ -3741,6 +3843,18 @@
       ],
       "date": "2026-01-18",
       "hasImage": true
+    },
+    {
+      "path": "wissenschaft/bioconsult-sh",
+      "group": "wissenschaft",
+      "slug": "bioconsult-sh",
+      "name": "BioConsult SH",
+      "description": "Wissenschaftliches Planungs- und Beratungsbüro für Naturschutz und Umweltplanung, spezialisiert auf Meereskunde und Vogelkunde",
+      "tags": [
+        "more-research-needed"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
     },
     {
       "path": "wissenschaft/cemas",
@@ -4494,8 +4608,8 @@
       "coSources": []
     },
     {
-      "path": "personen/anna-connely/links/20260201.anna-connelly-american-dream-everyone",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260201.anna-connelly-american-dream-everyone",
+      "source": "personen/anna-connelly",
       "code": "anna-connelly-american-dream-everyone-2026",
       "title": "Anna Connelly: Der American Dream ist nicht für alle",
       "uri": "https://www.facebook.com/reel/774357665412717",
@@ -4511,24 +4625,25 @@
       "coSources": []
     },
     {
-      "path": "allgemein/facebook/links/20260410.anna-connelly-amish-vaccines-satire",
-      "source": "allgemein/facebook",
+      "path": "personen/anna-connelly/links/20260410.anna-connelly-amish-vaccines-satire",
+      "source": "personen/anna-connelly",
       "code": "anna-connelly-amish-vaccines-satire",
       "title": "Satirisches Reel über die Amish und das Argument gegen Impfungen",
       "uri": "https://www.facebook.com/reel/2018764769018628",
       "type": "reel",
       "tags": [
-        "more-research-needed",
-        "USA",
         "Impfung",
-        "Satire"
+        "USA",
+        "Satire",
+        "Impfskepsis"
       ],
       "sourceDate": "2026-04-10",
+      "verdict": "misleading",
       "coSources": []
     },
     {
-      "path": "personen/anna-connely/links/20251016.anna-connelly-hatch-act",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20251016.anna-connelly-hatch-act",
+      "source": "personen/anna-connelly",
       "code": "anna-connelly-hatch-act",
       "title": "Was ist der Hatch Act – und warum verletzt die Trump-Regierung ihn?",
       "uri": "https://www.facebook.com/reel/1115701037382493",
@@ -4545,8 +4660,8 @@
       ]
     },
     {
-      "path": "personen/anna-connely/links/20260107.anna-connelly-ice-murdering-us-citizens-part2",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260107.anna-connelly-ice-murdering-us-citizens-part2",
+      "source": "personen/anna-connelly",
       "code": "anna-connelly-ice-murdering-us-citizens-part2",
       "title": "Teil II: ICE tötet US-Bürgerinnen – Glaubt ihrer Propagandamaschine nicht",
       "uri": "https://www.facebook.com/reel/1394096175488612",
@@ -4565,8 +4680,8 @@
       ]
     },
     {
-      "path": "personen/anna-connely/links/20251015.anna-connely-abtreibungsregeln-toeten",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20251015.anna-connely-abtreibungsregeln-toeten",
+      "source": "personen/anna-connelly",
       "code": "anna-connely-abtreibungsregeln-toeten",
       "title": "Anna Connelly: Abtreibungsverbote töten Frauen – wann darf sie die Notaufnahme verlassen?",
       "uri": "https://www.facebook.com/reel/1696024447712635",
@@ -4583,8 +4698,8 @@
       "coSources": []
     },
     {
-      "path": "personen/anna-connely/links/20260119.anna-connely-maga-uncle",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260119.anna-connely-maga-uncle",
+      "source": "personen/anna-connelly",
       "code": "anna-connely-maga-uncle-2026",
       "title": "An deinen MAGA-Onkel: Ignorant oder lügend?",
       "uri": "https://www.facebook.com/reel/1200681925582960",
@@ -4601,8 +4716,8 @@
       ]
     },
     {
-      "path": "personen/anna-connely/links/20260202.anna-connely-partyswitch",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260202.anna-connely-partyswitch",
+      "source": "personen/anna-connelly",
       "code": "anna-connely-partyswitch-2026",
       "title": "Parteiwechsel und Rassismus in der US-Politik",
       "uri": "https://www.facebook.com/reel/9977354962388348",
@@ -4621,8 +4736,8 @@
       "coSources": []
     },
     {
-      "path": "personen/anna-connely/links/20251031.anna-connely-trump-faschismus",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20251031.anna-connely-trump-faschismus",
+      "source": "personen/anna-connelly",
       "code": "anna-connely-trump-faschismus",
       "title": "Anna Connelly: Ist Trump ein Faschist? Vergleich mit historischem Faschismus",
       "uri": "https://www.facebook.com/reel/1164927768977659",
@@ -5812,8 +5927,8 @@
       ]
     },
     {
-      "path": "personen/anna-connely/links/20260201.immigration-myths",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260201.immigration-myths",
+      "source": "personen/anna-connelly",
       "code": "connelly-immigration-myths-2026",
       "title": "Anna Connelly korrigiert MAGA-Mythen über Einwanderer in den USA",
       "uri": "https://www.facebook.com/reel/1572440014091369",
@@ -5829,8 +5944,8 @@
       "coSources": []
     },
     {
-      "path": "personen/anna-connely/links/20260201.maga-uncle-prove-me-wrong",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260201.maga-uncle-prove-me-wrong",
+      "source": "personen/anna-connelly",
       "code": "connelly-maga-uncle-prove-wrong-2026",
       "title": "Anna Connelly: Wenn dein MAGA-Onkel sagt 'Beweise, dass ich falsch liege'",
       "uri": "https://www.facebook.com/reel/1387573052777745",
@@ -5849,8 +5964,8 @@
       ]
     },
     {
-      "path": "personen/anna-connely/links/20260124.misspeaking-as-strategy",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260124.misspeaking-as-strategy",
+      "source": "personen/anna-connelly",
       "code": "connelly-misspeaking-as-strategy-2025",
       "title": "Anna Connely, Misspeaking as strategy of authoritarians",
       "uri": "https://www.facebook.com/reel/828003633463904/",
@@ -5865,8 +5980,8 @@
       "coSources": []
     },
     {
-      "path": "personen/anna-connely/links/20260201.truth-about-viral-ice-video",
-      "source": "personen/anna-connely",
+      "path": "personen/anna-connelly/links/20260201.truth-about-viral-ice-video",
+      "source": "personen/anna-connelly",
       "code": "connelly-truth-viral-ice-video-2026",
       "title": "Anna Connelly: Die Wahrheit über das virale ICE-Video",
       "uri": "https://www.facebook.com/reel/1214624684209117",
@@ -6931,13 +7046,20 @@
       "uri": "https://de.euronews.com/2026/04/11/vogel-sterben-windrad-erneuerbare-energien",
       "type": "article",
       "tags": [
-        "more-research-needed",
         "Windkraft",
         "Artenschutz",
-        "Erneuerbare Energien"
+        "Erneuerbare Energien",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-04-11",
-      "coSources": []
+      "verdict": "complex",
+      "coSources": [
+        "vattenfall",
+        "spoor",
+        "bwo",
+        "bioconsult-sh",
+        "deutsche-wildtierstiftung"
+      ]
     },
     {
       "path": "staatlich/europarl/links/20260114.migrationsgründe",
@@ -6969,6 +7091,25 @@
       "coSources": [
         "reinier-van-lanschot",
         "euparl"
+      ]
+    },
+    {
+      "path": "allgemein/facebook/links/20260109.afd-wähler-sind-nicht-alle-nazis",
+      "source": "allgemein/facebook",
+      "code": "facebook-afd-stadtrat-degler-greift-buerger-an",
+      "title": "AfD-Stadtrat Degler greift Bürger bei Bürgerversammlung an",
+      "uri": "https://www.facebook.com/groups/825168419166658/permalink/1425380939145400/?mibextid=wwXIfr%0A&rdid=n8ZkZ1DC1ZRSQP70",
+      "type": "facebook",
+      "tags": [
+        "AfD",
+        "Rechte Gewalt",
+        "Facebook",
+        "research-done-review-pending"
+      ],
+      "sourceDate": "2025-12-17",
+      "verdict": "true",
+      "coSources": [
+        "steffen-degler"
       ]
     },
     {
@@ -7701,13 +7842,17 @@
       "uri": "https://www.facebook.com/reel/26093974190245032",
       "type": "reel",
       "tags": [
-        "more-research-needed",
         "Gewalt gegen Frauen",
         "BKA",
-        "Statistik"
+        "Statistik",
+        "Dunkelfeldstudie",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-04-02",
-      "coSources": []
+      "verdict": "complex",
+      "coSources": [
+        "bka"
+      ]
     },
     {
       "path": "allgemein/facebook/links/20251215.foodwatch-eu-ernaehrungssicherheit",
@@ -8220,25 +8365,6 @@
       ]
     },
     {
-      "path": "allgemein/facebook/links/20260109.afd-wähler-sind-nicht-alle-nazis",
-      "source": "allgemein/facebook",
-      "code": "gdafn-afd-stadtrat-greift-buerger-an",
-      "title": "AfD Stadtrat greift Bürger an",
-      "uri": "https://www.facebook.com/groups/825168419166658/permalink/1425380939145400/?mibextid=wwXIfr%0A&rdid=n8ZkZ1DC1ZRSQP70",
-      "type": "facebook",
-      "tags": [
-        "AfD",
-        "Rechte Gewalt",
-        "Facebook",
-        "more-research-needed"
-      ],
-      "sourceDate": "2025-12-17",
-      "verdict": "true",
-      "coSources": [
-        "steffen-degler"
-      ]
-    },
-    {
       "path": "allgemein/facebook/links/20251226.afd-missbraucht-rettungsgasse-siegen",
       "source": "allgemein/facebook",
       "code": "gegen-die-afd-gießen-auto-rettungsgasse",
@@ -8349,16 +8475,17 @@
     {
       "path": "staatlich/gesetze-im-internet/links/20260115.asylg-artikel-61",
       "source": "staatlich/gesetze-im-internet",
-      "code": "gii-asylg-61",
-      "title": "Asylgesetz §61",
+      "code": "gii-asylg-61-erwerbstaetigkeit",
+      "title": "Asylgesetz §61: Erwerbstätigkeit von Asylbewerbern",
       "uri": "https://www.gesetze-im-internet.de/asylvfg_1992/__61.html",
       "type": "article",
       "tags": [
         "Migration",
+        "Asylgesetz",
+        "Erwerbstätigkeit",
         "Justiz",
         "Gesetz",
-        "Asylgesetz",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-01-15",
       "coSources": [
@@ -8368,15 +8495,17 @@
     {
       "path": "staatlich/gesetze-im-internet/links/20260118.gg-artikel-19",
       "source": "staatlich/gesetze-im-internet",
-      "code": "gii-gg-19",
-      "title": "Grundgesetz §19",
+      "code": "gii-gg-art-19-grundrechtseinschraenkung",
+      "title": "Grundgesetz Artikel 19: Einschränkung von Grundrechten und Rechtsweg",
       "uri": "https://www.gesetze-im-internet.de/gg/art_19.html",
       "type": "article",
       "tags": [
         "Grundgesetz",
+        "Grundrechte",
+        "Rechtsweg",
         "Justiz",
         "Gesetz",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -8384,15 +8513,17 @@
     {
       "path": "staatlich/gesetze-im-internet/links/20260118.gg-artikel-21",
       "source": "staatlich/gesetze-im-internet",
-      "code": "gii-gg-21",
-      "title": "Grundgesetz §21",
+      "code": "gii-gg-art-21-parteien-parteiverbot",
+      "title": "Grundgesetz Artikel 21: Parteien und Parteiverbot",
       "uri": "https://www.gesetze-im-internet.de/gg/art_21.html",
       "type": "article",
       "tags": [
         "Grundgesetz",
+        "Parteienrecht",
+        "Parteiverbot",
         "Justiz",
         "Gesetz",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -8400,15 +8531,17 @@
     {
       "path": "staatlich/gesetze-im-internet/links/20260118.gg-artikel-5",
       "source": "staatlich/gesetze-im-internet",
-      "code": "gii-gg-5",
-      "title": "Grundgesetz §5",
+      "code": "gii-gg-art-5-meinungsfreiheit",
+      "title": "Grundgesetz Artikel 5: Meinungs-, Presse- und Kunstfreiheit",
       "uri": "https://www.gesetze-im-internet.de/gg/art_5.html",
       "type": "article",
       "tags": [
         "Grundgesetz",
+        "Meinungsfreiheit",
+        "Pressefreiheit",
         "Justiz",
         "Gesetz",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -8416,15 +8549,16 @@
     {
       "path": "staatlich/gesetze-im-internet/links/20260118.gg-artikel-8",
       "source": "staatlich/gesetze-im-internet",
-      "code": "gii-gg-8",
-      "title": "Grundgesetz §5",
+      "code": "gii-gg-art-8-versammlungsfreiheit",
+      "title": "Grundgesetz Artikel 8: Versammlungsfreiheit",
       "uri": "https://www.gesetze-im-internet.de/gg/art_8.html",
       "type": "article",
       "tags": [
         "Grundgesetz",
+        "Versammlungsfreiheit",
         "Justiz",
         "Gesetz",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-01-19",
       "coSources": []
@@ -10489,14 +10623,15 @@
       "path": "personen/marcant/links/20251227.marcant-beschuldigt",
       "source": "personen/marcant",
       "code": "marcant-demo-falsche-beschuldigung-2025-12",
-      "title": "Marcant wird von Demoteinhemer fälschlicherweise beschuldigt und aus der Demo gezogen",
-      "uri": "https://www.facebook.com/reel/1501632621102463",
+      "title": "Marcant schildert, er sei von Demoteilnehmer fälschlicherweise beschuldigt und aus der Demo gezogen worden",
+      "uri": "https://www.facebook.com/reel/3422585697907696",
       "type": "facebook",
       "tags": [
         "AfD",
         "Demo",
         "Polizei",
-        "Pressefreiheit"
+        "Pressefreiheit",
+        "research-done-review-pending"
       ],
       "sourceDate": "2025-12-27",
       "coSources": []
@@ -10963,16 +11098,18 @@
     {
       "path": "personen/mercedes-chandler/links/20251008.mercedes-chandler-right-obsessed-trans",
       "source": "personen/mercedes-chandler",
-      "code": "mercedes-chandler-right-obsessed-trans",
-      "title": "Warum die Rechte besessen von trans Menschen ist",
+      "code": "mercedes-chandler-prolife-voter-regret",
+      "title": "Abtreibungsverbote gefährden das Leben von Schwangeren - Pro-Life-Wählerin erzählt",
       "uri": "https://www.facebook.com/reel/1316372913834641",
       "type": "reel",
       "tags": [
-        "more-research-needed",
-        "Trans",
+        "Abtreibung",
         "USA",
         "MAGA",
-        "Psychologie"
+        "Selbstbetroffenheit",
+        "Republikaner",
+        "Frauenrechte",
+        "research-done-review-pending"
       ],
       "sourceDate": "2025-10-08",
       "coSources": []
@@ -11349,17 +11486,23 @@
       "path": "personen/mutmacher/links/20260331.mutmacher-bauernproteste-parteiliche-einfaerbung",
       "source": "personen/mutmacher",
       "code": "mutmacher-bauernproteste-parteiliche-einfaerbung",
-      "title": "Bauernproteste waren parteilich eingefärbt, die Lobby schweigt",
+      "title": "Bauernproteste waren CDU/CSU-färbig, der Bauernverband positioniert sich nicht",
       "uri": "https://www.facebook.com/reel/822787980870243",
       "type": "reel",
       "tags": [
-        "more-research-needed",
         "Bauernproteste",
         "Subventionen",
-        "AfD"
+        "CDU",
+        "CSU",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-03-31",
-      "coSources": []
+      "verdict": "complex",
+      "coSources": [
+        "cdu",
+        "csu",
+        "dbv"
+      ]
     },
     {
       "path": "personen/mutmacher/links/20251223.mutmacher-bossard-fachkraeftemangel-weidel",
@@ -11653,18 +11796,24 @@
     {
       "path": "allgemein/no-afd/links/20260412.no-afd-habeck-hatte-recht-2024-prognose",
       "source": "allgemein/no-afd",
-      "code": "no-afd-habeck-hatte-recht-2024-prognose",
-      "title": "Habecks Warnung von 2024 hat sich bewahrheitet",
+      "code": "no-afd-habeck-wirtschaft-warnung-2024",
+      "title": "Habeck beim Zukunft-Handwerk-Kongress: Atomkraft rechnet sich nicht",
       "uri": "https://www.facebook.com/reel/928680426807759",
       "type": "reel",
       "tags": [
-        "more-research-needed",
+        "Atomkraft",
         "Robert Habeck",
-        "AfD",
-        "Demokratie"
+        "Markus Söder",
+        "Energiepolitik",
+        "EDF",
+        "Hinkley Point C",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-04-12",
-      "coSources": []
+      "verdict": "true",
+      "coSources": [
+        "robert-habeck"
+      ]
     },
     {
       "path": "allgemein/no-afd/links/20260129.no-afd-kriminelle-clans",
@@ -11850,12 +11999,13 @@
       "uri": "https://www.facebook.com/reel/1664588091227575",
       "type": "reel",
       "tags": [
-        "more-research-needed",
         "Bürgergeld",
         "Sozialstaat",
-        "Wirtschaft"
+        "Wirtschaft",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-03-30",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -11978,12 +12128,14 @@
       "uri": "https://www.facebook.com/reel/4426421017627535",
       "type": "reel",
       "tags": [
-        "more-research-needed",
         "USA",
         "SAVE Act",
-        "Wahlrecht"
+        "Wahlrecht",
+        "Wahlrechtseinschränkung",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-03-09",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -12376,10 +12528,11 @@
       "uri": "https://www.facebook.com/reel/1429747455318948",
       "type": "reel",
       "tags": [
-        "more-research-needed",
         "AfD",
         "Ostern",
-        "Satire"
+        "Satire",
+        "Desinformation",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-03-03",
       "coSources": []
@@ -12625,9 +12778,10 @@
         "Wirtschaft",
         "Unternehmenseinfluss",
         "Gewerkschaft",
-        "more-research-needed"
+        "research-done-review-pending"
       ],
       "sourceDate": "2025-10-23",
+      "verdict": "true",
       "coSources": []
     },
     {
@@ -13448,18 +13602,18 @@
     {
       "path": "allgemein/facebook/links/20260201.tenkhoff-lena-korte-afd-23-millionen",
       "source": "allgemein/facebook",
-      "code": "tenkhoff-lena-korte-afd-23-millionen",
-      "title": "Reaktion auf Lena Kortés AfD-Idee, 23 Millionen Menschen aus Deutschland zu entfernen",
+      "code": "tenkhoff-reaktion-kotre-22-millionen-remigration",
+      "title": "Reaktion auf Lena Kotrés Idee, bis zu 22 Millionen Menschen aus Deutschland zu entfernen",
       "uri": "https://www.facebook.com/reel/1183481233867656",
       "type": "reel",
       "tags": [
-        "more-research-needed",
         "AfD",
         "Remigration"
       ],
       "sourceDate": "2026-02-01",
+      "verdict": "true",
       "coSources": [
-        "lena-korte"
+        "lena-kotre"
       ]
     },
     {
@@ -13954,7 +14108,9 @@
         "Sachsen"
       ],
       "sourceDate": "2026-01-27",
-      "coSources": []
+      "coSources": [
+        "pixel-roulette"
+      ]
     },
     {
       "path": "wissenschaft/forrest-valkai/links/20260201.valkai-evolution-creationism-basics",
@@ -14606,13 +14762,17 @@
       "uri": "https://www.facebook.com/reel/1273445754853887",
       "type": "reel",
       "tags": [
-        "more-research-needed",
         "LGBTQ",
         "USA",
-        "Heuchelei"
+        "Heuchelei",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-04-09",
-      "coSources": []
+      "verdict": "true",
+      "coSources": [
+        "buddy-carter",
+        "mike-collins"
+      ]
     },
     {
       "path": "personen/the-woke-ginger/links/20260410.woke-ginger-pepsi-doritos-price-gouging",
@@ -14622,13 +14782,17 @@
       "uri": "https://www.facebook.com/reel/819660413971529",
       "type": "reel",
       "tags": [
-        "more-research-needed",
+        "Verbraucherpreise",
         "USA",
         "Wirtschaft",
-        "Konsum"
+        "Konsum",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-04-10",
-      "coSources": []
+      "verdict": "complex",
+      "coSources": [
+        "pepsico"
+      ]
     },
     {
       "path": "allgemein/facebook/links/20260201.women-in-america-mediocre-man",

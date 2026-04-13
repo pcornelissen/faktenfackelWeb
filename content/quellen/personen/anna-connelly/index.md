@@ -2,6 +2,7 @@
 date: 2026-01-11
 publishedOn: 2026-01-25
 name: Anna Connelly
+image: profile.webp
 description: Content Creatorin, Minneapolis
 imageAuthor: Instagram, annaconnellyiscool
 tags:
@@ -9,8 +10,11 @@ tags:
   - Social Media
   - Facebook
   - Instagram
+  - USA
   - MAGA
   - Autoritarismus
+  - Satire
+  - Politik
 ---
 
 ## Über die Quelle
@@ -28,7 +32,7 @@ Aktuell hat sie viel Inhalt zum Thema MAGA oder Autoritarismus.
 
 ## Faktenfackel Bewertung
 
-Sie hat viele interessante Videos, in denen sie die irsinnigkeit der aktuellen Situation in Amerika und der Welt gut erklärt. Sie arbeitet mit sich selbst in verschiedenen Rollen und schneidet die Videos zusammen.
+Sie hat viele interessante Videos, in denen sie die Irsinnigkeit der aktuellen Situation in Amerika und der Welt gut erklärt. Sie arbeitet mit sich selbst in verschiedenen Rollen und schneidet die Videos zusammen.
 
 ### Fazit
 

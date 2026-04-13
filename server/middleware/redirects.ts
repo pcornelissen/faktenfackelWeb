@@ -54,6 +54,19 @@ const linkRedirects: Record<string, string> = {
   // Source links: moved from facebook catch-all to dedicated source dirs
   '/quellen/allgemein/facebook/links/20260103.trump-captured-presidents-plan': '/quellen/personen/politico-joe/links/20260103.politico-joe-trump-captured-presidents-plan',
 
+  // Source links: moved from anna-connely (typo) to anna-connelly (correct)
+  '/quellen/personen/anna-connely/links/20251015.anna-connely-abtreibungsregeln-toeten': '/quellen/personen/anna-connelly/links/20251015.anna-connely-abtreibungsregeln-toeten',
+  '/quellen/personen/anna-connely/links/20251016.anna-connelly-hatch-act': '/quellen/personen/anna-connelly/links/20251016.anna-connelly-hatch-act',
+  '/quellen/personen/anna-connely/links/20251031.anna-connely-trump-faschismus': '/quellen/personen/anna-connelly/links/20251031.anna-connely-trump-faschismus',
+  '/quellen/personen/anna-connely/links/20260107.anna-connelly-ice-murdering-us-citizens-part2': '/quellen/personen/anna-connelly/links/20260107.anna-connelly-ice-murdering-us-citizens-part2',
+  '/quellen/personen/anna-connely/links/20260119.anna-connely-maga-uncle': '/quellen/personen/anna-connelly/links/20260119.anna-connely-maga-uncle',
+  '/quellen/personen/anna-connely/links/20260124.misspeaking-as-strategy': '/quellen/personen/anna-connelly/links/20260124.misspeaking-as-strategy',
+  '/quellen/personen/anna-connely/links/20260201.anna-connelly-american-dream-everyone': '/quellen/personen/anna-connelly/links/20260201.anna-connelly-american-dream-everyone',
+  '/quellen/personen/anna-connely/links/20260201.immigration-myths': '/quellen/personen/anna-connelly/links/20260201.immigration-myths',
+  '/quellen/personen/anna-connely/links/20260201.maga-uncle-prove-me-wrong': '/quellen/personen/anna-connelly/links/20260201.maga-uncle-prove-me-wrong',
+  '/quellen/personen/anna-connely/links/20260201.truth-about-viral-ice-video': '/quellen/personen/anna-connelly/links/20260201.truth-about-viral-ice-video',
+  '/quellen/personen/anna-connely/links/20260202.anna-connely-partyswitch': '/quellen/personen/anna-connelly/links/20260202.anna-connely-partyswitch',
+
   // News: moved into year directories with MM-DD prefix
   '/news/quellenlinks-eingefuehrt': '/news/2026/01-11-quellenlinks-eingefuehrt',
   '/news/viele-neue-quellen': '/news/2026/01-25-viele-neue-quellen',
@@ -105,6 +118,9 @@ const prefixRedirects: Record<string, string> = {
   '/quellen/wissenschaft/gerhard-b\u00e4cker': '/quellen/wissenschaft/gerhard-backer',
   '/quellen/allgemein/gegen-die-alternative-f\u00fcr-deutschland': '/quellen/allgemein/gegen-die-alternative-fur-deutschland',
 
+  // Typo corrections (wrong slug, renamed to correct spelling)
+  '/quellen/personen/anna-connely': '/quellen/personen/anna-connelly',
+
   // Dissolved sources (all content moved elsewhere)
   '/quellen/allgemein/gegen-die-alternative-fur-deutschland': '/quellen/allgemein',
   '/quellen/allgemein/generation-deutschland': '/quellen/allgemein/facebook',
@@ -124,7 +140,6 @@ const prefixRedirects: Record<string, string> = {
   '/quellen/personen/liam-layton': '/quellen/allgemein/facebook',
   '/quellen/personen/paige-white': '/quellen/allgemein/facebook',
   '/quellen/personen/pernille-haaland': '/quellen/allgemein/facebook',
-  '/quellen/personen/politico-joe': '/quellen/allgemein/facebook',
   '/quellen/personen/sebastian-bohrn-mena': '/quellen/allgemein/facebook',
   '/quellen/personen/simon-rock': '/quellen/allgemein/facebook',
   '/quellen/personen/wonach-wir-suchen': '/quellen/allgemein/facebook',

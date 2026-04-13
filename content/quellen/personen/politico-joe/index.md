@@ -2,6 +2,7 @@
 name: Politico Joe
 date: 2026-04-13
 publishedOn: null
+image: profile.webp
 tags:
   - more-research-needed
   - USA
