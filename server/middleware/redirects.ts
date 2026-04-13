@@ -51,6 +51,9 @@ const linkRedirects: Record<string, string> = {
   '/faktenchecks/_vorlage': '/faktenchecks',
   '/faktenchecks/politik/parteien': '/faktenchecks',
 
+  // Source links: moved from facebook catch-all to dedicated source dirs
+  '/quellen/allgemein/facebook/links/20260103.trump-captured-presidents-plan': '/quellen/personen/politico-joe/links/20260103.politico-joe-trump-captured-presidents-plan',
+
   // News: moved into year directories with MM-DD prefix
   '/news/quellenlinks-eingefuehrt': '/news/2026/01-11-quellenlinks-eingefuehrt',
   '/news/viele-neue-quellen': '/news/2026/01-25-viele-neue-quellen',

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-13T06:31:35.179Z",
+  "generatedAt": "2026-04-13T09:33:36.265Z",
   "stats": {
-    "sources": 282,
-    "links": 577,
+    "sources": 284,
+    "links": 589,
     "quotes": 25,
     "groups": 12,
-    "codes": 594
+    "codes": 606
   },
   "sources": [
     {
@@ -2043,6 +2043,19 @@
       "hasImage": true
     },
     {
+      "path": "personen/politico-joe",
+      "group": "personen",
+      "slug": "politico-joe",
+      "name": "Politico Joe",
+      "tags": [
+        "more-research-needed",
+        "USA",
+        "Politik"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
+    },
+    {
       "path": "personen/pullupspastapolitics",
       "group": "personen",
       "slug": "pullupspastapolitics",
@@ -2191,6 +2204,20 @@
       ],
       "date": "2026-03-27",
       "hasImage": true
+    },
+    {
+      "path": "personen/the-woke-ginger",
+      "group": "personen",
+      "slug": "the-woke-ginger",
+      "name": "The Woke Ginger",
+      "tags": [
+        "more-research-needed",
+        "USA",
+        "LGBTQ",
+        "Satire"
+      ],
+      "date": "2026-04-13",
+      "hasImage": false
     },
     {
       "path": "personen/tod-maffin",
@@ -4481,6 +4508,22 @@
         "Kommentar"
       ],
       "sourceDate": "2026-02-01",
+      "coSources": []
+    },
+    {
+      "path": "allgemein/facebook/links/20260410.anna-connelly-amish-vaccines-satire",
+      "source": "allgemein/facebook",
+      "code": "anna-connelly-amish-vaccines-satire",
+      "title": "Satirisches Reel über die Amish und das Argument gegen Impfungen",
+      "uri": "https://www.facebook.com/reel/2018764769018628",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "USA",
+        "Impfung",
+        "Satire"
+      ],
+      "sourceDate": "2026-04-10",
       "coSources": []
     },
     {
@@ -6881,6 +6924,22 @@
       ]
     },
     {
+      "path": "medien/euronews/links/20260411.euronews-windraeder-voegel-zwei-studien",
+      "source": "medien/euronews",
+      "code": "euronews-windraeder-voegel-zwei-studien",
+      "title": "Zwei Studien: Vögel weichen Windkraftanlagen fast vollständig aus",
+      "uri": "https://de.euronews.com/2026/04/11/vogel-sterben-windrad-erneuerbare-energien",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Windkraft",
+        "Artenschutz",
+        "Erneuerbare Energien"
+      ],
+      "sourceDate": "2026-04-11",
+      "coSources": []
+    },
+    {
       "path": "staatlich/europarl/links/20260114.migrationsgründe",
       "source": "staatlich/europarl",
       "code": "europarl-migrationsursachen",
@@ -7633,6 +7692,22 @@
       "coSources": [
         "erik-türk"
       ]
+    },
+    {
+      "path": "allgemein/facebook/links/20260402.folgsschwaermer-vergewaltigungen-bka-studie",
+      "source": "allgemein/facebook",
+      "code": "folgsschwaermer-vergewaltigungen-bka-studie",
+      "title": "Rund 290 Vergewaltigungen pro Tag in Deutschland laut BKA-Studie 2026",
+      "uri": "https://www.facebook.com/reel/26093974190245032",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "Gewalt gegen Frauen",
+        "BKA",
+        "Statistik"
+      ],
+      "sourceDate": "2026-04-02",
+      "coSources": []
     },
     {
       "path": "allgemein/facebook/links/20251215.foodwatch-eu-ernaehrungssicherheit",
@@ -10886,6 +10961,23 @@
       ]
     },
     {
+      "path": "personen/mercedes-chandler/links/20251008.mercedes-chandler-right-obsessed-trans",
+      "source": "personen/mercedes-chandler",
+      "code": "mercedes-chandler-right-obsessed-trans",
+      "title": "Warum die Rechte besessen von trans Menschen ist",
+      "uri": "https://www.facebook.com/reel/1316372913834641",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "Trans",
+        "USA",
+        "MAGA",
+        "Psychologie"
+      ],
+      "sourceDate": "2025-10-08",
+      "coSources": []
+    },
+    {
       "path": "personen/mercedes-chandler/links/20251212.mercedes-chandler-trump-waehler-fafo",
       "source": "personen/mercedes-chandler",
       "code": "mercedes-chandler-trump-waehler-fafo",
@@ -11254,6 +11346,22 @@
       "coSources": []
     },
     {
+      "path": "personen/mutmacher/links/20260331.mutmacher-bauernproteste-parteiliche-einfaerbung",
+      "source": "personen/mutmacher",
+      "code": "mutmacher-bauernproteste-parteiliche-einfaerbung",
+      "title": "Bauernproteste waren parteilich eingefärbt, die Lobby schweigt",
+      "uri": "https://www.facebook.com/reel/822787980870243",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "Bauernproteste",
+        "Subventionen",
+        "AfD"
+      ],
+      "sourceDate": "2026-03-31",
+      "coSources": []
+    },
+    {
       "path": "personen/mutmacher/links/20251223.mutmacher-bossard-fachkraeftemangel-weidel",
       "source": "personen/mutmacher",
       "code": "mutmacher-bossard-fachkraeftemangel-weidel",
@@ -11543,6 +11651,22 @@
       "coSources": []
     },
     {
+      "path": "allgemein/no-afd/links/20260412.no-afd-habeck-hatte-recht-2024-prognose",
+      "source": "allgemein/no-afd",
+      "code": "no-afd-habeck-hatte-recht-2024-prognose",
+      "title": "Habecks Warnung von 2024 hat sich bewahrheitet",
+      "uri": "https://www.facebook.com/reel/928680426807759",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "Robert Habeck",
+        "AfD",
+        "Demokratie"
+      ],
+      "sourceDate": "2026-04-12",
+      "coSources": []
+    },
+    {
       "path": "allgemein/no-afd/links/20260129.no-afd-kriminelle-clans",
       "source": "allgemein/no-afd",
       "code": "no-afd-kriminelle-clans-2026",
@@ -11719,6 +11843,22 @@
       "coSources": []
     },
     {
+      "path": "allgemein/omas-gegen-rechts/links/20260330.omas-wendland-buergergeld-kosten-explodieren-nicht",
+      "source": "allgemein/omas-gegen-rechts",
+      "code": "omas-wendland-buergergeld-kosten-explodieren-nicht",
+      "title": "Bürgergeld-Kosten explodieren nicht, gemessen an Haushalt und Wirtschaftsleistung",
+      "uri": "https://www.facebook.com/reel/1664588091227575",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "Bürgergeld",
+        "Sozialstaat",
+        "Wirtschaft"
+      ],
+      "sourceDate": "2026-03-30",
+      "coSources": []
+    },
+    {
       "path": "allgemein/facebook/links/20260201.osorio-sofia-union-erklaert-politik",
       "source": "allgemein/facebook",
       "code": "osorio-sofia-union-erklaert-politik-2026",
@@ -11831,8 +11971,24 @@
       ]
     },
     {
-      "path": "allgemein/facebook/links/20260103.trump-captured-presidents-plan",
-      "source": "allgemein/facebook",
+      "path": "personen/politico-joe/links/20260309.politico-joe-save-act-maga",
+      "source": "personen/politico-joe",
+      "code": "politico-joe-save-act-maga",
+      "title": "MAGA hat mich vom SAVE Act überzeugt",
+      "uri": "https://www.facebook.com/reel/4426421017627535",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "USA",
+        "SAVE Act",
+        "Wahlrecht"
+      ],
+      "sourceDate": "2026-03-09",
+      "coSources": []
+    },
+    {
+      "path": "personen/politico-joe/links/20260103.politico-joe-trump-captured-presidents-plan",
+      "source": "personen/politico-joe",
       "code": "politico-joe-trump-captured-presidents-plan",
       "title": "Trump hat einen ausländischen Präsidenten festgenommen, was ist der Plan?",
       "uri": "https://www.facebook.com/reel/1471082354694370",
@@ -12211,6 +12367,22 @@
       "coSources": [
         "donald-trump"
       ]
+    },
+    {
+      "path": "allgemein/facebook/links/20260303.rumgetrieben-ostern-sitzhasenfest-afd",
+      "source": "allgemein/facebook",
+      "code": "rumgetrieben-ostern-sitzhasenfest-afd",
+      "title": "Reaktion auf die AfD-Erzählung vom \\\"Sitzhasenfest\\\"",
+      "uri": "https://www.facebook.com/reel/1429747455318948",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "AfD",
+        "Ostern",
+        "Satire"
+      ],
+      "sourceDate": "2026-03-03",
+      "coSources": []
     },
     {
       "path": "personen/rumgetrieben/links/20251023.rumgetrieben-vermoegenssteuer",
@@ -13271,6 +13443,23 @@
       "sourceDate": "2026-03-02",
       "coSources": [
         "andreas-winhart"
+      ]
+    },
+    {
+      "path": "allgemein/facebook/links/20260201.tenkhoff-lena-korte-afd-23-millionen",
+      "source": "allgemein/facebook",
+      "code": "tenkhoff-lena-korte-afd-23-millionen",
+      "title": "Reaktion auf Lena Kortés AfD-Idee, 23 Millionen Menschen aus Deutschland zu entfernen",
+      "uri": "https://www.facebook.com/reel/1183481233867656",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "AfD",
+        "Remigration"
+      ],
+      "sourceDate": "2026-02-01",
+      "coSources": [
+        "lena-korte"
       ]
     },
     {
@@ -14408,6 +14597,38 @@
       "coSources": [
         "michael-maurer"
       ]
+    },
+    {
+      "path": "personen/the-woke-ginger/links/20260409.woke-ginger-georgia-republicans-drag-hypocrisy",
+      "source": "personen/the-woke-ginger",
+      "code": "woke-ginger-georgia-republicans-drag-hypocrisy",
+      "title": "Zwei Republikaner aus Georgia greifen Drag und LGBTQ+ an, dann tauchen Fotos auf",
+      "uri": "https://www.facebook.com/reel/1273445754853887",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "LGBTQ",
+        "USA",
+        "Heuchelei"
+      ],
+      "sourceDate": "2026-04-09",
+      "coSources": []
+    },
+    {
+      "path": "personen/the-woke-ginger/links/20260410.woke-ginger-pepsi-doritos-price-gouging",
+      "source": "personen/the-woke-ginger",
+      "code": "woke-ginger-pepsi-doritos-price-gouging",
+      "title": "Pepsi verliert eine Milliarde Dollar nach überteuerten Doritos-Preisen",
+      "uri": "https://www.facebook.com/reel/819660413971529",
+      "type": "reel",
+      "tags": [
+        "more-research-needed",
+        "USA",
+        "Wirtschaft",
+        "Konsum"
+      ],
+      "sourceDate": "2026-04-10",
+      "coSources": []
     },
     {
       "path": "allgemein/facebook/links/20260201.women-in-america-mediocre-man",
