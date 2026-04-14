@@ -49,8 +49,11 @@ let skipped = COLLECTIONS.length - dumps.length
 
 for (const { collection, statements } of dumps) {
   process.stdout.write(`📥 ${collection}: ${statements.length} Statements (${(JSON.stringify(statements).length / 1024).toFixed(0)} KB)... `)
+  // INSERT OR REPLACE verhindert UNIQUE-Konflikte wenn mehrere Dumps
+  // dieselbe Tabelle befüllen (z.B. quellen- und quellenlinks-Dump)
+  const normalized = statements.map(s => s.replace(/^INSERT INTO /i, 'INSERT OR REPLACE INTO '))
   const sqlFile = `/tmp/d1_dump_${collection}.sql`
-  writeFileSync(sqlFile, statements.join('\n'))
+  writeFileSync(sqlFile, normalized.join('\n'))
   execFileSync('npx', ['wrangler', 'd1', 'execute', DB_NAME, '--remote', '--file', sqlFile], {
     stdio: ['ignore', 'ignore', 'inherit'],
   })
