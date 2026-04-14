@@ -36,7 +36,7 @@ for (const collection of COLLECTIONS) {
   // damit veraltete Einträge entfernt werden und UNIQUE-Constraints nicht feuern
   const dropStatements = statements
     .filter(s => /^CREATE TABLE/i.test(s))
-    .map(s => {
+    .map((s) => {
       const match = s.match(/^CREATE TABLE(?:\s+IF NOT EXISTS)?\s+"?(\w+)"?/i)
       return match ? `DROP TABLE IF EXISTS "${match[1]}";` : null
     })
