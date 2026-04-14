@@ -72,8 +72,16 @@
 
 }
 
+/* Nuxt UI dark mode overrides — site has no dark theme, force light mode variables */
+:root, .dark {
+  --ui-text-highlighted: var(--ink);
+  --ui-text: var(--ink);
+  --ui-bg: var(--paper);
+  --ui-bg-elevated: #F0EAE0;
+  --ui-bg-muted: #FAF6F1;
+}
+
 /* Content prose styles */
-/* Nuxt UI v4 ProseH* apply text-highlighted (white in dark mode) — override explicitly */
 .content h1,
 .content h2,
 .content h3,
