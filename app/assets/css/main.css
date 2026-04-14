@@ -73,6 +73,14 @@
 }
 
 /* Content prose styles */
+/* Nuxt UI v4 ProseH* apply text-highlighted (white in dark mode) — override explicitly */
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+  color: var(--ink);
+}
 .content h1 { margin-bottom: 1rem; }
 .content h2 { margin-top: 2rem; margin-bottom: 1rem; }
 .content h3 { margin-top: 1.5rem; margin-bottom: 0.5rem; }
@@ -135,6 +143,7 @@
 .content h4 a,
 .content h5 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .content a:hover {
