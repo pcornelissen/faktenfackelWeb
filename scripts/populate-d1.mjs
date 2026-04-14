@@ -31,10 +31,19 @@ for (const collection of COLLECTIONS) {
   const compressed = readFileSync(dumpFile, 'utf8').trim()
   const decompressed = gunzipSync(Buffer.from(compressed, 'base64')).toString('utf8')
   const statements = JSON.parse(decompressed)
-    // INSERT OR REPLACE statt INSERT, damit wiederholte Deploys nicht an UNIQUE-Constraints scheitern
-    .map(s => s.replace(/^INSERT INTO /g, 'INSERT OR REPLACE INTO '))
+
+  // Tabellennamen aus CREATE TABLE-Statements extrahieren und vorher droppen,
+  // damit veraltete Einträge entfernt werden und UNIQUE-Constraints nicht feuern
+  const dropStatements = statements
+    .filter(s => /^CREATE TABLE/i.test(s))
+    .map(s => {
+      const match = s.match(/^CREATE TABLE(?:\s+IF NOT EXISTS)?\s+"?(\w+)"?/i)
+      return match ? `DROP TABLE IF EXISTS "${match[1]}";` : null
+    })
+    .filter(Boolean)
+
   const sqlFile = `/tmp/d1_dump_${collection}.sql`
-  writeFileSync(sqlFile, statements.join('\n'))
+  writeFileSync(sqlFile, [...dropStatements, ...statements].join('\n'))
   process.stdout.write(` ${statements.length} Statements (${(decompressed.length / 1024).toFixed(0)} KB)... `)
 
   execFileSync('npx', ['wrangler', 'd1', 'execute', DB_NAME, '--remote', '--file', sqlFile], {
