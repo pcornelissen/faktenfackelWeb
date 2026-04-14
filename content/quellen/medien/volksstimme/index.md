@@ -1,7 +1,7 @@
 ---
 name: Volksstimme
 date: 2026-04-01
-publishedOn: null
+publishedOn: 2026-04-14
 tags:
   - Zeitung
   - Medien

@@ -1,6 +1,6 @@
 ---
 date: 2026-04-13
-publishedOn: null
+publishedOn: 2026-04-14
 name: "Vattenfall"
 description: "Schwedischer Energiekonzern, betreibt Windparks und andere Energieanlagen in Europa"
 tags:

@@ -1,7 +1,7 @@
 ---
 name: Donald Trump
 date: 2026-03-27
-publishedOn: null
+publishedOn: 2026-04-14
 imageAuthor: "Fulton County Sheriff's Office"
 tags:
   - USA

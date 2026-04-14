@@ -1,8 +1,8 @@
 ---
 date: 2026-03-27
 publishedOn: 2026-03-10
-name: its.daniel.brln
-description: Berliner TikTok-Kommentator zu deutscher Politik und gesellschaftlichen Themen, 234.000 Follower
+name: "Daniel (its.daniel.brln)"
+description: "Berliner Content Creator (TikTok, YouTube, Facebook, Instagram) zu deutscher Politik, 234.000 TikTok-Follower"
 tags:
   - Deutschland
   - Politik
@@ -17,6 +17,7 @@ tags:
 
 - TikTok: https://www.tiktok.com/@its.daniel.brln
 - YouTube: https://youtube.com/@its.danielbrln
+- Instagram: https://www.instagram.com/its.daniel.brln
 
 ## Faktenfackel Bewertung
 

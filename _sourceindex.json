@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-13T15:11:13.108Z",
+  "generatedAt": "2026-04-14T08:28:10.154Z",
   "stats": {
-    "sources": 293,
-    "links": 589,
+    "sources": 299,
+    "links": 596,
     "quotes": 25,
     "groups": 12,
-    "codes": 606
+    "codes": 613
   },
   "sources": [
     {
@@ -123,7 +123,11 @@
       "slug": "pepsico",
       "name": "PepsiCo",
       "description": "US-amerikanischer Lebensmittel- und Getränkekonzern (Pepsi, Doritos, Frito-Lay, Quaker)",
-      "tags": [],
+      "tags": [
+        "Lebensmittelindustrie",
+        "USA",
+        "Konzern"
+      ],
       "date": "2026-04-13",
       "hasImage": true
     },
@@ -133,7 +137,9 @@
       "slug": "spoor",
       "name": "Spoor",
       "description": "KI-Unternehmen, spezialisiert auf automatisierte Beobachtung von Vogelbewegungen rund um Windkraftanlagen",
-      "tags": [],
+      "tags": [
+        "IT-Unternehmen"
+      ],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -155,7 +161,11 @@
       "slug": "vattenfall",
       "name": "Vattenfall",
       "description": "Schwedischer Energiekonzern, betreibt Windparks und andere Energieanlagen in Europa",
-      "tags": [],
+      "tags": [
+        "Windkraft",
+        "Energie",
+        "Schweden"
+      ],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -878,6 +888,20 @@
       "hasImage": true
     },
     {
+      "path": "medien/srf",
+      "group": "medien",
+      "slug": "srf",
+      "name": "SRF",
+      "description": "Schweizer Radio und Fernsehen, öffentlich-rechtlicher Medienkonzern der Schweiz",
+      "tags": [
+        "Schweiz",
+        "Medien",
+        "Öffentlich-Rechtlich"
+      ],
+      "date": "2026-04-13",
+      "hasImage": true
+    },
+    {
       "path": "medien/staatsanzeiger-bw",
       "group": "medien",
       "slug": "staatsanzeiger-bw",
@@ -1158,6 +1182,20 @@
       "hasImage": true
     },
     {
+      "path": "nachrichten/zdf-heute",
+      "group": "nachrichten",
+      "slug": "zdf-heute",
+      "name": "ZDF heute",
+      "tags": [
+        "Medien",
+        "Öffentlich-Rechtlich",
+        "Deutschland",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-14",
+      "hasImage": true
+    },
+    {
       "path": "ngo/aktion-deutschland-hilft",
       "group": "ngo",
       "slug": "aktion-deutschland-hilft",
@@ -1218,7 +1256,9 @@
       "slug": "bwo",
       "name": "Bundesverband Windenergie Offshore (BWO)",
       "description": "Branchenverband der deutschen Offshore-Windenergie-Unternehmen",
-      "tags": [],
+      "tags": [
+        "Windkraft"
+      ],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -1258,7 +1298,10 @@
       "slug": "deutsche-wildtierstiftung",
       "name": "Deutsche Wildtierstiftung",
       "description": "Naturschutzstiftung, setzt sich für den Schutz heimischer Wildtiere und ihrer Lebensräume ein",
-      "tags": [],
+      "tags": [
+        "NGO",
+        "Tierschutz"
+      ],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -1374,6 +1417,21 @@
       ],
       "date": "2026-01-19",
       "hasImage": true
+    },
+    {
+      "path": "parteien/afd-sachsen-anhalt",
+      "group": "parteien",
+      "slug": "afd-sachsen-anhalt",
+      "name": "AfD Sachsen-Anhalt",
+      "description": "Landesverband der Alternative für Deutschland in Sachsen-Anhalt",
+      "tags": [
+        "AfD",
+        "Sachsen-Anhalt",
+        "Rechtsextremismus",
+        "Parteien"
+      ],
+      "date": "2026-04-14",
+      "hasImage": false
     },
     {
       "path": "parteien/die-linke",
@@ -1704,6 +1762,22 @@
       "hasImage": true
     },
     {
+      "path": "personen/hape-kerkeling",
+      "group": "personen",
+      "slug": "hape-kerkeling",
+      "name": "Hape Kerkeling",
+      "description": "Deutscher Komiker, Schauspieler, Autor und TV-Moderator",
+      "tags": [
+        "Erinnerungskultur",
+        "Nationalsozialismus",
+        "Demokratie",
+        "Unterhaltung",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-14",
+      "hasImage": true
+    },
+    {
       "path": "personen/harry-sisson",
       "group": "personen",
       "slug": "harry-sisson",
@@ -1773,8 +1847,8 @@
       "path": "personen/its-daniel-brln",
       "group": "personen",
       "slug": "its-daniel-brln",
-      "name": "its.daniel.brln",
-      "description": "Berliner TikTok-Kommentator zu deutscher Politik und gesellschaftlichen Themen, 234.000 Follower",
+      "name": "Daniel (its.daniel.brln)",
+      "description": "Berliner Content Creator (TikTok, YouTube, Facebook, Instagram) zu deutscher Politik, 234.000 TikTok-Follower",
       "tags": [
         "Deutschland",
         "Politik",
@@ -2102,7 +2176,8 @@
       "name": "Politico Joe",
       "tags": [
         "USA",
-        "Politik"
+        "Politik",
+        "Satire"
       ],
       "date": "2026-04-13",
       "hasImage": true
@@ -3106,6 +3181,21 @@
       "hasImage": false
     },
     {
+      "path": "politiker/moosdorf",
+      "group": "politiker",
+      "slug": "moosdorf",
+      "name": "Matthias Moosdorf",
+      "description": "AfD-Bundestagsabgeordneter, Violoncellist und Musikwissenschaftler, Jahrgang 1963",
+      "tags": [
+        "AfD",
+        "Bundestag",
+        "Rechtsextremismus",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-14",
+      "hasImage": true
+    },
+    {
       "path": "politiker/nancy-mace",
       "group": "politiker",
       "slug": "nancy-mace",
@@ -3626,6 +3716,22 @@
       "hasImage": true
     },
     {
+      "path": "staatlich/bundesverfassungsgericht",
+      "group": "staatlich",
+      "slug": "bundesverfassungsgericht",
+      "name": "Bundesverfassungsgericht",
+      "description": "Oberstes Verfassungsgericht der Bundesrepublik Deutschland in Karlsruhe",
+      "tags": [
+        "Justiz",
+        "Deutschland",
+        "Grundgesetz",
+        "Verfassungsrecht",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-14",
+      "hasImage": true
+    },
+    {
       "path": "staatlich/bverfg",
       "group": "staatlich",
       "slug": "bverfg",
@@ -3843,7 +3949,11 @@
       "slug": "bioconsult-sh",
       "name": "BioConsult SH",
       "description": "Wissenschaftliches Planungs- und Beratungsbüro für Naturschutz und Umweltplanung, spezialisiert auf Meereskunde und Vogelkunde",
-      "tags": [],
+      "tags": [
+        "Naturschutz",
+        "Windkraft",
+        "Wissenschaft"
+      ],
       "date": "2026-04-13",
       "hasImage": false
     },
@@ -5159,8 +5269,10 @@
       "type": "article",
       "tags": [
         "Arbeitsmarkt",
-        "Migration",
-        "more-research-needed"
+        "Geflüchtete",
+        "Asyl",
+        "Recht",
+        "research-done-review-pending"
       ],
       "sourceDate": "2026-01-15",
       "coSources": []
@@ -6349,6 +6461,24 @@
         "Wahlen"
       ],
       "sourceDate": "2026-04-10",
+      "verdict": "false",
+      "coSources": []
+    },
+    {
+      "path": "faktenchecks/correctiv/links/20260413.ungarn-eu-vertraege-falsch",
+      "source": "faktenchecks/correctiv",
+      "code": "correctiv-ungarn-eu-vertraege-2026",
+      "title": "Nein, Ungarn hat nicht alle Verträge mit der EU gekündigt",
+      "uri": "https://correctiv.org/faktencheck/2026/04/13/nein-ungarn-hat-nicht-alle-vertraege-mit-der-eu-gekuendigt/",
+      "type": "article",
+      "tags": [
+        "Ungarn",
+        "EU",
+        "Desinformation",
+        "Wahlen",
+        "Vietnam-Netzwerk"
+      ],
+      "sourceDate": "2026-04-13",
       "verdict": "false",
       "coSources": []
     },
@@ -7835,6 +7965,21 @@
       "coSources": [
         "bka"
       ]
+    },
+    {
+      "path": "allgemein/facebook/links/20230414.folgsschwärmer-afd-wahlprogramm-sachsen-anhalt",
+      "source": "allgemein/facebook",
+      "code": "folgsschwärmer-afd-wahlprogramm-sachsen-anhalt-2023",
+      "title": "Folgsschwärmer zum AfD-Wahlprogramm Sachsen-Anhalt",
+      "uri": "https://www.facebook.com/share/p/1GfPFmRHJa/",
+      "type": "facebook",
+      "tags": [
+        "AfD",
+        "Wahlprogramm",
+        "Sachsen-Anhalt"
+      ],
+      "sourceDate": "2023-04-14",
+      "coSources": []
     },
     {
       "path": "allgemein/facebook/links/20251215.foodwatch-eu-ernaehrungssicherheit",
@@ -9599,6 +9744,27 @@
       ]
     },
     {
+      "path": "personen/its-daniel-brln/links/20260412.its-daniel-brln-afd-grundgesetz",
+      "source": "personen/its-daniel-brln",
+      "code": "its-daniel-brln-afd-grundgesetz-2026",
+      "title": "\\\"AFD Ruft DRITTES REICH Aus Und BRICHT Jegliches GRUNDGESETZ!\\\" - it's Daniel analysiert AfD SA Regierungsprogramm",
+      "uri": "https://www.youtube.com/watch?v=kniz5q9OWGE",
+      "type": "youtube",
+      "tags": [
+        "AfD",
+        "Grundgesetz",
+        "Demokratie",
+        "Sachsen-Anhalt",
+        "Asylrecht",
+        "research-done-review-pending"
+      ],
+      "sourceDate": "2026-04-12",
+      "coSources": [
+        "afd-sachsen-anhalt",
+        "bundesverfassungsgericht"
+      ]
+    },
+    {
       "path": "wissenschaft/iw-koeln/links/20260111.bas.rente.beamte",
       "source": "wissenschaft/iw-koeln",
       "code": "iw-koeln-bas-rente-beamte",
@@ -10428,6 +10594,23 @@
       "coSources": [
         "bamf"
       ]
+    },
+    {
+      "path": "medien/legal-tribune-online/links/20260317.lto-moosdorf-hitlergruss-anklage",
+      "source": "medien/legal-tribune-online",
+      "code": "lto-moosdorf-hitlergruss-2026",
+      "title": "Anklage gegen Moosdorf (AfD) wegen Hitlergrußes zugelassen",
+      "uri": "https://www.lto.de/recht/nachrichten/n/lg-berlin-i-502kls726-matthias-moosdorf-anklage-verfassungwidrige-kennzeichen-bundestag-hitlergruss",
+      "type": "article",
+      "tags": [
+        "AfD",
+        "Bundestag",
+        "Rechtsextremismus",
+        "NS-Symbole",
+        "Justiz"
+      ],
+      "sourceDate": "2026-03-17",
+      "coSources": []
     },
     {
       "path": "medien/legal-tribune-online/links/20211224.presseschau-dez-2021",
@@ -11338,6 +11521,26 @@
       ],
       "sourceDate": "2025-09-14",
       "coSources": []
+    },
+    {
+      "path": "politiker/moosdorf/links/20260413.moosdorf-hitlergruss-anklage-zugelassen",
+      "source": "politiker/moosdorf",
+      "code": "moosdorf-hitlergruss-anklage-2026",
+      "title": "Anklage gegen AfD-Abgeordneten wegen Hitlergruß zugelassen",
+      "uri": "https://www.zdfheute.de/politik/deutschland/anklage-hitlergruss-afd-abgeordneter-100.html",
+      "type": "article",
+      "tags": [
+        "AfD",
+        "Bundestag",
+        "Rechtsextremismus",
+        "NS-Symbole",
+        "Justiz",
+        "research-done-review-pending"
+      ],
+      "sourceDate": "2026-04-09",
+      "coSources": [
+        "legal-tribune-online"
+      ]
     },
     {
       "path": "allgemein/facebook/links/20260201.morgan-j-freeman-what-do-you-see",
@@ -13111,6 +13314,28 @@
       ],
       "sourceDate": "2026-01-14",
       "coSources": []
+    },
+    {
+      "path": "medien/srf/links/20260412.ki-deepfakes-ungarn-wahlkampf",
+      "source": "medien/srf",
+      "code": "srf-ki-deepfakes-ungarn-2026",
+      "title": "Fake News und KI-Videos fluten ungarischen Wahlkampf",
+      "uri": "https://www.srf.ch/news/international/desinformation-von-oben-fake-news-und-ki-videos-fluten-ungarischen-wahlkampf",
+      "type": "article",
+      "tags": [
+        "Ungarn",
+        "Deepfakes",
+        "KI",
+        "Wahlen",
+        "Desinformation",
+        "Russland"
+      ],
+      "sourceDate": "2026-04-12",
+      "verdict": "true",
+      "coSources": [
+        "t-online",
+        "euronews"
+      ]
     },
     {
       "path": "medien/staatsanzeiger-bw/links/20230831.afd-rat-hakenkreuze-ukraine-autos",
@@ -14933,6 +15158,24 @@
       "coSources": [
         "nius",
         "julian-reichelt"
+      ]
+    },
+    {
+      "path": "nachrichten/zdf-heute/links/20260413.buchenwald-gedenkfeier-hape-kerkeling",
+      "source": "nachrichten/zdf-heute",
+      "code": "zdf-heute-buchenwald-gedenkfeier-2026",
+      "title": "Gedenkfeier zur Befreiung des KZ Buchenwald mit Hape Kerkeling",
+      "uri": "https://www.facebook.com/reel/870422742124711",
+      "type": "reel",
+      "tags": [
+        "Buchenwald",
+        "KZ-Gedenkstätte",
+        "Nationalsozialismus",
+        "Erinnerungskultur"
+      ],
+      "sourceDate": "2026-04-13",
+      "coSources": [
+        "hape-kerkeling"
       ]
     },
     {
