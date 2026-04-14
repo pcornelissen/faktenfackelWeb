@@ -55,12 +55,12 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: node scripts/indexnow.mjs
 
-      - name: Populate D1
+      - name: D1 Warm-up (Fire & Forget)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: node scripts/populate-d1.mjs
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          # Triggert D1-Initialisierung ohne auf Antwort zu warten.
+          # curl bricht nach 10s ab; Cloudflare Worker läuft weiter.
+          curl -sf --max-time 10 -o /dev/null https://faktenfackel.de/faktenchecks/ || true
 
       - name: Install Playwright
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
