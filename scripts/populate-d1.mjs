@@ -31,6 +31,8 @@ for (const collection of COLLECTIONS) {
   const compressed = readFileSync(dumpFile, 'utf8').trim()
   const decompressed = gunzipSync(Buffer.from(compressed, 'base64')).toString('utf8')
   const statements = JSON.parse(decompressed)
+    // INSERT OR REPLACE statt INSERT, damit wiederholte Deploys nicht an UNIQUE-Constraints scheitern
+    .map(s => s.replace(/^INSERT INTO /g, 'INSERT OR REPLACE INTO '))
   const sqlFile = `/tmp/d1_dump_${collection}.sql`
   writeFileSync(sqlFile, statements.join('\n'))
   process.stdout.write(` ${statements.length} Statements (${(decompressed.length / 1024).toFixed(0)} KB)... `)
