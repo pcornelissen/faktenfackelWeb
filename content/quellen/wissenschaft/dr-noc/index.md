@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: Dr. Noc
 description: "Wissenschaftskommunikator mit PhD in Pharmazie – widerlegt auf TikTok, Facebook und Instagram Gesundheits- und Impf-Desinformation"

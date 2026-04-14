@@ -1,5 +1,6 @@
 ---
 date: 2026-01-11
+lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Martin Bujard
 description: Forschungsdirektor Bundesinstitut für Bevölkerungsforschung (BiB)

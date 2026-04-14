@@ -1,5 +1,6 @@
 ---
 date: 2026-04-03
+lastScanned: 2026-04-03
 publishedOn: 2026-04-14
 name: Fraunhofer ISE
 description: Fraunhofer-Institut für Solare Energiesysteme, Freiburg

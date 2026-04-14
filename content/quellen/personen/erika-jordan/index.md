@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: Erika Jordan
 description: Amerikanische Soziologin und klinische Psychologie-Praktikantin, kommentiert Psychologie, Soziologie und gesellschaftliche Themen

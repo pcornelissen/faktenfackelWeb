@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Beatrix von Storch
 description: AfD Politikerin und Juristin

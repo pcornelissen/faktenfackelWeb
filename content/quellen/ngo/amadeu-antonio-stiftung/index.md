@@ -1,6 +1,7 @@
 ---
 name: Amadeu Antonio Stiftung
 date: 2026-04-01
+lastScanned: 2026-04-01
 publishedOn: 2026-04-14
 tags:
   - NGO

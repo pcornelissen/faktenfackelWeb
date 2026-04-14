@@ -1,5 +1,6 @@
 ---
 date: 2026-04-02
+lastScanned: 2026-04-02
 publishedOn: 2026-04-02
 name: Hochschule Niederrhein
 description: Staatliche Fachhochschule in Mönchengladbach und Krefeld

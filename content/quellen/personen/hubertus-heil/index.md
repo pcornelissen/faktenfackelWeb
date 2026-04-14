@@ -2,6 +2,7 @@
 name: Hubertus Heil
 description: SPD-Politiker, ehemaliger Bundesminister für Arbeit und Soziales, MdB seit 1998
 date: 2026-03-26
+lastScanned: 2026-03-26
 publishedOn: 2026-04-14
 tags:
   - SPD

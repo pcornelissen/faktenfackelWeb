@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-10
 name: Rumgetrieben
 description: Deutschsprachiger Facebook-Account mit progressiv-politischem Kommentar zu gesellschaftlichen Themen

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: Marc Brost
 description: Deutscher Journalist, Auslandschef und Mitglied der Chefredaktion bei Focus

@@ -40,10 +40,10 @@ AfD-Position widerspricht damit tausenden begutachteten Studien.
 
 **"Erneuerbare Energien sind unsinnig":** Windräder, Solaranlagen und E-Autos werden von der AfD regelmäßig als
 umweltschädigend oder unwirtschaftlich dargestellt. AfD-Abgeordnete behaupteten im Bundestag,
-<Reference code="bundestag-afd-kernkraft-3-cent-behauptung">Kernkraftstrom koste nur 3 Cent pro Kilowattstunde</Reference>.
+<Reference code="bundestag-afd-kernkraft-3-cent-behauptung">Kernkraftstrom koste nur 3 Cent pro Kilowattstunde</SourceRef>.
 Tatsächlich liegen die Kosten deutlich höher. Auch der generelle Befund fällt anders aus, als die AfD suggeriert:
 <Reference code="fraunhofer-ise-stromgestehungskosten-2024">Laut Fraunhofer ISE sind Erneuerbare inzwischen in vielen
-Fällen die günstigste Form der Stromerzeugung</Reference>.
+Fällen die günstigste Form der Stromerzeugung</SourceRef>.
 
 **"Fossile Energien sichern Wohlstand":** Kohle und Diesel als Garanten wirtschaftlicher Stabilität darzustellen,
 blendet aus, dass fossile Brennstoffe die Hauptursache der Klimakrise sind und ihre Folgekosten wie Extremwetter,
@@ -57,7 +57,7 @@ verletzt die Freiheitsrechte künftiger Generationen. Die Klimapolitik der AfD s
 
 ### Die Verschwörungserzählung
 
-<Reference code="amadeu-antonio-klimawandelleugnung-afd">Die Amadeu Antonio Stiftung dokumentiert</Reference>, wie die
+<Reference code="amadeu-antonio-klimawandelleugnung-afd">Die Amadeu Antonio Stiftung dokumentiert</SourceRef>, wie die
 AfD ihre Klimaleugnung mit der "Great Reset"-Verschwörungserzählung verknüpft: "Globalistische Eliten" wollten
 angeblich eine "Klimadiktatur" errichten. So wird aus einer wissenschaftlichen Frage ein politisches Feindbild.
 
@@ -67,7 +67,7 @@ Die Strategie hat sich verschoben: Klassische Leugnung ("Es gibt keinen Klimawan
 Hintergrund. Stattdessen richtet sich die Desinformation stärker gegen konkrete Klimaschutzmaßnahmen. Die AfD bringt
 Bundestagsanträge ein, die wissenschaftliche Erkenntnisse grundsätzlich in Frage stellen, etwa zur "Beseitigung der
 Klimaschutzfolgen und Wiederherstellung der Energieinfrastruktur in Deutschland" oder mit dem
-<Reference code="bundestag-afd-klimaneutralitaet-streichen">Antrag, sämtliche Klimaneutralitätsziele zu streichen</Reference>.
+<Reference code="bundestag-afd-klimaneutralitaet-streichen">Antrag, sämtliche Klimaneutralitätsziele zu streichen</SourceRef>.
 
 ## Fazit
 

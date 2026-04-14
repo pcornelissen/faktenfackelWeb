@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-10
 name: phoenix
 description: Deutsches öffentlich-rechtliches Ereignisfernsehen (ARD/ZDF), Schwerpunkt Politik und Dokumentationen

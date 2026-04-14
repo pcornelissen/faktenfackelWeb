@@ -1,5 +1,6 @@
 ---
 date: 2026-03-10
+lastScanned: 2026-03-10
 publishedOn: 2026-03-10
 name: SPD Rheinland-Pfalz
 description: Landesverband der SPD in Rheinland-Pfalz

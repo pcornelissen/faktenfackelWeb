@@ -1,5 +1,6 @@
 ---
 date: 2026-03-26
+lastScanned: 2026-03-26
 publishedOn: 2026-03-26
 name: "Jörg Meuthen"
 description: "Politiker, ehemaliger AfD-Bundessprecher (2015-2022)"

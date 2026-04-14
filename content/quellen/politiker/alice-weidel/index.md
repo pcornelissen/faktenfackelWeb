@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+lastScanned: 2026-01-09
 publishedOn: 2026-02-16
 name: Alice Weidel
 description: AfD Politikerin und Juristin

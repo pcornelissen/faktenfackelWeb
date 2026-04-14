@@ -1,5 +1,6 @@
 ---
 date: 2026-03-08
+lastScanned: 2026-03-08
 publishedOn: 2026-03-08
 name: taz – die tageszeitung
 description: Linkes Tagesblatt und Onlineportal

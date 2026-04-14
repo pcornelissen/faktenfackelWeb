@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Women in America
 description: Englischsprachiger Kanal zu Frauenrechten und gesellschaftlichen Themen in den USA

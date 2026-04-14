@@ -1,5 +1,6 @@
 ---
 date: 2026-02-01
+lastScanned: 2026-02-01
 publishedOn: 2026-03-10
 name: We are watching you
 description: Deutsche politische Kommentarseite mit Fokus auf AfD und Demokratiegefährdung

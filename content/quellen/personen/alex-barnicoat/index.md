@@ -1,5 +1,6 @@
 ---
 date: 2026-04-07
+lastScanned: 2026-04-07
 publishedOn: 2026-04-07
 name: "Alex Barnicoat"
 description: "Britischer Social-Media-Kommentator und selbsternannter Nachrichtenmacher"

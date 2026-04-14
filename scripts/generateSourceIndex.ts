@@ -9,6 +9,8 @@
 import { readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
+const SUMMARIES_CACHE_FILE = join(import.meta.dirname, '..', '_summaries-cache.json')
+
 const CONTENT_DIR = join(import.meta.dirname, '..', 'content', 'quellen')
 const OUTPUT_FILE = join(import.meta.dirname, '..', '_sourceindex.json')
 
@@ -28,9 +30,12 @@ interface Link {
   source: string
   code: string
   title: string
+  summary?: string
   uri: string
   type?: string
   tags: string[]
+  date: string
+  lastScanned?: string
   sourceDate?: string
   verdict?: string
   coSources: string[]
@@ -48,6 +53,46 @@ interface Quote {
 
 type FrontmatterValue = string | string[] | boolean
 type Frontmatter = Record<string, FrontmatterValue>
+
+function extractSummary(content: string): string | undefined {
+  // Body starts after the closing ---
+  const parts = content.split(/^---$/m)
+  if (parts.length < 3) return undefined
+  const body = parts.slice(2).join('---').trim()
+
+  // Take text before the first ## heading or first blank line after content starts
+  const beforeHeading = body.split(/^##\s/m)[0].trim()
+  const firstParagraph = beforeHeading.split(/\n\n/)[0].trim()
+  if (!firstParagraph) return undefined
+
+  // Strip MDC inline tags: :quelle-ref{name="..."}, :source-ref{...}, etc.
+  let summary = firstParagraph.replace(/:[a-z-]+\{[^}]*\}/g, (match) => {
+    const nameMatch = match.match(/name="([^"]+)"/)
+    return nameMatch ? nameMatch[1] : ''
+  })
+
+  // Strip block MDC components: <SourceRef ...>text</SourceRef> or self-closing
+  summary = summary.replace(/<[A-Z][a-zA-Z]*\b[^>]*>.*?<\/[A-Z][a-zA-Z]*>/gs, '')
+  summary = summary.replace(/<[A-Z][a-zA-Z]*\b[^/]*/g, '')
+
+  // Strip markdown links [text](url) → text
+  summary = summary.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+
+  // Strip remaining HTML tags
+  summary = summary.replace(/<[^>]+>/g, '')
+
+  // Collapse whitespace
+  summary = summary.replace(/\s+/g, ' ').trim()
+
+  if (!summary) return undefined
+
+  // Cap at 250 chars
+  if (summary.length > 250) {
+    summary = summary.slice(0, 247) + '...'
+  }
+
+  return summary
+}
 
 function parseFrontmatter(content: string): Frontmatter {
   const match = content.match(/^---\n([\s\S]*?)\n---/)
@@ -92,10 +137,23 @@ async function exists(path: string): Promise<boolean> {
   }
 }
 
+type SummariesCache = Record<string, { date: string, summary: string }>
+
+async function loadSummariesCache(): Promise<SummariesCache> {
+  try {
+    const raw = await readFile(SUMMARIES_CACHE_FILE, 'utf-8')
+    return JSON.parse(raw)
+  } catch {
+    return {}
+  }
+}
+
 async function collectSources(): Promise<{ sources: Source[], links: Link[], quotes: Quote[] }> {
   const sources: Source[] = []
   const links: Link[] = []
   const quotes: Quote[] = []
+  const summariesCache = await loadSummariesCache()
+  const updatedCache: SummariesCache = {}
 
   const groups = await readdir(CONTENT_DIR)
   for (const group of groups) {
@@ -132,16 +190,34 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
       if (await exists(linksDir)) {
         const linkFiles = (await readdir(linksDir)).filter(f => f.endsWith('.md'))
         for (const file of linkFiles) {
-          const linkContent = await readFile(join(linksDir, file), 'utf-8')
+          const linkPath = join(linksDir, file)
+          const cacheKey = `${group}/${slug}/links/${file}`
+          // Read frontmatter first (lightweight) to check if date changed
+          const linkContent = await readFile(linkPath, 'utf-8')
           const lfm = parseFrontmatter(linkContent)
+          const fileDate = lfm.date || ''
+          // Use cached summary if date hasn't changed, otherwise extract fresh
+          let summary: string | undefined
+          const cached = summariesCache[cacheKey]
+          if (cached && cached.date === fileDate) {
+            summary = cached.summary
+          } else {
+            summary = extractSummary(linkContent)
+          }
+          if (summary) {
+            updatedCache[cacheKey] = { date: fileDate, summary }
+          }
           links.push({
             path: `${group}/${slug}/links/${file.replace('.md', '')}`,
             source: `${group}/${slug}`,
             code: lfm.code || '',
             title: lfm.title || '',
+            ...(summary ? { summary } : {}),
             uri: lfm.uri || '',
             ...(lfm.type ? { type: lfm.type } : {}),
             tags: Array.isArray(lfm.tags) ? lfm.tags : [],
+            date: lfm.date || '',
+            ...(lfm.lastScanned ? { lastScanned: lfm.lastScanned } : {}),
             ...(lfm.sourceDate ? { sourceDate: lfm.sourceDate } : {}),
             ...(lfm.verdict ? { verdict: lfm.verdict } : {}),
             coSources: Array.isArray(lfm.coSources) ? lfm.coSources : [],
@@ -174,6 +250,9 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
   links.sort((a, b) => a.code.localeCompare(b.code))
   quotes.sort((a, b) => a.code.localeCompare(b.code))
 
+  // Persist updated cache (only entries that still exist)
+  await writeFile(SUMMARIES_CACHE_FILE, JSON.stringify(updatedCache, null, 2) + '\n')
+
   return { sources, links, quotes }
 }
 
@@ -198,6 +277,8 @@ async function main() {
   await writeFile(OUTPUT_FILE, JSON.stringify(index, null, 2) + '\n')
   console.log(`Generated ${OUTPUT_FILE}`)
   console.log(`  ${sources.length} sources, ${links.length} links, ${quotes.length} quotes in ${index.stats.groups} groups`)
+  const withSummary = links.filter(l => l.summary).length
+  console.log(`  ${withSummary} links with summary (cached where date unchanged)`)
 }
 
 main().catch(console.error)

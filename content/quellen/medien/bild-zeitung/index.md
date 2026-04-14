@@ -1,5 +1,6 @@
 ---
 date: 2026-04-10
+lastScanned: 2026-04-10
 publishedOn: 2026-04-08
 name: Bild-Zeitung
 description: Größte deutsche Boulevardzeitung, erschienen im Axel-Springer-Verlag seit 1952

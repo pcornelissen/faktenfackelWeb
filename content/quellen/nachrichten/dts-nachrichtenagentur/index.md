@@ -1,5 +1,6 @@
 ---
 date: 2026-01-18
+lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: DTS Nachrichtenagentur
 description: Nachrichtenaggregator, wie die DPA

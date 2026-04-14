@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: The Best of San Diego
 description: US-amerikanische Lokalmedien-Seite für San Diego, dokumentiert lokale Ereignisse und Proteste

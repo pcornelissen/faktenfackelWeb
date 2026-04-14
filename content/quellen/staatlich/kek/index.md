@@ -1,5 +1,6 @@
 ---
 date: 2026-04-08
+lastScanned: 2026-04-08
 publishedOn: 2026-04-06
 name: KEK, Kommission zur Ermittlung der Konzentration im Medienbereich
 description: Staatliche Regulierungsbehörde, die Medienkonzentration in Deutschland überwacht und bewertet

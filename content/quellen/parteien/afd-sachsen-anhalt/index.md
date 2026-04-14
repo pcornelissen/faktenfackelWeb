@@ -1,5 +1,6 @@
 ---
 date: 2026-04-14
+lastScanned: 2026-04-14
 publishedOn: 2026-04-14
 name: "AfD Sachsen-Anhalt"
 description: "Landesverband der Alternative für Deutschland in Sachsen-Anhalt"
@@ -13,7 +14,7 @@ tags:
 ## Über die Quelle
 
 Der AfD-Landesverband Sachsen-Anhalt wurde im April 2013 gegründet und trat bei der Landtagswahl 2016 erstmals an, wo er mit 24,2 Prozent auf Anhieb zweitstärkste Kraft wurde. Bei der Landtagswahl 2021 kam die AfD auf 20,8 Prozent und blieb damit erneut auf Platz zwei hinter der CDU.
-Seit 2018 ist der Bundestagsabgeordnete Martin Reichardt Landesvorsitzender; Fraktionsvorsitzender im Landtag ist seit 2022 <Source name="ulrich-siegmund" />, der für die Landtagswahl am 6.&#160;September 2026 auch als Spitzenkandidat aufgestellt wurde. Am 7.&#160;November 2023 stufte der Landesverfassungsschutz Sachsen-Anhalt den Landesverband als "gesichert rechtsextremistische Bestrebung" ein, nachdem er eine erhebliche Radikalisierung insbesondere seit der Corona-Pandemie festgestellt und führenden Funktionären Verbindungen zur Identitären Bewegung sowie systematische Menschenwürdeverletzungen in Äußerungen über Ausländer und Muslime nachgewiesen hatte.
+Seit 2018 ist der Bundestagsabgeordnete Martin Reichardt Landesvorsitzender; Fraktionsvorsitzender im Landtag ist seit 2022 :quelle-ref{name="ulrich-siegmund"}, der für die Landtagswahl am 6.&#160;September 2026 auch als Spitzenkandidat aufgestellt wurde. Am 7.&#160;November 2023 stufte der Landesverfassungsschutz Sachsen-Anhalt den Landesverband als "gesichert rechtsextremistische Bestrebung" ein, nachdem er eine erhebliche Radikalisierung insbesondere seit der Corona-Pandemie festgestellt und führenden Funktionären Verbindungen zur Identitären Bewegung sowie systematische Menschenwürdeverletzungen in Äußerungen über Ausländer und Muslime nachgewiesen hatte.
 
 ## Links
 

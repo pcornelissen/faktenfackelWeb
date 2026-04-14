@@ -1,6 +1,7 @@
 ---
 name: Staatsanzeiger Baden-Württemberg
 date: 2026-04-05
+lastScanned: 2026-04-05
 publishedOn: 2026-04-05
 tags:
   - Medien

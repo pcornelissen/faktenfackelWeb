@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: The History Wizard
 description: Englischsprachiger Social-Media-Kanal zu Geschichte, Wissenschaft und gesellschaftlichen Themen; betrieben von einem Autor mit Master-Abschluss in Holocaust and Genocide Studies

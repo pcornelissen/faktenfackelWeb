@@ -1,5 +1,6 @@
 ---
 date: 2026-04-14
+lastScanned: 2026-04-14
 publishedOn: 2026-04-14
 name: "Hape Kerkeling"
 description: "Deutscher Komiker, Schauspieler, Autor und TV-Moderator"

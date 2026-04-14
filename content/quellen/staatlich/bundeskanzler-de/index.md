@@ -1,5 +1,6 @@
 ---
 date: 2026-01-15
+lastScanned: 2026-01-15
 publishedOn: 2026-01-18
 name: Bundeskanzler.de
 description: Bundesbehörde

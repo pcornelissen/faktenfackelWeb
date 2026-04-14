@@ -1,6 +1,7 @@
 ---
 name: newzs.de
 date: 2026-03-29
+lastScanned: 2026-03-29
 publishedOn: 2026-04-14
 tags:
   - Medien

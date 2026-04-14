@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-10
 name: Wow motherhood
 description: Englischsprachiger Facebook-Account mit politischen und gesellschaftlichen Inhalten, teils im Verschwörungsnarrativ-Format

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-10
+lastScanned: 2026-03-10
 publishedOn: 2026-03-11
 name: Ferat Koçak
 description: Bundestagsabgeordneter der Linken, Direktmandat Berlin-Neukölln, Sprecher für Antirassismus und Antifaschismus

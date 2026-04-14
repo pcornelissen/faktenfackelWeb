@@ -1,5 +1,6 @@
 ---
 date: 2026-03-26
+lastScanned: 2026-03-26
 publishedOn: 2026-01-08
 name: Andreas Audretsch
 description: Stellvertretender Fraktionsvorsitzender Bündnis 90/Die Grünen im Bundestag

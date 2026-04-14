@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Till Steffen
 description: Politiker, Bündnis 90/Die Grünen

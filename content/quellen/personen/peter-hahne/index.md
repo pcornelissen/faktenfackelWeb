@@ -1,6 +1,7 @@
 ---
 name: Peter Hahne
 date: 2026-04-01
+lastScanned: 2026-04-01
 publishedOn: 2026-04-14
 imageAuthor: "Superbass / Wikimedia Commons (CC BY-SA 4.0)"
 tags:

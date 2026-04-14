@@ -1,5 +1,6 @@
 ---
 date: 2026-04-13
+lastScanned: 2026-04-13
 publishedOn: 2026-04-14
 name: "Bundesverband Windenergie Offshore (BWO)"
 description: "Branchenverband der deutschen Offshore-Windenergie-Unternehmen"

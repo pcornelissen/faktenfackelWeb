@@ -1,5 +1,6 @@
 ---
 date: 2026-04-06
+lastScanned: 2026-04-06
 publishedOn: 2026-04-06
 name: Journalistenwatch
 description: Rechtsextremes Online-Medium mit systematischer Medienhetze und Desinformation

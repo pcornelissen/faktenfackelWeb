@@ -30,18 +30,18 @@ Einzelne kurze Videos zeigen allerdings immer nur Ausschnitte. Die zentrale Frag
 
 ### Wie groß ist der gewaltbereite "linksextremistische Block"?
 
-Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</Reference> gab es 2024
-etwa 11.200 linksextremistische Personen, darunter 8.400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</Reference>, die als besonders gewaltbereit gelten. Der Verfassungsschutz ordnet diesem Spektrum rund 5.000
+Laut dem <Reference code="verfassungsschutz-linksextremismus-zahlen-2024">Verfassungsschutz</SourceRef> gab es 2024
+etwa 11.200 linksextremistische Personen, darunter 8.400 <Reference code="verfassungsschutz-glossar-autonome">Autonome</SourceRef>, die als besonders gewaltbereit gelten. Der Verfassungsschutz ordnet diesem Spektrum rund 5.000
 Straftaten zu, darunter etwa 1.000 Gewalttaten gegen Menschen. In der Polizeistatistik für politisch motivierte
 Straftaten werden für 2024 rund 762 linksmotivierte Gewaltdelikte erfasst. Die Unterschiede zwischen
 Verfassungsschutz- und Polizeistatistik beruhen auf unterschiedlichen Kriterien und Zählweisen.
 
-Zum Vergleich: Im <Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">rechtsextremistischen Spektrum</Reference>
+Zum Vergleich: Im <Reference code="verfassungsschutz-rechtsextremismus-zahlen-2024">rechtsextremistischen Spektrum</SourceRef>
 gab es 2024 etwa 50.250 bekannte Personen, darunter 15.300 gewaltbereite Rechtsextremisten. Der Verfassungsschutz
 ordnet diesem Spektrum 37.835 Straftaten und 1.281 Gewalttaten zu. In der Polizeistatistik für politisch motivierte
 Gewaltdelikte werden rund 1.488 rechtsextrem motivierte Taten erfasst.
 
-Auch in <Reference code="statista-artikel-politische-lager-straftaten">anderen Statistiken</Reference> zeigt sich ein ähnliches Bild.
+Auch in <Reference code="statista-artikel-politische-lager-straftaten">anderen Statistiken</SourceRef> zeigt sich ein ähnliches Bild.
 
 Diese Zahlen zeigen: Gewaltaffine linksextremistische Gruppen existieren, sie bilden aber nur einen kleinen Teil aller Demonstrierenden bei linken oder antifaschistischen Protesten. Aus bundesweiten Statistiken lässt sich jedoch nicht direkt ableiten, wie hoch die konkrete Gefährdungslage in Gießen am 29. November 2025 an einer bestimmten Stelle tatsächlich war.
 
@@ -49,18 +49,18 @@ Diese Zahlen zeigen: Gewaltaffine linksextremistische Gruppen existieren, sie bi
 
 Ein großes Polizeiaufgebot ist für eine politisch aufgeladene Versammlung mit AfD-Bezug zunächst nicht ungewöhnlich. Daraus folgt aber noch nicht, dass auch jeder einzelne körperliche Einsatz gerechtfertigt war.
 
-Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</Reference> selbst, dass die Demonstration insgesamt überwiegend friedlich verlaufen sei. Auch der Bürgermeister zog mit der Formulierung <Reference code="giessen-leuchtet-2025">"Gießen hat geleuchtet, nicht gebrannt"</Reference> eine positive Gesamtbilanz des Protesttages. Das spricht gegen ein pauschales Bild einer flächendeckend eskalierten Lage.
+Die <Reference code="presseportal-blaulicht-gießen-2025">Polizei meldete</SourceRef> selbst, dass die Demonstration insgesamt überwiegend friedlich verlaufen sei. Auch der Bürgermeister zog mit der Formulierung <Reference code="giessen-leuchtet-2025">"Gießen hat geleuchtet, nicht gebrannt"</SourceRef> eine positive Gesamtbilanz des Protesttages. Das spricht gegen ein pauschales Bild einer flächendeckend eskalierten Lage.
 
 ### Wie friedlich war der Protest insgesamt?
 
-Zusätzliche Aufnahmen aus Gießen zeigen zahlreiche friedliche Szenen der Demonstration. Dazu gehören etwa die auf Instagram verbreiteten Bilder zu <Reference code="insta-till-hentschel-gießen-demo-friedlich">"Gießen brennt"</Reference> sowie ein [Kurzclip von Mittelhessen](https://www.youtube.com/shorts/M37wRPKM_Bo).
+Zusätzliche Aufnahmen aus Gießen zeigen zahlreiche friedliche Szenen der Demonstration. Dazu gehören etwa die auf Instagram verbreiteten Bilder zu <Reference code="insta-till-hentschel-gießen-demo-friedlich">"Gießen brennt"</SourceRef> sowie ein [Kurzclip von Mittelhessen](https://www.youtube.com/shorts/M37wRPKM_Bo).
 
 Solche Aufnahmen ersetzen keine genaue Rekonstruktion einzelner Konfliktsituationen. Sie sind aber als Gegenbeleg zu pauschalen Behauptungen relevant, die gesamte Demonstration sei von linker Gewalt geprägt oder insgesamt eskaliert gewesen.
 
 
 ### Das "Brückenvideo"
 
-Besonders viel Aufmerksamkeit erhielt ein Video von einer Situation an einer Brücke. Die Aufnahme wurde unter anderem von <Reference code="wikipedia-sina-reisch">Sina Reisch</Reference> verbreitet. Zusätzlich hat die [Hessenschau](https://www.hessenschau.de/panorama/demo-gegen-afd-in-giessen-das-ist-zum-video-ueber-den-b49-polizeieinsatz-bekannt-v1,video-giessen-bundesstrasse-polizei-100.html) die Sequenz und den damaligen Kenntnisstand zusammengefasst.
+Besonders viel Aufmerksamkeit erhielt ein Video von einer Situation an einer Brücke. Die Aufnahme wurde unter anderem von <Reference code="wikipedia-sina-reisch">Sina Reisch</SourceRef> verbreitet. Zusätzlich hat die [Hessenschau](https://www.hessenschau.de/panorama/demo-gegen-afd-in-giessen-das-ist-zum-video-ueber-den-b49-polizeieinsatz-bekannt-v1,video-giessen-bundesstrasse-polizei-100.html) die Sequenz und den damaligen Kenntnisstand zusammengefasst.
 
 Was auf Grundlage der öffentlich bekannten Ausschnitte gesagt werden kann:
 

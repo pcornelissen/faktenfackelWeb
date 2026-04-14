@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Labor On the Line
 description: US-amerikanisches gewerkschaftliches Medien- und Bildungsprojekt für eine kämpferische Arbeiterbewegung

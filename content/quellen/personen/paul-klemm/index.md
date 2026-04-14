@@ -1,5 +1,6 @@
 ---
 date: 2026-01-25
+lastScanned: 2026-01-25
 publishedOn: 2026-01-25
 name: Paul Klemm
 description: Compact TV, Gesellschafter CONSPECT FILM GmbH

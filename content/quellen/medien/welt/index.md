@@ -1,5 +1,6 @@
 ---
 date: 2026-01-14
+lastScanned: 2026-01-14
 publishedOn: 2026-01-14
 name: "Welt"
 description: Print und Onlinemagazin, Springer Verlag

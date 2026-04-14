@@ -1,5 +1,6 @@
 ---
 date: 2026-03-18
+lastScanned: 2026-03-18
 publishedOn: 2026-03-18
 name: Hawk's Podcasts
 description: "US-amerikanischer Podcast-Kanal eines pensionierten Rechtsanwalts mit politischem Kommentar, links-progressiv ausgerichtet"

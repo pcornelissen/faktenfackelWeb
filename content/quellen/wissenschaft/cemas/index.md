@@ -1,5 +1,6 @@
 ---
 date: 2026-04-07
+lastScanned: 2026-04-07
 publishedOn: 2026-04-07
 name: "CeMAS"
 description: "Center für Monitoring, Analyse und Strategie, Forschung zu Verschwörungsideologien und Desinformation"

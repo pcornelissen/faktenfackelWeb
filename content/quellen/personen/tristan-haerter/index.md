@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: Tristan Härter
 description: Deutscher Content-Creator und ehemaliger Lehrer aus Thüringen, kommentiert rechtsextreme Netzwerke und politische Vetternwirtschaft

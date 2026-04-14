@@ -1,5 +1,6 @@
 ---
 date: 2026-01-24
+lastScanned: 2026-01-24
 publishedOn: 2026-01-24
 name: Die Zeit
 description: Online- und Printmagazin

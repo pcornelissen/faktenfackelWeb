@@ -1,5 +1,6 @@
 ---
 date: 2026-01-16
+lastScanned: 2026-01-16
 publishedOn: 2026-01-16
 name: Prof. em. Dr. rer. soc. Dietrich Tränhardt
 description: Politikwissenschaftler und Migrationsforscher

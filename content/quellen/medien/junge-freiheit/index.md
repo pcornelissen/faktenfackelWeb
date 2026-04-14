@@ -1,5 +1,6 @@
 ---
 date: 2026-04-09
+lastScanned: 2026-04-09
 publishedOn: 2026-04-09
 name: Junge Freiheit
 description: "Rechtes Wochenblatt, Scharnier zwischen Konservativismus und Rechtsextremismus"

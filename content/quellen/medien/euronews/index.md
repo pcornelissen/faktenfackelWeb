@@ -1,5 +1,6 @@
 ---
 date: 2026-04-05
+lastScanned: 2026-04-05
 publishedOn: 2026-04-05
 name: Euronews
 description: Europäischer Nachrichtensender mit Fokus auf EU- und internationale Politik

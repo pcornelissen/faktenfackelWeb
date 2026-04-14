@@ -1,5 +1,6 @@
 ---
 date: 2026-04-07
+lastScanned: 2026-04-07
 publishedOn: 2026-04-07
 name: Eau de Paris
 description: Öffentlicher Wasserversorger der Stadt Paris nach der Rekommunalisierung 2010

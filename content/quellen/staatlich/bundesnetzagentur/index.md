@@ -1,5 +1,6 @@
 ---
 date: 2026-04-07
+lastScanned: 2026-04-07
 publishedOn: 2026-04-07
 name: Bundesnetzagentur
 description: Offizielle Regulierungsbehörde für Strom, Gas, Telekommunikation, Post und Eisenbahnen in Deutschland

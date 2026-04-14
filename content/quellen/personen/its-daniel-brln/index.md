@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-10
 name: "Daniel (its.daniel.brln)"
 description: "Berliner Content Creator (TikTok, YouTube, Facebook, Instagram) zu deutscher Politik, 234.000 TikTok-Follower"

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-27
 name: "Manuel Krauthausen"
 description: "AfD-Bundestagsabgeordneter, NRW, bekannt durch antisemitische Posts zu Jahreswechsel 2025/26"

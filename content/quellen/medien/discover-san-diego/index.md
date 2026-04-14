@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Discover San Diego
 description: US-amerikanische Facebook-Community-Seite für San Diego, dokumentiert lokale Ereignisse und Neuigkeiten

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-27
 name: Peter R. Neumann
 description: Politikwissenschaftler und Sicherheitsexperte, King's College London

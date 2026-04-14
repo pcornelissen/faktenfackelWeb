@@ -1,5 +1,6 @@
 ---
 date: 2026-04-08
+lastScanned: 2026-04-08
 publishedOn: 2026-04-08
 name: "Verband für Sicherheit in der Wirtschaft (VSW)"
 description: "Dachverband der deutschen Wirtschaftsschutzverbände, Forschung zu Desinformation und Wirtschaftssicherheit"

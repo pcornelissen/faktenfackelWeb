@@ -1,5 +1,6 @@
 ---
 date: 2026-04-13
+lastScanned: 2026-04-13
 publishedOn: 2026-04-14
 name: "Deutsche Wildtierstiftung"
 description: "Naturschutzstiftung, setzt sich für den Schutz heimischer Wildtiere und ihrer Lebensräume ein"

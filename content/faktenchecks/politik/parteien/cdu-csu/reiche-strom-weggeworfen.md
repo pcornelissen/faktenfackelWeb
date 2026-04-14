@@ -23,7 +23,7 @@ und den Einspeisevorrang für erneuerbare Energien abschaffen soll.
 
 ### Die Zahlen stimmen nicht
 
-<Reference code="correctiv-reiche-strom-drei-milliarden-weggeworfen">Correctiv bewertet die Aussage als "größtenteils falsch"</Reference>. Die tatsächlichen Kosten für das Netzengpassmanagement 2024 betrugen laut [Bundesnetzagentur](https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Einspeisemanagement/start.html) insgesamt 2,776 Milliarden Euro. Aber diese Summe setzt sich aus völlig verschiedenen Posten zusammen:
+<Reference code="correctiv-reiche-strom-drei-milliarden-weggeworfen">Correctiv bewertet die Aussage als "größtenteils falsch"</SourceRef>. Die tatsächlichen Kosten für das Netzengpassmanagement 2024 betrugen laut [Bundesnetzagentur](https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Einspeisemanagement/start.html) insgesamt 2,776 Milliarden Euro. Aber diese Summe setzt sich aus völlig verschiedenen Posten zusammen:
 
 | Posten | Kosten 2024 | Was passiert wirklich |
 |---|---|---|

@@ -1,5 +1,6 @@
 ---
 date: 2026-01-15
+lastScanned: 2026-01-15
 publishedOn: 2026-03-10
 name: SWR Kultur
 description: Kulturkanal des Südwestrundfunks

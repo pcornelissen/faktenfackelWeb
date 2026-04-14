@@ -1,5 +1,6 @@
 ---
 date: 2026-04-08
+lastScanned: 2026-04-08
 publishedOn: 2026-04-06
 name: Reuters Institute for the Study of Journalism
 description: Unabhängiges Forschungsinstitut der Universität Oxford zu Journalismus und digitalen Medien

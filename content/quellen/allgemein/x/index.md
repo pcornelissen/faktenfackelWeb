@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+lastScanned: 2026-01-09
 publishedOn: 2026-01-25
 name: X (Twitter) Beiträge
 description: Beiträge von diversen Accounts auf X.com

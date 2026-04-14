@@ -1,5 +1,6 @@
 ---
 date: 2026-03-26
+lastScanned: 2026-03-26
 publishedOn: 2026-04-14
 name: Markus Krall
 description: Autor, Unternehmer und AfD-naher Wirtschaftskommentator

@@ -1,5 +1,6 @@
 ---
 date: 2026-01-19
+lastScanned: 2026-01-19
 publishedOn: 2026-02-17
 name: Die "Alternative für Deutschland"
 description: Partei

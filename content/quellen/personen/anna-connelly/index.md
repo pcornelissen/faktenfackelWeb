@@ -1,5 +1,6 @@
 ---
 date: 2026-01-11
+lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Anna Connelly
 image: profile.webp

@@ -1,5 +1,6 @@
 ---
 date: 2026-02-10
+lastScanned: 2026-02-10
 publishedOn: 2026-02-13
 name: Andreas Winhart
 description: AfD Politiker

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-10
 name: Laura High
 description: US-amerikanische Digital Creatorin und SAG-AFTRA-Mitglied, kommentiert US-Politik, Verfassungsrechte und gesellschaftliche Themen

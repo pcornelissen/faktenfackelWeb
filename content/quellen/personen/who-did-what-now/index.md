@@ -1,5 +1,6 @@
 ---
 date: 2026-03-10
+lastScanned: 2026-03-10
 publishedOn: 2026-03-10
 name: Who Did What Now?
 description: Podcast und Social-Media-Kanal von Historikerin Katie Charlwood

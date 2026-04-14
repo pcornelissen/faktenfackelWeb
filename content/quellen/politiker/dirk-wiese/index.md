@@ -1,5 +1,6 @@
 ---
 date: 2026-01-07
+lastScanned: 2026-01-07
 publishedOn: 2026-01-08
 name: Dirk Wiese
 description: Politiker, SPD

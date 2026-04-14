@@ -1,5 +1,6 @@
 ---
 date: 2026-01-18
+lastScanned: 2026-01-18
 publishedOn: 2026-01-19
 name: Hessenschau
 description: Nachrichtenmagazin des Hessischen Rundfunks

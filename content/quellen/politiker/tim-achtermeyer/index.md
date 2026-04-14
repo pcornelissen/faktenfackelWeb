@@ -1,5 +1,6 @@
 ---
 date: 2026-03-10
+lastScanned: 2026-03-10
 publishedOn: 2026-03-11
 name: Tim Achtermeyer
 description: MdL NRW und Landesvorsitzender von Bündnis 90/Die Grünen NRW

@@ -3,7 +3,7 @@ const props = defineProps<{
   name: string
 }>()
 
-const { data: source } = await useAsyncData(
+const { data: source } = useAsyncData(
   `source-${props.name}`,
   () => queryCollection('quellen')
     .where('path', 'LIKE', `%/${props.name}`)

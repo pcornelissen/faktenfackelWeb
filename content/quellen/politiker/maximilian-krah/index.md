@@ -1,5 +1,6 @@
 ---
 date: 2026-01-09
+lastScanned: 2026-01-09
 publishedOn: 2026-02-20
 name: Maximilian Krah
 description: AfD Politiker und Jurist

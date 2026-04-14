@@ -1,5 +1,6 @@
 ---
 date: 2026-04-13
+lastScanned: 2026-04-13
 publishedOn: 2026-04-14
 name: "Spoor"
 description: "KI-Unternehmen, spezialisiert auf automatisierte Beobachtung von Vogelbewegungen rund um Windkraftanlagen"

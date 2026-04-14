@@ -1,5 +1,6 @@
 ---
 date: 2026-01-30
+lastScanned: 2026-01-30
 publishedOn: 2026-01-30
 name: Ulrich Siegmund
 description: AfD Politiker, Bachelor of Arts (Wirtschaftspsychologie, BWL)

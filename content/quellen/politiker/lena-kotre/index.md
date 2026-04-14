@@ -1,5 +1,6 @@
 ---
 date: 2026-03-08
+lastScanned: 2026-03-08
 publishedOn: 2026-02-27
 name: Lena Kotré
 description: Politikerin, Juristin, AfD

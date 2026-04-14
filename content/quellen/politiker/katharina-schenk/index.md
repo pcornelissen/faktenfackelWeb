@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-27
 name: Katharina Schenk
 description: SPD-Politikerin, Thüringische Ministerin für Soziales, Gesundheit, Arbeit und Familie

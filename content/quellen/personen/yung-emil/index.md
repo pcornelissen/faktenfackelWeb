@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-10
 name: Yung Emil
 description: Deutscher Digital Creator mit politischen Kommentaren zu Medien, AfD und gesellschaftlichen Themen

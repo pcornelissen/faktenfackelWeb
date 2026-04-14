@@ -1,5 +1,6 @@
 ---
 date: 2026-04-08
+lastScanned: 2026-04-08
 publishedOn: 2026-04-06
 name: DellaVigna & Kaplan (2007), The Fox News Effect
 description: Ökonometrische Studie zum kausalen Einfluss von Fox News auf das Wahlverhalten in den USA

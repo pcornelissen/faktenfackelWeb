@@ -1,5 +1,6 @@
 ---
 date: 2026-03-28
+lastScanned: 2026-03-28
 publishedOn: 2026-03-28
 name: Dieter Nuhr
 description: Kabarettist und ARD-Moderator, bekannt für rechtspopulistische Narrative unter dem Deckmantel der Satire
@@ -61,7 +62,7 @@ Kulturkritiker [Magnus Klaue (Der Freitag)](https://www.freitag.de/autoren/magnu
 
 ## Faktenfackel Bewertung
 
-Dieter Nuhr ist keine verlässliche Quelle für faktische Aussagen zu Wirtschaft, Klima, Wissenschaft oder Migration. Seine Stärke liegt in der Unterhaltung, nicht in der Analyse. Wiederholt hat er Behauptungen aufgestellt, die nachweislich falsch oder zumindest stark irreführend sind, etwa zu E-Autos, zur angeblichen Abgabenlast oder zum Sozialstaat. Im Maischberger-Auftritt vom April 2025 suggerierte er, dass sich Mehrarbeit wegen zu hoher Steuern und Abgaben nicht lohne. Der eigentliche Mechanismus ist die <Reference code="maurice-hoefgen-dieter-nuhr-maischberger-faktencheck">Transferentzugsrate</Reference>: Sozialleistungen werden bei steigendem Einkommen rasch abgebaut, ein Problem, das höhere Staatsausgaben erfordern würde, nicht niedrigere. Seine Verwendung von unbelegten Anekdoten als emotionale Argumente in Talkshows, und die fehlende Nachfrage durch die Moderatorin, ist journalistisch problematisch.
+Dieter Nuhr ist keine verlässliche Quelle für faktische Aussagen zu Wirtschaft, Klima, Wissenschaft oder Migration. Seine Stärke liegt in der Unterhaltung, nicht in der Analyse. Wiederholt hat er Behauptungen aufgestellt, die nachweislich falsch oder zumindest stark irreführend sind, etwa zu E-Autos, zur angeblichen Abgabenlast oder zum Sozialstaat. Im Maischberger-Auftritt vom April 2025 suggerierte er, dass sich Mehrarbeit wegen zu hoher Steuern und Abgaben nicht lohne. Der eigentliche Mechanismus ist die <Reference code="maurice-hoefgen-dieter-nuhr-maischberger-faktencheck">Transferentzugsrate</SourceRef>: Sozialleistungen werden bei steigendem Einkommen rasch abgebaut, ein Problem, das höhere Staatsausgaben erfordern würde, nicht niedrigere. Seine Verwendung von unbelegten Anekdoten als emotionale Argumente in Talkshows, und die fehlende Nachfrage durch die Moderatorin, ist journalistisch problematisch.
 
 Das Muster, rechts-affine Narrative als "neutrale Fragen" zu verpacken und Kritik daran als Meinungsunterdrückung zu rahmen, macht Nuhrs Auftritte besonders wirkmächtig und gefährlich: Das Publikum nimmt die Narrative auf, ohne sie als politische Aussagen zu identifizieren.
 

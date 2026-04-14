@@ -66,7 +66,7 @@ In den Medien landet aber am Ende die Schlagzeile "AfD-Kandidat wird an Wahlkamp
 
 ### Was zeigt das Video?
 
-Ein <Reference code="winhart-rosenheim-konfrontation">Video von Sinom Tiew auf Bluesky</Reference> dokumentiert den vollständigen Vorfall über rund zwei Minuten. Es zeigt klar die zeitliche Abfolge:
+Ein <Reference code="winhart-rosenheim-konfrontation">Video von Sinom Tiew auf Bluesky</SourceRef> dokumentiert den vollständigen Vorfall über rund zwei Minuten. Es zeigt klar die zeitliche Abfolge:
 
 1. Die Gegendemonstrantengruppe passiert den AfD-Stand mit einem **zusammengefalteten** Banner, das den Boden leicht berührt, sie bewegen sich am Stand vorbei.
 2. **Winhart tritt vom Stand vor** und greift nach dem Banner.
@@ -74,7 +74,7 @@ Ein <Reference code="winhart-rosenheim-konfrontation">Video von Sinom Tiew auf B
 4. Maurer, der sich aktiv in das Gerangel einmischt, stürzt in dem Gemenge.
 5. Weder Schläge noch Tritte gegen Maurer sind auf dem Video erkennbar.
 
-Die <Reference code="taz-rosenheim-afd-schwalbe">taz</Reference> beschreibt den Videobeweis entsprechend deutlich: Das
+Die <Reference code="taz-rosenheim-afd-schwalbe">taz</SourceRef> beschreibt den Videobeweis entsprechend deutlich: Das
 Video zeige lediglich "ein Tauziehen und Gerangel um ein Banner, im Zuge dessen der besagte 70-Jährige sich selbst ins
 Getümmel begibt und daraufhin tatsächlich hinfällt oder sich fallen lässt. Keine Spur von gefährlicher
 Körperverletzung."
@@ -95,13 +95,13 @@ Maurer erschien nach taz-Angaben bei der Polizei, sah sich das Video an und stel
 
 > Der AfD-Bürgermeisterkandidat ist noch gestern bei der Polizei erschienen, hat das Video des Vorfalls in Augenschein genommen und festgestellt, dass er nicht geschlagen wurde. Entsprechend hält er den Vorwurf der Körperverletzung nicht mehr aufrecht.
 
-Die Staatsanwaltschaft prüft nun ihrerseits, ob gegen Maurer Ermittlungen **wegen falscher Verdächtigung und Vortäuschens einer Straftat** einzuleiten sind. Wie <Reference code="t-online-rosenheim-afd-kandidat">t-online berichtet</Reference>, könnte das mutmaßliche Opfer nach der Wahl selbst zum Verdächtigen werden.
+Die Staatsanwaltschaft prüft nun ihrerseits, ob gegen Maurer Ermittlungen **wegen falscher Verdächtigung und Vortäuschens einer Straftat** einzuleiten sind. Wie <Reference code="t-online-rosenheim-afd-kandidat">t-online berichtet</SourceRef>, könnte das mutmaßliche Opfer nach der Wahl selbst zum Verdächtigen werden.
 
 ### Wie die Falschinformation entstand
 
 Die Polizei Rosenheim veröffentlichte eine Pressemitteilung, bevor sie die Gegenseite gehört hatte. Aus einer
 einseitigen Darstellung wurde dadurch schnell eine scheinbar amtlich bestätigte Tatsache, die
-<Reference code="volksverpetzer-rosenheim-afd-angriff">Medien bundesweit unkritisch übernahmen</Reference>. Besonders
+<Reference code="volksverpetzer-rosenheim-afd-angriff">Medien bundesweit unkritisch übernahmen</SourceRef>. Besonders
 paradox: AfD-Accounts behaupteten gleichzeitig, die Medien würden den Vorfall "verschweigen", obwohl viele Berichte
 zunächst genau die AfD-Version wiedergaben.
 
@@ -116,6 +116,6 @@ unkritische Polizeimeldung rasch zur scheinbar gesicherten Tatsache, bis das Vid
 mediale Schaden entstand damit schon, bevor die Korrektur öffentlich wirksam werden konnte.
 
 Vergleichbare Muster sind kein Einzelfall: Auch bei einem <Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in
-Sachsen-Anhalt</Reference> griff das Umfeld Journalisten an, während die Polizei untätig blieb. In einem weiteren
+Sachsen-Anhalt</SourceRef> griff das Umfeld Journalisten an, während die Polizei untätig blieb. In einem weiteren
 dokumentierten Fall <Reference code="der-dara-afd-linker-angriff-videobeweis">behauptete die AfD einen "linken
-Angriff"; auch dort widerlegte ein Video die Behauptung und führte zu Verfahren gegen AfD-Mitglieder selbst</Reference>.
+Angriff"; auch dort widerlegte ein Video die Behauptung und führte zu Verfahren gegen AfD-Mitglieder selbst</SourceRef>.

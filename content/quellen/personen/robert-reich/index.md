@@ -1,5 +1,6 @@
 ---
 date: 2026-04-10
+lastScanned: 2026-04-10
 publishedOn: 2026-04-10
 name: "Robert Reich"
 description: "US-Ökonom, ehemaliger Arbeitsminister, Professor in Berkeley, Autor und politischer Kommentator"

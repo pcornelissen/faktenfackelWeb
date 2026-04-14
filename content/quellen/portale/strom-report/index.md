@@ -1,5 +1,6 @@
 ---
 date: 2026-04-07
+lastScanned: 2026-04-07
 publishedOn: 2026-04-07
 name: Strom-Report
 description: Unabhängiges Energie-Informationsportal mit Datenauswertungen zu Strompreisen und Energiemarkt, basierend auf Eurostat- und BDEW-Daten

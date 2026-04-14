@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Dr. Alice Mann
 description: US-amerikanische Ärztin und DFL-Politikerin, Minnesota State Senate District 50

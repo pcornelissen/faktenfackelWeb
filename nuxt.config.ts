@@ -158,8 +158,8 @@ export default defineNuxtConfig({
 
       // Referenz-Codes aus dem Rohtext extrahieren (für referencesStore)
       const referenceCodes = [
-        ...[...text.matchAll(/<[Rr]eference\b[^>]*\bcode="([^"]+)"/g)].map(m => m[1]),
-        ...[...text.matchAll(/:reference\{[^}]*code="([^"]+)"/g)].map(m => m[1]),
+        ...[...text.matchAll(/<[Ss]ource[Rr]ef\b[^>]*\bcode="([^"]+)"/g)].map(m => m[1]),
+        ...[...text.matchAll(/:source-ref\{[^}]*code="([^"]+)"/g)].map(m => m[1]),
       ]
       const quoteCodes = [
         ...[...text.matchAll(/<[Qq]uote[Rr]eference\b[^>]*\bcode="([^"]+)"/g)].map(m => m[1]),
@@ -167,6 +167,16 @@ export default defineNuxtConfig({
       ]
       if (referenceCodes.length) content.referenceCodes = [...new Set(referenceCodes)]
       if (quoteCodes.length) content.quoteCodes = [...new Set(quoteCodes)]
+
+      // :quelle-ref{name="..."} und <QuelleRef name="..."/> Tags aus dem Rohtext in coSources mergen
+      const sourceTags = [
+        ...[...text.matchAll(/:quelle-ref\{[^}]*name="([^"]+)"/g)].map(m => m[1]),
+        ...[...text.matchAll(/<[Qq]uelle[Rr]ef\b[^>]*\bname="([^"]+)"/g)].map(m => m[1]),
+      ]
+      if (sourceTags.length) {
+        const existing = Array.isArray(content.coSources) ? content.coSources as string[] : []
+        content.coSources = [...new Set([...existing, ...sourceTags])]
+      }
     },
   },
   eslint: {

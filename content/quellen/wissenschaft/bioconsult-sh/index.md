@@ -1,5 +1,6 @@
 ---
 date: 2026-04-13
+lastScanned: 2026-04-13
 publishedOn: 2026-04-14
 name: "BioConsult SH"
 description: "Wissenschaftliches Planungs- und Beratungsbüro für Naturschutz und Umweltplanung, spezialisiert auf Meereskunde und Vogelkunde"

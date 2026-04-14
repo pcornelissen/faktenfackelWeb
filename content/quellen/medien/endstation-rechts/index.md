@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Endstation Rechts.
 description: Deutsches Recherche- und Informationsportal zu Rechtsextremismus

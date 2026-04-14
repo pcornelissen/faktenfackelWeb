@@ -1,5 +1,6 @@
 ---
 date: 2026-01-19
+lastScanned: 2026-01-19
 publishedOn: 2026-01-24
 name: Cicero
 description: Magazin für politische Themen, Res Publica Verlags GmbH

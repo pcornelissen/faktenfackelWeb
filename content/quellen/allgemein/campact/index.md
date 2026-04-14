@@ -1,5 +1,6 @@
 ---
 date: 2026-03-26
+lastScanned: 2026-03-26
 publishedOn: 2026-03-10
 name: Campact e.V.
 description: Deutsche Online-Kampagnenorganisation für politisches Engagement

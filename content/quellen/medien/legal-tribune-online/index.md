@@ -1,5 +1,6 @@
 ---
 date: 2026-01-24
+lastScanned: 2026-01-24
 publishedOn: 2026-01-24
 name: Legal Tribune Online
 description: Online- und Printmagazin

@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Gute Nacht Österreich
 description: Österreichisches Politsatire-Format, ORF

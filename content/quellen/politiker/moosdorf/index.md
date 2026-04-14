@@ -1,5 +1,6 @@
 ---
 date: 2026-04-14
+lastScanned: 2026-04-14
 publishedOn: 2026-04-13
 name: "Matthias Moosdorf"
 description: "AfD-Bundestagsabgeordneter, Violoncellist und Musikwissenschaftler, Jahrgang 1963"

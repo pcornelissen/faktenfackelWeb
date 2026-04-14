@@ -1,6 +1,7 @@
 ---
 name: "ZDF heute"
 date: 2026-04-14
+lastScanned: 2026-04-14
 publishedOn: 2026-04-14
 tags:
   - Medien

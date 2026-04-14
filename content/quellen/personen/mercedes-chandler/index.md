@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: Mercedes Chandler
 description: US-amerikanische Content-Creatorin (CampCallOut), die als ehemalige konservative MAGA-Influencerin nun progressive politische Kommentare postet

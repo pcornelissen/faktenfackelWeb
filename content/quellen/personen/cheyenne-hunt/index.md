@@ -1,5 +1,6 @@
 ---
 date: 2026-03-27
+lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: Cheyenne Hunt
 description: US-amerikanische Anwältin, politische Kommentatorin und Content Creatorin

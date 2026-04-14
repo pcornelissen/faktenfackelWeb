@@ -66,6 +66,7 @@ export default defineContentConfig({
       source: 'quellen/*/*/*.md',
       schema: z.object({
         date: z.date(),
+        lastScanned: z.date(),
         name: z.string(),
         description: z.string(),
         publishedOn: z.date().or(z.null()),
@@ -90,6 +91,7 @@ export default defineContentConfig({
       source: 'quellen/*/*/links/**/*.md',
       schema: z.object({
         date: z.date(),
+        lastScanned: z.date(),
         sourceDate: z.date(),
         code: z.string(),
         title: z.string(),

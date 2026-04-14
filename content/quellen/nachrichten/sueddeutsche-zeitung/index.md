@@ -1,5 +1,6 @@
 ---
 date: 2026-03-09
+lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Süddeutsche Zeitung
 description: Überregionale deutsche Tageszeitung, München

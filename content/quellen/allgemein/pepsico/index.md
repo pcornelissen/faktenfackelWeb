@@ -1,5 +1,6 @@
 ---
 date: 2026-04-13
+lastScanned: 2026-04-13
 publishedOn: 2026-04-13
 name: "PepsiCo"
 image: profile.webp

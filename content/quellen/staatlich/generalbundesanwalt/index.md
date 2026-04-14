@@ -1,5 +1,6 @@
 ---
 date: 2026-04-10
+lastScanned: 2026-04-10
 publishedOn: 2026-04-10
 name: "Generalbundesanwalt"
 description: "Bundesanwaltschaft beim Bundesgerichtshof, zuständig für Staatsschutzdelikte und Terrorismus"

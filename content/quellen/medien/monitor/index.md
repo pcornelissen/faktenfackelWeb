@@ -1,5 +1,6 @@
 ---
 date: 2026-01-29
+lastScanned: 2026-01-29
 publishedOn: 2026-01-30
 name: Monitor
 description: ARD-Politmagazin, TV-Format

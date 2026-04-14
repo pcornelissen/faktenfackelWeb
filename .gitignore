@@ -30,5 +30,5 @@ logs
 #temp files
 **/~$*
 
-# Generierter Quellen-Index (via pnpm sourceIndex)
-_sourceindex.json
+# Hinweis: _sourceindex.json und _summaries-cache.json werden bewusst getrackt,
+# damit Agents sie ohne Regenerierung lesen können.
