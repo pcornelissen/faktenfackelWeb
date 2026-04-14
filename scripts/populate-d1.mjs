@@ -15,37 +15,42 @@ import { gunzipSync } from 'node:zlib'
 const DB_NAME = 'fackel1'
 const COLLECTIONS = ['news', 'glossar', 'zitate', 'faktenchecks', 'lagerfeuer', 'quellen', 'quellenlinks']
 
-let ok = 0
-let skipped = 0
-
+// Alle Dumps einlesen und dekodieren
+const dumps = []
 for (const collection of COLLECTIONS) {
   const dumpFile = `.output/public/dump.${collection}.sql`
-
-  if (!existsSync(dumpFile)) {
-    console.log(`⏭  ${collection}: kein Dump gefunden, übersprungen`)
-    skipped++
-    continue
-  }
-
-  process.stdout.write(`📥 ${collection}: Dekodiere...`)
+  if (!existsSync(dumpFile)) continue
   const compressed = readFileSync(dumpFile, 'utf8').trim()
   const decompressed = gunzipSync(Buffer.from(compressed, 'base64')).toString('utf8')
-  const statements = JSON.parse(decompressed)
+  dumps.push({ collection, statements: JSON.parse(decompressed) })
+}
 
-  // Tabellennamen aus CREATE TABLE-Statements extrahieren und vorher droppen,
-  // damit veraltete Einträge entfernt werden und UNIQUE-Constraints nicht feuern
-  const dropStatements = statements
-    .filter(s => /^CREATE TABLE/i.test(s))
-    .map((s) => {
-      const match = s.match(/^CREATE TABLE(?:\s+IF NOT EXISTS)?\s+"?(\w+)"?/i)
-      return match ? `DROP TABLE IF EXISTS "${match[1]}";` : null
-    })
-    .filter(Boolean)
+// Alle Tabellennamen aus allen Dumps einsammeln und vorab droppen
+const allTables = new Set()
+for (const { statements } of dumps) {
+  for (const s of statements) {
+    const match = s.match(/^CREATE TABLE(?:\s+IF NOT EXISTS)?\s+"?(\w+)"?/i)
+    if (match) allTables.add(match[1])
+  }
+}
 
+if (allTables.size > 0) {
+  console.log(`🗑  Droppe ${allTables.size} Tabellen: ${[...allTables].join(', ')}`)
+  const dropSql = [...allTables].map(t => `DROP TABLE IF EXISTS "${t}";`).join('\n')
+  writeFileSync('/tmp/d1_drop_all.sql', dropSql)
+  execFileSync('npx', ['wrangler', 'd1', 'execute', DB_NAME, '--remote', '--file', '/tmp/d1_drop_all.sql'], {
+    stdio: ['ignore', 'ignore', 'inherit'],
+  })
+}
+
+// Collections importieren
+let ok = 0
+let skipped = COLLECTIONS.length - dumps.length
+
+for (const { collection, statements } of dumps) {
+  process.stdout.write(`📥 ${collection}: ${statements.length} Statements (${(JSON.stringify(statements).length / 1024).toFixed(0)} KB)... `)
   const sqlFile = `/tmp/d1_dump_${collection}.sql`
-  writeFileSync(sqlFile, [...dropStatements, ...statements].join('\n'))
-  process.stdout.write(` ${statements.length} Statements (${(decompressed.length / 1024).toFixed(0)} KB)... `)
-
+  writeFileSync(sqlFile, statements.join('\n'))
   execFileSync('npx', ['wrangler', 'd1', 'execute', DB_NAME, '--remote', '--file', sqlFile], {
     stdio: ['ignore', 'ignore', 'inherit'],
   })
