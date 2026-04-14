@@ -55,11 +55,23 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: node scripts/indexnow.mjs
 
+      - name: Warm up Worker
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          echo "Warte auf Worker-Initialisierung (D1 cold start)..."
+          for i in {1..10}; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 120 https://faktenfackel.de/faktenchecks/)
+            echo "Versuch $i: HTTP $STATUS"
+            if [ "$STATUS" = "200" ]; then echo "Worker bereit."; break; fi
+            sleep 15
+          done
+
       - name: Install Playwright
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: npx playwright install --with-deps chromium
 
       - name: Smoke Tests
+
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: pnpm test:smoke
         env:
