@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-15T10:53:26.340Z",
+  "generatedAt": "2026-04-15T12:30:29.705Z",
   "stats": {
-    "sources": 301,
-    "links": 597,
+    "sources": 302,
+    "links": 599,
     "quotes": 25,
     "groups": 12,
-    "codes": 614
+    "codes": 616
   },
   "sources": [
     {
@@ -129,6 +129,18 @@
         "Konzern"
       ],
       "date": "2026-04-13",
+      "hasImage": true
+    },
+    {
+      "path": "allgemein/quora",
+      "group": "allgemein",
+      "slug": "quora",
+      "name": "Quora",
+      "tags": [
+        "research-done-review-pending",
+        "Plattform"
+      ],
+      "date": "2026-04-15",
       "hasImage": true
     },
     {
@@ -2563,8 +2575,7 @@
       "name": "Andreas Bühl",
       "tags": [
         "CDU",
-        "Thüringen",
-        "research-done-review-pending"
+        "Thüringen"
       ],
       "date": "2026-04-15",
       "hasImage": true
@@ -2634,8 +2645,7 @@
       "tags": [
         "AfD",
         "Thüringen",
-        "Rechtsextremismus",
-        "research-done-review-pending"
+        "Rechtsextremismus"
       ],
       "date": "2026-04-15",
       "hasImage": true
@@ -7192,6 +7202,26 @@
       "lastScanned": "2026-03-27",
       "sourceDate": "2026-01-14",
       "coSources": []
+    },
+    {
+      "path": "medien/die-Zeit/links/20250728.kriminalbeamte-warnung-minderheiten-syrien",
+      "source": "medien/die-Zeit",
+      "code": "die-zeit-kriminalbeamte-minderheiten-syrien",
+      "title": "Kriminalbeamte warnen vor Angriffen auf Minderheiten in Deutschland",
+      "summary": "Zeit.de-Artikel vom 28. Juli 2025: Der BDK-Vorsitzende Dirk Peglow warnt, dass in Deutschland lebende Islamisten offen zur Gewalt gegen geflüchtete Minderheiten aufrufen, insbesondere nach den Anschlägen auf die Drusen-Gemeinschaft in Suweida/Syri...",
+      "uri": "https://www.zeit.de/gesellschaft/2025-07/syrien-deutschland-minderheiten-angriffe-suweida-kriminalbeamte-bund",
+      "type": "article",
+      "tags": [
+        "Syrien",
+        "Islamismus",
+        "Minderheiten",
+        "Drusen"
+      ],
+      "date": "2025-07-28",
+      "lastScanned": "2026-04-15",
+      "coSources": [
+        "bdk"
+      ]
     },
     {
       "path": "medien/discover-san-diego/links/20260111.discover-san-diego-proteste-downtown-global-aufmerksamkeit",
@@ -13851,6 +13881,30 @@
       "coSources": [
         "Alice Weidel",
         "stephanie-probst"
+      ]
+    },
+    {
+      "path": "allgemein/quora/links/20250729.afd-bdk-syrien-warnung",
+      "source": "allgemein/quora",
+      "code": "quora-afd-bdk-syrien-warnung",
+      "title": "AfD habe vor BDK-Warnung zu Syrien schon immer gewarnt",
+      "summary": "Quora-Post des Nutzers \"Friedrich\" (selbstbezeichneter \"Anhänger des Isekaiismus\", kein politischer Akteur), der eine echte Warnung des Bundes Deutscher Kriminalbeamter als nachträgliche Bestätigung der AfD-Migrationspolitik rahmt. Der Text behaup...",
+      "uri": "https://de.quora.com/profile/Friedrich-1/Der-Bund-Deutscher-Kriminalbeamter-benennt-nun-das-wovor-die-AfD-schon-seit-Jahren-warnt-Die-Entwicklungen-in-Syrien?ch=10&oid=229055134&share=1ef50d9b&srid=umK2YP&target_type=post",
+      "type": "post",
+      "tags": [
+        "research-done-review-pending",
+        "AfD",
+        "Syrien",
+        "Islamismus",
+        "Migration",
+        "Desinformation"
+      ],
+      "date": "2025-07-29",
+      "lastScanned": "2026-04-15",
+      "verdict": "misleading",
+      "coSources": [
+        "afd",
+        "bdk"
       ]
     },
     {
