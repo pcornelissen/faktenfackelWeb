@@ -88,6 +88,7 @@ await referencesStore.fetchFor(sourceInfo.value)
             width="180"
             height="180"
             class="img"
+            @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
           >
           <div class="source-author">
             {{ calculateSourceImgAuthor(sourceInfo) }}

@@ -184,6 +184,7 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
                     :title="calculateSourceImgAuthor(source)"
                     :alt="calculateSourceImgAuthor(source)"
                     class="source-img"
+                    @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
                   >
                   <span class="source-name">{{ source.name }}</span>
                 </a>

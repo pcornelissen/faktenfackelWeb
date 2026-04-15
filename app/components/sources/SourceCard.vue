@@ -20,6 +20,7 @@ const source = props.source
         width="200"
         height="60"
         class="card-img"
+        @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
       >
     </div>
     <div class="card-body">

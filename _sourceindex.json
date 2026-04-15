@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-14T09:45:52.225Z",
+  "generatedAt": "2026-04-15T10:53:26.340Z",
   "stats": {
-    "sources": 299,
-    "links": 596,
+    "sources": 301,
+    "links": 597,
     "quotes": 25,
     "groups": 12,
-    "codes": 613
+    "codes": 614
   },
   "sources": [
     {
@@ -141,7 +141,7 @@
         "IT-Unternehmen"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "allgemein/tiktok",
@@ -167,7 +167,7 @@
         "Schweden"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "allgemein/we-are-watching-you",
@@ -450,7 +450,7 @@
         "TV"
       ],
       "date": "2026-04-05",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/fakten-gegen-rechts",
@@ -509,7 +509,7 @@
         "Hessen"
       ],
       "date": "2026-04-05",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/gute-nacht-oesterreich",
@@ -604,7 +604,7 @@
         "Desinformation"
       ],
       "date": "2026-04-06",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/junge-freiheit",
@@ -786,7 +786,7 @@
         "Journalismus"
       ],
       "date": "2026-04-05",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/newzs",
@@ -912,7 +912,7 @@
         "baden-württemberg"
       ],
       "date": "2026-04-05",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/swr-kultur",
@@ -954,7 +954,7 @@
         "Berlin"
       ],
       "date": "2026-04-05",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/taz",
@@ -1068,7 +1068,7 @@
         "Desinformation"
       ],
       "date": "2026-04-05",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "medien/welt",
@@ -1259,7 +1259,7 @@
         "Windkraft"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "ngo/cato-institute",
@@ -1302,7 +1302,7 @@
         "Tierschutz"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "ngo/frag-den-staat",
@@ -1401,7 +1401,7 @@
         "Desinformation"
       ],
       "date": "2026-04-08",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "parteien/afd",
@@ -1430,7 +1430,7 @@
         "Parteien"
       ],
       "date": "2026-04-14",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "parteien/die-linke",
@@ -2557,6 +2557,19 @@
       "hasImage": true
     },
     {
+      "path": "politiker/andreas-buehl",
+      "group": "politiker",
+      "slug": "andreas-buehl",
+      "name": "Andreas Bühl",
+      "tags": [
+        "CDU",
+        "Thüringen",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-15",
+      "hasImage": true
+    },
+    {
       "path": "politiker/andreas-winhart",
       "group": "politiker",
       "slug": "andreas-winhart",
@@ -2614,6 +2627,20 @@
       "hasImage": true
     },
     {
+      "path": "politiker/bjoern-hoecke",
+      "group": "politiker",
+      "slug": "bjoern-hoecke",
+      "name": "Björn Höcke",
+      "tags": [
+        "AfD",
+        "Thüringen",
+        "Rechtsextremismus",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-15",
+      "hasImage": true
+    },
+    {
       "path": "politiker/buddy-carter",
       "group": "politiker",
       "slug": "buddy-carter",
@@ -2626,7 +2653,7 @@
         "MAGA"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "politiker/christopher-emden",
@@ -3176,7 +3203,7 @@
         "MAGA"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "politiker/moosdorf",
@@ -3539,7 +3566,7 @@
         "Europa"
       ],
       "date": "2026-04-07",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "portale/wikipedia",
@@ -3579,7 +3606,7 @@
         "Primärquelle"
       ],
       "date": "2026-04-06",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "staatlich/bfa",
@@ -3695,7 +3722,7 @@
         "Primärquelle"
       ],
       "date": "2026-04-07",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "staatlich/bundestag",
@@ -3739,7 +3766,7 @@
         "Gericht"
       ],
       "date": "2026-04-05",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "staatlich/eaudeparis",
@@ -3756,7 +3783,7 @@
         "Primärquelle"
       ],
       "date": "2026-04-07",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "staatlich/europarl",
@@ -3855,7 +3882,7 @@
         "Regulierung"
       ],
       "date": "2026-04-08",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "staatlich/landtag-sachsen-anhalt",
@@ -3951,7 +3978,7 @@
         "Wissenschaft"
       ],
       "date": "2026-04-13",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "wissenschaft/cemas",
@@ -3965,7 +3992,7 @@
         "Forschung"
       ],
       "date": "2026-04-07",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "wissenschaft/charles-mcbryde",
@@ -3995,7 +4022,7 @@
         "USA"
       ],
       "date": "2026-04-08",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "wissenschaft/dietrich-tranhardt",
@@ -4273,7 +4300,7 @@
         "Forschung"
       ],
       "date": "2026-04-08",
-      "hasImage": false
+      "hasImage": true
     },
     {
       "path": "wissenschaft/trevor-poutine",
@@ -5435,7 +5462,7 @@
         "Rente"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-02-11",
       "coSources": []
     },
@@ -5607,7 +5634,7 @@
         "Ländlicher Raum"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-14",
       "coSources": []
     },
@@ -6764,11 +6791,10 @@
       "tags": [
         "Kriminalität",
         "Migration",
-        "CDU",
-        "Friedrich Merz"
+        "CDU"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-10-23",
       "coSources": []
     },
@@ -6903,7 +6929,7 @@
         "Wirtschaft"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-02-14",
       "coSources": []
     },
@@ -7629,7 +7655,7 @@
         "EU-Parlament"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-02-14",
       "coSources": []
     },
@@ -8510,7 +8536,7 @@
         "Beamte"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-11",
       "coSources": [
         "erik-türk"
@@ -10421,7 +10447,7 @@
         "Arbeitsmarkt"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-11-18",
       "coSources": []
     },
@@ -10437,8 +10463,8 @@
         "Kriminalität",
         "Migration"
       ],
-      "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "date": "2026-04-14",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-18",
       "coSources": []
     },
@@ -10455,7 +10481,7 @@
         "Steuern"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-11-18",
       "coSources": []
     },
@@ -10599,7 +10625,7 @@
         "Arbeitsmarkt"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-05-01",
       "coSources": [
         "uni-duisburg-essen",
@@ -10643,7 +10669,7 @@
         "SPD"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-11",
       "coSources": [
         "baerbel-bas"
@@ -10662,7 +10688,7 @@
         "Selbständigkeit"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-11",
       "coSources": [
         "focus",
@@ -10980,7 +11006,7 @@
         "Arbeitsmarkt"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-15",
       "coSources": []
     },
@@ -11296,7 +11322,7 @@
         "Wirtschaft"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-02-14",
       "coSources": []
     },
@@ -12180,7 +12206,7 @@
         "Arbeitsmarkt"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-15",
       "coSources": [
         "dietrich-tränhardt"
@@ -12380,7 +12406,7 @@
         "Frauenrechte"
       ],
       "date": "2025-10-08",
-      "lastScanned": "2025-10-08",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2025-10-08",
       "coSources": []
     },
@@ -13196,6 +13222,29 @@
       "coSources": []
     },
     {
+      "path": "medien/no-afd/links/20260414.buehl-hoecke-druck-thueringen",
+      "source": "medien/no-afd",
+      "code": "no-afd-buehl-hoecke-druck-thueringen",
+      "title": "Andreas Bühl (CDU) rechnet mit Höcke ab: Kein Bekenntnis zu Deutschland, kein Amtseid möglich",
+      "summary": "CDU-Fraktionsmitglied Andreas Bühl hält im Thüringer Landtag eine direkte Abrechnung mit Björn Höcke, vermutlich im Kontext eines AfD-Misstrauensvotums. Bühl wirft Höcke vor, keine mehrheitsfähige Politik für Thüringen anzubieten, und thematisiert...",
+      "uri": "https://www.facebook.com/reel/1279821014254148",
+      "type": "reel",
+      "tags": [
+        "AfD",
+        "Thüringen",
+        "CDU",
+        "Remigration"
+      ],
+      "date": "2026-04-15",
+      "lastScanned": "2026-04-15",
+      "sourceDate": "2026-04-14",
+      "coSources": [
+        "bjoern-hoecke",
+        "andreas-buehl",
+        "mario-voigt"
+      ]
+    },
+    {
       "path": "allgemein/no-afd/links/20260412.no-afd-habeck-hatte-recht-2024-prognose",
       "source": "allgemein/no-afd",
       "code": "no-afd-habeck-wirtschaft-warnung-2024",
@@ -13548,7 +13597,7 @@
         "Personalwesen"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2021-09-15",
       "coSources": []
     },
@@ -14669,7 +14718,7 @@
         "Arbeitsmarkt"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2023-09-29",
       "coSources": []
     },
@@ -16081,7 +16130,7 @@
         "Verfassungsschutz"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-18",
       "coSources": []
     },
@@ -16614,7 +16663,7 @@
         "Wikipedia"
       ],
       "date": "2026-01-18",
-      "lastScanned": "2026-01-18",
+      "lastScanned": "2026-04-14",
       "sourceDate": "2026-01-09",
       "coSources": []
     },

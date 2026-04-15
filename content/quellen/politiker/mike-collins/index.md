@@ -4,6 +4,7 @@ lastScanned: 2026-04-13
 publishedOn: 2026-04-13
 name: "Mike Collins"
 description: "Republikanischer US-Abgeordneter aus Georgia, MAGA-Flügel"
+imageAuthor: "Offizielle Porträtfoto des 118. Kongresses (gemeinfrei)"
 tags:
   - USA
   - Kongress
