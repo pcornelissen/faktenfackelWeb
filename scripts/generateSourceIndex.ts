@@ -8,6 +8,7 @@
 
 import { readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { buildGraph } from './buildGraph.ts'
 
 const SUMMARIES_CACHE_FILE = join(import.meta.dirname, '..', '_summaries-cache.json')
 
@@ -279,6 +280,10 @@ async function main() {
   console.log(`  ${sources.length} sources, ${links.length} links, ${quotes.length} quotes in ${index.stats.groups} groups`)
   const withSummary = links.filter(l => l.summary).length
   console.log(`  ${withSummary} links with summary (cached where date unchanged)`)
+  const graphDbPath = process.env.GRAPH_DB
+    ?? join(import.meta.dirname, '..', '..', 'workspace', 'graph.sqlite')
+  buildGraph({ sources, links, quotes }, graphDbPath)
+  console.log(`  Graph written to ${graphDbPath}`)
 }
 
 main().catch(console.error)

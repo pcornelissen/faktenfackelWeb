@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-16T06:59:14.384Z",
+  "generatedAt": "2026-04-16T10:30:14.755Z",
   "stats": {
-    "sources": 301,
-    "links": 602,
+    "sources": 303,
+    "links": 605,
     "quotes": 25,
     "groups": 12,
-    "codes": 619
+    "codes": 622
   },
   "sources": [
     {
@@ -3135,6 +3135,22 @@
       "hasImage": true
     },
     {
+      "path": "politiker/markus-soeder",
+      "group": "politiker",
+      "slug": "markus-soeder",
+      "name": "Markus Söder",
+      "description": "Bayerischer Ministerpräsident und CSU-Vorsitzender seit 2018",
+      "tags": [
+        "CSU",
+        "Bayern",
+        "Ministerpräsident",
+        "Energiepolitik",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-16",
+      "hasImage": true
+    },
+    {
       "path": "politiker/marlene-schoenberger",
       "group": "politiker",
       "slug": "marlene-schoenberger",
@@ -3547,6 +3563,22 @@
         "Personalwirtschaft"
       ],
       "date": "2026-01-15",
+      "hasImage": true
+    },
+    {
+      "path": "portale/solarify",
+      "group": "portale",
+      "slug": "solarify",
+      "name": "Solarify",
+      "description": "Unabhängiges Informationsportal zu Solarenergie, Energiewende und Klimaschutz, betrieben von der Agentur Zukunft",
+      "tags": [
+        "Energie",
+        "Solarenergie",
+        "Energiepolitik",
+        "Energiewende",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-16",
       "hasImage": true
     },
     {
@@ -13374,6 +13406,30 @@
       ]
     },
     {
+      "path": "medien/nuernberger-nachrichten/links/20110526.soeder-ruecktritt-atomausstieg-fukushima-2011",
+      "source": "medien/nuernberger-nachrichten",
+      "code": "nuernberger-nachrichten-soeder-ruecktritt-atomausstieg-2011",
+      "title": "Atom-Zwist in der CSU: Söder droht mit Rücktritt",
+      "summary": "Im Streit zwischen CSU und FDP um den Atomausstieg in Bayern drohte markus-soeder[Markus Söder] (CSU) als Umweltminister mit Rücktritt, falls sich der Freistaat auf einen späteren Zeitpunkt als 2022 für den Atomausstieg festlegt. Söder hatte am Di...",
+      "uri": "https://www.nordbayern.de/franken/atom-zwist-in-der-csu-soder-droht-mit-rucktritt-1.1261005",
+      "type": "article",
+      "tags": [
+        "Atomausstieg",
+        "CSU",
+        "Kernkraft",
+        "Fukushima",
+        "Energiepolitik",
+        "Söder-Meinungswandel",
+        "research-done-review-pending"
+      ],
+      "date": "2026-04-16",
+      "lastScanned": "2026-04-16",
+      "sourceDate": "2011-05-26",
+      "coSources": [
+        "hubert-aiwanger"
+      ]
+    },
+    {
       "path": "medien/nuernberger-nachrichten/links/20260115.nuernberger-nachrichten-verfolgungsjagd-a9-nuernberg",
       "source": "medien/nuernberger-nachrichten",
       "code": "nuernberger-nachrichten-verfolgungsjagd-a9-nuernberg",
@@ -14678,6 +14734,26 @@
       ]
     },
     {
+      "path": "portale/solarify/links/20170510.solarworld-insolvenzantrag",
+      "source": "portale/solarify",
+      "code": "solarify-solarworld-insolvenzantrag-2017",
+      "title": "Solarworld stellt Insolvenzantrag",
+      "summary": "Solarworld AG, Deutschlands letzter großer Photovoltaik-Produzent, meldete am 10. Mai 2017 Insolvenz an. Das Unternehmen begründete die Entscheidung mit \"weiter voranschreitenden Preisverwerfungen\" auf dem Modulmarkt: Zwischen 2009 und 2015 sanken...",
+      "uri": "https://www.solarify.eu/2017/05/10/772-ssolarworld-stellt-insolvenzantrag/",
+      "type": "article",
+      "tags": [
+        "Solarworld",
+        "Energiepolitik",
+        "Energiewende",
+        "Solarenergie"
+      ],
+      "date": "2026-04-16",
+      "lastScanned": "2026-04-16",
+      "sourceDate": "2017-05-10",
+      "verdict": "true",
+      "coSources": []
+    },
+    {
       "path": "parteien/spd-rheinland-pfalz/links/20251203.spd-rlp-schweitzer-gewalt",
       "source": "parteien/spd-rheinland-pfalz",
       "code": "spd-rlp-schweitzer-gewalt-2025",
@@ -15289,6 +15365,26 @@
       "coSources": [
         "beatrix-von-storch"
       ]
+    },
+    {
+      "path": "medien/taz/links/20130129.altmaier-strompreisbremse-eeg",
+      "source": "medien/taz",
+      "code": "taz-altmaier-strompreisbremse-2013",
+      "title": "Strompreisbremse in der Kritik: Altmaiers Pseudolösung",
+      "summary": "taz-Bericht vom 29. Januar 2013 über die Reaktionen auf Bundesumweltminister Peter Altmaiers Strompreisbremse-Konzept. Altmaier hatte am 28. Januar 2013 seinen Plan vorgestellt, die EEG-Umlage für zwei Jahre einzufrieren und danach auf maximal 2,5...",
+      "uri": "https://taz.de/Strompreisbremse-in-der-Kritik/!5074348/",
+      "type": "article",
+      "tags": [
+        "more-research-needed",
+        "Energiepolitik",
+        "CDU",
+        "Altmaier",
+        "EEG"
+      ],
+      "date": "2013-01-29",
+      "lastScanned": "2013-01-29",
+      "sourceDate": "2013-01-29",
+      "coSources": []
     },
     {
       "path": "medien/taz/links/20260325.desinformation-entwicklungspolitik",
@@ -16285,7 +16381,9 @@
       "date": "2026-04-09",
       "lastScanned": "2026-04-09",
       "verdict": "misleading",
-      "coSources": []
+      "coSources": [
+        ""
+      ]
     },
     {
       "path": "faktenchecks/volksverpetzer/links/20260109.wie-social-media-die-afd-staerkt",
