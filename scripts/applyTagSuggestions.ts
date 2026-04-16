@@ -123,13 +123,13 @@ function updateTagsInFrontmatter(content: string, newTags: string[]): string {
   const frontmatter = frontmatterMatch[1]
 
   // Prüfe ob tags-Block existiert
-  const tagsBlockMatch = frontmatter.match(/^tags:\n((?:  - .*\n?)*)/m)
+  const tagsBlockMatch = frontmatter.match(/^tags:\n((?: {2}- .*\n?)*)/m)
 
   const newTagsBlock = `tags:\n${newTags.map(t => `  - ${t}`).join('\n')}`
 
   if (tagsBlockMatch) {
     // Ersetze bestehenden tags-Block
-    return content.replace(/^tags:\n((?:  - .*\n?)*)(?=\S|$)/m, newTagsBlock + '\n')
+    return content.replace(/^tags:\n((?: {2}- .*\n?)*)(?=\S|$)/m, newTagsBlock + '\n')
   } else {
     // Füge tags-Block am Ende des Frontmatters ein
     const newFrontmatter = frontmatter + '\n' + newTagsBlock
