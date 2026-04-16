@@ -10,10 +10,10 @@ import { readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { buildGraph } from './buildGraph.ts'
 
-const SUMMARIES_CACHE_FILE = join(import.meta.dirname, '..', '_summaries-cache.json')
+const SUMMARIES_CACHE_FILE = join(import.meta.dirname, '..', '..', 'knowledge-mcp', '_summaries-cache.json')
 
 const CONTENT_DIR = join(import.meta.dirname, '..', 'content', 'quellen')
-const OUTPUT_FILE = join(import.meta.dirname, '..', '_sourceindex.json')
+const OUTPUT_FILE = join(import.meta.dirname, '..', '..', 'knowledge-mcp', '_sourceindex.json')
 
 interface Source {
   path: string
@@ -281,7 +281,7 @@ async function main() {
   const withSummary = links.filter(l => l.summary).length
   console.log(`  ${withSummary} links with summary (cached where date unchanged)`)
   const graphDbPath = process.env.GRAPH_DB
-    ?? join(import.meta.dirname, '..', '..', 'workspace', 'graph.sqlite')
+    ?? join(import.meta.dirname, '..', '..', 'knowledge-mcp', 'graph.sqlite')
   buildGraph({ sources, links, quotes }, graphDbPath)
   console.log(`  Graph written to ${graphDbPath}`)
 }

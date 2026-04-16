@@ -30,5 +30,3 @@ logs
 #temp files
 **/~$*
 
-# Hinweis: _sourceindex.json und _summaries-cache.json werden bewusst getrackt,
-# damit Agents sie ohne Regenerierung lesen können.

@@ -7,7 +7,7 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
-const INDEX_FILE = join(import.meta.dirname, '..', '_sourceindex.json')
+const INDEX_FILE = join(import.meta.dirname, '..', '..', 'knowledge-mcp', '_sourceindex.json')
 
 const PARTIES = ['CDU', 'CSU', 'SPD', 'Grüne', 'FDP', 'AfD', 'BSW', 'Linke']
 
