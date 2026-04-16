@@ -639,6 +639,22 @@
     "date": "2026-03-08",
     "summary": "Volksverpetzer-Analyse des Rosenheimer Vorfalls: Wie die AfD die Darstellung des Vorfalls drehte und Medien die Falschinformation unkritisch übernahmen."
   },
+  "faktenchecks/volksverpetzer/links/20260306.oaz-nius-propagandamedien.md": {
+    "date": "2026-03-06",
+    "summary": "Volksverpetzer-Autor Matthias Meisner dokumentiert die personellen und inhaltlichen Überschneidungen zwischen Julian Reichelts Portal \"Nius\" und Holger Friedrichs \"Ostdeutsche Allgemeine\" (OAZ). Beide Medien teilen Autoren und Interviewpartner: Mi..."
+  },
+  "faktenchecks/volksverpetzer/links/20260403.siegburg-rechte-medien.md": {
+    "date": "2026-04-03",
+    "summary": "Nach einem Messerangriff in einem ICE bei Siegburg (12 Verletzte) analysiert Volksverpetzer, wie rechtsgerichtete Medien über die Herkunft des Täters berichten oder dies bewusst unterlassen. Der Artikel wirft diesen Medien selektive Berichterstatt..."
+  },
+  "faktenchecks/volksverpetzer/links/20260409.afd-ki-onlyfans.md": {
+    "date": "2026-04-09",
+    "summary": "Der Volksverpetzer analysiert eine gezielte Desinformationsstrategie: AfD-nahe Profile auf Instagram kombinieren KI-generierte Videos sexualisierten Inhalts mit rechtsextremen Botschaften, um Follower auf kostenpflichtige OnlyFans-Profile zu locke..."
+  },
+  "faktenchecks/volksverpetzer/links/20260410.reiche-faz-energiewende.md": {
+    "date": "2026-04-10",
+    "summary": "Volksverpetzer analysiert einen Gastbeitrag von Bundeswirtschaftsministerin Katherina Reiche in der FAZ (\"Schluss mit der Selbsttäuschung in der Energiepolitik\", erschienen am 7. April 2026 über Ostern), in dem sie die Energiewende mit mehreren fa..."
+  },
   "medien/beck-aktuell/links/20251128.anzeige-merz-stadtbild.md": {
     "date": "2026-03-28",
     "summary": "Der Kreisverband der Grünen im Berliner Bezirk Friedrichshain-Kreuzberg hat gegen Bundeskanzler Friedrich Merz Strafanzeige gestellt. Dessen Stadtbild-Äußerungen begründeten den Verdacht der Volksverhetzung."
@@ -679,13 +695,13 @@
     "date": "2026-03-28",
     "summary": "Der Spiegel-Artikel vom 21.&nbsp;Oktober 2025 dokumentiert die öffentlichen Reaktionen auf Friedrich Merz’ Verteidigung seiner \"Stadtbild\"-Aussage. Merz hatte Migranten zuvor als \"Problem im Stadtbild\" bezeichnet und diese Formulierung am Folgetag..."
   },
-  "medien/die-Zeit/links/20250508.aussetzung-afd.md": {
+  "medien/die-zeit/links/20250508.aussetzung-afd.md": {
     "date": "2026-03-28",
     "summary": "Die Zeit teilte ihren Artikel \"Verfassungsschutz: Die AfD hat nichts gewonnen\" mit dem Text: \"Der Verfassungsschutz erklärt, die Hochstufung der AfD bis zum Abschluss des Eilverfahrens auszusetzen. Die Partei triumphiert. Dazu hat sie keinen Grund.\""
   },
-  "medien/die-Zeit/links/20250728.kriminalbeamte-warnung-minderheiten-syrien.md": {
+  "medien/die-zeit/links/20250728.kriminalbeamte-warnung-minderheiten-syrien.md": {
     "date": "2025-07-28",
-    "summary": "Zeit.de-Artikel vom 28. Juli 2025: Der BDK-Vorsitzende Dirk Peglow warnt, dass in Deutschland lebende Islamisten offen zur Gewalt gegen geflüchtete Minderheiten aufrufen, insbesondere nach den Anschlägen auf die Drusen-Gemeinschaft in Suweida/Syri..."
+    "summary": "Der Zeit.de-Artikel berichtet vom 28.&nbsp;Juli 2025 über Warnungen des BDK-Vorsitzenden Dirk Peglow: In Deutschland lebende Islamisten rufen offen zur Gewalt gegen syrische Minderheiten auf, die vor dem Bürgerkrieg nach Deutschland geflüchtet sin..."
   },
   "medien/discover-san-diego/links/20260111.discover-san-diego-proteste-downtown-global-aufmerksamkeit.md": {
     "date": "2026-03-09",
@@ -914,10 +930,6 @@
   "medien/volksstimme/links/20260319.rechtsruck-schulen-sachsen-anhalt.md": {
     "date": "2026-04-01",
     "summary": "Die Volksstimme veröffentlicht ein Interview mit der Lehrerin und Autorin Laura Nickel anlässlich des im Heyne-Verlag erschienenen Buchs \"Rechtsruck im Klassenzimmer\" (gemeinsam mit Max Teske, 224 Seiten). Nickel wurde 2023 durch einen vielbeachte..."
-  },
-  "medien/volksverpetzer/links/20260403.siegburg-rechte-medien.md": {
-    "date": "2026-04-03",
-    "summary": "Nach einem Messerangriff in einem ICE bei Siegburg (12 Verletzte) analysiert Volksverpetzer, wie rechtsgerichtete Medien über die Herkunft des Täters berichten oder dies bewusst unterlassen. Der Artikel wirft diesen Medien selektive Berichterstatt..."
   },
   "medien/welt/links/20260114.welt-afd-remigration-gießen.md": {
     "date": "2026-03-28",

@@ -121,6 +121,9 @@ const prefixRedirects: Record<string, string> = {
   // Typo corrections (wrong slug, renamed to correct spelling)
   '/quellen/personen/anna-connely': '/quellen/personen/anna-connelly',
 
+  // Group corrections (source moved to correct group)
+  '/quellen/medien/volksverpetzer': '/quellen/faktenchecks/volksverpetzer',
+
   // Dissolved sources (all content moved elsewhere)
   '/quellen/allgemein/gegen-die-alternative-fur-deutschland': '/quellen/allgemein',
   '/quellen/allgemein/generation-deutschland': '/quellen/allgemein/facebook',

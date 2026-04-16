@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-15T12:30:29.705Z",
+  "generatedAt": "2026-04-16T06:59:14.384Z",
   "stats": {
-    "sources": 302,
-    "links": 599,
+    "sources": 301,
+    "links": 602,
     "quotes": 25,
     "groups": 12,
-    "codes": 616
+    "codes": 619
   },
   "sources": [
     {
@@ -407,9 +407,9 @@
       "hasImage": true
     },
     {
-      "path": "medien/die-Zeit",
+      "path": "medien/die-zeit",
       "group": "medien",
-      "slug": "die-Zeit",
+      "slug": "die-zeit",
       "name": "Die Zeit",
       "description": "Online- und Printmagazin",
       "tags": [
@@ -1067,19 +1067,6 @@
         "Sachsen-Anhalt"
       ],
       "date": "2026-04-01",
-      "hasImage": true
-    },
-    {
-      "path": "medien/volksverpetzer",
-      "group": "medien",
-      "slug": "volksverpetzer",
-      "name": "Volksverpetzer",
-      "tags": [
-        "Medien",
-        "Faktencheck",
-        "Desinformation"
-      ],
-      "date": "2026-04-05",
       "hasImage": true
     },
     {
@@ -7204,11 +7191,11 @@
       "coSources": []
     },
     {
-      "path": "medien/die-Zeit/links/20250728.kriminalbeamte-warnung-minderheiten-syrien",
-      "source": "medien/die-Zeit",
+      "path": "medien/die-zeit/links/20250728.kriminalbeamte-warnung-minderheiten-syrien",
+      "source": "medien/die-zeit",
       "code": "die-zeit-kriminalbeamte-minderheiten-syrien",
       "title": "Kriminalbeamte warnen vor Angriffen auf Minderheiten in Deutschland",
-      "summary": "Zeit.de-Artikel vom 28. Juli 2025: Der BDK-Vorsitzende Dirk Peglow warnt, dass in Deutschland lebende Islamisten offen zur Gewalt gegen geflüchtete Minderheiten aufrufen, insbesondere nach den Anschlägen auf die Drusen-Gemeinschaft in Suweida/Syri...",
+      "summary": "Der Zeit.de-Artikel berichtet vom 28.&nbsp;Juli 2025 über Warnungen des BDK-Vorsitzenden Dirk Peglow: In Deutschland lebende Islamisten rufen offen zur Gewalt gegen syrische Minderheiten auf, die vor dem Bürgerkrieg nach Deutschland geflüchtet sin...",
       "uri": "https://www.zeit.de/gesellschaft/2025-07/syrien-deutschland-minderheiten-angriffe-suweida-kriminalbeamte-bund",
       "type": "article",
       "tags": [
@@ -16280,6 +16267,27 @@
       "coSources": []
     },
     {
+      "path": "faktenchecks/volksverpetzer/links/20260409.afd-ki-onlyfans",
+      "source": "faktenchecks/volksverpetzer",
+      "code": "volksverpetzer-afd-ki-onlyfans",
+      "title": "KI-Porno-Bots mit OnlyFans als Werkzeug für AfD-Propaganda",
+      "summary": "Der Volksverpetzer analysiert eine gezielte Desinformationsstrategie: AfD-nahe Profile auf Instagram kombinieren KI-generierte Videos sexualisierten Inhalts mit rechtsextremen Botschaften, um Follower auf kostenpflichtige OnlyFans-Profile zu locke...",
+      "uri": "https://www.volksverpetzer.de/analyse/afd-ki-onlyfans/",
+      "type": "article",
+      "tags": [
+        "AfD",
+        "KI",
+        "Desinformation",
+        "Influencer",
+        "Social Media",
+        "OnlyFans"
+      ],
+      "date": "2026-04-09",
+      "lastScanned": "2026-04-09",
+      "verdict": "misleading",
+      "coSources": []
+    },
+    {
       "path": "faktenchecks/volksverpetzer/links/20260109.wie-social-media-die-afd-staerkt",
       "source": "faktenchecks/volksverpetzer",
       "code": "volksverpetzer-afd-social-media",
@@ -16395,6 +16403,52 @@
       ]
     },
     {
+      "path": "faktenchecks/volksverpetzer/links/20260306.oaz-nius-propagandamedien",
+      "source": "faktenchecks/volksverpetzer",
+      "code": "volksverpetzer-oaz-nius-propagandamedien",
+      "title": "NIUS & OAZ: Gleiche Autoren, gleiche Interviewpartner, gleiche Propaganda?",
+      "summary": "Volksverpetzer-Autor Matthias Meisner dokumentiert die personellen und inhaltlichen Überschneidungen zwischen Julian Reichelts Portal \"Nius\" und Holger Friedrichs \"Ostdeutsche Allgemeine\" (OAZ). Beide Medien teilen Autoren und Interviewpartner: Mi...",
+      "uri": "https://www.volksverpetzer.de/aktuelles/oaz-nius-propagandamedien/",
+      "type": "article",
+      "tags": [
+        "Medien",
+        "Desinformation",
+        "OAZ",
+        "NIUS",
+        "Holger Friedrich",
+        "Julian Reichelt",
+        "Rechtsextremismus"
+      ],
+      "date": "2026-03-06",
+      "lastScanned": "2026-03-06",
+      "coSources": [
+        "medien/nius",
+        "personen/julian-reichelt"
+      ]
+    },
+    {
+      "path": "faktenchecks/volksverpetzer/links/20260410.reiche-faz-energiewende",
+      "source": "faktenchecks/volksverpetzer",
+      "code": "volksverpetzer-reiche-faz-energiewende",
+      "title": "Energiewende: Wie Reiche mit falschen und irreführenden Zahlen täuscht",
+      "summary": "Volksverpetzer analysiert einen Gastbeitrag von Bundeswirtschaftsministerin Katherina Reiche in der FAZ (\"Schluss mit der Selbsttäuschung in der Energiepolitik\", erschienen am 7. April 2026 über Ostern), in dem sie die Energiewende mit mehreren fa...",
+      "uri": "https://www.volksverpetzer.de/faktencheck/reiche-faz-energiewende/",
+      "type": "article",
+      "tags": [
+        "Energiepolitik",
+        "Klimaleugnung",
+        "Faktencheck",
+        "Katherina-Reiche",
+        "Energiewende",
+        "FAZ"
+      ],
+      "date": "2026-04-10",
+      "lastScanned": "2026-04-10",
+      "sourceDate": "2026-04-10",
+      "verdict": "false",
+      "coSources": []
+    },
+    {
       "path": "faktenchecks/volksverpetzer/links/20260303.rosenheim-afd-angriff",
       "source": "faktenchecks/volksverpetzer",
       "code": "volksverpetzer-rosenheim-afd-angriff",
@@ -16418,8 +16472,8 @@
       "coSources": []
     },
     {
-      "path": "medien/volksverpetzer/links/20260403.siegburg-rechte-medien",
-      "source": "medien/volksverpetzer",
+      "path": "faktenchecks/volksverpetzer/links/20260403.siegburg-rechte-medien",
+      "source": "faktenchecks/volksverpetzer",
       "code": "volksverpetzer-siegburg-rechte-medien",
       "title": "Siegburg: Warum dir diese Medien die Herkunft des Angreifers verschweigen",
       "summary": "Nach einem Messerangriff in einem ICE bei Siegburg (12 Verletzte) analysiert Volksverpetzer, wie rechtsgerichtete Medien über die Herkunft des Täters berichten oder dies bewusst unterlassen. Der Artikel wirft diesen Medien selektive Berichterstatt...",
@@ -17028,8 +17082,8 @@
       ]
     },
     {
-      "path": "medien/die-Zeit/links/20250508.aussetzung-afd",
-      "source": "medien/die-Zeit",
+      "path": "medien/die-zeit/links/20250508.aussetzung-afd",
+      "source": "medien/die-zeit",
       "code": "zeit-fb-afd-aussetzung-2025",
       "title": "Die Zeit zur Aussetzung der Einstufung der AfD im Eilverfahren",
       "summary": "Die Zeit teilte ihren Artikel \"Verfassungsschutz: Die AfD hat nichts gewonnen\" mit dem Text: \"Der Verfassungsschutz erklärt, die Hochstufung der AfD bis zum Abschluss des Eilverfahrens auszusetzen. Die Partei triumphiert. Dazu hat sie keinen Grund.\"",
