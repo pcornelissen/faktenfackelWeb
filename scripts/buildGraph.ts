@@ -3,19 +3,38 @@ import { existsSync, mkdirSync } from 'node:fs'
 import { dirname } from 'node:path'
 
 export interface SourceEntry {
-  slug: string; group: string; name: string; description?: string
-  tags: string[]; date: string; hasImage: boolean
+  slug: string
+  group: string
+  name: string
+  description?: string
+  tags: string[]
+  date: string
+  hasImage: boolean
 }
 export interface LinkEntry {
-  code: string; source: string; title: string; uri?: string; type: string
-  tags: string[]; date: string; coSources?: string[]; verdict?: string; summary?: string
+  code: string
+  source: string
+  title: string
+  uri?: string
+  type: string
+  tags: string[]
+  date: string
+  coSources?: string[]
+  verdict?: string
+  summary?: string
 }
 export interface QuoteEntry {
-  code: string; source: string; title: string; teaser: string
-  tags: string[]; date: string
+  code: string
+  source: string
+  title: string
+  teaser: string
+  tags: string[]
+  date: string
 }
 export interface SourceIndex {
-  sources: SourceEntry[]; links: LinkEntry[]; quotes: QuoteEntry[]
+  sources: SourceEntry[]
+  links: LinkEntry[]
+  quotes: QuoteEntry[]
 }
 
 export function buildGraph(index: SourceIndex, dbPath: string): void {
@@ -59,10 +78,10 @@ export function buildGraph(index: SourceIndex, dbPath: string): void {
 
   const insertNode = db.prepare(
     `INSERT OR IGNORE INTO nodes(id, type, name, group_, date, verdict, summary, uri)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
   )
   const insertEdge = db.prepare(
-    `INSERT INTO edges(from_id, to_id, relation) VALUES (?, ?, ?)`
+    `INSERT INTO edges(from_id, to_id, relation) VALUES (?, ?, ?)`,
   )
   const hasNode = db.prepare('SELECT 1 FROM nodes WHERE id = ?')
 

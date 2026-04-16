@@ -23,10 +23,18 @@ const TOPIC_KEYWORDS: [RegExp, string][] = [
 ]
 
 interface Link {
-  code: string; source: string; title: string; tags: string[]
-  coSources?: string[]; summary?: string
+  code: string
+  source: string
+  title: string
+  tags: string[]
+  coSources?: string[]
+  summary?: string
 }
-interface Source { slug: string; name: string; tags: string[] }
+interface Source {
+  slug: string
+  name: string
+  tags: string[]
+}
 
 async function main() {
   const raw = JSON.parse(await readFile(INDEX_FILE, 'utf-8'))
