@@ -127,7 +127,7 @@ export default defineNuxtConfig({
           },
           {
             binding: 'GRAPHDB',
-            database_name: 'GRAPHDB',
+            database_name: 'fackelgraph',
             database_id: '423018a4-853f-41b5-b2d9-bfda8dcd93cf',
           },
         ],
