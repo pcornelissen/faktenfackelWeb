@@ -121,8 +121,14 @@ const lastPoint = data[data.length - 1]!
       />
 
       <!-- Lines -->
-      <path :d="profitPath" class="chart-figure__line chart-figure__line--profit" />
-      <path :d="taxPath" class="chart-figure__line chart-figure__line--tax" />
+      <path
+        :d="profitPath"
+        class="chart-figure__line chart-figure__line--profit"
+      />
+      <path
+        :d="taxPath"
+        class="chart-figure__line chart-figure__line--tax"
+      />
 
       <!-- Dots -->
       <circle
@@ -161,9 +167,17 @@ const lastPoint = data[data.length - 1]!
 
     <p class="chart-figure__note">
       Daten: Federal Reserve Bank of St. Louis (FRED). Unternehmensgewinne:
-      <a href="https://fred.stlouisfed.org/series/CP" target="_blank" rel="noopener">Serie CP</a>,
+      <a
+        href="https://fred.stlouisfed.org/series/CP"
+        target="_blank"
+        rel="noopener"
+      >Serie CP</a>,
       Steuereinnahmen:
-      <a href="https://fred.stlouisfed.org/series/B075RC1Q027SBEA" target="_blank" rel="noopener">Serie B075RC1Q027SBEA</a>.
+      <a
+        href="https://fred.stlouisfed.org/series/B075RC1Q027SBEA"
+        target="_blank"
+        rel="noopener"
+      >Serie B075RC1Q027SBEA</a>.
       Werte in Milliarden US-Dollar (Seasonally Adjusted Annual Rate), Jahresdurchschnitte der Quartalswerte.
     </p>
   </figure>

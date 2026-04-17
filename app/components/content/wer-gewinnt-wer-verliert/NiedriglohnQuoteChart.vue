@@ -135,7 +135,12 @@ const xTicks = [0, 5, 10, 15, 20, 25, 30]
     </svg>
 
     <p class="chart-figure__note">
-      Quelle: Eurostat, Datensatz <a href="https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses_pub1s" target="_blank" rel="noopener noreferrer"><code>earn_ses_pub1s</code></a>, Erhebungsjahr 2022. Niedriglohn = höchstens zwei Drittel des nationalen Median-Stundenlohns.
+      Quelle: Eurostat, Datensatz <a
+        href="https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses_pub1s"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><code>earn_ses_pub1s</code></a>, Erhebungsjahr 2022. Niedriglohn = höchstens zwei Drittel des nationalen
+      Median-Stundenlohns.
     </p>
   </figure>
 </template>

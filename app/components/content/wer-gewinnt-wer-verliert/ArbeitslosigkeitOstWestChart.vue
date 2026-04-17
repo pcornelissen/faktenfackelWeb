@@ -85,7 +85,11 @@ const annotations: Annotation[] = [
 </script>
 
 <template>
-  <figure class="chart-figure" role="img" aria-label="Arbeitslosenquote Ost vs. West, 1989 bis 2024">
+  <figure
+    class="chart-figure"
+    role="img"
+    aria-label="Arbeitslosenquote Ost vs. West, 1989 bis 2024"
+  >
     <svg
       :viewBox="`0 0 ${chartWidth} ${chartHeight}`"
       preserveAspectRatio="xMidYMid meet"
@@ -179,11 +183,37 @@ const annotations: Annotation[] = [
       />
 
       <!-- Legend -->
-      <line :x1="chartWidth - padding.right - 120" :y1="padding.top + 16" :x2="chartWidth - padding.right - 100" :y2="padding.top + 16" stroke="var(--ember)" stroke-width="2.5" />
-      <text :x="chartWidth - padding.right - 96" :y="padding.top + 20" font-family="'Ubuntu Mono', monospace" font-size="11" fill="var(--ink)">Ostdeutschland</text>
+      <line
+        :x1="chartWidth - padding.right - 120"
+        :y1="padding.top + 16"
+        :x2="chartWidth - padding.right - 100"
+        :y2="padding.top + 16"
+        stroke="var(--ember)"
+        stroke-width="2.5"
+      />
+      <text
+        :x="chartWidth - padding.right - 96"
+        :y="padding.top + 20"
+        font-family="'Ubuntu Mono', monospace"
+        font-size="11"
+        fill="var(--ink)"
+      >Ostdeutschland</text>
 
-      <line :x1="chartWidth - padding.right - 120" :y1="padding.top + 32" :x2="chartWidth - padding.right - 100" :y2="padding.top + 32" stroke="var(--muted)" stroke-width="2.5" />
-      <text :x="chartWidth - padding.right - 96" :y="padding.top + 36" font-family="'Ubuntu Mono', monospace" font-size="11" fill="var(--ink)">Westdeutschland</text>
+      <line
+        :x1="chartWidth - padding.right - 120"
+        :y1="padding.top + 32"
+        :x2="chartWidth - padding.right - 100"
+        :y2="padding.top + 32"
+        stroke="var(--muted)"
+        stroke-width="2.5"
+      />
+      <text
+        :x="chartWidth - padding.right - 96"
+        :y="padding.top + 36"
+        font-family="'Ubuntu Mono', monospace"
+        font-size="11"
+        fill="var(--ink)"
+      >Westdeutschland</text>
 
       <!-- Peak label Ost -->
       <text
