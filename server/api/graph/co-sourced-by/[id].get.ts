@@ -1,45 +1,37 @@
 import { nowIso, publishedNodeFilter, useGraphDb } from '~~/server/utils/graphDb'
 
 /**
- * Returns all nodes that reference the given node via references_link / references_quote.
- * Used to find articles/links/quotes that cite a particular source or content piece.
+ * Returns all links that have the given source as a co_source.
+ * Replaces `coSources LIKE '%"slug"%'` on the quelle index page.
  *
  * Query params:
- *   - type: optional filter by node type (source | link | quote | article)
- *   - limit: optional, 1–500, default 200
+ *   - limit: optional, 1–200, default 100
  */
 export default defineEventHandler(async (event) => {
   const id = getRouterParam(event, 'id')
   if (!id) throw createError({ statusCode: 400, statusMessage: 'Missing id' })
 
-  const { type, limit } = getQuery(event) as { type?: string, limit?: string }
-  const safeLimit = Math.min(Math.max(Number.parseInt(limit ?? '200', 10) || 200, 1), 500)
-  const validTypes = new Set(['source', 'link', 'quote', 'article'])
-  const typeFilter = type && validTypes.has(type) ? type : null
+  const { limit } = getQuery(event) as { limit?: string }
+  const safeLimit = Math.min(Math.max(Number.parseInt(limit ?? '100', 10) || 100, 1), 200)
 
   const db = useGraphDb(event)
 
   const sql = `
     SELECT
-      n.id, n.type, n.name, n.path, n.group_, n.date, n.verdict, n.summary, n.uri, e.relation,
+      n.id, n.type, n.name, n.path, n.group_, n.date, n.verdict, n.summary, n.uri,
       (SELECT json_group_array(e2.to_id)
          FROM edges e2
          WHERE e2.from_id = n.id AND e2.relation = 'has_tag') AS tags_json
     FROM edges e
     JOIN nodes n ON n.id = e.from_id
     WHERE e.to_id = ?
-      AND e.relation IN ('references_link', 'references_quote')
+      AND e.relation = 'co_source'
       AND ${publishedNodeFilter}
-      ${typeFilter ? 'AND n.type = ?' : ''}
     ORDER BY n.date DESC
     LIMIT ?
   `
 
-  const bindings: unknown[] = [id, nowIso()]
-  if (typeFilter) bindings.push(typeFilter)
-  bindings.push(safeLimit)
-
-  const { results } = await db.prepare(sql).bind(...bindings).all<{
+  const { results } = await db.prepare(sql).bind(id, nowIso(), safeLimit).all<{
     id: string
     type: string
     name: string
@@ -49,7 +41,6 @@ export default defineEventHandler(async (event) => {
     verdict: string | null
     summary: string | null
     uri: string | null
-    relation: string
     tags_json: string
   }>()
 

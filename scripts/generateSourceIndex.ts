@@ -25,6 +25,7 @@ interface Source {
   description?: string
   tags: string[]
   date: string
+  publishedOn?: string
   hasImage: boolean
   referenceCodes?: string[]
   quoteCodes?: string[]
@@ -40,6 +41,7 @@ interface Link {
   type?: string
   tags: string[]
   date: string
+  publishedOn?: string
   lastScanned?: string
   sourceDate?: string
   verdict?: string
@@ -56,6 +58,7 @@ interface Quote {
   teaser: string
   tags: string[]
   date: string
+  publishedOn?: string
   referenceCodes?: string[]
   quoteCodes?: string[]
 }
@@ -224,6 +227,7 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
         ...(fm.description ? { description: fm.description } : {}),
         tags: Array.isArray(fm.tags) ? fm.tags : [],
         date: fm.date || '',
+        ...(fm.publishedOn ? { publishedOn: fm.publishedOn } : {}),
         hasImage,
         ...(srcRefs.referenceCodes.length ? { referenceCodes: srcRefs.referenceCodes } : {}),
         ...(srcRefs.quoteCodes.length ? { quoteCodes: srcRefs.quoteCodes } : {}),
@@ -262,6 +266,7 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
             ...(lfm.type ? { type: lfm.type } : {}),
             tags: Array.isArray(lfm.tags) ? lfm.tags : [],
             date: lfm.date || '',
+            ...(lfm.publishedOn ? { publishedOn: lfm.publishedOn } : {}),
             ...(lfm.lastScanned ? { lastScanned: lfm.lastScanned } : {}),
             ...(lfm.sourceDate ? { sourceDate: lfm.sourceDate } : {}),
             ...(lfm.verdict ? { verdict: lfm.verdict } : {}),
@@ -288,6 +293,7 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
             teaser: qfm.teaser || '',
             tags: Array.isArray(qfm.tags) ? qfm.tags : [],
             date: qfm.date || '',
+            ...(qfm.publishedOn ? { publishedOn: qfm.publishedOn } : {}),
             ...(quoteRefs.referenceCodes.length ? { referenceCodes: quoteRefs.referenceCodes } : {}),
             ...(quoteRefs.quoteCodes.length ? { quoteCodes: quoteRefs.quoteCodes } : {}),
           })

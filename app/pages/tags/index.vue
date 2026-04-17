@@ -15,30 +15,15 @@ await definePageData({
   description: 'Alle Schlagwörter aus Faktenchecks, Lagerfeuer-Artikeln, Glossar und Quellen – durchsuche Inhalte von Faktenfackel nach Themen.',
 })
 
-const { data } = await useAsyncData('tags-index', () =>
-  Promise.all([
-    queryCollection('faktenchecks').select('tags').all(),
-    queryCollection('lagerfeuer').select('tags').all(),
-    queryCollection('glossar').select('tags').all(),
-    queryCollection('zitate').select('tags').all(),
-    queryCollection('quellenlinks').select('tags').all(),
-    queryCollection('quellen').select('tags').all(),
-  ]),
+const { data } = await useFetch<{ results: { tag: string, count: number }[] }>(
+  '/api/graph/tags',
+  { key: 'tags-index', default: () => ({ results: [] }) },
 )
-
-// Meta-Tags: interne Verwaltungstags, die nicht im öffentlichen Tag-Cloud erscheinen sollen
-const META_TAGS = new Set(['more-research-needed'])
 
 const tagMap = computed(() => {
   const map = new Map<string, number>()
-  for (const list of data.value ?? []) {
-    for (const item of list) {
-      for (const t of (item.tags ?? [])) {
-        if (!META_TAGS.has(t.toLowerCase())) {
-          map.set(t, (map.get(t) || 0) + 1)
-        }
-      }
-    }
+  for (const { tag, count } of data.value?.results ?? []) {
+    map.set(tag, count)
   }
   return map
 })

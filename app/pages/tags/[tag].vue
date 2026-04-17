@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { capitalize } from '~/utils/stringUtils'
-import { definePageData, nowIso, type Post, type Quote } from '~/utils/contentUtils'
+import { definePageData, type Post, type Quote } from '~/utils/contentUtils'
 import type { Source, SourceLink } from '~/utils/referenceData'
+import { type GraphNode, nodeToHref, nodeToSourceLink } from '~/utils/graphData'
 
 definePageMeta({
   sitemap: false,
@@ -26,44 +27,12 @@ await definePageData({
   description: computed(() => `Alle Faktenchecks, Artikel, Glossareinträge und Quellen zum Schlagwort „${capitalize(tag.value)}" auf Faktenfackel.`).value,
 })
 
-function likeTag(t: string) {
-  return '%"' + t + '"%'
-}
-
-const { data: rawFaktenchecks, pending: p1 } = useLazyAsyncData(
-  () => route.path + '-fc',
-  () => queryCollection('faktenchecks').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('date', 'DESC').all(),
-  { server: false },
-)
-const { data: rawLagerfeuer, pending: p2 } = useLazyAsyncData(
-  () => route.path + '-lf',
-  () => queryCollection('lagerfeuer').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('date', 'DESC').all(),
-  { server: false },
-)
-const { data: rawGlossar, pending: p3 } = useLazyAsyncData(
-  () => route.path + '-gl',
-  () => queryCollection('glossar').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).all(),
-  { server: false },
-)
-const { data: rawZitate, pending: p4 } = useLazyAsyncData(
-  () => route.path + '-zi',
-  () => queryCollection('zitate').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).all(),
-  { server: false },
-)
-const { data: rawQuellenlinks, pending: p5 } = useLazyAsyncData(
-  () => route.path + '-ql',
-  () => queryCollection('quellenlinks').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('path', 'ASC').all(),
-  { server: false },
-)
-const { data: rawQuellen, pending: p6 } = useLazyAsyncData(
-  () => route.path + '-qu',
-  () => queryCollection('quellen').where('tags', 'LIKE', likeTag(tag.value)).where('publishedOn', '<=', nowIso()).order('name', 'ASC').all(),
-  { server: false },
+const { data: graphData, pending } = useLazyFetch<{ results: GraphNode[] }>(
+  () => `/api/graph/tags/${encodeURIComponent(tag.value)}`,
+  { key: () => `tag-${tag.value}`, default: () => ({ results: [] }), server: false },
 )
 
-const anyPending = computed(() =>
-  p1.value || p2.value || p3.value || p4.value || p5.value || p6.value,
-)
+const anyPending = computed(() => pending.value)
 
 function matchesUndTags(tags: string[] | undefined) {
   if (undTags.value.length === 0) return true
@@ -72,49 +41,77 @@ function matchesUndTags(tags: string[] | undefined) {
   )
 }
 
+const allNodes = computed(() =>
+  (graphData.value?.results ?? []).filter(n => matchesUndTags(n.tags)),
+)
+
+function nodeToPost(n: GraphNode): Post {
+  return {
+    title: n.name ?? '',
+    subtitle: n.summary ?? '',
+    path: nodeToHref(n),
+    date: n.date ?? '',
+    tags: n.tags ?? [],
+    verdict: (n.verdict ?? undefined) as Post['verdict'],
+  } as unknown as Post
+}
+
+function nodeToQuote(n: GraphNode): Quote {
+  return {
+    title: n.name ?? '',
+    teaser: n.summary ?? '',
+    path: nodeToHref(n),
+    date: n.date ?? '',
+    tags: n.tags ?? [],
+    code: n.id,
+    publishedOn: n.date ?? '',
+  }
+}
+
 const filteredFaktenchecks = computed(() =>
-  ((rawFaktenchecks.value ?? []) as unknown as Post[]).filter(item => matchesUndTags(item.tags)),
+  allNodes.value.filter(n => n.type === 'article' && n.group_ === 'faktenchecks').map(nodeToPost),
 )
 const filteredLagerfeuer = computed(() =>
-  ((rawLagerfeuer.value ?? []) as unknown as Post[]).filter(item => matchesUndTags(item.tags)),
+  allNodes.value.filter(n => n.type === 'article' && n.group_ === 'lagerfeuer').map(nodeToPost),
 )
 const filteredGlossar = computed(() =>
-  ((rawGlossar.value ?? []) as unknown as Post[]).filter(item => matchesUndTags(item.tags)),
+  allNodes.value.filter(n => n.type === 'article' && n.group_ === 'glossar').map(nodeToPost),
 )
 const filteredZitate = computed(() =>
-  ((rawZitate.value ?? []) as unknown as Quote[]).filter(item => matchesUndTags(item.tags)),
+  allNodes.value.filter(n => n.type === 'quote').map(nodeToQuote),
 )
 const filteredQuellenlinks = computed(() =>
-  ((rawQuellenlinks.value ?? []) as unknown as SourceLink[]).filter(item => matchesUndTags(item.tags)),
+  allNodes.value.filter(n => n.type === 'link').map(n => nodeToSourceLink(n) as unknown as SourceLink),
 )
-const filteredQuellen = computed(() =>
-  ((rawQuellen.value ?? []) as unknown as Source[]).filter(item => matchesUndTags(item.tags)),
+const filteredQuellen = computed<Source[]>(() =>
+  allNodes.value.filter(n => n.type === 'source').map(n => ({
+    name: n.name ?? '',
+    path: n.path ?? '',
+    tags: n.tags ?? [],
+    description: n.summary ?? '',
+  }) as unknown as Source),
 )
 
-// Eltern-Quellen für gematchte Quellenlinks nachladen (falls die Quelle selbst kein Tag-Match hat)
-const parentQuellenCache = ref<Source[]>([])
-watch(filteredQuellenlinks, async (links) => {
-  const paths = [...new Set(links.map(l => l.path.split('/').slice(0, 4).join('/')))]
-  if (paths.length === 0) {
-    parentQuellenCache.value = []
-    return
-  }
-  const results = await queryCollection('quellen').where('path', 'IN', paths).all()
-  parentQuellenCache.value = results as unknown as Source[]
-}, { immediate: true })
-
-// Quellen + Quellenlinks gruppiert
+// Quellen + Quellenlinks gruppiert. Parent-Quellen der Links kommen aus dem Endpoint mit.
 const sourcesGrouped = computed(() => {
   const map = new Map<string, { source: Source, links: SourceLink[], tagMatch: boolean }>()
   for (const source of filteredQuellen.value)
     map.set(source.path, { source, links: [], tagMatch: true })
-  for (const source of parentQuellenCache.value)
-    if (!map.has(source.path))
-      map.set(source.path, { source, links: [], tagMatch: false })
-  for (const link of filteredQuellenlinks.value) {
-    const parentPath = link.path.split('/').slice(0, 4).join('/')
-    const entry = map.get(parentPath)
-    if (entry) entry.links.push(link)
+  for (const linkNode of allNodes.value.filter(n => n.type === 'link')) {
+    const parentPath = linkNode.parent_path ?? null
+    if (!parentPath) continue
+    if (!map.has(parentPath)) {
+      map.set(parentPath, {
+        source: {
+          name: linkNode.parent_name ?? '',
+          path: parentPath,
+          tags: [],
+        } as unknown as Source,
+        links: [],
+        tagMatch: false,
+      })
+    }
+    map.get(parentPath)!.links.push(nodeToSourceLink(linkNode) as unknown as SourceLink)
   }
   return [...map.values()].sort((a, b) => a.source.name.localeCompare(b.source.name))
 })

@@ -4,6 +4,7 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 import { useReferencesStore, type SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
+import { type GraphNode, nodeToSourceLink } from '~/utils/graphData'
 
 const route = useRoute()
 const referencesStore = useReferencesStore()
@@ -41,15 +42,17 @@ const { data: list1 } = await useAsyncData(basePath + '/links/', () => {
 })
 const list = (list1.value || []) as SourceLink[]
 
-const coSource = extractNameFromPath(basePath)
+const coSource = extractNameFromPath(basePath) ?? source
 
-const { data: coList1 }
-  = await useAsyncData(basePath + '-colinks', () => {
-    return queryCollection('quellenlinks').where('coSources', 'LIKE', '%"' + coSource + '"%').where('publishedOn', '<=', nowIso())
-      .all()
-      .catch(() => [])
-  })
-const coList = (coList1.value || []) as SourceLink[]
+const { data: coResp } = await useFetch<{ results: GraphNode[] }>(
+  `/api/graph/co-sourced-by/${encodeURIComponent(coSource)}`,
+  { key: basePath + '-colinks', default: () => ({ results: [] }) },
+)
+const coList = computed(() =>
+  (coResp.value?.results ?? [])
+    .filter(n => n.type === 'link')
+    .map(n => nodeToSourceLink(n) as unknown as SourceLink),
+)
 
 const { data: quotesRaw }
   = await useAsyncData(basePath + '-quotes', () =>

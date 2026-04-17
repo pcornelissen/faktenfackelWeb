@@ -16,18 +16,17 @@ export interface GraphNode {
   id: string
   type: 'source' | 'link' | 'quote' | 'article' | 'tag'
   name: string | null
+  path: string | null
   group_: string | null
   date: string | null
+  published_on: string | null
   verdict: string | null
   summary: string | null
   uri: string | null
 }
 
-export interface GraphEdge {
-  from_id: string
-  to_id: string
-  relation: 'has_tag' | 'from_source' | 'co_source' | 'references_link' | 'references_quote'
-}
+export type GraphRelation = 'has_tag' | 'from_source' | 'co_source' | 'references_link' | 'references_quote'
+export type GraphNodeType = GraphNode['type']
 
 /**
  * Access the GRAPHDB D1 binding. Throws if the binding is not available
@@ -39,3 +38,15 @@ export function useGraphDb(event: H3Event): D1Database {
   if (!db) throw createError({ statusCode: 500, statusMessage: 'GRAPHDB binding not available' })
   return db
 }
+
+/** Return "now" as ISO string — matches contentUtils.nowIso() used on the client. */
+export function nowIso(): string {
+  return new Date().toISOString()
+}
+
+/**
+ * SQL snippet that restricts nodes to published content only.
+ * Tags have no publishedOn; they always pass. Non-tag nodes need a
+ * published_on <= now to be visible.
+ */
+export const publishedNodeFilter = `(n.type = 'tag' OR (n.published_on IS NOT NULL AND n.published_on <= ?))`

@@ -3,17 +3,20 @@ import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
 import { dirname } from 'node:path'
 
 export interface SourceEntry {
+  path: string
   slug: string
   group: string
   name: string
   description?: string
   tags: string[]
   date: string
+  publishedOn?: string
   hasImage: boolean
   referenceCodes?: string[]
   quoteCodes?: string[]
 }
 export interface LinkEntry {
+  path: string
   code: string
   source: string
   title: string
@@ -21,6 +24,7 @@ export interface LinkEntry {
   type: string
   tags: string[]
   date: string
+  publishedOn?: string
   coSources?: string[]
   verdict?: string
   summary?: string
@@ -28,12 +32,14 @@ export interface LinkEntry {
   quoteCodes?: string[]
 }
 export interface QuoteEntry {
+  path: string
   code: string
   source: string
   title: string
   teaser: string
   tags: string[]
   date: string
+  publishedOn?: string
   referenceCodes?: string[]
   quoteCodes?: string[]
 }
@@ -44,6 +50,7 @@ export interface ArticleEntry {
   title: string
   tags: string[]
   date: string
+  publishedOn?: string
   verdict?: string
   referenceCodes?: string[]
   quoteCodes?: string[]
@@ -59,8 +66,10 @@ interface NodeRow {
   id: string
   type: 'source' | 'link' | 'quote' | 'article' | 'tag'
   name: string | null
+  path: string | null
   group_: string | null
   date: string | null
+  published_on: string | null
   verdict: string | null
   summary: string | null
   uri: string | null
@@ -81,7 +90,7 @@ function computeGraph(index: SourceIndex): { nodes: NodeRow[], edges: EdgeRow[] 
   const addNode = (n: NodeRow) => {
     if (!nodeMap.has(n.id)) nodeMap.set(n.id, n)
   }
-  const addTag = (tag: string) => addNode({ id: tag, type: 'tag', name: tag, group_: null, date: null, verdict: null, summary: null, uri: null })
+  const addTag = (tag: string) => addNode({ id: tag, type: 'tag', name: tag, path: null, group_: null, date: null, published_on: null, verdict: null, summary: null, uri: null })
 
   const pending: { from: string, code: string, relation: 'references_link' | 'references_quote' }[] = []
   const queueRefs = (from: string, refs: string[] | undefined, relation: 'references_link' | 'references_quote') => {
@@ -89,7 +98,7 @@ function computeGraph(index: SourceIndex): { nodes: NodeRow[], edges: EdgeRow[] 
   }
 
   for (const s of index.sources) {
-    addNode({ id: s.slug, type: 'source', name: s.name, group_: s.group, date: s.date, verdict: null, summary: s.description ?? null, uri: null })
+    addNode({ id: s.slug, type: 'source', name: s.name, path: s.path, group_: s.group, date: s.date, published_on: s.publishedOn ?? null, verdict: null, summary: s.description ?? null, uri: null })
     for (const tag of s.tags) {
       addTag(tag)
       edges.push({ from_id: s.slug, to_id: tag, relation: 'has_tag' })
@@ -99,7 +108,9 @@ function computeGraph(index: SourceIndex): { nodes: NodeRow[], edges: EdgeRow[] 
   }
 
   for (const l of index.links) {
-    addNode({ id: l.code, type: 'link', name: l.title, group_: null, date: l.date, verdict: l.verdict ?? null, summary: l.summary ?? null, uri: l.uri ?? null })
+    // For link nodes we store the content-level type (article/youtube/pdf/…) in group_ so
+    // the UI can pick the right icon without a second lookup.
+    addNode({ id: l.code, type: 'link', name: l.title, path: l.path, group_: l.type || null, date: l.date, published_on: l.publishedOn ?? null, verdict: l.verdict ?? null, summary: l.summary ?? null, uri: l.uri ?? null })
     const parentSlug = l.source.split('/').pop()!
     if (nodeMap.has(parentSlug)) edges.push({ from_id: l.code, to_id: parentSlug, relation: 'from_source' })
     for (const cs of l.coSources ?? []) {
@@ -115,7 +126,7 @@ function computeGraph(index: SourceIndex): { nodes: NodeRow[], edges: EdgeRow[] 
   }
 
   for (const q of index.quotes) {
-    addNode({ id: q.code, type: 'quote', name: q.title, group_: null, date: q.date, verdict: null, summary: q.teaser, uri: null })
+    addNode({ id: q.code, type: 'quote', name: q.title, path: q.path, group_: null, date: q.date, published_on: q.publishedOn ?? null, verdict: null, summary: q.teaser, uri: null })
     const parentSlug = q.source.split('/').pop()!
     if (nodeMap.has(parentSlug)) edges.push({ from_id: q.code, to_id: parentSlug, relation: 'from_source' })
     for (const tag of q.tags) {
@@ -129,7 +140,7 @@ function computeGraph(index: SourceIndex): { nodes: NodeRow[], edges: EdgeRow[] 
   for (const a of index.articles ?? []) {
     // Article id = "faktenchecks/slug" etc. so it cannot collide with link/quote codes.
     const articleId = a.path
-    addNode({ id: articleId, type: 'article', name: a.title, group_: a.collection, date: a.date, verdict: a.verdict ?? null, summary: null, uri: null })
+    addNode({ id: articleId, type: 'article', name: a.title, path: a.path, group_: a.collection, date: a.date, published_on: a.publishedOn ?? null, verdict: a.verdict ?? null, summary: null, uri: null })
     for (const tag of a.tags) {
       addTag(tag)
       edges.push({ from_id: articleId, to_id: tag, relation: 'has_tag' })
@@ -149,14 +160,16 @@ function computeGraph(index: SourceIndex): { nodes: NodeRow[], edges: EdgeRow[] 
 
 const SCHEMA_SQL = `
 CREATE TABLE nodes (
-  id      TEXT PRIMARY KEY,
-  type    TEXT NOT NULL,
-  name    TEXT,
-  group_  TEXT,
-  date    TEXT,
-  verdict TEXT,
-  summary TEXT,
-  uri     TEXT
+  id           TEXT PRIMARY KEY,
+  type         TEXT NOT NULL,
+  name         TEXT,
+  path         TEXT,
+  group_       TEXT,
+  date         TEXT,
+  published_on TEXT,
+  verdict      TEXT,
+  summary      TEXT,
+  uri          TEXT
 );
 
 CREATE TABLE edges (
@@ -169,6 +182,7 @@ CREATE INDEX idx_edges_to       ON edges(to_id);
 CREATE INDEX idx_edges_relation ON edges(relation);
 CREATE INDEX idx_edges_to_rel   ON edges(to_id, relation);
 CREATE INDEX idx_nodes_type     ON nodes(type);
+CREATE INDEX idx_nodes_pub      ON nodes(published_on);
 
 CREATE VIRTUAL TABLE fts USING fts5(
   id UNINDEXED,
@@ -195,14 +209,14 @@ export function buildGraph(index: SourceIndex, dbPath: string): void {
   `)
 
   const insertNode = db.prepare(
-    `INSERT INTO nodes(id, type, name, group_, date, verdict, summary, uri) VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+    `INSERT INTO nodes(id, type, name, path, group_, date, published_on, verdict, summary, uri) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
   )
   const insertEdge = db.prepare(
     `INSERT INTO edges(from_id, to_id, relation) VALUES (?, ?, ?)`,
   )
 
   const run = db.transaction(() => {
-    for (const n of nodes) insertNode.run(n.id, n.type, n.name, n.group_, n.date, n.verdict, n.summary, n.uri)
+    for (const n of nodes) insertNode.run(n.id, n.type, n.name, n.path, n.group_, n.date, n.published_on, n.verdict, n.summary, n.uri)
     for (const e of edges) insertEdge.run(e.from_id, e.to_id, e.relation)
     db.exec(`INSERT INTO fts(fts) VALUES('rebuild')`)
   })
@@ -242,9 +256,9 @@ export function writeGraphD1Sql(index: SourceIndex, outPath: string): { nodes: n
 
   for (let i = 0; i < nodes.length; i += BATCH) {
     const chunk = nodes.slice(i, i + BATCH)
-    lines.push('INSERT INTO nodes(id, type, name, group_, date, verdict, summary, uri) VALUES')
+    lines.push('INSERT INTO nodes(id, type, name, path, group_, date, published_on, verdict, summary, uri) VALUES')
     lines.push(chunk.map(n =>
-      `  (${sqlEscape(n.id)}, ${sqlEscape(n.type)}, ${sqlEscape(n.name)}, ${sqlEscape(n.group_)}, ${sqlEscape(n.date)}, ${sqlEscape(n.verdict)}, ${sqlEscape(n.summary)}, ${sqlEscape(n.uri)})`,
+      `  (${sqlEscape(n.id)}, ${sqlEscape(n.type)}, ${sqlEscape(n.name)}, ${sqlEscape(n.path)}, ${sqlEscape(n.group_)}, ${sqlEscape(n.date)}, ${sqlEscape(n.published_on)}, ${sqlEscape(n.verdict)}, ${sqlEscape(n.summary)}, ${sqlEscape(n.uri)})`,
     ).join(',\n') + ';')
   }
 

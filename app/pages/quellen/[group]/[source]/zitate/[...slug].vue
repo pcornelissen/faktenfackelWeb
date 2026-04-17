@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData, getSourceFromPath, nowIso } from '~/utils/contentUtils'
+import { useAsyncData, useFetch, useRoute } from 'nuxt/app'
+import { definePageData, getSourceFromPath, nowIso, type Post } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import { useReferencesStore } from '~/utils/referenceData'
+import { type GraphNode, nodeToPost } from '~/utils/graphData'
 
 const route = useRoute()
 const referencesStore = useReferencesStore()
@@ -46,31 +47,28 @@ const lastChange = dateString(lastChangeStr)
 await referencesStore.fetchFor(page.value)
 
 const code = page.value?.code
-const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQuellenlinks }] = code
-  ? await Promise.all([
-      useAsyncData(basePath + '-used-faktenchecks', () =>
-        queryCollection('faktenchecks')
-          .where('quoteCodes', 'LIKE', '%' + code + '%')
-          .where('publishedOn', '<=', nowIso())
-          .select('title', 'subtitle', 'path', 'verdict', 'date', 'publishedOn', 'tags')
-          .all().catch(() => []),
-      ),
-      useAsyncData(basePath + '-used-lagerfeuer', () =>
-        queryCollection('lagerfeuer')
-          .where('quoteCodes', 'LIKE', '%' + code + '%')
-          .where('publishedOn', '<=', nowIso())
-          .select('title', 'subtitle', 'path', 'date', 'publishedOn', 'tags')
-          .all().catch(() => []),
-      ),
-      useAsyncData(basePath + '-used-quellenlinks', () =>
-        queryCollection('quellenlinks')
-          .where('quoteCodes', 'LIKE', '%' + code + '%')
-          .where('publishedOn', '<=', nowIso())
-          .select('title', 'path', 'date')
-          .all().catch(() => []),
-      ),
-    ])
-  : [{ data: ref([]) }, { data: ref([]) }, { data: ref([]) }]
+const { data: referrers } = code
+  ? await useFetch<{ results: GraphNode[] }>(`/api/graph/referrers/${encodeURIComponent(code)}`, {
+      key: basePath + '-referrers',
+      default: () => ({ results: [] }),
+    })
+  : { data: ref({ results: [] as GraphNode[] }) }
+
+const usedInFaktenchecks = computed(() =>
+  (referrers.value?.results ?? [])
+    .filter(n => n.type === 'article' && n.group_ === 'faktenchecks')
+    .map(n => nodeToPost(n) as unknown as Post),
+)
+const usedInLagerfeuer = computed(() =>
+  (referrers.value?.results ?? [])
+    .filter(n => n.type === 'article' && n.group_ === 'lagerfeuer')
+    .map(n => nodeToPost(n) as unknown as Post),
+)
+const usedInQuellenlinks = computed(() =>
+  (referrers.value?.results ?? [])
+    .filter(n => n.type === 'link')
+    .map(n => nodeToPost(n) as unknown as Post),
+)
 </script>
 
 <template>
@@ -144,7 +142,7 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
             <template v-if="usedInFaktenchecks?.length">
               <h3>Faktenchecks</h3>
               <PostsList
-                :list="(usedInFaktenchecks as any)"
+                :list="usedInFaktenchecks"
                 icon="mdi:magnify"
                 :page-size="100"
               />
@@ -152,7 +150,7 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
             <template v-if="usedInLagerfeuer?.length">
               <h3>Lagerfeuer</h3>
               <PostsList
-                :list="(usedInLagerfeuer as any)"
+                :list="usedInLagerfeuer"
                 icon="mdi:book-open-variant"
                 :page-size="100"
               />
@@ -160,7 +158,7 @@ const [{ data: usedInFaktenchecks }, { data: usedInLagerfeuer }, { data: usedInQ
             <template v-if="usedInQuellenlinks?.length">
               <h3>Weitere Quellenlinks</h3>
               <PostsList
-                :list="(usedInQuellenlinks as any)"
+                :list="usedInQuellenlinks"
                 icon="mdi:link-variant"
                 :page-size="100"
               />
