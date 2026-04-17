@@ -119,11 +119,18 @@ export default defineNuxtConfig({
             invocation_logs: true,
           },
         },
-        d1_databases: [{
-          binding: 'DB',
-          database_name: 'fackel1',
-          database_id: '6dc09d29-36fe-4193-8dbd-7479b5ade6ae',
-        }],
+        d1_databases: [
+          {
+            binding: 'DB',
+            database_name: 'fackel1',
+            database_id: '6dc09d29-36fe-4193-8dbd-7479b5ade6ae',
+          },
+          {
+            binding: 'GRAPHDB',
+            database_name: 'GRAPHDB',
+            database_id: '423018a4-853f-41b5-b2d9-bfda8dcd93cf',
+          },
+        ],
         name: 'faktenfackel',
       },
     },

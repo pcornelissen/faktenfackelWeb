@@ -13,6 +13,7 @@
     "audit": "pnpm audit fix",
     "typecheck": "nuxt typecheck",
     "deploy": "wrangler deploy && node scripts/indexnow.mjs",
+    "deploy:graph": "npx tsx scripts/generateSourceIndex.ts && wrangler d1 execute GRAPHDB --file=.graph-d1.sql --remote",
     "indexnow": "node scripts/indexnow.mjs",
     "indexnow:all": "node scripts/indexnow.mjs --all",
     "indexnow:dry": "node scripts/indexnow.mjs --dry-run",

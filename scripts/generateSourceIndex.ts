@@ -8,11 +8,13 @@
 
 import { readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { buildGraph } from './buildGraph.ts'
+import { buildGraph, writeGraphD1Sql } from './buildGraph.ts'
 
 const SUMMARIES_CACHE_FILE = join(import.meta.dirname, '..', '..', 'knowledge-mcp', '_summaries-cache.json')
 
-const CONTENT_DIR = join(import.meta.dirname, '..', 'content', 'quellen')
+const CONTENT_ROOT = join(import.meta.dirname, '..', 'content')
+const CONTENT_DIR = join(CONTENT_ROOT, 'quellen')
+const ARTICLE_COLLECTIONS = ['faktenchecks', 'lagerfeuer', 'glossar'] as const
 const OUTPUT_FILE = join(import.meta.dirname, '..', '..', 'knowledge-mcp', '_sourceindex.json')
 
 interface Source {
@@ -24,6 +26,8 @@ interface Source {
   tags: string[]
   date: string
   hasImage: boolean
+  referenceCodes?: string[]
+  quoteCodes?: string[]
 }
 
 interface Link {
@@ -40,6 +44,8 @@ interface Link {
   sourceDate?: string
   verdict?: string
   coSources: string[]
+  referenceCodes?: string[]
+  quoteCodes?: string[]
 }
 
 interface Quote {
@@ -50,10 +56,44 @@ interface Quote {
   teaser: string
   tags: string[]
   date: string
+  referenceCodes?: string[]
+  quoteCodes?: string[]
+}
+
+interface Article {
+  path: string // e.g. "faktenchecks/category/slug"
+  collection: string // "faktenchecks" | "lagerfeuer" | "glossar"
+  slug: string // relative path inside the collection, no .md
+  title: string
+  tags: string[]
+  date: string
+  publishedOn?: string
+  verdict?: string
+  referenceCodes?: string[]
+  quoteCodes?: string[]
 }
 
 type FrontmatterValue = string | string[] | boolean
 type Frontmatter = Record<string, FrontmatterValue>
+
+/**
+ * Extract referenceCodes and quoteCodes from raw markdown body.
+ * Mirrors the regexes used in nuxt.config.ts content:file:afterParse hook.
+ */
+function extractCodeReferences(content: string): { referenceCodes: string[], quoteCodes: string[] } {
+  const referenceCodes = [
+    ...[...content.matchAll(/<[Ss]ource[Rr]ef\b[^>]*\bcode="([^"]+)"/g)].map(m => m[1]),
+    ...[...content.matchAll(/:source-ref\{[^}]*code="([^"]+)"/g)].map(m => m[1]),
+  ]
+  const quoteCodes = [
+    ...[...content.matchAll(/<[Qq]uote[Rr]eference\b[^>]*\bcode="([^"]+)"/g)].map(m => m[1]),
+    ...[...content.matchAll(/:quote-reference\{[^}]*code="([^"]+)"/g)].map(m => m[1]),
+  ]
+  return {
+    referenceCodes: [...new Set(referenceCodes)],
+    quoteCodes: [...new Set(quoteCodes)],
+  }
+}
 
 function extractSummary(content: string): string | undefined {
   // Body starts after the closing ---
@@ -174,6 +214,7 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
       const content = await readFile(indexPath, 'utf-8')
       const fm = parseFrontmatter(content)
       const hasImage = await exists(join(sourceDir, 'profile.webp'))
+      const srcRefs = extractCodeReferences(content)
 
       sources.push({
         path: `${group}/${slug}`,
@@ -184,6 +225,8 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
         tags: Array.isArray(fm.tags) ? fm.tags : [],
         date: fm.date || '',
         hasImage,
+        ...(srcRefs.referenceCodes.length ? { referenceCodes: srcRefs.referenceCodes } : {}),
+        ...(srcRefs.quoteCodes.length ? { quoteCodes: srcRefs.quoteCodes } : {}),
       })
 
       // Links
@@ -208,6 +251,7 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
           if (summary) {
             updatedCache[cacheKey] = { date: fileDate, summary }
           }
+          const linkRefs = extractCodeReferences(linkContent)
           links.push({
             path: `${group}/${slug}/links/${file.replace('.md', '')}`,
             source: `${group}/${slug}`,
@@ -222,6 +266,8 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
             ...(lfm.sourceDate ? { sourceDate: lfm.sourceDate } : {}),
             ...(lfm.verdict ? { verdict: lfm.verdict } : {}),
             coSources: Array.isArray(lfm.coSources) ? lfm.coSources : [],
+            ...(linkRefs.referenceCodes.length ? { referenceCodes: linkRefs.referenceCodes } : {}),
+            ...(linkRefs.quoteCodes.length ? { quoteCodes: linkRefs.quoteCodes } : {}),
           })
         }
       }
@@ -233,6 +279,7 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
         for (const file of quoteFiles) {
           const quoteContent = await readFile(join(zitateDir, file), 'utf-8')
           const qfm = parseFrontmatter(quoteContent)
+          const quoteRefs = extractCodeReferences(quoteContent)
           quotes.push({
             path: `${group}/${slug}/zitate/${file.replace('.md', '')}`,
             source: `${group}/${slug}`,
@@ -241,6 +288,8 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
             teaser: qfm.teaser || '',
             tags: Array.isArray(qfm.tags) ? qfm.tags : [],
             date: qfm.date || '',
+            ...(quoteRefs.referenceCodes.length ? { referenceCodes: quoteRefs.referenceCodes } : {}),
+            ...(quoteRefs.quoteCodes.length ? { quoteCodes: quoteRefs.quoteCodes } : {}),
           })
         }
       }
@@ -257,8 +306,60 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
   return { sources, links, quotes }
 }
 
+async function walkMarkdown(dir: string, base = dir): Promise<string[]> {
+  const files: string[] = []
+  let entries: string[] = []
+  try {
+    entries = await readdir(dir)
+  } catch {
+    return files
+  }
+  for (const entry of entries) {
+    const full = join(dir, entry)
+    const s = await stat(full)
+    if (s.isDirectory()) {
+      files.push(...await walkMarkdown(full, base))
+    } else if (entry.endsWith('.md')) {
+      files.push(full)
+    }
+  }
+  return files
+}
+
+async function collectArticles(): Promise<Article[]> {
+  const articles: Article[] = []
+  for (const collection of ARTICLE_COLLECTIONS) {
+    const collectionDir = join(CONTENT_ROOT, collection)
+    if (!await exists(collectionDir)) continue
+    const files = await walkMarkdown(collectionDir)
+    for (const filePath of files) {
+      const content = await readFile(filePath, 'utf-8')
+      const fm = parseFrontmatter(content)
+      const refs = extractCodeReferences(content)
+      const relative = filePath.substring(collectionDir.length + 1).replace(/\.md$/, '')
+      articles.push({
+        path: `${collection}/${relative}`,
+        collection,
+        slug: relative,
+        title: fm.title || relative,
+        tags: Array.isArray(fm.tags) ? fm.tags : [],
+        date: fm.date || '',
+        ...(fm.publishedOn ? { publishedOn: fm.publishedOn } : {}),
+        ...(fm.verdict ? { verdict: fm.verdict } : {}),
+        ...(refs.referenceCodes.length ? { referenceCodes: refs.referenceCodes } : {}),
+        ...(refs.quoteCodes.length ? { quoteCodes: refs.quoteCodes } : {}),
+      })
+    }
+  }
+  articles.sort((a, b) => a.path.localeCompare(b.path))
+  return articles
+}
+
 async function main() {
-  const { sources, links, quotes } = await collectSources()
+  const [{ sources, links, quotes }, articles] = await Promise.all([
+    collectSources(),
+    collectArticles(),
+  ])
   const codes = new Set([...links.map(l => l.code), ...quotes.map(q => q.code)])
 
   const index = {
@@ -267,23 +368,29 @@ async function main() {
       sources: sources.length,
       links: links.length,
       quotes: quotes.length,
+      articles: articles.length,
       groups: new Set(sources.map(s => s.group)).size,
       codes: codes.size,
     },
     sources,
     links,
     quotes,
+    articles,
   }
 
   await writeFile(OUTPUT_FILE, JSON.stringify(index, null, 2) + '\n')
   console.log(`Generated ${OUTPUT_FILE}`)
-  console.log(`  ${sources.length} sources, ${links.length} links, ${quotes.length} quotes in ${index.stats.groups} groups`)
+  console.log(`  ${sources.length} sources, ${links.length} links, ${quotes.length} quotes, ${articles.length} articles in ${index.stats.groups} groups`)
   const withSummary = links.filter(l => l.summary).length
   console.log(`  ${withSummary} links with summary (cached where date unchanged)`)
   const graphDbPath = process.env.GRAPH_DB
     ?? join(import.meta.dirname, '..', '..', 'knowledge-mcp', 'graph.sqlite')
-  buildGraph({ sources, links, quotes }, graphDbPath)
+  buildGraph({ sources, links, quotes, articles }, graphDbPath)
   console.log(`  Graph written to ${graphDbPath}`)
+
+  const d1SqlPath = join(import.meta.dirname, '..', '.graph-d1.sql')
+  const d1Stats = writeGraphD1Sql({ sources, links, quotes, articles }, d1SqlPath)
+  console.log(`  D1 SQL dump written to ${d1SqlPath} (${d1Stats.nodes} nodes, ${d1Stats.edges} edges)`)
 }
 
 main().catch(console.error)

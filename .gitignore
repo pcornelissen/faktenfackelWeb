@@ -30,3 +30,4 @@ logs
 #temp files
 **/~$*
 
+.graph-d1.sql
