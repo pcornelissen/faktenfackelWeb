@@ -14,7 +14,7 @@ tags:
 
 ## Über die Quelle
 
-Godless Gardener ist ein US-amerikanischer Content Creator aus Atlanta, Georgia, der religiöse Behauptungen, Pseudowissenschaft und konservative Narrative kritisch hinterfragt. Er verbindet zugänglichen Humor mit sachlicher Gegenargumentation zu Themen wie Religion, LGBTQ-Rechte, Wissenschaft und Politik. Sein Facebook-Kanal hat eine aktive, wenn auch überschaubare Community. Informationen zur Person hinter dem Kanal (Klarname, beruflicher Hintergrund) sind öffentlich nicht verfügbar — es handelt sich um ein pseudonymes Projekt.
+Godless Gardener ist ein US-amerikanischer Content Creator aus Atlanta, Georgia, der religiöse Behauptungen, Pseudowissenschaft und konservative Narrative kritisch hinterfragt. Er verbindet zugänglichen Humor mit sachlicher Gegenargumentation zu Themen wie Religion, LGBTQ-Rechte, Wissenschaft und Politik. Sein Facebook-Kanal hat eine aktive, wenn auch überschaubare Community. Informationen zur Person hinter dem Kanal (Klarname, beruflicher Hintergrund) sind öffentlich nicht verfügbar, es handelt sich um ein pseudonymes Projekt.
 
 ## Links
 
@@ -22,7 +22,7 @@ Godless Gardener ist ein US-amerikanischer Content Creator aus Atlanta, Georgia,
 
 ## Faktenfackel Bewertung
 
-Godless Gardener produziert pointierte Kurzvideos, die verbreitete religiöse und konservative Argumente mit Gegenbeispielen und Verweisen auf den wissenschaftlichen Konsens konfrontieren. Die Videos sind unterhaltsam und oft sachlich korrekt in den Kernaussagen, aber ohne ausführliche Quellenarbeit — Einzelaussagen sollten verifiziert werden. Keine bekannten Glaubwürdigkeitsprobleme; keine akademische oder institutionelle Einbindung bekannt.
+Godless Gardener produziert pointierte Kurzvideos, die verbreitete religiöse und konservative Argumente mit Gegenbeispielen und Verweisen auf den wissenschaftlichen Konsens konfrontieren. Die Videos sind unterhaltsam und oft sachlich korrekt in den Kernaussagen, aber ohne ausführliche Quellenarbeit: Einzelaussagen sollten verifiziert werden. Keine bekannten Glaubwürdigkeitsprobleme; keine akademische oder institutionelle Einbindung bekannt.
 
 ### Fazit
 

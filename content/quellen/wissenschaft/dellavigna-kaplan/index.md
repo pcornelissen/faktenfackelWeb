@@ -14,7 +14,7 @@ tags:
 
 ## Über die Quelle
 
-Stefano DellaVigna und Ethan Kaplan sind Wirtschaftswissenschaftler, die 2007 gemeinsam die einflussreiche Studie "The Fox News Effect: Media Bias and Voting" im *Quarterly Journal of Economics* (Band 122, Heft 3, S.&nbsp;1187-1234) veröffentlichten.
+Stefano DellaVigna und Ethan Kaplan sind Wirtschaftswissenschaftler, die 2007 gemeinsam die einflussreiche Studie "The Fox News Effect: Media Bias and Voting" im *Quarterly Journal of Economics* (Band 122, Heft 3, S. 1187-1234) veröffentlichten.
 
 **Stefano DellaVigna** (geb. 1973 in Italien) ist Daniel E. Koshland Sr. Distinguished Professor of Economics und Professor of Business Administration an der UC Berkeley Haas School of Business. Er promovierte an der Harvard University und forscht schwerpunktmäßig im Bereich Verhaltensökonomie. Er war von 2017 bis 2023 Co-Editor der *American Economic Review*, einer der führenden Wirtschaftszeitschriften der Welt, und wurde 2021 Fellow der Econometric Society. Sein [Google Scholar-Profil](https://scholar.google.com/citations?user=AMBZL7YAAAAJ&hl=en) weist über 25.000 Zitierungen aus.
 

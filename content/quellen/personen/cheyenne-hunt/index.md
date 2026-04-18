@@ -19,7 +19,7 @@ tags:
 
 Cheyenne Hunt ist eine US-amerikanische Anwältin, politische Aktivistin und Content Creatorin aus Kalifornien. Sie studierte Politikwissenschaft und Public Policy und schloss anschließend ein Jurastudium an der University of California, Irvine ab. Früh in ihrer Karriere arbeitete sie als Rechts- und Politikassistentin für die demokratische Senatorin Amy Klobuchar, wo sie unter anderem am ersten Amtsenthebungsverfahren gegen Donald Trump sowie an Technologiepolitik mitwirkte.
 
-Hunt hat sich auf Tech-Regulierung und digitale Bürgerrechte spezialisiert und bezeichnet sich selbst als Expertin für Big-Tech-Verantwortlichkeit. 2024 kandidierte sie als erste Gen-Z-Frau überhaupt für einen Kongresssitz, als Demokratin für Kaliforniens 45. Bezirk. Im Vorwahlrennen erzielte sie 8,4&nbsp;% der Stimmen und schied aus.
+Hunt hat sich auf Tech-Regulierung und digitale Bürgerrechte spezialisiert und bezeichnet sich selbst als Expertin für Big-Tech-Verantwortlichkeit. 2024 kandidierte sie als erste Gen-Z-Frau überhaupt für einen Kongresssitz, als Demokratin für Kaliforniens 45. Bezirk. Im Vorwahlrennen erzielte sie 8,4 % der Stimmen und schied aus.
 
 Auf Social Media, insbesondere Facebook, TikTok und Instagram, kommentiert sie aktuelle politische Ereignisse in den USA mit Schwerpunkt auf Bürgerrechten, Einwanderungspolitik, Tech-Regulierung und progressiver Politik.
 

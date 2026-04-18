@@ -22,7 +22,7 @@ Dr Idz ist das Pseudonym von Dr. Idrees Mughal, einem britischen NHS-Arzt (MBBS)
 
 ## Faktenfackel Bewertung
 
-Dr Idz ist ein medizinisch qualifizierter Arzt mit nachweisbaren Zeugnissen (NHS, MRes, DipIBLM). Seine Ernährungs- und Gesundheitseinordnungen stützen sich in der Regel auf Studien und Meta-Analysen und sind nachprüfbar. Der Kanal ist primär auf Mythen-Widerlegung ausgerichtet. Die Inhalte sind auf Kurzvideo-Unterhaltung zugeschnitten, was bisweilen Vereinfachungen mit sich bringt. Politische Aussagen — etwa zu Interessenkonflikten bei Behördenrichtlinien — sind Meinungseinordnungen und sollten entsprechend eingeordnet werden.
+Dr Idz ist ein medizinisch qualifizierter Arzt mit nachweisbaren Zeugnissen (NHS, MRes, DipIBLM). Seine Ernährungs- und Gesundheitseinordnungen stützen sich in der Regel auf Studien und Meta-Analysen und sind nachprüfbar. Der Kanal ist primär auf Mythen-Widerlegung ausgerichtet. Die Inhalte sind auf Kurzvideo-Unterhaltung zugeschnitten, was bisweilen Vereinfachungen mit sich bringt. Politische Aussagen, etwa zu Interessenkonflikten bei Behördenrichtlinien, sind Meinungseinordnungen und sollten entsprechend eingeordnet werden.
 
 ### Fazit
 

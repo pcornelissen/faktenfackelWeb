@@ -12,7 +12,7 @@ tags:
 
 ## Über die Quelle
 
-Tristan Härter (auch bekannt als DurdenGaming, geb. 13.&nbsp;Februar 1991 in Erfurt) ist ein deutscher Content-Creator und ehemaliger Lehrer in Thüringen. Als Lehrer thematisierte er mit Schülern rechtsextreme Symbole und Kleidung, woraufhin er online bedroht wurde. Bis Sommer 2024 war er als Lehrer tätig. Auf Facebook veröffentlicht er politische Kommentarvideos zu rechtsextremen Netzwerken, AfD-Vetternwirtschaft und gesellschaftlichen Themen, die teils hohe Reichweiten erzielen. Er ist außerdem als Twitch-Streamer aktiv.
+Tristan Härter (auch bekannt als DurdenGaming, geb. 13. Februar 1991 in Erfurt) ist ein deutscher Content-Creator und ehemaliger Lehrer in Thüringen. Als Lehrer thematisierte er mit Schülern rechtsextreme Symbole und Kleidung, woraufhin er online bedroht wurde. Bis Sommer 2024 war er als Lehrer tätig. Auf Facebook veröffentlicht er politische Kommentarvideos zu rechtsextremen Netzwerken, AfD-Vetternwirtschaft und gesellschaftlichen Themen, die teils hohe Reichweiten erzielen. Er ist außerdem als Twitch-Streamer aktiv.
 
 ## Links
 

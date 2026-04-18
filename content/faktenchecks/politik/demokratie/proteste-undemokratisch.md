@@ -160,7 +160,7 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > Jeder Mensch hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein,
 > Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und
 > Gedankengut zu suchen, zu empfangen und zu verbreiten.  
-> &mdash; <cite><SourceRef code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</SourceRef></cite>
+> &mdash; <cite><SourceRef code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</SourceRef></cite>
 
 ### Antifa gefährdet die Demokratie
 

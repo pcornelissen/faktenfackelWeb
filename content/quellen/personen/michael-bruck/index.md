@@ -14,7 +14,7 @@ tags:
 
 ## Über die Quelle
 
-> Michael Brück (* 2. Januar 1990 in Bergisch Gladbach) ist ein deutscher Neonazi. Er ist ehemaliger stellvertretender NRW-Landesvorsitzender der Kleinpartei Die Rechte, für die er von April 2015 bis August 2020 als Nachfolger von Dennis Giemsch dem Stadtrat von Dortmund angehörte. Seit Ende 2020 ist er in Chemnitz bei der dort ansässigen rechtsextremistischen Partei Freie Sachsen aktiv, die dem Querdenker-Milieu entstammt. Dort arbeitet er zudem für den rechtsextremen Rechtsanwalt Martin Kohlmann. Im Juni 2024 wurde er als Kandidat der gemeinsamen Liste von Pro Chemnitz und DSU in den Ortschaftsrat von Chemnitz-Röhrsdorf gewählt. 
+> Michael Brück (* 2. Januar 1990 in Bergisch Gladbach) ist ein deutscher Neonazi. Er ist ehemaliger stellvertretender NRW-Landesvorsitzender der Kleinpartei Die Rechte, für die er von April 2015 bis August 2020 als Nachfolger von Dennis Giemsch dem Stadtrat von Dortmund angehörte. Seit Ende 2020 ist er in Chemnitz bei der dort ansässigen rechtsextremistischen Partei Freie Sachsen aktiv, die dem Querdenker-Milieu entstammt. Dort arbeitet er zudem für den rechtsextremen Rechtsanwalt Martin Kohlmann. Im Juni 2024 wurde er als Kandidat der gemeinsamen Liste von Pro Chemnitz und DSU in den Ortschaftsrat von Chemnitz-Röhrsdorf gewählt. 
 (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Michael_Br%C3%BCck_(Neonazi)))
 
 ## Links

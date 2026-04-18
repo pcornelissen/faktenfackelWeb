@@ -15,7 +15,7 @@ imageAuthor: DIE LINKE
 
 ## Über die Quelle
 
-Ferat Koçak (* 26. Mai 1979) ist Volkswirt und Bundestagsabgeordneter der Partei Die Linke. Er gewann das Direktmandat im Wahlkreis 81 (Berlin-Neukölln) und ist ordentliches Mitglied im Innenausschuss. Im Fraktionsvorstand ist er Sprecher für Antirassismus und Antifaschismus. Er ist besonders bekannt durch seinen Wahlkreis Neukölln sowie durch sein Engagement gegen die NSU-2.0-Anschlagserie, von der er selbst betroffen war.
+Ferat Koçak (* 26. Mai 1979) ist Volkswirt und Bundestagsabgeordneter der Partei Die Linke. Er gewann das Direktmandat im Wahlkreis 81 (Berlin-Neukölln) und ist ordentliches Mitglied im Innenausschuss. Im Fraktionsvorstand ist er Sprecher für Antirassismus und Antifaschismus. Er ist besonders bekannt durch seinen Wahlkreis Neukölln sowie durch sein Engagement gegen die NSU-2.0-Anschlagserie, von der er selbst betroffen war.
 
 ## Links
 

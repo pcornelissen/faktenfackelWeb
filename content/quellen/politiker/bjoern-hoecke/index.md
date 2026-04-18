@@ -14,7 +14,7 @@ Björn Höcke (* 1972) ist Politiker der :quelle-ref{name="afd"} und seit 2014 M
 
 ## Über die Quelle
 
-Björn Höcke wurde am 1.&nbsp;April 1972 in Lünen, Westfalen, geboren. Er studierte Sport und Geschichte auf Lehramt und arbeitete von 1999 bis 2014 als Gymnasiallehrer in Hessen. 2013 war er Mitgründer des AfD-Landesverbands Thüringen; nach der Landtagswahl 2014 zog er in den Thüringer Landtag ein und wurde unmittelbar zum Fraktionsvorsitzenden gewählt.
+Björn Höcke wurde am 1. April 1972 in Lünen, Westfalen, geboren. Er studierte Sport und Geschichte auf Lehramt und arbeitete von 1999 bis 2014 als Gymnasiallehrer in Hessen. 2013 war er Mitgründer des AfD-Landesverbands Thüringen; nach der Landtagswahl 2014 zog er in den Thüringer Landtag ein und wurde unmittelbar zum Fraktionsvorsitzenden gewählt.
 
 Höcke ist maßgeblicher Kopf und Gründungsfigur des sogenannten "Flügels", einem völkisch-nationalistischen Zusammenschluss innerhalb der AfD. Das :quelle-ref{name="verfassungsschutz"} stufte den Flügel 2020 zunächst als Verdachtsfall, dann als "gesichert rechtsextremistisch" ein; Höcke persönlich gilt den Behörden als Rechtsextremist. Der Flügel löste sich 2020 formal auf, sein Netzwerk blieb jedoch bestehen.
 
@@ -24,7 +24,7 @@ Bei der Landtagswahl 2019 verdoppelte die AfD Thüringen unter Höckes Führung 
 
 ### Strafrechtliche Verurteilungen
 
-Im Mai und Juli 2024 verurteilte das Landgericht Halle Höcke in zwei getrennten Verfahren wegen der Verwendung der verbotenen SA-Parole "Alles für Deutschland" nach §&nbsp;86a StGB. Im ersten Fall hatte er die Parole bei einer AfD-Wahlkampfveranstaltung in Merseburg im Mai 2021 verwendet, im zweiten bei einem AfD-Stammtisch mit rund 350 Teilnehmern in Gera im Dezember 2023. Die Geldstrafen beliefen sich auf insgesamt 29.900 Euro (100 bzw. 130 Tagessätze zu je 130 Euro). Der Bundesgerichtshof bestätigte beide Urteile im August 2025 und verwarf Höckes Revisionen ([BGH-Pressemitteilung, August 2025](https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2025/2025168.html)). Die Verurteilungen sind damit rechtskräftig.
+Im Mai und Juli 2024 verurteilte das Landgericht Halle Höcke in zwei getrennten Verfahren wegen der Verwendung der verbotenen SA-Parole "Alles für Deutschland" nach § 86a StGB. Im ersten Fall hatte er die Parole bei einer AfD-Wahlkampfveranstaltung in Merseburg im Mai 2021 verwendet, im zweiten bei einem AfD-Stammtisch mit rund 350 Teilnehmern in Gera im Dezember 2023. Die Geldstrafen beliefen sich auf insgesamt 29.900 Euro (100 bzw. 130 Tagessätze zu je 130 Euro). Der Bundesgerichtshof bestätigte beide Urteile im August 2025 und verwarf Höckes Revisionen ([BGH-Pressemitteilung, August 2025](https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2025/2025168.html)). Die Verurteilungen sind damit rechtskräftig.
 
 ### Dresdner Rede 2017
 

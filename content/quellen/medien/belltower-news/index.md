@@ -15,7 +15,7 @@ tags:
 
 Belltower.News ist das journalistische Portal der Amadeu Antonio Stiftung und erscheint unter [belltower.news](https://www.belltower.news). Es recherchiert und berichtet zu Rechtsextremismus, Antisemitismus, Rassismus und Bedrohungen der Demokratie in Deutschland. Alle Artikel sind frei zugänglich, keine Paywall.
 
-Finanziert ausschließlich durch Leserspenden — kein staatliches Geld, um journalistische Unabhängigkeit bei aktuellen Themen zu wahren.
+Finanziert ausschließlich durch Leserspenden, kein staatliches Geld, um journalistische Unabhängigkeit bei aktuellen Themen zu wahren.
 
 ## Links
 

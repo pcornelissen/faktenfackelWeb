@@ -17,7 +17,7 @@ Nancy Mace ist republikanische Abgeordnete im US-Repräsentantenhaus, wo sie Sou
 
 Mace ist besonders durch ihre anti-transgender Aktivitäten im Kongress bekannt geworden. Sie brachte eine Resolution ein, die Transgender-Frauen die Nutzung von Frauenbädern im Kapitolsgebäude untersagen sollte. Diese richtete sich direkt gegen Sarah McBride, die erste offen transgender gewählte Kongressabgeordnete in der US-Geschichte. Mace konfrontierte McBride wiederholt persönlich im Kapitol.
 
-Politisch positioniert sich Mace auf dem rechten Flügel der Republikanischen Partei. Sie unterstützt Trump, obwohl sie nach dem 6. Januar 2021 kurzzeitig Kritik an ihm übte, davon aber schnell abrückte.
+Politisch positioniert sich Mace auf dem rechten Flügel der Republikanischen Partei. Sie unterstützt Trump, obwohl sie nach dem 6. Januar 2021 kurzzeitig Kritik an ihm übte, davon aber schnell abrückte.
 
 ## Links
 

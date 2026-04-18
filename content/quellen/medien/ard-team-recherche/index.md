@@ -15,7 +15,7 @@ ARD team.recherche ist ein investigatives Doku-Format der ARD, das seit Oktober 
 
 ## Über die Quelle
 
-team.recherche ist ein gemeinsames Format der ARD-Landesrundfunkanstalten BR, MDR, NDR, SR, SWR und WDR - redaktionell verantwortet von BR und SWR. Das Format ist eine Weiterentwicklung der Formate VOLLBILD (SWR) und Dirty Little Secrets (BR) und wurde am 1.&nbsp;Oktober 2025 gestartet.
+team.recherche ist ein gemeinsames Format der ARD-Landesrundfunkanstalten BR, MDR, NDR, SR, SWR und WDR - redaktionell verantwortet von BR und SWR. Das Format ist eine Weiterentwicklung der Formate VOLLBILD (SWR) und Dirty Little Secrets (BR) und wurde am 1. Oktober 2025 gestartet.
 
 Die Redaktion arbeitet mit verdeckten Ermittlungen, versteckten Kameras, Selbstversuchen und Konfrontationen mit Verantwortlichen. Teams aus jungen Reporterinnen und Reportern nehmen das Publikum mit auf die Recherchereise - ein Ansatz, der klassischen TV-Investigativjournalismus mit Social-Media-Ästhetik verbindet.
 

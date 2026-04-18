@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Markus Thomas Theodor Söder (* 5.&nbsp;Januar 1967 in Nürnberg) ist ein deutscher Politiker der CSU. Er ist seit März 2018 Ministerpräsident des Freistaates Bayern und seit Januar 2019 Parteivorsitzender der CSU. Seit 1994 gehört er dem Bayerischen Landtag an.
+Markus Thomas Theodor Söder (* 5. Januar 1967 in Nürnberg) ist ein deutscher Politiker der CSU. Er ist seit März 2018 Ministerpräsident des Freistaates Bayern und seit Januar 2019 Parteivorsitzender der CSU. Seit 1994 gehört er dem Bayerischen Landtag an.
 
 In früheren Ämtern war Söder von 2007 bis 2008 Bayerischer Staatsminister für Bundes- und Europaangelegenheiten, von 2008 bis 2011 Bayerischer Staatsminister für Umwelt und Gesundheit sowie von 2011 bis 2018 Bayerischer Staatsminister der Finanzen, für Landesentwicklung und Heimat.
 

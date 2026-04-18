@@ -11,7 +11,7 @@ tags:
 
 ## Über die Quelle
 
-Michael Schwarzer war Vorsitzender der AfD-Ratsfraktion in Siegen. Er trat am 6. September 2023 aus der AfD aus und gründete gemeinsam mit Annette Six die Fraktion "Liberal-konservatives Bündnis".
+Michael Schwarzer war Vorsitzender der AfD-Ratsfraktion in Siegen. Er trat am 6. September 2023 aus der AfD aus und gründete gemeinsam mit Annette Six die Fraktion "Liberal-konservatives Bündnis".
 
 ## Links
 

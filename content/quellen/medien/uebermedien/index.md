@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Übermedien ist ein deutsches Onlinemagazin für Medienkritik, das am 16.&nbsp;Januar 2016 von Stefan Niggemeier und Boris Rosenkranz gegründet wurde. Niggemeier ist ein bekannter Medienjournalist, der zuvor den Bildblog (seit 2004) betrieb und als Medienredakteur für die Frankfurter Allgemeine Sonntagszeitung tätig war. Übermedien finanziert sich ausschließlich über Abonnements und schaltet keine Werbung, was wirtschaftliche Abhängigkeiten von den analysierten Medienunternehmen vermeidet.
+Übermedien ist ein deutsches Onlinemagazin für Medienkritik, das am 16. Januar 2016 von Stefan Niggemeier und Boris Rosenkranz gegründet wurde. Niggemeier ist ein bekannter Medienjournalist, der zuvor den Bildblog (seit 2004) betrieb und als Medienredakteur für die Frankfurter Allgemeine Sonntagszeitung tätig war. Übermedien finanziert sich ausschließlich über Abonnements und schaltet keine Werbung, was wirtschaftliche Abhängigkeiten von den analysierten Medienunternehmen vermeidet.
 
 Das Portal beschäftigt sich mit der Arbeit von Journalisten und Medien in Deutschland, deckt Fehler auf und kommentiert journalistische Standards. Schwerpunkte sind Boulevardmedien (besonders Bild-Zeitung), Framing und politische Einflussnahme auf Medienberichterstattung. Übermedien veröffentlicht sowohl eigene Analysen als auch Gastbeiträge von Journalisten und Wissenschaftlern.
 

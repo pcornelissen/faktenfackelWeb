@@ -16,7 +16,7 @@ tags:
 
 ## Über die Quelle
 
-Till Benjamin Steffen (* 22. Juli 1973 in Wiesbaden-Sonnenberg) ist ein deutscher Politiker (Bündnis 90/Die Grünen).
+Till Benjamin Steffen (* 22. Juli 1973 in Wiesbaden-Sonnenberg) ist ein deutscher Politiker (Bündnis 90/Die Grünen).
 Seine Themen sind Demokratie, Klimaschutz und Energiewende und Rechtspolitik.
 
 ## Links

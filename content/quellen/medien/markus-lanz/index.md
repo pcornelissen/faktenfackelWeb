@@ -11,7 +11,7 @@ tags:
 
 ## Über die Quelle
 
-Markus Josef Lanz (* 16. März 1969 in Bruneck, Südtirol) ist ein italienisch-deutscher Fernsehmoderator, Dokumentarfilmer, Fotograf und Podcaster. (Wikipedia)
+Markus Josef Lanz (* 16. März 1969 in Bruneck, Südtirol) ist ein italienisch-deutscher Fernsehmoderator, Dokumentarfilmer, Fotograf und Podcaster. (Wikipedia)
 
 Er ist durch die Moderation zahlreicher TV-Produktionen bekannt, unter anderem für die nach ihm benannte Show "Markus Lanz".
 

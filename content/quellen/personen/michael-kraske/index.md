@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Kraske ist schon lange journalistisch tätig, er arbeitete als Journalist für Stern, "Die Zeit", Geo, Reader’s Digest, Merian, journalist, Psychologie Heute und Spiegel Online. 
+Kraske ist schon lange journalistisch tätig, er arbeitete als Journalist für Stern, "Die Zeit", Geo, Reader's Digest, Merian, journalist, Psychologie Heute und Spiegel Online. 
 
 Er moderiert auch Tagungen und Podiumsdiskussionen oder ist aktiv als Referent sowie Radio- und TV-Experte zu den Themen Medien, Neue Rechte, Rechtspopulismus und Rechtsextremismus.
 

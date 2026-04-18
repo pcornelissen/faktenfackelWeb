@@ -12,9 +12,9 @@ tags:
 
 ## Über die Quelle
 
-SRF (Schweizer Radio und Fernsehen) ist das größte öffentlich-rechtliche Medienunternehmen der Deutschschweiz und Teil der SRG SSR (Schweizerische Radio- und Fernsehgesellschaft). SRF entstand am 1.&nbsp;Januar 2011 aus der Fusion von Schweizer Radio DRS und Schweizer Fernsehen. Das Unternehmen betreibt mehrere Fernsehkanäle (SRF 1, SRF zwei, SRF info), zahlreiche Radioprogramme sowie das Nachrichtenportal srf.ch.
+SRF (Schweizer Radio und Fernsehen) ist das größte öffentlich-rechtliche Medienunternehmen der Deutschschweiz und Teil der SRG SSR (Schweizerische Radio- und Fernsehgesellschaft). SRF entstand am 1. Januar 2011 aus der Fusion von Schweizer Radio DRS und Schweizer Fernsehen. Das Unternehmen betreibt mehrere Fernsehkanäle (SRF 1, SRF zwei, SRF info), zahlreiche Radioprogramme sowie das Nachrichtenportal srf.ch.
 
-Die SRG SSR finanziert sich zu rund 79&nbsp;% aus der Haushaltsabgabe (früher: Billag-Gebühr), den Rest decken Werbung und Sponsoring. Mit rund 6.800 Mitarbeitenden und einem Jahresumsatz von 1,56&nbsp;Milliarden Franken ist sie das größte Medienunternehmen der Schweiz.
+Die SRG SSR finanziert sich zu rund 79 % aus der Haushaltsabgabe (früher: Billag-Gebühr), den Rest decken Werbung und Sponsoring. Mit rund 6.800 Mitarbeitenden und einem Jahresumsatz von 1,56 Milliarden Franken ist sie das größte Medienunternehmen der Schweiz.
 
 SRF unterliegt dem publizistischen Auftrag des Bundesrates und hat eigene publizistische Leitlinien verabschiedet, die Sachgerechtigkeit, Vielfalt und Unabhängigkeit als Grundsätze festlegen. Faktencheck-Prozesse sind explizit in den Leitlinien verankert.
 

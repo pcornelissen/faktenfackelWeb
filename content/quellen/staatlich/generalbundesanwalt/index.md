@@ -17,7 +17,7 @@ Der Generalbundesanwalt beim Bundesgerichtshof (GBA) ist die oberste Strafverfol
 
 Die Bundesanwaltschaft ist zuständig für die Verfolgung schwerer Staatsschutzdelikte (Landesverrat, Gefährdung der äußeren Sicherheit), terroristischer Straftaten und Vergehen nach dem Völkerstrafgesetzbuch. Daneben nimmt sie in Revisionssachen vor dem Bundesgerichtshof die staatsanwaltschaftlichen Aufgaben wahr. In der Behörde arbeiten rund 130 Bundesanwältinnen und Bundesanwälte, unterstützt von 50 bis 60 abgeordneten Staatsanwälten und Richtern der Länder.
 
-Seit dem 4.&nbsp;März 2024 ist [Jens Rommel](https://de.wikipedia.org/wiki/Jens_Rommel) Generalbundesanwalt. Rommel war zuvor Richter am BGH und leitete von 2015 bis 2020 die Zentrale Stelle der Landesjustizverwaltungen zur Aufklärung nationalsozialistischer Verbrechen in Ludwigsburg. Sein Vorgänger [Peter Frank](https://www.generalbundesanwalt.de/SharedDocs/Pressemitteilungen/DE/2024/Pressemitteilung-vom-04-03-2024.html) war seit Oktober 2015 im Amt und wurde im Dezember 2023 zum Richter am Bundesverfassungsgericht berufen.
+Seit dem 4. März 2024 ist [Jens Rommel](https://de.wikipedia.org/wiki/Jens_Rommel) Generalbundesanwalt. Rommel war zuvor Richter am BGH und leitete von 2015 bis 2020 die Zentrale Stelle der Landesjustizverwaltungen zur Aufklärung nationalsozialistischer Verbrechen in Ludwigsburg. Sein Vorgänger [Peter Frank](https://www.generalbundesanwalt.de/SharedDocs/Pressemitteilungen/DE/2024/Pressemitteilung-vom-04-03-2024.html) war seit Oktober 2015 im Amt und wurde im Dezember 2023 zum Richter am Bundesverfassungsgericht berufen.
 
 ## Links
 

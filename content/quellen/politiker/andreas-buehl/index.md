@@ -11,9 +11,9 @@ tags:
 
 ## Über die Quelle
 
-Andreas Bühl (* 6.&nbsp;Februar 1987 in Ilmenau) ist Politiker der CDU und seit 2014 Mitglied des Thüringer Landtags. Er ist Diplom-Verwaltungswirt (FH) und Master of Public Administration und arbeitete vor seiner Landtagszugehörigkeit als Sachbearbeiter beim Landesamt für Vermessung und Geoinformation in Thüringen.
+Andreas Bühl (* 6. Februar 1987 in Ilmenau) ist Politiker der CDU und seit 2014 Mitglied des Thüringer Landtags. Er ist Diplom-Verwaltungswirt (FH) und Master of Public Administration und arbeitete vor seiner Landtagszugehörigkeit als Sachbearbeiter beim Landesamt für Vermessung und Geoinformation in Thüringen.
 
-Bühl vertritt den Wahlkreis 22 (Ilm-Kreis I) als Direktkandidat. Bei der Landtagswahl 2014 gewann er das Direktmandat mit 36,6&nbsp;% der Erststimmen als damals jüngster direkt gewählter Abgeordneter des Thüringer Landtags. Im Dezember 2015 wurde er Vorsitzender des CDU-Stadtverbands Ilmenau.
+Bühl vertritt den Wahlkreis 22 (Ilm-Kreis I) als Direktkandidat. Bei der Landtagswahl 2014 gewann er das Direktmandat mit 36,6 % der Erststimmen als damals jüngster direkt gewählter Abgeordneter des Thüringer Landtags. Im Dezember 2015 wurde er Vorsitzender des CDU-Stadtverbands Ilmenau.
 
 Von 2020 bis 2024 fungierte er als Parlamentarischer Geschäftsführer der CDU-Fraktion im Thüringer Landtag. Nach der Landtagswahl im September 2024 übernahm er das Amt des Fraktionsvorsitzenden, als :quelle-ref{name="mario-voigt"} zum Ministerpräsidenten gewählt wurde. Bühl gilt als enger Vertrauter Voigts. Er ist evangelisch und verheiratet.
 
@@ -23,7 +23,7 @@ Neben seiner politischen Arbeit ist er Landesführer der DRK-Bergwacht Thüringe
 
 Bühl ist als Fraktionsvorsitzender zentraler Akteur in der sogenannten "Brombeer-Koalition" aus CDU, BSW und SPD, die seit Dezember 2024 in Thüringen regiert. Diese Minderheitsregierung verfügt über 44 von 88 Landtagssitzen und ist damit auf Duldung oder Unterstützung anderer Fraktionen angewiesen, um Mehrheiten zu organisieren.
 
-Im Umgang mit der AfD vertritt Bühl eine pragmatische Position: Er lehnt eine inhaltliche Zusammenarbeit mit der AfD grundsätzlich ab und hält an der Koalitionsvereinbarung fest, die diese explizit ausschließt. Gleichzeitig argumentiert er, dass bei Zweidrittelmehrheiten - etwa bei Richterwahlen - Gespräche mit der AfD unvermeidlich seien. Zu Höckes wiederholten Misstrauensanträgen kommentierte Bühl laut [Saale Info TV (4.&nbsp;Februar 2026)](https://saaleinfo.tv/2026/02/04/buehl-cdu-hoecke-scheitert-erneut/): "Wer keine Mehrheiten organisieren kann, kann auch kein Land führen."
+Im Umgang mit der AfD vertritt Bühl eine pragmatische Position: Er lehnt eine inhaltliche Zusammenarbeit mit der AfD grundsätzlich ab und hält an der Koalitionsvereinbarung fest, die diese explizit ausschließt. Gleichzeitig argumentiert er, dass bei Zweidrittelmehrheiten - etwa bei Richterwahlen - Gespräche mit der AfD unvermeidlich seien. Zu Höckes wiederholten Misstrauensanträgen kommentierte Bühl laut [Saale Info TV (4. Februar 2026)](https://saaleinfo.tv/2026/02/04/buehl-cdu-hoecke-scheitert-erneut/): "Wer keine Mehrheiten organisieren kann, kann auch kein Land führen."
 
 In der Debatte um die sogenannte "Brandmauer" zur AfD positionierte Bühl sich differenziert. Laut [inSüdthüringen](https://www.insuedthueringen.de/inhalt.auch-in-thueringen-cdu-meisselt-an-der-brandmauer-zur-afd.e37533bf-99f6-4796-a9bb-4fbea0220491.html) soll er gesagt haben: "Wenn ein Gesetz auf sachlichen Erwägungen und nach demokratischer Beratung als richtig befunden wurde und auch Zuspruch von den politischen Extremen findet, ist das kein Grund zur Revision. Wer seine Politik allein danach ausrichtet, wer ihr zustimmt, verwechselt Moral mit Politik."
 

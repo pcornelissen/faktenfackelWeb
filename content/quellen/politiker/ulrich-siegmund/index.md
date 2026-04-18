@@ -12,7 +12,7 @@ tags:
 
 ## Über die Quelle
 
-Ulrich Siegmund (* 25. Oktober 1990 in Havelberg) ist ein deutscher Politiker (AfD) im vom Verfassungsschutz des Landes als gesichert rechtsextrem eingestuften Landesverband Sachsen-Anhalt. Seit 2016 ist er Abgeordneter im Landtag von Sachsen-Anhalt, seit August 2022 gemeinsam mit Oliver Kirchner außerdem Vorsitzender der AfD-Landtagsfraktion und damit Oppositionsführer. Im Jahr 2023 nahm Siegmund am Treffen von Rechtsextremen in Potsdam teil. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Ulrich_Siegmund))
+Ulrich Siegmund (* 25. Oktober 1990 in Havelberg) ist ein deutscher Politiker (AfD) im vom Verfassungsschutz des Landes als gesichert rechtsextrem eingestuften Landesverband Sachsen-Anhalt. Seit 2016 ist er Abgeordneter im Landtag von Sachsen-Anhalt, seit August 2022 gemeinsam mit Oliver Kirchner außerdem Vorsitzender der AfD-Landtagsfraktion und damit Oppositionsführer. Im Jahr 2023 nahm Siegmund am Treffen von Rechtsextremen in Potsdam teil. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Ulrich_Siegmund))
 
 ## Links
 

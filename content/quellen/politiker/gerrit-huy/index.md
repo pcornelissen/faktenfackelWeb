@@ -12,7 +12,7 @@ tags:
   - Pressefreiheit
 ---
 
-Gerrit Huy (geb. 13.&nbsp;Mai 1953) ist eine deutsche Politikerin der :quelle-ref{name="afd"} und seit 2021 Mitglied des Deutschen Bundestages. Die arbeitsmarktpolitische Sprecherin der AfD-Fraktion studierte Mathematik und Wirtschaft und erwarb einen Master of Public Administration an der Harvard University. Vor ihrer politischen Karriere bekleidete sie leitende Positionen bei Mercedes-Benz, Daimler-Benz Interservices und als CEO von Compaq Computer Deutschland. Sie nahm am Potsdamer Treffen vom 25.&nbsp;November 2023 teil und erzielte im März 2026 ein Urteil gegen :quelle-ref{name="correctiv"} vor dem Landgericht Berlin II (Az. 27 O 379/25), vertreten durch die :quelle-ref{name="kanzlei-hoecker"}.
+Gerrit Huy (geb. 13. Mai 1953) ist eine deutsche Politikerin der :quelle-ref{name="afd"} und seit 2021 Mitglied des Deutschen Bundestages. Die arbeitsmarktpolitische Sprecherin der AfD-Fraktion studierte Mathematik und Wirtschaft und erwarb einen Master of Public Administration an der Harvard University. Vor ihrer politischen Karriere bekleidete sie leitende Positionen bei Mercedes-Benz, Daimler-Benz Interservices und als CEO von Compaq Computer Deutschland. Sie nahm am Potsdamer Treffen vom 25. November 2023 teil und erzielte im März 2026 ein Urteil gegen :quelle-ref{name="correctiv"} vor dem Landgericht Berlin II (Az. 27 O 379/25), vertreten durch die :quelle-ref{name="kanzlei-hoecker"}.
 
 ## Über die Person
 
@@ -34,13 +34,13 @@ Huy hat auf [Abgeordnetenwatch](https://www.abgeordnetenwatch.de/profile/gerrit-
 
 ### Das Treffen (November 2023)
 
-Am 25.&nbsp;November 2023 nahm Huy an einem Treffen in der Villa Adlon am Lehnitzsee bei Potsdam teil. Auf der Veranstaltung referierte :quelle-ref{name="martin-sellner"}, ehemaliger Kopf der Identitären Bewegung Österreich, über sein Remigrationskonzept. Weitere Teilnehmer waren hochrangige AfD-Politiker, CDU-nahe Kreise, Unternehmensvertreter und Angehörige rechtsextremer Netzwerke. Huy gab später an, kaum jemanden auf dem Treffen gekannt und keine formelle Einladung erhalten zu haben.
+Am 25. November 2023 nahm Huy an einem Treffen in der Villa Adlon am Lehnitzsee bei Potsdam teil. Auf der Veranstaltung referierte :quelle-ref{name="martin-sellner"}, ehemaliger Kopf der Identitären Bewegung Österreich, über sein Remigrationskonzept. Weitere Teilnehmer waren hochrangige AfD-Politiker, CDU-nahe Kreise, Unternehmensvertreter und Angehörige rechtsextremer Netzwerke. Huy gab später an, kaum jemanden auf dem Treffen gekannt und keine formelle Einladung erhalten zu haben.
 
 Im Januar 2024, nachdem :quelle-ref{name="correctiv"} die Recherche "Geheimplan gegen Deutschland" veröffentlicht hatte, erstattete Huy Strafanzeige gegen Correctiv-Mitarbeiter wegen mutmaßlicher Verletzung des Hausrechts durch Fotos und mögliche Tonaufnahmen. Die Potsdamer Staatsanwaltschaft sah keinen Anfangsverdacht und leitete keine Ermittlungen ein.
 
 ### Die Klage vor dem LG Berlin II (Az. 27 O 379/25)
 
-Parallel dazu reichte Huy, vertreten durch Rechtsanwalt Carsten Brennecke der :quelle-ref{name="kanzlei-hoecker"}, Klage gegen Correctiv vor dem Landgericht Berlin II ein. Das Gericht verbot Correctiv mit Urteil vom 17.&nbsp;März 2026 mehrere Aussagen aus dem Bericht, darunter die Formulierung, beim Potsdamer Treffen sei ein "Masterplan zur Ausweisung deutscher Staatsbürger" vorgestellt worden. Außerdem untersagte es die Behauptung, Huy habe vorgeschlagen, "Menschen mit doppelter Staatsbürgerschaft die deutsche Staatsbürgerschaft wieder wegzunehmen." Die schriftliche Urteilsbegründung wurde am 15.&nbsp;April 2026 veröffentlicht.
+Parallel dazu reichte Huy, vertreten durch Rechtsanwalt Carsten Brennecke der :quelle-ref{name="kanzlei-hoecker"}, Klage gegen Correctiv vor dem Landgericht Berlin II ein. Das Gericht verbot Correctiv mit Urteil vom 17. März 2026 mehrere Aussagen aus dem Bericht, darunter die Formulierung, beim Potsdamer Treffen sei ein "Masterplan zur Ausweisung deutscher Staatsbürger" vorgestellt worden. Außerdem untersagte es die Behauptung, Huy habe vorgeschlagen, "Menschen mit doppelter Staatsbürgerschaft die deutsche Staatsbürgerschaft wieder wegzunehmen." Die schriftliche Urteilsbegründung wurde am 15. April 2026 veröffentlicht.
 
 Das Landgericht Berlin II begründete sein Urteil im Wesentlichen damit, Sellner habe die Staatsbürgerschaft in seinem Potsdamer Vortrag ausdrücklich als Sperre für Ausweisungen anerkannt; die Masterplan-Formulierung von Correctiv stelle daher eine unwahre Tatsachenbehauptung dar. Damit widerspricht die Berliner Kammer explizit dem Landgericht Hamburg, das in einem Parallelverfahren für Ulrich Vosgerau dieselbe Passage im Dezember 2025 (Az. 324 O 61/24) noch als zulässige Meinungsäußerung eingestuft hatte.
 

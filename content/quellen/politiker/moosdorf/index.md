@@ -16,7 +16,7 @@ Matthias Moosdorf (* 1963) ist Violoncellist und Musikwissenschaftler. Er studie
 
 Moosdorf gilt innerhalb der AfD als Teil des nationalkonservativen Flügels. Er ist Unterzeichner der sogenannten "Erfurter Resolution" von 2015, mit der der damalige Flügel um Björn Höcke gestärkt wurde. Öffentlich trat er unter anderem mit Positionen zur Kulturpolitik und mit Kritik an der etablierten Gedenkkultur hervor.
 
-Am 22.\u00A0Juni 2023 soll er in der Garderobe des Reichstagsgebäudes einen Hitlergruß gezeigt haben. Zeugen meldeten den Vorfall; die Berliner Staatsanwaltschaft erhob Anklage wegen Verwendens von Kennzeichen verfassungswidriger Organisationen (§\u00A086a\u00A0StGB). Der Bundestag hob seine Immunität im Oktober 2025 auf. Das Berliner Landgericht ließ die Anklage am 17.\u00A0März 2026 zur Hauptverhandlung zu (Az. I\u00A0502\u00A0KLs\u00A07/26). Moosdorf bezeichnet die Anklage als "politischen Mordversuch" und übt sein Mandat weiterhin aus. Das Verfahren ist zum Stand April\u00A02026 anhängig; eine Verurteilung liegt nicht vor.
+Am 22. Juni 2023 soll er in der Garderobe des Reichstagsgebäudes einen Hitlergruß gezeigt haben. Zeugen meldeten den Vorfall; die Berliner Staatsanwaltschaft erhob Anklage wegen Verwendens von Kennzeichen verfassungswidriger Organisationen (§ 86a StGB). Der Bundestag hob seine Immunität im Oktober 2025 auf. Das Berliner Landgericht ließ die Anklage am 17. März 2026 zur Hauptverhandlung zu (Az. I 502 KLs 7/26). Moosdorf bezeichnet die Anklage als "politischen Mordversuch" und übt sein Mandat weiterhin aus. Das Verfahren ist zum Stand April 2026 anhängig; eine Verurteilung liegt nicht vor.
 
 ## Links
 

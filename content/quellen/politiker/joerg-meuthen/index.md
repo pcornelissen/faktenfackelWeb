@@ -11,7 +11,7 @@ tags:
 
 ## Über die Quelle
 
-Jörg Meuthen (* 1961) war von 2015 bis 2022 Bundessprecher (Vorsitzender) der AfD. Er trat am 28. Januar 2022 aus der Partei aus und begründete dies mit der zunehmenden Radikalisierung der Partei.
+Jörg Meuthen (* 1961) war von 2015 bis 2022 Bundessprecher (Vorsitzender) der AfD. Er trat am 28. Januar 2022 aus der Partei aus und begründete dies mit der zunehmenden Radikalisierung der Partei.
 
 ## Links
 

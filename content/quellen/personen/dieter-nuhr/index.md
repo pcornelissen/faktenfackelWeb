@@ -12,7 +12,7 @@ tags:
   - Klima
 ---
 
-Dieter Herbert Nuhr (* 29.&nbsp;Oktober 1960 in Wesel) ist ein deutscher Kabarettist, Satiriker und ARD-Moderator. Seine Sendung beim Rundfunk Berlin-Brandenburg läuft seit 2009 und trägt seit Oktober 2014 den Titel "Nuhr im Ersten". Er gilt als einer der reichweitenstärksten deutschen Kabarettisten mit über 200.000 Zuschauern pro Jahr bei Bühnenauftritten.
+Dieter Herbert Nuhr (* 29. Oktober 1960 in Wesel) ist ein deutscher Kabarettist, Satiriker und ARD-Moderator. Seine Sendung beim Rundfunk Berlin-Brandenburg läuft seit 2009 und trägt seit Oktober 2014 den Titel "Nuhr im Ersten". Er gilt als einer der reichweitenstärksten deutschen Kabarettisten mit über 200.000 Zuschauern pro Jahr bei Bühnenauftritten.
 
 ## Über die Quelle
 

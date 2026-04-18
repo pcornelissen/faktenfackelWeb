@@ -15,7 +15,7 @@ tags:
 
 Solarify.eu ist ein seit März 2012 betriebenes unabhängiges Informationsportal der [Agentur Zukunft](https://www.agentur-zukunft.eu/) zu Themen wie Erneuerbare Energien, Klimawandel, Kreislaufwirtschaft und Energiewende. Hinter dem Portal steht Dr. Gerhard Hofmann, Journalist mit über 40 Jahren Erfahrung in der politischen Berichterstattung, darunter für Bayerischer Rundfunk, SWF/SWR, RTL und n-tv.
 
-Ursprünglich wurde Solarify in Zusammenarbeit mit dem Max-Planck-Institut für Chemische Energiekonversion (MPI CEC) in Mülheim an der Ruhr betrieben. Seit dem 30.&nbsp;Juni 2022 wird die Seite von der [Circular Valley Stiftung](https://circular-valley.org/) in Wuppertal gehostet. Das Portal hatte bis Ende 2018 bereits über 10.000 Texte veröffentlicht; inzwischen umfasst es mehr als 18.000 Beiträge.
+Ursprünglich wurde Solarify in Zusammenarbeit mit dem Max-Planck-Institut für Chemische Energiekonversion (MPI CEC) in Mülheim an der Ruhr betrieben. Seit dem 30. Juni 2022 wird die Seite von der [Circular Valley Stiftung](https://circular-valley.org/) in Wuppertal gehostet. Das Portal hatte bis Ende 2018 bereits über 10.000 Texte veröffentlicht; inzwischen umfasst es mehr als 18.000 Beiträge.
 
 ## Links
 

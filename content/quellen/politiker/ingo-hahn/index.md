@@ -11,7 +11,7 @@ tags:
 
 ## Über die Quelle
 
-Ingo Jochen Hahn, geboren am 28.&nbsp;Januar 1971 in Groß-Gerau, ist ein deutscher Geograph und Politiker der :quelle-ref{name="afd"}. Er ist seit der Bundestagswahl 2025 Mitglied des 21.&nbsp;Deutschen Bundestages und vertritt den bayerischen [Wahlkreis 222 (Bad Tölz-Wolfratshausen – Miesbach)](https://www.bundestag.de/abgeordnete/biografien/H/hahn_ingo-1044696).
+Ingo Jochen Hahn, geboren am 28. Januar 1971 in Groß-Gerau, ist ein deutscher Geograph und Politiker der :quelle-ref{name="afd"}. Er ist seit der Bundestagswahl 2025 Mitglied des 21. Deutschen Bundestages und vertritt den bayerischen [Wahlkreis 222 (Bad Tölz-Wolfratshausen – Miesbach)](https://www.bundestag.de/abgeordnete/biografien/H/hahn_ingo-1044696).
 
 Hahn ist promovierter Landschaftsökologe (1998) und habilitierte sich 2006 im Fach Ökologie und Biogeographie. Seit 2013 hat er eine Professur für Geographie, Geoökologie und Kartographie inne. Der AfD trat er 2014 bei. Von 2018 bis 2025 war er Abgeordneter im [Bayerischen Landtag](https://www.bayern.landtag.de/abgeordnete/abgeordnete-von-a-z/profil/ingo-hahn/).
 
@@ -34,7 +34,7 @@ Inhaltlich ist Hahn schwerpunktmäßig in der Klima-, Umwelt- und Forschungspoli
 
 Als AfD-Abgeordneter vertritt Hahn die parteitypische Klima- und Umweltagenda, die in zentralen Punkten dem wissenschaftlichen Konsens widerspricht. Seine akademischen Titel werden dabei regelmäßig zur rhetorischen Autorisierung klimapolitischer Skepsis eingesetzt, obwohl Biogeographie und Kartographie keine klimawissenschaftlichen Kernfächer sind.
 
-Die [Einstufung der AfD als gesichert rechtsextrem durch das Bundesamt für Verfassungsschutz](https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html) am 2.&nbsp;Mai 2025 betrifft die Gesamtpartei und damit auch das politische Umfeld, in dem Hahn als Abgeordneter agiert. Inhaltliche Äußerungen Hahns zu Klimaschutz, Energiewende und Wissenschaftspolitik sollten daher vor diesem parteipolitischen Hintergrund gelesen werden.
+Die [Einstufung der AfD als gesichert rechtsextrem durch das Bundesamt für Verfassungsschutz](https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html) am 2. Mai 2025 betrifft die Gesamtpartei und damit auch das politische Umfeld, in dem Hahn als Abgeordneter agiert. Inhaltliche Äußerungen Hahns zu Klimaschutz, Energiewende und Wissenschaftspolitik sollten daher vor diesem parteipolitischen Hintergrund gelesen werden.
 
 ### Fazit
 

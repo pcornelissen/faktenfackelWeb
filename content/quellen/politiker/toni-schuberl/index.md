@@ -14,7 +14,7 @@ tags:
 
 ## Über die Quelle
 
-Toni Schuberl (* 26. Januar 1983 in Deggendorf als Anton Schuberl) ist ein deutscher Politiker (Bündnis 90/Die Grünen) und Autor. Er ist seit 2018 Abgeordneter im Bayerischen Landtag. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Toni_Schuberl))
+Toni Schuberl (* 26. Januar 1983 in Deggendorf als Anton Schuberl) ist ein deutscher Politiker (Bündnis 90/Die Grünen) und Autor. Er ist seit 2018 Abgeordneter im Bayerischen Landtag. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Toni_Schuberl))
 
 ## Links
 

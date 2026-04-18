@@ -13,13 +13,13 @@ tags:
 
 ## Über die Quelle
 
-Die Hochschule Niederrhein (HSNR) ist eine staatliche Fachhochschule in Nordrhein-Westfalen mit Standorten in Krefeld und Mönchengladbach. Sie wurde am 1.&nbsp;August 1971 als Fachhochschule Niederrhein durch den Zusammenschluss von acht höheren Fachschulen und drei Ingenieurschulen gegründet; 2001 erfolgte die Umbenennung in Hochschule Niederrhein. Ihre Wurzeln reichen bis ins 19.&nbsp;Jahrhundert zurück: 1855 entstand in Krefeld auf Initiative der Handelskammer die Höhere Webeschule, 1901 die Preußische Höhere Fachschule für die Textilindustrie in Mönchengladbach.
+Die Hochschule Niederrhein (HSNR) ist eine staatliche Fachhochschule in Nordrhein-Westfalen mit Standorten in Krefeld und Mönchengladbach. Sie wurde am 1. August 1971 als Fachhochschule Niederrhein durch den Zusammenschluss von acht höheren Fachschulen und drei Ingenieurschulen gegründet; 2001 erfolgte die Umbenennung in Hochschule Niederrhein. Ihre Wurzeln reichen bis ins 19. Jahrhundert zurück: 1855 entstand in Krefeld auf Initiative der Handelskammer die Höhere Webeschule, 1901 die Preußische Höhere Fachschule für die Textilindustrie in Mönchengladbach.
 
 Heute zählt die Hochschule rund 13.400 Studierende (Stand WiSe 2025/26) und bietet 78 Bachelor- sowie 34 Masterstudiengänge in neun Fachbereichen an: Chemie, Design, Elektrotechnik und Informatik, Ingenieurwissenschaften und Informatik, Oecotrophologie, Sozialwesen, Textil- und Bekleidungstechnik, Wirtschaftswissenschaften sowie Gesundheitswesen. Von März 2020 bis Ende 2025 war Thomas Grünewald Präsident der Hochschule; seit Dezember 2025 hat Susanne Meyer das Amt inne.
 
 Die Hochschule ist besonders bekannt für ihren Fachbereich Textil- und Bekleidungstechnik, der zu den bundesweit führenden gehört und das Forschungsinstitut für Textil und Bekleidung (FTB) beherbergt. 
 
-2024 warb die Hochschule laut [Wikipedia](https://de.wikipedia.org/wiki/Hochschule_Niederrhein) rund 21,5&nbsp;Millionen Euro an Drittmitteln ein.
+2024 warb die Hochschule laut [Wikipedia](https://de.wikipedia.org/wiki/Hochschule_Niederrhein) rund 21,5 Millionen Euro an Drittmitteln ein.
 
 ## Links
 

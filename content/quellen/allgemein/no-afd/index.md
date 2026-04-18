@@ -22,7 +22,7 @@ tags:
 
 ### Einordnung
 
-"No AfD" ist eine aktivistische Seite mit klar erkennbarer politischer Positionierung gegen die AfD. Die Seite kuratiert und teilt Inhalte Dritter — vor allem Ausschnitte aus Parlamentsdebatten und öffentlichen Auftritten —, kommentiert diese aber auch mit eigenem Framing. Die geteilten Primärquellen (z.B. Bundestags-Livestreams) sind häufig prüfbar; die redaktionelle Auswahl und die Beschriftungen der Clips verfolgen einen dezidiert politischen Zweck.
+"No AfD" ist eine aktivistische Seite mit klar erkennbarer politischer Positionierung gegen die AfD. Die Seite kuratiert und teilt Inhalte Dritter, vor allem Ausschnitte aus Parlamentsdebatten und öffentlichen Auftritten, kommentiert diese aber auch mit eigenem Framing. Die geteilten Primärquellen (z.B. Bundestags-Livestreams) sind häufig prüfbar; die redaktionelle Auswahl und die Beschriftungen der Clips verfolgen einen dezidiert politischen Zweck.
 
 ### Fazit
 

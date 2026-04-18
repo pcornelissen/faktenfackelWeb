@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Robert Bernard Reich (geboren am 24.&nbsp;Juni 1946 in Scranton, Pennsylvania) ist ein US-amerikanischer Ökonom, Autor und politischer Kommentator. Er studierte am Dartmouth College, war Rhodes-Stipendiat in Oxford und absolvierte sein Jurastudium an der Yale Law School.
+Robert Bernard Reich (geboren am 24. Juni 1946 in Scranton, Pennsylvania) ist ein US-amerikanischer Ökonom, Autor und politischer Kommentator. Er studierte am Dartmouth College, war Rhodes-Stipendiat in Oxford und absolvierte sein Jurastudium an der Yale Law School.
 
 Reich war unter Präsident Bill Clinton von 1993 bis 1997 der 22. US-Arbeitsminister. Unter seiner Leitung wurde der Family and Medical Leave Act umgesetzt und das Ministerium gewann über 30 Auszeichnungen für Innovation. Das Magazin [Time](https://en.wikipedia.org/wiki/Robert_Reich) wählte ihn 2008 zu einem der zehn erfolgreichsten Kabinettsmitglieder des Jahrhunderts.
 
