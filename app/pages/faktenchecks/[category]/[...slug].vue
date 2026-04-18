@@ -63,6 +63,13 @@ useClaimReview({
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
+const publishedOnStr = page.value?.publishedOn as string | null || ''
+const isPublished = publishedOnStr && new Date(publishedOnStr) <= new Date()
+const publishedOnLabel = isPublished ? dateString(publishedOnStr) : ''
+const showLastChange = isPublished
+  ? publishedOnStr.slice(0, 10) !== lastChangeStr.slice(0, 10)
+  : true
+
 await referencesStore.fetchFor(page.value)
 </script>
 
@@ -76,7 +83,16 @@ await referencesStore.fetchFor(page.value)
       <div class="article-shell">
         <div class="article-header">
           <div class="article-headline">
-            Stand: {{ lastChange }}
+            <template v-if="isPublished">
+              Veröffentlicht am <time :datetime="publishedOnStr">{{ publishedOnLabel }}</time>
+              <template v-if="showLastChange">
+                <span class="article-headline-sep">·</span>
+                Stand: <time :datetime="lastChangeStr">{{ lastChange }}</time>
+              </template>
+            </template>
+            <template v-else>
+              Stand: <time :datetime="lastChangeStr">{{ lastChange }}</time>
+            </template>
           </div>
           <h1 class="article-title">
             {{ page.title }}
