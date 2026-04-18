@@ -9,12 +9,13 @@ export default defineContentConfig({
         date: z.date(),
         title: z.string(),
         subtitle: z.string(),
+        description: z.string().optional(),
         publishedOn: z.date().or(z.null()),
         verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
         tags: z.set(z.string()),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
-      }),
+      }).strict(),
     }),
     lagerfeuer: defineCollection({
       type: 'page',
@@ -31,7 +32,7 @@ export default defineContentConfig({
         icon: z.string().optional(),
         iconTxt: z.string().optional(),
         part: z.number().optional(),
-      }),
+      }).strict(),
     }),
     glossar: defineCollection({
       type: 'page',
@@ -42,7 +43,7 @@ export default defineContentConfig({
         subject: z.string(),
         publishedOn: z.date().or(z.null()),
         tags: z.set(z.string()),
-      }),
+      }).strict(),
     }),
     zitate: defineCollection({
       type: 'page',
@@ -56,7 +57,7 @@ export default defineContentConfig({
         teaser: z.string(),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
-      }),
+      }).strict(),
       indexes: [
         { columns: ['code'], unique: true },
       ],
@@ -74,7 +75,7 @@ export default defineContentConfig({
         tags: z.set(z.string()),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
-      }),
+      }).strict(),
     }),
     news: defineCollection({
       type: 'page',
@@ -84,7 +85,7 @@ export default defineContentConfig({
         title: z.string(),
         teaser: z.string().optional(),
         publishedOn: z.date().or(z.null()),
-      }),
+      }).strict(),
     }),
     quellenlinks: defineCollection({
       type: 'page',
@@ -95,6 +96,7 @@ export default defineContentConfig({
         sourceDate: z.date(),
         code: z.string(),
         title: z.string(),
+        description: z.string().optional(),
         publishedOn: z.date(),
         uri: z.string(),
         type: z.string(),
@@ -104,7 +106,7 @@ export default defineContentConfig({
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
         status: z.array(z.string()).optional(),
-      }),
+      }).strict(),
       indexes: [
         { columns: ['code'], unique: true },
       ],
