@@ -7,7 +7,6 @@ description: "AfD-Bundestagsabgeordneter (seit 2025), zuvor MdL Bayern, klimapol
 tags:
   - AfD
   - Bundestag
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

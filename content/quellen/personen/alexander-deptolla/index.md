@@ -9,7 +9,6 @@ tags:
   - Kampf der Nibelungen
   - Neonazi-Vernetzung
   - Halberstadt
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

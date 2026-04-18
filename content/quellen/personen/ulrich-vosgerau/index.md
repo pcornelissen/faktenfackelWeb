@@ -10,7 +10,6 @@ tags:
   - Staatsrecht
   - Pressefreiheit
   - Correctiv
-  - research-done-review-pending
 ---
 
 Ulrich Vosgerau (geb. 1974 in Pinneberg) ist ein deutscher Jurist und Staatsrechtler. Er war bis Oktober 2024 Privatdozent an der Universität zu Köln und ist als Rechtsanwalt tätig, unter anderem als Verteidiger in aufsehenerregenden Verfahren rund um die AfD und ihr Umfeld. Vosgerau nahm am 25.&nbsp;November 2023 am sogenannten Potsdamer Treffen teil, das :quelle-ref{name="correctiv"} im Januar 2024 als "Geheimplan gegen Deutschland" enthüllte. Seither betreibt er intensiv rechtliche Schritte gegen die Berichterstattung und ist einer der prominentesten juristischen Mitstreiter rechtsextremer Kreise in Deutschland.

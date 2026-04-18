@@ -4,7 +4,6 @@ date: 2026-04-15
 publishedOn: 2026-04-15
 lastScanned: 2026-04-15
 tags:
-  - research-done-review-pending
   - Plattform
 ---
 

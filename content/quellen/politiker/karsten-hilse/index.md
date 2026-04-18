@@ -8,7 +8,6 @@ tags:
   - Klimaleugnung
   - AfD
   - Bundestag
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

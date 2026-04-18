@@ -10,7 +10,6 @@ tags:
   - Die Heimat
   - NPD
   - Rechtsrock
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

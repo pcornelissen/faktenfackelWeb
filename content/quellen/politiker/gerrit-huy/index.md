@@ -10,7 +10,6 @@ tags:
   - Remigration
   - Klage-gegen-Correctiv
   - Pressefreiheit
-  - research-done-review-pending
 ---
 
 Gerrit Huy (geb. 13.&nbsp;Mai 1953) ist eine deutsche Politikerin der :quelle-ref{name="afd"} und seit 2021 Mitglied des Deutschen Bundestages. Die arbeitsmarktpolitische Sprecherin der AfD-Fraktion studierte Mathematik und Wirtschaft und erwarb einen Master of Public Administration an der Harvard University. Vor ihrer politischen Karriere bekleidete sie leitende Positionen bei Mercedes-Benz, Daimler-Benz Interservices und als CEO von Compaq Computer Deutschland. Sie nahm am Potsdamer Treffen vom 25.&nbsp;November 2023 teil und erzielte im März 2026 ein Urteil gegen :quelle-ref{name="correctiv"} vor dem Landgericht Berlin II (Az. 27 O 379/25), vertreten durch die :quelle-ref{name="kanzlei-hoecker"}.

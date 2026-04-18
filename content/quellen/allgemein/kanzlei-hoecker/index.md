@@ -9,7 +9,6 @@ tags:
   - Deutschland
   - Correctiv-Klagen
   - Einschüchterungsklagen
-  - research-done-review-pending
 ---
 
 Kanzlei Höcker (offiziell: HÖCKER Rechtsanwälte PartGmbB) ist eine auf Medien- und Markenrecht spezialisierte Kölner Anwaltskanzlei, die vor allem durch presserechtliche Abmahnungen, Unterlassungsklagen gegen Medien und eine strategische Litigation-PR bekannt ist. Nicht zu verwechseln mit dem AfD-Politiker Björn Höcke: Zwischen dem Thüringer Landeschef und der Kanzlei besteht keinerlei Verbindung.

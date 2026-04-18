@@ -9,7 +9,6 @@ tags:
   - Bayern
   - Ministerpräsident
   - Energiepolitik
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

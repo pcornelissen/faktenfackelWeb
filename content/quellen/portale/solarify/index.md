@@ -9,7 +9,6 @@ tags:
   - Solarenergie
   - Energiepolitik
   - Energiewende
-  - research-done-review-pending
 ---
 
 ## Über die Quelle
