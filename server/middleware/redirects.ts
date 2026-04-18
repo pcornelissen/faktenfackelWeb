@@ -23,6 +23,7 @@ const linkRedirects: Record<string, string> = {
   '/quellen/allgemein/facebook/links/20260201.we-are-watching-you-afd-aussteiger-leschik': '/quellen/allgemein/we-are-watching-you/links/20260201.we-are-watching-you-afd-aussteiger-leschik',
   '/quellen/allgemein/facebook/links/20260201.we-are-watching-you-poschardt-video-teilen': '/quellen/allgemein/we-are-watching-you/links/20260201.we-are-watching-you-poschardt-video-teilen',
   '/quellen/allgemein/facebook/links/20260219.yung-emil-afd-wirtschaft-realitaet': '/quellen/personen/yung-emil/links/20260219.yung-emil-afd-wirtschaft-realitaet',
+  '/quellen/allgemein/facebook/links/20230414.folgsschw\u00e4rmer-afd-wahlprogramm-sachsen-anhalt': '/quellen/personen/folgsschwaermer/links/20230414.folgsschw\u00e4rmer-afd-wahlprogramm-sachsen-anhalt',
 
   // Existing sources with individual links moved to facebook/tiktok
   '/quellen/personen/skorpi-ya/links/20251102.380-milliarden-sondervermoegen': '/quellen/allgemein/facebook/links/20251102.380-milliarden-sondervermoegen',

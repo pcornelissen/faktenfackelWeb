@@ -3,13 +3,14 @@ publishedOn: 2026-04-01
 date: 2026-04-01
 title: "AfD: Menschengemachter Klimawandel ist nicht bewiesen"
 subtitle: Was die Wissenschaft tatsächlich sagt
+description: "Die AfD bestreitet den menschengemachten Klimawandel. Der Faktencheck zeigt: IPCC, BVerfG und die Forschung stehen klar gegen diese Position."
 verdict: false
 tags:
   - AfD
   - Klimawandel
   - Desinformation
   - Wissenschaft
-  - Prüf!
+  - Prüf-Aktion
 ---
 
 ## Was wird behauptet?
@@ -40,9 +41,9 @@ AfD-Position widerspricht damit tausenden begutachteten Studien.
 
 **"Erneuerbare Energien sind unsinnig":** Windräder, Solaranlagen und E-Autos werden von der AfD regelmäßig als
 umweltschädigend oder unwirtschaftlich dargestellt. AfD-Abgeordnete behaupteten im Bundestag,
-<Reference code="bundestag-afd-kernkraft-3-cent-behauptung">Kernkraftstrom koste nur 3 Cent pro Kilowattstunde</SourceRef>.
+<SourceRef code="bundestag-afd-kernkraft-3-cent-behauptung">Kernkraftstrom koste nur 3 Cent pro Kilowattstunde</SourceRef>.
 Tatsächlich liegen die Kosten deutlich höher. Auch der generelle Befund fällt anders aus, als die AfD suggeriert:
-<Reference code="fraunhofer-ise-stromgestehungskosten-2024">Laut Fraunhofer ISE sind Erneuerbare inzwischen in vielen
+<SourceRef code="fraunhofer-ise-stromgestehungskosten-2024">Laut Fraunhofer ISE sind Erneuerbare inzwischen in vielen
 Fällen die günstigste Form der Stromerzeugung</SourceRef>.
 
 **"Fossile Energien sichern Wohlstand":** Kohle und Diesel als Garanten wirtschaftlicher Stabilität darzustellen,
@@ -57,7 +58,7 @@ verletzt die Freiheitsrechte künftiger Generationen. Die Klimapolitik der AfD s
 
 ### Die Verschwörungserzählung
 
-<Reference code="amadeu-antonio-klimawandelleugnung-afd">Die Amadeu Antonio Stiftung dokumentiert</SourceRef>, wie die
+<SourceRef code="amadeu-antonio-klimawandelleugnung-afd">Die Amadeu Antonio Stiftung dokumentiert</SourceRef>, wie die
 AfD ihre Klimaleugnung mit der "Great Reset"-Verschwörungserzählung verknüpft: "Globalistische Eliten" wollten
 angeblich eine "Klimadiktatur" errichten. So wird aus einer wissenschaftlichen Frage ein politisches Feindbild.
 
@@ -67,7 +68,7 @@ Die Strategie hat sich verschoben: Klassische Leugnung ("Es gibt keinen Klimawan
 Hintergrund. Stattdessen richtet sich die Desinformation stärker gegen konkrete Klimaschutzmaßnahmen. Die AfD bringt
 Bundestagsanträge ein, die wissenschaftliche Erkenntnisse grundsätzlich in Frage stellen, etwa zur "Beseitigung der
 Klimaschutzfolgen und Wiederherstellung der Energieinfrastruktur in Deutschland" oder mit dem
-<Reference code="bundestag-afd-klimaneutralitaet-streichen">Antrag, sämtliche Klimaneutralitätsziele zu streichen</SourceRef>.
+<SourceRef code="bundestag-afd-klimaneutralitaet-streichen">Antrag, sämtliche Klimaneutralitätsziele zu streichen</SourceRef>.
 
 ## Fazit
 

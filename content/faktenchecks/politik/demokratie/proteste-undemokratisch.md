@@ -3,6 +3,7 @@ publishedOn: 2025-12-03
 date: 2026-01-19
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Warum Gegenprotest demokratisch geschützt ist
+description: "Ist Gegenprotest gegen die AfD undemokratisch? Nein: Protest ist Ausdruck der Meinungsfreiheit, nicht ihre Einschränkung. Was das Grundgesetz sagt."
 verdict: false
 tags:
   - AfD
@@ -28,10 +29,10 @@ Beispielen aus den Kommentarspalten:
 
 
 
-- <Reference code="linke-niedersachsen-gießen-gruß">Beitrag der Linken aus Niedersachsen</SourceRef>
+- <SourceRef code="linke-niedersachsen-gießen-gruß">Beitrag der Linken aus Niedersachsen</SourceRef>
   ::quote-block
   ---
-  name: Sven Dammann 
+  name: Sven Dammann
   src: https://www.facebook.com/sven.dammann.50?comment_id=Y29tbWVudDoxMzA4NjQ5NjkxMjkzOTQ1XzgyOTU5MTIyNjQ0OTAxNA%3D%3D&__cft__[0]=AZVoxHgbGc29kM9NvCL_DFFuIxSaYVEM-CmZiNuMGFwxJm2rN0XwdBfHtF6jf0mdJ3Pa1q1eU06PkHh_E0YS-Ut7ow5EQmVvROnCjJW8Qv4S68VCDfftOJqXoYdOwoxvnJSuPzTjm2gHUQHN1ehhOY0HDuk6HooK7YY-_F3A879YxA&__tn__=R*F
   ---
   Dumm, dümmer, Links. Sie merken nicht , das sie die wahren Faschisten sind. Demokratiefeindlich und
@@ -40,7 +41,7 @@ Beispielen aus den Kommentarspalten:
   ::
   ::quote-block
   ---
-  name: Christine Immel 
+  name: Christine Immel
   src: https://www.facebook.com/christine.immel.7?comment_id=Y29tbWVudDoxMzA4NjQ5NjkxMjkzOTQ1Xzg0Mzk0NjU5MTcwODg1MQ%3D%3D&__cft__[0]=AZVoxHgbGc29kM9NvCL_DFFuIxSaYVEM-CmZiNuMGFwxJm2rN0XwdBfHtF6jf0mdJ3Pa1q1eU06PkHh_E0YS-Ut7ow5EQmVvROnCjJW8Qv4S68VCDfftOJqXoYdOwoxvnJSuPzTjm2gHUQHN1ehhOY0HDuk6HooK7YY-_F3A879YxA&__tn__=R*F
   ---
   Die wahren Faschisten sind links. Euch muss man fürchten mit eurer Gewaltbereitschaft und vor nix Respekt
@@ -139,27 +140,27 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung
 > durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.  
 > ...  
-> &mdash; <cite><Reference code="gii-gg-5">Grundgesetz Artikel 5, Meinungsfreiheit</SourceRef></cite>
+> &mdash; <cite><SourceRef code="gii-gg-5">Grundgesetz Artikel 5, Meinungsfreiheit</SourceRef></cite>
 
 > (1) Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln.  
 (2) Für Versammlungen unter freiem Himmel kann dieses Recht durch Gesetz oder auf Grund eines Gesetzes beschränkt
 > werden.  
-> &mdash; <cite><Reference code="gii-gg-8">Grundgesetz Artikel 8, Versammlungsfreiheit</SourceRef></cite>
+> &mdash; <cite><SourceRef code="gii-gg-8">Grundgesetz Artikel 8, Versammlungsfreiheit</SourceRef></cite>
 
 > (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere
 > Ordnung muss demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über
 > ihr Vermögen öffentlich Rechenschaft geben.  
-> &mdash; <cite><Reference code="gii-gg-21">Grundgesetz Artikel 21, Parteien</SourceRef></cite>
+> &mdash; <cite><SourceRef code="gii-gg-21">Grundgesetz Artikel 21, Parteien</SourceRef></cite>
 
 > Demokratie ist eine Herrschaftsform, in der das Volk die oberste Macht ausübt. Wesentliche Merkmale der Demokratie
 > sind die Wahlen, die Meinungsfreiheit, die Versammlungsfreiheit und die Gewaltenteilung.  
-> &mdash; <cite>[Bundeszentrale für politische Bildung, Demokratie](https://www.bpb.de/nachschlagen/lexika/das-junge-politik-lexikon/314929/demokratie)</cite>
+> &mdash; <cite><SourceRef code="bpb-junges-lexikon-demokratie">Bundeszentrale für politische Bildung, Demokratie</SourceRef></cite>
 
 > **Artikel 19 (Meinungs- und Informationsfreiheit)**  
 > Jeder Mensch hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein,
 > Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und
 > Gedankengut zu suchen, zu empfangen und zu verbreiten.  
-> &mdash; <cite><Reference code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</SourceRef></cite>
+> &mdash; <cite><SourceRef code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</SourceRef></cite>
 
 ### Antifa gefährdet die Demokratie
 
@@ -178,7 +179,7 @@ Es ist ähnlich ungenau, wie von "den Vegetariern" als geschlossener politischer
 
 Alle, die sich gegen Faschismus und rechte Ideologien stellen, können sich als antifaschistisch verstehen, weil der
 Begriff zunächst nur eine Kurzform dafür ist. Für eine genauere Einordnung,
-<Reference code="who-did-what-now-faschismus">was Faschismus soziologisch bedeutet</SourceRef>, hilft der Blick darauf,
+<SourceRef code="who-did-what-now-faschismus">was Faschismus soziologisch bedeutet</SourceRef>, hilft der Blick darauf,
 warum antifaschistische Gegenbewegungen historisch entstanden sind.
 
 #### Antifa und das Grundgesetz
@@ -205,7 +206,7 @@ Die Verfassung wurde 1949 ausdrücklich als Gegenentwurf zum faschistischen Staa
 Die meisten Verfassungsrechtler beschreiben das Grundgesetz so:
 
 - Anti-totalitär (Bodo Pieroth, Bernhard Schlink)  
-  Das GG richtet sich gegen alle Formen diktatorischer Herrschaft – sowohl faschistische wie kommunistische.
+  Das GG richtet sich gegen alle Formen diktatorischer Herrschaft, sowohl faschistische wie kommunistische.
 - "Antwort auf den Nationalsozialismus" (Dieter Grimm, BVerfG-Richter a. D.)  
   Das GG ist bewusst so konstruiert, dass ein NS-Regime rechtlich unmöglich wird.
 - "Wehrhafte Demokratie" als Absage an Faschismus (Uwe Volkmann, H. H. Klein)  
@@ -248,7 +249,7 @@ oder Sachwerte ist immer zu verurteilen und strafrechtlich zu verfolgen. Gewalt 
 Phänomen, wie der Blick auf die politisch motivierte Kriminalität zeigt: 2024 wurden deutlich mehr Straftaten aus dem
 rechten Milieu als aus dem linken Spektrum erfasst. Gewalt gegen Menschen ist im rechten Spektrum dabei stärker
 vertreten, während im linken Spektrum häufiger Eigentumsdelikte registriert werden. Ein aktuelles Beispiel: Bei einem
-<Reference code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</SourceRef> wurden Journalisten angegriffen,
+<SourceRef code="moz-afd-gewalt-presse">AfD-nahen Treffen in Sachsen-Anhalt</SourceRef> wurden Journalisten angegriffen,
 während die Polizei nicht einschritt.
 
 ### Demonstrationen: Was ist erlaubt und was nicht?
@@ -294,9 +295,9 @@ Im Gegenteil: Solche Proteste sind Ausdruck demokratischer Rechte. Solange sie o
 die Rechte anderer so weit wie möglich respektieren, sind sie ein legitimes Mittel der politischen Auseinandersetzung.
 
 Davon zu trennen ist die politische Frage, ob und wie man
-<Reference code="tim-achtermeyer-sollte-man-reden-2026">mit der AfD überhaupt reden sollte</SourceRef>. Das ist keine
+<SourceRef code="tim-achtermeyer-sollte-man-reden-2026">mit der AfD überhaupt reden sollte</SourceRef>. Das ist keine
 Frage der Demokratie an sich, sondern der Strategie im Umgang mit ihr. Dass die AfD selbst ein instrumentelles
 Verhältnis zur Meinungsfreiheit hat, zeigen
-<Reference code="rehak-nitsche-afd-meinungsfreiheit-opferrrolle">Analysen zur AfD-Opferrolle</SourceRef> ebenso wie
-<Reference code="ricarda-lang-afd-meinungsfreiheit-bundestag">Konfrontationen im Bundestag mit ihrer eigenen
+<SourceRef code="rehak-nitsche-afd-meinungsfreiheit-opferrolle">Analysen zur AfD-Opferrolle</SourceRef> ebenso wie
+<SourceRef code="ricarda-lang-afd-meinungsfreiheit-bundestag">Konfrontationen im Bundestag mit ihrer eigenen
 Meinungsfreiheitsrhetorik</SourceRef>.

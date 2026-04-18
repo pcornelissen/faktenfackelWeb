@@ -3,6 +3,7 @@ publishedOn: null
 date: 2026-03-30
 title: "Strom für drei Milliarden Euro weggeworfen?"
 subtitle: Warum die Zahl irreführend ist
+description: "Wirtschaftsministerin Katherina Reiche spricht von drei Milliarden Euro weggeworfenem Strom. Die Zahl ist irreführend, der tatsächliche Betrag liegt viel niedriger."
 verdict: misleading
 tags:
   - CDU
@@ -23,7 +24,7 @@ und den Einspeisevorrang für erneuerbare Energien abschaffen soll.
 
 ### Die Zahlen stimmen nicht
 
-<Reference code="correctiv-reiche-strom-drei-milliarden-weggeworfen">Correctiv bewertet die Aussage als "größtenteils falsch"</SourceRef>. Die tatsächlichen Kosten für das Netzengpassmanagement 2024 betrugen laut [Bundesnetzagentur](https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Einspeisemanagement/start.html) insgesamt 2,776 Milliarden Euro. Aber diese Summe setzt sich aus völlig verschiedenen Posten zusammen:
+<SourceRef code="correctiv-reiche-strom-drei-milliarden-weggeworfen">Correctiv bewertet die Aussage als "größtenteils falsch"</SourceRef>. Die tatsächlichen Kosten für das Netzengpassmanagement 2024 betrugen laut <SourceRef code="bundesnetzagentur-einspeisemanagement-netzengpassmanagement">Bundesnetzagentur</SourceRef> insgesamt 2,776 Milliarden Euro. Aber diese Summe setzt sich aus völlig verschiedenen Posten zusammen:
 
 | Posten | Kosten 2024 | Was passiert wirklich |
 |---|---|---|
@@ -53,7 +54,7 @@ Die Gesamtkosten für das Netzengpassmanagement sind [rückläufig](https://www.
 Die Ursache ist nicht "zu viel" erneuerbare Energie, sondern zu wenig Stromleitungen. 74 % der Netzengpässe 2024
 traten im Hochspannungs-Übertragungsnetz auf, nicht an den Erneuerbaren-Anlagen selbst. Windstrom wird überwiegend im
 Norden erzeugt, die Nachfragezentren liegen im Süden. Die großen Nord-Süd-Leitungen wie SüdLink hätten
-[nach früheren Planungen schon 2022 fertig sein sollen](https://de.wikipedia.org/wiki/Suedlink), sind aber um Jahre verzögert.
+<SourceRef code="wikipedia-suedlink">nach früheren Planungen schon 2022 fertig sein sollen</SourceRef>, sind aber um Jahre verzögert.
 
 Ein wichtiger Grund: 2015 setzte der bayerische CSU-Ministerpräsident Horst Seehofer den sogenannten
 "Erdkabel-Kompromiss" durch. Die bereits geplanten Freileitungen mussten komplett als Erdkabel neu geplant werden,
@@ -75,7 +76,7 @@ deutsche Energiewende um Jahre zurückwarf:
 ### Die Folgen für Deutschland
 
 Die Folgen waren erheblich. Der Solarausbau brach von über 8000 MW pro Jahr (2012) auf unter 2000 MW ein. Über
-[100.000 Arbeitsplätze](https://www.igmetall.de/politik-und-gesellschaft/umwelt-und-energie/solarindustrie-auferstehen-aus-ruinen) gingen in der Solarindustrie verloren, dazu etwa 60.000 in der Windenergie. Deutsche Unternehmen wie SolarWorld, Q-Cells, Solon und Conergy gingen in die Insolvenz. Deutschland verlor damit seine frühere Führungsrolle in der Solarproduktion an China.
+<SourceRef code="igmetall-solarindustrie-auferstehen-aus-ruinen">100.000 Arbeitsplätze</SourceRef> gingen in der Solarindustrie verloren, dazu etwa 60.000 in der Windenergie. Deutsche Unternehmen wie SolarWorld, Q-Cells, Solon und Conergy gingen in die Insolvenz. Deutschland verlor damit seine frühere Führungsrolle in der Solarproduktion an China.
 
 Eine [Studie von Energy Brainpool](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) errechnete: Ohne den Altmaier-Knick hätte Deutschland 20.000 MW mehr Solar und 30.000 MW mehr Windkraft gehabt. Die Strompreise wären im August 2022, mitten in der Energiekrise, um über 8 ct/kWh niedriger gewesen, Haushalte hätten rund 111 Euro pro Jahr gespart. Und Deutschland hätte laut einer CREA-Studie 2022 rund 23 Milliarden Euro weniger für russisches Gas ausgeben müssen.
 
@@ -90,7 +91,7 @@ Ministerin nun eine irreführende Zahl, um erneut gegen zentrale Mechanismen der
 [Solarförderverein](https://www.sfv.de/2026-frontalangriff-auf-den-klimaschutz) hat dafür den Begriff
 "Reiche-Schlucht" geprägt, als Nachfolger des "Altmaier-Knicks".
 
-Ihr ["Netzpaket"](https://www.t-online.de/heim-garten/aktuelles/id_101121408/katherina-reiche-netzpaket-wird-frontalangriff-auf-die-energiewende-.html)
+Ihr <SourceRef code="t-online-reiche-netzpaket-frontalangriff-energiewende">"Netzpaket"</SourceRef>
 wurde von Branchenverbänden, Opposition und über 100.000 Petitionsunterzeichnern scharf kritisiert. Selbst RWE-Chef
 Markus Krebber nannte es "absurd".
 

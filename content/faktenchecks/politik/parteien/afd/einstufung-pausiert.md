@@ -3,27 +3,28 @@ publishedOn: 2025-12-03
 date: 2026-03-06
 title: Verfassungsschutz pausiert die Einstufung der AfD als rechtsextrem
 subtitle: Was die Stillhaltezusage juristisch bedeutet
+description: "Der Verfassungsschutz hat die Einstufung der AfD als gesichert rechtsextrem vorläufig ausgesetzt. Warum das juristisch üblich ist und kein Freispruch bedeutet."
 verdict: misleading
 tags:
   - AfD
   - Verfassungsschutz
   - Rechtsextremismus
   - Verbot
-  - Prüf!
+  - Prüf-Aktion
 ---
 
 ## Was ist passiert?
 
-Im Mai 2025 kursierte der <Reference code="cicero-afd-verfassungsschutz-bericht-leak">Bericht des Verfassungsschutzes</SourceRef>
+Im Mai 2025 kursierte der <SourceRef code="cicero-afd-verfassungsschutz-bericht-leak">Bericht des Verfassungsschutzes</SourceRef>
 zur Einschätzung der AfD. Die Veröffentlichung des internen Berichts durch Cicero sorgte für Aufruhr in der politischen
 Landschaft. Der Bericht kam zu dem Schluss, dass die AfD als gesichert rechtsextremistisch eingestuft werden könne. Das
 hätte weitreichende politische und rechtliche Folgen für die Partei.
 
 Die AfD reagierte mit einem Eilantrag vor dem Verwaltungsgericht Köln. Daraufhin hat der Verfassungsschutz
-<Reference code="vg-köln-afd-stillhaltezusage">die Einstufung als gesichert rechtsextrem</SourceRef>
+<SourceRef code="vg-köln-afd-stillhaltezusage">die Einstufung als gesichert rechtsextrem</SourceRef>
 im Wege einer Stillhaltezusage vorläufig ausgesetzt, bis das Gericht über das weitere Vorgehen entschieden hat.
 
-<Reference code="correctiv-afd-gesichert-rechtsextremistisch">Correctiv hat die unterschiedlichen Gerichtsentscheidungen analysiert</SourceRef>:
+<SourceRef code="correctiv-afd-gesichert-rechtsextremistisch">Correctiv hat die unterschiedlichen Gerichtsentscheidungen analysiert</SourceRef>:
 Das VG Köln sah zwar verfassungsfeindliche Elemente in der AfD, bewertete sie aber nicht als parteiprägend. Das OVG
 Bautzen dagegen stufte den sächsischen Landesverband als gesichert rechtsextremistisch ein, weil der aufgelöste
 "Flügel" dort besonders stark verankert war und sich führende Vertreter nicht distanzierten. Entscheidend ist der
@@ -38,14 +39,14 @@ Oberverwaltungsgericht Münster bestätigte diese Einstufung im August 2025.
 In diversen Medien und sozialen Netzwerken wurde die Entscheidung des Verfassungsschutzes als Sieg für die AfD gefeiert.
 Hier einige Beispiele:
 
-### <Reference code="junge-freiheit-afd-eilverfahren-aufgabe">Junge Freiheit zur Nicht-Beschwerde im Eilverfahren</SourceRef>
+### <SourceRef code="junge-freiheit-afd-eilverfahren-aufgabe">Junge Freiheit zur Nicht-Beschwerde im Eilverfahren</SourceRef>
 
 Schon die Überschrift "Verfassungsschutz gibt im Eilverfahren gegen die AfD auf" rahmt die Entscheidung als
 vollständigen Rückzug. Im Text bleibt zwar erwähnt, dass sich das Innenministerium auf das Hauptsacheverfahren
 konzentrieren will und die AfD weiter als Verdachtsfall beobachtet wird. Die Schlagzeile transportiert aber genau die
 irreführende Siegererzählung, die sich danach in rechten Kommentaren weiterverbreitete.
 
-### <Reference code="zeit-fb-afd-aussetzung-2025">Zeit Artikel bei Facebook zur Einstufung</SourceRef> 
+### <SourceRef code="zeit-fb-afd-aussetzung-2025">Zeit Artikel bei Facebook zur Einstufung</SourceRef>
 
 ::quote-block
 ---
@@ -108,29 +109,29 @@ schaden.
 Der Verfassungsschutz hat die Einstufung der AfD als rechtsextreme Partei nicht aus politischen Gründen pausiert,
 sondern wegen des laufenden Rechtsstreits.
 
-Dies ist ein <Reference code="lto-stillhaltezusage-2025">üblicher Vorgang</SourceRef> in rechtlichen Auseinandersetzungen
+Dies ist ein <SourceRef code="lto-stillhaltezusage-2025">üblicher Vorgang</SourceRef> in rechtlichen Auseinandersetzungen
 und bedeutet nicht zwangsläufig, dass die ursprüngliche Einstufung falsch war. Sinn einer solchen Pause ist es, den
 Status quo während des Verfahrens zu sichern und mögliche Vorwirkungen zu vermeiden, solange das Gericht die Sache prüft.
 
-Zusätzlich zur Stillhaltezusage hat das Verwaltungsgericht Köln am 26. Februar 2026 [dem Eilantrag der AfD auf
-Aussetzung der Einstufung stattgegeben](https://nrwe.justiz.nrw.de/ovgs/vg_koeln/j2026/13_L_1109_25_Beschluss_20260226.html).
+Zusätzlich zur Stillhaltezusage hat das Verwaltungsgericht Köln am 26. Februar 2026
+<SourceRef code="vg-koln-afd-eilantrag-stattgegeben-2026">dem Eilantrag der AfD auf Aussetzung der Einstufung stattgegeben</SourceRef>.
 Auch das bedeutet aber nicht, dass die AfD damit als unbedenklich oder "entlastet" gilt. Es heißt zunächst nur, dass
 die rechtlichen Folgen der Einstufung bis zur weiteren Entscheidung nicht vollzogen werden sollen.
 
 Gegen die Deutung eines vollständigen AfD-Siegs spricht auch, dass das Gericht den zugrunde liegenden Verdacht nicht
 einfach verworfen hat:
 
-> Das Verwaltungsgericht Köln und das Oberverwaltungsgericht Nordrhein-Westfalen (OVG NRW) haben mit Urteilen von März 2022 beziehungsweise von Mai 2024* die Einstufung der Partei als Verdachtsfall bestätigt, weil **zahlreiche Anhaltspunkte** für von der AfD ausgehende **Bestrebungen gegen die freiheitliche demokratische Grundordnung** vorgelegen haben. **Diese Anhaltspunkte haben sich bei der weiteren Bearbeitung bestätigt und in wesentlichen Teilen zur Gewissheit verdichtet.**
+> Das Verwaltungsgericht Köln und das Oberverwaltungsgericht Nordrhein-Westfalen (OVG NRW) haben mit Urteilen von März 2022 beziehungsweise von Mai 2024\* die Einstufung der Partei als Verdachtsfall bestätigt, weil **zahlreiche Anhaltspunkte** für von der AfD ausgehende **Bestrebungen gegen die freiheitliche demokratische Grundordnung** vorgelegen haben. **Diese Anhaltspunkte haben sich bei der weiteren Bearbeitung bestätigt und in wesentlichen Teilen zur Gewissheit verdichtet.**
 
 (Hervorhebung von uns)
 
 Konkrete Beispiele für solche Bestrebungen liefern etwa Vorfälle wie ein
-<Reference code="moz-afd-gewalt-presse">Angriff auf Journalisten bei einem AfD-nahen Treffen in Sachsen-Anhalt</SourceRef>,
+<SourceRef code="moz-afd-gewalt-presse">Angriff auf Journalisten bei einem AfD-nahen Treffen in Sachsen-Anhalt</SourceRef>,
 bei dem die anwesende Polizei nicht einschritt.
 
 ### Löschung der Pressemitteilung ist kein Beleg für eine falsche Einstufung
 
-Die Löschung der Pressemitteilung des Verfassungsschutzes zur Einstufung der AfD als rechtsextreme Partei ist <Reference code="tagesschau-afd-stillhaltezusage">kein Beleg dafür, dass die ursprüngliche Einstufung falsch war</SourceRef>. Vielmehr handelt es sich um eine übliche Praxis, um Verwirrung zu vermeiden und die Kommunikation während eines laufenden Rechtsstreits zu steuern.
+Die Löschung der Pressemitteilung des Verfassungsschutzes zur Einstufung der AfD als rechtsextreme Partei ist <SourceRef code="tagesschau-afd-stillhaltezusage">kein Beleg dafür, dass die ursprüngliche Einstufung falsch war</SourceRef>. Vielmehr handelt es sich um eine übliche Praxis, um Verwirrung zu vermeiden und die Kommunikation während eines laufenden Rechtsstreits zu steuern.
 
 ### Sind Stillhaltezusagen etwas Besonderes?
 
@@ -138,10 +139,10 @@ Stillhaltezusagen sind in rechtlichen Auseinandersetzungen **nicht ungewöhnlich
 
 Es gibt keine Liste mit bisherigen Stillhaltezusagen von Behörden, aber es lassen sich einige Beispiele finden:
 
-- <Reference code="lto-stillhaltezusage-haldenwang-2023">AfD vs Haldenwang 2023</SourceRef>
-- <Reference code="lto-presseschau-2021-12-24">Bundesjustizministerium, NetzDG (2021)</SourceRef>
-- <Reference code="deutschlandfunk-hambacher-forst-2018">Stillhaltezusage vom RWE im Hambacher Forst (2018)</SourceRef>
-- <Reference code="lto-bamf-sami-a-2018">Stillhaltezusage bei Abschiebung von Sami A. (Juli 2018)</SourceRef>
+- <SourceRef code="lto-stillhaltezusage-haldenwang-2023">AfD vs Haldenwang 2023</SourceRef>
+- <SourceRef code="lto-presseschau-2021-12-24">Bundesjustizministerium, NetzDG (2021)</SourceRef>
+- <SourceRef code="deutschlandfunk-hambacher-forst-2018">Stillhaltezusage vom RWE im Hambacher Forst (2018)</SourceRef>
+- <SourceRef code="lto-bamf-sami-a-2018">Stillhaltezusage bei Abschiebung von Sami A. (Juli 2018)</SourceRef>
 
 Auch hier sieht man, dass die Zusage nur ein Aufschub ist und kein Eingeständnis, dass die ursprüngliche Entscheidung falsch war.
 
@@ -161,7 +162,7 @@ kann die Einstufung wieder wirksam werden, sofern die AfD damit unterliegt.
 Die Pausierung wird außerdem als Argument genutzt, warum manche Parteien einem Antrag auf Prüfung eines möglichen
 AfD-Verbots durch das Bundesverfassungsgericht derzeit nicht zustimmen. Politisch verschafft das der AfD vor allem
 Zeit. Dass die Partei zugleich gezielt Druck auf zivilgesellschaftliche Organisationen und demokratische Institutionen
-ausübt, zeigt auch ein <Reference code="amadeu-antonio-feindbild-zivilgesellschaft">Sicherheitsreport der Amadeu Antonio Stiftung</SourceRef>, der 663 parlamentarische Anfragen der AfD gegen Zivilgesellschaft dokumentiert.
+ausübt, zeigt auch ein <SourceRef code="amadeu-antonio-feindbild-zivilgesellschaft">Sicherheitsreport der Amadeu Antonio Stiftung</SourceRef>, der 663 parlamentarische Anfragen der AfD gegen Zivilgesellschaft dokumentiert.
 
 ### Hat das Innenministerium den Verfassungsschutz politisch instrumentalisiert?
 
@@ -169,8 +170,8 @@ Es gibt keine Belege dafür, dass Nancy Faeser oder das Innenministerium den Ver
 haben, um der AfD zu schaden. Die Prüfung der AfD lief über einen langen Zeitraum und beruhte auf den üblichen
 nachrichtendienstlichen und rechtlichen Prüfprozessen.
 
-Der Bericht <Reference code="tagesschau-afd-gutachten-2025-05-02">habe das Innenministerium</SourceRef> erst
-<Reference code="beck-afd-stillhaltezusage">Ende April 2025 erreicht</SourceRef>, also kurz bevor der interne Bericht
+Der Bericht <SourceRef code="tagesschau-afd-gutachten-2025-05-02">habe das Innenministerium</SourceRef> erst
+<SourceRef code="beck-afd-stillhaltezusage">Ende April 2025 erreicht</SourceRef>, also kurz bevor der interne Bericht
 durch Cicero veröffentlicht wurde.
 
 Es gibt auch keine Hinweise darauf, dass das Ministerium den Verfassungsschutz angewiesen hat, die AfD zu untersuchen
@@ -186,16 +187,16 @@ vorläufiger juristischer Erfolg mit begrenzter Reichweite.
 Die verbreitete Deutung, daraus folge automatisch, die AfD sei nicht rechtsextrem oder die ursprüngliche Einstufung
 sei widerlegt, ist deshalb irreführend. Dass das Bild der Partei, das der Verfassungsschutz in seinem Gutachten
 beschreibt, nicht aus der Luft gegriffen ist, zeigen immer wieder öffentliche Auftritte und dokumentierte Positionen
-von AfD-Mitgliedern. <Reference code="correctiv-völkisches-denken-afd-14-beispiele">Correctiv hat 14 konkrete Beispiele für völkisches Denken in der AfD dokumentiert</SourceRef>,
-und das <Reference code="fragdenstaat-afd-verfassungsfeindlich">Bundesamt für Verfassungsschutz selbst hat erste Belege zur Verfassungsfeindlichkeit der AfD veröffentlicht</SourceRef>.
+von AfD-Mitgliedern. <SourceRef code="correctiv-völkisches-denken-afd-14-beispiele">Correctiv hat 14 konkrete Beispiele für völkisches Denken in der AfD dokumentiert</SourceRef>,
+und das <SourceRef code="fragdenstaat-afd-verfassungsfeindlich">Bundesamt für Verfassungsschutz selbst hat erste Belege zur Verfassungsfeindlichkeit der AfD veröffentlicht</SourceRef>.
 
 Hinzu kommt, dass die Problemlage nicht nur fortbesteht, sondern sich weiter zuspitzt. Wie systematisch die
 organisatorische Radikalisierung voranschreitet, zeigt ein
-<Reference code="belltower-afd-dorfkneipe-kaderschmiede">von Belltower.News analysiertes Strategiepapier der AfD</SourceRef>:
+<SourceRef code="belltower-afd-dorfkneipe-kaderschmiede">von Belltower.News analysiertes Strategiepapier der AfD</SourceRef>:
 Die Partei setzt gezielt auf lokale Netzwerke als "Kaderschmiede" für richtungstreue Mitglieder. Das gesellschaftliche
 Ergebnis ist auch in der Kriminalstatistik sichtbar: Die
-<Reference code="bka-pmk-rechts-2025-statistik">BKA-Statistik zur politisch motivierten Kriminalität</SourceRef>
+<SourceRef code="bka-pmk-rechts-2025-statistik">BKA-Statistik zur politisch motivierten Kriminalität</SourceRef>
 dokumentiert für 2024 einen historischen Höchststand rechts motivierter Straftaten und für 2025 weiter steigende
-Gewalttaten. Konkrete Vorfälle illustrieren diese Entwicklung: <Reference code="berliner-polizei-machetenangriff-friedrichshain">Im März 2026 griffen Neonazis in Berlin-Friedrichshain zwei 19-Jährige mit einer Machete an</SourceRef>
+Gewalttaten. Konkrete Vorfälle illustrieren diese Entwicklung: <SourceRef code="berliner-polizei-machetenangriff-friedrichshain">Im März 2026 griffen Neonazis in Berlin-Friedrichshain zwei 19-Jährige mit einer Machete an</SourceRef>
 und verletzten sie schwer. Dass solche Taten im rechtsextremen Medienmilieu zugleich relativiert oder umgedeutet
-werden, zeigt <Reference code="journalistenwatch-ice-koran-umdeutung">Journalistenwatch mit der Berichterstattung zum ICE-Angriff von Siegburg</SourceRef>.
+werden, zeigt <SourceRef code="journalistenwatch-ice-koran-umdeutung">Journalistenwatch mit der Berichterstattung zum ICE-Angriff von Siegburg</SourceRef>.

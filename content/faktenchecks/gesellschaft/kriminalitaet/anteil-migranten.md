@@ -2,8 +2,9 @@
 publishedOn: 2025-12-12
 date: 2025-12-12
 title: Kriminalität bei Ausländern und Deutschen
-verdict: misleading
 subtitle: Widersprüche, Probleme und Fakten
+description: "Die Kriminalstatistik zeigt Unterschiede zwischen Deutschen und Ausländern, doch pauschale Schlüsse über 'kriminelle Ausländer' sind methodisch unzulässig."
+verdict: misleading
 tags:
   - Migranten
   - Kriminalität
@@ -23,7 +24,7 @@ Menschen zugeschrieben.
 EU-Bürgern, Asylsuchenden und Migranten. Sollte jemand Quellen zu einer solchen Aufschlüsselung haben, sind wir für
 einen Hinweis dankbar.
 
-**<Glossar name="tldr">TL;DR</GlossarRef>**<br/>
+**<GlossarRef name="tldr">TL;DR</GlossarRef>**<br/>
 Die Zusammenfassung der langen Analyse ist im [Fazit](#fazit).
 
 ## Argumentation
@@ -33,10 +34,10 @@ Kriminalstatistiken.
 
 ## Faktencheck
 
-Es gibt jedes Jahr eine <Reference code="bka-kriminalstatistik-2024">Kriminalstatistik</SourceRef>,
+Es gibt jedes Jahr eine <SourceRef code="bka-kriminalstatistik-2024">Kriminalstatistik</SourceRef>,
 die mit konkreten Zahlen für eine korrekte Einordnung genutzt werden kann. Man muss sie aber sehr sorgfältig lesen und
 auch beachten, welche Gruppe in einer Zahl enthalten ist und wie sie sich zusammensetzt, um keine falschen Schlüsse zu
-ziehen. Ein anschauliches Beispiel: <Reference code="godless-gardener-kriminalitaet-christen">Ein Vergleich der US-Kriminalitätsrate nach Religionszugehörigkeit</SourceRef> zeigt, wie leicht eine Gruppe "krimineller" erscheinen kann, wenn man die Bevölkerungsstruktur unberücksichtigt lässt.
+ziehen. Ein anschauliches Beispiel: <SourceRef code="godless-gardener-kriminalitaet-christen">Ein Vergleich der US-Kriminalitätsrate nach Religionszugehörigkeit</SourceRef> zeigt, wie leicht eine Gruppe "krimineller" erscheinen kann, wenn man die Bevölkerungsstruktur unberücksichtigt lässt.
 
 Aus den folgenden Quellen haben wir Diagramme erstellt und Daten
 gruppiert, [hier unsere Aufbereitung als Excel-Datei](/files/faktenchecks/kriminalitaet/migration-straftaten-2024.xlsx).
@@ -54,9 +55,9 @@ kontrolliert wird, hat auch ein höheres Risiko, überhaupt als tatverdächtig i
 werden in Debatten über Kriminalitätszahlen oft ausgeblendet, obwohl sie für die Einordnung relevant sind. Außerdem
 leben ausländische Mitbürger überdurchschnittlich oft in Ballungsräumen, wo auch mehr Polizei präsent ist und häufiger
 kontrolliert wird. Es gibt aber keine Datenbasis, mit der man all diese Effekte sauber herausrechnen könnte. Hinzu
-kommt, dass <Reference code="monitor-herkunft-tatverda-2025">die Herkunft von Tatverdächtigen in den Medien häufiger thematisiert wird, als es ihrem tatsächlichen Anteil entspricht</SourceRef>, was das öffentliche Bild weiter verzerrt.
+kommt, dass <SourceRef code="monitor-herkunft-tatverda-2025">die Herkunft von Tatverdächtigen in den Medien häufiger thematisiert wird, als es ihrem tatsächlichen Anteil entspricht</SourceRef>, was das öffentliche Bild weiter verzerrt.
 
-Die <Reference code="bka-kriminalstatistik-2024">Aufklärungsquote</SourceRef>,
+Die <SourceRef code="bka-kriminalstatistik-2024">Aufklärungsquote</SourceRef>,
 liegt in den vergangenen Jahren um 58 %, also **42 %** der erkannten Taten werden **nicht aufgeklärt**. <br/>
 Da nicht zu jeder Tat die gleiche Zahl an Tatverdächtigen gemeldet werden, kann man hier wenig Rückschlüsse ziehen. Eine
 genauere Statistik, die den Schritt vom Tatverdächtigen zu überführten Tätern für diese Gruppen direkt zeigt, scheint es nicht zu geben.
@@ -75,7 +76,7 @@ hat großen Einfluss auf die Wahrscheinlichkeit, ob Straftaten begangen werden o
 Man kann hier gut erkennen, dass bei der deutschen Bevölkerung ein deutlicher Überschuss in den hohen Altersbereichen (
 52-76 Jahre) vorliegt. Die Gruppe der ausländischen Mitbürger hat von 24 bis 48 Jahren einen Schwerpunkt, mit der
 maximalen Zahl von 27 % um 30
-Jahre. Statistik: <Reference code="destatis-bevölkerung-2024">Destatis Bevölkerungsstruktur 2024</SourceRef>
+Jahre. Statistik: <SourceRef code="destatis-bevölkerung-2024">Destatis Bevölkerungsstruktur 2024</SourceRef>
 
 Dieser Altersbereich hat auch bei deutschen Mitbürgern eine höhere Anzahl an Taten, auch wenn dieser Altersbereich im
 Vergleich zum Rest der Bevölkerung kleiner ist. Das ist also der Grund, dass eine Berechnung des Prozentsatzes an
@@ -89,7 +90,7 @@ machen.
 
 Schauen wir uns die Verteilung von Tatverdächtigen über die Alterssegmente an:
 <img src="/files/faktenchecks/kriminalitaet/altersverteilung-deutschland-2024.png" alt="Tatverdächtige mit Altersverteilung von 2024" style="max-height: 25rem;width: auto">
-Quelle: <Reference code="bka-kriminalstatistik-excel-tatverdächtige-2024">Tatverdächtige insg. nach Alter und Geschlecht</SourceRef>
+Quelle: <SourceRef code="bka-kriminalstatistik-excel-tatverdächtige-2024">Tatverdächtige insg. nach Alter und Geschlecht</SourceRef>
 
 **Anmerkungen:**
 
@@ -142,14 +143,14 @@ Insgesamt sind im Jahr 2024 2 % der Deutschen einer Tat verdächtigt worden und 
 Siehe [Auswertung](/files/faktenchecks/kriminalitaet/migration-straftaten-2024.xlsx)).
 
 Originaldaten: 
-- <Reference code="bka-kriminalstatistik-excel-deutsche-tatverdächtige-2024">Tatverdächtige Deutsche (Excel)</SourceRef>
-- <Reference code="bka-kriminalstatistik-excel-nicht-deutsche-tatverdächtige-2024">Tatverdächtige Nicht-Deutsche (Excel)</SourceRef>
+- <SourceRef code="bka-kriminalstatistik-excel-deutsche-tatverdächtige-2024">Tatverdächtige Deutsche (Excel)</SourceRef>
+- <SourceRef code="bka-kriminalstatistik-excel-nicht-deutsche-tatverdächtige-2024">Tatverdächtige Nicht-Deutsche (Excel)</SourceRef>
 
 ### Einfluss von Wohnort und Lebenslage
 
 Ebenso sollte man nicht vergessen, dass Migranten überdurchschnittlich oft in Städten leben, wo die Kriminalitätsrate
 auch unter Deutschen höher ist. Das ist zumindest ein Hinweis darauf, dass Unterschiede nicht einfach mit Herkunft
-erklärt werden können. Die Bundeszentrale für politische Bildung verweist auf <Reference code="bpb-sicherheit-ländlicher-raum">Unterschiede zwischen Stadt und Land</SourceRef>, die solche Rohvergleiche zusätzlich erschweren.
+erklärt werden können. Die Bundeszentrale für politische Bildung verweist auf <SourceRef code="bpb-sicherheit-ländlicher-raum">Unterschiede zwischen Stadt und Land</SourceRef>, die solche Rohvergleiche zusätzlich erschweren.
 
 Auch andere Faktoren wie Alter, Geschlecht, Einkommen, Wohnverhältnisse und aufenthaltsrechtliche Unsicherheit können
 eine Rolle spielen. Genau deshalb sind pauschale Aussagen über "kriminelle Ausländer" statistisch problematisch.
@@ -177,7 +178,7 @@ Das Narrativ, dass "die Ausländer kriminell sind", ist also nicht haltbar, wenn
 Altersgruppen hinweg) der Ausländer überhaupt nur einer Tat verdächtigt werden. Daraus folgt vor allem: Rohzahlen über
 Tatverdächtige eignen sich nicht, um ganze Bevölkerungsgruppen pauschal als kriminell darzustellen.
 
-Das wird auch vom <Reference code="ifo-migration-kriminalität-2025">ifo Institut</SourceRef> gestützt. <Reference code="mai-thi-nguyen-kim-migration-kriminalitaet-trugschluss">Mai Thi Nguyen-Kim erklärt den Trugschluss anschaulich</SourceRef>: Ohne Kontrolle der sozioökonomischen Faktoren wie Alter, Einkommen und Wohnverhältnisse ist der scheinbare Zusammenhang zwischen Herkunft und Kriminalität statistisch irreführend. Auch das verbreitete Narrativ der <Reference code="no-afd-kriminelle-clans-2026">"kriminellen Ausländer-Clans"</SourceRef> hält einem genaueren Blick nicht stand. Ebenso wenig der von der AfD behauptete Zusammenhang zwischen Migration und Kinderkriminalität, den <Reference code="correctiv-kinderkriminalitaet-migration-afd">CORRECTIV als falsch einordnet</SourceRef>.
+Das wird auch vom <SourceRef code="ifo-migration-kriminalität-2025">ifo Institut</SourceRef> gestützt. <SourceRef code="mai-thi-nguyen-kim-migration-kriminalitaet-trugschluss">Mai Thi Nguyen-Kim erklärt den Trugschluss anschaulich</SourceRef>: Ohne Kontrolle der sozioökonomischen Faktoren wie Alter, Einkommen und Wohnverhältnisse ist der scheinbare Zusammenhang zwischen Herkunft und Kriminalität statistisch irreführend. Auch das verbreitete Narrativ der <SourceRef code="no-afd-kriminelle-clans-2026">"kriminellen Ausländer-Clans"</SourceRef> hält einem genaueren Blick nicht stand. Ebenso wenig der von der AfD behauptete Zusammenhang zwischen Migration und Kinderkriminalität, den <SourceRef code="correctiv-kinderkriminalitaet-migration-afd">CORRECTIV als falsch einordnet</SourceRef>.
 
 Die belastbare Aussage dieses Faktenchecks lautet deshalb nicht, dass Herkunft "gar keine Rolle" spiele, sondern dass
 pauschale Schlüsse über "die Ausländer" aus den PKS-Zahlen methodisch unzulässig sind. Wer Kriminalität ernsthaft

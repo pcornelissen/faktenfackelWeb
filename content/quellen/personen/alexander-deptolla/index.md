@@ -4,7 +4,6 @@ publishedOn: 2026-04-17
 lastScanned: 2026-04-17
 name: "Alexander Deptolla"
 description: "Bundesweit bekannter Neonazi-Kader, Gründer des Kampfsport-Labels Kampf der Nibelungen, seit 2023 in Halberstadt"
-image: profile.jpg
 tags:
   - Rechtsextremismus
   - Kampf der Nibelungen

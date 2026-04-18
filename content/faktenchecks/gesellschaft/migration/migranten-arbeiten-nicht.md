@@ -2,8 +2,9 @@
 publishedOn: 2025-12-12
 date: 2026-01-16
 title: Migranten arbeiten nicht?
-verdict: false
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
+description: "Viele Migranten und Geflüchtete wollen arbeiten, stoßen aber auf rechtliche Hürden, Wartezeiten und Bürokratie. Die pauschale Behauptung ist durch Daten nicht gedeckt."
+verdict: false
 tags:
   - Migranten
   - Arbeit
@@ -16,11 +17,11 @@ Immer wieder wird behauptet, Migranten oder Geflüchtete wollten in Deutschland 
 
 ## Faktencheck
 
-Die pauschale Aussage, Migranten oder Geflüchtete wollten nicht arbeiten, ist durch die verfügbaren Daten nicht gedeckt. Der Großteil der Flüchtlinge und Zugewanderten <Reference code="bfa-arbeitsmarktbericht-migranten-2025">will arbeiten</SourceRef>. Zudem arbeiten aktuell <Reference code="mdintegration-flüchtlinge-in-arbeit">mehr Flüchtlinge, als im Sozialhilfebezug oder in Arbeitslosigkeit</SourceRef> sind.
+Die pauschale Aussage, Migranten oder Geflüchtete wollten nicht arbeiten, ist durch die verfügbaren Daten nicht gedeckt. Der Großteil der Flüchtlinge und Zugewanderten <SourceRef code="bfa-arbeitsmarktbericht-migranten-2025">will arbeiten</SourceRef>. Zudem arbeiten aktuell <SourceRef code="mdintegration-flüchtlinge-in-arbeit">mehr Flüchtlinge, als im Sozialhilfebezug oder in Arbeitslosigkeit</SourceRef> sind.
 
 ### Wer grundsätzlich arbeiten darf
 
-Grundsätzlich dürfen <Reference code="aa-arbeitsmöglichkeiten-faq">folgende Gruppen arbeiten</SourceRef>:
+Grundsätzlich dürfen <SourceRef code="aa-arbeitsmöglichkeiten-faq">folgende Gruppen arbeiten</SourceRef>:
 - Anerkannte Flüchtlinge, subsidiär Schutzberechtigte und Personen mit humanitärem Aufenthalt:
   - Dürfen in der Regel uneingeschränkt arbeiten.
 - Asylsuchende und Geduldete:
@@ -30,9 +31,9 @@ In die erste Gruppe fallen z. B. viele Geflüchtete aus der Ukraine. Für Asyls
 
 ### Wartezeiten
 
-Eine Arbeitsaufnahme kann <Reference code="bmas-arbeitsmarktzugang-geflüchtete">nicht sofort erfolgen</SourceRef>. Es gilt:
+Eine Arbeitsaufnahme kann <SourceRef code="bmas-arbeitsmarktzugang-geflüchtete">nicht sofort erfolgen</SourceRef>. Es gilt:
 
-- **Generelles Arbeitsverbot** für Asylsuchende (<Reference code="gii-asylg-61">§61 Asyl Gesetz</SourceRef>)
+- **Generelles Arbeitsverbot** für Asylsuchende (<SourceRef code="gii-asylg-61">§61 Asyl Gesetz</SourceRef>)
   - **in den ersten 3 Monaten** 
   - wenn eine **Ausweisung bevorsteht**
   - wenn der Asylantrag abgelehnt wurde und kein Duldungsstatus vorliegt
@@ -54,15 +55,15 @@ Wenn eine Arbeitsaufnahme grundsätzlich möglich ist, müssen je nach Status zu
 
 ### Typische Hürden in der Praxis
 
-Wie sieht also <Reference code="proasyl-arbeitsmarkt-migranten-probleme-2025">die Realität</SourceRef> aus, wenn die Flüchtlinge für sich selbst aufkommen wollen?
+Wie sieht also <SourceRef code="proasyl-arbeitsmarkt-migranten-probleme-2025">die Realität</SourceRef> aus, wenn die Flüchtlinge für sich selbst aufkommen wollen?
 
-- <Reference code="mdintegration-dauer-asylverfahren-2025">Lange Bearbeitungszeiten</SourceRef> bei Behörden.
-- <Reference code="spiegel-geflüchtete-arbeitserlaubnis-2023">Hoher bürokratischer Aufwand</SourceRef> schreckt Arbeitgeber ab.
-- <Reference code="personalw-ausl-bildungsabschlüsse-2021">Anerkennung von Abschlüssen dauert</SourceRef> oder scheitert.
-- <Reference code="ndr-zu-wenig-sprachkurse-2025">Sprachbarrieren</SourceRef> erschweren die Jobsuche und den passenden Einsatz.
+- <SourceRef code="mdintegration-dauer-asylverfahren-2025">Lange Bearbeitungszeiten</SourceRef> bei Behörden.
+- <SourceRef code="spiegel-geflüchtete-arbeitserlaubnis-2023">Hoher bürokratischer Aufwand</SourceRef> schreckt Arbeitgeber ab.
+- <SourceRef code="personalw-ausl-bildungsabschlüsse-2021">Anerkennung von Abschlüssen dauert</SourceRef> oder scheitert.
+- <SourceRef code="ndr-zu-wenig-sprachkurse-2025">Sprachbarrieren</SourceRef> erschweren die Jobsuche und den passenden Einsatz.
 - Unsicherer Aufenthaltsstatus macht Planung für Arbeitgeber und Geflüchtete schwierig. Wenn eine Abschiebung droht oder der Status sich kurzfristig ändern kann, sinkt die Planungssicherheit auf beiden Seiten.
 
-Die <Reference code="mdintegration-berufliche-integration-2025">berufliche Integration</SourceRef> scheitert daher oft nicht am fehlenden Arbeitswillen, sondern an rechtlichen, sprachlichen und organisatorischen Hürden.
+Die <SourceRef code="mdintegration-berufliche-integration-2025">berufliche Integration</SourceRef> scheitert daher oft nicht am fehlenden Arbeitswillen, sondern an rechtlichen, sprachlichen und organisatorischen Hürden.
 
 Natürlich gibt es auch Personen, die trotz Erlaubnis nicht arbeiten wollen. Daraus lässt sich aber keine pauschale Aussage über Migranten oder Geflüchtete insgesamt ableiten.
 
@@ -79,9 +80,9 @@ Vor diesem Hintergrund wird in Studien häufig betont, dass Arbeit ein zentraler
 Siehe dazu unter anderem:
 
 - Institut für Arbeitsmarkt- und Berufsforschung  
-  <Reference code="iab-arbeitsmarktintegration-gefluechteten">"Verbesserte institutionelle Rahmenbedingungen fördern die Erwerbstätigkeit" (PDF)</SourceRef>
+  <SourceRef code="iab-arbeitsmarktintegration-gefluechteten">"Verbesserte institutionelle Rahmenbedingungen fördern die Erwerbstätigkeit" (PDF)</SourceRef>
 - Universität Duisburg-Essen  
-  <Reference code="intmon-arbeitsmarktintegration-migranten-2025">Arbeitsmarktintegration von Geflüchteten und Migrant*innen</SourceRef>
+  <SourceRef code="intmon-arbeitsmarktintegration-migranten-2025">Arbeitsmarktintegration von Geflüchteten und Migrant*innen</SourceRef>
 
 ## Fazit
 

@@ -4,7 +4,6 @@ lastScanned: 2025-12-31
 publishedOn: 2026-03-10
 name: In The Know
 description: Amerikanische Nachrichtenseite mit Fokus auf politische Aufklärung und gesellschaftliche Themen
-image: profile.jpg
 tags:
   - USA
   - Nachrichten

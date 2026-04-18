@@ -3,7 +3,6 @@ date: 2026-04-13
 lastScanned: 2026-04-13
 publishedOn: 2026-04-13
 name: "Steffen Degler"
-image: profile.webp
 description: "AfD-Stadtrat in Stuttgart, stellvertretender Fraktionsvorsitzender, Jahrgang 1990"
 tags:
   - AfD
