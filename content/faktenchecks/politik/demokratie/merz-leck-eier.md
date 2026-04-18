@@ -85,7 +85,7 @@ Das zeigt, wie schnell eine derbe politische Zuspitzung in den Bereich strafrech
 dadurch fällt auch eine Asymmetrie auf: Für systematische Anzeigen gegen grobe politische Meinungsäußerungen stehen
 offenbar erhebliche Ressourcen bereit, während Betroffene von ernsthaften Bedrohungen und Einschüchterungen oft
 erleben, dass Verfahren eingestellt werden oder Täter nicht ermittelt werden. Auf diese Lücke weist auch das
-[KoMo-Spotlight von MOTRA/BKA](https://www.motra.info/wp-content/uploads/2024/05/motra_Spotlight_04_24.pdf) hin:
+<SourceRef code="motra-komo-spotlight-04-24">KoMo-Spotlight von MOTRA/BKA</SourceRef> hin:
 Von den dort erfassten angezeigten Fällen kam es nur selten zu Verurteilungen, während ein spürbarer Teil eingestellt
 wurde oder ganz ohne strafrechtliche Verfolgung blieb.
 

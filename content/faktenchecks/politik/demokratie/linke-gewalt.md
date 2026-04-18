@@ -36,7 +36,7 @@ Linksextreme Gewalt hat in Deutschland eine reale Geschichte:
 
 **G20-Gipfel Hamburg (Juli 2017):** Während der Proteste kam es zu schweren Ausschreitungen. Linksextremisten suchten Konfrontationen mit der Polizei, errichteten Barrikaden und verübten Brandanschläge. Hunderte Polizisten wurden verletzt, es entstanden Sachschäden in Millionenhöhe. Autos wurden angezündet, Geschäfte geplündert (<SourceRef code="bpb-g20-hamburg-eskalation">Quelle: bpb, G20 in Hamburg</SourceRef>). Der Hamburger G20 gilt als eine der schwersten linksextremen Gewalteruptionen der jüngeren Geschichte.
 
-**Rigaer Straße Berlin:** Das besetzte Haus Rigaer Straße 94 in Berlin-Friedrichshain ist seit Jahren ein Brennpunkt linksautonomer Gewalt. Regelmäßig kommt es zu Angriffen auf Polizisten, Brandanschlägen auf Fahrzeuge in der Umgebung und Krawallen bei Demonstrationen. Im Juni 2021 griffen 200 Vermummte Polizeikräfte mit Steinwürfen an und errichteten Barrikaden ([Quelle: Berliner Zeitung](https://www.berliner-zeitung.de/news/rigaer-94-barrikaden-und-feuer-auf-der-strasse-li.165576)).
+**Rigaer Straße Berlin:** Das besetzte Haus Rigaer Straße 94 in Berlin-Friedrichshain ist seit Jahren ein Brennpunkt linksautonomer Gewalt. Regelmäßig kommt es zu Angriffen auf Polizisten, Brandanschlägen auf Fahrzeuge in der Umgebung und Krawallen bei Demonstrationen. Im Juni 2021 griffen 200 Vermummte Polizeikräfte mit Steinwürfen an und errichteten Barrikaden (<SourceRef code="berliner-zeitung-rigaer-94-barrikaden">Quelle: Berliner Zeitung</SourceRef>).
 
 **Brandanschläge und Sachbeschädigungen:** Fahrzeuge und Gebäude werden regelmäßig Ziel linksextremer Anschläge. Die Kampagne "Abschalten" ("Switch off"), Anfang 2023 gestartet, gilt dem Verfassungsschutz als derzeit bedeutendste militante Kampagne im Linksextremismus, die "Anti-Kapitalismus" mit klimapolitischen Themen verbindet und kritische Infrastruktur angreift (<SourceRef code="verfassungsschutz-vsb-linksextremismus-2024">Quelle: Verfassungsschutzbericht 2024</SourceRef>).
 
@@ -44,7 +44,7 @@ Linksextreme Gewalt hat in Deutschland eine reale Geschichte:
 
 ### Todesopfer linksextremer Gewalt
 
-Seit 1990 sind nach vorliegenden Recherchen vier Menschen durch linksextrem motivierte Gewalt in Deutschland getötet worden ([Quelle: KATAPULT Magazin](https://katapult-magazin.de/de/artikel/aber-was-ist-mit-linker-gewalt)). Die Morde der RAF (34 Todesopfer) liegen zeitlich davor und sind historisch abgeschlossen.
+Seit 1990 sind nach vorliegenden Recherchen vier Menschen durch linksextrem motivierte Gewalt in Deutschland getötet worden (<SourceRef code="katapult-aber-was-ist-mit-linker-gewalt">Quelle: KATAPULT Magazin</SourceRef>). Die Morde der RAF (34 Todesopfer) liegen zeitlich davor und sind historisch abgeschlossen.
 
 Zum Vergleich: Die Amadeu Antonio Stiftung dokumentiert mindestens 219 Todesopfer rechtsextremer Gewalt seit 1990, dazu 16 weitere Verdachtsfälle. Die Bundesregierung erkennt offiziell 117 davon an (<SourceRef code="amadeu-antonio-todesopfer-rechter-gewalt">Quelle: Amadeu Antonio Stiftung</SourceRef>). Die Diskrepanz entsteht, weil bei vielen Taten die rechtsextreme Motivation erst durch unabhängige Recherchen belegt wurde. Zu den bekanntesten rechtsextremen Anschlägen gehören die NSU-Mordserie (10 Opfer), der Anschlag von Hanau 2020 (9 Opfer) und der Anschlag von Halle 2019 (2 Opfer).
 
@@ -62,7 +62,7 @@ Die offiziellen Zahlen für 2024 im direkten Vergleich:
 | davon gewaltorientiert | 15.300 | 11.200 | 1,4x |
 | Todesopfer seit 1990 | mind. 219 | 4 | 55x |
 
-Quellen: <SourceRef code="bka-pmk-zahlen-2024">BKA PMK 2024</SourceRef>, [Verfassungsschutzbericht 2024](https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2025/06/vsb2024.html), <SourceRef code="amadeu-antonio-todesopfer-rechter-gewalt">Amadeu Antonio Stiftung</SourceRef>
+Quellen: <SourceRef code="bka-pmk-zahlen-2024">BKA PMK 2024</SourceRef>, <SourceRef code="bmi-vsb-2024-vorgestellt">Verfassungsschutzbericht 2024</SourceRef>, <SourceRef code="amadeu-antonio-todesopfer-rechter-gewalt">Amadeu Antonio Stiftung</SourceRef>
 
 Hinter diesen Zahlen stehen wesentliche qualitative Unterschiede:
 
@@ -70,7 +70,7 @@ Hinter diesen Zahlen stehen wesentliche qualitative Unterschiede:
 
 **Organisationsgrad:** Im Rechtsextremismus bestehen terroristische Strukturen (NSU, Atomwaffen Division, Gruppe S.) und zunehmend vernetzte Netzwerke. Im Linksextremismus dominieren lose, anlassbezogene Zusammenschlüsse. Der Generalbundesanwalt sah 2024 keinen linksextremen Terrorismus in Deutschland (<SourceRef code="generalbundesanwalt-linksextremistischer-terrorismus">Quelle: Generalbundesanwalt</SourceRef>).
 
-**Propagandadelikte:** Ein großer Teil der rechtsextremen Straftaten entfällt auf Propagandadelikte (Hakenkreuze, verbotene Symbole, Volksverhetzung), die es im Linksextremismus in dieser Form nicht gibt. 2022 waren es 13.026 Propagandafälle rechts gegenüber 61 links ([Quelle: KAS, Unterschiede links- und rechtsextremistischer Straftaten](https://www.kas.de/en/web/extremismus/linksextremismus/was-unterscheidet-linksextremistische-von-rechtsextremistischen-straftaten)). Das verzerrt den Gesamtvergleich der Straftatenzahlen.
+**Propagandadelikte:** Ein großer Teil der rechtsextremen Straftaten entfällt auf Propagandadelikte (Hakenkreuze, verbotene Symbole, Volksverhetzung), die es im Linksextremismus in dieser Form nicht gibt. 2022 waren es 13.026 Propagandafälle rechts gegenüber 61 links (<SourceRef code="kas-unterschiede-links-rechtsextremistische-straftaten">Quelle: KAS, Unterschiede links- und rechtsextremistischer Straftaten</SourceRef>). Das verzerrt den Gesamtvergleich der Straftatenzahlen.
 
 ## Einordnung
 

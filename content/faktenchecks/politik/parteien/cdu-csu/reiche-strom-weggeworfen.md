@@ -47,7 +47,7 @@ es handelt sich um reguläres Netzmanagement.
 
 ### Die Kosten sinken
 
-Die Gesamtkosten für das Netzengpassmanagement sind [rückläufig](https://www.smard.de/page/home/topic-article/444/213590/netzengpassmanagement-im-jahr-2023): von 3,335 Milliarden (2023) auf 2,776 Milliarden (2024), ein Minus von 17 %. Mit der Fertigstellung wichtiger Nord-Süd-Stromtrassen (Ultranet 2026, A-Nord/SüdOstLink 2027, SüdLink 2028) haben die Netzbetreiber ihre Prognosen für 2026 bis 2028 um fast 4 Milliarden Euro gesenkt. Das spricht dafür, dass sich das Problem mit dem Netzausbau verringern wird.
+Die Gesamtkosten für das Netzengpassmanagement sind <SourceRef code="smard-netzengpassmanagement-2023">rückläufig</SourceRef>: von 3,335 Milliarden (2023) auf 2,776 Milliarden (2024), ein Minus von 17 %. Mit der Fertigstellung wichtiger Nord-Süd-Stromtrassen (Ultranet 2026, A-Nord/SüdOstLink 2027, SüdLink 2028) haben die Netzbetreiber ihre Prognosen für 2026 bis 2028 um fast 4 Milliarden Euro gesenkt. Das spricht dafür, dass sich das Problem mit dem Netzausbau verringern wird.
 
 ### Warum gibt es überhaupt Netzengpässe?
 
@@ -66,7 +66,7 @@ was Jahre zusätzlicher Verzögerung und erhebliche Mehrkosten verursachte.
 
 Katherina Reiche war von 2012 bis 2013 parlamentarische Staatssekretärin unter Bundesumweltminister Peter Altmaier
 (CDU). In dieser Zeit wurde der sogenannte
-["Altmaier-Knick"](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) umgesetzt, der die
+<SourceRef code="klimareporter-altmaier-knick-auszubuegeln">"Altmaier-Knick"</SourceRef> umgesetzt, der die
 deutsche Energiewende um Jahre zurückwarf:
 
 - Die EEG-Vergütung für Solar wurde innerhalb eines Jahres um bis zu 50 % gekürzt, mit einer Woche Vorlaufzeit (die sogenannte "Fallbeilnovelle")
@@ -78,17 +78,17 @@ deutsche Energiewende um Jahre zurückwarf:
 Die Folgen waren erheblich. Der Solarausbau brach von über 8000 MW pro Jahr (2012) auf unter 2000 MW ein. Über
 <SourceRef code="igmetall-solarindustrie-auferstehen-aus-ruinen">100.000 Arbeitsplätze</SourceRef> gingen in der Solarindustrie verloren, dazu etwa 60.000 in der Windenergie. Deutsche Unternehmen wie SolarWorld, Q-Cells, Solon und Conergy gingen in die Insolvenz. Deutschland verlor damit seine frühere Führungsrolle in der Solarproduktion an China.
 
-Eine [Studie von Energy Brainpool](https://klimareporter.de/strom/den-altmaier-knick-auszubuegeln-lohnt-sich) errechnete: Ohne den Altmaier-Knick hätte Deutschland 20.000 MW mehr Solar und 30.000 MW mehr Windkraft gehabt. Die Strompreise wären im August 2022, mitten in der Energiekrise, um über 8 ct/kWh niedriger gewesen, Haushalte hätten rund 111 Euro pro Jahr gespart. Und Deutschland hätte laut einer CREA-Studie 2022 rund 23 Milliarden Euro weniger für russisches Gas ausgeben müssen.
+Eine <SourceRef code="klimareporter-altmaier-knick-auszubuegeln">Studie von Energy Brainpool</SourceRef> errechnete: Ohne den Altmaier-Knick hätte Deutschland 20.000 MW mehr Solar und 30.000 MW mehr Windkraft gehabt. Die Strompreise wären im August 2022, mitten in der Energiekrise, um über 8 ct/kWh niedriger gewesen, Haushalte hätten rund 111 Euro pro Jahr gespart. Und Deutschland hätte laut einer CREA-Studie 2022 rund 23 Milliarden Euro weniger für russisches Gas ausgeben müssen.
 
 ### Kontinuität der Argumentation
 
 Als Altmaier 2018 Wirtschaftsminister wurde, setzte er die restriktive Linie fort: verschärfte Abstandsregeln für
 Windkraft, keine Beschleunigung des Netzausbaus. Die Branche warnte vor einer
-["Altmaier-Delle"](https://www.sfv.de/artikel/wie_wirtschaftsminister_peter_altmaier_die_deutsche_energiewende_verhindert).
+<SourceRef code="sfv-altmaier-energiewende-verhindert">"Altmaier-Delle"</SourceRef>.
 
 Reiche, die unter Altmaier an dieser Politik mitwirkte und später in der Energiewirtschaft tätig war, nutzt als
 Ministerin nun eine irreführende Zahl, um erneut gegen zentrale Mechanismen der Energiewende zu argumentieren. Der
-[Solarförderverein](https://www.sfv.de/2026-frontalangriff-auf-den-klimaschutz) hat dafür den Begriff
+<SourceRef code="sfv-2026-frontalangriff-klimaschutz">Solarförderverein</SourceRef> hat dafür den Begriff
 "Reiche-Schlucht" geprägt, als Nachfolger des "Altmaier-Knicks".
 
 Ihr <SourceRef code="t-online-reiche-netzpaket-frontalangriff-energiewende">"Netzpaket"</SourceRef>

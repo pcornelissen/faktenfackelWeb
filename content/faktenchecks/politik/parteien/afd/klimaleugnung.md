@@ -36,7 +36,7 @@ der Forschung.
 ### Was die AfD konkret falsch behauptet
 
 **"Nicht evident und nicht bewiesen":** Der menschliche Einfluss auf das Klimasystem ist laut IPCC seit dem
-[AR6-Bericht von 2021](https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/) "eindeutig". Die
+<SourceRef code="ipcc-ar6-wg1-spm">AR6-Bericht von 2021</SourceRef> "eindeutig". Die
 AfD-Position widerspricht damit tausenden begutachteten Studien.
 
 **"Erneuerbare Energien sind unsinnig":** Windräder, Solaranlagen und E-Autos werden von der AfD regelmäßig als

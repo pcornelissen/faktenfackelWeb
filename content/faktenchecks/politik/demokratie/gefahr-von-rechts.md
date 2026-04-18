@@ -71,7 +71,7 @@ Die <SourceRef code="amadeu-antonio-todesopfer-rechter-gewalt">Amadeu Antonio St
 
 Diese Diskrepanz von über 100 Fällen ist seit Jahren bekannt und wird von Opferberatungsstellen, Journalisten und Gedenkinitiativen kritisiert. Die offiziellen Statistiken verwenden restriktivere Kriterien, die Fälle ausschließen, in denen rechtsextreme oder sozialdarwinistische Motive nur eine untergeordnete Rolle spielen. <SourceRef code="belltower-luecke-100-tote-rechte-gewalt">Belltower News dokumentiert die Lücke</SourceRef>: Zahlreiche Tötungsdelikte mit rassistischen, antisemitischen oder sozialdarwinistischen Hintergründen werden von den Behörden nicht als politisch motiviert erfasst, weil etwa persönliche Beziehungen zwischen Täter und Opfer bestanden oder weil die Ermittler die politische Dimension nicht erkannten.
 
-Der [Verband der Beratungsstellen für Betroffene rechter, rassistischer und antisemitischer Gewalt](https://verband-brg.de/infos_zur_jahrestatistik_rechte_gewalt/) bestätigt, dass die offiziellen Zahlen die tatsächliche Dimension rechter Gewalt unterschätzen.
+Der <SourceRef code="vbrg-jahresbilanz-rechte-gewalt-2024">Verband der Beratungsstellen für Betroffene rechter, rassistischer und antisemitischer Gewalt</SourceRef> bestätigt, dass die offiziellen Zahlen die tatsächliche Dimension rechter Gewalt unterschätzen.
 
 ## Einordnung
 
