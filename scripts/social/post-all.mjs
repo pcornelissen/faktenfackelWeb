@@ -74,6 +74,13 @@ const imageName = imageMatch ? imageMatch[1].trim() : null
 const draftDir = dirname(resolve(draftPath))
 const imagePath = imageName ? resolve(draftDir, imageName) : null
 
+// Frontmatter: article-Pfad zu voller Faktenfackel-URL zusammensetzen (fuer FB-Kommentar)
+const articleMatch = fmMatch[1].match(/^article:\s*(.+)$/m)
+const articlePath = articleMatch ? articleMatch[1].trim() : null
+const articleUrl = articlePath
+  ? `https://faktenfackel.de${articlePath.startsWith('/') ? '' : '/'}${articlePath}${articlePath.endsWith('/') ? '' : '/'}`
+  : null
+
 // Plattform-Texte extrahieren (## Plattformname\nText bis naechstes ##)
 function extractSection(name) {
   // Split body by ## headers, find the matching section
@@ -109,6 +116,9 @@ for (const platform of platforms) {
   const scriptArgs = [scriptPath, text]
   if (platform.supportsImage && imagePath) {
     scriptArgs.push('--image', imagePath)
+  }
+  if (platform.name === 'Facebook' && articleUrl) {
+    scriptArgs.push('--article-url', articleUrl)
   }
 
   if (dryRun) {
