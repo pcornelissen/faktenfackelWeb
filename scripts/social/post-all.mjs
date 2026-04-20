@@ -89,7 +89,6 @@ function extractSection(name) {
 const platforms = [
   { name: 'Bluesky', script: 'post-bluesky.mjs', supportsImage: true },
   { name: 'Mastodon', script: 'post-mastodon.mjs', supportsImage: true },
-  { name: 'X/Twitter', script: 'post-twitter.mjs', supportsImage: false },
   { name: 'Facebook', script: 'post-facebook.mjs', supportsImage: true },
   { name: 'Instagram', script: 'post-instagram.mjs', supportsImage: true },
   { name: 'TikTok', script: 'post-tiktok.mjs', supportsImage: false },
