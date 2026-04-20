@@ -1,9 +1,9 @@
 ---
-date: 2026-01-15
-lastScanned: 2026-01-15
+date: 2026-04-20
+lastScanned: 2026-04-20
 publishedOn: 2026-01-16
 name: Mediendienst Integration
-description: Recherche-Service für Journalistinnen und Journalisten
+description: Recherche-Service für Journalistinnen und Journalisten zu Migration und Integration
 tags:
   - Journalist
   - Zeitschrift
@@ -12,21 +12,19 @@ tags:
 
 ## Über die Quelle
 
-PRO ASYL ist die unabhängige Stimme für die Menschenrechte und den Schutz von Flüchtlingen in Deutschland und Europa. Die Arbeit der Organisation wird durch Mitgliedsbeiträge, Spenden und Stiftungszuwendungen finanziert. 
+Mediendienst Integration ist ein Non-profit-Rechercheservice, der seit 2012 Journalistinnen und Journalisten mit Hintergrundinformationen, Studien und Expertenkontakten zu den Themen Migration, Flucht und Integration versorgt. Der Dienst wurde von einem Zusammenschluss aus Medienschaffenden und Migrationsforschern gegründet und richtet sich vorrangig an Redaktionen, die über diese Themen berichten.
 
-Gegründet wurde PRO ASYL 1986 von Mitarbeitenden aus Flüchtlingsräten, Kirchen, Gewerkschaften, Wohlfahrts- und Menschenrechtsorganisationen, um der sich damals ausbreitenden rechten und rassistischen Hetze gegenüber Asylsuchenden entgegenzutreten und für den Schutz von verfolgten Menschen zu kämpfen. Eine Aufgabe, die an Dringlichkeit bis heute nichts verloren hat.
-(Quelle: [Homepage](https://www.proasyl.de/wer-wir-sind/))
+Finanziert wird Mediendienst Integration durch Stiftungen: Freudenberg Stiftung, Stiftung Mercator, Robert Bosch Stiftung und Amadeu Antonio Stiftung sowie durch die Bundesbeauftragte für Migration und Flüchtlinge und EU-Mittel (AMIF). Dem Beirat gehören Journalistinnen und Journalisten von ZDF, taz, FAZ und Spiegel an.
 
 ## Links
 
-- https://www.proasyl.de
-- https://de.wikipedia.org/wiki/Pro_Asyl
+- https://mediendienst-integration.de/
+- https://de.wikipedia.org/wiki/Mediendienst_Integration
 
 ## Faktenfackel Bewertung
 
-PRO ASYL ist eine etablierte Menschenrechtsorganisation, die sich für die Rechte von Flüchtlingen und Asylsuchenden einsetzt. Die Organisation genießt in Fachkreisen hohes Ansehen und wird oft als glaubwürdige Quelle für Informationen und Analysen zu Flüchtlings- und Asylthemen zitiert. Als Interessensverband ist PRO ASYL natürlich grundsätzlich parteiisch hinsichtlich des eigenen Ziels. Das ist an sich aber kein Problem, solange es mit in Betracht gezogen wird.
-
+Mediendienst Integration ist als Fachinformationsdienst für Journalistinnen und Journalisten konzipiert und liefert in der Regel gut belegte Hintergrundinformationen mit Quellenangaben. Die Stiftungsfinanzierung und die inhaltliche Ausrichtung auf Integrationsthemen sind transparent und dem Kontext nach grundsätzlich einzuordnen. Die Artikel verweisen regelmäßig auf wissenschaftliche Studien und amtliche Statistiken. Als thematisch fokussierter Dienst mit klarer Positionierung für sachliche Berichterstattung über Migration ist die Auswahl und Gewichtung der Themen jedoch nicht neutral.
 
 ### Fazit
 
-Gute glaubwürdige Quelle für Asyl-/Migrationsthemen, die aber immer im Kontext der eigenen Zielsetzung betrachtet werden muss.
+Gute, gut belegte Quelle für Grundlagenartikel zu Migrations- und Integrationsthemen. Eignet sich als Ausgangspunkt für Recherchen, sollte aber mit Primärquellen (z.B. PKS, Studien) abgeglichen werden.
