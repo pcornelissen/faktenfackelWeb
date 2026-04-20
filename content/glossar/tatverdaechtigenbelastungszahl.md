@@ -15,7 +15,7 @@ Die **Tatverdächtigenbelastungszahl** (TVBZ) gibt an, wie viele Tatverdächtige
 
 ## Wozu die TVBZ dient
 
-Absolute Zahlen ("Es gab 2025 rund 2 Millionen Tatverdächtige") sagen wenig über die tatsächliche Belastung einer Bevölkerungsgruppe aus, weil Gruppen unterschiedlich groß sind. Wenn die Zahl der Deutschen leicht sinkt, die Zahl der Ausländer aber deutlich steigt, steigen zwangsläufig auch die absoluten Tatverdächtigen-Zahlen bei Ausländern — ohne dass die einzelne Person krimineller wäre.
+Absolute Zahlen ("Es gab 2025 rund 2 Millionen Tatverdächtige") sagen wenig über die tatsächliche Belastung einer Bevölkerungsgruppe aus, weil Gruppen unterschiedlich groß sind. Wenn die Zahl der Deutschen leicht sinkt, die Zahl der Ausländer aber deutlich steigt, steigen zwangsläufig auch die absoluten Tatverdächtigen-Zahlen bei Ausländern, ohne dass die einzelne Person krimineller wäre.
 
 Die TVBZ rechnet diesen Größeneffekt heraus: Sie setzt die Zahl der Tatverdächtigen ins Verhältnis zur Gruppengröße und ermöglicht so einen fairen Vergleich zwischen Gruppen unterschiedlicher Größe (zum Beispiel Deutsche vs. Ausländer, Männer vs. Frauen, verschiedene Altersgruppen).
 
@@ -27,8 +27,8 @@ TVBZ = (Anzahl Tatverdächtige einer Gruppe / Größe der Gruppe) × 100.000
 
 Beispiel aus der PKS 2025 (ohne ausländerrechtliche Verstöße):
 
-- Deutsche: TVBZ = 1.813 — von 100.000 in Deutschland lebenden Deutschen wurden 1.813 als tatverdächtig registriert
-- Ausländer: TVBZ = 4.788 — von 100.000 in Deutschland lebenden Ausländern wurden 4.788 als tatverdächtig registriert
+- Deutsche: TVBZ = 1.813 (von 100.000 in Deutschland lebenden Deutschen wurden 1.813 als tatverdächtig registriert)
+- Ausländer: TVBZ = 4.788 (von 100.000 in Deutschland lebenden Ausländern wurden 4.788 als tatverdächtig registriert)
 
 Faktor: 4.788 / 1.813 ≈ 2,6. Die TVBZ von Ausländern ist also 2,6-mal höher als bei Deutschen.
 
@@ -44,4 +44,4 @@ Faktor: 4.788 / 1.813 ≈ 2,6. Die TVBZ von Ausländern ist also 2,6-mal höher 
 
 ## Warum das wichtig ist
 
-Die TVBZ wird regelmäßig zitiert, um einen vermeintlich klaren Zusammenhang zwischen Migration und Kriminalität zu belegen. Ohne methodische Einordnung — Kontrolldelikte, Demografie, Wohnort, Anzeigeverhalten — führen die Zahlen systematisch in die Irre. Der [Mediendienst Integration](https://mediendienst-integration.de/kriminalitaet/auslaenderkriminalitaet/begehen-auslaender-oefter-straftaten-als-deutsche/) und [CORRECTIV](https://correctiv.org/faktencheck/hintergrund/2026/04/15/polizeiliche-kriminalstatistik-faktencheck/) haben diese Mechanismen mehrfach ausführlich dokumentiert.
+Die TVBZ wird regelmäßig zitiert, um einen vermeintlich klaren Zusammenhang zwischen Migration und Kriminalität zu belegen. Ohne methodische Einordnung (Kontrolldelikte, Demografie, Wohnort, Anzeigeverhalten) führen die Zahlen systematisch in die Irre. Der [Mediendienst Integration](https://mediendienst-integration.de/kriminalitaet/auslaenderkriminalitaet/begehen-auslaender-oefter-straftaten-als-deutsche/) und [CORRECTIV](https://correctiv.org/faktencheck/hintergrund/2026/04/15/polizeiliche-kriminalstatistik-faktencheck/) haben diese Mechanismen mehrfach ausführlich dokumentiert.
