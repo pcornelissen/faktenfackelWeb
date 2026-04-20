@@ -81,23 +81,23 @@ const ALL_FLOWS: FlowDef[] = [
 ]
 
 const SCENARIO_NODE_IDS: Record<ScenarioId, string[]> = {
-  '1975': [
+  1975: [
     'hh_start', 'firmen_75', 'fm_75', 'loehne_75', 'staat_75', 'ausland_75', 'hh_75',
   ],
-  '2007': [
+  2007: [
     'hh_start', 'firmen_75', 'fm_75', 'loehne_75', 'staat_75', 'ausland_75', 'hh_75',
     'firmen_07', 'fm_07', 'loehne_07', 'staat_07', 'ausland_07', 'hh_07',
   ],
-  '2025': NODES.map(n => n.id),
+  2025: NODES.map(n => n.id),
 }
 
 const SCENARIO_SUBTITLES: Record<ScenarioId, string> = {
-  '1975': 'In den Wirtschaftswunderjahren floss das Geld noch relativ vollständig im Kreislauf. Von 100 Einheiten, die Haushalte ausgaben, kamen im Modell 90 zurück.',
-  '2007': 'Bis zur Finanzkrise hatten sich die Lecks schon vergrößert. Von den 90, die 1975 zurückkamen, kamen bis 2007 noch 68 an, kumuliert nur noch 68 von 100.',
-  '2025': 'Heute kumulieren drei Jahrzehnte Verluste. Von den 68, die nach 2007 übrig waren, kamen bis 2025 noch 48 zurück: weniger als die Hälfte des ursprünglichen Starts.',
+  1975: 'In den Wirtschaftswunderjahren floss das Geld noch relativ vollständig im Kreislauf. Von 100 Einheiten, die Haushalte ausgaben, kamen im Modell 90 zurück.',
+  2007: 'Bis zur Finanzkrise hatten sich die Lecks schon vergrößert. Von den 90, die 1975 zurückkamen, kamen bis 2007 noch 68 an, kumuliert nur noch 68 von 100.',
+  2025: 'Heute kumulieren drei Jahrzehnte Verluste. Von den 68, die nach 2007 übrig waren, kamen bis 2025 noch 48 zurück: weniger als die Hälfte des ursprünglichen Starts.',
 }
 
-const ERA_COUNT: Record<ScenarioId, number> = { '1975': 1, '2007': 2, '2025': 3 }
+const ERA_COUNT: Record<ScenarioId, number> = { 1975: 1, 2007: 2, 2025: 3 }
 
 const ERA_HEADER_IDS: Record<string, string> = {
   firmen_75: '1975',
@@ -371,27 +371,41 @@ function nodeClass(category: NodeCategory): string {
         </caption>
         <thead>
           <tr>
-            <th scope="col">Jahr</th>
-            <th scope="col">Zurück an Haushalte</th>
-            <th scope="col">Finanzmarkt</th>
-            <th scope="col">Ausland</th>
+            <th scope="col">
+              Jahr
+            </th>
+            <th scope="col">
+              Zurück an Haushalte
+            </th>
+            <th scope="col">
+              Finanzmarkt
+            </th>
+            <th scope="col">
+              Ausland
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1975</th>
+            <th scope="row">
+              1975
+            </th>
             <td>90 %</td>
             <td>7 %</td>
             <td>3 %</td>
           </tr>
           <tr>
-            <th scope="row">2007</th>
+            <th scope="row">
+              2007
+            </th>
             <td>76 %</td>
             <td>19 %</td>
             <td>5 %</td>
           </tr>
           <tr>
-            <th scope="row">2025</th>
+            <th scope="row">
+              2025
+            </th>
             <td>70 %</td>
             <td>23 %</td>
             <td>7 %</td>
