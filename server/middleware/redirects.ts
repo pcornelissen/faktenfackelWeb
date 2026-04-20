@@ -106,6 +106,7 @@ const prefixRedirects: Record<string, string> = {
   '/quellen/personen/maurice-hofgen': '/quellen/personen/maurice-hoefgen',
   '/quellen/staatlich/lpb-rp': '/quellen/staatlich/lpb-rlp',
   '/quellen/personen/forrest-valkai': '/quellen/wissenschaft/forrest-valkai',
+  '/quellen/staatlich/bverfg': '/quellen/staatlich/bundesverfassungsgericht',
 
   // Umlaut → ASCII normalizations
   '/quellen/personen/maurice-h\u00f6ffgen': '/quellen/personen/maurice-hoefgen',

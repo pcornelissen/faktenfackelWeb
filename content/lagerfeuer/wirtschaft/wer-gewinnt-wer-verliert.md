@@ -23,3 +23,8 @@ Wirtschaftliche Ungleichheit in Deutschland ist kein Unfall. Sie ist das Ergebni
 - [Teil 8: Die unsichtbare Hand im Gesetz](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.08-die-unsichtbare-hand-im-gesetz)
 - [Teil 9: Prekarisierung by Design](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.09-prekarisierung-by-design)
 - [Teil 10: Der Mechanismus](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-07.10-der-mechanismus)
+- [Teil 11: Der schrumpfende Kreislauf](/lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert/2026-04-19.11-der-schrumpfende-kreislauf)
+
+---
+
+_April 2026: Die Serie wurde um Teil 11 erweitert. Er vertieft den ökonomischen Kreislauf aus Teil 10 und benennt vier konkrete Lecks, durch die Geld heute aus dem deutschen Wirtschaftskreislauf entweicht._
