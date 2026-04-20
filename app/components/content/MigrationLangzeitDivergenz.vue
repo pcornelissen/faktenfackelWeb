@@ -83,32 +83,100 @@ function playAll() {
     </figcaption>
 
     <div class="divergenz-chart">
-      <svg :viewBox="`0 0 ${viewW} ${viewH}`" class="divergenz-svg" role="img" aria-label="Liniendiagramm Ausländerzahl vs. Kriminalitätsrate 2005-2024">
+      <svg
+        :viewBox="`0 0 ${viewW} ${viewH}`"
+        class="divergenz-svg"
+        role="img"
+        aria-label="Liniendiagramm Ausländerzahl vs. Kriminalitätsrate 2005-2024"
+      >
         <!-- Grid -->
-        <line v-for="t in yTicks" :key="`yg-${t}`" :x1="padL" :x2="padL + chartW" :y1="yPos(t)" :y2="yPos(t)" class="divergenz-grid" />
-        <text v-for="t in yTicks" :key="`yl-${t}`" :x="padL - 8" :y="yPos(t)" class="divergenz-ytick">{{ t }}</text>
+        <line
+          v-for="t in yTicks"
+          :key="`yg-${t}`"
+          :x1="padL"
+          :x2="padL + chartW"
+          :y1="yPos(t)"
+          :y2="yPos(t)"
+          class="divergenz-grid"
+        />
+        <text
+          v-for="t in yTicks"
+          :key="`yl-${t}`"
+          :x="padL - 8"
+          :y="yPos(t)"
+          class="divergenz-ytick"
+        >{{ t }}</text>
 
         <!-- Baseline 100 -->
-        <line :x1="padL" :x2="padL + chartW" :y1="yPos(100)" :y2="yPos(100)" class="divergenz-baseline" />
-        <text :x="padL + chartW + 6" :y="yPos(100)" class="divergenz-baseline-label">100 (2005)</text>
+        <line
+          :x1="padL"
+          :x2="padL + chartW"
+          :y1="yPos(100)"
+          :y2="yPos(100)"
+          class="divergenz-baseline"
+        />
+        <text
+          :x="padL + chartW + 6"
+          :y="yPos(100)"
+          class="divergenz-baseline-label"
+        >100 (2005)</text>
 
         <!-- X axis labels -->
-        <text v-for="p in data" :key="`xl-${p.year}`" :x="xPos(p.year)" :y="viewH - padB + 18" class="divergenz-xtick">{{ p.year }}</text>
+        <text
+          v-for="p in data"
+          :key="`xl-${p.year}`"
+          :x="xPos(p.year)"
+          :y="viewH - padB + 18"
+          class="divergenz-xtick"
+        >{{ p.year }}</text>
 
         <!-- Lines -->
-        <path :d="auslaenderPath" class="divergenz-line divergenz-line-auslaender" />
-        <path :d="kriminalitaetPath" class="divergenz-line divergenz-line-kriminalitaet" />
+        <path
+          :d="auslaenderPath"
+          class="divergenz-line divergenz-line-auslaender"
+        />
+        <path
+          :d="kriminalitaetPath"
+          class="divergenz-line divergenz-line-kriminalitaet"
+        />
 
         <!-- Current point markers -->
-        <circle :cx="xPos(current.year)" :cy="yPos(current.auslaender)" r="5" class="divergenz-dot divergenz-dot-auslaender" />
-        <circle :cx="xPos(current.year)" :cy="yPos(current.kriminalitaet)" r="5" class="divergenz-dot divergenz-dot-kriminalitaet" />
+        <circle
+          :cx="xPos(current.year)"
+          :cy="yPos(current.auslaender)"
+          r="5"
+          class="divergenz-dot divergenz-dot-auslaender"
+        />
+        <circle
+          :cx="xPos(current.year)"
+          :cy="yPos(current.kriminalitaet)"
+          r="5"
+          class="divergenz-dot divergenz-dot-kriminalitaet"
+        />
 
         <!-- Legend -->
         <g :transform="`translate(${padL + 10}, ${padT + 10})`">
-          <rect width="11" height="11" class="divergenz-legend-swatch-auslaender" />
-          <text x="18" y="10" class="divergenz-legend-label">Ausländerzahl</text>
-          <rect y="20" width="11" height="11" class="divergenz-legend-swatch-kriminalitaet" />
-          <text x="18" y="30" class="divergenz-legend-label">Kriminalitätsrate</text>
+          <rect
+            width="11"
+            height="11"
+            class="divergenz-legend-swatch-auslaender"
+          />
+          <text
+            x="18"
+            y="10"
+            class="divergenz-legend-label"
+          >Ausländerzahl</text>
+          <rect
+            y="20"
+            width="11"
+            height="11"
+            class="divergenz-legend-swatch-kriminalitaet"
+          />
+          <text
+            x="18"
+            y="30"
+            class="divergenz-legend-label"
+          >Kriminalitätsrate</text>
         </g>
       </svg>
     </div>
@@ -121,14 +189,20 @@ function playAll() {
         <div class="divergenz-value">
           <span class="divergenz-value-label">Ausländerzahl</span>
           <span class="divergenz-value-number">{{ current.auslaender }}</span>
-          <span class="divergenz-value-delta" :class="{ pos: auslaenderDelta > 0, neg: auslaenderDelta < 0 }">
+          <span
+            class="divergenz-value-delta"
+            :class="{ pos: auslaenderDelta > 0, neg: auslaenderDelta < 0 }"
+          >
             {{ auslaenderDelta >= 0 ? '+' : '' }}{{ auslaenderDelta }}&nbsp;% seit 2005
           </span>
         </div>
         <div class="divergenz-value">
           <span class="divergenz-value-label">Kriminalitätsrate</span>
           <span class="divergenz-value-number">{{ current.kriminalitaet }}</span>
-          <span class="divergenz-value-delta" :class="{ pos: kriminalitaetDelta > 0, neg: kriminalitaetDelta < 0 }">
+          <span
+            class="divergenz-value-delta"
+            :class="{ pos: kriminalitaetDelta > 0, neg: kriminalitaetDelta < 0 }"
+          >
             {{ kriminalitaetDelta >= 0 ? '+' : '' }}{{ kriminalitaetDelta }}&nbsp;% seit 2005
           </span>
         </div>
@@ -136,16 +210,34 @@ function playAll() {
     </div>
 
     <div class="divergenz-controls">
-      <button type="button" class="divergenz-btn" :disabled="yearIndex === 0" @click="prev">
+      <button
+        type="button"
+        class="divergenz-btn"
+        :disabled="yearIndex === 0"
+        @click="prev"
+      >
         ← Zurück
       </button>
-      <button type="button" class="divergenz-btn divergenz-btn-primary" :disabled="yearIndex === data.length - 1" @click="next">
+      <button
+        type="button"
+        class="divergenz-btn divergenz-btn-primary"
+        :disabled="yearIndex === data.length - 1"
+        @click="next"
+      >
         Weiter →
       </button>
-      <button type="button" class="divergenz-btn" @click="playAll">
+      <button
+        type="button"
+        class="divergenz-btn"
+        @click="playAll"
+      >
         ▶ Abspielen
       </button>
-      <button type="button" class="divergenz-btn divergenz-btn-ghost" @click="reset">
+      <button
+        type="button"
+        class="divergenz-btn divergenz-btn-ghost"
+        @click="reset"
+      >
         Zurücksetzen
       </button>
     </div>

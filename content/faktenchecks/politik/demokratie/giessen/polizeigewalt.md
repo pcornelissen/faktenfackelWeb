@@ -103,4 +103,4 @@ Gleichzeitig lässt sich auf Basis kurzer Social-Media-Ausschnitte nicht jede Ma
 Der Artikel lässt deshalb kein einfaches Ja oder Nein zu. Belastbar ist vor allem diese Feststellung: Die bekannten Bilder begründen erhebliche Zweifel daran, dass jeder dokumentierte Gewalteinsatz der Polizei in Gießen transparent angekündigt, notwendig und verhältnismäßig war.
 
 Ergänzend gibt es auch eine ausführlichere Videoaufarbeitung von Marcant:
-<YoutubeEmbed src="https://www.youtube-nocookie.com/embed/HFy55GnpI5w?si=2vPonmclM72p7pzw" title="Aufarbeitung der Gießen-Demo von Marcant" />
+<YoutubeEmbed src="https://www.youtube-nocookie.com/embed/HFy55GnpI5w?si=2vPonmclM72p7pzw" title="Aufarbeitung der Gießen-Demo von Marcant"></YoutubeEmbed>

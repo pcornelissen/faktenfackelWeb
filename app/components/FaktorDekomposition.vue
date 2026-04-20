@@ -42,20 +42,62 @@ function reset() {
   <figure class="tvbz-figure">
     <figcaption class="tvbz-caption">
       <strong>{{ title }}</strong>
-      <span v-if="subtitle" class="tvbz-sub">{{ subtitle }}</span>
+      <span
+        v-if="subtitle"
+        class="tvbz-sub"
+      >{{ subtitle }}</span>
     </figcaption>
 
     <div class="tvbz-chart">
-      <svg viewBox="0 0 580 180" class="tvbz-svg" role="img" :aria-label="`Balkendiagramm ${baselineLabel} vs. ${targetLabel}`">
-        <line :x1="barOffsetX + germanBarPx" y1="20" :x2="barOffsetX + germanBarPx" y2="160" class="tvbz-baseline" />
+      <svg
+        viewBox="0 0 580 180"
+        class="tvbz-svg"
+        role="img"
+        :aria-label="`Balkendiagramm ${baselineLabel} vs. ${targetLabel}`"
+      >
+        <line
+          :x1="barOffsetX + germanBarPx"
+          y1="20"
+          :x2="barOffsetX + germanBarPx"
+          y2="160"
+          class="tvbz-baseline"
+        />
 
-        <text :x="barOffsetX" y="40" class="tvbz-label">{{ baselineLabel }}</text>
-        <rect :x="barOffsetX" y="50" :width="germanBarPx" height="28" class="tvbz-bar tvbz-bar-de" />
-        <text :x="barOffsetX + germanBarPx + 10" y="69" class="tvbz-value">Faktor 1,0</text>
+        <text
+          :x="barOffsetX"
+          y="40"
+          class="tvbz-label"
+        >{{ baselineLabel }}</text>
+        <rect
+          :x="barOffsetX"
+          y="50"
+          :width="germanBarPx"
+          height="28"
+          class="tvbz-bar tvbz-bar-de"
+        />
+        <text
+          :x="barOffsetX + germanBarPx + 10"
+          y="69"
+          class="tvbz-value"
+        >Faktor 1,0</text>
 
-        <text :x="barOffsetX" y="110" class="tvbz-label">{{ targetLabel }}</text>
-        <rect :x="barOffsetX" y="120" :width="foreignBarPx" height="28" class="tvbz-bar tvbz-bar-au" />
-        <text :x="barOffsetX + foreignBarPx + 10" y="139" class="tvbz-value">Faktor {{ current.factor.toFixed(1).replace('.', ',') }}</text>
+        <text
+          :x="barOffsetX"
+          y="110"
+          class="tvbz-label"
+        >{{ targetLabel }}</text>
+        <rect
+          :x="barOffsetX"
+          y="120"
+          :width="foreignBarPx"
+          height="28"
+          class="tvbz-bar tvbz-bar-au"
+        />
+        <text
+          :x="barOffsetX + foreignBarPx + 10"
+          y="139"
+          class="tvbz-value"
+        >Faktor {{ current.factor.toFixed(1).replace('.', ',') }}</text>
       </svg>
     </div>
 
@@ -64,18 +106,36 @@ function reset() {
         <span class="tvbz-step-num">Schritt {{ stepIndex + 1 }} / {{ steps.length }}</span>
         <span class="tvbz-step-label">{{ current.label }}</span>
       </div>
-      <p class="tvbz-desc">{{ current.desc }}</p>
-      <p class="tvbz-cite">Datengrundlage: {{ current.citation }}</p>
+      <p class="tvbz-desc">
+        {{ current.desc }}
+      </p>
+      <p class="tvbz-cite">
+        Datengrundlage: {{ current.citation }}
+      </p>
     </div>
 
     <div class="tvbz-controls">
-      <button type="button" class="tvbz-btn" :disabled="stepIndex === 0" @click="prev">
+      <button
+        type="button"
+        class="tvbz-btn"
+        :disabled="stepIndex === 0"
+        @click="prev"
+      >
         ← Zurück
       </button>
-      <button type="button" class="tvbz-btn tvbz-btn-primary" :disabled="stepIndex === steps.length - 1" @click="next">
+      <button
+        type="button"
+        class="tvbz-btn tvbz-btn-primary"
+        :disabled="stepIndex === steps.length - 1"
+        @click="next"
+      >
         Weiter →
       </button>
-      <button type="button" class="tvbz-btn tvbz-btn-ghost" @click="reset">
+      <button
+        type="button"
+        class="tvbz-btn tvbz-btn-ghost"
+        @click="reset"
+      >
         Zurücksetzen
       </button>
     </div>

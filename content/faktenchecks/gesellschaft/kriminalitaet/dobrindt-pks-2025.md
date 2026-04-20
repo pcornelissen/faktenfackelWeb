@@ -99,6 +99,6 @@ Dobrindts Zahlen sind aus der PKS korrekt abgelesen, aber systematisch ohne den 
 
 Hinzu kommt das politische Muster: Sinkende Kriminalitätszahlen werden zum Anlass genommen, härtere Überwachungsgesetze zu fordern - ein Widerspruch, der im Framing weggeblendet wird.
 
-Die Aussagen sind **irreführend** (misleading): Nicht falsch im Detail, aber selektiv zitiert, ohne Kontext und in Summe geeignet, ein ethnisiertes Kriminalitätsbild zu erzeugen, das die Daten nicht hergeben.
+Die Aussagen sind **irreführend**: Nicht falsch im Detail, aber selektiv zitiert, ohne Kontext und in Summe geeignet, ein ethnisiertes Kriminalitätsbild zu erzeugen, das die Daten nicht hergeben.
 
 Wer tiefer einsteigen will, findet die methodische Grundlage im <SourceRef code="correctiv-pks-faktencheck-fuenf-behauptungen-2026">CORRECTIV-Faktencheck</SourceRef>, den Langzeitbefund beim <SourceRef code="mdi-migration-kriminalitaet-langzeitbefund">Mediendienst Integration</SourceRef> und die empirische Evidenz in der <SourceRef code="ifo-adema-alipour-migration-kriminalitaet-2025">ifo-Studie</SourceRef>. Zur Einordnung der Zahl selbst hilft unser Glossareintrag zur <GlossarRef name="tatverdaechtigenbelastungszahl">Tatverdächtigenbelastungszahl</GlossarRef>. Für das Gesamtbild "Migration und Kriminalität" jenseits der Tagesaktualität siehe auch unseren Faktencheck [Kriminalität bei Ausländern und Deutschen](/faktenchecks/gesellschaft/kriminalitaet/anteil-migranten).
