@@ -1,6 +1,6 @@
 ---
 publishedOn: 2026-04-20
-date: 2026-04-20
+date: 2026-04-21
 title: "Dobrindts PKS-Framing 2026"
 subtitle: "Migration trotz sinkender Kriminalität als Problem inszeniert"
 description: "Bundesinnenminister Dobrindt nutzte die PKS 2025 für migrationsfeindliches Framing - obwohl die Tatverdächtigen unter Zuwanderern um 7,2 Prozent zurückgingen. Die Kernaussagen im Faktencheck."
@@ -92,6 +92,16 @@ Hier dreht Dobrindt die Argumentation um: Wenn mehr Migration angeblich mehr Kri
 Bemerkenswert ist nicht nur, was Dobrindt sagt, sondern wofür er die Pressekonferenz nutzt. Trotz des deutlich positiven Gesamtbilds fordert er laut <SourceRef code="netzpolitik-pks-2025-sinkt-sechs-prozent">netzpolitik.org</SourceRef> neue Überwachungsinstrumente: automatisierte Datenanalyse, biometrische Fahndung im Internet, eine Verschärfung des Aufenthaltsrechts. Zivilgesellschaftliche Organisationen kritisieren mehrere dieser Pläne als verfassungsrechtlich problematisch.
 
 Die PKS ist ohnehin das **Hellfeld** der polizeilich registrierten Fälle - nicht die tatsächliche Kriminalität. Die gleichzeitig veröffentlichte <SourceRef code="bka-pks-2025-skid-kurzmeldung">Dunkelfeldstudie SKiD 2024</SourceRef> zeigt einen echten Befund, der nicht in Dobrindts migrationsfeindliches Framing passt: 8,5&nbsp;Prozent der 16- bis 17-Jährigen wurden 2024 Opfer einer Körperverletzung (2020: 3,1&nbsp;Prozent). Dieser Anstieg bei jugendlichen Opfern ist keine Frage der Herkunft, sondern der Jugendgewalt insgesamt.
+
+## Parlamentarische Fortsetzung: AfD überholt Dobrindt von rechts
+
+Noch am Tag der Pressekonferenz setzte die AfD-Bundestagsfraktion das Framing parlamentarisch fort. In einer <SourceRef code="afd-hess-pks-2025-verheerend">Pressemitteilung</SourceRef> vom 20.&nbsp;April 2026 nennt Martin Hess, innenpolitischer Sprecher der Fraktion, den Rückgang der Gesamtkriminalität "trügerisch" und erklärt ihn primär durch die "verfehlte Legalisierung von Cannabis". Das ist eine steile These: Der BKA-Änderungsnachweis zur PKS 2025 weist zwar aus, dass Rauschgiftdelikte durch die Teillegalisierung zurückgehen - dieser Basiseffekt erklärt aber bei weitem nicht den Gesamtrückgang von 5,6&nbsp;Prozent, der sich quer durch fast alle Deliktfelder zieht (Diebstahl, Wohnungseinbruch, Straßenkriminalität). Cannabis als alleiniger Grund für den Rückgang ist statistisch nicht haltbar.
+
+Hess ergänzt die dramatische Zuspitzung: "Alle 18&nbsp;Minuten wird in Deutschland ein Mensch mit einem Messer bedroht, verletzt oder getötet." Die Rechnung stimmt arithmetisch (rund 29.000 Messerdelikte im Jahr ergeben einen Fall alle knapp 18&nbsp;Minuten), sie blendet aber aus, dass die Mehrheit dieser Fälle Drohungen ohne Verletzungen sind, dass häusliche Kontexte dominieren und dass die Kategorie "Messerangriff" 2020 erst neu eingeführt wurde - Zeitreihenvergleiche werden dadurch systematisch erschwert.
+
+Die Fraktion nutzt die Pressemitteilung, um einen "grundlegenden Kurswechsel" in der Migrationspolitik zu fordern und ruft erneut die "Merkel-Fehlentscheidung von 2015" als Ursache auf. Parallel hat sie für die Bundestagssitzung am 23.&nbsp;April 2026 einen <SourceRef code="bundestag-kw17-pks-auslaenderkriminalitaet-afd-antrag">Antrag</SourceRef> mit dem Titel "Polizeiliche Kriminalstatistik sowie Berichtswesen zur Ausländerkriminalität mit maximaler Offenheit zur Effektivitätssteigerung sicherheitspolitischer Maßnahmen ausgestalten" eingebracht, der eine noch stärkere Ausrichtung der PKS auf Herkunft und Staatsangehörigkeit fordert.
+
+Die politische Dynamik zeigt, wie das Dobrindt-Framing funktioniert: Sobald die Linie "Migration als Kernproblem" vom Innenminister gesetzt ist, kann die AfD sie aufnehmen, zuspitzen und mit noch schärferen Forderungen überbieten - ohne dass der Ursprung des Framings noch als aus der Unionsspitze stammend erkennbar wäre.
 
 ## Fazit
 
