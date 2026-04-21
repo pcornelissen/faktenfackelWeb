@@ -74,6 +74,14 @@ export default defineNuxtConfig({
       ],
     },
   },
+  ignore: process.env.NODE_ENV === 'production'
+    ? [
+        'app/pages/dev/**',
+        'app/components/dev/**',
+        'server/api/dev/**',
+        'server/middleware/dev-guard.ts',
+      ]
+    : [],
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
