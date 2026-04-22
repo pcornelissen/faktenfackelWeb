@@ -4,6 +4,12 @@ import { navItems } from '~/utils/navigation'
 const route = useRoute()
 const path = computed(() => route.path === '' ? '/' : route.path)
 
+const items = computed(() => {
+  const base = [...navItems]
+  if (import.meta.dev) base.push({ name: 'Review', href: '/dev/review', label: 'Dev: Artikel-Review' })
+  return base
+})
+
 function isActive(href: string) {
   return (href !== '/' && path.value.startsWith(href)) || (path.value === '/' && href === '/')
 }
@@ -13,8 +19,9 @@ function isActive(href: string) {
   <nav class="menu">
     <ul>
       <li
-        v-for="item in navItems"
+        v-for="item in items"
         :key="item.name"
+        :class="{ 'menu-dev': item.href.startsWith('/dev') }"
       >
         <a
           :href="item.href"
@@ -69,6 +76,16 @@ function isActive(href: string) {
 .item-active {
   color: var(--flame) !important;
   background: rgba(232, 68, 10, 0.1);
+}
+
+.menu-dev a {
+  color: var(--flame);
+  font-weight: 700;
+}
+.menu-dev a::before {
+  content: 'DEV · ';
+  opacity: 0.55;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1100px) {

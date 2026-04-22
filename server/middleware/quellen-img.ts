@@ -31,7 +31,7 @@ export default defineEventHandler(async (event) => {
               : 'application/octet-stream'
 
     setResponseHeader(event, 'Content-Type', contentType)
-    setResponseHeader(event, 'Cache-Control', 'public, max-age=3600')
+    setResponseHeader(event, 'Cache-Control', 'no-store, must-revalidate')
     return data
   } catch {
     return

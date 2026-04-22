@@ -4,6 +4,27 @@ import { html as diff2htmlRender } from 'diff2html'
 import type { FileDetail, ReviewQueueItem } from '~/types/dev-review'
 
 const props = defineProps<{ item: ReviewQueueItem | null }>()
+const emit = defineEmits<{ jump: [text: string] }>()
+
+function extractPlainText(raw: string): string {
+  return raw
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_`#>~]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function handleDiffClick(ev: MouseEvent) {
+  const target = (ev.target as HTMLElement).closest('.d2h-code-line, .d2h-code-side-line') as HTMLElement | null
+  if (!target) return
+  const ctn = target.querySelector('.d2h-code-line-ctn')
+  const raw = (ctn?.textContent ?? target.textContent ?? '').replace(/^[-+\s]+/, '')
+  const plain = extractPlainText(raw)
+  if (plain.length < 3) return
+  const snippet = plain.split(/\s+/).slice(0, 8).join(' ')
+  emit('jump', snippet)
+}
 
 const { data: detail, status } = await useFetch<FileDetail | null>(
   () => props.item ? '/api/dev/file' : '',
@@ -17,10 +38,18 @@ const { data: detail, status } = await useFetch<FileDetail | null>(
 
 const mode = ref<'diff' | 'source'>('source')
 
-watch(() => props.item, (i) => {
-  if (!i) return
-  const hasDiff = i.gitStatus === 'modified' || i.gitStatus === 'staged'
-  mode.value = hasDiff ? 'diff' : 'source'
+const isNewFile = computed(() => {
+  if (!props.item) return false
+  if (props.item.gitStatus === 'untracked') return true
+  return !!detail.value?.diff?.includes('new file mode')
+})
+
+const hasUsefulDiff = computed(() =>
+  !!detail.value?.diff && !isNewFile.value,
+)
+
+watch([() => props.item?.path, () => detail.value?.diff], () => {
+  mode.value = hasUsefulDiff.value ? 'diff' : 'source'
 }, { immediate: true })
 
 const diffHtml = computed(() => {
@@ -45,7 +74,7 @@ const frontmatterJson = computed(() => {
         {{ item?.path ?? '—' }}
       </div>
       <div
-        v-if="detail?.diff"
+        v-if="hasUsefulDiff"
         class="flex gap-1"
       >
         <button
@@ -81,6 +110,8 @@ const frontmatterJson = computed(() => {
         <!-- eslint-disable vue/no-v-html -->
         <div
           v-if="mode === 'diff' && detail.diff"
+          class="diff-wrap"
+          @click="handleDiffClick"
           v-html="diffHtml"
         />
         <!-- eslint-enable vue/no-v-html -->
@@ -97,3 +128,54 @@ const frontmatterJson = computed(() => {
     </div>
   </section>
 </template>
+
+<style scoped>
+.diff-wrap :deep(.d2h-diff-table) {
+  width: 100%;
+  table-layout: fixed;
+}
+.diff-wrap :deep(td.d2h-code-linenumber),
+.diff-wrap :deep(td.d2h-code-side-linenumber) {
+  position: static;
+  width: 4.5rem;
+  min-width: 4.5rem;
+  max-width: 4.5rem;
+  box-sizing: border-box;
+  direction: ltr;
+  padding: 0 0.25rem;
+  display: table-cell;
+  text-align: right;
+}
+.diff-wrap :deep(.line-num1),
+.diff-wrap :deep(.line-num2) {
+  display: inline-block;
+  width: 1.75rem;
+  text-align: right;
+}
+.diff-wrap :deep(.d2h-code-line),
+.diff-wrap :deep(.d2h-code-side-line) {
+  display: block;
+  width: auto;
+  padding: 0 0.25rem 0 2rem;
+  white-space: normal;
+  position: relative;
+  cursor: pointer;
+}
+.diff-wrap :deep(.d2h-code-line:hover),
+.diff-wrap :deep(.d2h-code-side-line:hover) {
+  outline: 1px solid var(--flame);
+}
+.diff-wrap :deep(.d2h-code-line-prefix) {
+  position: absolute;
+  left: 0.25rem;
+  top: 0;
+  width: 1.5rem;
+  white-space: pre;
+}
+.diff-wrap :deep(.d2h-code-line-ctn) {
+  display: block;
+  width: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+</style>

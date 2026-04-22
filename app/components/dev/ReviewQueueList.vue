@@ -30,7 +30,7 @@ function toggleGit(value: GitStatus) {
 
 const filtered = computed(() =>
   props.items.filter(i =>
-    tagFilter.value.has(i.tagStatus) || gitFilter.value.has(i.gitStatus),
+    tagFilter.value.has(i.tagStatus) && gitFilter.value.has(i.gitStatus),
   ),
 )
 

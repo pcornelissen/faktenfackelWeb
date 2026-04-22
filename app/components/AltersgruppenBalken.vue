@@ -72,11 +72,19 @@ function yForBar(v: number) {
   <figure class="agb-figure">
     <figcaption class="agb-caption">
       <strong>{{ title }}</strong>
-      <span v-if="subtitle" class="agb-sub">{{ subtitle }}</span>
+      <span
+        v-if="subtitle"
+        class="agb-sub"
+      >{{ subtitle }}</span>
     </figcaption>
 
     <div class="agb-chart">
-      <svg :viewBox="`0 0 ${viewW} ${viewH}`" class="agb-svg" role="img" :aria-label="title">
+      <svg
+        :viewBox="`0 0 ${viewW} ${viewH}`"
+        class="agb-svg"
+        role="img"
+        :aria-label="title"
+      >
         <!-- Y axis baseline -->
         <line
           :x1="padL"
@@ -87,8 +95,14 @@ function yForBar(v: number) {
         />
 
         <!-- Bars -->
-        <g v-for="(label, gi) in labels" :key="`g-${gi}`">
-          <g v-for="(serie, si) in series" :key="`s-${gi}-${si}`">
+        <g
+          v-for="(label, gi) in labels"
+          :key="`g-${gi}`"
+        >
+          <g
+            v-for="(serie, si) in series"
+            :key="`s-${gi}-${si}`"
+          >
             <rect
               :x="xForBar(gi, si)"
               :y="yForBar(serie.values[gi] ?? 0)"
@@ -112,7 +126,11 @@ function yForBar(v: number) {
 
         <!-- Legend -->
         <g :transform="`translate(${padL}, ${padT + chartH + padB - 4})`">
-          <g v-for="(serie, si) in series" :key="`l-${si}`" :transform="`translate(${si * 140}, 0)`">
+          <g
+            v-for="(serie, si) in series"
+            :key="`l-${si}`"
+            :transform="`translate(${si * 140}, 0)`"
+          >
             <rect
               width="12"
               height="12"

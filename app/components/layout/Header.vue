@@ -6,6 +6,12 @@ import { navItems } from '~/utils/navigation'
 const menuOpen = ref(false)
 const route = useRoute()
 
+const mobileItems = computed(() => {
+  const base = [...navItems]
+  if (import.meta.dev) base.push({ name: 'DEV · Review', href: '/dev/review' })
+  return base
+})
+
 watch(() => route.path, () => {
   menuOpen.value = false
 })
@@ -60,7 +66,7 @@ function isActive(href: string) {
       class="mobile-menu"
     >
       <NuxtLink
-        v-for="item in navItems"
+        v-for="item in mobileItems"
         :key="item.name"
         :to="item.href"
         class="mobile-item"

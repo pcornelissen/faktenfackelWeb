@@ -31,3 +31,6 @@ logs
 **/~$*
 
 .graph-d1.sql
+
+# Git worktrees
+.worktrees/
