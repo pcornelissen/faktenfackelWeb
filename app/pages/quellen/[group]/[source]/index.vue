@@ -84,15 +84,17 @@ await referencesStore.fetchFor(sourceInfo.value)
           {{ sourceInfo.description }}
         </p>
         <div class="source-brand">
-          <img
-            :src="calculateSourceImg(sourceInfo)"
-            :title="calculateSourceImgAuthor(sourceInfo)"
-            :alt="calculateSourceImgAuthor(sourceInfo)"
-            width="180"
-            height="180"
-            class="img"
-            @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
-          >
+          <div class="img-frame">
+            <img
+              :src="calculateSourceImg(sourceInfo)"
+              :title="calculateSourceImgAuthor(sourceInfo)"
+              :alt="calculateSourceImgAuthor(sourceInfo)"
+              width="180"
+              height="180"
+              class="img"
+              @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
+            >
+          </div>
           <div class="source-author">
             {{ calculateSourceImgAuthor(sourceInfo) }}
           </div>
@@ -200,14 +202,19 @@ await referencesStore.fetchFor(sourceInfo.value)
   gap: 0.75rem;
 }
 
+.img-frame {
+  background: white;
+  padding: 0.8rem;
+  border: 1px solid var(--fackel-border);
+  border-radius: 1rem;
+  line-height: 0;
+}
+
 .img {
   max-width: 180px;
   max-height: 180px;
   object-fit: contain;
-  border-radius: 1rem;
-  background: white;
-  padding: 0.8rem;
-  border: 1px solid var(--fackel-border);
+  border-radius: 0.4rem;
 }
 
 .source-author {
