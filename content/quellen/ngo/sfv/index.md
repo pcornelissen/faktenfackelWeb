@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "SFV: Solarenergie-Förderverein Deutschland"
 description: "1986 gegründeter Verband zur Förderung der Erneuerbaren Energien, insbesondere Photovoltaik; mitprägend für die Einführung des Erneuerbare-Energien-Gesetzes (EEG)"
 imageAuthor: "SFV"

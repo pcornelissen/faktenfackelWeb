@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "klimareporter"
 description: "Unabhängiges Online-Magazin für Klima- und Energiepolitik, getragen von der gemeinnützigen Klimareporter gGmbH, mit journalistischem Fokus auf Transformationsthemen"
 imageAuthor: "klimareporter"

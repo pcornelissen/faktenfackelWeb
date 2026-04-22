@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "IPCC"
 description: "Intergovernmental Panel on Climate Change: Weltklimarat der Vereinten Nationen, synthetisiert den Stand der Klimaforschung in mehrjährigen Sachstandsberichten"
 tags:

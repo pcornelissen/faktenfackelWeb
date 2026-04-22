@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "MOTRA"
 description: "Monitoringsystem und Transferplattform Radikalisierung, bundesfinanzierter Forschungsverbund zu Radikalisierung in Deutschland, angesiedelt beim BKA mit universitären Partnern"
 imageAuthor: "MOTRA"

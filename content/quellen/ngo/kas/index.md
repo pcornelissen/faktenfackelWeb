@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "Konrad-Adenauer-Stiftung (KAS)"
 description: "CDU-nahe politische Stiftung mit Sitz in Berlin und Sankt Augustin; aus Bundesmitteln gefördert; Schwerpunkte politische Bildung, Demokratieförderung, internationale Zusammenarbeit, Extremismusforschung"
 imageAuthor: "Konrad-Adenauer-Stiftung"

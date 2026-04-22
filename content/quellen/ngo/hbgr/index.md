@@ -1,7 +1,7 @@
 ---
 name: Hamburger Bündnis gegen Rechts
 date: 2026-04-16
-publishedOn: null
+publishedOn: 2026-04-16
 lastScanned: 2026-04-16
 tags:
   - Hamburg

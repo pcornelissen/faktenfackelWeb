@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "KATAPULT Magazin"
 description: "Datenjournalistisches Quartalsmagazin aus Greifswald, bekannt für Karten, Infografiken und zugespitzte politische Analysen; Gründer und Chefredakteur Benjamin Fredrich"
 imageAuthor: "KATAPULT"

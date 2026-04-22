@@ -2,7 +2,7 @@
 name: AfD-Fraktion im Deutschen Bundestag
 date: 2026-04-21
 lastScanned: 2026-04-21
-publishedOn: null
+publishedOn: 2026-04-21
 tags:
   - Partei
   - AfD

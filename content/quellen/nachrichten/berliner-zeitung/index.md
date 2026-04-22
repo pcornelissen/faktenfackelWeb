@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "Berliner Zeitung"
 description: "Tageszeitung für Berlin und Brandenburg, 1945 gegründet, seit 2019 im Besitz der Holtzbrinck-Familie Friedrich und Silke Friedrich (Berliner Verlag)"
 imageAuthor: "Berliner Zeitung"

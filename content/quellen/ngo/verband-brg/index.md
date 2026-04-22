@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "Verband der Beratungsstellen für Betroffene rechter, rassistischer und antisemitischer Gewalt (VBRG)"
 description: "Dachverband der unabhängigen Opferberatungsstellen in Deutschland; erhebt seit den 1990ern ein zivilgesellschaftliches Monitoring rechter, rassistischer und antisemitischer Gewalttaten als Korrektiv zur polizeilichen PMK-Rechts-Statistik"
 imageAuthor: "VBRG"

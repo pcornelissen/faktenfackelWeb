@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "Bundesministerium des Innern (BMI)"
 description: "Oberstes deutsches Bundesministerium für innere Sicherheit, Verfassungsschutz, Migration, Bevölkerungsschutz und Sport; zuständig u.a. für BKA, BfV, BAMF, THW, Bundespolizei"
 imageAuthor: "BMI"

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-18
 lastScanned: 2026-04-18
-publishedOn: null
+publishedOn: 2026-04-18
 name: "SMARD: Strommarktdaten der Bundesnetzagentur"
 description: "Offizielle Plattform der Bundesnetzagentur für Stromerzeugungs-, Verbrauchs- und Marktdaten in Deutschland und Europa"
 imageAuthor: "Bundesnetzagentur"
