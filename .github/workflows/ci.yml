@@ -53,7 +53,13 @@ jobs:
 
       - name: Deploy Graph to D1
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: pnpm run deploy:graph
+        run: |
+          # generateSourceIndex.ts schreibt Cache + Index in ../../knowledge-mcp/ (im lokalen
+          # Dev ist das das Schwesterverzeichnis). In CI existiert es nicht, wir legen es
+          # ad-hoc an. Sourceindex/Cache werden im CI nicht persistiert; entscheidend ist das
+          # SQL-Dump unter website/.graph-d1.sql, das der D1-Import danach einspielt.
+          mkdir -p ../knowledge-mcp
+          pnpm run deploy:graph
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
