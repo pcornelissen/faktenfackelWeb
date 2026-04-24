@@ -51,6 +51,13 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           DEPLOY_MESSAGE: ${{ steps.commits.outputs.messages }}
 
+      - name: Deploy Graph to D1
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: pnpm run deploy:graph
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Notify IndexNow
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: node scripts/indexnow.mjs
