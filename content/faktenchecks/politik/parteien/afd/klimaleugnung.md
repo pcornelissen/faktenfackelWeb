@@ -70,6 +70,8 @@ Bundestagsanträge ein, die wissenschaftliche Erkenntnisse grundsätzlich in Fra
 Klimaschutzfolgen und Wiederherstellung der Energieinfrastruktur in Deutschland" oder mit dem
 <SourceRef code="bundestag-afd-klimaneutralitaet-streichen">Antrag, sämtliche Klimaneutralitätsziele zu streichen</SourceRef>.
 
+Auch in der parlamentarischen Debatte um die <SourceRef code="bundestag-kw17-thg-quote-65-prozent-2040-beschluss">Anhebung der Treibhausgasminderungs-Quote auf 65 Prozent bis 2040</SourceRef> am 23.&nbsp;April 2026 spielt die AfD die Klimakult-Karte: Die für die Fraktion benannten Sachverständigen vom Verein :quelle-ref{name="gesellschaft-fortschritt-freiheit"} bezeichneten Klimaschutz-Begriffe als "ideologisch gefärbt" und Klimaforschung als "Pseudowissenschaft". Mit dieser Diskursverschiebung versucht die AfD, ein EU-rechtlich vorgegebenes Klimaschutzgesetz zur Symbolpolitik zu erklären, statt sich zur Sache zu äußern.
+
 ## Fazit
 
 Die Behauptung der AfD, der menschengemachte Klimawandel sei nicht bewiesen, ist **falsch**. Sie widerspricht dem
