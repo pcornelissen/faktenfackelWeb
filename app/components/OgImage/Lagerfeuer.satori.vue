@@ -1,9 +1,13 @@
 <script setup lang="ts">
-withDefaults(defineProps<{
+const props = withDefaults(defineProps<{
   title?: string
 }>(), {
   title: 'Lagerfeuer',
 })
+
+// Auto-fit: bei laengerem Titel kleinere Schrift.
+const titleLen = props.title.length
+const titleSize = titleLen < 35 ? 72 : titleLen < 60 ? 60 : titleLen < 90 ? 52 : 44
 </script>
 
 <template>
@@ -23,7 +27,7 @@ withDefaults(defineProps<{
 
       <!-- Title -->
       <div style="display: flex; flex: 1; align-items: flex-start;">
-        <h1 style="font-family: 'Playfair Display'; font-weight: 700; font-size: 68px; color: #1C1917; line-height: 1.12; margin: 0; max-width: 100%;">
+        <h1 :style="`font-family: 'Playfair Display'; font-weight: 700; font-size: ${titleSize}px; color: #1C1917; line-height: 1.12; margin: 0; max-width: 100%;`">
           {{ title }}
         </h1>
       </div>

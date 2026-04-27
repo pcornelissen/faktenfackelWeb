@@ -26,6 +26,10 @@ const verdictLabels: Record<string, string> = {
 const hasVerdict = !!props.verdict && props.verdict in verdictLabels
 const badgeColor = hasVerdict ? verdictColors[props.verdict] : ''
 const badgeLabel = hasVerdict ? verdictLabels[props.verdict] : ''
+
+// Auto-fit: bei laengerem Titel kleinere Schrift, damit Text ins Panel passt.
+const titleLen = props.title.length
+const titleSize = titleLen < 40 ? 60 : titleLen < 70 ? 50 : titleLen < 100 ? 44 : 38
 </script>
 
 <template>
@@ -65,7 +69,7 @@ const badgeLabel = hasVerdict ? verdictLabels[props.verdict] : ''
 
       <!-- Title + Source -->
       <div style="display: flex; flex: 1; flex-direction: column; justify-content: flex-start;">
-        <h1 style="font-family: 'Playfair Display'; font-weight: 700; font-size: 60px; color: #1C1917; line-height: 1.12; margin: 0 0 24px 0; max-width: 100%;">
+        <h1 :style="`font-family: 'Playfair Display'; font-weight: 700; font-size: ${titleSize}px; color: #1C1917; line-height: 1.15; margin: 0 0 24px 0; max-width: 100%;`">
           {{ title }}
         </h1>
         <span
