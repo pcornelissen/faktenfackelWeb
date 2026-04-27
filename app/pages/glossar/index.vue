@@ -12,6 +12,8 @@ await definePageData({
   description: 'Das Faktenfackel-Glossar erklärt wichtige Begriffe aus Politik, Medien und Faktencheck-Kontext kurz und verständlich.',
 })
 
+defineOgImage('Default', { title: 'Begriffe aus Politik und Faktencheck', label: 'GLOSSAR' })
+
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('glossar')
     .select('title', 'subject', 'description', 'path', 'publishedOn', 'tags', 'date')

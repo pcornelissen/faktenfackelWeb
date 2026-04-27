@@ -50,6 +50,27 @@ await definePageData({
   lastmod: new Date(sourceInfo.value?.date || new Date()),
 })
 
+const ogImageSubtitle = (sourceInfo.value?.description || '').slice(0, 140)
+const groupLabels: Record<string, string> = {
+  personen: 'PERSON',
+  politiker: 'POLITIKER:IN',
+  medien: 'MEDIEN',
+  nachrichten: 'NACHRICHTEN',
+  portale: 'PORTAL',
+  ngo: 'NGO',
+  parteien: 'PARTEI',
+  staatlich: 'STAATLICH',
+  statistik: 'STATISTIK',
+  wissenschaft: 'WISSENSCHAFT',
+  faktenchecks: 'FAKTENCHECK',
+  allgemein: 'QUELLE',
+}
+defineOgImage('Quelle', {
+  title,
+  subtitle: ogImageSubtitle,
+  group: groupLabels[group] || group.toUpperCase(),
+})
+
 function sourceSchemaType(sourceGroup: string) {
   if (PERSON_SOURCE_GROUPS.has(sourceGroup)) {
     return 'Person'

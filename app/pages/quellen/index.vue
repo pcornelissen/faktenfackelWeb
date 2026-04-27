@@ -9,6 +9,8 @@ await definePageData({
   description: 'Alle Quellen, die Faktenfackel für Faktenchecks und Analysen heranzieht: sortiert nach Medien, Personen, NGOs, Parteien und weiteren Kategorien.',
 })
 
+defineOgImage('Default', { title: 'Personen, Medien und Belege', label: 'QUELLEN' })
+
 const route = useRoute()
 const basePath = route.path
 

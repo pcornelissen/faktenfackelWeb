@@ -14,6 +14,8 @@ await definePageData({
   description: 'Vertiefende Artikel, Analysen, Hintergründe und Blog-Einträge zu politischen Themen aus dem Lagerfeuer von Faktenfackel.',
 })
 
+defineOgImage('Default', { title: 'Analysen, Hintergründe und Blog', label: 'LAGERFEUER' })
+
 const { data: recentList } = await useAsyncData('lagerfeuer-recent-overview', () =>
   queryCollection('lagerfeuer')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')

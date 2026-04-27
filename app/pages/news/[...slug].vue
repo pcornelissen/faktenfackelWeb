@@ -29,6 +29,8 @@ await definePageData({
   description,
 })
 
+defineOgImage('Default', { title, label: 'NEUIGKEITEN' })
+
 useSeoMeta({
   title: `${title} - Faktenfackel`,
   description,

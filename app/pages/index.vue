@@ -7,6 +7,11 @@ await definePageData({
   pageSubHeading: '',
   description: 'Faktenfackel prüft Behauptungen, entlarvt Mythen und beleuchtet politische Desinformation. Mit Quellen, Fakten und klarem Urteil. Unabhängig und kostenlos.',
 })
+
+defineOgImage('Default', {
+  title: 'Mythen entlarven, Fakten beleuchten',
+  label: 'FAKTENFACKEL',
+})
 </script>
 
 <template>

@@ -10,6 +10,8 @@ await definePageData({
   description: 'Übersicht der Neuigkeiten und Ergänzungen auf Faktenfackel: neue Faktenchecks, Quellenlinks, Glossareinträge und Verbesserungen der Seite.',
 })
 
+defineOgImage('Default', { title: 'Neuigkeiten und Ergänzungen', label: 'NEUIGKEITEN' })
+
 const { data: allNews } = await useAsyncData('news-list', () =>
   queryCollection('news')
     .select('title', 'path', 'date', 'publishedOn', 'teaser')

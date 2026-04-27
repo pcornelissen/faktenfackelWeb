@@ -11,6 +11,8 @@ await definePageData({
   description: 'Originalzitate von Politikern, Medien und anderen Quellen, gesammelt und eingeordnet von Faktenfackel.',
 })
 
+defineOgImage('Default', { title: 'Aussagen mit Kontext und Quellen', label: 'ZITATE' })
+
 const { data: list1, pending } = useLazyAsyncData(route.path, () => {
   return queryCollection('zitate').where('publishedOn', '<=', nowIso()).order('date', 'DESC').all()
 }, { server: false })

@@ -15,6 +15,8 @@ await definePageData({
   description: 'Alle Schlagwörter aus Faktenchecks, Lagerfeuer-Artikeln, Glossar und Quellen. Durchsuche Inhalte von Faktenfackel nach Themen.',
 })
 
+defineOgImage('Default', { title: 'Inhalte nach Themen', label: 'SCHLAGWÖRTER' })
+
 const { data } = await useFetch<{ results: { tag: string, count: number }[] }>(
   '/api/graph/tags',
   { key: 'tags-index', default: () => ({ results: [] }) },

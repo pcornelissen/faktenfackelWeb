@@ -12,6 +12,8 @@ await definePageData({
   description: 'Geprüfte Behauptungen aus Politik und Gesellschaft mit klarem Urteil und belastbaren Quellen, von Faktenfackel.',
 })
 
+defineOgImage('Default', { title: 'Geprüfte Behauptungen', label: 'FAKTENCHECKS' })
+
 const { data: recentList } = await useAsyncData('faktenchecks-recent-overview', () => {
   return queryCollection('faktenchecks')
     .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
