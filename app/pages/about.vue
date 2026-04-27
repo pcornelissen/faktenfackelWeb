@@ -106,10 +106,12 @@ defineOgImage('Default', {
     <div class="team-grid">
       <div class="team-card">
         <div class="team-name">
-          Patrick Cornelißen
+          <NuxtLink to="/autoren/patrick-cornelissen">
+            Patrick Cornelißen
+          </NuxtLink>
         </div>
         <div class="team-role">
-          Diplom Informatiker
+          Diplom-Informatiker
         </div>
         <div class="team-topics">
           Themen: Politik, Wissenschaft, Technik, Gesellschaft
