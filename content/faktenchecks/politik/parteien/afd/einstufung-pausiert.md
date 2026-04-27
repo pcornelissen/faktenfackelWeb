@@ -5,6 +5,7 @@ title: Verfassungsschutz pausiert die Einstufung der AfD als rechtsextrem
 subtitle: Was die Stillhaltezusage juristisch bedeutet
 description: "Der Verfassungsschutz hat die Einstufung der AfD als gesichert rechtsextrem vorläufig ausgesetzt. Warum das juristisch üblich ist und kein Freispruch bedeutet."
 verdict: misleading
+claim: "Der Verfassungsschutz hat die Einstufung der AfD als gesichert rechtsextrem zurückgenommen."
 authors: ['patrick-cornelissen']
 tags:
   - AfD

@@ -4,6 +4,7 @@ date: 2026-04-10
 title: "Gibt es keine Gefahr von rechts?"
 subtitle: "Rechtsextreme Gewalt und Terror in Deutschland: Die Zahlen"
 verdict: false
+claim: "Es gibt keine ernsthafte Gefahr von rechts."
 authors: ['patrick-cornelissen']
 tags:
   - Rechtsextremismus

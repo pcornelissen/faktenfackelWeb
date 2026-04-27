@@ -5,6 +5,7 @@ title: "\"Merz leck Eier\", darf man das sagen?"
 subtitle: Was Meinungsfreiheit und Strafrecht dazu sagen
 description: "'Merz leck Eier' beim Demo in Gießen: Platzverweise und Ermittlungsverfahren folgten. Wo liegt die Grenze zwischen Meinungsfreiheit und Beleidigung?"
 verdict: complex
+claim: "'Merz leck Eier' auf einem Demoplakat ist eine strafbare Beleidigung und nicht von der Meinungsfreiheit gedeckt."
 tags:
   - Meinungsfreiheit
   - Satire

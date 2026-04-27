@@ -5,6 +5,7 @@ title: Proteste gegen die AfD sind undemokratisch
 subtitle: Warum Gegenprotest demokratisch geschützt ist
 description: "Ist Gegenprotest gegen die AfD undemokratisch? Nein: Protest ist Ausdruck der Meinungsfreiheit, nicht ihre Einschränkung. Was das Grundgesetz sagt."
 verdict: false
+claim: "Proteste gegen die AfD sind undemokratisch und schränken die Meinungsfreiheit der AfD ein."
 authors: ['patrick-cornelissen']
 tags:
   - AfD

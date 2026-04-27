@@ -5,6 +5,8 @@ title: "AfD-MdB Schattner: 'Gratis-Kasse für Asylbewerber' und abgeschaffte Fam
 subtitle: Wie die AfD echte Reformdebatten mit falschen Migrationsbehauptungen verknüpft
 description: "Bernd Schattner verbreitet auf Facebook und TikTok zwei falsche Behauptungen zur Gesundheitsreform. Der Faktencheck zeigt das systematische Muster dahinter."
 verdict: false
+claim: "Die Familienversicherung wird abgeschafft, während Asylbewerber sofort nach ihrer Ankunft alle Gesundheitsleistungen vom Staat finanziert bekommen."
+claimAuthor: "Bernd Schattner (AfD)"
 tags:
   - AfD
   - Schattner

@@ -4,6 +4,7 @@ date: 2026-04-10
 title: "Wie gefährlich ist linke Gewalt?"
 subtitle: "Linksextreme Straftaten in Deutschland: Fakten und Einordnung"
 verdict: complex
+claim: "Linke Gewalt ist genauso schlimm wie rechte Gewalt."
 authors: ['patrick-cornelissen']
 tags:
   - Linksextremismus

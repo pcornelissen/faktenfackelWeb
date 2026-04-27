@@ -6,6 +6,7 @@ subtitle: Widersprüche, Probleme und Fakten
 description: "Die Kriminalstatistik zeigt Unterschiede zwischen Deutschen und Ausländern, doch pauschale Schlüsse über 'kriminelle Ausländer' sind methodisch unzulässig."
 authors: ['patrick-cornelissen']
 verdict: misleading
+claim: "Ausländische Mitbürger sind überdurchschnittlich für Kriminalität in Deutschland verantwortlich."
 tags:
   - Migranten
   - Kriminalität

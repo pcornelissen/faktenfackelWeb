@@ -5,6 +5,7 @@ title: War die Reaktion der Polizei in Gießen gerechtfertigt?
 subtitle: Was die bisher bekannten Videos und Berichte zum Polizeieinsatz zeigen
 description: "Wie hart darf die Polizei gegen Demonstrierende vorgehen? Der Faktencheck prüft die Verhältnismäßigkeit des Einsatzes gegen Gegendemonstranten in Gießen."
 verdict: complex
+claim: "Die Polizei hat in Gießen unverhältnismäßige Gewalt gegen Demonstrierende eingesetzt."
 authors: ['patrick-cornelissen']
 tags:
   - AfD

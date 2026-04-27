@@ -5,6 +5,8 @@ title: "Strom für drei Milliarden Euro weggeworfen?"
 subtitle: Warum die Zahl irreführend ist
 description: "Wirtschaftsministerin Katherina Reiche spricht von drei Milliarden Euro weggeworfenem Strom. Die Zahl ist irreführend, der tatsächliche Betrag liegt viel niedriger."
 verdict: misleading
+claim: "Jedes Jahr wird in Deutschland Strom für drei Milliarden Euro einfach weggeworfen."
+claimAuthor: "Katherina Reiche (CDU)"
 authors: ['patrick-cornelissen']
 tags:
   - CDU

@@ -5,6 +5,8 @@ title: Hat die AfD "schon immer" vor islamistischer Gewalt gegen Minderheiten ge
 subtitle: Wie eine echte BDK-Warnung zur AfD-Propaganda wird
 description: "Die AfD deutet eine BDK-Warnung vor islamistischer Gewalt gegen syrische Minderheiten als Bestätigung eigener Positionen. Das ist irreführend."
 verdict: misleading
+claim: "Die AfD hat schon immer vor islamistischer Gewalt gegen Minderheiten gewarnt."
+claimAuthor: "AfD"
 tags:
   - AfD
   - Syrien

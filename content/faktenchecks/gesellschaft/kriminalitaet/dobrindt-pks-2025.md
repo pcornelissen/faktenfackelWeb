@@ -5,6 +5,8 @@ title: "Dobrindts PKS-Framing 2026"
 subtitle: "Migration trotz sinkender Kriminalität als Problem inszeniert"
 description: "Bundesinnenminister Dobrindt nutzte die PKS 2025 für migrationsfeindliches Framing - obwohl die Tatverdächtigen unter Zuwanderern um 7,2 Prozent zurückgingen. Die Kernaussagen im Faktencheck."
 verdict: misleading
+claim: "Migration ist ein Kern-Erklärfaktor für Kriminalität in Deutschland und es gibt eine erhebliche Überrepräsentanz von Ausländern in der Kriminalstatistik."
+claimAuthor: "Alexander Dobrindt (CSU)"
 authors: ['patrick-cornelissen']
 tags:
   - Dobrindt
