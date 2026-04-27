@@ -6,16 +6,35 @@
  * Usage: cd website && npx tsx scripts/generateSourceIndex.ts
  */
 
-import { readdir, readFile, stat, writeFile } from 'node:fs/promises'
-import { join } from 'node:path'
+import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises'
+import { dirname, join } from 'node:path'
 import { buildGraph, writeGraphD1Sql } from './buildGraph.ts'
 
-const SUMMARIES_CACHE_FILE = join(import.meta.dirname, '..', '..', 'knowledge-mcp', '_summaries-cache.json')
+/**
+ * Pfad zum knowledge-mcp-Verzeichnis. Lokal liegt es als Schwester des Website-Repos
+ * unter `../../knowledge-mcp`. In CI existiert dieser Pfad nicht — dort kann mit
+ * `KNOWLEDGE_MCP_DIR` ein temporärer Ort gesetzt werden (z.B. `$RUNNER_TEMP/knowledge-mcp`).
+ * Falls die Variable nicht gesetzt ist, fällt der Pfad auf den lokalen Default zurück.
+ *
+ * Für CI-Builds, bei denen nur das D1-SQL-Dump gebraucht wird, reicht es, dass dieser
+ * Ort schreibbar ist; die hier abgelegten Caches und Indizes werden lokal vom MCP-Server
+ * konsumiert, nicht in Produktion.
+ */
+const KNOWLEDGE_MCP_DIR = process.env.KNOWLEDGE_MCP_DIR
+  ?? join(import.meta.dirname, '..', '..', 'knowledge-mcp')
+
+const SUMMARIES_CACHE_FILE = join(KNOWLEDGE_MCP_DIR, '_summaries-cache.json')
 
 const CONTENT_ROOT = join(import.meta.dirname, '..', 'content')
 const CONTENT_DIR = join(CONTENT_ROOT, 'quellen')
 const ARTICLE_COLLECTIONS = ['faktenchecks', 'lagerfeuer', 'glossar'] as const
-const OUTPUT_FILE = join(import.meta.dirname, '..', '..', 'knowledge-mcp', '_sourceindex.json')
+const OUTPUT_FILE = join(KNOWLEDGE_MCP_DIR, '_sourceindex.json')
+
+/** writeFile, das das Zielverzeichnis bei Bedarf anlegt. */
+async function writeFileEnsuringDir(path: string, data: string) {
+  await mkdir(dirname(path), { recursive: true })
+  await writeFile(path, data)
+}
 
 interface Source {
   path: string
@@ -307,7 +326,7 @@ async function collectSources(): Promise<{ sources: Source[], links: Link[], quo
   quotes.sort((a, b) => a.code.localeCompare(b.code))
 
   // Persist updated cache (only entries that still exist)
-  await writeFile(SUMMARIES_CACHE_FILE, JSON.stringify(updatedCache, null, 2) + '\n')
+  await writeFileEnsuringDir(SUMMARIES_CACHE_FILE, JSON.stringify(updatedCache, null, 2) + '\n')
 
   return { sources, links, quotes }
 }
@@ -384,13 +403,13 @@ async function main() {
     articles,
   }
 
-  await writeFile(OUTPUT_FILE, JSON.stringify(index, null, 2) + '\n')
+  await writeFileEnsuringDir(OUTPUT_FILE, JSON.stringify(index, null, 2) + '\n')
   console.log(`Generated ${OUTPUT_FILE}`)
   console.log(`  ${sources.length} sources, ${links.length} links, ${quotes.length} quotes, ${articles.length} articles in ${index.stats.groups} groups`)
   const withSummary = links.filter(l => l.summary).length
   console.log(`  ${withSummary} links with summary (cached where date unchanged)`)
-  const graphDbPath = process.env.GRAPH_DB
-    ?? join(import.meta.dirname, '..', '..', 'knowledge-mcp', 'graph.sqlite')
+  const graphDbPath = process.env.GRAPH_DB ?? join(KNOWLEDGE_MCP_DIR, 'graph.sqlite')
+  await mkdir(dirname(graphDbPath), { recursive: true })
   buildGraph({ sources, links, quotes, articles }, graphDbPath)
   console.log(`  Graph written to ${graphDbPath}`)
 
