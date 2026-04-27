@@ -37,8 +37,8 @@ await definePageData({
   title: title + ' - Faktenfackel',
   pageHeading: title,
   description: sourceNameForDesc
-    ? `Zitat von ${sourceNameForDesc}: „${page.value?.title || ''}" – Kontext und Einordnung auf Faktenfackel.`
-    : `Zitat: „${page.value?.title || ''}" – Kontext und Einordnung auf Faktenfackel.`,
+    ? `Zitat von ${sourceNameForDesc}: "${page.value?.title || ''}" - Kontext und Einordnung auf Faktenfackel.`
+    : `Zitat: "${page.value?.title || ''}" - Kontext und Einordnung auf Faktenfackel.`,
 })
 
 const lastChangeStr = page.value?.date as string | null || ''

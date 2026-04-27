@@ -5,7 +5,7 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 const route = useRoute()
 
 await definePageData({
-  title: 'Zitate – Faktenfackel',
+  title: 'Zitate: Aussagen mit Kontext und Quellen - Faktenfackel',
   pageHeading: 'Faktenfackel - Zitate',
   pageSubHeading: 'Originalzitate zu verschiedenen Themen',
   description: 'Originalzitate von Politikern, Medien und anderen Quellen – gesammelt und eingeordnet von Faktenfackel.',

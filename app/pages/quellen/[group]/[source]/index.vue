@@ -21,9 +21,12 @@ const { data: sourceInfo }
     })
 
 const title = sourceInfo.value?.name || capitalize(source)
+const shortSeoTitle = `${title} - Faktenfackel`
+const detailedSeoTitle = `${title}: Quellen und Zitate - Faktenfackel`
+const seoTitle = detailedSeoTitle.length <= 60 ? detailedSeoTitle : shortSeoTitle
 
 await definePageData({
-  title: title,
+  title: seoTitle,
   pageHeading: 'Quelle: ' + title,
   pageSubHeading: sourceInfo.value?.description || 'Quelleninformation',
   description: sourceInfo.value?.description

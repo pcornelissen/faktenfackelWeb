@@ -8,6 +8,11 @@ const description = computed(() => (route.meta.description as string) || 'Wir br
 const image = computed(() => (route.meta.image as string) || '/img/logo.webp')
 
 const { url: siteUrl } = useSiteConfig()
+const absoluteImage = computed(() => {
+  const src = image.value
+  if (src.startsWith('http://') || src.startsWith('https://')) return src
+  return `${siteUrl}${src.startsWith('/') ? src : `/${src}`}`
+})
 
 const organizationJsonLd = {
   '@context': 'https://schema.org',
@@ -55,11 +60,11 @@ useSeoMeta({
   description: () => description.value,
   ogTitle: () => title.value,
   ogDescription: () => description.value,
-  ogImage: () => image.value,
+  ogImage: () => absoluteImage.value,
   ogUrl: () => `${siteUrl}${route.path}`,
   ogType: 'website',
   ogSiteName: 'Faktenfackel',
-  twitterImage: () => image.value,
+  twitterImage: () => absoluteImage.value,
   twitterCard: 'summary_large_image',
   twitterSite: '@faktenfackel',
 })

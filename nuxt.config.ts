@@ -214,6 +214,7 @@ export default defineNuxtConfig({
         feed: {
           id: 'https://faktenfackel.de',
           title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar',
+          description: 'Aktuelle Faktenchecks, Einordnungen und Glossarbegriffe von Faktenfackel.',
           link: 'https://faktenfackel.de',
           author: { email: 'kontakt@faktenfackel.de', name: 'Faktenfackel' },
           category: 'blog',
@@ -224,12 +225,18 @@ export default defineNuxtConfig({
       routes: {
         '/feed.xml': {
           type: 'rss2',
-          feed: { title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar' },
+          feed: {
+            title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar',
+            description: 'Aktuelle Faktenchecks, Einordnungen und Glossarbegriffe von Faktenfackel.',
+          },
           collections: ['faktenchecks', 'lagerfeuer', 'glossar'],
         },
         '/feed.json': {
           type: 'json1',
-          feed: { title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar' },
+          feed: {
+            title: 'Faktenfackel - Faktenchecks, Lagerfeuer & Glossar',
+            description: 'Aktuelle Faktenchecks, Einordnungen und Glossarbegriffe von Faktenfackel.',
+          },
           collections: ['faktenchecks', 'lagerfeuer', 'glossar'],
         },
 

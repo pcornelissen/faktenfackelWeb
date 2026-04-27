@@ -22,7 +22,7 @@ export default defineEventHandler(async (e) => {
     ...quellen,
     ...news,
   ]
-    .filter(p => p.path && p.date)
+    .filter(p => p.path && p.date && !p.path.endsWith('/_info'))
     .map(p => ({
       loc: p.path,
       lastmod: String(p.date),
