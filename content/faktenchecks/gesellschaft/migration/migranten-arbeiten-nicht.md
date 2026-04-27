@@ -5,6 +5,7 @@ title: Migranten arbeiten nicht?
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
 description: "Viele Migranten und Geflüchtete wollen arbeiten, stoßen aber auf rechtliche Hürden, Wartezeiten und Bürokratie. Die pauschale Behauptung ist durch Daten nicht gedeckt."
 verdict: false
+authors: ['patrick-cornelissen']
 tags:
   - Migranten
   - Arbeit

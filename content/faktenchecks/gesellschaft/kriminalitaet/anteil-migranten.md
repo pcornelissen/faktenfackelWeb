@@ -4,6 +4,7 @@ date: 2026-04-20
 title: Kriminalität bei Ausländern und Deutschen
 subtitle: Widersprüche, Probleme und Fakten
 description: "Die Kriminalstatistik zeigt Unterschiede zwischen Deutschen und Ausländern, doch pauschale Schlüsse über 'kriminelle Ausländer' sind methodisch unzulässig."
+authors: ['patrick-cornelissen']
 verdict: misleading
 tags:
   - Migranten

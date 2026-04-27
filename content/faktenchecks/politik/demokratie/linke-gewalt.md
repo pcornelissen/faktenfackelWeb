@@ -4,6 +4,7 @@ date: 2026-04-10
 title: "Wie gefährlich ist linke Gewalt?"
 subtitle: "Linksextreme Straftaten in Deutschland: Fakten und Einordnung"
 verdict: complex
+authors: ['patrick-cornelissen']
 tags:
   - Linksextremismus
   - Gewalt

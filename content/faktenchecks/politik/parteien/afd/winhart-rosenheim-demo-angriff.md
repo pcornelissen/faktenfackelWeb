@@ -5,6 +5,7 @@ title: "AfD behauptet: Jugendliche greifen 70-Jährigen an"
 subtitle: Was das Video zum Vorfall am 28. Februar 2026 zeigt
 description: "Die AfD stellte ein Gerangel um ein Banner in Rosenheim als Angriff auf einen 70-jährigen Kandidaten dar. Video und Staatsanwaltschaft widerlegen diese Darstellung."
 verdict: false
+authors: ['patrick-cornelissen']
 tags:
   - AfD
   - Demo

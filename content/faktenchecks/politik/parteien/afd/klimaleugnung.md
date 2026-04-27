@@ -5,6 +5,7 @@ title: "AfD: Menschengemachter Klimawandel ist nicht bewiesen"
 subtitle: Was die Wissenschaft tatsächlich sagt
 description: "Die AfD bestreitet den menschengemachten Klimawandel. Der Faktencheck zeigt: IPCC, BVerfG und die Forschung stehen klar gegen diese Position."
 verdict: false
+authors: ['patrick-cornelissen']
 tags:
   - AfD
   - Klimawandel
