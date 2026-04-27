@@ -82,19 +82,23 @@ export default defineNuxtConfig({
         'server/middleware/dev-guard.ts',
       ]
     : [],
-  routeRules: {
-    '/': { prerender: true },
-    '/about': { prerender: true },
-    '/kontakt': { prerender: true },
-    '/bewertungsmasstab': { prerender: true },
-    '/faq': { prerender: true },
-    '/impressum': { prerender: true },
-    '/datenschutz': { prerender: true },
-    '/mehr': { prerender: true },
-    '/news': { prerender: true },
-    '/**/_info': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
-    '/**/_info/': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
-  },
+  routeRules: (() => {
+    const staticCache = 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800'
+    const staticPage = { prerender: true, headers: { 'Cache-Control': staticCache } }
+    return {
+      '/': staticPage,
+      '/about': staticPage,
+      '/kontakt': staticPage,
+      '/bewertungsmasstab': staticPage,
+      '/faq': staticPage,
+      '/impressum': staticPage,
+      '/datenschutz': staticPage,
+      '/mehr': staticPage,
+      '/news': staticPage,
+      '/**/_info': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
+      '/**/_info/': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
+    }
+  })(),
   sourcemap: {
     server: false,
     client: false,
