@@ -77,6 +77,24 @@ const publishedOnLabel = isPublished ? dateString(publishedOnStr) : ''
 const showLastChange = isPublished
   ? publishedOnStr.slice(0, 10) !== lastChangeStr.slice(0, 10)
   : true
+const factCheckSummaryData = computed(() => {
+  const currentPage = page.value
+
+  if (!currentPage?.claim || !currentPage.verdict || !currentPage.summary) {
+    return null
+  }
+
+  return {
+    claim: currentPage.claim,
+    verdict: currentPage.verdict,
+    summary: currentPage.summary,
+    claimAuthor: currentPage.claimAuthor,
+    claimAppearance: currentPage.claimAppearance,
+    keyEvidence: currentPage.keyEvidence,
+    primarySources: currentPage.primarySources,
+    dateModified: currentPage.date,
+  }
+})
 
 await referencesStore.fetchFor(page.value)
 </script>
@@ -134,6 +152,18 @@ await referencesStore.fetchFor(page.value)
         />
 
         <div class="article-body content">
+          <FactCheckSummaryBox
+            v-if="factCheckSummaryData"
+            :claim="factCheckSummaryData.claim"
+            :verdict="factCheckSummaryData.verdict"
+            :summary="factCheckSummaryData.summary"
+            :claim-author="factCheckSummaryData.claimAuthor"
+            :claim-appearance="factCheckSummaryData.claimAppearance"
+            :key-evidence="factCheckSummaryData.keyEvidence"
+            :primary-sources="factCheckSummaryData.primarySources"
+            :date-modified="factCheckSummaryData.dateModified"
+          />
+
           <div
             v-if="(page.body as any)?.toc?.links?.length > 1"
             class="article-toc"
