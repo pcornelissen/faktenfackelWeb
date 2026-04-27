@@ -1,10 +1,16 @@
 ---
 date: 2026-04-20
-lastScanned: 2026-04-20
+lastScanned: 2026-04-27
 publishedOn: 2026-04-20
 name: "Alexander Dobrindt"
 description: "CSU-Politiker, seit 2025 Bundesminister des Innern und für Heimat"
 imageAuthor: "J. Patrick Fischer / CC-BY-SA 3.0"
+jobTitle: "Bundesminister des Innern und für Heimat"
+affiliation: "CSU"
+sameAs:
+  - "https://de.wikipedia.org/wiki/Alexander_Dobrindt"
+  - "https://www.csu.de/personen/alexander-dobrindt/"
+  - "https://www.bundestag.de/abgeordnete/biografien/D/dobrindt_alexander-518202"
 tags:
   - CSU
   - Politiker

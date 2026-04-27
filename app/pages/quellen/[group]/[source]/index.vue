@@ -91,7 +91,7 @@ const sourceJsonLd = computed(() => {
 
   const pageUrl = `${siteUrl}${route.path}`
 
-  return {
+  const jsonLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': schemaType,
     '@id': `${pageUrl}#source`,
@@ -109,6 +109,22 @@ const sourceJsonLd = computed(() => {
       'url': siteUrl,
     },
   }
+
+  if (info.sameAs?.length) {
+    jsonLd.sameAs = info.sameAs
+  }
+  if (schemaType === 'Person' && info.jobTitle) {
+    jsonLd.jobTitle = info.jobTitle
+  }
+  if (info.affiliation) {
+    const affiliationKey = schemaType === 'Person' ? 'affiliation' : 'parentOrganization'
+    jsonLd[affiliationKey] = {
+      '@type': 'Organization',
+      'name': info.affiliation,
+    }
+  }
+
+  return jsonLd
 })
 
 useHead(computed(() => ({
