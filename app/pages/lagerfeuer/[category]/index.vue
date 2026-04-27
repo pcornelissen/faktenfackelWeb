@@ -6,6 +6,8 @@ import { definePageData, filter, nowIso } from '~/utils/contentUtils'
 
 const route = useRoute()
 
+const LAGERFEUER_CATEGORY_PAGE_SIZE = 100
+
 const category = route.params.category as string
 const basePath = route.path
 
@@ -67,6 +69,7 @@ useSeoMeta({
     />
     <PostsList
       :list="categoryPosts"
+      :page-size="LAGERFEUER_CATEGORY_PAGE_SIZE"
     />
   </div>
   <div v-else>

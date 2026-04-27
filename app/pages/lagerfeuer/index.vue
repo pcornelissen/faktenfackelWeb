@@ -5,6 +5,8 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 import type { Post } from '~/utils/contentUtils'
 import CategoriesOverview from '~/components/lagerfeuer/CategoriesOverview.vue'
 
+const LAGERFEUER_ARCHIVE_PAGE_SIZE = 100
+
 await definePageData({
   title: 'Lagerfeuer: Analysen, Hintergründe und Blog | Faktenfackel',
   pageHeading: 'Faktenfackel - Lagerfeuer',
@@ -60,7 +62,7 @@ const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith
       </h2>
       <PostsList
         :list="recent"
-        :page-size="10"
+        :page-size="LAGERFEUER_ARCHIVE_PAGE_SIZE"
       />
     </div>
   </div>
