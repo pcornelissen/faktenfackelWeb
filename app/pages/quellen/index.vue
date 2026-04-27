@@ -12,13 +12,13 @@ await definePageData({
 const route = useRoute()
 const basePath = route.path
 
-const { data: list1, pending } = useLazyAsyncData(basePath, () => {
+const { data: list1, pending } = await useAsyncData(basePath, () => {
   return queryCollection('quellen')
     .select('date', 'name', 'description', 'path', 'tags', 'imageAuthor')
     .where('publishedOn', '<=', nowIso())
     .order('name', 'ASC')
     .all()
-}, { server: false })
+})
 
 const filter = ref('')
 const search = ref('')
@@ -124,51 +124,53 @@ const filtered = computed(() => {
       </div>
     </div>
 
-    <ClientOnly>
-      <div
-        v-if="pending"
-        class="loading"
-      >
-        <picture>
-          <source
-            type="image/webp"
-            srcset="/img/categories/opt/news-medien-64.webp 64w, /img/categories/opt/news-medien-128.webp 128w"
-            sizes="72px"
-          >
-          <img
-            src="/img/categories/news-medien.png"
-            alt="Quellen werden geladen"
-            width="72"
-            height="72"
-            class="loading-img"
-          >
-        </picture>
-        <span class="loading-text">Quellen werden geladen…</span>
-      </div>
-      <LazySourceCardsList
-        v-else
-        :list="filtered"
-      />
-      <template #fallback>
-        <div class="loading">
-          <picture>
-            <source
-              type="image/webp"
-              srcset="/img/categories/opt/news-medien-64.webp 64w, /img/categories/opt/news-medien-128.webp 128w"
-              sizes="72px"
-            >
-            <img
-              src="/img/categories/news-medien.png"
-              alt="Quellen werden geladen"
-              width="72"
-              height="72"
-              class="loading-img"
-            >
-          </picture>
-          <span class="loading-text">Quellen werden geladen…</span>
-        </div>
-      </template>
-    </ClientOnly>
+    <div
+      v-if="pending"
+      class="loading"
+    >
+      <picture>
+        <source
+          type="image/webp"
+          srcset="/img/categories/opt/news-medien-64.webp 64w, /img/categories/opt/news-medien-128.webp 128w"
+          sizes="72px"
+        >
+        <img
+          src="/img/categories/news-medien.png"
+          alt="Quellen werden geladen"
+          width="72"
+          height="72"
+          class="loading-img"
+        >
+      </picture>
+      <span class="loading-text">Quellen werden geladen…</span>
+    </div>
+    <SourceCardsList
+      v-else
+      :list="filtered"
+    />
+
+    <nav
+      v-if="all.length"
+      class="sources-index"
+      aria-label="Alphabetischer Index aller Quellen"
+    >
+      <h2 class="sources-index-title">
+        Alle Quellen A–Z
+      </h2>
+      <p class="sources-index-hint">
+        Vollständige alphabetische Liste aller {{ all.length }} Quellen für direkten Zugriff und Suchmaschinen-Crawler.
+      </p>
+      <ul class="sources-index-list">
+        <li
+          v-for="item in all"
+          :key="item.path"
+        >
+          <NuxtLink :to="item.path">
+            {{ item.name }}
+          </NuxtLink>
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
 
@@ -336,5 +338,52 @@ const filtered = computed(() => {
 @keyframes pulse {
   0%, 100% { opacity: 0.35; }
   50%       { opacity: 0.7; }
+}
+
+.sources-index {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--fackel-border);
+}
+
+.sources-index-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.4rem;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+
+.sources-index-hint {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0 0 1.2rem;
+  line-height: 1.5;
+}
+
+.sources-index-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 3 14rem;
+  column-gap: 1.5rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.sources-index-list li {
+  break-inside: avoid;
+  padding: 0.05rem 0;
+}
+
+.sources-index-list a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.sources-index-list a:hover {
+  color: var(--ember);
+  text-decoration: underline;
 }
 </style>
