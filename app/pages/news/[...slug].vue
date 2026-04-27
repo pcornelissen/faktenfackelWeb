@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, nowIso } from '~/utils/contentUtils'
+import { resolveAuthors } from '~/utils/authors'
 
 const route = useRoute()
 const basePath = route.path
@@ -31,11 +32,52 @@ await definePageData({
 useSeoMeta({
   title: `${title} - Faktenfackel`,
   description,
+  articlePublishedTime: page.value.publishedOn || page.value.date,
+  articleModifiedTime: page.value.date,
 })
 
-const lastChange = dateString(page.value.date as string)
 const publishedDate = page.value.publishedOn || page.value.date
 const publishedIso = publishedDate ? new Date(publishedDate as string | Date).toISOString().slice(0, 10) : ''
+const modifiedIso = page.value.date ? new Date(page.value.date as string | Date).toISOString().slice(0, 10) : publishedIso
+const publishedLabel = publishedIso ? dateString(publishedIso) : ''
+const modifiedLabel = modifiedIso ? dateString(modifiedIso) : ''
+const showModifiedDate = publishedIso !== modifiedIso
+const { url: siteUrl } = useSiteConfig()
+const author = resolveAuthors(undefined)[0]!
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      key: 'news-article',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': title,
+        'description': description,
+        'url': `${siteUrl}${route.path}`,
+        'datePublished': publishedIso || modifiedIso,
+        'dateModified': modifiedIso || publishedIso,
+        'author': {
+          '@type': 'Organization',
+          'name': 'Faktenfackel Redaktion',
+          'url': `${siteUrl}${author.url}`,
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'Faktenfackel',
+          'url': siteUrl,
+          'logo': {
+            '@type': 'ImageObject',
+            'url': `${siteUrl}/img/logo.webp`,
+          },
+        },
+        'image': `${siteUrl}/img/logo.webp`,
+        'inLanguage': 'de-DE',
+      }),
+    },
+  ],
+})
 </script>
 
 <template>
@@ -53,8 +95,14 @@ const publishedIso = publishedDate ? new Date(publishedDate as string | Date).to
           class="article-headline"
           :datetime="publishedIso"
         >
-          {{ lastChange }}
+          Veröffentlicht am {{ publishedLabel }}
         </time>
+        <div
+          v-if="showModifiedDate"
+          class="article-headline article-headline--secondary"
+        >
+          Stand: <time :datetime="modifiedIso">{{ modifiedLabel }}</time>
+        </div>
         <h1 class="article-title">
           {{ page.title }}
         </h1>
@@ -135,6 +183,11 @@ const publishedIso = publishedDate ? new Date(publishedDate as string | Date).to
   text-transform: uppercase;
   color: var(--flame);
   margin-bottom: 0.9rem;
+}
+
+.article-headline--secondary {
+  color: var(--muted);
+  margin-top: -0.55rem;
 }
 
 .article-title {
