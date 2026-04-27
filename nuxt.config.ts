@@ -254,6 +254,12 @@ export default defineNuxtConfig({
       { name: 'Ubuntu Mono', weights: [400, 700], display: 'swap', global: true },
     ],
   },
+  icon: {
+    serverBundle: {
+      collections: ['lucide', 'mdi', 'simple-icons'],
+    },
+    fallbackToApi: false,
+  },
   ogImage: {
     zeroRuntime: true,
     defaults: {
