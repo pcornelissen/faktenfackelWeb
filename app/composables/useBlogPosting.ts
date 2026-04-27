@@ -5,6 +5,8 @@
  * Spec: https://schema.org/BlogPosting
  */
 
+import { resolveAuthors } from '~/utils/authors'
+
 interface BlogPostingOptions {
   title: string
   description?: string
@@ -12,10 +14,19 @@ interface BlogPostingOptions {
   datePublished?: string
   dateModified?: string
   tags?: string[]
+  authors?: readonly string[]
 }
 
 export function useBlogPosting(opts: BlogPostingOptions) {
   const { url: siteUrl } = useSiteConfig()
+  const resolved = resolveAuthors(opts.authors)
+  const authorJson = resolved.map(a => ({
+    '@type': 'Person' as const,
+    'name': a.name,
+    'url': `${siteUrl}${a.url}`,
+    ...(a.jobTitle ? { jobTitle: a.jobTitle } : {}),
+    ...(a.sameAs?.length ? { sameAs: a.sameAs } : {}),
+  }))
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -25,11 +36,7 @@ export function useBlogPosting(opts: BlogPostingOptions) {
     'url': `${siteUrl}${opts.url}`,
     'datePublished': opts.datePublished || opts.dateModified || new Date().toISOString().split('T')[0],
     'dateModified': opts.dateModified || opts.datePublished || new Date().toISOString().split('T')[0],
-    'author': {
-      '@type': 'Organization',
-      'name': 'Faktenfackel',
-      'url': siteUrl,
-    },
+    'author': authorJson.length === 1 ? authorJson[0] : authorJson,
     'image': `${siteUrl}/img/logo.webp`,
     'publisher': {
       '@type': 'Organization',

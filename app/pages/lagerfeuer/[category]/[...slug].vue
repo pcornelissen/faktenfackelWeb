@@ -103,6 +103,7 @@ useBlogPosting({
   datePublished: page.value?.publishedOn as string | undefined,
   dateModified: page.value?.date as string | undefined,
   tags: page.value?.tags as string[] | undefined,
+  authors: page.value?.authors,
 })
 
 await referencesStore.fetchFor(page.value)
@@ -146,6 +147,7 @@ await referencesStore.fetchFor(page.value)
           >
             {{ page.subtitle }}
           </p>
+          <ArticleByline :authors="page.authors" />
           <Tags
             v-if="page.tags?.length"
             :tags="(page.tags as string[])"

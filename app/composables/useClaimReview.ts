@@ -7,6 +7,8 @@
  * Google Doku: https://developers.google.com/search/docs/appearance/structured-data/factcheck
  */
 
+import { resolveAuthors } from '~/utils/authors'
+
 type VerdictType = 'false' | 'misleading' | 'complex' | 'true'
 
 const verdictMap: Record<VerdictType, { ratingValue: number, bestRating: number, worstRating: number, alternateName: string }> = {
@@ -23,7 +25,10 @@ interface ClaimReviewOptions {
   datePublished?: string
   dateModified?: string
   verdict?: VerdictType | null
-  author?: string
+  /** Original-Autor der gepruften Behauptung (z.B. Politiker-Name). */
+  claimAuthor?: string
+  /** Slugs der Autorinnen und Autoren des Faktenchecks. */
+  authors?: readonly string[]
 }
 
 export function useClaimReview(opts: ClaimReviewOptions) {
@@ -31,6 +36,16 @@ export function useClaimReview(opts: ClaimReviewOptions) {
 
   const rating = verdictMap[opts.verdict]
   const { url: siteUrl } = useSiteConfig()
+  const resolved = resolveAuthors(opts.authors)
+  const reviewAuthor = [
+    { '@type': 'Organization', 'name': 'Faktenfackel', 'url': siteUrl },
+    ...resolved.map(a => ({
+      '@type': 'Person' as const,
+      'name': a.name,
+      'url': `${siteUrl}${a.url}`,
+      ...(a.jobTitle ? { jobTitle: a.jobTitle } : {}),
+    })),
+  ]
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -38,16 +53,12 @@ export function useClaimReview(opts: ClaimReviewOptions) {
     'url': `${siteUrl}${opts.url}`,
     'datePublished': opts.datePublished || opts.dateModified || new Date().toISOString().split('T')[0],
     'claimReviewed': opts.subtitle || opts.title,
-    'author': {
-      '@type': 'Organization',
-      'name': 'Faktenfackel',
-      'url': siteUrl,
-    },
+    'author': reviewAuthor,
     'itemReviewed': {
       '@type': 'Claim',
       'name': opts.title,
-      'author': opts.author
-        ? { '@type': 'Person', 'name': opts.author }
+      'author': opts.claimAuthor
+        ? { '@type': 'Person', 'name': opts.claimAuthor }
         : { '@type': 'Organization', 'name': 'Unbekannt' },
     },
     'reviewRating': {

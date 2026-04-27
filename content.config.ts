@@ -13,6 +13,7 @@ export default defineContentConfig({
         publishedOn: z.date().or(z.null()),
         verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
         tags: z.set(z.string()),
+        authors: z.array(z.string()).optional(),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
       }).strict(),
@@ -27,6 +28,7 @@ export default defineContentConfig({
         description: z.string().optional(),
         publishedOn: z.date().or(z.null()),
         tags: z.set(z.string()),
+        authors: z.array(z.string()).optional(),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
         icon: z.string().optional(),
@@ -44,6 +46,7 @@ export default defineContentConfig({
         description: z.string().optional(),
         publishedOn: z.date().or(z.null()),
         tags: z.set(z.string()),
+        authors: z.array(z.string()).optional(),
       }).strict(),
     }),
     zitate: defineCollection({

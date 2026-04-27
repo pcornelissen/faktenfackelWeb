@@ -58,6 +58,7 @@ useClaimReview({
   dateModified: page.value?.date,
   datePublished: page.value?.publishedOn || undefined,
   verdict: page.value?.verdict,
+  authors: page.value?.authors,
 })
 
 const lastChangeStr = page.value?.date as string | null || ''
@@ -108,6 +109,7 @@ await referencesStore.fetchFor(page.value)
             :type="page.verdict"
             class="article-verdict"
           />
+          <ArticleByline :authors="page.authors" />
           <Tags
             v-if="page.tags?.length"
             :tags="(page.tags as string[])"
