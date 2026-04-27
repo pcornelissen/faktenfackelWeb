@@ -57,7 +57,7 @@ const totalCount = computed(
             class="size-4"
           /> Neueste Faktenchecks</a>
           <a
-            href="/about"
+            href="/about/"
             class="btn-secondary"
           ><UIcon
             name="mdi:book-open-page-variant-outline"
