@@ -23,7 +23,7 @@ hätte weitreichende politische und rechtliche Folgen für die Partei.
 
 Die AfD reagierte mit einem Eilantrag vor dem Verwaltungsgericht Köln. Daraufhin hat der Verfassungsschutz
 <SourceRef code="vg-köln-afd-stillhaltezusage">die Einstufung als gesichert rechtsextrem</SourceRef>
-im Wege einer Stillhaltezusage vorläufig ausgesetzt, bis das Gericht über das weitere Vorgehen entschieden hat.
+im Wege einer <GlossarRef name="stillhaltezusage">Stillhaltezusage</GlossarRef> vorläufig ausgesetzt, bis das Gericht über das weitere Vorgehen entschieden hat.
 
 <SourceRef code="correctiv-afd-gesichert-rechtsextremistisch">Correctiv hat die unterschiedlichen Gerichtsentscheidungen analysiert</SourceRef>:
 Das VG Köln sah zwar verfassungsfeindliche Elemente in der AfD, bewertete sie aber nicht als parteiprägend. Das OVG
