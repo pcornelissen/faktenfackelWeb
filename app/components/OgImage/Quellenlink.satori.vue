@@ -63,11 +63,17 @@ const badgeLabel = hasVerdict ? verdictLabels[props.verdict] : ''
         </div>
       </div>
 
-      <!-- Title -->
-      <div style="display: flex; flex: 1; align-items: flex-start;">
-        <h1 style="font-family: 'Playfair Display'; font-weight: 700; font-size: 60px; color: #1C1917; line-height: 1.12; margin: 0; max-width: 100%;">
+      <!-- Title + Source -->
+      <div style="display: flex; flex: 1; flex-direction: column; justify-content: flex-start;">
+        <h1 style="font-family: 'Playfair Display'; font-weight: 700; font-size: 60px; color: #1C1917; line-height: 1.12; margin: 0 0 24px 0; max-width: 100%;">
           {{ title }}
         </h1>
+        <span
+          v-if="source"
+          style="font-family: 'Ubuntu Mono'; font-weight: 700; font-size: 30px; color: #F98C35; letter-spacing: 0.02em;"
+        >
+          Quelle: {{ source }}
+        </span>
       </div>
 
       <!-- Bottom plinth -->
@@ -75,7 +81,7 @@ const badgeLabel = hasVerdict ? verdictLabels[props.verdict] : ''
         <div style="height: 1px; background-color: #78716C; margin-bottom: 14px;" />
         <div style="display: flex; justify-content: space-between; align-items: center;">
           <span style="font-family: 'Ubuntu Mono'; font-weight: 400; font-size: 20px; color: #78716C;">
-            {{ source ? 'Quelle: ' + source : 'faktenfackel.de' }}
+            faktenfackel.de
           </span>
           <div style="display: flex;">
             <span style="font-family: 'Ubuntu Mono'; font-weight: 700; font-size: 22px; color: #1C1917;">FAKTEN</span>

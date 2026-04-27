@@ -24,10 +24,18 @@ withDefaults(defineProps<{
       </div>
 
       <!-- Quote -->
-      <div style="display: flex; flex: 1; flex-direction: column; justify-content: center; padding-left: 18px; border-left: 4px solid #F98C35;">
-        <p style="font-family: 'Playfair Display'; font-weight: 700; font-size: 48px; color: #1C1917; line-height: 1.18; margin: 0; max-width: 100%;">
-          "{{ quote }}"
-        </p>
+      <div style="display: flex; flex: 1; flex-direction: column; justify-content: center;">
+        <div style="display: flex; flex-direction: column; padding-left: 18px; border-left: 4px solid #F98C35;">
+          <p style="font-family: 'Playfair Display'; font-weight: 700; font-size: 48px; color: #1C1917; line-height: 1.18; margin: 0 0 22px 0; max-width: 100%;">
+            "{{ quote }}"
+          </p>
+          <span
+            v-if="source"
+            style="font-family: 'Ubuntu Mono'; font-weight: 700; font-size: 30px; color: #F98C35; letter-spacing: 0.02em;"
+          >
+            — {{ source }}
+          </span>
+        </div>
       </div>
 
       <!-- Bottom plinth -->
@@ -35,7 +43,7 @@ withDefaults(defineProps<{
         <div style="height: 1px; background-color: #78716C; margin-bottom: 14px;" />
         <div style="display: flex; justify-content: space-between; align-items: center;">
           <span style="font-family: 'Ubuntu Mono'; font-weight: 400; font-size: 20px; color: #78716C;">
-            {{ source ? '— ' + source : 'faktenfackel.de' }}
+            faktenfackel.de
           </span>
           <div style="display: flex;">
             <span style="font-family: 'Ubuntu Mono'; font-weight: 700; font-size: 22px; color: #1C1917;">FAKTEN</span>
