@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-12-30
-date: 2026-03-02
+date: 2026-04-27
 title: "Begriffserklärung: Demonstrationsrecht"
 subject: "Demonstrationsrecht"
 description: "Was das Demonstrationsrecht in Deutschland regelt: Versammlungsfreiheit nach Artikel 8 GG, Anmeldepflicht, mögliche Einschränkungen und Polizei-Rolle."
@@ -12,7 +12,7 @@ tags:
 ---
 
 ## Definition
-In Deutschland ist die Versammlungs- bzw. Demonstrationsfreiheit ein **Grundrecht**.
+Das **Demonstrationsrecht** ist das Grundrecht, sich friedlich und ohne Waffen zu versammeln, um gemeinsam Meinung zu äußern. In Deutschland folgt es vor allem aus Artikel 8 GG. Demonstrationen unter freiem Himmel müssen in der Regel angemeldet, aber nicht genehmigt werden; Einschränkungen brauchen eine gesetzliche Grundlage.
 
 Sie ist im Artikel 8 des Grundgesetzes (GG) garantiert:
 "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln."
@@ -52,7 +52,7 @@ Das gilt auch für den Weg zur Veranstaltung!
 #### Beispiele & Konsequenzen 
 Typische Vermummung, die verboten ist: Sturmhaube, Gesicht komplett verhüllt inklusive Augenbedeckung, Kleidung, die klar dazu dient, Identität zu verschleiern.
 
-Selbst Schutz vor politischen Gegnern erlaubt keine Vermummung – auch aus Angst vor Identifizierung. Ein Oberlandesgericht hat das bestätigt.  
+Selbst Schutz vor politischen Gegnern erlaubt keine Vermummung, auch aus Angst vor Identifizierung. Ein Oberlandesgericht hat das bestätigt.  
 
 Ein Verstoß gegen das Vermummungsverbot kann strafbar sein und z. B. zu Geldstrafe oder Freiheitsstrafe führen.
 

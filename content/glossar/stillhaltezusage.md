@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-12-03
-date: 2025-12-03
+date: 2026-04-27
 title: "Begriffserklärung: Stillhaltezusage" 
 subject: "Stillhaltezusage"
 description: "Was eine Stillhaltezusage ist: zeitlich befristete Verpflichtung eines Gläubigers, vorerst auf Durchsetzung seiner Forderungen zu verzichten."
@@ -11,10 +11,10 @@ tags:
   - Behörde
   - Verfahren
 ---
-Eine **Stillhaltezusage** ist eine **vereinbarte Verpflichtung**, bei der ein Gläubiger, bzw. jemand mit Forderungen, verspricht, **für einen bestimmten Zeitraum** auf die Durchsetzung seiner Forderungen zu verzichten.
+Eine **Stillhaltezusage** ist eine vereinbarte Verpflichtung, bei der ein Gläubiger für einen bestimmten Zeitraum auf die Durchsetzung seiner Forderungen verzichtet. Sie verschafft dem Schuldner Zeit, etwa für Prüfung, Verhandlung, Finanzierung oder Sanierung, ohne dass sofort vollstreckt, gekündigt oder eskaliert wird.
 
 Das bedeutet:  
-Der Gläubiger *hält still* – er betreibt also keine Vollstreckung, keine Kündigung und keine weiteren rechtlichen Schritte, solange die Zusage gilt.
+Der Gläubiger *hält still*: Er betreibt also keine Vollstreckung, keine Kündigung und keine weiteren rechtlichen Schritte, solange die Zusage gilt.
 
 ## Typische Merkmale
 

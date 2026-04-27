@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-12-03
-date: 2025-12-03
+date: 2026-04-27
 title: "Begriffserklärung: Dog-Whistle"
 subject: "Dog-Whistle"
 description: "Was ein Dog-Whistle ist: eine Aussage, die nach außen harmlos wirkt, aber für eine bestimmte Zielgruppe eine codierte, oft ideologische Botschaft enthält."
@@ -10,9 +10,7 @@ tags:
   - Kommunikation
 ---
 
-Ein **"Dog-Whistle"** (wörtlich: *Hundepfeife*) ist ein Begriff aus der Kommunikations- und Politikanalyse.
-
-Er bezeichnet eine Aussage, die nach außen **harmlos oder allgemein klingt**, aber für eine bestimmte Zielgruppe eine **versteckte, oft ideologisch aufgeladene Bedeutung** hat.
+Eine **"Dog-Whistle"** ist eine Aussage, die nach außen harmlos oder allgemein klingt, für eine bestimmte Zielgruppe aber eine versteckte, oft ideologisch aufgeladene Botschaft enthält. Der Begriff stammt aus der Kommunikations- und Politikanalyse und beschreibt codierte Sprache mit doppelter Wirkung.
 
 ## Herkunft des Bildes
 
@@ -32,7 +30,7 @@ Er bezeichnet eine Aussage, die nach außen **harmlos oder allgemein klingt**, a
 
 - **Plausible Abstreitbarkeit**  
   Der Sprecher kann sagen:  
-  &raquo;_Das war doch ganz normal gemeint._&laquo;  
+  "_Das war doch ganz normal gemeint._"  
   und die versteckte Ebene bestreiten.
 
 - **Zielgruppenkommunikation**  
