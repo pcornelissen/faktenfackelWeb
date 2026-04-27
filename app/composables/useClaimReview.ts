@@ -25,8 +25,12 @@ interface ClaimReviewOptions {
   datePublished?: string
   dateModified?: string
   verdict?: VerdictType | null
-  /** Original-Autor der gepruften Behauptung (z.B. Politiker-Name). */
+  /** Volltext der gepruften Behauptung (Frontmatter-Feld `claim`). Wird bevorzugt vor title verwendet. */
+  claim?: string
+  /** Original-Autor der gepruften Behauptung (z.B. Politiker-Name oder Partei). */
   claimAuthor?: string
+  /** URL der Erstaussage, falls bekannt (Quellenlink, Tweet, Original-Artikel). */
+  claimAppearance?: string
   /** Slugs der Autorinnen und Autoren des Faktenchecks. */
   authors?: readonly string[]
 }
@@ -47,20 +51,28 @@ export function useClaimReview(opts: ClaimReviewOptions) {
     })),
   ]
 
+  const itemReviewed: Record<string, unknown> = {
+    '@type': 'Claim',
+    'name': opts.claim || opts.title,
+  }
+  if (opts.claimAuthor) {
+    itemReviewed.author = { '@type': 'Person', 'name': opts.claimAuthor }
+  }
+  if (opts.claimAppearance) {
+    itemReviewed.appearance = {
+      '@type': 'CreativeWork',
+      'url': opts.claimAppearance,
+    }
+  }
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ClaimReview',
     'url': `${siteUrl}${opts.url}`,
     'datePublished': opts.datePublished || opts.dateModified || new Date().toISOString().split('T')[0],
-    'claimReviewed': opts.subtitle || opts.title,
+    'claimReviewed': opts.claim || opts.title,
     'author': reviewAuthor,
-    'itemReviewed': {
-      '@type': 'Claim',
-      'name': opts.title,
-      'author': opts.claimAuthor
-        ? { '@type': 'Person', 'name': opts.claimAuthor }
-        : { '@type': 'Organization', 'name': 'Unbekannt' },
-    },
+    'itemReviewed': itemReviewed,
     'reviewRating': {
       '@type': 'Rating',
       'ratingValue': rating.ratingValue,

@@ -59,6 +59,9 @@ useClaimReview({
   datePublished: page.value?.publishedOn || undefined,
   verdict: page.value?.verdict,
   authors: page.value?.authors,
+  claim: page.value?.claim,
+  claimAuthor: page.value?.claimAuthor,
+  claimAppearance: page.value?.claimAppearance,
 })
 
 const lastChangeStr = page.value?.date as string | null || ''
