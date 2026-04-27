@@ -19,9 +19,14 @@ if (!page.value) {
 }
 
 const title = page.value?.title || `Glossar`
+const term = page.value?.subject || title
+
+const shortSeoTitle = `${term} - Faktenfackel Glossar`
+const detailedSeoTitle = `${term} einfach erklärt - Faktenfackel Glossar`
+const seoTitle = detailedSeoTitle.length <= 60 ? detailedSeoTitle : shortSeoTitle
 
 await definePageData({
-  title: title + ' - Faktenfackel Glossar',
+  title: seoTitle,
   pageHeading: title,
   pageSubHeading: '',
   description: page.value?.description,

@@ -30,8 +30,12 @@ if (!page.value) {
 const title = page.value?.title || `Faktencheck`
 const subtitle = page.value?.subtitle || `Faktencheck`
 
+const shortSeoTitle = `${title} - Faktenfackel`
+const detailedSeoTitle = `${title} - Faktencheck von Faktenfackel`
+const seoTitle = detailedSeoTitle.length <= 60 ? detailedSeoTitle : shortSeoTitle
+
 await definePageData({
-  title: title + ' - Faktenfackel',
+  title: seoTitle,
   pageHeading: title,
   pageSubHeading: subtitle as string,
   description: page.value?.description,
@@ -39,7 +43,7 @@ await definePageData({
 })
 
 useSeoMeta({
-  title: title + ' - Faktenfackel',
+  title: seoTitle,
   description: page.value?.description || subtitle,
   ogUrl: `https://faktenfackel.de${route.path}`,
   twitterCard: 'summary_large_image',
