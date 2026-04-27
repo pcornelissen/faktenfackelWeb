@@ -58,7 +58,9 @@ useClaimReview({
   url: route.path,
   datePublished: page.value?.date,
   verdict: page.value?.verdict,
-  claimAuthor: source.value?.name,
+  claim: page.value?.claim,
+  claimAuthor: page.value?.claimAuthor || source.value?.name,
+  claimAppearance: page.value?.uri,
 })
 
 const coSources = new Set(page.value?.coSources == null ? [] : page.value.coSources)

@@ -108,6 +108,8 @@ export default defineContentConfig({
         uri: z.string(),
         type: z.string(),
         verdict: z.enum(['false', 'misleading', 'complex', 'true']).optional(),
+        claim: z.string().optional(),
+        claimAuthor: z.string().optional(),
         tags: z.set(z.string()),
         coSources: z.set(z.string()),
         referenceCodes: z.array(z.string()).optional(),
