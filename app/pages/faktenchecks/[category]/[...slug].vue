@@ -161,6 +161,8 @@ await referencesStore.fetchFor(page.value)
             :value="page"
           />
 
+          <ArticleCorrectionNotice />
+
           <USeparator
             v-if="surround?.filter(Boolean).length"
             class="my-8"

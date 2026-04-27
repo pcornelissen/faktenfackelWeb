@@ -85,6 +85,7 @@ export default defineNuxtConfig({
   routeRules: {
     '/': { prerender: true },
     '/about': { prerender: true },
+    '/kontakt': { prerender: true },
     '/faq': { prerender: true },
     '/impressum': { prerender: true },
     '/datenschutz': { prerender: true },

@@ -73,7 +73,9 @@ await definePageData({
             </p>
             <div class="sidebar-links">
               <a href="/about/">Über die Arbeitsweise</a>
-              <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">Kontakt</a>
+              <NuxtLink to="/kontakt/">
+                Kontakt
+              </NuxtLink>
             </div>
           </div>
 

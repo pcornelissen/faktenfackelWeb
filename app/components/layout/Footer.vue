@@ -61,6 +61,7 @@ onMounted(() => {
         </div>
         <ul>
           <li><NuxtLink to="/about/">Über Faktenfackel</NuxtLink></li>
+          <li><NuxtLink to="/kontakt/">Kontakt</NuxtLink></li>
           <li><NuxtLink to="/faq/">FAQ</NuxtLink></li>
           <li><a href="/news/">Neuigkeiten</a></li>
           <li><NuxtLink to="/mehr/">Social Media</NuxtLink></li>

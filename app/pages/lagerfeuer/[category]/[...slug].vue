@@ -185,6 +185,8 @@ await referencesStore.fetchFor(page.value)
             :value="page"
           />
 
+          <ArticleCorrectionNotice />
+
           <!-- Series navigation for chapter articles -->
           <template v-if="isSeries && seriesChapters?.length">
             <USeparator class="my-8" />

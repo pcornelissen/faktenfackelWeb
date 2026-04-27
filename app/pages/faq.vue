@@ -39,7 +39,7 @@ useHead({
             'name': 'Kann ich bei Faktenfackel mithelfen?',
             'acceptedAnswer': {
               '@type': 'Answer',
-              'text': 'Ja, aber es gibt nicht einfach Schreibzugriff für die Seite. Bitte unter kontakt@faktenfackel.de melden, wir besprechen dann alles Weitere.',
+              'text': 'Ja, aber es gibt nicht einfach Schreibzugriff für die Seite. Bitte über die Kontaktseite melden, wir besprechen dann alles Weitere.',
             },
           },
         ],
@@ -84,7 +84,9 @@ useHead({
     <h2>Super Projekt! Kann ich mithelfen?</h2>
     <p>
       Ja, aber es gibt nicht einfach Schreibzugriff für die Seite.<br>
-      Bitte unter <a href="mailto:kontakt@faktenfackel.de">kontakt@faktenfackel.de</a> melden. Wir besprechen dann alles weitere.<br>
+      Bitte über die <NuxtLink to="/kontakt/">
+        Kontaktseite
+      </NuxtLink> melden. Wir besprechen dann alles Weitere.<br>
       <br>
       <b>ACHTUNG:</b><br>
       Bedrohungen, Beleidigungen, etc. werden ggf. veröffentlicht und zur Anzeige gebracht.

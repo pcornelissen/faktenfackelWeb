@@ -76,9 +76,10 @@ defineOgImage('Default', {
     <p>
       Wir recherchieren nach bestem Wissen und Gewissen und legen die Quellen bei. Dann kann man sich ansehen und
       braucht uns nicht glauben.<br>
-      Wenn wir etwas übersehen oder falsch verstanden haben, dann freuen wir uns über eine E-Mail an <a
-        href="mailto:faktenfackel@mail.de"
-      >faktenfackel@mail.de</a>.
+      Wenn wir etwas übersehen oder falsch verstanden haben, dann freuen wir uns über einen Hinweis über die
+      <NuxtLink to="/kontakt/">
+        Kontaktseite
+      </NuxtLink>.
     </p>
     <UAlert
       icon="i-lucide:alert-triangle"
