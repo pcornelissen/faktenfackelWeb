@@ -256,7 +256,7 @@ export default defineNuxtConfig({
   },
   icon: {
     serverBundle: {
-      collections: ['lucide', 'mdi', 'simple-icons'],
+      collections: ['lucide', 'mdi'],
     },
     fallbackToApi: false,
   },

@@ -27,6 +27,8 @@ const props = defineProps<{
             :title="props.iconTxt"
             width="40"
             height="40"
+            loading="lazy"
+            decoding="async"
           >
         </picture>
       </div>

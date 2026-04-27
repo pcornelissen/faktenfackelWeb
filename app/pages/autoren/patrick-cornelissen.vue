@@ -60,6 +60,7 @@ useHead({
         :alt="authorImageAlt"
         width="220"
         height="220"
+        fetchpriority="high"
         class="author-image"
       >
       <div class="author-intro">
