@@ -190,6 +190,9 @@ const usedInQuellenlinks = computed(() =>
                     :src="calculateSourceImg(source)"
                     :title="calculateSourceImgAuthor(source)"
                     :alt="calculateSourceImgAuthor(source)"
+                    width="80"
+                    height="80"
+                    loading="lazy"
                     class="source-img"
                     @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
                   >

@@ -27,6 +27,8 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.e
             :src="calculateSourceImg(entry.source)"
             :alt="entry.source.name"
             :title="calculateSourceImgAuthor(entry.source)"
+            width="80"
+            height="80"
             loading="lazy"
             class="link-group-img"
           >

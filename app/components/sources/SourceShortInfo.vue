@@ -23,6 +23,9 @@ function onImgError() {
       :src="calculateSourceImg(props.source)"
       :alt="props.source.name"
       :title="calculateSourceImgAuthor(props.source)"
+      width="60"
+      height="60"
+      loading="lazy"
       class="source-img"
       @error="onImgError"
     >

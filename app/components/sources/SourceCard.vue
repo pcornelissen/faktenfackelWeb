@@ -17,7 +17,7 @@ const source = props.source
         :alt="source.name"
         :title="calculateSourceImgAuthor(source)"
         loading="lazy"
-        width="200"
+        width="60"
         height="60"
         class="card-img"
         @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
