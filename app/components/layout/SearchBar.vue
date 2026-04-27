@@ -1,60 +1,20 @@
 <script setup lang="ts">
-const { data: navigation } = await useAsyncData('navigation', () => {
-  return Promise.all([
-    queryCollectionNavigation('faktenchecks'),
-    queryCollectionNavigation('glossar'),
-    queryCollectionNavigation('quellen'),
-    queryCollectionNavigation('quellenlinks'),
-    queryCollectionNavigation('lagerfeuer'),
-    queryCollectionNavigation('zitate'),
-  ])
-}, {
-  transform: data => data.flat(),
-})
+const { data: searchData } = useLazyAsyncData(
+  'search-payload',
+  () => $fetch('/api/search'),
+  { server: false },
+)
 
-const { data: files } = useLazyAsyncData('search', () => {
-  return Promise.all([
-    queryCollectionSearchSections('faktenchecks'),
-    queryCollectionSearchSections('glossar'),
-    queryCollectionSearchSections('quellen'),
-    queryCollectionSearchSections('quellenlinks'),
-    queryCollectionSearchSections('lagerfeuer'),
-    queryCollectionSearchSections('zitate'),
-  ])
-}, {
-  server: false,
-  transform: data => data.flat(),
-})
-
-const { data: frontMatterMap } = useLazyAsyncData('search-frontmatter', async () => {
-  const results = await Promise.all([
-    queryCollection('faktenchecks').select('path', 'subtitle', 'tags').all(),
-    queryCollection('glossar').select('path', 'subject', 'tags').all(),
-    queryCollection('quellenlinks').select('path', 'tags').all(),
-    queryCollection('lagerfeuer').select('path', 'subtitle', 'tags').all(),
-    queryCollection('quellen').select('path', 'description', 'tags').all(),
-    queryCollection('zitate').select('path', 'teaser', 'tags').all(),
-  ])
-  const map = new Map<string, string>()
-  for (const item of results.flat()) {
-    const extra = [
-      (item as Record<string, unknown>).subtitle as string | undefined,
-      (item as Record<string, unknown>).subject as string | undefined,
-      (item as Record<string, unknown>).description as string | undefined,
-      (item as Record<string, unknown>).teaser as string | undefined,
-      ((item as Record<string, unknown>).tags as string[] | undefined)?.join(' '),
-    ].filter(Boolean).join(' ')
-    if (extra) map.set(item.path, extra)
-  }
-  return map
-}, { server: false })
+const navigation = computed(() => searchData.value?.navigation ?? [])
+const files = computed(() => searchData.value?.files ?? [])
+const frontMatterMap = computed(() => searchData.value?.frontMatter ?? {})
 
 const enrichedFiles = computed(() => {
   const fm = frontMatterMap.value
-  return (files.value ?? []).map((section) => {
-    if (!fm || section.titles.length > 0) return section
+  return files.value.map((section) => {
+    if (section.titles.length > 0) return section
     const docPath = section.id.split('#')[0] ?? section.id
-    const extra = fm.get(docPath)
+    const extra = fm[docPath]
     if (!extra) return section
     return { ...section, content: extra + (section.content ? ' ' + section.content : '') }
   })
