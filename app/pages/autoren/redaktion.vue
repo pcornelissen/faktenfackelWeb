@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
 
-const description = 'Die Faktenfackel Redaktion verantwortet kuratierte und aggregierte Beitrage, in denen mehrere Quellen ausgewertet, eingeordnet und mit Faktenfackel-Standards gegengeprueft werden. Sie steht namentlich nicht fuer eine einzelne Person, sondern fuer das gemeinsame redaktionelle Vorgehen.'
+const description = 'Die Faktenfackel Redaktion verantwortet kuratierte und aggregierte Beiträge, in denen mehrere Quellen ausgewertet, eingeordnet und mit Faktenfackel-Standards gegengeprüft werden. Sie steht namentlich nicht für eine einzelne Person, sondern für das gemeinsame redaktionelle Vorgehen.'
 
 await definePageData({
   title: 'Faktenfackel Redaktion - Autor bei Faktenfackel',
   pageHeading: 'Faktenfackel Redaktion',
-  pageSubHeading: 'Kuratierte und aggregierte Beitraege',
+  pageSubHeading: 'Kuratierte und aggregierte Beiträge',
   description,
 })
 
@@ -44,22 +44,22 @@ useHead({
         Faktenfackel Redaktion
       </h1>
       <p class="author-subtitle">
-        Kuratierte und aggregierte Beitraege
+        Kuratierte und aggregierte Beiträge
       </p>
     </div>
 
     <div class="author-body content">
       <p>
-        Wenn ein Artikel auf Faktenfackel mit „Faktenfackel Redaktion" gezeichnet ist, steht dahinter
-        kuratorische und aggregierende Arbeit: mehrere Quellen werden zusammengefuehrt, abgeglichen und
-        nach den auf Faktenfackel ueblichen Standards eingeordnet, ohne dass sich daraus eine
-        ueberwiegend persoenliche Recherche eines einzelnen Autors ergibt.
+        Wenn ein Artikel auf Faktenfackel mit "Faktenfackel Redaktion" gezeichnet ist, steht dahinter
+        kuratorische und aggregierende Arbeit: mehrere Quellen werden zusammengeführt, abgeglichen und
+        nach den auf Faktenfackel üblichen Standards eingeordnet, ohne dass sich daraus eine
+        überwiegend persönliche Recherche eines einzelnen Autors ergibt.
       </p>
 
       <h2>Wann verwendet wird</h2>
       <ul>
-        <li>News-Eintraege ueber Plattform-Updates und neu importierte Quellen.</li>
-        <li>Artikel, die ueberwiegend Drittquellen referieren und einordnen.</li>
+        <li>News-Einträge über Plattform-Updates und neu importierte Quellen.</li>
+        <li>Artikel, die überwiegend Drittquellen referieren und einordnen.</li>
         <li>Kollektive Stellungnahmen, die nicht einer einzelnen Autorin oder einem einzelnen Autor zuzuordnen sind.</li>
       </ul>
 
@@ -71,7 +71,7 @@ useHead({
         ist <NuxtLink to="/autoren/patrick-cornelissen">
           Patrick Cornelißen
         </NuxtLink>. Anfragen, Korrekturen und Hinweise erreichen
-        die Redaktion ueber die im <NuxtLink to="/impressum">
+        die Redaktion über die im <NuxtLink to="/impressum">
           Impressum
         </NuxtLink> hinterlegten Kontaktwege.
       </p>
@@ -80,7 +80,7 @@ useHead({
       <p>
         Wie wir Quellen einordnen, Bewertungen vergeben und Korrekturen handhaben, ist in der
         <NuxtLink to="/about">
-          „Ueber uns"-Seite
+          "Über uns"-Seite
         </NuxtLink> und in der <NuxtLink to="/faq">
           FAQ
         </NuxtLink> beschrieben.
