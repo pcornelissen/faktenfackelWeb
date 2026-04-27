@@ -45,6 +45,12 @@ await definePageData({
   lastmod: new Date(page.value?.date || new Date()),
 })
 
+defineOgImage('Quellenlink', {
+  title: page.value?.title || 'Quellenlink',
+  source: sourceName,
+  verdict: page.value?.verdict || '',
+})
+
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 

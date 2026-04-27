@@ -41,6 +41,11 @@ await definePageData({
     : `Zitat: "${page.value?.title || ''}" - Kontext und Einordnung auf Faktenfackel.`,
 })
 
+defineOgImage('Zitat', {
+  quote: page.value?.teaser || page.value?.title || 'Zitat',
+  source: sourceNameForDesc,
+})
+
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
 
