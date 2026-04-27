@@ -149,28 +149,30 @@ const filtered = computed(() => {
       :list="filtered"
     />
 
-    <nav
+    <details
       v-if="all.length"
       class="sources-index"
-      aria-label="Alphabetischer Index aller Quellen"
     >
-      <h2 class="sources-index-title">
-        Alle Quellen A–Z
-      </h2>
-      <p class="sources-index-hint">
-        Vollständige alphabetische Liste aller {{ all.length }} Quellen für direkten Zugriff und Suchmaschinen-Crawler.
-      </p>
-      <ul class="sources-index-list">
-        <li
-          v-for="item in all"
-          :key="item.path"
-        >
-          <NuxtLink :to="item.path">
-            {{ item.name }}
-          </NuxtLink>
-        </li>
-      </ul>
-    </nav>
+      <summary class="sources-index-summary">
+        <span class="sources-index-title">Alle Quellen A–Z</span>
+        <span class="sources-index-count">{{ all.length }} Quellen</span>
+      </summary>
+      <nav
+        class="sources-index-body"
+        aria-label="Alphabetischer Index aller Quellen"
+      >
+        <ul class="sources-index-list">
+          <li
+            v-for="item in all"
+            :key="item.path"
+          >
+            <NuxtLink :to="item.path">
+              {{ item.name }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </nav>
+    </details>
   </div>
 </template>
 
@@ -341,24 +343,60 @@ const filtered = computed(() => {
 }
 
 .sources-index {
-  margin-top: 3rem;
-  padding-top: 2rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--fackel-border);
+}
+
+.sources-index-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+  user-select: none;
+}
+
+.sources-index-summary::-webkit-details-marker {
+  display: none;
+}
+
+.sources-index-summary::before {
+  content: '▸';
+  color: var(--flame);
+  font-size: 0.8rem;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.sources-index[open] .sources-index-summary::before {
+  transform: rotate(90deg);
 }
 
 .sources-index-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.4rem;
+  font-size: 1.15rem;
   letter-spacing: -0.01em;
-  margin: 0 0 0.4rem;
   color: var(--ink);
+  font-weight: 700;
 }
 
-.sources-index-hint {
-  font-size: 0.88rem;
+.sources-index-count {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.78rem;
   color: var(--muted);
-  margin: 0 0 1.2rem;
-  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.sources-index-body {
+  margin-top: 1rem;
+  max-height: 24rem;
+  overflow-y: auto;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid var(--fackel-border);
+  border-radius: 0.8rem;
 }
 
 .sources-index-list {
@@ -367,8 +405,8 @@ const filtered = computed(() => {
   margin: 0;
   columns: 3 14rem;
   column-gap: 1.5rem;
-  font-size: 0.92rem;
-  line-height: 1.55;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .sources-index-list li {
