@@ -90,6 +90,8 @@ export default defineNuxtConfig({
     '/datenschutz': { prerender: true },
     '/mehr': { prerender: true },
     '/news': { prerender: true },
+    '/**/_info': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
+    '/**/_info/': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
   },
   sourcemap: {
     server: false,

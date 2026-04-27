@@ -35,6 +35,9 @@ defineOgImage('Default', {
 
 const lastChangeStr = page.value?.date as string | null || ''
 const lastChange = dateString(lastChangeStr)
+const publishedRaw = page.value?.publishedOn || page.value?.date
+const publishedIso = publishedRaw ? new Date(publishedRaw as string | Date).toISOString().slice(0, 10) : ''
+const modifiedIso = page.value?.date ? new Date(page.value.date as string | Date).toISOString().slice(0, 10) : ''
 </script>
 
 <template>
@@ -46,9 +49,12 @@ const lastChange = dateString(lastChangeStr)
     <div v-if="page">
       <div class="article-shell">
         <div class="article-header">
-          <div class="article-headline">
+          <time
+            class="article-headline"
+            :datetime="modifiedIso || publishedIso"
+          >
             Stand: {{ lastChange }}
-          </div>
+          </time>
           <h1 class="article-title">
             {{ page.title }}
           </h1>

@@ -3,6 +3,7 @@ publishedOn: 2025-12-30
 date: 2026-03-02
 title: "Begriffserklärung: Demonstrationsrecht"
 subject: "Demonstrationsrecht"
+description: "Was das Demonstrationsrecht in Deutschland regelt: Versammlungsfreiheit nach Artikel 8 GG, Anmeldepflicht, mögliche Einschränkungen und Polizei-Rolle."
 
 tags:
   - Glossar

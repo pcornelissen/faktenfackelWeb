@@ -3,6 +3,7 @@ publishedOn: 2025-12-03
 date: 2025-12-03
 title: "Begriffserklärung: Dog-Whistle"
 subject: "Dog-Whistle"
+description: "Was ein Dog-Whistle ist: eine Aussage, die nach außen harmlos wirkt, aber für eine bestimmte Zielgruppe eine codierte, oft ideologische Botschaft enthält."
 
 tags:
   - Glossar

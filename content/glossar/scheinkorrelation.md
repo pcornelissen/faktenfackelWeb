@@ -3,6 +3,7 @@ publishedOn: 2025-12-03
 date: 2025-12-03
 title: "Begriffserklärung: Scheinkorrelation"
 subject: "Scheinkorrelation"
+description: "Was eine Scheinkorrelation ist: ein statistischer Zusammenhang ohne echte Ursache-Wirkung-Beziehung, oft erzeugt durch eine dritte, versteckte Größe."
 
 tags:
   - Glossar

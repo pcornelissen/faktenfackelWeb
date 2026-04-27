@@ -3,6 +3,7 @@ publishedOn: 2026-04-21
 date: 2026-04-21
 title: "Begriffserklärung: Slop"
 subject: "Slop"
+description: "Was Slop ist: minderwertige, mit KI-Sprachmodellen massenhaft generierte Inhalte ohne Quellen und ohne echten Mehrwert. Das KI-Pendant zu Spam."
 
 tags:
   - Glossar

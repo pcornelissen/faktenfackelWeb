@@ -3,6 +3,7 @@ publishedOn: 2026-04-20
 date: 2026-04-20
 title: "Begriffserklärung: Tatverdächtigenbelastungszahl (TVBZ)"
 subject: "Tatverdächtigenbelastungszahl"
+description: "Was die TVBZ ist: Tatverdächtige pro 100.000 Einwohner einer Bevölkerungsgruppe. Macht Kriminalitätsbelastung unterschiedlich großer Gruppen vergleichbar."
 
 tags:
   - Glossar

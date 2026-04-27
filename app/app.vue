@@ -4,10 +4,15 @@ import Layout from '~/components/layout/Layout.vue'
 const route = useRoute()
 
 const title = computed(() => (route.meta.title as string) || 'Faktenfackel')
-const description = computed(() => (route.meta.description as string) || 'Wir bringen Licht ins Dunkel')
+const description = computed(() => (route.meta.description as string) || 'Faktenfackel prüft Behauptungen, entlarvt Mythen und ordnet Aussagen aus Politik und Medien mit belastbaren Quellen ein.')
 const image = computed(() => (route.meta.image as string) || '/img/logo.webp')
 
 const { url: siteUrl } = useSiteConfig()
+const canonicalPath = computed(() => {
+  const p = route.path
+  if (p === '/' || p.endsWith('/')) return p
+  return `${p}/`
+})
 const absoluteImage = computed(() => {
   const src = image.value
   if (src.startsWith('http://') || src.startsWith('https://')) return src
@@ -37,7 +42,7 @@ useHead(computed(() => ({
     { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' },
     { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' },
     { rel: 'icon', href: '/favicon.png', type: 'image/png' },
-    { rel: 'canonical', href: `${siteUrl}${route.path}` },
+    { rel: 'canonical', href: `${siteUrl}${canonicalPath.value}` },
   ],
   htmlAttrs: {
     lang: 'de-DE',
@@ -61,7 +66,7 @@ useSeoMeta({
   ogTitle: () => title.value,
   ogDescription: () => description.value,
   ogImage: () => absoluteImage.value,
-  ogUrl: () => `${siteUrl}${route.path}`,
+  ogUrl: () => `${siteUrl}${canonicalPath.value}`,
   ogType: 'website',
   ogSiteName: 'Faktenfackel',
   twitterImage: () => absoluteImage.value,

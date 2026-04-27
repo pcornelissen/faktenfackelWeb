@@ -3,6 +3,7 @@ publishedOn: 2026-03-29
 date: 2026-03-29
 title: "Begriffserklärung: Hail Mary"
 subject: "Hail Mary"
+description: "Was ein Hail Mary ist: ein letzter, verzweifelter Versuch mit geringer Erfolgsaussicht. Herkunft aus dem American Football, Verwendung in Politik und Recht."
 
 tags:
   - Glossar

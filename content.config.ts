@@ -41,6 +41,7 @@ export default defineContentConfig({
         date: z.date(),
         title: z.string(),
         subject: z.string(),
+        description: z.string().optional(),
         publishedOn: z.date().or(z.null()),
         tags: z.set(z.string()),
       }).strict(),

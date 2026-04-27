@@ -21,7 +21,7 @@ Der Schwerpunkt liegt auf vier Bereichen: Medienrecht (Presserecht, Reputationsm
 
 ## Presserechtliche Klagen gegen Correctiv
 
-Seit dem Erscheinen von Correctivs Recherche ["Geheimplan gegen Deutschland"](https://correctiv.org/aktuelles/neue-rechte/2024/01/10/geheimplan-remigration-vertreibung-afd-rechtsextreme-potsdam/) über das Potsdamer Treffen vom November 2023 führt Partner Dr. Carsten Brennecke eine Serie von Unterlassungsverfahren gegen das Recherchezentrum:
+Seit dem Erscheinen von Correctivs Recherche ["Geheimplan gegen Deutschland"](https://correctiv.org/aktuelles/neue-rechte/2024/01/10/geheimplan-remigration-vertreibung-afd-rechtsextreme/) über das Potsdamer Treffen vom November 2023 führt Partner Dr. Carsten Brennecke eine Serie von Unterlassungsverfahren gegen das Recherchezentrum:
 
 - **Ulrich Vosgerau** (Staatsrechtler, Teilnehmer des Treffens): Mehrere Verfahren seit 2024. Das Landgericht Hamburg und später das Kammergericht Berlin wiesen die Klagen weitgehend ab; einzelne Formulierungen wurden rechtskräftig als zulässige Meinungsäußerungen eingestuft.
 - **:quelle-ref{name="gerrit-huy"}** (AfD-Bundestagsabgeordnete): Das :quelle-ref{name="correctiv"} berichtet, dass die Kanzlei nach vier Niederlagen in Hamburg [vor das Landgericht Berlin zog](https://correctiv.org/in-eigener-sache/2026/03/13/rechtsextreme-und-rechtsanwaelte-fortsetzung-in-berlin-kanzlei-hoecker-correctiv/), mit einem Schriftsatz, der dem Hamburger "zum Verwechseln ähnlich" war. Im März 2026 untersagte das Landgericht Berlin zwei Formulierungen aus dem Bericht, darunter die Passage über einen "Masterplan zur Ausweisung von deutschen Staatsbürgern".

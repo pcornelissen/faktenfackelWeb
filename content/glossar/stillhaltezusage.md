@@ -2,7 +2,8 @@
 publishedOn: 2025-12-03
 date: 2025-12-03
 title: "Begriffserklärung: Stillhaltezusage" 
-subject: "Stillhaltezusage"  
+subject: "Stillhaltezusage"
+description: "Was eine Stillhaltezusage ist: zeitlich befristete Verpflichtung eines Gläubigers, vorerst auf Durchsetzung seiner Forderungen zu verzichten."
 
 tags:
   - Glossar

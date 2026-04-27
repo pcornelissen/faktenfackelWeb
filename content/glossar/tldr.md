@@ -2,7 +2,8 @@
 publishedOn: 2025-12-11
 date: 2025-12-11
 title: "Begriffserklärung: tl;dr" 
-subject: "tl;dr"  
+subject: "tl;dr"
+description: "Was tl;dr bedeutet: Abkürzung für 'Too Long; Didn't Read'. Markiert eine kurze Zusammenfassung am Anfang oder Ende eines längeren Textes."
 
 tags:
   - Glossar
