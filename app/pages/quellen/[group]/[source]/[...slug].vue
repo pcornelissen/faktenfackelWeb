@@ -135,15 +135,14 @@ const usedInQuellenlinks = computed(() =>
           <h1 class="article-title">
             {{ page.title }}
           </h1>
-        </div>
-        <div class="article-meta">
           <VerdictLabel
             v-if="page.verdict !== undefined"
             :type="page.verdict"
             class="article-verdict"
           />
           <ArticleVerdictScaleLink v-if="page.verdict !== undefined" />
-
+        </div>
+        <div class="article-meta">
           <div class="link-info">
             <a
               :href="page.uri"
