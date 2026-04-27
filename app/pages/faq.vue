@@ -23,7 +23,7 @@ useHead({
             'name': 'Was bedeuten die Bewertungsstufen bei Faktenchecks?',
             'acceptedAnswer': {
               '@type': 'Answer',
-              'text': 'Jeder Faktencheck endet mit einer von vier Bewertungen: Falsch (sachlich nicht korrekt), Irreführend (wahrer Kern, aber falscher Eindruck), Komplex (nicht einfach einzuordnen) oder Wahr (korrekt und durch Quellen belegt).',
+              'text': 'Jeder Faktencheck endet mit einer von vier Bewertungen: Falsch (sachlich nicht korrekt), Irreführend (wahrer Kern, aber falscher Eindruck), Komplex (nicht einfach einzuordnen) oder Wahr (korrekt und durch Quellen belegt). Der ausführliche Bewertungsmaßstab steht auf der Bewertungsmaßstab-Seite.',
             },
           },
           {
@@ -74,6 +74,12 @@ useHead({
         Die Aussage ist korrekt und durch Quellen belegt.
       </li>
     </ul>
+    <p>
+      Die ausführliche Erklärung der Skala steht im
+      <NuxtLink to="/bewertungsmasstab/">
+        Bewertungsmaßstab
+      </NuxtLink>.
+    </p>
     <h2>Warum werden direkt Beiträge im Internet verlinkt und die Autoren genannt?</h2>
     <p>
       Weil Transparenz wichtig ist. Nur so kann man die Quellen selbst überprüfen und sich eine eigene Meinung

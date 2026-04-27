@@ -86,6 +86,7 @@ export default defineNuxtConfig({
     '/': { prerender: true },
     '/about': { prerender: true },
     '/kontakt': { prerender: true },
+    '/bewertungsmasstab': { prerender: true },
     '/faq': { prerender: true },
     '/impressum': { prerender: true },
     '/datenschutz': { prerender: true },

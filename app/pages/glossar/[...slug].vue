@@ -38,6 +38,28 @@ const lastChange = dateString(lastChangeStr)
 const publishedRaw = page.value?.publishedOn || page.value?.date
 const publishedIso = publishedRaw ? new Date(publishedRaw as string | Date).toISOString().slice(0, 10) : ''
 const modifiedIso = page.value?.date ? new Date(page.value.date as string | Date).toISOString().slice(0, 10) : ''
+const { url: siteUrl } = useSiteConfig()
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      key: 'glossar-defined-term',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'DefinedTerm',
+        'name': page.value?.subject || page.value?.title || title,
+        'url': `${siteUrl}${route.path}`,
+        'description': page.value?.description,
+        'inDefinedTermSet': {
+          '@type': 'DefinedTermSet',
+          'name': 'Faktenfackel Glossar',
+          'url': `${siteUrl}/glossar/`,
+        },
+      }),
+    },
+  ],
+})
 </script>
 
 <template>

@@ -109,6 +109,7 @@ await referencesStore.fetchFor(page.value)
             :type="page.verdict"
             class="article-verdict"
           />
+          <ArticleVerdictScaleLink v-if="page.verdict !== undefined" />
           <ArticleByline :authors="page.authors" />
           <Tags
             v-if="page.tags?.length"

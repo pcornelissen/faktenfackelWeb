@@ -142,6 +142,7 @@ const usedInQuellenlinks = computed(() =>
             :type="page.verdict"
             class="article-verdict"
           />
+          <ArticleVerdictScaleLink v-if="page.verdict !== undefined" />
 
           <div class="link-info">
             <a

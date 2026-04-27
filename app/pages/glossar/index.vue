@@ -14,11 +14,35 @@ await definePageData({
 
 const { data: list1 } = await useAsyncData(route.path, () => {
   return queryCollection('glossar')
-    .select('title', 'subject', 'path', 'publishedOn', 'tags', 'date')
+    .select('title', 'subject', 'description', 'path', 'publishedOn', 'tags', 'date')
     .where('publishedOn', '<=', nowIso())
     .all()
 })
 const list = list1.value as Post[]
+
+const { url: siteUrl } = useSiteConfig()
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      key: 'glossar-defined-term-set',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'DefinedTermSet',
+        'name': 'Faktenfackel Glossar',
+        'url': `${siteUrl}/glossar/`,
+        'description': 'Das Faktenfackel-Glossar erklärt wichtige Begriffe aus Politik, Medien und Faktencheck-Kontext kurz und verständlich.',
+        'hasDefinedTerm': list.map(item => ({
+          '@type': 'DefinedTerm',
+          'name': item.subject || item.title,
+          'url': `${siteUrl}${item.path}`,
+          ...(item.description ? { description: item.description } : {}),
+        })),
+      }),
+    },
+  ],
+})
 </script>
 
 <template>
