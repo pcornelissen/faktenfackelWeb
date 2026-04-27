@@ -138,9 +138,9 @@ const usedInQuellenlinks = computed(() =>
           <VerdictLabel
             v-if="page.verdict !== undefined"
             :type="page.verdict"
+            to="/bewertungsmasstab/"
             class="article-verdict"
           />
-          <ArticleVerdictScaleLink v-if="page.verdict !== undefined" />
         </div>
         <div class="article-meta">
           <div class="link-info">

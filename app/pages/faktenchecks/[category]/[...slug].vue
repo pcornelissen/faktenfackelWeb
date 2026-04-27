@@ -114,9 +114,9 @@ await referencesStore.fetchFor(page.value)
           <VerdictLabel
             v-if="page.verdict !== undefined"
             :type="page.verdict"
+            to="/bewertungsmasstab/"
             class="article-verdict"
           />
-          <ArticleVerdictScaleLink v-if="page.verdict !== undefined" />
           <ArticleByline :authors="page.authors" />
           <Tags
             v-if="page.tags?.length"
