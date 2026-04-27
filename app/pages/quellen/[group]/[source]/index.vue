@@ -9,8 +9,23 @@ import { type GraphNode, nodeToSourceLink } from '~/utils/graphData'
 const route = useRoute()
 const referencesStore = useReferencesStore()
 
+const PERSON_SOURCE_GROUPS = new Set(['personen', 'politiker'])
+const ORGANIZATION_SOURCE_GROUPS = new Set([
+  'faktenchecks',
+  'medien',
+  'nachrichten',
+  'ngo',
+  'parteien',
+  'portale',
+  'staatlich',
+  'statistik',
+  'wissenschaft',
+])
+
 const source = route.params.source as string
+const group = route.params.group as string
 const basePath = route.path
+const { url: siteUrl } = useSiteConfig()
 
 const { data: sourceInfo }
   = await
@@ -34,6 +49,57 @@ await definePageData({
     : `Quelleninformation zu ${title}: gesammelte Links, Zitate und Faktenfackel-Bewertung.`,
   lastmod: new Date(sourceInfo.value?.date || new Date()),
 })
+
+function sourceSchemaType(sourceGroup: string) {
+  if (PERSON_SOURCE_GROUPS.has(sourceGroup)) {
+    return 'Person'
+  }
+  if (ORGANIZATION_SOURCE_GROUPS.has(sourceGroup)) {
+    return 'Organization'
+  }
+  return undefined
+}
+
+const sourceJsonLd = computed(() => {
+  const info = sourceInfo.value
+  const schemaType = sourceSchemaType(group)
+
+  if (!info || !schemaType) {
+    return undefined
+  }
+
+  const pageUrl = `${siteUrl}${route.path}`
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': schemaType,
+    '@id': `${pageUrl}#source`,
+    'name': info.name,
+    'description': info.description,
+    'url': pageUrl,
+    'image': `${siteUrl}${calculateSourceImg(info)}`,
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': pageUrl,
+    },
+    'isPartOf': {
+      '@type': 'WebSite',
+      'name': 'Faktenfackel',
+      'url': siteUrl,
+    },
+  }
+})
+
+useHead(computed(() => ({
+  script: sourceJsonLd.value
+    ? [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify(sourceJsonLd.value),
+        },
+      ]
+    : [],
+})))
 
 const { data: list1 } = await useAsyncData(basePath + '/links/', () => {
   return queryCollection('quellenlinks')
