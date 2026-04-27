@@ -8,7 +8,6 @@ tags:
   - Journalismus
   - Rechtsextremismus
   - Social Media
-  - research-done-review-pending
 ---
 
 ## Über die Quelle
