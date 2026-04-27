@@ -6,7 +6,7 @@ await definePageData({
   title: 'Quellen: Personen, Medien und Belege - Faktenfackel',
   pageHeading: 'Quellenliste',
   pageSubHeading: 'Nach Quelle, thematisch sortierte Fundstücke, die hier in Artikeln verwendet werden (können)',
-  description: 'Alle Quellen, die Faktenfackel für Faktenchecks und Analysen heranzieht – nach Medien, Personen, NGOs, Parteien und weiteren Kategorien sortiert.',
+  description: 'Alle Quellen, die Faktenfackel für Faktenchecks und Analysen heranzieht: sortiert nach Medien, Personen, NGOs, Parteien und weiteren Kategorien.',
 })
 
 const route = useRoute()

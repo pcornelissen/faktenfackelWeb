@@ -2,10 +2,10 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Impressum – Kontakt & rechtliche Angaben | Faktenfackel',
+  title: 'Impressum: Kontakt und rechtliche Angaben | Faktenfackel',
   pageHeading: 'Faktenfackel - Impressum',
   pageSubHeading: 'Rechtliche Informationen',
-  description: 'Impressum von Faktenfackel – Angaben gemäß § 5 TMG, Verantwortliche Person und Kontaktdaten.',
+  description: 'Impressum von Faktenfackel mit Angaben gemäß § 5 TMG, verantwortlicher Person und Kontaktdaten.',
 })
 
 defineOgImage('Default', { title: 'Impressum' })

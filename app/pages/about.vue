@@ -2,7 +2,7 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Über uns – Wer hinter Faktenfackel steckt & wie wir arbeiten',
+  title: 'Über uns: Wer hinter Faktenfackel steckt und wie wir arbeiten',
   pageHeading: 'Faktenfackel - Mehr zu uns',
   pageSubHeading: 'Obligatorische Selbstdarstellung',
   description: 'Wer steckt hinter Faktenfackel? Unser Ziel, unsere Arbeitsweise und warum wir glauben, dass gute Faktenprüfung für eine mündige Gesellschaft unverzichtbar ist.',
@@ -17,20 +17,20 @@ defineOgImage('Default', {
   <section class="content">
     <h1>Über Faktenfackel</h1>
     <p class="welcome">
-      Willkommen bei <strong>Faktenfackel</strong> – deinem Licht im Dickicht der Desinformation.
+      Willkommen bei <strong>Faktenfackel</strong>, deinem Licht im Dickicht der Desinformation.
     </p>
     <p>
       Das Internet bietet unendliche Möglichkeiten, aber leider auch unzählige Behauptungen, Gerüchte und
       Halbwahrheiten.<br>
       <strong>Wir glauben:</strong> Gute Informationen sind ein Grundstein für eine mündige Gesellschaft. Deshalb
       haben wir im Dezember 2025
-      Faktenfackel ins Leben gerufen – einer Sammlung, der falsche Aussagen prüft, einordnet und verständlich
+      Faktenfackel ins Leben gerufen: eine Sammlung, die falsche Aussagen prüft, einordnet und verständlich
       richtigstellt.
     </p>
 
     <h2>Unsere Mission</h2>
     <p>
-      Wir wollen Klarheit schaffen. Ohne Panik, ohne Polemik – dafür mit gründlicher Recherche,
+      Wir wollen Klarheit schaffen. Ohne Panik, ohne Polemik, dafür mit gründlicher Recherche,
       nachvollziehbaren Quellen und einem klaren Fokus auf Transparenz. Unser Anspruch ist es, komplexe
       Sachverhalte verständlich zu erklären und Mythen dort zu entkräften, wo sie entstehen: im Netz.
     </p>

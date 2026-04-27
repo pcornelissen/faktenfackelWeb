@@ -26,7 +26,7 @@ const { data: source } = useAsyncData(
   <a
     v-else
     :href="source.path"
-    :title="`${source.name} – Quellenprofil auf Faktenfackel`"
+    :title="`${source.name}: Quellenprofil auf Faktenfackel`"
     class="source-ref"
   >{{ source.name }}</a>
 </template>

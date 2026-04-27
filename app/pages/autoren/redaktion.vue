@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { definePageData } from '~/utils/contentUtils'
 
-const description = 'Die Faktenfackel Redaktion verantwortet kuratierte und aggregierte Beiträge, in denen mehrere Quellen ausgewertet, eingeordnet und mit Faktenfackel-Standards gegengeprüft werden. Sie steht namentlich nicht für eine einzelne Person, sondern für das gemeinsame redaktionelle Vorgehen.'
+const description = 'Die Faktenfackel Redaktion zeichnet kuratierte und aggregierte Beiträge, in denen mehrere Quellen zusammengeführt und nach Projektstandards eingeordnet werden.'
 
 await definePageData({
   title: 'Faktenfackel Redaktion - Autor bei Faktenfackel',
@@ -65,13 +65,13 @@ useHead({
 
       <h2>Verantwortliche Person</h2>
       <p>
-        Verantwortlich im Sinne von <NuxtLink to="/impressum">
+        Verantwortlich im Sinne von <NuxtLink to="/impressum/">
           §&nbsp;5 TMG und §&nbsp;18 MStV
         </NuxtLink>
-        ist <NuxtLink to="/autoren/patrick-cornelissen">
+        ist <NuxtLink to="/autoren/patrick-cornelissen/">
           Patrick Cornelißen
         </NuxtLink>. Anfragen, Korrekturen und Hinweise erreichen
-        die Redaktion über die im <NuxtLink to="/impressum">
+        die Redaktion über die im <NuxtLink to="/impressum/">
           Impressum
         </NuxtLink> hinterlegten Kontaktwege.
       </p>
@@ -79,9 +79,9 @@ useHead({
       <h2>Methodik</h2>
       <p>
         Wie wir Quellen einordnen, Bewertungen vergeben und Korrekturen handhaben, ist in der
-        <NuxtLink to="/about">
+        <NuxtLink to="/about/">
           "Über uns"-Seite
-        </NuxtLink> und in der <NuxtLink to="/faq">
+        </NuxtLink> und in der <NuxtLink to="/faq/">
           FAQ
         </NuxtLink> beschrieben.
       </p>

@@ -8,7 +8,7 @@ await definePageData({
   title: 'Zitate: Aussagen mit Kontext und Quellen - Faktenfackel',
   pageHeading: 'Faktenfackel - Zitate',
   pageSubHeading: 'Originalzitate zu verschiedenen Themen',
-  description: 'Originalzitate von Politikern, Medien und anderen Quellen – gesammelt und eingeordnet von Faktenfackel.',
+  description: 'Originalzitate von Politikern, Medien und anderen Quellen, gesammelt und eingeordnet von Faktenfackel.',
 })
 
 const { data: list1, pending } = useLazyAsyncData(route.path, () => {

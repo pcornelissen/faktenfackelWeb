@@ -2,9 +2,9 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Datenschutzerklärung – Faktenfackel',
+  title: 'Datenschutzerklärung | Faktenfackel',
   pageHeading: 'Datenschutzerklärung',
-  description: 'Datenschutzerklärung von Faktenfackel gemäß DSGVO – Informationen zur Datenverarbeitung, Cookies und deinen Rechten als Nutzer.',
+  description: 'Datenschutzerklärung von Faktenfackel gemäß DSGVO. Informationen zur Datenverarbeitung, Cookies und deinen Rechten als Nutzer.',
 })
 
 defineOgImage('Default', { title: 'Datenschutzerklärung' })
@@ -208,7 +208,7 @@ defineOgImage('Default', { title: 'Datenschutzerklärung' })
     <p>
       <strong>Nationale Datenschutzregelungen in Deutschland: </strong>Zusätzlich zu den Datenschutzregelungen der DSGVO
       gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor
-      Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält
+      Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz, BDSG). Das BDSG enthält
       insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur
       Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur
       Übermittlung
@@ -798,7 +798,7 @@ defineOgImage('Default', { title: 'Datenschutzerklärung' })
     <ul class="m-elements">
       <li>
         <strong>YouTube-Videos: </strong>An einigen Stellen unseres Onlineangebots sind YouTube-Videos eingebettet.
-        Diese werden erst nach einem aktiven Klick auf „Video laden" geladen – bis dahin werden keinerlei Daten an
+        Diese werden erst nach einem aktiven Klick auf "Video laden" geladen. Bis dahin werden keinerlei Daten an
         YouTube oder Google übertragen. Die Einbettung erfolgt über die datenschutzfreundliche Domain
         <code>youtube-nocookie.com</code> (erweiterter Datenschutzmodus). Sobald Sie ein Video laden, verarbeitet
         YouTube Ihre IP-Adresse sowie ggf. weitere Nutzungsdaten (z.&nbsp;B. für Statistiken und Personalisierung);

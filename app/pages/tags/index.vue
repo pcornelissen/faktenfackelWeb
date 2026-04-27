@@ -10,9 +10,9 @@ useSeoMeta({
 })
 
 await definePageData({
-  title: 'Schlagwörter – Faktenfackel',
+  title: 'Schlagwörter | Faktenfackel',
   pageHeading: '',
-  description: 'Alle Schlagwörter aus Faktenchecks, Lagerfeuer-Artikeln, Glossar und Quellen – durchsuche Inhalte von Faktenfackel nach Themen.',
+  description: 'Alle Schlagwörter aus Faktenchecks, Lagerfeuer-Artikeln, Glossar und Quellen. Durchsuche Inhalte von Faktenfackel nach Themen.',
 })
 
 const { data } = await useFetch<{ results: { tag: string, count: number }[] }>(

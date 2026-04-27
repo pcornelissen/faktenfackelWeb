@@ -2,7 +2,7 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'FAQ – Fragen zu Faktenchecks & Quellen | Faktenfackel',
+  title: 'FAQ: Fragen zu Faktenchecks und Quellen | Faktenfackel',
   pageHeading: 'Faktenfackel - Häufig gestellte Fragen',
   pageSubHeading: 'Das wollte ich immer schon mal wissen',
   description: 'Antworten auf häufige Fragen zu Faktenfackel: Wie arbeiten wir? Wie bewerten wir Quellen? Was bedeuten die Bewertungsstufen? Alles Wissenswerte auf einen Blick.',
@@ -39,7 +39,7 @@ useHead({
             'name': 'Kann ich bei Faktenfackel mithelfen?',
             'acceptedAnswer': {
               '@type': 'Answer',
-              'text': 'Ja, aber es gibt nicht einfach Schreibzugriff für die Seite. Bitte unter kontakt@faktenfackel.de melden – wir besprechen dann alles Weitere.',
+              'text': 'Ja, aber es gibt nicht einfach Schreibzugriff für die Seite. Bitte unter kontakt@faktenfackel.de melden, wir besprechen dann alles Weitere.',
             },
           },
         ],
@@ -59,7 +59,7 @@ useHead({
     <ul class="verdict-list">
       <li>
         <VerdictLabel type="false" />
-        Die geprüfte Aussage ist sachlich nicht korrekt – sie widerspricht belegten Fakten oder ist schlicht erfunden.
+        Die geprüfte Aussage ist sachlich nicht korrekt, sie widerspricht belegten Fakten oder ist schlicht erfunden.
       </li>
       <li>
         <VerdictLabel type="misleading" />
@@ -67,7 +67,7 @@ useHead({
       </li>
       <li>
         <VerdictLabel type="complex" />
-        Die Aussage lässt sich nicht einfach als wahr oder falsch einordnen – der Sachverhalt ist zu vielschichtig, zu wenig belegt oder hängt stark vom Kontext ab.
+        Die Aussage lässt sich nicht einfach als wahr oder falsch einordnen. Der Sachverhalt ist zu vielschichtig, zu wenig belegt oder hängt stark vom Kontext ab.
       </li>
       <li>
         <VerdictLabel type="true" />

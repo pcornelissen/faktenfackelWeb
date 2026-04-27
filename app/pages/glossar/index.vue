@@ -6,7 +6,7 @@ import { definePageData, nowIso, type Post } from '~/utils/contentUtils'
 const route = useRoute()
 
 await definePageData({
-  title: 'Glossar – Politik & Faktencheck | Faktenfackel',
+  title: 'Glossar: Politik und Faktencheck | Faktenfackel',
   pageHeading: 'Faktenfackel - Glossar',
   pageSubHeading: 'Das kleine Lexikon für zwischendurch',
   description: 'Das Faktenfackel-Glossar erklärt wichtige Begriffe aus Politik, Medien und Faktencheck-Kontext kurz und verständlich.',
@@ -30,8 +30,8 @@ const list = list1.value as Post[]
       icon-txt="Blogging Icons erstellt von Freepik - Flaticon"
     />
     <p class="intro">
-      Im Glossar erklären wir Begriffe aus den Bereichen Desinformation, Medien und Faktenchecks –
-      kompakt und verständlich aufbereitet. Von rhetorischen Tricks bis zu medialen Phänomenen.
+      Im Glossar erklären wir Begriffe aus den Bereichen Desinformation, Medien und Faktenchecks
+      kompakt und verständlich. Von rhetorischen Tricks bis zu medialen Phänomenen.
     </p>
     <PostsList
       :list="list"

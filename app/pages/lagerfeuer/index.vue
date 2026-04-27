@@ -6,10 +6,10 @@ import type { Post } from '~/utils/contentUtils'
 import CategoriesOverview from '~/components/lagerfeuer/CategoriesOverview.vue'
 
 await definePageData({
-  title: 'Lagerfeuer – Analysen, Hintergründe & Blog | Faktenfackel',
-  pageHeading: 'Fakte^nfackel - Lagerfeuer',
+  title: 'Lagerfeuer: Analysen, Hintergründe und Blog | Faktenfackel',
+  pageHeading: 'Faktenfackel - Lagerfeuer',
   pageSubHeading: 'Ausarbeitungen, Meinung, Blog',
-  description: 'Vertiefende Artikel, Analysen, Hintergründe und Blog-Einträge zu politischen Themen – das Lagerfeuer von Faktenfackel.',
+  description: 'Vertiefende Artikel, Analysen, Hintergründe und Blog-Einträge zu politischen Themen aus dem Lagerfeuer von Faktenfackel.',
 })
 
 const { data: recentList } = await useAsyncData('lagerfeuer-recent-overview', () =>

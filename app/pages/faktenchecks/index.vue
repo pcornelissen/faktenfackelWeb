@@ -6,10 +6,10 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 import type { Post } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Faktenchecks – Geprüfte Behauptungen | Faktenfackel',
+  title: 'Faktenchecks: Geprüfte Behauptungen | Faktenfackel',
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
-  description: 'Geprüfte Behauptungen aus Politik und Gesellschaft mit klarem Urteil und belastbaren Quellen – von Faktenfackel.',
+  description: 'Geprüfte Behauptungen aus Politik und Gesellschaft mit klarem Urteil und belastbaren Quellen, von Faktenfackel.',
 })
 
 const { data: recentList } = await useAsyncData('faktenchecks-recent-overview', () => {
@@ -31,7 +31,7 @@ const recent = (recentList.value || []) as Post[]
       icon-txt="Freepik Icon von Scherz Infinite Dendrogram"
     />
     <p class="intro">
-      Hier prüfen wir konkrete Behauptungen aus Politik, Medien und sozialen Netzwerken auf ihren Wahrheitsgehalt –
+      Hier prüfen wir konkrete Behauptungen aus Politik, Medien und sozialen Netzwerken auf ihren Wahrheitsgehalt,
       mit belegten Quellen und einem klaren Urteil. Die Faktenchecks sind nach Themenbereichen gegliedert,
       damit du gezielt nach dem suchen kannst, was dich interessiert.
     </p>

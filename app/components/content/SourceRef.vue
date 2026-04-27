@@ -33,7 +33,7 @@ const link = computed(() => {
   >
     <a
       :href="link.path"
-      :title="`${link.title} – Details auf Faktenfackel`"
+      :title="`${link.title}: Details auf Faktenfackel`"
       class="ref-text"
     >
       <slot v-if="slots.default" />
@@ -42,7 +42,7 @@ const link = computed(() => {
       :href="link.uri"
       target="_blank"
       rel="external noopener"
-      :title="`${link.title} – Quelle direkt öffnen`"
+      :title="`${link.title}: Quelle direkt öffnen`"
       class="ref-external"
     ><icon name="i-lucide:external-link" /></a>
     <icon

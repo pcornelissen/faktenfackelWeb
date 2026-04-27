@@ -2,10 +2,10 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Faktenfackel – Mythen entlarven, Fakten beleuchten',
+  title: 'Faktenfackel: Mythen entlarven, Fakten beleuchten',
   pageHeading: '',
   pageSubHeading: '',
-  description: 'Faktenfackel prüft Behauptungen, entlarvt Mythen und beleuchtet politische Desinformation – mit Quellen, Fakten und klarem Urteil. Unabhängig, kostenlos, für alle.',
+  description: 'Faktenfackel prüft Behauptungen, entlarvt Mythen und beleuchtet politische Desinformation. Mit Quellen, Fakten und klarem Urteil. Unabhängig und kostenlos.',
 })
 </script>
 
@@ -72,7 +72,7 @@ await definePageData({
               Faktenfackel verlinkt nicht nur Quellen, sondern ordnet sie ein. So bleibt nachvollziehbar, woher eine Aussage kommt und wie belastbar sie ist.
             </p>
             <div class="sidebar-links">
-              <a href="/about">Über die Arbeitsweise</a>
+              <a href="/about/">Über die Arbeitsweise</a>
               <a href="mailto:kontakt@faktenfackel.de?subject=Feedback%20Faktenfackel-Webseite">Kontakt</a>
             </div>
           </div>

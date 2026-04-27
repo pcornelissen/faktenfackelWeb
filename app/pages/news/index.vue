@@ -4,10 +4,10 @@ import { definePageData, nowIso } from '~/utils/contentUtils'
 import { dateString } from '~/utils/stringUtils'
 
 await definePageData({
-  title: 'Neuigkeiten & Ergänzungen auf Faktenfackel',
+  title: 'Neuigkeiten und Ergänzungen auf Faktenfackel',
   pageHeading: 'Faktenfackel - Neuigkeiten',
   pageSubHeading: 'Was hat sich in letzter Zeit geändert?',
-  description: 'Übersicht der Neuigkeiten und Ergänzungen auf Faktenfackel – neue Faktenchecks, Quellenlinks, Glossareinträge und Verbesserungen der Seite.',
+  description: 'Übersicht der Neuigkeiten und Ergänzungen auf Faktenfackel: neue Faktenchecks, Quellenlinks, Glossareinträge und Verbesserungen der Seite.',
 })
 
 const { data: allNews } = await useAsyncData('news-list', () =>

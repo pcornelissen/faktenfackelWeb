@@ -40,8 +40,8 @@ await definePageData({
   title: title + ' - Faktenfackel',
   pageHeading: title,
   description: sourceName
-    ? `Quellenlink von ${sourceName}: ${page.value?.title || ''} – eingeordnet und bewertet von Faktenfackel.`
-    : `Quellenlink: ${page.value?.title || ''} – eingeordnet und bewertet von Faktenfackel.`,
+    ? `Quellenlink von ${sourceName}: ${page.value?.title || ''}. Eingeordnet und bewertet von Faktenfackel.`
+    : `Quellenlink: ${page.value?.title || ''}. Eingeordnet und bewertet von Faktenfackel.`,
   lastmod: new Date(page.value?.date || new Date()),
 })
 

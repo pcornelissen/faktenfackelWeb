@@ -22,7 +22,7 @@ onMounted(() => {
           Fakten<em>fackel</em>
         </div>
         <p class="footer-tagline">
-          Unabhängige Faktencheck-Plattform für Deutschland. Seit Dezember 2025 aktiv – kontinuierlich erweitert.
+          Unabhängige Faktencheck-Plattform für Deutschland. Seit Dezember 2025 aktiv und kontinuierlich erweitert.
         </p>
         <a
           href="https://buymeacoffee.com/faktenfackel"
