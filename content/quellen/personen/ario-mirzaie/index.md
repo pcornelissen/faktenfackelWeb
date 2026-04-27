@@ -27,3 +27,7 @@ Mirzaies Reels enthalten in der Regel quellengestützte Recherchen zu rechtsextr
 ### Fazit
 
 Recherche-orientierter Social-Media-Aufklärer mit Schwerpunkt auf Rechtsextremismus und antifaschistischer Aufklärung. Klar positionierter Standpunkt, mit verifizierbaren Faktenrecherchen.
+
+---
+
+*Profilbild: Rainer Kurzeder, via [Bündnis 90/Die Grünen Berlin Mitte](https://gruene-mitte.de/).*
