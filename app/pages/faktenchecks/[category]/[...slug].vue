@@ -331,8 +331,8 @@ await referencesStore.fetchFor(page.value)
   margin: 0 0 2rem;
   padding: 1.15rem 1.3rem;
   background: #FCF7F0;
-  border: 1px solid var(--fackel-border);
-  border-left: 4px solid var(--flame);
+  border: 1px solid color-mix(in srgb, var(--flame) 22%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 55%, var(--fackel-border));
   border-radius: 1rem;
 }
 

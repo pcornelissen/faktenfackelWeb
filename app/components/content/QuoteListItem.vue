@@ -82,8 +82,10 @@ const props = defineProps<{
   font-style: italic;
   color: var(--ink);
   line-height: 1.55;
-  border-left: 3px solid var(--flame);
-  padding-left: 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--flame) 18%, var(--fackel-border));
+  border-radius: 0.5rem;
+  background: #FCF7F0;
+  padding: 0.6rem 0.7rem;
   margin-top: 0.2rem;
   transition: color 0.15s, border-color 0.15s;
 }

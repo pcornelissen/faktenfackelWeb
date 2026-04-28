@@ -144,8 +144,8 @@ li {
 
 .team-card {
   padding: 1rem 1.25rem;
-  border: 1px solid var(--fackel-border);
-  border-left: 3px solid var(--flame);
+  border: 1px solid color-mix(in srgb, var(--flame) 16%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 42%, var(--fackel-border));
   border-radius: 4px;
   background: white;
 }

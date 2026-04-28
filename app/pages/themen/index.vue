@@ -91,8 +91,8 @@ const themes = computed(() => (themesRaw.value || []) as unknown as ThemePage[])
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
-  border: 1px solid var(--fackel-border);
-  border-left: 4px solid var(--flame);
+  border: 1px solid color-mix(in srgb, var(--flame) 16%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 42%, var(--fackel-border));
   border-radius: 0.5rem;
   background: white;
   padding: 1rem 1.1rem 1.05rem;

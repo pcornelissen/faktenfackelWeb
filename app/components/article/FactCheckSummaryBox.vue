@@ -130,8 +130,8 @@ const modifiedLabel = computed(() => props.dateModified ? dateString(props.dateM
 .fact-summary {
   margin: 0 0 2rem;
   padding: 1.15rem 1.25rem;
-  border: 1px solid var(--fackel-border);
-  border-left: 4px solid var(--flame);
+  border: 1px solid color-mix(in srgb, var(--flame) 26%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 62%, var(--fackel-border));
   border-radius: 0.75rem;
   background: #FCF7F0;
 }

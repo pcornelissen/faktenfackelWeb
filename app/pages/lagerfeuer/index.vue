@@ -73,8 +73,8 @@ const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith
 <style scoped>
 .introduction {
   background: linear-gradient(180deg, white, #FCF8F3);
-  border: 1px solid var(--fackel-border);
-  border-left: 4px solid var(--flame);
+  border: 1px solid color-mix(in srgb, var(--flame) 18%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 45%, var(--fackel-border));
   border-radius: 1rem;
   padding: 1.3rem 1.4rem;
   margin-bottom: 2.4rem;

@@ -379,8 +379,8 @@ const relatedThemes = computed(() => hubData.value?.relatedThemes || [])
 
 .answer-block {
   background: linear-gradient(180deg, white, #FCF8F3);
-  border: 1px solid var(--fackel-border);
-  border-left: 4px solid var(--flame);
+  border: 1px solid color-mix(in srgb, var(--flame) 22%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 55%, var(--fackel-border));
   border-radius: 0.5rem;
   padding: 1.15rem 1.25rem;
   margin: 1.5rem 0 2.4rem;

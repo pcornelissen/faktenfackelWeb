@@ -250,15 +250,13 @@ const usedInQuellenlinks = computed(() =>
   font-size: clamp(1.35rem, 2vw, 1.7rem);
   font-style: italic;
   color: var(--ink);
-  border-left: 4px solid var(--flame);
-  padding-left: 1rem;
+  border: 1px solid color-mix(in srgb, var(--flame) 22%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 55%, var(--fackel-border));
   margin: 0;
   line-height: 1.55;
   background: #FCF7F0;
-  border-radius: 0 1rem 1rem 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
+  border-radius: 1rem;
+  padding: 1rem 1.15rem;
   text-wrap: pretty;
 }
 
@@ -302,8 +300,7 @@ const usedInQuellenlinks = computed(() =>
     font-size: 1.16rem;
     line-height: 1.45;
     padding: 0.8rem 0.85rem 0.8rem 0.85rem;
-    border-left-width: 3px;
-    border-radius: 0 0.85rem 0.85rem 0;
+    border-radius: 0.85rem;
   }
 
   .article-body {

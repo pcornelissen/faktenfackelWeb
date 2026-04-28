@@ -77,7 +77,8 @@ useSeoMeta({
   padding: 0.8rem 1rem;
   border-radius: 4px;
   background-color: #FAF6F0;
-  border-left: 3px solid var(--flame);
+  border: 1px solid color-mix(in srgb, var(--flame) 18%, var(--fackel-border));
+  border-top: 2px solid color-mix(in srgb, var(--flame) 45%, var(--fackel-border));
   color: var(--muted);
   font-size: 0.95rem;
 }
