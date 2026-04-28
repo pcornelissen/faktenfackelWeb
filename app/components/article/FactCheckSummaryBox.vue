@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { dateString } from '~/utils/stringUtils'
 
+type PrimarySource = {
+  label: string
+  code?: string
+  url?: string
+}
+
 const props = defineProps<{
   claim: string
   verdict?: 'false' | 'misleading' | 'complex' | 'true'
@@ -8,7 +14,7 @@ const props = defineProps<{
   claimAuthor?: string
   claimAppearance?: string
   keyEvidence?: string[]
-  primarySources?: string[]
+  primarySources?: PrimarySource[]
   dateModified?: string | Date | null
 }>()
 
@@ -91,9 +97,23 @@ const modifiedLabel = computed(() => props.dateModified ? dateString(props.dateM
         <ul>
           <li
             v-for="item in primarySources"
-            :key="item"
+            :key="item.code || item.url || item.label"
           >
-            {{ item }}
+            <SourceRef
+              v-if="item.code"
+              :code="item.code"
+            >
+              {{ item.label }}
+            </SourceRef>
+            <a
+              v-else-if="item.url"
+              :href="item.url"
+              rel="external noopener"
+              target="_blank"
+            >{{ item.label }}</a>
+            <template v-else>
+              {{ item.label }}
+            </template>
           </li>
         </ul>
       </section>

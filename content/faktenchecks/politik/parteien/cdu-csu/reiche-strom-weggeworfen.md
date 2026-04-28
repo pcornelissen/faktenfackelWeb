@@ -1,12 +1,27 @@
 ---
 publishedOn: null
-date: 2026-03-30
+date: 2026-04-28
 title: "Strom für drei Milliarden Euro weggeworfen?"
 subtitle: Warum die Zahl irreführend ist
-description: "Wirtschaftsministerin Katherina Reiche spricht von drei Milliarden Euro weggeworfenem Strom. Die Zahl ist irreführend, der tatsächliche Betrag liegt viel niedriger."
+description: "Katherina Reiche behauptet, Deutschland werfe jedes Jahr Strom für drei Milliarden Euro weg. Der Faktencheck zeigt: Die Zahl vermischt verschiedene Kosten des Netzengpassmanagements. Der eigentliche Posten für abgeregelte Erneuerbare lag 2024 bei 554 Millionen Euro, während ein großer Teil an konventionellen Redispatch ging."
 verdict: misleading
 claim: "Jedes Jahr wird in Deutschland Strom für drei Milliarden Euro einfach weggeworfen."
 claimAuthor: "Katherina Reiche (CDU)"
+summary: "Reiches Aussage vermischt verschiedene Kosten des Netzengpassmanagements und stellt reguläre Netzsteuerung als Verschwendung dar. Der Posten, der am ehesten zu abgeregelten Erneuerbaren passt, lag 2024 bei 554 Millionen Euro, nicht bei drei Milliarden Euro."
+keyEvidence:
+  - "Die Bundesnetzagentur weist für 2024 insgesamt 2,776 Milliarden Euro Netzengpassmanagement aus, davon nur 554 Millionen Euro Entschädigung für abgeregelte Erneuerbare."
+  - "Über eine Milliarde Euro entfiel auf konventionellen Redispatch, also zusätzliche Produktion fossiler Kraftwerke, nicht auf weggeworfenen Ökostrom."
+  - "96,5 Prozent des erneuerbaren Stroms wurden 2024 erfolgreich ins Netz eingespeist."
+  - "Netzengpässe entstehen vor allem durch fehlende Leitungen und verzögerten Netzausbau, nicht durch Erneuerbare an sich."
+primarySources:
+  - label: "Bundesnetzagentur: Einspeisemanagement und Netzengpassmanagement 2024"
+    code: bundesnetzagentur-einspeisemanagement-netzengpassmanagement
+  - label: "SMARD: Netzengpassmanagement 2023 und 2024"
+    code: smard-netzengpassmanagement-2023
+  - label: "CORRECTIV-Faktencheck zu Katherina Reiches Drei-Milliarden-Behauptung"
+    code: correctiv-reiche-strom-drei-milliarden-weggeworfen
+  - label: "Klimareporter und Energy Brainpool zum Altmaier-Knick"
+    code: klimareporter-altmaier-knick-auszubuegeln
 authors: ['patrick-cornelissen']
 tags:
   - CDU

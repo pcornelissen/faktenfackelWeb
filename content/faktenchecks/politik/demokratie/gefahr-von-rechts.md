@@ -1,10 +1,25 @@
 ---
 publishedOn: 2026-04-10
-date: 2026-04-10
+date: 2026-04-28
 title: "Gibt es keine Gefahr von rechts?"
 subtitle: "Rechtsextreme Gewalt und Terror in Deutschland: Die Zahlen"
 verdict: false
 claim: "Es gibt keine ernsthafte Gefahr von rechts."
+summary: "Die Behauptung ist durch offizielle Statistiken, Gerichtsverfahren und Opferdokumentationen widerlegt. Rechtsextreme Straftaten erreichten 2024 einen Höchststand, rechtsextreme Gewalttaten blieben 2025 auf sehr hohem Niveau, und mehrere laufende Terrorverfahren zeigen eine reale organisierte Bedrohung."
+keyEvidence:
+  - "Das BKA erfasste 2024 insgesamt 42.788 rechts motivierte Straftaten, den höchsten Wert seit Beginn der Statistik."
+  - "2025 weist die vorläufige Statistik 41.072 rechts motivierte Straftaten und 1.521 Gewalttaten aus."
+  - "2026 laufen große Verfahren gegen rechtsextreme Netzwerke wie Sächsische Separatisten, Letzte Verteidigungswelle und Reichsbürger-Putschgruppe."
+  - "Die Amadeu Antonio Stiftung dokumentiert seit 1990 mindestens 221 Todesopfer rechter Gewalt."
+primarySources:
+  - label: "BKA und Bundesinnenministerium: PMK-Statistik 2024 und vorläufige Zahlen 2025"
+    code: bka-pmk-rechts-2025-statistik
+  - label: "Verfassungsschutzbericht 2024"
+    code: verfassungsschutzbericht-2024-kurz
+  - label: "Amadeu Antonio Stiftung: Todesopfer rechter Gewalt"
+    code: amadeu-antonio-todesopfer-rechter-gewalt
+  - label: "ZDF zum Prozess gegen Sächsische Separatisten"
+    code: zdf-saechsische-separatisten-prozess-2026
 authors: ['patrick-cornelissen']
 tags:
   - Rechtsextremismus
@@ -12,7 +27,7 @@ tags:
   - Rechte Gewalt
   - AfD
   - Gewalt
-description: "Die Behauptung, rechtsextreme Gewalt sei übertrieben oder erfunden, ist durch offizielle Statistiken, Gerichtsurteile und Verfassungsschutzberichte klar widerlegt."
+description: "Die Behauptung, es gebe keine ernsthafte Gefahr von rechts, widerspricht offiziellen Statistiken, Gerichtsverfahren und Opferdokumentationen. Der Faktencheck zeigt BKA-Zahlen, laufende Terrorprozesse, dokumentierte Anschläge und Todesopfer rechter Gewalt und erklärt, warum Relativierungen die belegte Bedrohungslage ausblenden. Die wichtigsten Belege stehen direkt am Anfang."
 ---
 
 ## Behauptung

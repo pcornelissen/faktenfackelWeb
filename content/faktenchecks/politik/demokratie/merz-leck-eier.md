@@ -1,11 +1,28 @@
 ---
 publishedOn: 2026-04-05
-date: 2026-04-05
+date: 2026-04-28
 title: "\"Merz leck Eier\", darf man das sagen?"
 subtitle: Was Meinungsfreiheit und Strafrecht dazu sagen
-description: "'Merz leck Eier' beim Demo in Gießen: Platzverweise und Ermittlungsverfahren folgten. Wo liegt die Grenze zwischen Meinungsfreiheit und Beleidigung?"
+description: "Die Parole 'Merz leck Eier' ist derb, aber nicht automatisch strafbar. Der Faktencheck erklärt, wie Meinungsfreiheit, Beleidigung, §188 StGB und die enge Rechtsprechung zu Schmähkritik zusammenspielen und warum politische Zuspitzungen immer im konkreten Kontext bewertet werden müssen. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: complex
 claim: "'Merz leck Eier' auf einem Demoplakat ist eine strafbare Beleidigung und nicht von der Meinungsfreiheit gedeckt."
+summary: "Ob die Parole strafbar ist, lässt sich nicht allein aus ihrer Derbheit ableiten. Bei politischer Zuspitzung muss zwischen Beleidigung, Schmähkritik und geschützter Meinungsäußerung abgewogen werden; das Bundesverfassungsgericht legt den Ausnahmefall Schmähkritik eng aus."
+keyEvidence:
+  - "Artikel 5 GG schützt auch scharfe und überzogene politische Meinungsäußerungen, solange allgemeine Gesetze nicht verletzt werden."
+  - "§185 StGB stellt Beleidigung unter Strafe, definiert aber nicht automatisch jede vulgäre Parole als strafbar."
+  - "Das BVerfG sieht Schmähkritik erst dann, wenn persönliche Diffamierung ohne sachlichen Bezug im Vordergrund steht."
+  - "Bekannte Merz-Anzeigen wie der Pinocchio- und der 'Drecks Suffkopf'-Fall zeigen die notwendige Einzelfallabwägung und Verhältnismäßigkeitsfragen."
+primarySources:
+  - label: "Grundgesetz Artikel 5"
+    code: gii-gg-5
+  - label: "Strafgesetzbuch §185"
+    code: gii-stgb-185
+  - label: "Strafgesetzbuch §188"
+    code: gii-stgb-188
+  - label: "Bundesverfassungsgericht zur engen Auslegung von Schmähkritik"
+    code: bverfg-schmaehkritik-soldaten-1995
+  - label: "Tagesspiegel zu Friedrich Merz' Strafanzeigenpraxis"
+    code: tagesspiegel-merz-strafanzeigen-4999
 tags:
   - Meinungsfreiheit
   - Satire

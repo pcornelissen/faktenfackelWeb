@@ -19,7 +19,11 @@ export default defineContentConfig({
         claimAppearance: z.string().optional(),
         summary: z.string().optional(),
         keyEvidence: z.array(z.string()).optional(),
-        primarySources: z.array(z.string()).optional(),
+        primarySources: z.array(z.object({
+          label: z.string(),
+          code: z.string().optional(),
+          url: z.string().url().optional(),
+        })).optional(),
         referenceCodes: z.array(z.string()).optional(),
         quoteCodes: z.array(z.string()).optional(),
       }).strict(),

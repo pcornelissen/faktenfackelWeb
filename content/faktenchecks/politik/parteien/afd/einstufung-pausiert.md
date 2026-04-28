@@ -1,11 +1,26 @@
 ---
 publishedOn: 2025-12-03
-date: 2026-03-06
+date: 2026-04-28
 title: Verfassungsschutz pausiert die Einstufung der AfD als rechtsextrem
 subtitle: Was die Stillhaltezusage juristisch bedeutet
-description: "Der Verfassungsschutz hat die Einstufung der AfD als gesichert rechtsextrem vorläufig ausgesetzt. Warum das juristisch üblich ist und kein Freispruch bedeutet."
+description: "Die pausierte AfD-Einstufung wird häufig als Rücknahme oder Freispruch gedeutet. Der Faktencheck erklärt, warum Stillhaltezusage und Eilverfahren vor allem den Status quo während des Rechtsstreits sichern und warum der bestätigte Verdachtsfall sowie die dokumentierten Anhaltspunkte dadurch nicht verschwinden. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: misleading
 claim: "Der Verfassungsschutz hat die Einstufung der AfD als gesichert rechtsextrem zurückgenommen."
+summary: "Die Stillhaltezusage und die spätere gerichtliche Aussetzung sind kein inhaltlicher Freispruch für die AfD. Sie pausieren die rechtlichen Folgen der Einstufung während des laufenden Verfahrens, lassen den bestätigten Verdachtsfall und die zugrunde liegenden Anhaltspunkte aber nicht verschwinden."
+keyEvidence:
+  - "Stillhaltezusagen sichern in Eilverfahren häufig den Status quo und bedeuten nicht automatisch, dass die Behörde in der Sache falsch lag."
+  - "Die AfD bleibt trotz Pausierung als Verdachtsfall beobachtbar; Gerichte haben dafür zahlreiche Anhaltspunkte bestätigt."
+  - "Die gelöschte Pressemitteilung ist laut Berichten kein Beleg für eine widerlegte Einstufung, sondern Teil der Verfahrenskommunikation."
+  - "CORRECTIV und veröffentlichte BfV-Belege dokumentieren weiter rechtsextreme und verfassungsfeindliche Positionen in der AfD."
+primarySources:
+  - label: "Verwaltungsgericht Köln zur AfD-Stillhaltezusage"
+    code: vg-köln-afd-stillhaltezusage
+  - label: "Legal Tribune Online zu Stillhaltezusagen"
+    code: lto-stillhaltezusage-2025
+  - label: "Tagesschau zur Löschung der BfV-Pressemitteilung"
+    code: tagesschau-afd-stillhaltezusage
+  - label: "FragDenStaat zu veröffentlichten BfV-Belegen"
+    code: fragdenstaat-afd-verfassungsfeindlich
 authors: ['patrick-cornelissen']
 tags:
   - AfD

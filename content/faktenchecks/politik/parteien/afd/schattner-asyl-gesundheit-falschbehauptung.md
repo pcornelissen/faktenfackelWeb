@@ -1,12 +1,27 @@
 ---
 publishedOn: 2026-04-22
-date: 2026-04-22
+date: 2026-04-28
 title: "AfD-MdB Schattner: 'Gratis-Kasse für Asylbewerber' und abgeschaffte Familienversicherung"
 subtitle: Wie die AfD echte Reformdebatten mit falschen Migrationsbehauptungen verknüpft
-description: "Bernd Schattner verbreitet auf Facebook und TikTok zwei falsche Behauptungen zur Gesundheitsreform. Der Faktencheck zeigt das systematische Muster dahinter."
+description: "Bernd Schattner behauptet, die Familienversicherung werde abgeschafft, während Asylbewerber sofort volle Gesundheitsleistungen bekämen. Der Faktencheck zeigt: Beides ist falsch. Die Familienversicherung soll nur für bestimmte Gruppen angepasst werden, und Asylbewerber erhalten in den ersten 36 Monaten nur eingeschränkte Leistungen. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: false
 claim: "Die Familienversicherung wird abgeschafft, während Asylbewerber sofort nach ihrer Ankunft alle Gesundheitsleistungen vom Staat finanziert bekommen."
 claimAuthor: "Bernd Schattner (AfD)"
+summary: "Beide Teile der Behauptung sind falsch. Die Familienversicherung soll nach dem diskutierten Modell eingeschränkt, nicht abgeschafft werden, und Asylbewerber erhalten in den ersten 36 Monaten keine reguläre gesetzliche Krankenversicherung, sondern nur eingeschränkte Leistungen nach dem Asylbewerberleistungsgesetz."
+keyEvidence:
+  - "Die FinanzKommission Gesundheit empfiehlt Einschränkungen für bestimmte mitversicherte Ehepartner, keine Abschaffung der Familienversicherung."
+  - "§4 AsylbLG begrenzt Leistungen in den ersten 36 Monaten auf akute Erkrankungen, Schmerzen, Impfungen, Vorsorge und Geburtshilfe."
+  - "Erst nach 36 Monaten kommen Analogleistungen nach SGB XII in Betracht; die Wartefrist wurde 2024 von 18 auf 36 Monate verlängert."
+  - "CORRECTIV bewertete Schattners Behauptungen als größtenteils falsch und dokumentierte ein ähnliches Muster bei weiteren AfD-Sozialnarrativen."
+primarySources:
+  - label: "CORRECTIV-Faktencheck zu Bernd Schattners Gesundheits- und Asylbehauptungen"
+    code: correctiv-schattner-gesundheitsreform-asylbewerber-2026
+  - label: "FinanzKommission Gesundheit: Erster Bericht vom 30. März 2026"
+    url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/F/FinanzKommission_Gesundheit/FinanzKommissionGesundheit_Erster_Bericht_20260330.pdf"
+  - label: "§4 Asylbewerberleistungsgesetz"
+    url: "https://www.gesetze-im-internet.de/asylblg/__4.html"
+  - label: "GKV-Spitzenverband zu Gesundheitsleistungen für Asylbewerber"
+    url: "https://www.gkv-spitzenverband.de/presse/themen/fluechtlinge_asylbewerber/fluechtlinge.jsp"
 tags:
   - AfD
   - Schattner

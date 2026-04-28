@@ -1,7 +1,7 @@
 ---
 title: Digital
 subtitle: Digitale Selbstbestimmung, Alternativen und praktische Tipps
-description: Lagerfeuer-Artikel zu digitaler Unabhängigkeit, Datenschutz und Alternativen zu Big Tech.
+description: "Artikel zu digitaler Selbstbestimmung, Datenschutz und Alternativen zu Big Tech, mit praktischen Schritten für Messenger, Suche, Cloud und Sicherheit."
 icon: blogging
 iconTxt: Blogging Icons erstellt von Freepik, Flaticon
 date: 1970-01-01

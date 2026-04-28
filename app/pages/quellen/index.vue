@@ -6,7 +6,7 @@ await definePageData({
   title: 'Quellen: Personen, Medien und Belege - Faktenfackel',
   pageHeading: 'Quellenliste',
   pageSubHeading: 'Nach Quelle, thematisch sortierte Fundstücke, die hier in Artikeln verwendet werden (können)',
-  description: 'Alle Quellen, die Faktenfackel für Faktenchecks und Analysen heranzieht: sortiert nach Medien, Personen, NGOs, Parteien und weiteren Kategorien.',
+  description: 'Quellensammlung von Faktenfackel: Personen, Medien, Parteien, Behörden, Studien und Primärquellen mit Links, Zitaten, Bewertungen und Belegkontext.',
 })
 
 defineOgImage('Default', { title: 'Personen, Medien und Belege', label: 'QUELLEN' })

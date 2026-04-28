@@ -1,11 +1,26 @@
 ---
 publishedOn: 2025-12-03
-date: 2026-01-19
+date: 2026-04-28
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Warum Gegenprotest demokratisch geschützt ist
-description: "Ist Gegenprotest gegen die AfD undemokratisch? Nein: Protest ist Ausdruck der Meinungsfreiheit, nicht ihre Einschränkung. Was das Grundgesetz sagt."
+description: "Die Behauptung, Proteste gegen die AfD seien undemokratisch, verdreht demokratische Grundrechte. Der Faktencheck erklärt, warum Gegenprotest durch Meinungs- und Versammlungsfreiheit geschützt ist, wann Protest Grenzen hat und warum öffentliche Kritik die Meinungsfreiheit einer Partei nicht automatisch einschränkt. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: false
 claim: "Proteste gegen die AfD sind undemokratisch und schränken die Meinungsfreiheit der AfD ein."
+summary: "Gegenprotest ist nicht undemokratisch, sondern durch Meinungs- und Versammlungsfreiheit geschützt. Die AfD darf ihre Positionen äußern, aber andere Bürger dürfen diesen Positionen öffentlich widersprechen, solange Proteste friedlich bleiben und rechtliche Grenzen einhalten."
+keyEvidence:
+  - "Artikel 5 GG schützt Meinungsäußerung, also auch öffentlichen Widerspruch gegen Parteien und politische Positionen."
+  - "Artikel 8 GG schützt friedliche Versammlungen; Demonstrationen sind anzeige-, aber nicht genehmigungspflichtig."
+  - "Die AfD konnte ihre Veranstaltung in Gießen durchführen; Gegenprotest hebt ihre Meinungsfreiheit daher nicht auf."
+  - "Polizei und lokale Berichte beschrieben den Protesttag insgesamt nicht als flächendeckend gewalttätig."
+primarySources:
+  - label: "Grundgesetz Artikel 5 zur Meinungsfreiheit"
+    code: gii-gg-5
+  - label: "Grundgesetz Artikel 8 zur Versammlungsfreiheit"
+    code: gii-gg-8
+  - label: "Grundgesetz Artikel 21 zur Rolle politischer Parteien"
+    code: gii-gg-21
+  - label: "Bundeszentrale für politische Bildung: Demokratie"
+    code: bpb-junges-lexikon-demokratie
 authors: ['patrick-cornelissen']
 tags:
   - AfD

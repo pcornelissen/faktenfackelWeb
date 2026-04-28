@@ -39,14 +39,59 @@ const title = sourceInfo.value?.name || capitalize(source)
 const shortSeoTitle = `${title} - Faktenfackel`
 const detailedSeoTitle = `${title}: Quellen und Zitate - Faktenfackel`
 const seoTitle = detailedSeoTitle.length <= 60 ? detailedSeoTitle : shortSeoTitle
+const sourceGroupDescription: Record<string, string> = {
+  allgemein: 'Quellenprofil mit Kontext, Belegen und weiterführenden Einordnungen',
+  faktenchecks: 'Faktencheck-Profil mit Quellenlinks, Belegen und weiterführenden Einordnungen',
+  medien: 'Medienprofil mit Quellenlinks, Kontext und Einordnungen',
+  nachrichten: 'Nachrichtenprofil mit Quellenlinks, Kontext und Einordnungen',
+  ngo: 'Organisationsprofil mit Quellenlinks, Kontext und Einordnungen',
+  parteien: 'Parteiprofil mit Quellenlinks, Aussagen und Faktenfackel-Bewertungen',
+  personen: 'Personenprofil mit Aussagen, Quellenlinks und Einordnungen',
+  politiker: 'Politikerprofil mit Aussagen, Quellenlinks und Faktenfackel-Bewertungen',
+  portale: 'Portalprofil mit Quellenlinks, Kontext und Einordnungen',
+  staatlich: 'Behördenprofil mit Quellenlinks, Dokumenten und Einordnungen',
+  statistik: 'Statistikprofil mit Datenquellen, Kontext und Einordnungen',
+  wissenschaft: 'Wissenschaftsprofil mit Quellenlinks, Belegen und Einordnungen',
+}
+
+function cleanMetaDescription(description?: string) {
+  return description?.trim().replace(/[.!,;:]+$/, '') || ''
+}
+
+function shortenMetaDescription(description: string, maxLength: number) {
+  if (description.length <= maxLength) return description
+
+  const shortened = description.slice(0, maxLength + 1)
+  const cutAt = Math.max(shortened.lastIndexOf(', '), shortened.lastIndexOf(' '))
+  return `${shortened.slice(0, cutAt > 50 ? cutAt : maxLength).trim()}...`
+}
+
+function buildSourceMetaDescription(sourceTitle: string, sourceGroup: string, description?: string) {
+  const cleanedDescription = cleanMetaDescription(description)
+  const longSuffix = '. Quellenlinks, Zitate und Bewertungen mit Belegen.'
+  const shortSuffix = '. Quellenlinks und Bewertungen.'
+  const rawIntro = cleanedDescription.length >= 45
+    ? cleanedDescription
+    : sourceGroupDescription[sourceGroup] || 'Quellenprofil mit Links, Kontext und Einordnungen'
+
+  const longIntroLength = 155 - sourceTitle.length - longSuffix.length - 2
+  if (longIntroLength >= 45) {
+    return `${sourceTitle}: ${shortenMetaDescription(rawIntro, longIntroLength)}${longSuffix}`
+  }
+
+  const shortIntroLength = 155 - sourceTitle.length - shortSuffix.length - 2
+  if (shortIntroLength >= 35) {
+    return `${sourceTitle}: ${shortenMetaDescription(rawIntro, shortIntroLength)}${shortSuffix}`
+  }
+
+  return `${sourceTitle}: ${shortenMetaDescription(rawIntro, Math.max(20, 155 - sourceTitle.length - 2))}`
+}
 
 await definePageData({
   title: seoTitle,
   pageHeading: 'Quelle: ' + title,
   pageSubHeading: sourceInfo.value?.description || 'Quelleninformation',
-  description: sourceInfo.value?.description
-    ? `${title}: ${sourceInfo.value.description}. Quelleninformation, Links und Bewertung auf Faktenfackel.`
-    : `Quelleninformation zu ${title}: gesammelte Links, Zitate und Faktenfackel-Bewertung.`,
+  description: buildSourceMetaDescription(title, group, sourceInfo.value?.description),
   lastmod: new Date(sourceInfo.value?.date || new Date()),
 })
 

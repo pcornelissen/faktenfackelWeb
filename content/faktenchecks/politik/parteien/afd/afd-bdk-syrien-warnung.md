@@ -1,12 +1,23 @@
 ---
 publishedOn: 2026-04-15
-date: 2026-04-15
+date: 2026-04-28
 title: Hat die AfD "schon immer" vor islamistischer Gewalt gegen Minderheiten gewarnt?
 subtitle: Wie eine echte BDK-Warnung zur AfD-Propaganda wird
-description: "Die AfD deutet eine BDK-Warnung vor islamistischer Gewalt gegen syrische Minderheiten als Bestätigung eigener Positionen. Das ist irreführend."
+description: "Die AfD deutet eine reale BDK-Warnung vor islamistischer Gewalt gegen syrische Minderheiten als Bestätigung ihrer Migrationspolitik. Der Faktencheck zeigt, warum das irreführend ist: Der BDK warnte vor einer spezifischen Bedrohung für Drusen, Alawiten und Kurden, nicht vor Migration insgesamt. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: misleading
 claim: "Die AfD hat schon immer vor islamistischer Gewalt gegen Minderheiten gewarnt."
 claimAuthor: "AfD"
+summary: "Die BDK-Warnung vor islamistischer Gewalt gegen syrische Minderheiten ist real, stützt aber nicht die AfD-Erzählung. Der BDK warnte vor einer spezifischen Bedrohung für Drusen, Alawiten und Kurden in Deutschland, während die AfD ihre allgemeine Migrations- und Islamismuspolitik nachträglich als bestätigt darstellt."
+keyEvidence:
+  - "Der BDK bezog sich auf konkrete Gewaltaufrufe und Vorfälle gegen syrische Minderheiten in Deutschland."
+  - "Die AfD sprach traditionell vor allem über Islamismus als Gefahr für die deutsche Mehrheitsgesellschaft, nicht über Schutz syrischer Minderheiten."
+  - "Die AfD drängte syrische Geflüchtete jahrelang zur Rückkehr und normalisierte Kontakte zum Assad-Regime."
+  - "AfD-nahe Rahmungen blenden aus, dass in der BDK-Warnung syrische Minderheiten die Opfergruppe sind."
+primarySources:
+  - label: "Die Zeit: BDK-Warnung zu syrischen Minderheiten in Deutschland"
+    code: die-zeit-kriminalbeamte-minderheiten-syrien
+  - label: "Quora-Beispiel zur AfD-Rahmung der BDK-Warnung"
+    code: quora-afd-bdk-syrien-warnung
 tags:
   - AfD
   - Syrien

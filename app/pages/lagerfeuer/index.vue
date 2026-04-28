@@ -11,7 +11,7 @@ await definePageData({
   title: 'Lagerfeuer: Analysen, Hintergründe und Blog | Faktenfackel',
   pageHeading: 'Faktenfackel - Lagerfeuer',
   pageSubHeading: 'Ausarbeitungen, Meinung, Blog',
-  description: 'Vertiefende Artikel, Analysen, Hintergründe und Blog-Einträge zu politischen Themen aus dem Lagerfeuer von Faktenfackel.',
+  description: 'Längere Analysen und Hintergründe zu Politik, Wirtschaft, Desinformation und digitaler Selbstbestimmung, mit Quellen und Einordnung von Faktenfackel.',
 })
 
 defineOgImage('Default', { title: 'Analysen, Hintergründe und Blog', label: 'LAGERFEUER' })

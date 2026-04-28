@@ -1,9 +1,9 @@
 ---
 publishedOn: 2026-04-20
-date: 2026-04-27
+date: 2026-04-28
 title: "Dobrindts PKS-Framing 2026"
 subtitle: "Migration trotz sinkender Kriminalität als Problem inszeniert"
-description: "Bundesinnenminister Dobrindt nutzte die PKS 2025 für migrationsfeindliches Framing - obwohl die Tatverdächtigen unter Zuwanderern um 7,2 Prozent zurückgingen. Die Kernaussagen im Faktencheck."
+description: "Alexander Dobrindt nutzte die PKS 2025, um Migration als Kernproblem der Kriminalität zu rahmen, obwohl Gesamtkriminalität und Tatverdächtige unter Zuwanderern zurückgingen. Der Faktencheck zeigt, welche Zahlen stimmen, welcher Kontext fehlt und warum Rohwerte ohne Demografie, Wohnort, Kontrolldelikte und Anzeigeverhalten irreführen."
 verdict: misleading
 claim: "Migration ist ein Kern-Erklärfaktor für Kriminalität in Deutschland und es gibt eine erhebliche Überrepräsentanz von Ausländern in der Kriminalstatistik."
 claimAuthor: "Alexander Dobrindt (CSU)"
@@ -13,9 +13,12 @@ keyEvidence:
   - "Die TVBZ ist nur sinnvoll vergleichbar, wenn Kontrolldelikte, Alter, Geschlecht, Wohnort und Anzeigeverhalten berücksichtigt werden."
   - "Die ifo-Längsschnittanalyse findet keinen belastbaren Zusammenhang zwischen steigendem Ausländeranteil und lokaler Kriminalitätsrate."
 primarySources:
-  - "BKA: Polizeiliche Kriminalstatistik 2025 und Dunkelfeldstudie SKiD 2024"
-  - "CORRECTIV-Faktencheck zur PKS 2025"
-  - "ifo-Studie von Joop Adema und Jean-Victor Alipour zu Migration und Kriminalität"
+  - label: "BKA: Polizeiliche Kriminalstatistik 2025 und Dunkelfeldstudie SKiD 2024"
+    code: bka-pks-2025-skid-kurzmeldung
+  - label: "CORRECTIV-Faktencheck zur PKS 2025"
+    code: correctiv-pks-faktencheck-fuenf-behauptungen-2026
+  - label: "ifo-Studie von Joop Adema und Jean-Victor Alipour zu Migration und Kriminalität"
+    code: ifo-adema-alipour-migration-kriminalitaet-2025
 authors: ['patrick-cornelissen']
 tags:
   - Dobrindt

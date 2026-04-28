@@ -1,12 +1,27 @@
 ---
 publishedOn: 2026-04-01
-date: 2026-04-01
+date: 2026-04-28
 title: "AfD: Menschengemachter Klimawandel ist nicht bewiesen"
 subtitle: Was die Wissenschaft tatsächlich sagt
-description: "Die AfD bestreitet den menschengemachten Klimawandel. Der Faktencheck zeigt: IPCC, BVerfG und die Forschung stehen klar gegen diese Position."
+description: "Die AfD behauptet, ein signifikanter menschlicher Einfluss auf das Klima sei nicht bewiesen. Der Faktencheck zeigt, warum das falsch ist: IPCC-Berichte, Klimaforschung, Fraunhofer-Daten zu Erneuerbaren und das Klimaurteil des Bundesverfassungsgerichts stehen klar gegen diese Position. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: false
 claim: "Ein signifikanter Einfluss menschlicher CO2-Emissionen auf das Klima ist weder evident noch wissenschaftlich bewiesen."
 claimAuthor: "AfD"
+summary: "Die AfD-Behauptung widerspricht dem Stand der Klimaforschung. Der IPCC bewertet den menschlichen Einfluss auf die Erwärmung als eindeutig, und auch die deutsche Rechtsprechung behandelt wirksamen Klimaschutz als verfassungsrechtlich relevante Pflicht gegenüber künftigen Generationen."
+keyEvidence:
+  - "Der IPCC AR6 hält fest, dass der menschliche Einfluss auf das Klimasystem eindeutig ist."
+  - "Die globale Durchschnittstemperatur ist seit der vorindustriellen Zeit um etwa 1,1 Grad Celsius gestiegen."
+  - "Fraunhofer ISE zeigt, dass erneuerbare Energien in vielen Fällen zu den günstigsten Stromerzeugungsformen gehören."
+  - "Das Bundesverfassungsgericht hat unzureichenden Klimaschutz als Eingriff in Freiheitsrechte künftiger Generationen eingeordnet."
+primarySources:
+  - label: "IPCC: Sixth Assessment Report, Working Group I, Summary for Policymakers"
+    code: ipcc-ar6-wg1-spm
+  - label: "Bundesverfassungsgericht: Klimabeschluss vom 24. März 2021"
+    url: "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rs20210324_1bvr265618.html"
+  - label: "Fraunhofer ISE: Stromgestehungskosten 2024"
+    code: fraunhofer-ise-stromgestehungskosten-2024
+  - label: "Amadeu Antonio Stiftung zur Klimawandelleugnung der AfD"
+    code: amadeu-antonio-klimawandelleugnung-afd
 authors: ['patrick-cornelissen']
 tags:
   - AfD

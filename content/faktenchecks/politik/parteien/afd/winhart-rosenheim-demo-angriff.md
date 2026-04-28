@@ -1,12 +1,27 @@
 ---
 publishedOn: 2026-03-08
-date: 2026-03-08
+date: 2026-04-28
 title: "AfD behauptet: Jugendliche greifen 70-Jährigen an"
 subtitle: Was das Video zum Vorfall am 28. Februar 2026 zeigt
-description: "Die AfD stellte ein Gerangel um ein Banner in Rosenheim als Angriff auf einen 70-jährigen Kandidaten dar. Video und Staatsanwaltschaft widerlegen diese Darstellung."
+description: "Die AfD stellte ein Gerangel um ein Banner in Rosenheim als brutalen Angriff auf einen 70-jährigen Bürgermeisterkandidaten dar. Der Faktencheck zeigt anhand des Videos und der späteren Einordnung der Staatsanwaltschaft, warum diese Darstellung falsch ist und wie die Opfererzählung medial wirksam wurde."
 verdict: false
 claim: "Linke Jugendliche haben einen 70-jährigen AfD-Bürgermeisterkandidaten brutal angegriffen."
 claimAuthor: "AfD"
+summary: "Die Behauptung wird durch das Videomaterial und die spätere Einordnung der Staatsanwaltschaft widerlegt. Das Video zeigt ein Gerangel um ein Banner, das durch den Zugriff von AfD-Mitgliedern ausgelöst wurde; Schläge oder Tritte gegen den 70-jährigen Kandidaten sind nicht erkennbar."
+keyEvidence:
+  - "Das Video zeigt, dass die Gegendemonstranten am AfD-Stand vorbeigingen und Winhart zuerst nach dem Banner griff."
+  - "Mehrere AfD-Mitglieder zerrten am Banner, bevor Michael Maurer im Gerangel stürzte."
+  - "Auf dem Video sind keine Schläge oder Tritte gegen Maurer erkennbar."
+  - "Maurer hielt nach Sichtung des Videos den Vorwurf der Körperverletzung nicht mehr aufrecht."
+primarySources:
+  - label: "Video von Sinom Tiew zum Vorfall in Rosenheim"
+    code: winhart-rosenheim-konfrontation
+  - label: "taz-Bericht zum Rosenheimer AfD-Vorfall"
+    code: taz-rosenheim-afd-schwalbe
+  - label: "t-online-Bericht zur Einschätzung der Staatsanwaltschaft Traunstein"
+    code: t-online-rosenheim-afd-kandidat
+  - label: "Volksverpetzer zur Rolle von Polizei, Medien und AfD-Erzählung"
+    code: volksverpetzer-rosenheim-afd-angriff
 authors: ['patrick-cornelissen']
 tags:
   - AfD

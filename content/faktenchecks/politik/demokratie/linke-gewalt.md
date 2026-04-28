@@ -1,17 +1,34 @@
 ---
 publishedOn: 2026-04-10
-date: 2026-04-10
+date: 2026-04-28
 title: "Wie gefährlich ist linke Gewalt?"
 subtitle: "Linksextreme Straftaten in Deutschland: Fakten und Einordnung"
 verdict: complex
 claim: "Linke Gewalt ist genauso schlimm wie rechte Gewalt."
+summary: "Linksextreme Gewalt existiert und muss verfolgt werden, eine Gleichsetzung mit rechter Gewalt ist aber durch die Daten nicht gedeckt. Rechte Straftaten, Gewalttaten, Todesopfer und organisierte terroristische Strukturen liegen in Deutschland deutlich über den linken Vergleichswerten."
+keyEvidence:
+  - "Das BKA erfasste 2024 rund 5.857 linksextreme Straftaten, aber 42.788 rechts motivierte Straftaten."
+  - "Die Zahl linksextremer Gewalttaten sank 2024 auf 532, während rechts motivierte Gewalttaten bei 1.488 lagen."
+  - "Seit 1990 werden vier Todesopfer linksextremer Gewalt genannt, gegenüber mindestens 219 Todesopfern rechter Gewalt nach Dokumentation der Amadeu Antonio Stiftung."
+  - "Der Generalbundesanwalt sah 2024 keinen linksextremen Terrorismus in Deutschland, während rechtsextreme Terrorverfahren laufen."
+primarySources:
+  - label: "BKA: PMK-Fallzahlen 2024"
+    code: bka-pmk-zahlen-2024
+  - label: "Verfassungsschutzbericht 2024 zu Linksextremismus"
+    code: verfassungsschutz-vsb-linksextremismus-2024
+  - label: "Verfassungsschutzbericht 2024 zu Rechtsextremismus"
+    code: verfassungsschutz-vsb-rechtsextremismus-2024
+  - label: "Amadeu Antonio Stiftung: Todesopfer rechter Gewalt"
+    code: amadeu-antonio-todesopfer-rechter-gewalt
+  - label: "Bundeszentrale für politische Bildung zum Vergleich links- und rechtsextremistischer Straftaten"
+    code: bpb-links-rechts-straftaten-vergleich
 authors: ['patrick-cornelissen']
 tags:
   - Linksextremismus
   - Gewalt
   - Die Linke
   - Antifaschismus
-description: "Linksextreme Gewalt existiert und wird statistisch erfasst. In Umfang, Systematik und Todeszahlen unterscheidet sie sich aber fundamental von rechtsextremer Gewalt."
+description: "Linksextreme Gewalt existiert und muss verfolgt werden, ist aber nicht einfach mit rechter Gewalt gleichzusetzen. Der Faktencheck vergleicht offizielle PMK-Zahlen, Gewalttaten, Todesopfer, Organisationsformen und Terrorverfahren und zeigt, warum die 'beide Seiten gleich schlimm'-Erzählung wichtige Unterschiede verdeckt. Die wichtigsten Belege stehen direkt am Anfang."
 ---
 
 ## Behauptung

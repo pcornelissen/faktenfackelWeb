@@ -1,12 +1,27 @@
 ---
 publishedOn: 2025-12-12
-date: 2026-04-20
+date: 2026-04-28
 title: Kriminalität bei Ausländern und Deutschen
 subtitle: Widersprüche, Probleme und Fakten
-description: "Die Kriminalstatistik zeigt Unterschiede zwischen Deutschen und Ausländern, doch pauschale Schlüsse über 'kriminelle Ausländer' sind methodisch unzulässig."
+description: "Die Polizeiliche Kriminalstatistik zeigt höhere Tatverdächtigenquoten bei Nichtdeutschen, erlaubt aber keine pauschale Aussage über 'kriminelle Ausländer'. Der Faktencheck erklärt, warum Tatverdächtige keine verurteilten Täter sind und warum Alter, Geschlecht, Wohnort, Aufenthaltsstatus, Kontrolldichte und soziale Lage Rohvergleiche verzerren. Die wichtigsten Belege stehen direkt am Anfang."
 authors: ['patrick-cornelissen']
 verdict: misleading
 claim: "Ausländische Mitbürger sind überdurchschnittlich für Kriminalität in Deutschland verantwortlich."
+summary: "Die PKS zeigt höhere Tatverdächtigenquoten bei Nichtdeutschen, erlaubt aber keine pauschale Aussage über 'kriminelle Ausländer'. Die Statistik zählt Tatverdächtige, nicht verurteilte Täter, und Rohvergleiche verzerren durch Alter, Geschlecht, Aufenthaltsstatus, Wohnort, Kontrollpraxis und soziale Lage."
+keyEvidence:
+  - "Die PKS erfasst Tatverdächtige, nicht verurteilte Täter; rund 42 Prozent der erkannten Taten wurden 2025 nicht aufgeklärt."
+  - "Ausländer sind in der deutschen Bevölkerung jünger und leben häufiger in Ballungsräumen, beides beeinflusst Tatverdächtigenquoten unabhängig von Herkunft."
+  - "Selbst in der am stärksten belasteten Altersgruppe werden deutlich mehr als 80 Prozent nicht als tatverdächtig erfasst."
+  - "Das ifo Institut stützt die Einordnung, dass Rohdaten ohne Kontrolle sozialer und demografischer Faktoren irreführend sind."
+primarySources:
+  - label: "BKA: Polizeiliche Kriminalstatistik 2024"
+    code: bka-kriminalstatistik-2024
+  - label: "Destatis: Bevölkerungsstruktur 2024"
+    code: destatis-bevölkerung-2024
+  - label: "BKA: Tatverdächtige nach Alter und Geschlecht"
+    code: bka-kriminalstatistik-excel-tatverdächtige-2024
+  - label: "ifo Institut: Migration und Kriminalität"
+    code: ifo-migration-kriminalität-2025
 tags:
   - Migranten
   - Kriminalität

@@ -9,7 +9,7 @@ await definePageData({
   title: 'Glossar: Politik und Faktencheck | Faktenfackel',
   pageHeading: 'Faktenfackel - Glossar',
   pageSubHeading: 'Das kleine Lexikon für zwischendurch',
-  description: 'Das Faktenfackel-Glossar erklärt wichtige Begriffe aus Politik, Medien und Faktencheck-Kontext kurz und verständlich.',
+  description: 'Das Faktenfackel-Glossar erklärt Begriffe aus Politik, Medien, Statistik und Faktenchecks verständlich, mit Kontext für Recherche und Einordnung.',
 })
 
 defineOgImage('Default', { title: 'Begriffe aus Politik und Faktencheck', label: 'GLOSSAR' })
@@ -34,7 +34,7 @@ useHead({
         '@type': 'DefinedTermSet',
         'name': 'Faktenfackel Glossar',
         'url': `${siteUrl}/glossar/`,
-        'description': 'Das Faktenfackel-Glossar erklärt wichtige Begriffe aus Politik, Medien und Faktencheck-Kontext kurz und verständlich.',
+        'description': 'Das Faktenfackel-Glossar erklärt Begriffe aus Politik, Medien, Statistik und Faktenchecks verständlich, mit Kontext für Recherche und Einordnung.',
         'hasDefinedTerm': list.map(item => ({
           '@type': 'DefinedTerm',
           'name': item.subject || item.title,

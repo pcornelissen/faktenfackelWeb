@@ -1,11 +1,25 @@
 ---
 publishedOn: 2025-12-12
-date: 2026-01-16
+date: 2026-04-28
 title: Migranten arbeiten nicht?
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
-description: "Viele Migranten und Geflüchtete wollen arbeiten, stoßen aber auf rechtliche Hürden, Wartezeiten und Bürokratie. Die pauschale Behauptung ist durch Daten nicht gedeckt."
+description: "Die Behauptung, Migranten und Geflüchtete wollten nicht arbeiten, ist durch Arbeitsmarkt- und Integrationsdaten nicht gedeckt. Viele dürfen zunächst gar nicht oder nur mit Genehmigung arbeiten. Wartezeiten, Bürokratie, Sprachkurse, Anerkennungsverfahren und unsichere Aufenthaltsstatus bremsen den Einstieg deutlich. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: false
 claim: "Migranten und Geflüchtete wollen in Deutschland nicht arbeiten und leben lieber von Sozialleistungen."
+summary: "Die pauschale Behauptung ist durch die vorhandenen Daten nicht gedeckt. Viele Geflüchtete und Zugewanderte wollen arbeiten oder arbeiten bereits, werden aber durch Aufenthaltsstatus, Wartezeiten, Arbeitserlaubnisse, Behördenverfahren, Anerkennung von Abschlüssen und Sprachhürden gebremst."
+keyEvidence:
+  - "Arbeitsmarktberichte und Integrationsdaten zeigen Arbeitswillen und zunehmende Erwerbstätigkeit unter Geflüchteten."
+  - "Asylsuchende und Geduldete dürfen häufig nicht sofort arbeiten, sondern brauchen je nach Status Wartezeit, Erlaubnis und teilweise Zustimmung der Bundesagentur für Arbeit."
+  - "Typische Integrationshürden sind lange Verfahren, Anerkennung ausländischer Abschlüsse, Sprachkurse, Bürokratie und unsichere Aufenthaltsstatus."
+primarySources:
+  - label: "Bundesagentur für Arbeit: Arbeitsmarktbericht zu Menschen mit Migrationshintergrund"
+    code: bfa-arbeitsmarktbericht-migranten-2025
+  - label: "Mediendienst Integration: Geflüchtete in Arbeit"
+    code: mdintegration-flüchtlinge-in-arbeit
+  - label: "BMAS: Arbeitsmarktzugang für Geflüchtete"
+    code: bmas-arbeitsmarktzugang-geflüchtete
+  - label: "Institut für Arbeitsmarkt- und Berufsforschung zur Arbeitsmarktintegration Geflüchteter"
+    code: iab-arbeitsmarktintegration-gefluechteten
 authors: ['patrick-cornelissen']
 tags:
   - Migranten

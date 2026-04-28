@@ -1,7 +1,7 @@
 ---
 title: Perspektiven
 subtitle: Unsere Perspektive auf Themen
-description: In diesem Bereich findest du unsere Perspektiven zu verschiedenen Themen.
+description: "Einordnungen und Dossiers zu politischen Debatten, Desinformation, AfD, Medienframes und gesellschaftlichen Konflikten, jeweils mit Quellenbezug."
 icon: feedback
 iconTxt: Freepik Icon von Good Ware
 date: 1970-01-01

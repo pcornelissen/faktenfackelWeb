@@ -27,6 +27,9 @@ export type SourceLink = {
 type PageWithCodes = {
   referenceCodes?: string[]
   quoteCodes?: string[]
+  primarySources?: {
+    code?: string
+  }[]
 }
 
 type ReferencesStore = ReturnType<typeof createReferencesStore>
@@ -70,7 +73,10 @@ function createReferencesStore() {
       }
     },
     async fetchFor(page: PageWithCodes | null | undefined) {
-      const referenceCodes = page?.referenceCodes || []
+      const referenceCodes = [
+        ...(page?.referenceCodes || []),
+        ...(page?.primarySources || []).map(source => source.code).filter((code): code is string => Boolean(code)),
+      ]
       const quoteCodes = page?.quoteCodes || []
       const sourceLinks: SourceLink[] = referenceCodes.length
         ? await queryCollection('quellenlinks')

@@ -9,7 +9,7 @@ await definePageData({
   title: 'Faktenchecks: Geprüfte Behauptungen | Faktenfackel',
   pageHeading: 'Faktenfackel - Faktenchecks',
   pageSubHeading: 'Themenbereiche',
-  description: 'Geprüfte Behauptungen aus Politik und Gesellschaft mit klarem Urteil und belastbaren Quellen, von Faktenfackel.',
+  description: 'Faktenchecks zu Politik, Gesellschaft, Migration, Klima und Desinformation: geprüfte Behauptungen mit klarem Urteil, Quellen und nachvollziehbarer Einordnung.',
 })
 
 defineOgImage('Default', { title: 'Geprüfte Behauptungen', label: 'FAKTENCHECKS' })

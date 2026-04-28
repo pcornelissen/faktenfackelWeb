@@ -1,11 +1,26 @@
 ---
 publishedOn: 2025-12-11
-date: 2025-12-11
+date: 2026-04-28
 title: War die Reaktion der Polizei in Gießen gerechtfertigt?
 subtitle: Was die bisher bekannten Videos und Berichte zum Polizeieinsatz zeigen
-description: "Wie hart darf die Polizei gegen Demonstrierende vorgehen? Der Faktencheck prüft die Verhältnismäßigkeit des Einsatzes gegen Gegendemonstranten in Gießen."
+description: "Die Videos aus Gießen begründen erhebliche Zweifel an einzelnen Polizeieinsätzen, erlauben aber keine abschließende Bewertung jeder Maßnahme. Der Faktencheck ordnet bekannte Aufnahmen, Polizeiberichte, friedliche Protestanteile und Falschmeldungen ein und erklärt, warum die Gesamtlage differenziert betrachtet werden muss. Die wichtigsten Belege stehen direkt am Anfang."
 verdict: complex
 claim: "Die Polizei hat in Gießen unverhältnismäßige Gewalt gegen Demonstrierende eingesetzt."
+summary: "Die öffentlich bekannten Videos und Berichte begründen erhebliche Zweifel an einzelnen Polizeieinsätzen, reichen aber nicht für eine abschließende juristische Bewertung jeder Maßnahme. Belastbar ist: Der Protest verlief insgesamt überwiegend friedlich, während einzelne dokumentierte Einsätze abrupt und hart wirkten."
+keyEvidence:
+  - "Die Polizei selbst meldete, dass die Demonstration insgesamt überwiegend friedlich verlaufen sei."
+  - "Im Brückenvideo sind Schläge und ein geschlossenes Vorrücken der Polizei erkennbar, aber keine für alle Beteiligten klar erkennbare Vorwarnung."
+  - "Kurze Social-Media-Ausschnitte zeigen wichtige Hinweise, ersetzen aber keine vollständige Rekonstruktion mit Einsatzprotokollen und weiterem Material."
+  - "Die Behauptung, ein Polizeipferd sei durch Demonstrierende schwer verletzt oder getötet worden, wurde durch die Polizei selbst widerlegt."
+primarySources:
+  - label: "Polizei Gießen: Pressemitteilung zum Protesttag"
+    code: presseportal-blaulicht-gießen-2025
+  - label: "Hessenschau zur Videosequenz an der Brücke"
+    code: hessenschau-gießen-2025
+  - label: "Verfassungsschutz-Zahlen 2024 zu Linksextremismus"
+    code: verfassungsschutz-linksextremismus-zahlen-2024
+  - label: "Bundespolizei Koblenz zum gestürzten Polizeipferd"
+    url: "https://x.com/bpol_koblenz/status/1994771899776208902"
 authors: ['patrick-cornelissen']
 tags:
   - AfD
