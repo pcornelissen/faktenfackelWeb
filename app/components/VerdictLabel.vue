@@ -1,6 +1,8 @@
 <script setup lang="ts">
-const { type, to } = defineProps<{
-  type: 'false' | 'misleading' | 'complex' | 'true'
+type VerdictType = 'false' | 'misleading' | 'complex' | 'true'
+
+const props = defineProps<{
+  type?: VerdictType | null
   to?: string
 }>()
 
@@ -17,25 +19,27 @@ const textLabels: Record<string, string> = {
   complex: 'Komplex',
   true: 'Wahr',
 }
+
+const verdictType = computed(() => props.type && textLabels[props.type] ? props.type : null)
 </script>
 
 <template>
   <NuxtLink
-    v-if="to"
-    :to="to"
-    :title="`Wie kommt das Urteil ${textLabels[type]} zustande?`"
-    :aria-label="`Urteil ${textLabels[type]}: Bewertungsmaßstab öffnen`"
+    v-if="verdictType && props.to"
+    :to="props.to"
+    :title="`Wie kommt das Urteil ${textLabels[verdictType]} zustande?`"
+    :aria-label="`Urteil ${textLabels[verdictType]}: Bewertungsmaßstab öffnen`"
     class="verdict verdict-link"
-    :class="`verdict-${type}`"
+    :class="`verdict-${verdictType}`"
   >
-    <span aria-hidden="true">{{ symbols[type] }}</span> {{ textLabels[type] }}
+    <span aria-hidden="true">{{ symbols[verdictType] }}</span> {{ textLabels[verdictType] }}
   </NuxtLink>
   <span
-    v-else
+    v-else-if="verdictType"
     class="verdict"
-    :class="`verdict-${type}`"
+    :class="`verdict-${verdictType}`"
   >
-    <span aria-hidden="true">{{ symbols[type] }}</span> {{ textLabels[type] }}
+    <span aria-hidden="true">{{ symbols[verdictType] }}</span> {{ textLabels[verdictType] }}
   </span>
 </template>
 

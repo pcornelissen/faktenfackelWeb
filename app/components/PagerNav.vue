@@ -94,7 +94,7 @@ const visiblePages = computed<(number | null)[]>(() => {
   align-items: center;
   justify-content: center;
   min-width: 32px;
-  height: 32px;
+  min-height: 44px;
   padding: 0 6px;
   border: 1px solid var(--fackel-border);
   border-radius: 3px;
@@ -108,8 +108,8 @@ const visiblePages = computed<(number | null)[]>(() => {
 }
 
 .pager-btn:hover:not(:disabled) {
-  color: var(--flame);
-  border-color: var(--flame);
+  color: var(--flame-text);
+  border-color: var(--flame-text);
 }
 
 .pager-btn:disabled {
@@ -120,7 +120,8 @@ const visiblePages = computed<(number | null)[]>(() => {
 .pager-num--active {
   background: var(--flame);
   border-color: var(--flame);
-  color: white !important;
+  color: var(--on-flame) !important;
+  font-weight: 700;
 }
 
 .pager-ellipsis {
@@ -128,7 +129,7 @@ const visiblePages = computed<(number | null)[]>(() => {
   align-items: center;
   justify-content: center;
   min-width: 32px;
-  height: 32px;
+  height: 44px;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 0.78rem;
   color: var(--muted);

@@ -24,10 +24,11 @@ defineProps<{ to: string }>()
   font-size: 0.78rem;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--ember);
+  color: var(--ember-text);
   text-decoration: none;
   margin-bottom: 2rem;
   padding: 0.6rem 0.9rem 0.6rem 0.75rem;
+  min-height: 44px;
   border: 1px solid var(--fackel-border);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.88);
@@ -35,8 +36,8 @@ defineProps<{ to: string }>()
 }
 
 .back-link:hover {
-  color: var(--flame);
-  border-color: var(--flame);
+  color: var(--flame-text);
+  border-color: var(--flame-text);
   transform: translateX(-2px);
 }
 

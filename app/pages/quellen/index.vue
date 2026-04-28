@@ -301,8 +301,9 @@ const filtered = computed(() => {
 
 .filter-active {
   background-color: var(--flame) !important;
-  color: white !important;
+  color: var(--on-flame) !important;
   border-color: var(--flame) !important;
+  font-weight: 700;
 }
 
 .loading {

@@ -219,7 +219,7 @@ const totalCount = computed(
 /* ── BUTTONS ── */
 .btn-primary {
   background: var(--flame);
-  color: white;
+  color: var(--on-flame);
   padding: 0.95rem 1.3rem;
   border-radius: 999px;
   text-decoration: none;
@@ -227,14 +227,14 @@ const totalCount = computed(
   font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   transition: background 0.2s, transform 0.1s;
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 
-.btn-primary:hover { background: var(--flame); filter: brightness(0.88); transform: translateY(-1px); }
+.btn-primary:hover { background: #FF9D4D; filter: none; transform: translateY(-1px); }
 
 .btn-secondary {
   background: transparent;

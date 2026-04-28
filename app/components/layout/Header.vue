@@ -28,6 +28,7 @@ function isActive(href: string) {
       <NuxtLink
         to="/"
         class="nav-logo"
+        aria-label="Zur Startseite von Faktenfackel"
       >
         <NuxtImg
           src="/img/logo-sm.webp"
@@ -105,6 +106,8 @@ function isActive(href: string) {
   gap: 10px;
   text-decoration: none;
   flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .logo-img {
@@ -148,6 +151,8 @@ function isActive(href: string) {
   gap: 5px;
   width: 38px;
   height: 38px;
+  min-width: 44px;
+  min-height: 44px;
   background: none;
   border: 1px solid #3D3530;
   border-radius: 999px;
@@ -258,7 +263,7 @@ function isActive(href: string) {
   }
 
   .search-wrap :deep(button) {
-    min-height: 34px;
+    min-height: 44px;
     padding-left: 0.72rem;
     padding-right: 0.72rem;
     font-size: 0.72rem;
@@ -300,7 +305,7 @@ function isActive(href: string) {
   }
 
   .search-wrap :deep(button) {
-    min-height: 32px;
+    min-height: 44px;
     padding-left: 0.62rem;
     padding-right: 0.62rem;
     font-size: 0.68rem;

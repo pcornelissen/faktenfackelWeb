@@ -128,7 +128,7 @@ const pillars = [
   font-size: 0.74rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: var(--flame);
+  color: var(--flame-text);
   font-weight: 600;
   margin-top: 0.1rem;
 }
@@ -153,7 +153,7 @@ const pillars = [
 .pillar-cta {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 0.78rem;
-  color: var(--ember);
+  color: var(--ember-text);
   margin-top: auto;
   padding-top: 1rem;
   border-top: 1px solid var(--fackel-border);
@@ -166,7 +166,7 @@ const pillars = [
 }
 
 .pillar-cta :deep(span) {
-  color: var(--flame);
+  color: var(--flame-text);
   flex-shrink: 0;
 }
 

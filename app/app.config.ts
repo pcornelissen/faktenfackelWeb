@@ -6,7 +6,7 @@ export default defineAppConfig({
     },
     contentSearchButton: {
       slots: {
-        base: 'font-mono text-[0.78rem] uppercase tracking-[0.1em] text-[#D1C5B7] border border-[#4B4038] rounded-full px-3.5 py-2 hover:text-[var(--flame)] hover:border-[var(--flame)] transition-colors bg-transparent gap-1.5',
+        base: 'font-mono min-h-11 text-[0.78rem] uppercase tracking-[0.1em] text-[#D1C5B7] border border-[#4B4038] rounded-full px-3.5 py-2 hover:text-[var(--flame)] hover:border-[var(--flame)] transition-colors bg-transparent gap-1.5',
         label: 'font-mono',
         leadingIcon: 'text-[var(--flame)] size-3.5',
       },
@@ -20,8 +20,8 @@ export default defineAppConfig({
       slots: {
         root: 'bg-[var(--paper)]',
         input: 'bg-[var(--ash)] [&_input]:bg-transparent [&_input]:text-[var(--paper)] [&_input]:placeholder:text-[#A89880]',
-        close: 'text-[var(--flame)] hover:text-[var(--ember)]',
-        label: 'font-mono text-[0.65rem] uppercase tracking-[0.1em] text-[var(--flame)] px-3 py-1',
+        close: 'min-h-11 min-w-11 text-[var(--flame-text)] hover:text-[var(--ember-text)]',
+        label: 'font-mono text-[0.65rem] uppercase tracking-[0.1em] text-[var(--flame-text)] px-3 py-1',
         item: 'data-highlighted:before:bg-[var(--fackel-border)]/40',
         itemLabelBase: 'text-[var(--ink)] font-medium',
         itemLabelSuffix: 'text-[var(--muted)]',

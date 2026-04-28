@@ -121,7 +121,7 @@ defineOgImage('Default', {
 /* ── BUTTONS ── */
 .btn-primary {
   background: var(--flame);
-  color: white;
+  color: var(--on-flame);
   padding: 10px 20px;
   border-radius: 3px;
   text-decoration: none;
@@ -129,14 +129,14 @@ defineOgImage('Default', {
   font-size: 0.75rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   transition: background 0.2s, transform 0.1s;
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 
-.btn-primary:hover { background: var(--flame); filter: brightness(0.88); transform: translateY(-1px); }
+.btn-primary:hover { background: #FF9D4D; filter: none; transform: translateY(-1px); }
 
 .btn-small { font-size: 0.68rem; padding: 8px 16px; }
 
@@ -303,7 +303,7 @@ defineOgImage('Default', {
 
 .btn-primary {
   background: var(--flame);
-  color: white;
+  color: var(--on-flame);
   padding: 0.85rem 1.1rem;
   border-radius: 999px;
   text-decoration: none;
@@ -311,14 +311,14 @@ defineOgImage('Default', {
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   transition: background 0.2s, transform 0.1s;
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 
-.btn-primary:hover { background: var(--flame); filter: brightness(0.9); transform: translateY(-1px); }
+.btn-primary:hover { background: #FF9D4D; filter: none; transform: translateY(-1px); }
 
 .btn-small {
   width: fit-content;

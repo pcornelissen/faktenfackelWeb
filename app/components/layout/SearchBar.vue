@@ -1,15 +1,39 @@
 <script setup lang="ts">
-const { data: searchData } = useLazyAsyncData(
+import type { ContentNavigationItem } from '@nuxt/content'
+
+type ContentSearchFile = {
+  id: string
+  title: string
+  titles: string[]
+  level: number
+  content: string
+}
+
+type SearchPayload = {
+  navigation: ContentNavigationItem[]
+  files: ContentSearchFile[]
+  frontMatter: Record<string, string>
+}
+
+const {
+  data: searchData,
+  execute: executeSearch,
+  status: searchStatus,
+} = await useAsyncData<SearchPayload>(
   'search-payload',
   () => $fetch('/api/search'),
-  { server: false },
+  {
+    server: false,
+    immediate: false,
+    default: () => ({ navigation: [], files: [], frontMatter: {} }),
+  },
 )
 
 const navigation = computed(() => searchData.value?.navigation ?? [])
 const files = computed(() => searchData.value?.files ?? [])
 const frontMatterMap = computed(() => searchData.value?.frontMatter ?? {})
 
-const enrichedFiles = computed(() => {
+const enrichedFiles = computed<ContentSearchFile[]>(() => {
   const fm = frontMatterMap.value
   return files.value.map((section) => {
     if (section.titles.length > 0) return section
@@ -21,14 +45,25 @@ const enrichedFiles = computed(() => {
 })
 
 const searchTerm = ref('')
+
+function loadSearchData() {
+  if (searchStatus.value === 'idle') {
+    executeSearch()
+  }
+}
 </script>
 
 <template>
-  <UContentSearchButton
-    :collapsed="false"
-    label="&nbsp;&nbsp;Suchen&nbsp;&nbsp;&nbsp;"
-    :kbds="[]"
-  />
+  <div
+    @pointerdown.capture="loadSearchData"
+    @focusin="loadSearchData"
+  >
+    <UContentSearchButton
+      :collapsed="false"
+      label="&nbsp;&nbsp;Suchen&nbsp;&nbsp;&nbsp;"
+      :kbds="[]"
+    />
+  </div>
 
   <UContentSearch
     v-model:search-term="searchTerm"

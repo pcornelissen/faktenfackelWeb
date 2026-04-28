@@ -130,7 +130,7 @@ await referencesStore.fetchFor(page.value)
             {{ page.subtitle }}
           </p>
           <VerdictLabel
-            v-if="page.verdict !== undefined"
+            v-if="page.verdict"
             :type="page.verdict"
             to="/bewertungsmasstab/"
             class="article-verdict"
