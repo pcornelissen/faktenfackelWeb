@@ -369,6 +369,20 @@ export default defineEventHandler((event) => {
     url = event.path
   }
 
+  const canonicalContentIndexPaths = new Set([
+    '/faktenchecks/',
+    '/lagerfeuer/',
+    '/glossar/',
+    '/quellen/',
+    '/zitate/',
+    '/news/',
+    '/themen/',
+  ])
+  const contentPrefixMatch = url.match(/^\/(faktenchecks|lagerfeuer|glossar|quellen|zitate|news|themen)\//)
+  if (contentPrefixMatch && url.endsWith('/') && !canonicalContentIndexPaths.has(url)) {
+    return sendRedirect(event, url.slice(0, -1), 301)
+  }
+
   // 1. Exact link redirects (highest priority)
   const linkTarget = linkRedirects[url]
   if (linkTarget) {

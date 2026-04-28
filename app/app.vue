@@ -10,8 +10,7 @@ const image = computed(() => (route.meta.image as string) || '/img/logo.webp')
 const { url: siteUrl } = useSiteConfig()
 const canonicalPath = computed(() => {
   const p = route.path
-  if (p === '/' || p.endsWith('/')) return p
-  return `${p}/`
+  return p
 })
 const absoluteImage = computed(() => {
   const src = image.value
