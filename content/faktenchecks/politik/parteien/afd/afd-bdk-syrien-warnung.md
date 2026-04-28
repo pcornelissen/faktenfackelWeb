@@ -3,7 +3,7 @@ publishedOn: 2026-04-15
 date: 2026-04-28
 title: Hat die AfD "schon immer" vor islamistischer Gewalt gegen Minderheiten gewarnt?
 subtitle: Wie eine echte BDK-Warnung zur AfD-Propaganda wird
-description: "Die AfD deutet eine reale BDK-Warnung vor islamistischer Gewalt gegen syrische Minderheiten als Bestätigung ihrer Migrationspolitik. Der Faktencheck zeigt, warum das irreführend ist: Der BDK warnte vor einer spezifischen Bedrohung für Drusen, Alawiten und Kurden, nicht vor Migration insgesamt. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Die AfD nutzt eine reale BDK-Warnung vor islamistischer Gewalt gegen Drusen, Alawiten und Kurden, um ihre pauschale Migrationspolitik zu rechtfertigen."
 verdict: misleading
 claim: "Die AfD hat schon immer vor islamistischer Gewalt gegen Minderheiten gewarnt."
 claimAuthor: "AfD"

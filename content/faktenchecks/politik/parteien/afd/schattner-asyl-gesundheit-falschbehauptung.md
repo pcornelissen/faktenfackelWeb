@@ -3,7 +3,7 @@ publishedOn: 2026-04-22
 date: 2026-04-28
 title: "AfD-MdB Schattner: 'Gratis-Kasse für Asylbewerber' und abgeschaffte Familienversicherung"
 subtitle: Wie die AfD echte Reformdebatten mit falschen Migrationsbehauptungen verknüpft
-description: "Bernd Schattner behauptet, die Familienversicherung werde abgeschafft, während Asylbewerber sofort volle Gesundheitsleistungen bekämen. Der Faktencheck zeigt: Beides ist falsch. Die Familienversicherung soll nur für bestimmte Gruppen angepasst werden, und Asylbewerber erhalten in den ersten 36 Monaten nur eingeschränkte Leistungen. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Bernd Schattner behauptet, die Familienversicherung werde abgeschafft und Asylbewerber bekämen sofort volle Gesundheitsleistungen. Beides ist falsch."
 verdict: false
 claim: "Die Familienversicherung wird abgeschafft, während Asylbewerber sofort nach ihrer Ankunft alle Gesundheitsleistungen vom Staat finanziert bekommen."
 claimAuthor: "Bernd Schattner (AfD)"

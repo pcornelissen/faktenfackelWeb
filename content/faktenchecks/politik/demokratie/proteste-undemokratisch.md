@@ -3,7 +3,7 @@ publishedOn: 2025-12-03
 date: 2026-04-28
 title: Proteste gegen die AfD sind undemokratisch
 subtitle: Warum Gegenprotest demokratisch geschützt ist
-description: "Die Behauptung, Proteste gegen die AfD seien undemokratisch, verdreht demokratische Grundrechte. Der Faktencheck erklärt, warum Gegenprotest durch Meinungs- und Versammlungsfreiheit geschützt ist, wann Protest Grenzen hat und warum öffentliche Kritik die Meinungsfreiheit einer Partei nicht automatisch einschränkt. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Proteste gegen die AfD seien undemokratisch, heißt es oft. Tatsächlich schützen Meinungs- und Versammlungsfreiheit den Gegenprotest, mit klaren Grenzen."
 verdict: false
 claim: "Proteste gegen die AfD sind undemokratisch und schränken die Meinungsfreiheit der AfD ein."
 summary: "Gegenprotest ist nicht undemokratisch, sondern durch Meinungs- und Versammlungsfreiheit geschützt. Die AfD darf ihre Positionen äußern, aber andere Bürger dürfen diesen Positionen öffentlich widersprechen, solange Proteste friedlich bleiben und rechtliche Grenzen einhalten."

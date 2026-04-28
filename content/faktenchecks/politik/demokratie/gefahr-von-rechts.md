@@ -27,7 +27,7 @@ tags:
   - Rechte Gewalt
   - AfD
   - Gewalt
-description: "Die Behauptung, es gebe keine ernsthafte Gefahr von rechts, widerspricht offiziellen Statistiken, Gerichtsverfahren und Opferdokumentationen. Der Faktencheck zeigt BKA-Zahlen, laufende Terrorprozesse, dokumentierte Anschläge und Todesopfer rechter Gewalt und erklärt, warum Relativierungen die belegte Bedrohungslage ausblenden. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Es gebe keine Gefahr von rechts, heißt es oft. BKA-Zahlen, laufende Terrorprozesse und Opferdokumentationen zeigen das Gegenteil. Belege im Überblick."
 ---
 
 ## Behauptung

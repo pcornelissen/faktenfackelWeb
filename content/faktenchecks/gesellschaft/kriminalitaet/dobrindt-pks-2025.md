@@ -3,7 +3,7 @@ publishedOn: 2026-04-20
 date: 2026-04-28
 title: "Dobrindts PKS-Framing 2026"
 subtitle: "Migration trotz sinkender Kriminalität als Problem inszeniert"
-description: "Alexander Dobrindt nutzte die PKS 2025, um Migration als Kernproblem der Kriminalität zu rahmen, obwohl Gesamtkriminalität und Tatverdächtige unter Zuwanderern zurückgingen. Der Faktencheck zeigt, welche Zahlen stimmen, welcher Kontext fehlt und warum Rohwerte ohne Demografie, Wohnort, Kontrolldelikte und Anzeigeverhalten irreführen."
+description: "Dobrindt inszeniert Migration als Kriminalitätsproblem, obwohl Gesamtkriminalität und Tatverdächtige unter Zuwanderern zurückgehen. Was die Zahlen sagen."
 verdict: misleading
 claim: "Migration ist ein Kern-Erklärfaktor für Kriminalität in Deutschland und es gibt eine erhebliche Überrepräsentanz von Ausländern in der Kriminalstatistik."
 claimAuthor: "Alexander Dobrindt (CSU)"

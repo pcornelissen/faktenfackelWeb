@@ -3,7 +3,7 @@ publishedOn: 2026-04-07
 date: 2026-04-07
 title: "Wer gewinnt, wer verliert"
 subtitle: "Eine Untersuchung der Mechanismen, die Ungleichheit in Deutschland systematisch produzieren"
-description: "Wirtschaftliche Ungleichheit in Deutschland ist kein Naturgesetz. Sie ist das Ergebnis konkreter politischer Entscheidungen über Jahrzehnte. Diese Serie untersucht neun Achsen, von Steuerpolitik über Medienkonzentration bis zu Privatisierung und Prekarisierung."
+description: "Wirtschaftliche Ungleichheit in Deutschland ist das Ergebnis konkreter politischer Entscheidungen. Die Serie untersucht die Mechanismen Achse für Achse."
 authors: ['patrick-cornelissen']
 tags:
   - Wirtschaft

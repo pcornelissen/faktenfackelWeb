@@ -3,7 +3,7 @@ publishedOn: 2026-04-05
 date: 2026-04-28
 title: "\"Merz leck Eier\", darf man das sagen?"
 subtitle: Was Meinungsfreiheit und Strafrecht dazu sagen
-description: "Die Parole 'Merz leck Eier' ist derb, aber nicht automatisch strafbar. Der Faktencheck erklärt, wie Meinungsfreiheit, Beleidigung, §188 StGB und die enge Rechtsprechung zu Schmähkritik zusammenspielen und warum politische Zuspitzungen immer im konkreten Kontext bewertet werden müssen. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Die Parole 'Merz leck Eier' ist derb, aber nicht automatisch strafbar. Wie Meinungsfreiheit, Beleidigung und §188 StGB im konkreten Kontext zusammenspielen."
 verdict: complex
 claim: "'Merz leck Eier' auf einem Demoplakat ist eine strafbare Beleidigung und nicht von der Meinungsfreiheit gedeckt."
 summary: "Ob die Parole strafbar ist, lässt sich nicht allein aus ihrer Derbheit ableiten. Bei politischer Zuspitzung muss zwischen Beleidigung, Schmähkritik und geschützter Meinungsäußerung abgewogen werden; das Bundesverfassungsgericht legt den Ausnahmefall Schmähkritik eng aus."

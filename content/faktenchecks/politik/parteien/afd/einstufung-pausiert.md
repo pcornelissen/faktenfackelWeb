@@ -3,7 +3,7 @@ publishedOn: 2025-12-03
 date: 2026-04-28
 title: Verfassungsschutz pausiert die Einstufung der AfD als rechtsextrem
 subtitle: Was die Stillhaltezusage juristisch bedeutet
-description: "Die pausierte AfD-Einstufung wird häufig als Rücknahme oder Freispruch gedeutet. Der Faktencheck erklärt, warum Stillhaltezusage und Eilverfahren vor allem den Status quo während des Rechtsstreits sichern und warum der bestätigte Verdachtsfall sowie die dokumentierten Anhaltspunkte dadurch nicht verschwinden. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Die pausierte AfD-Einstufung ist keine Rücknahme. Stillhaltezusage und Eilverfahren sichern den Status quo, der bestätigte Verdachtsfall bleibt bestehen."
 verdict: misleading
 claim: "Der Verfassungsschutz hat die Einstufung der AfD als gesichert rechtsextrem zurückgenommen."
 summary: "Die Stillhaltezusage und die spätere gerichtliche Aussetzung sind kein inhaltlicher Freispruch für die AfD. Sie pausieren die rechtlichen Folgen der Einstufung während des laufenden Verfahrens, lassen den bestätigten Verdachtsfall und die zugrunde liegenden Anhaltspunkte aber nicht verschwinden."

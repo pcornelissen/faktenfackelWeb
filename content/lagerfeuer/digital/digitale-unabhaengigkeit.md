@@ -3,7 +3,7 @@ publishedOn: 2026-04-12
 date: 2026-04-12
 title: "Digitale Unabhängigkeit"
 subtitle: "Schritt für Schritt raus aus der Abhängigkeit von Big Tech"
-description: "Google, Apple, Meta und Amazon bestimmen unseren digitalen Alltag. Das muss nicht so bleiben. Diese Serie zeigt praktische Alternativen, einen Schritt nach dem anderen, ohne Missionierung."
+description: "Google, Apple, Meta und Amazon dominieren den digitalen Alltag. Die Serie zeigt praktische Alternativen, ohne Missionierung, Schritt für Schritt."
 authors: ['patrick-cornelissen']
 tags:
   - Digital

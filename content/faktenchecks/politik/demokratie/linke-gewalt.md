@@ -28,7 +28,7 @@ tags:
   - Gewalt
   - Die Linke
   - Antifaschismus
-description: "Linksextreme Gewalt existiert und muss verfolgt werden, ist aber nicht einfach mit rechter Gewalt gleichzusetzen. Der Faktencheck vergleicht offizielle PMK-Zahlen, Gewalttaten, Todesopfer, Organisationsformen und Terrorverfahren und zeigt, warum die 'beide Seiten gleich schlimm'-Erzählung wichtige Unterschiede verdeckt. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Linke Gewalt existiert, ist aber nicht mit rechter Gewalt gleichzusetzen. Ein Vergleich von PMK-Zahlen, Gewalttaten, Todesopfern und Organisationsformen."
 ---
 
 ## Behauptung

@@ -3,7 +3,7 @@ publishedOn: 2025-12-12
 date: 2026-04-28
 title: Kriminalität bei Ausländern und Deutschen
 subtitle: Widersprüche, Probleme und Fakten
-description: "Die Polizeiliche Kriminalstatistik zeigt höhere Tatverdächtigenquoten bei Nichtdeutschen, erlaubt aber keine pauschale Aussage über 'kriminelle Ausländer'. Der Faktencheck erklärt, warum Tatverdächtige keine verurteilten Täter sind und warum Alter, Geschlecht, Wohnort, Aufenthaltsstatus, Kontrolldichte und soziale Lage Rohvergleiche verzerren. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Höhere Tatverdächtigenquoten bei Nichtdeutschen belegen nicht das Bild 'krimineller Ausländer'. Alter, Wohnort und Anzeigeverhalten verzerren die Statistik."
 authors: ['patrick-cornelissen']
 verdict: misleading
 claim: "Ausländische Mitbürger sind überdurchschnittlich für Kriminalität in Deutschland verantwortlich."

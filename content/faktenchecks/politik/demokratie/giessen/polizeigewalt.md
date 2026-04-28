@@ -3,7 +3,7 @@ publishedOn: 2025-12-11
 date: 2026-04-28
 title: War die Reaktion der Polizei in Gießen gerechtfertigt?
 subtitle: Was die bisher bekannten Videos und Berichte zum Polizeieinsatz zeigen
-description: "Die Videos aus Gießen begründen erhebliche Zweifel an einzelnen Polizeieinsätzen, erlauben aber keine abschließende Bewertung jeder Maßnahme. Der Faktencheck ordnet bekannte Aufnahmen, Polizeiberichte, friedliche Protestanteile und Falschmeldungen ein und erklärt, warum die Gesamtlage differenziert betrachtet werden muss. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Videos aus Gießen begründen Zweifel an einzelnen Polizeieinsätzen, aber kein pauschales Urteil. Eine Einordnung von Aufnahmen, Berichten und Falschmeldungen."
 verdict: complex
 claim: "Die Polizei hat in Gießen unverhältnismäßige Gewalt gegen Demonstrierende eingesetzt."
 summary: "Die öffentlich bekannten Videos und Berichte begründen erhebliche Zweifel an einzelnen Polizeieinsätzen, reichen aber nicht für eine abschließende juristische Bewertung jeder Maßnahme. Belastbar ist: Der Protest verlief insgesamt überwiegend friedlich, während einzelne dokumentierte Einsätze abrupt und hart wirkten."

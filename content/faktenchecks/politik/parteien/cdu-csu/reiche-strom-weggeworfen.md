@@ -3,7 +3,7 @@ publishedOn: null
 date: 2026-04-28
 title: "Strom für drei Milliarden Euro weggeworfen?"
 subtitle: Warum die Zahl irreführend ist
-description: "Katherina Reiche behauptet, Deutschland werfe jedes Jahr Strom für drei Milliarden Euro weg. Der Faktencheck zeigt: Die Zahl vermischt verschiedene Kosten des Netzengpassmanagements. Der eigentliche Posten für abgeregelte Erneuerbare lag 2024 bei 554 Millionen Euro, während ein großer Teil an konventionellen Redispatch ging."
+description: "Katherina Reiche behauptet, Deutschland werfe jährlich Strom für drei Milliarden Euro weg. Die Zahl vermischt verschiedene Kosten des Netzengpassmanagements."
 verdict: misleading
 claim: "Jedes Jahr wird in Deutschland Strom für drei Milliarden Euro einfach weggeworfen."
 claimAuthor: "Katherina Reiche (CDU)"

@@ -3,7 +3,7 @@ publishedOn: 2025-12-12
 date: 2026-04-28
 title: Migranten arbeiten nicht?
 subtitle: Arbeitsaufnahme von Geflüchteten in Deutschland
-description: "Die Behauptung, Migranten und Geflüchtete wollten nicht arbeiten, ist durch Arbeitsmarkt- und Integrationsdaten nicht gedeckt. Viele dürfen zunächst gar nicht oder nur mit Genehmigung arbeiten. Wartezeiten, Bürokratie, Sprachkurse, Anerkennungsverfahren und unsichere Aufenthaltsstatus bremsen den Einstieg deutlich. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Die Behauptung, Migranten wollten nicht arbeiten, ist nicht gedeckt. Viele dürfen zunächst gar nicht; Bürokratie und Anerkennungsverfahren bremsen den Einstieg."
 verdict: false
 claim: "Migranten und Geflüchtete wollen in Deutschland nicht arbeiten und leben lieber von Sozialleistungen."
 summary: "Die pauschale Behauptung ist durch die vorhandenen Daten nicht gedeckt. Viele Geflüchtete und Zugewanderte wollen arbeiten oder arbeiten bereits, werden aber durch Aufenthaltsstatus, Wartezeiten, Arbeitserlaubnisse, Behördenverfahren, Anerkennung von Abschlüssen und Sprachhürden gebremst."

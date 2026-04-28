@@ -3,7 +3,7 @@ publishedOn: 2026-04-01
 date: 2026-04-28
 title: "AfD: Menschengemachter Klimawandel ist nicht bewiesen"
 subtitle: Was die Wissenschaft tatsächlich sagt
-description: "Die AfD behauptet, ein signifikanter menschlicher Einfluss auf das Klima sei nicht bewiesen. Der Faktencheck zeigt, warum das falsch ist: IPCC-Berichte, Klimaforschung, Fraunhofer-Daten zu Erneuerbaren und das Klimaurteil des Bundesverfassungsgerichts stehen klar gegen diese Position. Die wichtigsten Belege stehen direkt am Anfang."
+description: "Die AfD bestreitet menschengemachten Klimawandel. IPCC-Berichte, Klimaforschung und das Klimaurteil des Bundesverfassungsgerichts widerlegen diese Position."
 verdict: false
 claim: "Ein signifikanter Einfluss menschlicher CO2-Emissionen auf das Klima ist weder evident noch wissenschaftlich bewiesen."
 claimAuthor: "AfD"

@@ -3,7 +3,7 @@ publishedOn: 2026-03-08
 date: 2026-04-28
 title: "AfD behauptet: Jugendliche greifen 70-Jährigen an"
 subtitle: Was das Video zum Vorfall am 28. Februar 2026 zeigt
-description: "Die AfD stellte ein Gerangel um ein Banner in Rosenheim als brutalen Angriff auf einen 70-jährigen Bürgermeisterkandidaten dar. Der Faktencheck zeigt anhand des Videos und der späteren Einordnung der Staatsanwaltschaft, warum diese Darstellung falsch ist und wie die Opfererzählung medial wirksam wurde."
+description: "Die AfD stellt ein Gerangel um ein Banner als brutalen Angriff auf einen 70-jährigen Bürgermeisterkandidaten dar. Das Video zeigt eine andere Realität."
 verdict: false
 claim: "Linke Jugendliche haben einen 70-jährigen AfD-Bürgermeisterkandidaten brutal angegriffen."
 claimAuthor: "AfD"
