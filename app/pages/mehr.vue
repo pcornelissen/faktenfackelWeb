@@ -7,7 +7,7 @@ await definePageData({
   title: 'Mehr von Faktenfackel: YouTube, Discord und Social Media',
   pageHeading: 'Andere Faktenfackel Seiten',
   pageSubHeading: 'Wir sind überall für dich da',
-  description: 'Faktenfackel ist auf YouTube, Discord und weiteren Plattformen aktiv. Hier findest du alle Kanäle und Seiten, über die wir Fakten und Analysen teilen.',
+  description: 'Faktenfackel ist auf YouTube, Discord, Social Media und mit Themen-Hubs aktiv. Hier findest du zentrale Kanäle, Seiten und kuratierte Einstiege.',
 })
 
 defineOgImage('Default', { title: 'YouTube, Discord und Social Media', label: 'MEHR' })
@@ -20,6 +20,18 @@ defineOgImage('Default', { title: 'YouTube, Discord und Social Media', label: 'M
     </h1>
     <div class="container">
       <Sections>
+        <SectionsItem
+          title="Themen-Hubs"
+          sub-title="Faktenchecks, Quellen und Einordnung"
+          icon="blogging"
+          :nofollow="false"
+          icon-txt="Blogging Icons erstellt von Freepik, Flaticon"
+        >
+          <p>
+            Die Themen-Hubs bündeln Faktenchecks, Analysen, Quellen, Zitate und Glossarbegriffe zu wiederkehrenden Fragen.
+          </p>
+          <a href="/themen/">Zu den Themen-Hubs</a>
+        </SectionsItem>
         <SectionsItem
           title="Discord"
           sub-title="Feedback, Vorschläge, ..."

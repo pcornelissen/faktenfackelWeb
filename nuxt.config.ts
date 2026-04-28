@@ -29,6 +29,7 @@ export default defineNuxtConfig({
       '/zitate/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
       '/quellen/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
       '/tags/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
+      '/themen/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
       '/glossar/**': { swr: 86400, headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800' } },
       '/news/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
     },
@@ -95,6 +96,7 @@ export default defineNuxtConfig({
       '/datenschutz': staticPage,
       '/mehr': staticPage,
       '/news': staticPage,
+      '/themen': staticPage,
       '/**/_info': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
       '/**/_info/': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
     }

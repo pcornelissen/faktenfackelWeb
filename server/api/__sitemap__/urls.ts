@@ -11,7 +11,7 @@ function maxDate(items: Array<{ date?: string | Date | null }>): string | null {
 
 export default defineEventHandler(async (e) => {
   const now = new Date().toISOString()
-  const [faktenchecks, lagerfeuer, glossar, zitate, quellenlinks, quellen, news] = await Promise.all([
+  const [faktenchecks, lagerfeuer, glossar, zitate, quellenlinks, quellen, news, themen] = await Promise.all([
     queryCollection(e, 'faktenchecks').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'lagerfeuer').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'glossar').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
@@ -19,6 +19,7 @@ export default defineEventHandler(async (e) => {
     queryCollection(e, 'quellenlinks').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'quellen').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
     queryCollection(e, 'news').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
+    queryCollection(e, 'themen').select('path', 'date', 'publishedOn').where('publishedOn', '<=', now).all(),
   ])
 
   const contentEntries = [
@@ -29,6 +30,7 @@ export default defineEventHandler(async (e) => {
     ...quellenlinks,
     ...quellen,
     ...news,
+    ...themen,
   ]
     .filter(p => p.path && p.date && !p.path.endsWith('/_info'))
     .map(p => ({
@@ -48,6 +50,7 @@ export default defineEventHandler(async (e) => {
   pushIndex('/quellen/', maxDate([...quellen, ...quellenlinks]))
   pushIndex('/zitate/', maxDate(zitate))
   pushIndex('/news/', maxDate(news))
+  pushIndex('/themen/', maxDate(themen))
 
   return [...indexEntries, ...contentEntries]
 })

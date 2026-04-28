@@ -45,6 +45,7 @@ onMounted(() => {
         </div>
         <ul>
           <li><a href="/faktenchecks">Faktenchecks</a></li>
+          <li><NuxtLink to="/themen/">Themen</NuxtLink></li>
           <li><a href="/lagerfeuer">Lagerfeuer</a></li>
           <li><a href="/quellen">Quellen</a></li>
           <li><a href="/zitate">Zitate</a></li>

@@ -104,6 +104,36 @@ export default defineContentConfig({
         publishedOn: z.date().or(z.null()),
       }).strict(),
     }),
+    themen: defineCollection({
+      type: 'page',
+      source: 'themen/*.md',
+      schema: z.object({
+        date: z.date(),
+        title: z.string(),
+        subtitle: z.string(),
+        description: z.string(),
+        intro: z.string(),
+        publishedOn: z.date().or(z.null()),
+        tags: z.set(z.string()),
+        matchTags: z.object({
+          any: z.array(z.string()),
+          all: z.array(z.string()).optional(),
+          exclude: z.array(z.string()).optional(),
+        }),
+        featured: z.object({
+          faktenchecks: z.array(z.string()).optional(),
+          lagerfeuer: z.array(z.string()).optional(),
+          glossar: z.array(z.string()).optional(),
+          quellenlinks: z.array(z.string()).optional(),
+          zitate: z.array(z.string()).optional(),
+          quellen: z.array(z.string()).optional(),
+        }).optional(),
+        questions: z.array(z.object({
+          question: z.string(),
+          answer: z.string(),
+        })),
+      }).strict(),
+    }),
     quellenlinks: defineCollection({
       type: 'page',
       source: 'quellen/*/*/links/**/*.md',
