@@ -124,6 +124,7 @@ a {
 }
 
 .container {
-  display: flex;
+  display: block;
+  min-width: 0;
 }
 </style>

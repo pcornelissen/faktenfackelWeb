@@ -20,7 +20,7 @@
   --ash: #2D2822;
   --paper: #F5F0E8;
   --ink: #1C1917;
-  --muted: #78716C;
+  --muted: #62584F;
   --fackel-border: #E7DED0;
 }
 
@@ -146,6 +146,7 @@
   text-decoration: underline;
   text-decoration-color: #D7C6B4;
   text-underline-offset: 0.12em;
+  overflow-wrap: anywhere;
 }
 
 .content h1 a,
@@ -168,6 +169,7 @@
 }
 
 .content blockquote {
+  border-inline-start: 1px solid var(--ember) !important;
   border-left-color: var(--ember) !important;
   padding-left: 1rem;
   color: var(--muted);

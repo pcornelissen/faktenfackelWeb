@@ -71,6 +71,7 @@ const props = defineProps<{
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  min-width: 0;
 }
 
 .icon-wrap {
@@ -81,7 +82,8 @@ const props = defineProps<{
   margin: 0.25rem 0 0.15rem;
   font-weight: 700;
   line-height: 0.98;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 h1.heading-el {

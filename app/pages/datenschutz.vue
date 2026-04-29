@@ -993,13 +993,21 @@ defineOgImage('Default', { title: 'Datenschutzerklärung' })
 }
 
 .index-link {
-  color: #3498db;
+  color: var(--ember-text);
   text-decoration: none;
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
 }
 
 .index-link:hover {
-  color: #3498db;
+  color: var(--ember);
   text-decoration: underline;
+}
+
+a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 p {
@@ -1008,7 +1016,7 @@ p {
 
 .last-update {
   font-size: 0.9em;
-  color: #666;
+  color: var(--muted);
 }
 
 h2 {

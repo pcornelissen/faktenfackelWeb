@@ -9,6 +9,12 @@ const props = defineProps<{
 }>()
 
 const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.entries, props.pageSize ?? 10)
+
+const failedImages = ref(new Set<string>())
+
+function markImageFailed(path: string) {
+  failedImages.value = new Set([...failedImages.value, path])
+}
 </script>
 
 <template>
@@ -24,13 +30,14 @@ const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.e
           class="link-group-img-link"
         >
           <img
-            :src="calculateSourceImg(entry.source)"
+            :src="failedImages.has(entry.source.path) ? '/default-profile.webp' : calculateSourceImg(entry.source)"
             :alt="entry.source.name"
             :title="calculateSourceImgAuthor(entry.source)"
             width="80"
             height="80"
             loading="lazy"
             class="link-group-img"
+            @error="markImageFailed(entry.source.path)"
           >
         </NuxtLink>
         <div class="link-group-info">

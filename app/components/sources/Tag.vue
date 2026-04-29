@@ -23,7 +23,7 @@ const props = defineProps<{
   background-color: white;
   color: var(--muted);
   border: 1px solid var(--fackel-border);
-  padding: 0.38rem 0.62rem;
+  padding: 0.48rem 0.72rem;
   margin: 0.22rem 0.34rem 0.22rem 0;
   border-radius: 999px;
   white-space: nowrap;
@@ -31,6 +31,9 @@ const props = defineProps<{
   transition: border-color 0.15s, color 0.15s, background 0.15s;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
 }
 
 .tag:hover {

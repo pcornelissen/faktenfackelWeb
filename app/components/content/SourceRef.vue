@@ -42,6 +42,7 @@ const link = computed(() => {
       :href="link.uri"
       target="_blank"
       rel="external noopener"
+      :aria-label="`${link.title}: Quelle direkt öffnen`"
       :title="`${link.title}: Quelle direkt öffnen`"
       class="ref-external"
     ><icon name="i-lucide:external-link" /></a>

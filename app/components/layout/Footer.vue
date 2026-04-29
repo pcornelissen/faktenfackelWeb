@@ -125,7 +125,7 @@ onMounted(() => {
 
 .footer-tagline {
   font-size: 1rem;
-  color: #9A8F86;
+  color: #B8AEA4;
   line-height: 1.6;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -143,7 +143,7 @@ onMounted(() => {
   text-transform: uppercase;
   color: var(--flame);
   text-decoration: none;
-  min-height: 2.25rem;
+  min-height: 2.75rem;
 }
 
 .support-link:hover {
@@ -174,11 +174,14 @@ onMounted(() => {
 
 .footer-col a {
   font-size: 1rem;
-  color: #9A8F86;
+  color: #B8AEA4;
   text-decoration: none;
   transition: color 0.15s;
   display: inline-block;
-  padding: 0.12rem 0;
+  padding: 0.35rem 0;
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
 }
 
 .footer-col a:hover {
@@ -190,7 +193,7 @@ onMounted(() => {
   margin: 1.5rem auto 0;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 0.78rem;
-  color: #9A8F86;
+  color: #B8AEA4;
   letter-spacing: 0.05em;
   line-height: 1.6;
 }
@@ -255,7 +258,7 @@ onMounted(() => {
 
   .footer-col a {
     font-size: 0.96rem;
-    padding: 0.05rem 0;
+    padding: 0.25rem 0;
   }
 
   .footer-bottom {

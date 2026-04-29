@@ -46,11 +46,13 @@ const props = defineProps<{
   padding: 1.5rem 1.5rem 1.35rem;
   background: white;
   border: 1px solid var(--fackel-border);
-  border-radius: 1.1rem;
+  border-radius: 0.5rem;
   min-height: 12rem;
   position: relative;
+  min-width: 0;
   transition: background 0.2s, transform 0.2s, border-color 0.2s, box-shadow 0.2s;
   box-shadow: 0 10px 26px rgba(31, 22, 15, 0.04);
+  overflow-wrap: anywhere;
 }
 
 .section::before {

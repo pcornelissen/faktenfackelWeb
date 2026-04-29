@@ -29,14 +29,14 @@ function extraTagCount(tags: string[] | undefined) {
       <li
         v-for="item in pageItems"
         :key="item.path"
-        class="flex flex-row grow"
+        class="post-list-item"
       >
         <UIcon
           :name="item.icon || props.icon || 'mdi:faq'"
           class="item-icon size-8"
         />
-        <div class="flex flex-row grow gap-2">
-          <div class="flex-auto ml-2">
+        <div class="post-list-content">
+          <div class="post-list-main">
             <NuxtLink
               :to="item.path"
               class="link"
@@ -118,6 +118,26 @@ li:hover {
   gap: 0.25rem;
 }
 
+.post-list-item {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 0.5rem;
+}
+
+.post-list-content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.post-list-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .lastChange {
   font-size: 0.6rem;
   font-weight: 200;
@@ -156,5 +176,30 @@ li:hover {
   white-space: nowrap;
   align-self: center;
   margin: 0.2rem 0.3rem;
+}
+
+@media screen and (max-width: 640px) {
+  .post-list-item {
+    align-items: flex-start;
+  }
+
+  .post-list-content {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .meta-right {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.5rem;
+    margin-left: 0;
+  }
+
+  .lastChange {
+    min-height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+  }
 }
 </style>
