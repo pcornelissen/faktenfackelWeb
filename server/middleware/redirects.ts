@@ -43,6 +43,10 @@ const linkRedirects: Record<string, string> = {
   '/quellen/medien/compact/links/20251223.campact-fakenews-waffenlager-schwarzenberg': '/quellen/medien/compact/links/20251223.compact-fakenews-waffenlager-schwarzenberg',
   '/quellen/staatlich/gesetze-im-internet/links/20260115.asylg-paragraph-61': '/quellen/staatlich/gesetze-im-internet/links/20260115.asylg-artikel-61',
 
+  // NDR link slug corrected after import mismatch
+  '/quellen/medien/ndr/links/afd-wahler-sind-nicht-alle-nazis': '/quellen/medien/ndr/links/zu-wenig-sprachkurse-gefluechtete-kuerzungen',
+  '/quellen/medien/ndr/links/20260109.afd-wähler-sind-nicht-alle-nazis': '/quellen/medien/ndr/links/zu-wenig-sprachkurse-gefluechtete-kuerzungen',
+
   // generation-deutschland link → facebook
   '/quellen/allgemein/generation-deutschland/links/20260131.generation-deutschland-auto-tatwaffe-rechtsextreme': '/quellen/allgemein/facebook/links/20260131.generation-deutschland-auto-tatwaffe-rechtsextreme',
 
@@ -93,7 +97,6 @@ const prefixRedirects: Record<string, string> = {
   '/quellen/allgemein/tiktok-divers': '/quellen/allgemein/tiktok',
   '/quellen/allgemein/x-divers': '/quellen/allgemein/x',
   '/quellen/portale/x-twitter': '/quellen/allgemein/x',
-  '/quellen/medien/ndr/links': '/quellen/medien/ndr',
   '/quellen/nachrichten/tagesschau/links/quellen/tags/SPD': '/tags/spd',
 
   // Source renames (D1 LIKE pattern complexity limit)
