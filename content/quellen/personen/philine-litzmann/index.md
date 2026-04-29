@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Philine Lietzmann
-description: Journalistin, Focus
+description: Stellv. Ressortleiterin Finanzen bei FOCUS online
 imageAuthor: Philine Lietzmann, Focus Online
 tags:
   - Focus

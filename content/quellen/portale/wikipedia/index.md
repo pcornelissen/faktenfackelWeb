@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-18
 name: Wikipedia
-description: Wiki, Online Enzyklopädie
+description: Online-Enzyklopädie auf Basis von freiwilligen Mitarbeitern
 tags:
   - Unabhängig
   - Wiki

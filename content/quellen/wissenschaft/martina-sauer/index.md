@@ -3,7 +3,7 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-16
 name: Dr. Martina Sauer
-description: Bildungseinrichtung
+description: Politikwissenschaftlerin am Zentrum für Türkeistudien und Integrationsforschung
 tags:
   - Wissenschaft
 ---

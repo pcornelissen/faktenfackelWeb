@@ -3,7 +3,7 @@ date: 2026-01-19
 lastScanned: 2026-01-19
 publishedOn: 2026-01-19
 name: Amnesty International
-description: "Menschenrechtsorganisation"
+description: Internationale Menschenrechtsorganisation, gegründet 1961
 tags:
   - NGO
   - Menschenrechte

@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Compact
-description: Verlag, Rechtsorientiert
+description: Rechtes Onlinemagazin im Umfeld der Neuen Rechten
 tags:
   - Verlag
   - Desinformation

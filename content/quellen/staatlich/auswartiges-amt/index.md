@@ -3,7 +3,7 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-16
 name: Auswärtiges Amt
-description: Bundesbehörde
+description: Außenministerium der Bundesrepublik Deutschland
 tags:
   - Staatlich
   - Internationale Beziehungen

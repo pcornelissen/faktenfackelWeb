@@ -3,7 +3,7 @@ date: 2026-01-20
 lastScanned: 2026-01-20
 publishedOn: 2026-03-08
 name: Charles McBryde
-description: Wissenschaftler, Historiker
+description: Englischsprachiger Historiker, Content Creator zur Geschichte des Faschismus
 imageAuthor: Substack/@charlespmcbryde
 tags:
   - Wissenschaft

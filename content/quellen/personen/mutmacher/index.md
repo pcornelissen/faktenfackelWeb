@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Der Verrückte Mutmacher
-description: Content Creator, Politik
+description: Content Creator mit satirischen Videos gegen rechte Politik
 tags:
   - Creator
   - Social Media

@@ -3,7 +3,7 @@ date: 2026-02-08
 lastScanned: 2026-02-08
 publishedOn: 2026-02-13
 name: Dr. Kai Borrmann
-description: Politiker, AfD
+description: AfD-Bundestagsabgeordneter, Schwerpunkt Sicherheit und Verteidigung
 imageAuthor: IMAGO/Olaf Wagner
 tags:
   - AfD

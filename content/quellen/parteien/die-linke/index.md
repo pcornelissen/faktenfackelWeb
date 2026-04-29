@@ -3,7 +3,7 @@ date: 2026-01-19
 lastScanned: 2026-01-19
 publishedOn: 2026-01-19
 name: Die Linke
-description: Partei
+description: Linkspartei, 2007 aus PDS und WASG entstanden
 tags:
   - Partei
   - Links

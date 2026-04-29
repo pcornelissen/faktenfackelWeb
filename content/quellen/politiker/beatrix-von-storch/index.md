@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Beatrix von Storch
-description: AfD Politikerin und Juristin
+description: AfD-Politikerin und Rechtsanwältin, ehemalige stellv. Bundessprecherin
 imageAuthor: Phoenix vor Ort
 tags:
   - AfD

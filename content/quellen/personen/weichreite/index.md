@@ -3,7 +3,7 @@ date: 2026-01-29
 lastScanned: 2026-01-29
 publishedOn: 2026-01-29
 name: Weichreite TV
-description: Content Creator, Politik
+description: Sebastian Weber, YouTube-Kanal mit politischen Demos und Interviews
 imageAuthor: "Christoph Hardt, Credit: IMAGO/Panama Pictures"
 tags:
   - AfD

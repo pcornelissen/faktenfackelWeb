@@ -3,7 +3,7 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: Verfassungsschutz
-description: Faktencheck-Blog
+description: Bundesamt für Verfassungsschutz, deutscher Inlandsnachrichtendienst
 tags:
   - Staatlich
   - Sicherheit

@@ -3,7 +3,7 @@ date: 2026-01-29
 lastScanned: 2026-01-29
 publishedOn: 2026-01-30
 name: Monitor
-description: ARD-Politmagazin, TV-Format
+description: Investigatives ARD-Politmagazin des WDR, seit 1965
 tags:
   - Journalist
   - ÖRR

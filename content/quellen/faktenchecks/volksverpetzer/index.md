@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Volksverpetzer
-description: Faktencheck-Blog
+description: Deutscher Faktencheck-Blog gegen Desinformation, seit 2014
 imageAuthor: Volksverpetzer Teamfoto, Homepage
 tags:
   - Unabhängig

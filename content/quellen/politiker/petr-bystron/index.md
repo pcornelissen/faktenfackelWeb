@@ -3,7 +3,7 @@ date: 2026-03-08
 lastScanned: 2026-03-08
 publishedOn: 2026-02-13
 name: Petr Bystron
-description: Politiker, AfD
+description: AfD-Politiker, ehemaliger Bundestagsabgeordneter und Landeschef Bayern
 imageAuthor: Steffen Prößdorf
 tags:
   - AfD

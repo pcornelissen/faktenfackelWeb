@@ -3,7 +3,7 @@ date: 2026-04-02
 lastScanned: 2026-04-02
 publishedOn: 2026-04-02
 name: junge Welt
-description: Linke Tageszeitung
+description: Marxistische Tageszeitung, eine der wenigen explizit sozialistischen in Deutschland
 tags:
   - Zeitung
   - Medien

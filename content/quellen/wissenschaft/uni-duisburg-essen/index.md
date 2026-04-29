@@ -3,7 +3,7 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-16
 name: Universität Duisburg Essen
-description: Bildungseinrichtung
+description: Öffentliche Forschungsuniversität in Nordrhein-Westfalen
 tags:
   - Wissenschaft
 ---

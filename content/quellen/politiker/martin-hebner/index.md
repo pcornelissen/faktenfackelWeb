@@ -3,7 +3,7 @@ date: 2026-03-08
 lastScanned: 2026-03-08
 publishedOn: 2026-02-13
 name: Martin Hebner
-description: Politiker, AfD
+description: Verstorbener AfD-Bundestagsabgeordneter (2017-2021)
 imageAuthor: Martin Hebner / Edith Hebner
 tags:
   - AfD

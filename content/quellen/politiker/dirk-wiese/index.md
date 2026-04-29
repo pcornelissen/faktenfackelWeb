@@ -3,7 +3,7 @@ date: 2026-01-07
 lastScanned: 2026-01-07
 publishedOn: 2026-01-08
 name: Dirk Wiese
-description: Politiker, SPD
+description: SPD-Bundestagsabgeordneter, erster Parlamentarischer Geschäftsführer der Fraktion
 imageAuthor: Rafael P. D. Suppmann
 tags:
   - SPD

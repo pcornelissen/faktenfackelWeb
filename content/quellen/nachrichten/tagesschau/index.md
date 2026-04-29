@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-18
 name: Tagesschau
-description: ARD Nachrichtenformat
+description: Hauptnachrichtenformat der ARD, öffentlich-rechtlicher Rundfunk
 tags:
   - ARD
   - Journalist

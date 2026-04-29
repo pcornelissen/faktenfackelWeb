@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Erik Türk
-description: Volkswirt, Rentenkammer Wien
+description: Österreichischer Volkswirt und Rentenexperte, Arbeiterkammer Wien
 imageAuthor: Erik Türk, LinkedIn
 tags:
   - Rente

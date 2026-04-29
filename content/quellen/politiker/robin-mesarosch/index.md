@@ -3,7 +3,7 @@ date: 2026-01-07
 lastScanned: 2026-01-07
 publishedOn: 2026-01-07
 name: Robin Mesarosch
-description: SPD Politiker, Journalist
+description: Ehemaliger SPD-Bundestagsabgeordneter und Journalist
 tags:
   - SPD
   - Journalist

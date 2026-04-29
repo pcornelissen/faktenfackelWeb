@@ -3,7 +3,7 @@ date: 2026-01-14
 lastScanned: 2026-01-14
 publishedOn: 2026-01-14
 name: Bundeskriminalamt
-description: Bundesbehörde
+description: Bundeskriminalamt, Zentralstelle der deutschen Kriminalpolizei
 tags:
   - Staatlich
   - Kriminalität

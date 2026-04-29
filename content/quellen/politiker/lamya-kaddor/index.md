@@ -3,7 +3,7 @@ date: 2026-02-01
 lastScanned: 2026-02-01
 publishedOn: 2026-03-09
 name: Lamya Kaddor
-description: Politikerin, SPD, MdB
+description: SPD-Bundestagsabgeordnete und Islamwissenschaftlerin
 tags:
   - SPD
   - Integration

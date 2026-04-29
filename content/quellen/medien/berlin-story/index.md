@@ -3,7 +3,7 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: Berlin Story
-description: Online Nachrichtenmagazin
+description: Berliner Online-Nachrichtenmagazin, geführt von Enno Lenze
 tags:
   - Journalist
 ---

@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Forrest Valkai
-description: Biologe, Content Creator
+description: US-Biologe und Content Creator zu Evolution und Biologie
 tags:
   - Creator
   - Social Media

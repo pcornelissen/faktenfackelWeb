@@ -3,7 +3,7 @@ date: 2026-01-30
 lastScanned: 2026-01-30
 publishedOn: 2026-01-30
 name: Indymedia
-description: Offenes Medienportal
+description: Internationales Netzwerk unabhängiger linker Medienportale, seit 1999
 tags:
   - Medien
   - Politik

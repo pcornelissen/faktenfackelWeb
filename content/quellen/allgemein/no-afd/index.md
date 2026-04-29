@@ -3,7 +3,7 @@ date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: No AfD (Facebook)
-description: Facebook-Seite gegen die AfD
+description: Deutschsprachige Facebook-Seite, teilt AfD-kritische Clips und Reden
 tags:
   - AfD
   - Facebook
