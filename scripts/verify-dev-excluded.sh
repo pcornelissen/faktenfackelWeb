@@ -8,7 +8,7 @@ if [[ ! -d "$OUTPUT_DIR" ]]; then
   exit 2
 fi
 
-MATCHES=$(grep -r -l -E "/dev/(review|api/dev)" "$OUTPUT_DIR" 2>/dev/null || true)
+MATCHES=$(grep -r -l -E "/dev/(review|audit-compare)|/api/dev/" "$OUTPUT_DIR" 2>/dev/null || true)
 
 if [[ -n "$MATCHES" ]]; then
   echo "FAIL: Dev-Routen im Production-Output gefunden:" >&2
