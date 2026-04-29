@@ -27,6 +27,7 @@ const { data: source } = useAsyncData(
     v-else
     :href="source.path"
     :title="`${source.name}: Quellenprofil auf Faktenfackel`"
+    :aria-label="`Quellenprofil von ${source.name}`"
     class="source-ref"
   >{{ source.name }}</a>
 </template>

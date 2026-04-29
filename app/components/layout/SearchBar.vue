@@ -65,7 +65,7 @@ function loadSearchData() {
     />
   </div>
 
-  <UContentSearch
+  <LazyUContentSearch
     v-model:search-term="searchTerm"
     :files="enrichedFiles"
     :color-mode="false"

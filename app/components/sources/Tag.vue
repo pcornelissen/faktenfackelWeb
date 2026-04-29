@@ -10,6 +10,7 @@ const props = defineProps<{
   <NuxtLink
     :to="`/tags/${props.tag}`"
     class="tag"
+    :aria-label="`Schlagwort ${capitalize(tag)}`"
   >
     {{ capitalize(tag) }}
   </NuxtLink>

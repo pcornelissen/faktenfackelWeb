@@ -66,12 +66,38 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: node scripts/indexnow.mjs
 
-      - name: D1 Warm-up (Fire & Forget)
+      - name: D1 Warm-up (warte auf Seed-Abschluss)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          # Triggert D1-Initialisierung ohne auf Antwort zu warten.
-          # curl bricht nach 10s ab; Cloudflare Worker läuft weiter.
-          curl -sf --max-time 10 -o /dev/null https://faktenfackel.de/faktenchecks/ || true
+          # Stößt für jede @nuxt/content-Collection den D1-Seed an und wartet,
+          # bis die Seite tatsächlich 200 liefert. Wenn der Seed mitten drin
+          # abbricht ("ready=0"), bleiben sonst alle DB-Seiten in einem
+          # Init-Lock hängen ("Database integrity check timed out").
+          set -u
+          urls=(
+            "https://faktenfackel.de/faktenchecks/"
+            "https://faktenfackel.de/lagerfeuer/"
+            "https://faktenfackel.de/quellen/"
+            "https://faktenfackel.de/themen/desinformation"
+            "https://faktenfackel.de/glossar/"
+          )
+          fail=0
+          for url in "${urls[@]}"; do
+            ok=0
+            for attempt in 1 2 3 4; do
+              code=$(curl -s -o /dev/null --max-time 90 -w "%{http_code}" "${url}?warmup=$(date +%s)${attempt}" || echo "000")
+              echo "warmup attempt ${attempt} for ${url} -> ${code}"
+              if [ "${code}" = "200" ]; then ok=1; break; fi
+              sleep 5
+            done
+            if [ "${ok}" -eq 0 ]; then
+              echo "::warning::Warm-up fuer ${url} hat nach 4 Versuchen kein 200 geliefert"
+              fail=$((fail+1))
+            fi
+          done
+          if [ "${fail}" -gt 0 ]; then
+            echo "::warning::${fail} von ${#urls[@]} Warm-up-URLs wurden nicht erfolgreich aufgewaermt"
+          fi
 
       - name: Install Playwright
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'

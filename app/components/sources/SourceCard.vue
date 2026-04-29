@@ -27,6 +27,7 @@ const source = props.source
       <NuxtLink
         :to="source.path"
         class="card-name"
+        :aria-label="`Quellenprofil von ${source.name}`"
       >
         {{ source.name }}
       </NuxtLink>
