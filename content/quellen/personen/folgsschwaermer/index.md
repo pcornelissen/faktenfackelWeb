@@ -1,5 +1,6 @@
 ---
 name: Folgsschwärmer
+description: Antifaschistisches Aufklärungs-Profil aus Erfurt, dokumentiert Rechtsextreme
 date: 2026-04-20
 publishedOn: 2026-04-20
 lastScanned: 2026-04-20

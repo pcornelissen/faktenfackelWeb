@@ -1,5 +1,6 @@
 ---
 name: Andreas Bühl
+description: CDU-Politiker, Mitglied des Thüringer Landtags
 date: 2026-04-15
 publishedOn: 2026-04-15
 lastScanned: 2026-04-15

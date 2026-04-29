@@ -1,5 +1,6 @@
 ---
 name: Amadeu Antonio Stiftung
+description: Stiftung gegen Rechtsextremismus, Rassismus und Antisemitismus
 date: 2026-04-01
 lastScanned: 2026-04-01
 publishedOn: 2026-04-14

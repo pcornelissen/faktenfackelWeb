@@ -1,5 +1,6 @@
 ---
 name: AfD-Fraktion im Deutschen Bundestag
+description: Parlamentarischer Arm der AfD im Deutschen Bundestag
 date: 2026-04-21
 lastScanned: 2026-04-21
 publishedOn: 2026-04-21

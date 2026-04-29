@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Prof. Dr. Ernst Kistler
-description: 
+description: Sozialwissenschaftler und Arbeitsmarktexperte, Schwerpunkt Rente und Alterssicherung
 imageAuthor: INIFES
 tags:
   - Sozialwissenschaftler

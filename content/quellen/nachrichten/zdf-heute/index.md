@@ -1,5 +1,6 @@
 ---
 name: "ZDF heute"
+description: Nachrichtenredaktion des Zweiten Deutschen Fernsehens
 date: 2026-04-14
 lastScanned: 2026-04-14
 publishedOn: 2026-04-14

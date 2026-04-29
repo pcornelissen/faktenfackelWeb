@@ -1,5 +1,6 @@
 ---
 name: Verfassungsblog
+description: Online-Plattform für Verfassungsrecht und Rechtspolitik
 date: 2026-04-19
 publishedOn: 2026-04-19
 lastScanned: 2026-04-19

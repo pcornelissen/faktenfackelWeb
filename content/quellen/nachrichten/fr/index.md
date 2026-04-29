@@ -1,5 +1,6 @@
 ---
 name: Frankfurter Rundschau
+description: Überregionale deutsche Tageszeitung mit Sitz in Frankfurt am Main
 date: 2026-04-20
 lastScanned: 2026-04-20
 publishedOn: 2026-04-20

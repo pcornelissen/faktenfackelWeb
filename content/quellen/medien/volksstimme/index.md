@@ -1,5 +1,6 @@
 ---
 name: Volksstimme
+description: Regionale Tageszeitung aus Magdeburg, auflagenstärkste Zeitung in Sachsen-Anhalt
 date: 2026-04-01
 lastScanned: 2026-04-01
 publishedOn: 2026-04-14

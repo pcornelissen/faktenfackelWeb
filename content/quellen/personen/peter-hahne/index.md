@@ -1,5 +1,6 @@
 ---
 name: Peter Hahne
+description: Ehemaliger ZDF-Moderator, heute rechtskonservativer Publizist
 date: 2026-04-01
 lastScanned: 2026-04-01
 publishedOn: 2026-04-14

@@ -1,5 +1,6 @@
 ---
 name: Andy Grote
+description: SPD-Politiker, Innensenator der Freien und Hansestadt Hamburg
 date: 2026-04-20
 lastScanned: 2026-04-20
 publishedOn: 2026-04-20

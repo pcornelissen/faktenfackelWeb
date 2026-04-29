@@ -1,5 +1,6 @@
 ---
 name: Björn Höcke
+description: AfD-Politiker, Fraktionschef im Thüringer Landtag, vom Verfassungsschutz als Rechtsextremist eingestuft
 date: 2026-04-15
 publishedOn: 2026-04-15
 lastScanned: 2026-04-15

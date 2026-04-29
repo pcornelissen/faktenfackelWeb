@@ -1,5 +1,6 @@
 ---
 name: Table.Media
+description: Berliner Medienhaus mit themenspezifischen Professional Briefings
 date: 2026-04-19
 publishedOn: 2026-04-19
 lastScanned: 2026-04-19

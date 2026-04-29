@@ -1,5 +1,6 @@
 ---
 name: Andreas Gärtner Gust
+description: Facebook-Nutzer, Listen-Recherche zu AfD-Mandatsträgern mit Strafverfahren
 date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-03-27

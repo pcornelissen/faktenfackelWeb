@@ -1,5 +1,6 @@
 ---
 name: Bund Deutscher Kriminalbeamter (BDK)
+description: Berufsverband für Beschäftigte der Kriminalpolizei in Deutschland
 date: 2026-04-20
 lastScanned: 2026-04-20
 publishedOn: 2026-04-20

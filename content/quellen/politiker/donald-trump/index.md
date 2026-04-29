@@ -1,5 +1,6 @@
 ---
 name: Donald Trump
+description: 45. und 47. US-Präsident, Galionsfigur der MAGA-Bewegung
 date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-04-14

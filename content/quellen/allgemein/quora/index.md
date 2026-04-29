@@ -1,5 +1,6 @@
 ---
 name: Quora
+description: Frage-Antwort-Plattform ohne redaktionelle Kontrolle, anfällig für Desinformation
 date: 2026-04-15
 publishedOn: 2026-04-15
 lastScanned: 2026-04-15

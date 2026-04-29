@@ -1,5 +1,6 @@
 ---
 name: Hamburger Bündnis gegen Rechts
+description: Zivilgesellschaftliches Bündnis gegen Rechtsextremismus in Hamburg
 date: 2026-04-16
 publishedOn: 2026-04-16
 lastScanned: 2026-04-16

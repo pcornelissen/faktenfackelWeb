@@ -1,5 +1,6 @@
 ---
 name: Legal Tribune Online
+description: Führendes deutsches Onlinefachmedium für Recht und Justiz
 date: 2026-04-18
 publishedOn: 2026-04-18
 lastScanned: 2026-04-18

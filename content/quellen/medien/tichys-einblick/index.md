@@ -1,5 +1,6 @@
 ---
 name: Tichys Einblick
+description: Rechtskonservatives Meinungsmagazin im Umfeld der Neuen Rechten
 date: 2026-04-20
 publishedOn: 2026-04-20
 lastScanned: 2026-04-20

@@ -1,5 +1,6 @@
 ---
 name: Politico Joe
+description: US-amerikanischer Reels-Creator mit liberal-progressiven Polit-Kommentaren
 date: 2026-04-13
 lastScanned: 2026-04-13
 publishedOn: 2026-04-14

@@ -1,5 +1,6 @@
 ---
 name: rbb24
+description: Digitales Nachrichtenportal des Rundfunks Berlin-Brandenburg
 date: 2026-04-20
 lastScanned: 2026-04-20
 publishedOn: 2026-04-20
