@@ -29,7 +29,7 @@ const quoteSize = quoteLen < 60 ? 56 : quoteLen < 120 ? 48 : quoteLen < 200 ? 38
 
       <!-- Quote -->
       <div style="display: flex; flex: 1; flex-direction: column; justify-content: center;">
-        <div style="display: flex; flex-direction: column; padding-left: 18px; border-left: 4px solid #F98C35;">
+        <div style="display: flex; flex-direction: column; padding: 22px 26px; border: 1px solid #E7DED0; background-color: #FCF8F3;">
           <p :style="`font-family: 'Playfair Display'; font-weight: 700; font-size: ${quoteSize}px; color: #1C1917; line-height: 1.18; margin: 0 0 22px 0; max-width: 100%;`">
             "{{ quote }}"
           </p>

@@ -352,8 +352,8 @@ function playAll() {
   margin-bottom: 1rem;
   padding: 1rem;
   background: rgba(249, 140, 53, 0.08);
-  border-left: 3px solid var(--flame);
-  border-radius: 0 0.25rem 0.25rem 0;
+  border: 1px solid color-mix(in srgb, var(--flame) 26%, var(--fackel-border));
+  border-radius: 0.25rem;
 }
 .divergenz-step-header {
   margin-bottom: 0.5rem;

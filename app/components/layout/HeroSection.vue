@@ -75,7 +75,7 @@ const totalCount = computed(
             aria-describedby="stat-tooltip"
           >
             <strong class="hero-stat-num">{{ totalCount }}</strong>
-            <span class="hero-stat-label">Faktenchecks, Quellen und redaktionelle Inhalte</span>
+            <span class="hero-stat-label">Indexierte Inhalte im Faktenfackel-Archiv</span>
             <div
               id="stat-tooltip"
               class="stat-tooltip"
@@ -291,7 +291,7 @@ const totalCount = computed(
 .hero-stat-label {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 0.78rem;
-  color: #9A8F86;
+  color: #B8AEA4;
   letter-spacing: 0.05em;
   text-decoration: underline;
   text-decoration-style: dashed;
@@ -356,7 +356,6 @@ const totalCount = computed(
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 18px;
   padding: 1.35rem 1.35rem 1rem;
-  backdrop-filter: blur(8px);
 }
 
 .ticker-header {

@@ -83,7 +83,6 @@ function isActive(href: string) {
 <style scoped>
 .nav-wrapper {
   background: var(--smoke);
-  backdrop-filter: blur(14px);
 }
 
 .nav-accent-line {
