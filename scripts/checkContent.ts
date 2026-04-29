@@ -19,8 +19,12 @@
  *   pnpm check:content --quiet   # nur Zusammenfassung
  */
 
+import { execFile } from 'node:child_process'
 import { readdir, readFile, writeFile } from 'node:fs/promises'
-import { join, relative } from 'node:path'
+import { join, relative, resolve } from 'node:path'
+import { promisify } from 'node:util'
+
+const execFileAsync = promisify(execFile)
 
 const PROJECT_ROOT = join(import.meta.dirname, '..')
 const CONTENT_ROOT = join(PROJECT_ROOT, 'content')
@@ -55,6 +59,46 @@ const MDC_BUILT_INS = new Set<string>([
   // Falls MDC-Inline-Komponenten mit PascalCase-Syntax ohne lokale Vue-Datei genutzt werden,
   // hier hinzufuegen. Bislang leer.
 ])
+
+async function collectChangedMarkdownFiles(): Promise<string[]> {
+  // Files staged + working-tree changes vs origin/main (or main if no remote).
+  // Falls back to HEAD~1 when no main ref is reachable (e.g. fresh shallow clone).
+  const candidates = ['origin/main', 'main']
+  let baseRef: string | null = null
+  for (const ref of candidates) {
+    try {
+      await execFileAsync('git', ['rev-parse', '--verify', '--quiet', ref])
+      baseRef = ref
+      break
+    } catch { /* not found */ }
+  }
+  if (!baseRef) baseRef = 'HEAD~1'
+
+  let raw = ''
+  try {
+    const { stdout } = await execFileAsync('git', ['diff', '--name-only', '--diff-filter=ACMR', `${baseRef}...HEAD`])
+    raw += stdout
+  } catch {
+    // ignore - new branch, no commits yet
+  }
+  // Nur committete Aenderungen vs origin/main werden geprueft. Staged- und
+  // Working-Tree-Aenderungen sind noch nicht im Push und werden ignoriert.
+
+  const repoRootResult = await execFileAsync('git', ['rev-parse', '--show-toplevel'])
+  const repoRoot = repoRootResult.stdout.trim()
+
+  const result = new Set<string>()
+  for (const line of raw.split('\n')) {
+    const f = line.trim()
+    if (!f) continue
+    if (!f.endsWith('.md')) continue
+    const abs = resolve(repoRoot, f)
+    const rel = relative(CONTENT_ROOT, abs)
+    if (rel.startsWith('..') || rel.startsWith('/')) continue
+    result.add(abs)
+  }
+  return [...result].sort()
+}
 
 async function collectMarkdownFiles(root: string): Promise<string[]> {
   const results: string[] = []
@@ -173,6 +217,15 @@ interface Frontmatter {
   start: number
   end: number
   tags: string[]
+  fields: Record<string, string>
+}
+
+function unquote(value: string): string {
+  let v = value.trim()
+  if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith('\'') && v.endsWith('\''))) {
+    v = v.slice(1, -1)
+  }
+  return v
 }
 
 function extractFrontmatter(text: string): Frontmatter | null {
@@ -189,7 +242,187 @@ function extractFrontmatter(text: string): Frontmatter | null {
       if (t) tags.push(t[1].replace(/^["']|["']$/g, ''))
     }
   }
-  return { raw, start, end, tags }
+
+  const fields: Record<string, string> = {}
+  for (const line of raw.split('\n')) {
+    const m = line.match(/^([A-Za-z_][\w-]*):\s*(.*)$/)
+    if (!m) continue
+    const key = m[1]
+    const rawValue = m[2]
+    if (rawValue === '' || rawValue.startsWith('|') || rawValue.startsWith('>') || rawValue.startsWith('[')) continue
+    fields[key] = unquote(rawValue)
+  }
+
+  return { raw, start, end, tags, fields }
+}
+
+interface SeoCollectionRule {
+  name: string
+  match: (relPath: string) => boolean
+  titleField: 'title' | 'name'
+  titleMin: number
+  titleMax: number
+  descField: 'description' | 'teaser' | 'subtitle' | null
+  descFallbackField?: 'subtitle' | 'teaser' | null
+  descMin: number
+  descMax: number
+  descRequired: boolean
+}
+
+const SEO_COLLECTIONS: SeoCollectionRule[] = [
+  {
+    name: 'glossar',
+    match: rel => rel.startsWith('glossar/'),
+    titleField: 'title',
+    titleMin: 15,
+    titleMax: 70,
+    descField: 'description',
+    descFallbackField: null,
+    descMin: 120,
+    descMax: 160,
+    descRequired: true,
+  },
+  {
+    name: 'faktenchecks',
+    match: rel => rel.startsWith('faktenchecks/') && !rel.endsWith('/_info.md'),
+    titleField: 'title',
+    titleMin: 15,
+    titleMax: 70,
+    descField: 'description',
+    descFallbackField: null,
+    descMin: 120,
+    descMax: 160,
+    descRequired: true,
+  },
+  {
+    name: 'lagerfeuer',
+    match: rel => rel.startsWith('lagerfeuer/') && !rel.endsWith('/_info.md'),
+    titleField: 'title',
+    titleMin: 15,
+    titleMax: 70,
+    descField: 'description',
+    descFallbackField: null,
+    descMin: 120,
+    descMax: 160,
+    descRequired: true,
+  },
+  {
+    name: 'news',
+    match: rel => rel.startsWith('news/'),
+    titleField: 'title',
+    titleMin: 15,
+    titleMax: 70,
+    descField: 'teaser',
+    descMin: 80,
+    descMax: 200,
+    descRequired: false,
+  },
+  {
+    name: 'zitate',
+    match: rel => /^quellen\/[^/]+\/[^/]+\/zitate\//.test(rel),
+    titleField: 'title',
+    titleMin: 8,
+    titleMax: 90,
+    descField: 'teaser',
+    descMin: 60,
+    descMax: 240,
+    descRequired: true,
+  },
+  {
+    name: 'quellen',
+    match: rel => /^quellen\/[^/]+\/[^/]+\/index\.md$/.test(rel),
+    titleField: 'name',
+    titleMin: 2,
+    titleMax: 90,
+    descField: 'description',
+    descMin: 60,
+    descMax: 240,
+    descRequired: false,
+  },
+  {
+    name: 'quellenlinks',
+    match: rel => /^quellen\/[^/]+\/[^/]+\/links\//.test(rel),
+    titleField: 'title',
+    titleMin: 5,
+    titleMax: 110,
+    descField: 'description',
+    descMin: 80,
+    descMax: 200,
+    descRequired: true,
+  },
+]
+
+function resolveSeoRule(relPath: string): SeoCollectionRule | null {
+  return SEO_COLLECTIONS.find(c => c.match(relPath)) ?? null
+}
+
+function indexAtLine(text: string, line: number): number {
+  let idx = 0
+  for (let i = 1; i < line; i++) {
+    const nl = text.indexOf('\n', idx)
+    if (nl === -1) break
+    idx = nl + 1
+  }
+  return idx
+}
+
+function fieldLineNumber(text: string, key: string): number {
+  const re = new RegExp(`^${key}:`, 'm')
+  const m = re.exec(text)
+  if (!m) return 1
+  return text.slice(0, m.index).split('\n').length
+}
+
+function checkFrontmatterSeo(file: string, text: string, lines: string[], findings: Finding[]) {
+  const fm = extractFrontmatter(text)
+  if (!fm) return
+  const relFromContent = relative(CONTENT_ROOT, file).replaceAll('\\', '/')
+  const rule = resolveSeoRule(relFromContent)
+  if (!rule) return
+
+  const titleVal = fm.fields[rule.titleField]
+  const titleLine = fieldLineNumber(text, rule.titleField)
+  const titleIdx = indexAtLine(text, titleLine)
+  if (!titleVal) {
+    addFinding(findings, file, text, lines, titleIdx, 'seo-title-missing',
+      `Pflichtfeld "${rule.titleField}" fehlt`, 'error')
+  } else {
+    if (titleVal.length < rule.titleMin) {
+      addFinding(findings, file, text, lines, titleIdx, 'seo-title-short',
+        `Title zu kurz: ${titleVal.length} Zeichen (min ${rule.titleMin})`, 'warn')
+    }
+    if (titleVal.length > rule.titleMax) {
+      addFinding(findings, file, text, lines, titleIdx, 'seo-title-long',
+        `Title zu lang: ${titleVal.length} Zeichen (max ${rule.titleMax}) - Google kürzt in den SERPs`, 'warn')
+    }
+  }
+
+  if (rule.descField) {
+    const descVal = fm.fields[rule.descField] ?? ''
+    const fallbackVal = rule.descFallbackField ? (fm.fields[rule.descFallbackField] ?? '') : ''
+    const effective = descVal || fallbackVal
+    const descLine = fieldLineNumber(text, rule.descField)
+    const descIdx = indexAtLine(text, descLine)
+
+    if (!descVal && rule.descRequired) {
+      addFinding(findings, file, text, lines, descIdx, 'seo-desc-missing',
+        `Pflichtfeld "${rule.descField}" fehlt`, 'error')
+    }
+    if (!effective && !rule.descRequired) {
+      addFinding(findings, file, text, lines, descIdx, 'seo-desc-empty',
+        `Weder "${rule.descField}"${rule.descFallbackField ? ` noch "${rule.descFallbackField}"` : ''} gesetzt - Meta-Description faellt auf Default zurueck`, 'warn')
+    }
+    if (effective && effective.length < rule.descMin) {
+      const which = descVal ? rule.descField : rule.descFallbackField
+      addFinding(findings, file, text, lines, descIdx, 'seo-desc-short',
+        `Description ("${which}") zu kurz: ${effective.length} Zeichen (min ${rule.descMin})`, 'warn')
+    }
+    if (effective && effective.length > rule.descMax) {
+      const which = descVal ? rule.descField : rule.descFallbackField
+      addFinding(findings, file, text, lines, descIdx, 'seo-desc-long',
+        `Description ("${which}") zu lang: ${effective.length} Zeichen (max ${rule.descMax}) - Google kürzt`, 'warn')
+    }
+  }
 }
 
 function checkTagMismatch(file: string, text: string, lines: string[], findings: Finding[]) {
@@ -504,6 +737,7 @@ function checkFile(file: string, text: string, allowlist: Set<string>, findings:
   checkTypographicQuotes(file, text, lines, findings)
   checkDateNbsp(file, text, lines, findings)
   checkFrontmatterTags(file, text, lines, findings)
+  checkFrontmatterSeo(file, text, lines, findings)
 }
 
 function report(findings: Finding[], quiet: boolean): number {
@@ -544,11 +778,18 @@ async function main() {
   const args = process.argv.slice(2)
   const fix = args.includes('--fix')
   const quiet = args.includes('--quiet')
+  const changedOnly = args.includes('--changed')
   const allowlist = await collectComponentNames(COMPONENTS_ROOT)
   if (!quiet) console.log(`${GRAY}Component-Allowlist: ${allowlist.size} Namen${RESET}`)
 
-  const files = await collectMarkdownFiles(CONTENT_ROOT)
-  if (!quiet) console.log(`${GRAY}Pruefe ${files.length} Markdown-Dateien ...${RESET}`)
+  let files: string[]
+  if (changedOnly) {
+    files = await collectChangedMarkdownFiles()
+    if (!quiet) console.log(`${GRAY}Modus --changed: ${files.length} geaenderte Markdown-Dateien gegen origin/main${RESET}`)
+  } else {
+    files = await collectMarkdownFiles(CONTENT_ROOT)
+    if (!quiet) console.log(`${GRAY}Pruefe ${files.length} Markdown-Dateien ...${RESET}`)
+  }
 
   const findings: Finding[] = []
   for (const file of files) {
