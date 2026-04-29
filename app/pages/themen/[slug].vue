@@ -167,6 +167,87 @@ const zitate = computed(() => hubData.value?.zitate || [])
 const quellenlinks = computed(() => hubData.value?.quellenlinks || [])
 const quellen = computed(() => hubData.value?.quellen || [])
 const relatedThemes = computed(() => hubData.value?.relatedThemes || [])
+
+const SITE_URL = 'https://faktenfackel.de'
+
+function makeItemList(name: string, items: Array<{ path?: string, title?: string, name?: string }>): Record<string, unknown> | null {
+  const list = items.filter(it => it.path).map((it, idx) => ({
+    '@type': 'ListItem',
+    'position': idx + 1,
+    'url': `${SITE_URL}${it.path}`,
+    'name': it.title || it.name || it.path,
+  }))
+  if (list.length === 0) return null
+  return {
+    '@type': 'ItemList',
+    'name': name,
+    'numberOfItems': list.length,
+    'itemListElement': list,
+  }
+}
+
+const collectionPageJsonLd = computed(() => {
+  const lists = [
+    makeItemList(`Faktenchecks zu ${theme.title}`, faktenchecks.value as Array<{ path?: string, title?: string }>),
+    makeItemList(`Hintergrund-Artikel zu ${theme.title}`, lagerfeuer.value as Array<{ path?: string, title?: string }>),
+    makeItemList(`Glossar zu ${theme.title}`, glossar.value as Array<{ path?: string, title?: string }>),
+    makeItemList(`Quellen zu ${theme.title}`, quellen.value as Array<{ path?: string, name?: string }>),
+  ].filter((l): l is Record<string, unknown> => l !== null)
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    'name': theme.title,
+    'headline': theme.title,
+    'description': theme.description,
+    'url': `${SITE_URL}${theme.path}`,
+    'inLanguage': 'de-DE',
+    'isPartOf': {
+      '@type': 'WebSite',
+      'name': 'Faktenfackel',
+      'url': SITE_URL,
+    },
+    'about': {
+      '@type': 'Thing',
+      'name': theme.title,
+    },
+    ...(lists.length ? { mainEntity: lists } : {}),
+  }
+})
+
+const faqJsonLd = computed(() => {
+  const qs = (theme.questions || []).filter(q => q.question && q.answer)
+  if (qs.length === 0) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': qs.map(q => ({
+      '@type': 'Question',
+      'name': q.question,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': q.answer,
+      },
+    })),
+  }
+})
+
+useHead(() => ({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify(collectionPageJsonLd.value),
+      key: 'topic-hub-collection',
+    },
+    ...(faqJsonLd.value
+      ? [{
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify(faqJsonLd.value),
+          key: 'topic-hub-faq',
+        }]
+      : []),
+  ],
+}))
 </script>
 
 <template>
