@@ -48,8 +48,7 @@ Der Weltklimarat (IPCC) stützt sich auf die Arbeit tausender Wissenschaftler we
 - Die globale Durchschnittstemperatur ist seit der vorindustriellen Zeit um etwa 1,1 Grad Celsius gestiegen
 - Die Hauptursache sind Treibhausgasemissionen aus der Verbrennung fossiler Brennstoffe
 
-Über 97 Prozent der Klimawissenschaftler stimmen darin überein. Das ist kein knapper Konsens, sondern der klare Stand
-der Forschung.
+Über 97 Prozent der Klimawissenschaftler stimmen darin überein. Das ist der klare Stand der Forschung.
 
 ### Was die AfD konkret falsch behauptet
 

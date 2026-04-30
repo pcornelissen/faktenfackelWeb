@@ -33,8 +33,7 @@ tags:
 ## Was ist passiert?
 
 Im Mai 2025 kursierte der <SourceRef code="cicero-afd-verfassungsschutz-bericht-leak">Bericht des Verfassungsschutzes</SourceRef>
-zur Einschätzung der AfD. Die Veröffentlichung des internen Berichts durch Cicero sorgte für Aufruhr in der politischen
-Landschaft. Der Bericht kam zu dem Schluss, dass die AfD als gesichert rechtsextremistisch eingestuft werden könne. Das
+zur Einschätzung der AfD. Die Veröffentlichung des internen Berichts durch Cicero sorgte politisch für Aufsehen. Der Bericht kam zu dem Schluss, dass die AfD als gesichert rechtsextremistisch eingestuft werden könne. Das
 hätte weitreichende politische und rechtliche Folgen für die Partei.
 
 Die AfD reagierte mit einem Eilantrag vor dem Verwaltungsgericht Köln. Daraufhin hat der Verfassungsschutz

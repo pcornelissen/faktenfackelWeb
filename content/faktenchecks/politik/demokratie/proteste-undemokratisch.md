@@ -157,27 +157,27 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung
 > durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.  
 > ...  
-> &mdash; <cite><SourceRef code="gii-gg-5">Grundgesetz Artikel 5, Meinungsfreiheit</SourceRef></cite>
+> <cite><SourceRef code="gii-gg-5">Grundgesetz Artikel 5, Meinungsfreiheit</SourceRef></cite>
 
 > (1) Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln.  
 (2) Für Versammlungen unter freiem Himmel kann dieses Recht durch Gesetz oder auf Grund eines Gesetzes beschränkt
 > werden.  
-> &mdash; <cite><SourceRef code="gii-gg-8">Grundgesetz Artikel 8, Versammlungsfreiheit</SourceRef></cite>
+> <cite><SourceRef code="gii-gg-8">Grundgesetz Artikel 8, Versammlungsfreiheit</SourceRef></cite>
 
 > (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere
 > Ordnung muss demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über
 > ihr Vermögen öffentlich Rechenschaft geben.  
-> &mdash; <cite><SourceRef code="gii-gg-21">Grundgesetz Artikel 21, Parteien</SourceRef></cite>
+> <cite><SourceRef code="gii-gg-21">Grundgesetz Artikel 21, Parteien</SourceRef></cite>
 
 > Demokratie ist eine Herrschaftsform, in der das Volk die oberste Macht ausübt. Wesentliche Merkmale der Demokratie
 > sind die Wahlen, die Meinungsfreiheit, die Versammlungsfreiheit und die Gewaltenteilung.  
-> &mdash; <cite><SourceRef code="bpb-junges-lexikon-demokratie">Bundeszentrale für politische Bildung, Demokratie</SourceRef></cite>
+> <cite><SourceRef code="bpb-junges-lexikon-demokratie">Bundeszentrale für politische Bildung, Demokratie</SourceRef></cite>
 
 > **Artikel 19 (Meinungs- und Informationsfreiheit)**  
 > Jeder Mensch hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein,
 > Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und
 > Gedankengut zu suchen, zu empfangen und zu verbreiten.  
-> &mdash; <cite><SourceRef code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</SourceRef></cite>
+> <cite><SourceRef code="amnesty-menschenrechte-2025">Allgemeine Erklärung der Menschenrechte (Resolution 217 A (III) vom 10. Dezember 1948)</SourceRef></cite>
 
 ### Antifa gefährdet die Demokratie
 

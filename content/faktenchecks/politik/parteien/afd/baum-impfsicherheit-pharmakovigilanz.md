@@ -78,7 +78,7 @@ Diese Berichte sind öffentlich, durchsuchbar und werden mit Stichtagen versehen
 
 Pharmakovigilanz funktioniert international (PEI, EMA, WHO/UMC) nicht über harte numerische Schwellenwerte, sondern über Signaldetektion: Ein Signal entsteht, wenn Verdachtsfälle in Häufigkeit, Schwere oder Muster vom Erwartungswert abweichen. Die Bewertung erfolgt qualitativ durch ein Expertengremium, das medizinische Fachliteratur, biologische Plausibilität, Einzelfallanalysen und epidemiologische Daten zusammenführt. Das ist Standard und wurde so etwa in den [PEI-Stellungnahmen zur Pharmakovigilanz](https://www.pei.de/DE/newsroom/positionen/covid-19-impfstoffe/stellungnahme-pharmakovigilanz-sekundaerdaten-covid-19-impfstoffe.html) erläutert.
 
-Wenn eine Antwort der Bundesregierung also angibt, es gebe keine fixen quantitativen Schwellenwerte, beschreibt sie diese reguläre Methodik – sie "bestätigt" gerade nicht, dass die Sicherheitsüberwachung versagt hätte. Baum interpretiert das prozessuale Detail als Generalbeleg für die These, "die AfD habe von Anfang an recht gehabt".
+Wenn eine Antwort der Bundesregierung also angibt, es gebe keine fixen quantitativen Schwellenwerte, beschreibt sie diese reguläre Methodik. Sie "bestätigt" gerade nicht, dass die Sicherheitsüberwachung versagt hätte. Baum interpretiert das prozessuale Detail als Generalbeleg für die These, "die AfD habe von Anfang an recht gehabt".
 
 ### Wahrer Kern: Pharmakovigilanz hat methodische Grenzen
 
