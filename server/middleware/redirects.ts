@@ -43,10 +43,6 @@ const linkRedirects: Record<string, string> = {
   '/quellen/medien/compact/links/20251223.campact-fakenews-waffenlager-schwarzenberg': '/quellen/medien/compact/links/20251223.compact-fakenews-waffenlager-schwarzenberg',
   '/quellen/staatlich/gesetze-im-internet/links/20260115.asylg-paragraph-61': '/quellen/staatlich/gesetze-im-internet/links/20260115.asylg-artikel-61',
 
-  // NDR link slug corrected after import mismatch
-  '/quellen/medien/ndr/links/afd-wahler-sind-nicht-alle-nazis': '/quellen/medien/ndr/links/zu-wenig-sprachkurse-gefluechtete-kuerzungen',
-  '/quellen/medien/ndr/links/20260109.afd-wähler-sind-nicht-alle-nazis': '/quellen/medien/ndr/links/zu-wenig-sprachkurse-gefluechtete-kuerzungen',
-
   // generation-deutschland link → facebook
   '/quellen/allgemein/generation-deutschland/links/20260131.generation-deutschland-auto-tatwaffe-rechtsextreme': '/quellen/allgemein/facebook/links/20260131.generation-deutschland-auto-tatwaffe-rechtsextreme',
 

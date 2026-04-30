@@ -36,7 +36,10 @@ onMounted(() => {
         </a>
       </div>
 
-      <div class="footer-col">
+      <nav
+        class="footer-col"
+        aria-label="Inhalte"
+      >
         <div class="footer-col-title">
           <UIcon
             name="mdi:newspaper-variant-outline"
@@ -51,9 +54,12 @@ onMounted(() => {
           <li><a href="/zitate">Zitate</a></li>
           <li><a href="/glossar">Glossar</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="footer-col">
+      <nav
+        class="footer-col"
+        aria-label="Über uns"
+      >
         <div class="footer-col-title">
           <UIcon
             name="mdi:information-outline"
@@ -65,6 +71,20 @@ onMounted(() => {
           <li><NuxtLink to="/kontakt/">Kontakt</NuxtLink></li>
           <li><NuxtLink to="/bewertungsmasstab/">Bewertungsmaßstab</NuxtLink></li>
           <li><NuxtLink to="/faq/">FAQ</NuxtLink></li>
+        </ul>
+      </nav>
+
+      <nav
+        class="footer-col"
+        aria-label="Service"
+      >
+        <div class="footer-col-title">
+          <UIcon
+            name="mdi:compass-outline"
+            class="size-3.5"
+          />Service
+        </div>
+        <ul>
           <li><a href="/news/">Neuigkeiten</a></li>
           <li><NuxtLink to="/mehr/">Social Media</NuxtLink></li>
           <li><a href="https://mein.online-impressum.de/faktenfackel/">Social Hub</a></li>
@@ -77,9 +97,12 @@ onMounted(() => {
           </li>
           <li><a href="/feed.xml">RSS Feed</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="footer-col">
+      <nav
+        class="footer-col"
+        aria-label="Rechtliches"
+      >
         <div class="footer-col-title">
           <UIcon
             name="mdi:scale-balance"
@@ -90,7 +113,7 @@ onMounted(() => {
           <li><a href="/impressum/">Impressum</a></li>
           <li><NuxtLink to="/datenschutz/">Datenschutz</NuxtLink></li>
         </ul>
-      </div>
+      </nav>
     </div>
 
     <div class="footer-bottom">
@@ -111,8 +134,8 @@ onMounted(() => {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: minmax(15rem, 1.35fr) repeat(4, minmax(8.5rem, 1fr));
+  gap: 2.2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #2D2822;
 }
@@ -212,6 +235,16 @@ onMounted(() => {
   }
   .footer-brand {
     grid-column: 1 / -1;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1120px) {
+  .footer-inner {
+    grid-template-columns: 1.4fr repeat(2, 1fr);
+  }
+
+  .footer-brand {
+    grid-row: span 2;
   }
 }
 
