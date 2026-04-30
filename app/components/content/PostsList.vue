@@ -101,13 +101,31 @@ li {
   padding: 0.5rem;
 }
 
-li:hover {
+.post-list-item {
+  position: relative;
+}
+
+.post-list-item:hover {
   background-color: #FAF6F0;
 }
 
 .link {
   display: block;
   margin-bottom: 0.4rem;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.post-list-item :deep(.tag),
+.tag-more {
+  position: relative;
+  z-index: 2;
 }
 
 .meta-right {

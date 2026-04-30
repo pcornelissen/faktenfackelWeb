@@ -55,17 +55,6 @@ const props = defineProps<{
   overflow-wrap: anywhere;
 }
 
-.section::before {
-  content: '';
-  position: absolute;
-  top: 0.9rem;
-  left: 1.5rem;
-  width: 2rem;
-  height: 2px;
-  background: var(--flame);
-  opacity: 0.8;
-}
-
 .clickable {
   cursor: pointer;
 }
