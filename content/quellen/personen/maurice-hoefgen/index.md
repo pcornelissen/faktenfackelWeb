@@ -3,7 +3,7 @@ date: 2026-01-25
 lastScanned: 2026-01-25
 publishedOn: 2026-01-30
 name: Maurice Höfgen
-description: Ökonom, Betriebswirt, Autor & YouTuber
+description: "Maurice Höfgen ist ein deutscher Ökonom, Betriebswirt und Autor, der vor allem durch wirtschaftspolitische Erklärformate, Kolumnen und Social Media bekannt ist."
 imageAuthor: Andreas Schmidt, Pressefoto Maurice Höfgen 
 tags:
   - Creator
@@ -14,7 +14,6 @@ tags:
   - Ökonom
   - YouTube
 ---
-
 ## Über die Quelle
 
 Maurice Höfgen ist ein deutscher Ökonom, Betriebswirt und Autor, der vor allem durch wirtschaftspolitische Erklärformate, Kolumnen und Social Media bekannt ist. Er vertritt meist eine keynesianisch geprägte, progressive Wirtschaftsperspektive und setzt sich u. a. für einen starken Sozialstaat, Investitionen, Umverteilung und eine aktive Rolle des Staates in der Wirtschaft ein.

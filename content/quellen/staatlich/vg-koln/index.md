@@ -3,12 +3,11 @@ date: 2026-01-19
 lastScanned: 2026-01-19
 publishedOn: 2026-01-24
 name: Verwaltungsgericht Köln
-description: Verwaltungsgericht des Landes NRW in Köln
+description: "Das Verwaltungsgericht Köln ist eines von 23 Verwaltungsgerichten in Nordrhein-Westfalen."
 tags:
   - Staatlich
   - Gericht  
 ---
-
 ## Über die Quelle
 
 Das Verwaltungsgericht Köln ist eines von 23 Verwaltungsgerichten in Nordrhein-Westfalen. Es ist zuständig für den Regierungsbezirk Köln und damit für die Städte Köln, Bonn, Leverkusen, Bergisch Gladbach, Remscheid, Solingen, Wuppertal, Oberbergischer Kreis, Rheinisch-Bergischer Kreis, Rhein-Sieg-Kreis und den Kreis Euskirchen.

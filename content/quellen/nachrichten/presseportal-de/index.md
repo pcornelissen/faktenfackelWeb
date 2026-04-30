@@ -3,11 +3,10 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: Presseportal
-description: Presseportal der deutschen Presse Agentur
+description: "Das Presseportal der dpa-Tochter news aktuell gehört zu den größten und reichweitenstärksten PR-Portalen in Deutschland und wird als Recherche-Plattform von Journalistinnen und Journalisten, fachspezifischen Blogs, Influencerinnen und …"
 tags:
   - Nachrichten
 ---
-
 ## Über die Quelle
 
 Das Presseportal der dpa-Tochter news aktuell gehört zu den größten und reichweitenstärksten PR-Portalen in Deutschland und wird als Recherche-Plattform von Journalistinnen und Journalisten, fachspezifischen Blogs, Influencerinnen und Influencern und auch von interessierten Privatpersonen hochgeschätzt. Über 12.000 Unternehmen, Organisationen, Verbände, staatliche Stellen und viele weitere Kundinnen und Kunden vertrauen auf das Presseportal und veröffentlichen und archivieren ihr PR-Material wie Pressemitteilungen, PR-Bilder, Videos, Statements und O-Töne/Audiobeiträge jeweils in einem eigenen Newsroom.

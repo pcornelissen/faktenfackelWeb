@@ -3,10 +3,9 @@ date: 2026-04-02
 lastScanned: 2026-04-02
 publishedOn: 2026-04-03
 name: "Xavier Naidoo"
-description: "Deutscher Sänger und Verschwörungstheoretiker"
+description: "Xavier Kurt Naidoo, geboren am 2. Oktober 1971 in Mannheim, ist ein deutscher Soul- und R&B-Sänger, Songwriter und Musikproduzent."
 tags: []
 ---
-
 ## Über die Quelle
 
 Xavier Kurt Naidoo, geboren am 2. Oktober 1971 in Mannheim, ist ein deutscher Soul- und R&B-Sänger, Songwriter und Musikproduzent. Seine Eltern stammen aus Südafrika: sein Vater hat indisch-tamilische und deutsche Vorfahren, seine Mutter irische und ägyptische. Er gilt bis heute als einer der erfolgreichsten deutschen Solokünstler seiner Generation.

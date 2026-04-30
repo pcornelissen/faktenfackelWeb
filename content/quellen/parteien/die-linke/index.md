@@ -3,13 +3,12 @@ date: 2026-01-19
 lastScanned: 2026-01-19
 publishedOn: 2026-01-19
 name: Die Linke
-description: Linkspartei, 2007 aus PDS und WASG entstanden
+description: "Die Partei Die Linke (PDL) ist eine Partei, die (wenig überraschend) links im politischen Spektrum beheimatet ist."
 tags:
   - Partei
   - Links
   - Die Linke
 ---
-
 ## Über die Quelle
 
 Die Partei Die Linke (PDL) ist eine Partei, die (wenig überraschend) links im politischen Spektrum beheimatet ist. Sie entstand 2007 aus der Fusion der PDS (Partei des Demokratischen Sozialismus) und der WASG (Arbeit & soziale Gerechtigkeit – Die Wahlalternative). Die Linke setzt sich für soziale Gerechtigkeit, Frieden, Umweltschutz und die Stärkung der Arbeitnehmerrechte ein. Sie ist in verschiedenen Landesparlamenten sowie im Bundestag vertreten.

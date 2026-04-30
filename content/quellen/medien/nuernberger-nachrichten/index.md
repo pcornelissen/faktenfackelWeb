@@ -3,7 +3,7 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-03-10
 name: Nürnberger Nachrichten
-description: Regionale Tageszeitung aus Nürnberg
+description: "Die Nürnberger Nachrichten (NN) sind eine der größten regionalen Tageszeitungen in Bayern. Sie berichten über lokale, regionale und überregionale Themen und betreiben auch aktiven Socialmedia-Journalismus mit Reels und Kurzvideos."
 tags:
   - Medien
   - Zeitung
@@ -11,7 +11,6 @@ tags:
   - Nürnberg
   - Regional
 ---
-
 ## Über die Quelle
 
 Die Nürnberger Nachrichten (NN) sind eine der größten regionalen Tageszeitungen in Bayern. Sie berichten über lokale, regionale und überregionale Themen und betreiben auch aktiven Socialmedia-Journalismus mit Reels und Kurzvideos.

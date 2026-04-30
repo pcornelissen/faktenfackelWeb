@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-30
 name: Marcel Hopp
-description: SPD Politiker, MdA Berlin, Lehrer
+description: "Wer ich bin Ich wurde im Februar 1988 als Sohn einer Krankenschwester aus Südkorea und einem gelernten Schlosser und Ingenieur (über den zweiten Bildungsweg) aus der Eifel in der Neuköllner Frauenklinik am Mariendorfer Weg geboren."
 imageAuthor: SPD Berlin
 tags:
   - SPD
@@ -11,7 +11,6 @@ tags:
   - Politik
   - Berlin
 ---
-
 ## Über die Quelle
 
 Selbstdarstellung:

@@ -3,14 +3,13 @@ date: 2026-04-19
 lastScanned: 2026-04-20
 publishedOn: 2026-04-20
 name: "KfW Bankengruppe"
-description: "Staatliche Förderbank des Bundes und der Länder"
+description: "Die KfW (Kreditanstalt für Wiederaufbau) ist eine der größten Förderbanken der Welt mit Sitz in Frankfurt am Main."
 tags:
   - Förderbank
   - Staatlich
   - Bank
   - Wirtschaft
 ---
-
 ## Über die Quelle
 
 Die KfW (Kreditanstalt für Wiederaufbau) ist eine der größten Förderbanken der Welt mit Sitz in Frankfurt am Main. Sie wurde 1948 gegründet, um den Wiederaufbau der deutschen Wirtschaft nach dem Zweiten Weltkrieg zu finanzieren, und hat sich seither zu einer Institution entwickelt, die Förderprogramme für Unternehmen, Privatpersonen, Kommunen und Entwicklungsländer anbietet.

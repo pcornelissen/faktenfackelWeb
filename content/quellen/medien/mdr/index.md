@@ -3,12 +3,11 @@ date: 2025-12-13
 lastScanned: 2025-12-13
 publishedOn: 2026-01-27
 name: Mitteldeutscher Rundfunk (MDR)
-description: Öffentlich rechtlicher Rundfunk
+description: "Der Mitteldeutsche Rundfunk (MDR) ist eine öffentlich-rechtliche Rundfunkanstalt mit Sitz in Leipzig, die für Radio- und Fernsehprogramme in Berlin, Brandenburg und Mecklenburg-Vorpommern zuständig ist."
 tags:
   - Medien
   - ÖRR
 ---
-
 ## Über die Quelle
 
 Der Mitteldeutsche Rundfunk (MDR) ist eine öffentlich-rechtliche Rundfunkanstalt mit Sitz in Leipzig, die für Radio- und Fernsehprogramme in Berlin, Brandenburg und Mecklenburg-Vorpommern zuständig ist. Er produziert regionale Hörfunk- und Fernsehangebote sowie Inhalte für das ARD-Netzwerk, darunter Nachrichten, Kultur, Information und Unterhaltung. Der MDR wird durch den Rundfunkbeitrag finanziert und gehört zur ARD, der Gemeinschaft der öffentlich-rechtlichen Sender in Deutschland.

@@ -3,12 +3,11 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-18
 name: Bundeskanzler.de
-description: Offizielle Website der Bundesregierung zum Bundeskanzler
+description: "Bundeskanzler.de ist eine Website der Bundesregierung. Hier werden vielfältige Informationen zum Bundeskanzler zusammengetragen, wie der öffentliche Terminkalender, Zitate und Aussagen oder Bilder."
 tags:
   - Staatlich
   - Regierung
 ---
-
 ## Über die Quelle
 
 Bundeskanzler.de ist eine Website der Bundesregierung. Hier werden vielfältige Informationen zum Bundeskanzler zusammengetragen, wie der öffentliche Terminkalender, Zitate und Aussagen oder Bilder.

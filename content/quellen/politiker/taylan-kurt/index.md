@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Taylan Kurt
-description: Politiker, Bündnis 90/Die Grünen
+description: "Taylan Kurt (*1988) ist Mitglied der Partei Bündnis90/Die Grünen und als direkt gewählter Abgeordneter Senat von Moabit und dem Brüsseler Kiez (beides ein Teil von Berlin). Seine Kernthemen sind soziale Gerechtigkeit, Mieten und Energie."
 tags:
   - Bündnis 90-Die Grünen
   - Journalist
@@ -13,7 +13,6 @@ tags:
   - Antifaschist
   - Gesellschaft
 ---
-
 ## Über die Quelle
 
 Taylan Kurt (*1988) ist Mitglied der Partei Bündnis90/Die Grünen und als direkt gewählter Abgeordneter Senat von Moabit und dem Brüsseler Kiez (beides ein Teil von Berlin).

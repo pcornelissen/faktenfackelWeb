@@ -3,11 +3,10 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-19
 name: Instagram, diverse
-description: Verschiedene Links zu Instagram
+description: "Diese Quelle ist ein Sammelbecken für diverse Instagram Artikel oder Profile, für die keine eigene Quelle angelet wurde."
 tags:
   - Medien
 ---
-
 ## Über die Quelle
 
 Diese Quelle ist ein Sammelbecken für diverse Instagram Artikel oder Profile, für die keine eigene Quelle angelet wurde.

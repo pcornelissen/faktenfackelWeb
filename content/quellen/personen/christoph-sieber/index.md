@@ -3,7 +3,7 @@ date: 2026-02-01
 lastScanned: 2026-02-01
 publishedOn: 2026-03-09
 name: Christoph Sieber
-description: Deutscher Kabarettist und Satiriker (WDR)
+description: "Christoph Sieber (geb. 1970 in Balingen) ist ein deutscher Kabarettist, Autor und Moderator. Er studierte Pantomime an der Folkwang Universität der Künste in Essen und startete 1995 sein erstes Kabarettprogramm."
 imageAuthor: Kultur in Ebersberg
 tags:
   - Kabarett
@@ -12,7 +12,6 @@ tags:
   - Humor
   - WDR
 ---
-
 ## Über die Quelle
 
 Christoph Sieber (geb. 1970 in Balingen) ist ein deutscher Kabarettist, Autor und Moderator. Er studierte Pantomime an der Folkwang Universität der Künste in Essen und startete 1995 sein erstes Kabarettprogramm. 2015 wurde er mit dem Deutschen Kleinkunstpreis ausgezeichnet.

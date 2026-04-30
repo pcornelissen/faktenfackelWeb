@@ -3,13 +3,12 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Focus-Online
-description: Onlineausgabe der Zeitschrift Focus
+description: "Die Zeitschrift Focus hat seit einiger Zeit eine Onlineausgabe unter Focus Online."
 tags:
   - Journalist
   - Zeitschrift
   - Medien
 ---
-
 ## Über die Quelle
 
 Die Zeitschrift Focus hat seit einiger Zeit eine Onlineausgabe unter Focus Online.

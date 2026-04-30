@@ -1,6 +1,6 @@
 ---
 name: Mary Khan
-description: AfD-Abgeordnete im Europäischen Parlament
+description: "Mary Khan (auch Mary Khan-Hohloch, geboren am 25. Juni 1994 in Frankfurt am Main) ist eine deutsche AfD-Politikerin und seit dem 16. Juli 2024 Mitglied des Europäischen Parlaments."
 date: 2026-04-19
 publishedOn: 2026-04-19
 lastScanned: 2026-04-19
@@ -9,7 +9,6 @@ tags:
   - europaparlament
   - mdep
 ---
-
 Mary Khan (auch Mary Khan-Hohloch, geboren am 25.&nbsp;Juni 1994 in Frankfurt am Main) ist eine deutsche AfD-Politikerin und seit dem 16.&nbsp;Juli 2024 Mitglied des [Europäischen Parlaments](https://www.europarl.europa.eu/meps/de/256957/MARY_KHAN/home). Sie gehört der AfD-Delegation in der rechtsextremen Fraktion "Europa der Souveränen Nationen" (ESN) an und tritt als innenpolitische Sprecherin und Koordinatorin im Rechtsausschuss der Gruppe auf.
 
 ## Biografie

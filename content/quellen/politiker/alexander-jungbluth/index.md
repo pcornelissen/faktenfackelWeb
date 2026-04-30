@@ -1,6 +1,6 @@
 ---
 name: "Alexander Jungbluth"
-description: "AfD-Abgeordneter im Europäischen Parlament"
+description: "Alexander Jungbluth (geboren am 7. Februar 1987 in Würselen) ist ein AfD-Politiker und seit dem 16. Juli 2024 Mitglied des Europäischen Parlaments."
 date: 2026-04-19
 publishedOn: 2026-04-19
 lastScanned: 2026-04-19
@@ -9,7 +9,6 @@ tags:
   - europaparlament
   - mdep
 ---
-
 Alexander Jungbluth (geboren am 7.&nbsp;Februar 1987 in Würselen) ist ein AfD-Politiker und seit dem 16.&nbsp;Juli 2024 Mitglied des [Europäischen Parlaments](https://www.europarl.europa.eu/meps/de/256941/ALEXANDER_JUNGBLUTH/home). Er gehört der AfD-Delegation in der rechtsextremen Fraktion "Europa der Souveränen Nationen" (ESN) an und ist stellvertretender Bundesschatzmeister der AfD.
 
 ## Biografie

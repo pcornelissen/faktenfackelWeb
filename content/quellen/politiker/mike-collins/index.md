@@ -3,7 +3,7 @@ date: 2026-04-13
 lastScanned: 2026-04-13
 publishedOn: 2026-04-13
 name: "Mike Collins"
-description: "Republikanischer US-Abgeordneter aus Georgia, MAGA-Flügel"
+description: "Michael Allen Collins Jr. (* 2. Juli 1967) ist ein republikanischer Politiker und Unternehmer aus Georgia."
 imageAuthor: "Offizielle Porträtfoto des 118. Kongresses (gemeinfrei)"
 tags:
   - USA
@@ -11,7 +11,6 @@ tags:
   - Republikaner
   - MAGA
 ---
-
 ## Über die Quelle
 
 Michael Allen Collins Jr. (* 2. Juli 1967) ist ein republikanischer Politiker und Unternehmer aus Georgia. Seit 2023 vertritt er den 10. Kongressbezirk von Georgia im Repräsentantenhaus der USA, einem konservativ geprägten Wahlkreis im Mittelteil des Bundesstaates, der unter anderem die Stadt Jackson umfasst. Collins ist Sohn des früheren Abgeordneten Mac Collins, der denselben Bundesstaat von 1993 bis 2005 im Kongress vertreten hatte. Vor seiner politischen Karriere gründete er zusammen mit seiner Frau Leigh Ann ein Transportunternehmen und war Vorsitzender einer der größten Kreditgenossenschaften Georgias.

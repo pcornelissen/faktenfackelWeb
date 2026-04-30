@@ -3,12 +3,11 @@ date: 2026-01-29
 lastScanned: 2026-01-29
 publishedOn: 2026-01-30
 name: Monitor
-description: Investigatives ARD-Politmagazin des WDR, seit 1965
+description: "Monitor ist ein Magazin, das zur ARD gehört. Es wird vom Westdeutschen Rundfunk (WDR) produziert und ist eines der ältesten und bekanntesten politischen Magazine im deutschen Fernsehen."
 tags:
   - Journalist
   - ÖRR
 ---
-
 ## Über die Quelle
 
 Monitor ist ein Magazin, das zur ARD gehört. Es wird vom Westdeutschen Rundfunk (WDR) produziert und ist eines der ältesten und bekanntesten politischen Magazine im deutschen Fernsehen. Die Sendung wurde erstmals 1965 ausgestrahlt und hat sich seitdem einen Ruf für investigative Berichterstattung und kritischen Journalismus erarbeitet. Monitor behandelt eine Vielzahl von Themen, darunter Politik, Wirtschaft, Umwelt, soziale Gerechtigkeit und Menschenrechte. Die Sendung ist bekannt für ihre gründlichen Recherchen und ihre Bereitschaft, Missstände aufzudecken. Monitor wird regelmäßig ausgestrahlt und ist sowohl im Fernsehen als auch online verfügbar.

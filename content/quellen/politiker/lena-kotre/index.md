@@ -3,7 +3,7 @@ date: 2026-03-08
 lastScanned: 2026-03-08
 publishedOn: 2026-02-27
 name: Lena Kotré
-description: AfD-Landtagsabgeordnete in Brandenburg, Juristin
+description: "Lena Kotré (geborene Duggen; * 11. November 1987 in West-Berlin) ist eine rechtsextreme deutsche Politikerin (AfD) und seit 2019 Landtagsabgeordnete in Brandenburg."
 imageAuthor:  24. Sitzung der 8. Wahlperiode des Landtages Brandenburg – Lena Kotré (AfD)
 tags:
   - AfD
@@ -12,7 +12,6 @@ tags:
   - Brandenburg
   - Rassismus
 ---
-
 ## Über die Quelle
 
 Lena Kotré (geborene Duggen; * 11. November 1987 in West-Berlin) ist eine rechtsextreme deutsche Politikerin (AfD) und seit 2019 Landtagsabgeordnete in Brandenburg. Kotré ist mit internationalen rechtsextremen Kräften inklusive Neonazismus vernetzt ([1](https://www.tagesspiegel.de/potsdam/brandenburg/weder-ausrutscher-noch-einzelfall-lena-kotre-ist-mit-neonazi-treffen-auf-parteilinie-der-afd-brandenburg-12966322.html), [2](https://www.welt.de/politik/deutschland/article256340612/rechtsextremist-aus-irland-wie-die-brandenburger-afd-einen-antisemitischen-nationalisten-hofiert.html)). So plant sie unter anderem gemeinsame Wahlkampfauftritte mit dem österreichischen Rechtsextremisten Sellner (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Lena_Kotr%C3%A9))

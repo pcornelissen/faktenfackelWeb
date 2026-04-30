@@ -3,12 +3,11 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-18
 name: Wikipedia
-description: Online-Enzyklopädie auf Basis von freiwilligen Mitarbeitern
+description: "Wikipedia ist ein online Wiki, in dem Informationen über die Welt in verschiedenen Sprachen von Freiwilligen gesammelt und gepflegt werden."
 tags:
   - Unabhängig
   - Wiki
 ---
-
 ## Über die Quelle
 
 Wikipedia ist ein online Wiki, in dem Informationen über die Welt in verschiedenen Sprachen von Freiwilligen gesammelt und gepflegt werden. Die deutschsprachige Wikipedia wurde 2001 gegründet und ist heute mit über 2,7 Millionen Artikeln die größte Enzyklopädie in deutscher Sprache.

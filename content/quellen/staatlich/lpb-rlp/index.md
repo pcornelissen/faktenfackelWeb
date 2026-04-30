@@ -3,14 +3,13 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Landeszentrale für politische Bildung, Rheinland Pfalz
-description: Staatliche Institution zur politischen Bildung
+description: "Die Landeszentrale für politische Bildung (lpb) ist eine deutsche Landesbehörde. Analog zur Bundeszentrale für politische Bildung (bzb) ist sie auch eine staatliche Institution zur politischen Bildung."
 tags:
   - Staatlich
   - Bildung
   - Politik
   - Gesellschaft
 ---
-
 ## Über die Quelle
 
 Die Landeszentrale für politische Bildung (lpb) ist eine deutsche Landesbehörde. Analog zur Bundeszentrale für politische Bildung (bzb) ist sie auch eine staatliche Institution zur politischen Bildung.

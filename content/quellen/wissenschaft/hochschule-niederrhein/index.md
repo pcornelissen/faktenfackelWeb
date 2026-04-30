@@ -3,14 +3,13 @@ date: 2026-04-02
 lastScanned: 2026-04-02
 publishedOn: 2026-04-02
 name: Hochschule Niederrhein
-description: Staatliche Fachhochschule in Mönchengladbach und Krefeld
+description: "Die Hochschule Niederrhein (HSNR) ist eine staatliche Fachhochschule in Nordrhein-Westfalen mit Standorten in Krefeld und Mönchengladbach."
 tags:
   - Bildung
   - Forschung
   - Hochschule
   - Niederrhein
 ---
-
 ## Über die Quelle
 
 Die Hochschule Niederrhein (HSNR) ist eine staatliche Fachhochschule in Nordrhein-Westfalen mit Standorten in Krefeld und Mönchengladbach. Sie wurde am 1. August 1971 als Fachhochschule Niederrhein durch den Zusammenschluss von acht höheren Fachschulen und drei Ingenieurschulen gegründet; 2001 erfolgte die Umbenennung in Hochschule Niederrhein. Ihre Wurzeln reichen bis ins 19. Jahrhundert zurück: 1855 entstand in Krefeld auf Initiative der Handelskammer die Höhere Webeschule, 1901 die Preußische Höhere Fachschule für die Textilindustrie in Mönchengladbach.

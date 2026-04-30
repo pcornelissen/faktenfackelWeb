@@ -3,13 +3,12 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-02-16
 name: Alice Weidel
-description: AfD-Co-Vorsitzende und Bundestagsfraktionschefin
+description: "Alice Elisabeth Weidel (* 6. Februar 1979 in Gütersloh) ist eine deutsche Politikerin (AfD). Sie ist seit 2017 Mitglied des Deutschen Bundestags."
 imageAuthor: Sebastian Kahnert, DPA, Picture Alliance
 tags:
   - AfD
   - Jurist-in
 ---
-
 ## Über die Quelle
 
 Alice Elisabeth Weidel (* 6. Februar 1979 in Gütersloh) ist eine deutsche Politikerin (AfD). Sie ist seit 2017 Mitglied des Deutschen Bundestags. Weidel war zunächst ab September 2017 gemeinsam mit Alexander Gauland und ist seit September 2021 gemeinsam mit Tino Chrupalla Co-Vorsitzende der Bundestagsfraktion der rechtspopulistischen und rechtsextremen Partei Alternative für Deutschland (AfD). Seit Juni 2022 ist sie zudem zusammen mit Chrupalla Bundessprecherin der Partei. Darüber hinaus war sie von Februar 2020 bis Juli 2022 Landessprecherin der AfD Baden-Württemberg. Bei der Bundestagswahl 2017 bildete sie mit Gauland das Spitzenkandidaten-Duo für die AfD. Bei der Bundestagswahl 2021 kandidierte sie in gleicher Funktion gemeinsam mit Chrupalla. Bei der Bundestagswahl 2025 war sie Kanzlerkandidatin ihrer Partei, die damit erstmals eine solche aufstellte. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Alice_Weidel))

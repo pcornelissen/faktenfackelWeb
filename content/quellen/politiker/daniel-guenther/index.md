@@ -3,14 +3,13 @@ date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-03-27
 name: "Daniel Günther"
-description: "CDU-Politiker, Ministerpräsident von Schleswig-Holstein"
+description: "Daniel Günther (* 1973 in Kiel) ist CDU-Politiker und seit 2017 Ministerpräsident von Schleswig-Holstein."
 tags:
   - CDU
   - Deutschland
   - Politik
   - Schleswig-Holstein
 ---
-
 ## Über die Quelle
 
 Daniel Günther (* 1973 in Kiel) ist CDU-Politiker und seit 2017 Ministerpräsident von Schleswig-Holstein. Er gewann die Landtagswahl 2017 überraschend gegen den amtierenden SPD-Ministerpräsidenten Torsten Albig und führte zunächst eine Jamaika-Koalition aus CDU, FDP und Grünen. Bei der Landtagswahl 2022 erzielte die CDU unter seiner Führung die absolute Mehrheit, ein beachtlicher Erfolg in einer Zeit, in der die Unionsparteien bundesweit schwächelten.

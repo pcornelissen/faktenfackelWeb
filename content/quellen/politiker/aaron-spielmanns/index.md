@@ -3,7 +3,7 @@ date: 2026-01-27
 lastScanned: 2026-01-27
 publishedOn: 2026-03-10
 name: Aaron Spielmanns
-description: SPD-Bundestagskandidat im Rhein-Erft-Kreis I
+description: "Aaron Spielmanns ist SPD-Bundestagskandidat im Rhein-Erft-Kreis I. Auf seiner Facebook-Seite positioniert er sich zu politischen Themen und wirbt für seine Kandidatur bei der Bundestagswahl 2025."
 tags:
   - SPD
   - Bundestagswahl
@@ -11,7 +11,6 @@ tags:
   - NRW
   - Politiker
 ---
-
 ## Über die Quelle
 
 Aaron Spielmanns ist SPD-Bundestagskandidat im Rhein-Erft-Kreis I. Auf seiner Facebook-Seite positioniert er sich zu politischen Themen und wirbt für seine Kandidatur bei der Bundestagswahl 2025.

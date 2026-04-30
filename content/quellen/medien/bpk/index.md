@@ -3,14 +3,13 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-02-01
 name: Bundespressekonferenz
-description: Verein, getragen von Journalisten
+description: "Der Verein Bundespressekonferenz e.V. ist ein Zusammenschluss von hauptamtlichen Journalisten und wird von dessen Mitgliedsbeiträgen finanziert."
 tags:
   - Politik
   - Presse
   - Verein
   - Unabhängig
 ---
-
 ## Über die Quelle
 
 Der Verein Bundespressekonferenz e.V. ist ein Zusammenschluss von hauptamtlichen Journalisten und wird von dessen Mitgliedsbeiträgen finanziert.

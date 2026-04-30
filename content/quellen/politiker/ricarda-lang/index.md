@@ -3,14 +3,13 @@ date: 2026-03-09
 lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Ricarda Lang
-description: Ehem. Bundesvorsitzende von Bündnis 90/Die Grünen, MdB
+description: "Ricarda Lang war von 2022 bis 2024 Bundesvorsitzende von Bündnis 90/Die Grünen. Sie ist Mitglied des Deutschen Bundestages und äußert sich regelmäßig zu Themen wie Demokratie, Antifaschismus und sozialer Gerechtigkeit."
 tags:
   - Bündnis 90-Die Grünen
   - Deutschland
   - MdB
 imageAuthor: Harald Krichel
 ---
-
 ## Über die Quelle
 
 Ricarda Lang war von 2022 bis 2024 Bundesvorsitzende von Bündnis 90/Die Grünen. Sie ist Mitglied des Deutschen Bundestages und äußert sich regelmäßig zu Themen wie Demokratie, Antifaschismus und sozialer Gerechtigkeit.

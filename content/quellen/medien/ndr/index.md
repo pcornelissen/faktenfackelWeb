@@ -3,12 +3,11 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-16
 name: Norddeutscher Rundfunk (NDR)
-description: Öffentlich rechtlicher Rundfunk
+description: "Der Norddeutsche Rundfunk (NDR) ist eine öffentlich-rechtliche Rundfunkanstalt mit Sitz in Hamburg, die für Radio- und Fernsehprogramme im nördlichen Deutschland zuständig ist, insbesondere in Hamburg, Niedersachsen, Schleswig-Holstein …"
 tags:
   - Medien
   - ÖRR
 ---
-
 ## Über die Quelle
 
 Der Norddeutsche Rundfunk (NDR) ist eine öffentlich-rechtliche Rundfunkanstalt mit Sitz in Hamburg, die für Radio- und Fernsehprogramme im nördlichen Deutschland zuständig ist, insbesondere in Hamburg, Niedersachsen, Schleswig-Holstein und Mecklenburg-Vorpommern. Er produziert regionale Hörfunk- und Fernsehangebote sowie Inhalte für das ARD-Netzwerk, darunter Nachrichten, Kultur, Information und Unterhaltung. Der NDR wird durch den Rundfunkbeitrag finanziert und gehört zur ARD, der Gemeinschaft der öffentlich-rechtlichen Sender in Deutschland.

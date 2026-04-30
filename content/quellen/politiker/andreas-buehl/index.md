@@ -1,6 +1,6 @@
 ---
 name: Andreas Bühl
-description: CDU-Politiker, Mitglied des Thüringer Landtags
+description: "Andreas Bühl (* 6. Februar 1987 in Ilmenau) ist Politiker der CDU und seit 2014 Mitglied des Thüringer Landtags."
 date: 2026-04-15
 publishedOn: 2026-04-15
 lastScanned: 2026-04-15
@@ -9,7 +9,6 @@ tags:
   - CDU
   - Thüringen
 ---
-
 ## Über die Quelle
 
 Andreas Bühl (* 6. Februar 1987 in Ilmenau) ist Politiker der CDU und seit 2014 Mitglied des Thüringer Landtags. Er ist Diplom-Verwaltungswirt (FH) und Master of Public Administration und arbeitete vor seiner Landtagszugehörigkeit als Sachbearbeiter beim Landesamt für Vermessung und Geoinformation in Thüringen.

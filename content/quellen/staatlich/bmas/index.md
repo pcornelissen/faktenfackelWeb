@@ -3,13 +3,12 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Bundesministerium für Arbeit und Soziales
-description: Bundesministerium für Arbeit und Soziales
+description: "Das Bundesministerium für Arbeit und Soziales (BMAS) ist eine oberste Bundesbehörde der Bundesregierung Deutschlands. Es ist zuständig für Politik und Gesetzgebung rund um Arbeitsmarkt, Soziales und soziale Sicherungssysteme."
 tags:
   - Staatlich
   - Arbeitsmarkt
   - Sozialsystem
 ---
-
 ## Über die Quelle
 
 Das Bundesministerium für Arbeit und Soziales (BMAS) ist eine oberste Bundesbehörde der Bundesregierung Deutschlands. Es ist zuständig für Politik und Gesetzgebung rund um Arbeitsmarkt, Soziales und soziale Sicherungssysteme. Seit Mai 2025 leitet Bärbel Bas (SPD) das Ministerium als Bundesministerin.

@@ -3,7 +3,7 @@ date: 2026-02-01
 lastScanned: 2026-02-01
 publishedOn: 2026-03-09
 name: kontrast.at
-description: Österreichisches progressives Online-Medienportal
+description: "kontrast.at ist ein österreichisches Online-Magazin, das seit Sommer 2016 vom sozialdemokratischen Parlamentsklub herausgegeben wird."
 tags:
   - Österreich
   - Medien
@@ -11,7 +11,6 @@ tags:
   - Wirtschaft
   - Sozialpolitik
 ---
-
 ## Über die Quelle
 
 kontrast.at ist ein österreichisches Online-Magazin, das seit Sommer 2016 vom sozialdemokratischen Parlamentsklub herausgegeben wird. Die Redaktion betrachtet Gesellschaft, Staat und Wirtschaft nach eigener Darstellung aus einer progressiven, emanzipatorischen Perspektive. Themen sind vor allem Sozialpolitik, Wirtschaft, Arbeit und Verteilungsgerechtigkeit.

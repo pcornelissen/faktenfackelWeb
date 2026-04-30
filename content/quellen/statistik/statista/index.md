@@ -3,11 +3,10 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: Statista
-description: Privates Unternehmen für Statistische Auswertungen
+description: "Statista liefert für Kunden und stellenweise auch kostenlose Statistiken zu diversen Themengebieten. Das Unternehmen wurde 2007 in Hamburg gegründet und hat sich seitdem zu einem der größten Anbieter von Statistiken weltweit entwickelt."
 tags:
   - Wissenschaft
 ---
-
 ## Über die Quelle
 
 Statista liefert für Kunden und stellenweise auch kostenlose Statistiken zu diversen Themengebieten. Das Unternehmen wurde 2007 in Hamburg gegründet und hat sich seitdem zu einem der größten Anbieter von Statistiken weltweit entwickelt.

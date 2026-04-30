@@ -3,13 +3,12 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-16
 name: "Gesetze im Internet (Portal vom BMJV)"
-description: Bundesministerium der Justiz und Verbraucherschutz
+description: "Das Portal Gesetze im Internet ist ein Dienst vom Bundesministerium der Justiz und für Verbraucherschutz (BMJV). Das Portal liefert leichten Zugang zu aktuell gültigen Gesetzestexten."
 tags:
   - Staatlich
   - Justiz
   - Verbraucherschutz
 ---
-
 ## Über die Quelle
 
 Das Portal Gesetze im Internet ist ein Dienst vom [Bundesministerium der Justiz und für Verbraucherschutz (BMJV)](/quellen/staatlich/bmjv). Das Portal liefert leichten Zugang zu aktuell gültigen Gesetzestexten. 

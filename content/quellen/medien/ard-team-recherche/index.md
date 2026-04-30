@@ -3,14 +3,13 @@ name: ARD team.recherche
 date: 2026-04-17
 lastScanned: 2026-04-17
 publishedOn: 2026-04-17
-description: "Investigatives Doku-Format der ARD für junges Publikum"
+description: "ARD team.recherche ist ein investigatives Doku-Format der ARD, das seit Oktober 2025 monatlich in der ARD-Mediathek erscheint. Das Format richtet sich an ein jüngeres Publikum (unter 40) und setzt auf \"streaminggerechtes Storytelling\"."
 tags:
   - Medien
   - ARD
   - Journalismus
   - Investigativjournalismus
 ---
-
 ARD team.recherche ist ein investigatives Doku-Format der ARD, das seit Oktober 2025 monatlich in der ARD-Mediathek erscheint. Das Format richtet sich an ein jüngeres Publikum (unter 40) und setzt auf "streaminggerechtes Storytelling".
 
 ## Über die Quelle

@@ -3,12 +3,11 @@ date: 2026-01-19
 lastScanned: 2026-01-19
 publishedOn: 2026-01-19
 name: Amnesty International
-description: Internationale Menschenrechtsorganisation, gegründet 1961
+description: "Amnesty International ist eine internationale, unabhängige Menschenrechtsorganisation, die 1961 gegründet wurde."
 tags:
   - NGO
   - Menschenrechte
 ---
-
 ## Über die Quelle
 Amnesty International ist eine internationale, unabhängige Menschenrechtsorganisation, die 1961 gegründet wurde. Sie setzt sich weltweit für den Schutz der Menschenrechte ein, etwa gegen Folter, Todesstrafe, politische Verfolgung und Diskriminierung.
 

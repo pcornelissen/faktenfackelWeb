@@ -3,7 +3,7 @@ date: 2026-03-09
 lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Karoline "Karo" Otte
-description: Bundestagsabgeordnete (Bündnis 90/Die Grünen), MdB
+description: "Karoline \"Karo\" Otte ist Bundestagsabgeordnete für Bündnis 90/Die Grünen. Auf Social Media kommentiert sie politische Themen, insbesondere die Auseinandersetzung mit der AfD und die Positionierung der CDU/CSU."
 imageAuthor: Stefan Kaminski
 tags:
   - Bündnis 90-Die Grünen
@@ -11,7 +11,6 @@ tags:
   - Deutschland
   - Bundespolitik
 ---
-
 ## Über die Quelle
 
 Karoline "Karo" Otte ist Bundestagsabgeordnete für Bündnis 90/Die Grünen. Auf Social Media kommentiert sie politische Themen, insbesondere die Auseinandersetzung mit der AfD und die Positionierung der CDU/CSU.

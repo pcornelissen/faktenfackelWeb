@@ -1,6 +1,6 @@
 ---
 name: "ZDF heute"
-description: Nachrichtenredaktion des Zweiten Deutschen Fernsehens
+description: "ZDF heute ist die Nachrichtenredaktion des Zweiten Deutschen Fernsehens (ZDF), eines der größten öffentlich-rechtlichen Sender Europas. Die Redaktion produziert tägliche Nachrichtensendungen (u. a."
 date: 2026-04-14
 lastScanned: 2026-04-14
 publishedOn: 2026-04-14
@@ -9,7 +9,6 @@ tags:
   - Öffentlich-Rechtlich
   - Deutschland
 ---
-
 ZDF heute ist die Nachrichtenredaktion des Zweiten Deutschen Fernsehens (ZDF), eines der größten öffentlich-rechtlichen Sender Europas. Die Redaktion produziert tägliche Nachrichtensendungen (u. a. "heute", "heute journal") und betreibt das Nachrichtenportal zdfheute.de sowie Social-Media-Kanäle auf Facebook, Instagram und YouTube.
 
 ## Über die Quelle

@@ -3,12 +3,11 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-18
 name: Beck Aktuell
-description: Juristisches Fachportal des C.H.Beck-Verlags
+description: "C.H.BECK, gegründet im Jahre 1763, zählt zu den ältesten Familienunternehmen und den renommiertesten Verlagen in Deutschland."
 tags:
   - Verlag
   - Jura
 ---
-
 ## Über die Quelle
 
 C.H.BECK, gegründet im Jahre 1763, zählt zu den ältesten Familienunternehmen und den renommiertesten Verlagen in Deutschland. Mit einer jährlichen Produktion von bis zu 1.000 Neuerscheinungen und Neuauflagen, rund 100 Fachzeitschriften und der führenden juristischen Datenbank beck-online rangiert der Verlag C.H.BECK auch quantitativ unter den großen deutschen Medienhäusern.

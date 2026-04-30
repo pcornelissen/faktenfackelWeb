@@ -3,11 +3,10 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: Berlin Story
-description: Berliner Online-Nachrichtenmagazin, geführt von Enno Lenze
+description: "Berlin Story ist ein Online-Nachrichtenmagazin, das vom Berlin Story Verlag betrieben wird. Der Geschäftsführer ist Enno Lenze (Politikberater, Experte für Sicherheits- und Außenpolitik)."
 tags:
   - Journalist
 ---
-
 ## Über die Quelle
 
 Berlin Story ist ein Online-Nachrichtenmagazin, das vom Berlin Story Verlag betrieben wird. Der Geschäftsführer ist [Enno Lenze](https://ennolenze.de/) (Politikberater, Experte für Sicherheits- und Außenpolitik).

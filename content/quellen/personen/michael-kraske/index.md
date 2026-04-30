@@ -3,14 +3,13 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Michael Kraske
-description: Journalist und Schriftsteller
+description: "Kraske ist schon lange journalistisch tätig, er arbeitete als Journalist für Stern, \"Die Zeit\", Geo, Reader's Digest, Merian, journalist, Psychologie Heute und Spiegel Online."
 imageAuthor: Paul Maurer
 tags:
   - Unabhängig
   - Antifaschist
   - Journalist
 ---
-
 ## Über die Quelle
 
 Kraske ist schon lange journalistisch tätig, er arbeitete als Journalist für Stern, "Die Zeit", Geo, Reader's Digest, Merian, journalist, Psychologie Heute und Spiegel Online. 

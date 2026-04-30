@@ -3,14 +3,13 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Bundeszentrale für politische Bildung
-description: Staatliche Institution zur politischen Bildung
+description: "Die Bundeszentrale für politische Bildung (bpb) ist eine deutsche Bundesbehörde im Geschäftsbereich des Bundesinnenministeriums mit Sitz in Bonn."
 tags:
   - Staatlich
   - Bildung
   - Politik
   - Gesellschaft
 ---
-
 ## Über die Quelle
 
 Die Bundeszentrale für politische Bildung (bpb) ist eine deutsche Bundesbehörde im Geschäftsbereich des Bundesinnenministeriums mit Sitz in Bonn. Sie wurde 1952 gegründet und hat den gesetzlichen Auftrag, politische Bildung zu fördern, das demokratische Bewusstsein zu stärken und Bürgerinnen und Bürger zur aktiven politischen Teilnahme zu motivieren. Zu ihren Aktivitäten zählen Publikationen, Seminare, Veranstaltungen, Online-Materialien und Bildungsprojekte zu aktuellen politischen, historischen und gesellschaftlichen Themen. (ChatGPT Zusammenfassung, persönlich verifiziert)

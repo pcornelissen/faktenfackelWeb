@@ -3,13 +3,12 @@ date: 2026-04-02
 lastScanned: 2026-04-02
 publishedOn: 2026-04-02
 name: nd – Journalismus von links
-description: Linke Tageszeitung, früher Neues Deutschland
+description: "Das nd (früher: Neues Deutschland) ist eine deutsche Tageszeitung mit linker Ausrichtung, erscheint seit 1946 und online unter nd-aktuell.de."
 tags:
   - Zeitung
   - Medien
   - Links
 ---
-
 ## Über die Quelle
 
 Das nd (früher: Neues Deutschland) ist eine deutsche Tageszeitung mit linker Ausrichtung, erscheint seit 1946 und online unter [nd-aktuell.de](https://www.nd-aktuell.de). Seit 2022 ist die nd.Genossenschaft eG Eigentümerin, die Redaktion und Leser sind damit formell Miteigentümer. Bis 2021 hielt die Partei Die Linke (über FEVAC) Anteile.

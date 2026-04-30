@@ -3,7 +3,7 @@ date: 2026-02-16
 lastScanned: 2026-02-16
 publishedOn: 2026-02-16
 name: Detlef Gürth
-description: Politiker, CDU
+description: "Detlef Gürth ist CDU-Politiker und seit 1990 Abgeordneter im Landtag Sachsen-Anhalt. 2011-2015 Landtagspräsident, Rücktritt 2015 nach Ermittlungen wegen Steuerhinterziehung."
 imageAuthor: CDU Fraktion Sachsen-Anhalt
 tags:
   - CDU
@@ -11,7 +11,6 @@ tags:
   - Steuerhinterziehung
   - Volksverhetzung
 ---
-
 ## Über die Quelle
 
 Zitat MDR:

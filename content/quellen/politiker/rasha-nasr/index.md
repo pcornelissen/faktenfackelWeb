@@ -3,14 +3,13 @@ date: 2026-03-09
 lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Rasha Nasr
-description: SPD-Bundestagsabgeordnete, bekannt für Reden gegen die AfD
+description: "Rasha Nasr ist eine deutsche SPD-Politikerin und Mitglied des Deutschen Bundestages. Sie wurde besonders bekannt durch ihre leidenschaftlichen Reden gegen die AfD im Bundestag und auf Social Media."
 imageAuthor: Julian Hoffmann
 tags:
   - SPD
   - Deutschland
   - MdB
 ---
-
 ## Über die Quelle
 
 Rasha Nasr ist eine deutsche SPD-Politikerin und Mitglied des Deutschen Bundestages. Sie wurde besonders bekannt durch ihre leidenschaftlichen Reden gegen die AfD im Bundestag und auf Social Media. Nasr setzt sich u.a. für Migrationsthemen, Demokratie und die Auseinandersetzung mit dem Rechtsextremismus ein.

@@ -68,6 +68,13 @@ onMounted(() => {
           <li><a href="/news/">Neuigkeiten</a></li>
           <li><NuxtLink to="/mehr/">Social Media</NuxtLink></li>
           <li><a href="https://mein.online-impressum.de/faktenfackel/">Social Hub</a></li>
+          <li>
+            <a
+              href="https://stats.uptimerobot.com/1acWwgvR7E"
+              rel="noopener"
+              target="_blank"
+            >Statusseite</a>
+          </li>
           <li><a href="/feed.xml">RSS Feed</a></li>
         </ul>
       </div>

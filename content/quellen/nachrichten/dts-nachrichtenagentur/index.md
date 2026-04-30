@@ -3,12 +3,11 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: DTS Nachrichtenagentur
-description: Nachrichtenaggregator, wie die DPA
+description: "Die dts Nachrichtenagentur ist eine von 15 Nachrichtenagenturen in Deutschland (s."
 tags:
   - Unabhängig
   - Journalist
 ---
-
 ## Über die Quelle
 
 Die dts Nachrichtenagentur ist eine von 15 Nachrichtenagenturen in Deutschland (s. Medien- und Kommunikationsbericht der Bundesregierung) und versorgt seit über 10 Jahren ihre Kunden rund um die Uhr mit topaktuellen Nachrichtentexten und Bildern. Unser Newsroom im Mitteldeutschen Multimediazentrum (MMZ) in Halle (Saale) ist 24 Stunden am Tag im Einsatz. (Quelle: [Homepage](https://www.dts-nachrichtenagentur.de/profil))

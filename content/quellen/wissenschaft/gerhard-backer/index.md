@@ -3,12 +3,11 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Prof. Dr. Gerhard Bäcker
-description: Soziologe, Sozialstaatsforscher an der Uni Duisburg-Essen
+description: "Gerhard Bäcker, Prof. Dr., geboren 1947 in Wülfrath ist Senior Professor im Institut Arbeit und Qualifikation der Universität Duisburg-Essen."
 tags:
   - Sozialwissenschaft
   - Gesellschaftswissenschaft
 ---
-
 ## Über die Quelle
 
 Gerhard Bäcker, Prof. Dr., geboren 1947 in Wülfrath ist Senior Professor im Institut Arbeit und Qualifikation der Universität Duisburg-Essen. Bis zur Emeritierung Inhaber des Lehrstuhls "Soziologie des Sozialstaates" in der Fakultät für Gesellschaftswissenschaften der Universität Duisburg-Essen. Forschungsschwerpunkte: Theorie und Empirie des Wohlfahrtsstaates in Deutschland und im internationalen Vergleich, ökonomische Grundlagen und Finanzierung des Sozialstaates, Systeme der sozialen Sicherung, insbesondere Alterssicherung, Arbeitsmarkt und Arbeitsmarktpolitik, Lebenslagen- und Armutsforschung. (Quelle: BPB)

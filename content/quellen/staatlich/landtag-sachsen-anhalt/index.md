@@ -3,13 +3,12 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-18
 name: Landtag Sachsen-Anhalt
-description: Offizielle Website des Landtags von Sachsen-Anhalt
+description: "Webseite des Landtags aus Sachsen-Anhalt. Dort gibt es u. a. Mitschnitte von Plenarsitzungen, Pressemitteilungen und Informationen zu Abgeordneten und Ausschüssen."
 tags:
   - Staatlich
   - Sachsen-Anhalt
   - Parlament
 ---
-
 ## Über die Quelle
 
 Webseite des Landtags aus Sachsen-Anhalt. Dort gibt es u. a. Mitschnitte von Plenarsitzungen, Pressemitteilungen und Informationen zu Abgeordneten und Ausschüssen.

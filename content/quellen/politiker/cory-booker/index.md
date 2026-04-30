@@ -3,7 +3,7 @@ date: 2026-03-09
 lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Cory Booker
-description: US-amerikanischer Demokrat, Senator für New Jersey
+description: "Cory Booker ist US-Senator für den Bundesstaat New Jersey (Demokratische Partei). Er äußert sich regelmäßig zu Verfassungsfragen, Bürgerrechten und der Trump-Administration."
 tags:
   - USA
   - Demokraten
@@ -11,7 +11,6 @@ tags:
   - Donald Trump
 imageAuthor: U.S. Senat
 ---
-
 ## Über die Quelle
 
 Cory Booker ist US-Senator für den Bundesstaat New Jersey (Demokratische Partei). Er äußert sich regelmäßig zu Verfassungsfragen, Bürgerrechten und der Trump-Administration.

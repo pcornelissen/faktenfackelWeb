@@ -3,7 +3,7 @@ date: 2026-03-09
 lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Volker Quaschning
-description: Professor für Regenerative Energiesysteme, HTW Berlin
+description: "Volker Quaschning ist Professor für Regenerative Energiesysteme an der HTW Berlin und einer der bekanntesten deutschen Experten für erneuerbare Energien."
 tags:
   - Wissenschaft
   - Energie
@@ -11,7 +11,6 @@ tags:
   - Deutschland
 imageAuthor: Hanser
 ---
-
 ## Über die Quelle
 
 Volker Quaschning ist Professor für Regenerative Energiesysteme an der HTW Berlin und einer der bekanntesten deutschen Experten für erneuerbare Energien. Er erklärt komplexe Energiethemen verständlich und engagiert sich öffentlich für Klimaschutz.

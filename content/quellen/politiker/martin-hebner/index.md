@@ -3,14 +3,13 @@ date: 2026-03-08
 lastScanned: 2026-03-08
 publishedOn: 2026-02-13
 name: Martin Hebner
-description: Verstorbener AfD-Bundestagsabgeordneter (2017-2021)
+description: "Martin Hebner (* 10. November 1959 in Frankfurt am Main[1]; † 7. Juli 2021 in Dießen am Ammersee) war ein deutscher Politiker der AfD. Er gehörte bis zu seinem Tod dem 19. Deutschen Bundestag an."
 imageAuthor: Martin Hebner / Edith Hebner
 tags:
   - AfD
   - Politiker
   - Bundestag
 ---
-
 ## Über die Quelle
 
 Martin Hebner (* 10. November 1959 in Frankfurt am Main[1]; † 7. Juli 2021 in Dießen am Ammersee) war ein deutscher Politiker der AfD. Er gehörte bis zu seinem Tod dem 19. Deutschen Bundestag an. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Martin_Hebner))

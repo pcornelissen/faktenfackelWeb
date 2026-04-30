@@ -3,7 +3,7 @@ date: 2026-02-01
 lastScanned: 2026-02-01
 publishedOn: 2026-03-09
 name: Lamya Kaddor
-description: SPD-Bundestagsabgeordnete und Islamwissenschaftlerin
+description: "Lamya Kaddor (* 1978 in Ahlen) ist eine deutsche Politikerin (SPD) und seit 2021 Mitglied des Deutschen Bundestages."
 tags:
   - SPD
   - Integration
@@ -13,7 +13,6 @@ tags:
   - Einbürgerung
 imageAuthor: Deutschlandfunk Kultur
 ---
-
 ## Über die Quelle
 
 Lamya Kaddor (* 1978 in Ahlen) ist eine deutsche Politikerin (SPD) und seit 2021 Mitglied des Deutschen Bundestages. Sie ist Islamwissenschaftlerin und war Lehrerin; ihre Themen sind Integration, Islamfeindlichkeit, Migration und gesellschaftlicher Zusammenhalt.

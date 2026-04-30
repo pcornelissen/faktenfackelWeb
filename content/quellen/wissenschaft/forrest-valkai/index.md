@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Forrest Valkai
-description: US-Biologe und Content Creator zu Evolution und Biologie
+description: "Forrest Valkai ist Biologe und Content Creator. Er klärt in den Videos zu diversen Themen auf, darunter auch Evolution, Transsexualität und andere biologische Themen."
 tags:
   - Creator
   - Social Media
@@ -11,7 +11,6 @@ tags:
   - Instagram
   - Biologie
 ---
-
 ## Über die Quelle
 
 Forrest Valkai ist Biologe und Content Creator. Er klärt in den Videos zu diversen Themen auf, darunter auch Evolution, Transsexualität und andere biologische Themen.

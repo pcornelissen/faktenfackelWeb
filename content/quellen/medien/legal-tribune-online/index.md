@@ -1,6 +1,6 @@
 ---
 name: Legal Tribune Online
-description: Führendes deutsches Onlinefachmedium für Recht und Justiz
+description: "Legal Tribune Online (LTO) ist das führende deutsche Onlinefachmedium für Recht und Justiz."
 date: 2026-04-18
 publishedOn: 2026-04-18
 lastScanned: 2026-04-18
@@ -9,7 +9,6 @@ tags:
   - Recht
   - Deutschland
 ---
-
 ## Über die Quelle
 
 [Legal Tribune Online (LTO)](https://de.wikipedia.org/wiki/Legal_Tribune_Online) ist das führende deutsche Onlinefachmedium für Recht und Justiz. Es wurde im April 2010 gegründet und gehört zur Wolters Kluwer Deutschland GmbH, einem Tochterunternehmen des niederländischen Informationskonzerns Wolters Kluwer N.V. In den ersten Jahren bestand eine Vermarktungskooperation mit Spiegel QC, die 2012 endete.

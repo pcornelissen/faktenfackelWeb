@@ -3,13 +3,12 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-16
 name: "Bundesministerium der Justiz und Verbraucherschutz"
-description: Bundesministerium der Justiz und für Verbraucherschutz
+description: "Das Bundesministerium der Justiz und für Verbraucherschutz (BMJV) ist ein Bundesministerium, das für die Gesetzgebung im Zivil-, Straf- und Wirtschaftsrecht sowie für den Schutz der Verbraucherinnen und Verbraucher zuständig ist."
 tags:
   - Staatlich
   - Justiz
   - Verbraucherschutz
 ---
-
 ## Über die Quelle
 
 Das Bundesministerium der Justiz und für Verbraucherschutz (BMJV) ist ein Bundesministerium, das für die Gesetzgebung im Zivil-, Straf- und Wirtschaftsrecht sowie für den Schutz der Verbraucherinnen und Verbraucher zuständig ist. Es setzt sich für die Wahrung des Rechtsstaats, den Schutz der Grundrechte und faire Marktbedingungen ein. Außerdem vertritt es Deutschland in justiz- und verbraucherpolitischen Fragen auf europäischer Ebene.

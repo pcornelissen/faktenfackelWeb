@@ -3,12 +3,11 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Compact
-description: Rechtes Onlinemagazin im Umfeld der Neuen Rechten
+description: "Compact ist ein rechtes Onlinemagazin. Die Selbstdarstellung lautet: \"COMPACT gibt also keine politische Linie vor, sondern eine Haltung: Magazin für Souveränität."
 tags:
   - Verlag
   - Desinformation
 ---
-
 ## Über die Quelle
 
 Compact ist ein rechtes Onlinemagazin. Die Selbstdarstellung lautet:

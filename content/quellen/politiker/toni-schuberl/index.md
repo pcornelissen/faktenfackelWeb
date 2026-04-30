@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-25
 name: Toni Schuberl
-description: Politiker, Bündnis 90/Die Grünen, Landtag Bayern
+description: "Toni Schuberl (* 26. Januar 1983 in Deggendorf als Anton Schuberl) ist ein deutscher Politiker (Bündnis 90/Die Grünen) und Autor. Er ist seit 2018 Abgeordneter im Bayerischen Landtag."
 imageAuthor: PNP.de
 tags:
   - Bündnis 90-Die Grünen
@@ -11,7 +11,6 @@ tags:
   - Klimaschutz
   - Antifaschist
 ---
-
 ## Über die Quelle
 
 Toni Schuberl (* 26. Januar 1983 in Deggendorf als Anton Schuberl) ist ein deutscher Politiker (Bündnis 90/Die Grünen) und Autor. Er ist seit 2018 Abgeordneter im Bayerischen Landtag. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Toni_Schuberl))

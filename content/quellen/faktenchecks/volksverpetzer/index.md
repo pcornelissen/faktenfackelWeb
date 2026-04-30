@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Volksverpetzer
-description: Deutscher Faktencheck-Blog gegen Desinformation, seit 2014
+description: "Volksverpetzer ist ein Faktencheck-Blog. Volksverpetzer gibt es seit 2014 und war zwischendurch auch auf dem Faktencheck-Portal Mimikama zu finden, ist aber seit 2018 wieder selbständig."
 imageAuthor: Volksverpetzer Teamfoto, Homepage
 tags:
   - Unabhängig
@@ -11,7 +11,6 @@ tags:
   - Journalist
   - Faktencheck
 ---
-
 ## Über die Quelle
 
 Volksverpetzer ist ein Faktencheck-Blog. Volksverpetzer gibt es seit 2014 und war zwischendurch auch auf dem Faktencheck-Portal Mimikama zu finden, ist aber seit 2018 wieder selbständig.

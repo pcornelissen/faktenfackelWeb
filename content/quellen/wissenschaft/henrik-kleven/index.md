@@ -3,12 +3,11 @@ date: 2026-01-14
 lastScanned: 2026-01-14
 publishedOn: 2026-01-14
 name: Hendrik Jacobson Kleven
-description: Wirtschaftswissenschaftler, Princeton University
+description: "Henrik Kleven ist der \"Lynn Bendheim Thoman (Class of 1977) und Robert Bendheim (Class of 1937) Professor\" (die Professur ist finanziert von der Stiftung \"Lynn Bendheim Thoman und Robert Bendheim\") für Volkswirtschaftslehre und Public …"
 tags:
   - Wirtschaft
   - Wissenschaftler
 ---
-
 ## Über die Quelle
 
 Henrik Kleven ist der "Lynn Bendheim Thoman (Class of 1977) und Robert Bendheim (Class of 1937) Professor" (die Professur ist finanziert von der Stiftung "Lynn Bendheim Thoman und Robert Bendheim") für Volkswirtschaftslehre und Public Affairs an der Princeton University. Zuvor war er an der London School of Economics sowie an der Universität Kopenhagen tätig. Er ist Fellow der Econometric Society und Research Associate beim National Bureau of Economic Research (NBER).

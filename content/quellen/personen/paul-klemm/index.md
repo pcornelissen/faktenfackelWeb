@@ -3,12 +3,11 @@ date: 2026-01-25
 lastScanned: 2026-01-25
 publishedOn: 2026-01-25
 name: Paul Klemm
-description: Compact TV, Gesellschafter CONSPECT FILM GmbH
+description: "Paul Klemm ist eine Person, die bei Compact und Compact-TV mitarbeitet und dort als Moderator, Filmer/Aktivist und TV-Chef auftaucht."
 imageAuthor: Jungeuropa Verlag, X/Twitter
 tags:
   - Compact
 ---
-
 ## Über die Quelle
 
 Paul Klemm ist eine Person, die bei Compact und Compact-TV mitarbeitet und dort als Moderator, Filmer/Aktivist und TV-Chef auftaucht. Er ist häufig in Compact-Videoformaten und bei öffentlichen Aktionen des rechtspopulistischen/rechtsextremen Umfelds zu sehen und tritt bei Compact-bezogenen Veranstaltungen sowie Webinar- oder Videoproduktionen als sichtbarer Mitarbeiter auf.

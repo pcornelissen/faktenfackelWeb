@@ -3,7 +3,7 @@ date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-03-09
 name: Sabre // bottleneckloser
-description: US-Kommentatorin, Social-Media-Content-Creator
+description: "Sabre, online bekannt als bottleneckloser, ist eine US-amerikanische trans Content Creatorin und Lehrerin. Sie hat über 320.000 Follower auf TikTok und ist auf Facebook, Instagram und X aktiv."
 tags:
   - Creator
   - Social Media
@@ -13,7 +13,6 @@ tags:
   - LGBTQ
   - Gesellschaft
 ---
-
 ## Über die Quelle
 
 Sabre, online bekannt als bottleneckloser, ist eine US-amerikanische trans Content Creatorin und Lehrerin. Sie hat über 320.000 Follower auf TikTok und ist auf Facebook, Instagram und X aktiv. In ihren Videos kommentiert sie gesellschaftliche und politische Themen mit Humor und klarer Haltung, insbesondere zu Trans-Rechten, LGBTQ+-Themen und US-Politik.

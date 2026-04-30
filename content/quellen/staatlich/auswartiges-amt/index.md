@@ -3,12 +3,11 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-16
 name: Auswärtiges Amt
-description: Außenministerium der Bundesrepublik Deutschland
+description: "Das Auswärtige Amt (AA, vereinzelt auch Außenamt oder Bundesministerium des Auswärtigen genannt) ist eines der Ministerien der Bundesrepublik Deutschland und als solche eine oberste Bundesbehörde."
 tags:
   - Staatlich
   - Internationale Beziehungen
 ---
-
 ## Über die Quelle
 
 Das Auswärtige Amt (AA, vereinzelt auch Außenamt oder Bundesministerium des Auswärtigen genannt) ist eines der Ministerien der Bundesrepublik Deutschland und als solche eine oberste Bundesbehörde. Es hat seinen Hauptsitz in Berlin und einen Nebensitz in der Bundesstadt Bonn.

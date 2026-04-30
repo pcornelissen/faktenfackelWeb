@@ -3,14 +3,13 @@ date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-03-27
 name: Wirtschaftsrat der CDU
-description: Wirtschaftspolitische Lobbyorganisation der CDU
+description: "Der Wirtschaftsrat der CDU e.V. ist eine 1963 gegründete wirtschaftspolitische Lobbyorganisation mit enger inhaltlicher Verbindung zur CDU."
 tags:
   - Deutschland
   - Lobbyismus
   - CDU
   - Wirtschaft
 ---
-
 ## Über die Quelle
 
 Der Wirtschaftsrat der CDU e.V. ist eine 1963 gegründete wirtschaftspolitische Lobbyorganisation mit enger inhaltlicher Verbindung zur CDU. Mitglieder sind überwiegend Unternehmer, Manager und Persönlichkeiten aus der Wirtschaft, die der CDU nahestehen. Der Wirtschaftsrat ist keine offizielle Gliederung der CDU, gilt aber als einflussreicher Interessenvertreter marktliberaler Wirtschaftspolitik im konservativen Lager.

@@ -3,7 +3,7 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: Till Steffen
-description: Politiker, Bündnis 90/Die Grünen
+description: "Till Benjamin Steffen (* 22. Juli 1973 in Wiesbaden-Sonnenberg) ist ein deutscher Politiker (Bündnis 90/Die Grünen). Seine Themen sind Demokratie, Klimaschutz und Energiewende und Rechtspolitik."
 tags:
   - Bündnis 90-Die Grünen
   - Journalist
@@ -13,7 +13,6 @@ tags:
   - Antifaschist
   - Gesellschaft
 ---
-
 ## Über die Quelle
 
 Till Benjamin Steffen (* 22. Juli 1973 in Wiesbaden-Sonnenberg) ist ein deutscher Politiker (Bündnis 90/Die Grünen).

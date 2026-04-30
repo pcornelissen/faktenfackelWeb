@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Der Verrückte Mutmacher
-description: Content Creator mit satirischen Videos gegen rechte Politik
+description: "Stefan, der verrückte Hutmacher ist ein Content Creator, der Videos gegen rechts erstellt. Er geht darin gegen aktuelle Politik und Themen der rechten Blase vor und zeigt oft mit einem lustigen Unterton, wie absurd sie sind."
 tags:
   - Creator
   - Social Media
@@ -11,7 +11,6 @@ tags:
   - Instagram
   - Antifaschist
 ---
-
 ## Über die Quelle
 
 Stefan, der verrückte Hutmacher ist ein Content Creator, der Videos gegen rechts erstellt. Er geht darin gegen aktuelle Politik und Themen der rechten Blase vor und zeigt oft mit einem lustigen Unterton, wie absurd sie sind.

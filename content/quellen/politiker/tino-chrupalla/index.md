@@ -3,13 +3,12 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-18
 name: Tino Chrupalla
-description: AfD Politiker und Lackierermeister
+description: "Tino Chrupalla ist ein deutscher Politiker und seit 2019 (gemeinsam mit Alice Weidel) Bundessprecher der AfD. Er ist gelernter Maler- und Lackierermeister und stammt aus Sachsen, wo er zuvor als Handwerksunternehmer tätig war."
 imageAuthor: Deutschlandfunk
 tags:
   - AfD
   - Jurist-in
 ---
-
 ## Über die Quelle
 
 Tino Chrupalla ist ein deutscher Politiker und seit 2019 (gemeinsam mit Alice Weidel) Bundessprecher der AfD. Er ist gelernter Maler- und Lackierermeister und stammt aus Sachsen, wo er zuvor als Handwerksunternehmer tätig war. Seit 2017 ist er Mitglied des Deutschen Bundestages.

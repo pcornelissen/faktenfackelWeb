@@ -3,15 +3,12 @@ date: 2026-03-10
 lastScanned: 2026-03-10
 publishedOn: 2026-03-10
 name: SPD Rheinland-Pfalz
-description: Landesverband der SPD in Rheinland-Pfalz
+description: "Die SPD Rheinland-Pfalz ist der Landesverband der Sozialdemokratischen Partei Deutschlands in Rheinland-Pfalz. Der Landesverband teilt politische Positionen und Statements auf Social Media."
 tags:
   - Partei
   - SPD
   - Rheinland-Pfalz
 ---
-date: 2026-03-10
-publishedOn: 2026-03-10
-
 ## Über die Quelle
 
 Die SPD Rheinland-Pfalz ist der Landesverband der Sozialdemokratischen Partei Deutschlands in Rheinland-Pfalz. Der Landesverband teilt politische Positionen und Statements auf Social Media.

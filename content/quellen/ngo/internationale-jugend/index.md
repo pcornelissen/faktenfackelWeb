@@ -3,12 +3,11 @@ date: 2026-04-02
 lastScanned: 2026-04-02
 publishedOn: 2026-04-02
 name: Internationale Jugend
-description: Sozialistische Jugendorganisation, Mitglied der FKO
+description: "Die Internationale Jugend ist eine sozialistische Jugendorganisation für Schülerinnen und Schüler, junge Arbeiter und Erwerbslose."
 tags:
   - Linksextremismus
   - Jugendorganisation
 ---
-
 ## Über die Quelle
 
 Die Internationale Jugend ist eine sozialistische Jugendorganisation für Schülerinnen und Schüler, junge Arbeiter und Erwerbslose. Sie ist Teil der Föderation klassenkämpferischer Organisationen (FKO), einem Zusammenschluss der Gruppen Betriebskampf, Frauenkollektiv, Internationale Jugend, Studierendenkollektiv und Solidaritätsnetzwerk.

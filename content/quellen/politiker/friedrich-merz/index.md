@@ -3,14 +3,13 @@ date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-03-27
 name: "Friedrich Merz"
-description: "CDU-Politiker, Bundeskanzler der Bundesrepublik Deutschland"
+description: "Friedrich Merz (* 1955 in Brilon) ist ein deutscher Rechtsanwalt und CDU-Politiker. Nach der Bundestagswahl 2025 wurde er als Bundeskanzler vereidigt, nachdem die CDU/CSU als stärkste Kraft aus der Wahl hervorgegangen war."
 tags:
   - CDU
   - Deutschland
   - Bundestag
   - Politik
 ---
-
 ## Über die Quelle
 
 Friedrich Merz (* 1955 in Brilon) ist ein deutscher Rechtsanwalt und CDU-Politiker. Nach der Bundestagswahl 2025 wurde er als Bundeskanzler vereidigt, nachdem die CDU/CSU als stärkste Kraft aus der Wahl hervorgegangen war. Merz hatte die CDU seit Ende 2021 als Parteivorsitzender geführt und die Union nach mehreren Niederlagen in der Opposition stabilisiert.

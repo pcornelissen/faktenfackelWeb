@@ -3,13 +3,12 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: IG Metall
-description: Gewerkschaft für die Metall und Elektroindustrie
+description: "Die IG Metall (Industriegewerkschaft Metall) ist die größte Einzelgewerkschaft in Deutschland und vertritt die Interessen von Arbeitnehmern in der Metall- und Elektroindustrie sowie in verwandten Branchen."
 tags:
   - NGO
   - Gewerkschaft
   - Metallsektor
 ---
-
 ## Über die Quelle
 
 Die IG Metall (Industriegewerkschaft Metall) ist die größte Einzelgewerkschaft in Deutschland und vertritt die Interessen von Arbeitnehmern in der Metall- und Elektroindustrie sowie in verwandten Branchen. Sie setzt sich für bessere Arbeitsbedingungen, faire Löhne und soziale Gerechtigkeit ein.

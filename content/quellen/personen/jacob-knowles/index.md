@@ -3,7 +3,7 @@ date: 2026-03-26
 lastScanned: 2026-03-26
 publishedOn: 2026-03-26
 name: Jacob Knowles
-description: Hummerfischer und Content Creator aus Maine
+description: "Jacob Knowles ist ein Hummerfischer in fünfter Generation aus Winter Harbor, Maine (USA)."
 tags:
   - Creator
   - Social Media
@@ -12,7 +12,6 @@ tags:
   - Instagram
   - YouTube
 ---
-
 ## Über die Quelle
 
 Jacob Knowles ist ein Hummerfischer in fünfter Generation aus Winter Harbor, Maine (USA). Er dokumentiert seinen Arbeitsalltag als Hummerfischer auf Social Media und vermittelt dabei Wissen über nachhaltige Fischereipraktiken und Meeresbiologie. Bekannt wurde er 2020, als ein TikTok-Video über das Einkerben der Schwanzflossen eiertragender Hummer-Weibchen viral ging.

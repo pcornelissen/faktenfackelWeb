@@ -3,12 +3,11 @@ date: 2026-01-19
 lastScanned: 2026-01-19
 publishedOn: 2026-01-24
 name: Cicero
-description: Magazin für politische Themen, Res Publica Verlags GmbH
+description: "Cicero versteht sich selbst als \"Magazin für politische Kultur\"."
 tags:
   - Medien
   - Politik
 ---
-
 ## Über die Quelle
 
 Cicero versteht sich selbst als "Magazin für politische Kultur". Es will politische und gesellschaftliche Debatten reflektieren, Hintergründe liefern und unterschiedliche Positionen diskutieren – nicht nur Nachrichten berichten, sondern politische Entwicklungen einordnen und kommentieren.

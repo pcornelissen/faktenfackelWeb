@@ -3,13 +3,12 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-24
 name: Deutschlandfunk
-description: Presseportal der deutschen Presse Agentur
+description: "Der Deutschlandfunk (DLF) ist ein bundesweiter öffentlich-rechtlicher Radiosender und Teil des Deutschlandradios. Er bietet vor allem Nachrichten, Hintergrundberichte, Analysen und Interviews zu Politik, Wirtschaft, Wissenschaft und Kultur."
 tags:
   - Journalist
   - Nachrichten
   - ÖRR
 ---
-
 ## Über die Quelle
 
 Der Deutschlandfunk (DLF) ist ein bundesweiter öffentlich-rechtlicher Radiosender und Teil des Deutschlandradios. Er bietet vor allem Nachrichten, Hintergrundberichte, Analysen und Interviews zu Politik, Wirtschaft,  Wissenschaft und Kultur.

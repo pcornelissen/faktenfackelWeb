@@ -1,6 +1,6 @@
 ---
 name: Donald Trump
-description: 45. und 47. US-Präsident, Galionsfigur der MAGA-Bewegung
+description: "Donald Trump (* 1946) ist republikanischer Politiker und war 45. sowie 47. Präsident der Vereinigten Staaten (2017 bis 2021 und erneut ab 2025)."
 date: 2026-03-27
 lastScanned: 2026-03-27
 publishedOn: 2026-04-14
@@ -10,7 +10,6 @@ tags:
   - Republikaner
   - Präsident
 ---
-
 ## Über die Quelle
 
 Donald Trump (* 1946) ist republikanischer Politiker und war 45. sowie 47. Präsident der Vereinigten Staaten (2017 bis 2021 und erneut ab 2025). Er ist Gründer der Trump Organization und gilt als Galionsfigur der MAGA-Bewegung ("Make America Great Again"). 2023 wurde er in mehreren Bundesstaaten strafrechtlich angeklagt, darunter im Fulton County (Georgia) wegen Wahlbeeinflussung sowie federal wegen Mitnahme geheimer Dokumente und Verschwörung gegen den Staat.

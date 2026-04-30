@@ -3,13 +3,12 @@ date: 2026-02-10
 lastScanned: 2026-02-10
 publishedOn: 2026-02-13
 name: Andreas Winhart
-description: AfD-Politiker, Abgeordneter im Bayerischen Landtag
+description: "Andreas Winhart ist AfD-Politiker und Abgeordneter im Bayerischen Landtag. Er äußert sich vor allem zu Gesundheits-, Sozial- und Gesellschaftspolitik und vertritt dabei nationalkonservative sowie regierungskritische Positionen, u. a."
 imageAuthor: Bayrischer Landtag
 tags:
   - AfD
   - Jurist-in
 ---
-
 ## Über die Quelle
 
 Andreas Winhart ist AfD-Politiker und Abgeordneter im Bayerischen Landtag. Er äußert sich vor allem zu Gesundheits-,

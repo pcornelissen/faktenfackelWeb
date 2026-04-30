@@ -3,12 +3,11 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-02-01
 name: Bluesky Beiträge
-description: Beiträge von diversen Accounts auf bluesky
+description: "Diese Quelle ist ein Sammelbecken für Bluesky Beiträge, für die keine eigene Quelleninfo angelegt wurde. Das kann später passieren, wenn Bedarf erkannt wird oder sich Beiträge einer Quelle häufen."
 imageAuthor: Bluesky
 tags:
   - Bluesky
 ---
-
 ## Über die Quelle
 
 Diese Quelle ist ein Sammelbecken für Bluesky Beiträge, für die keine eigene Quelleninfo angelegt wurde. Das kann später passieren, wenn Bedarf erkannt wird oder sich Beiträge einer Quelle häufen.

@@ -3,13 +3,12 @@ date: 2026-03-09
 lastScanned: 2026-03-09
 publishedOn: 2026-03-09
 name: Gute Nacht Österreich
-description: Österreichisches Politsatire-Format, ORF
+description: "\"Gute Nacht Österreich\" ist ein österreichisches politisches Satire-Format des ORF."
 tags:
   - Österreich
   - Satire
   - Medien
 ---
-
 ## Über die Quelle
 
 "Gute Nacht Österreich" ist ein österreichisches politisches Satire-Format des ORF. Mit Moderator Peter Klien kommentiert die Sendung aktuelle politische Ereignisse in Österreich auf satirische Weise – vergleichbar mit deutschen Formaten wie Extra3 oder der Heute Show.

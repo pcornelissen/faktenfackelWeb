@@ -3,12 +3,11 @@ date: 2026-01-09
 lastScanned: 2026-01-09
 publishedOn: 2026-01-11
 name: ifo Institut
-description: Wirtschaftsforschungsinstitut
+description: "Das ifo Institut ist eines der führenden Wirtschaftsforschungsinstitute Deutschlands mit Sitz in München. Es analysiert wirtschaftliche Entwicklungen, erstellt Prognosen und berät Politik, Wirtschaft und Öffentlichkeit."
 tags:
   - Wissenschaft
   - Wirtschaft
 ---
-
 ## Über die Quelle
 
 Das ifo Institut ist eines der führenden Wirtschaftsforschungsinstitute Deutschlands mit Sitz in München. Es analysiert

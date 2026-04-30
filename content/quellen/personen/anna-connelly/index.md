@@ -3,7 +3,7 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-25
 name: Anna Connelly
-description: Content Creatorin, Minneapolis
+description: "Anna Connelly ist eine US-amerikanische Content Creatorin und Social-Media-Persönlichkeit aus Minneapolis, Minnesota."
 imageAuthor: Instagram, annaconnellyiscool
 tags:
   - Creator
@@ -16,7 +16,6 @@ tags:
   - Satire
   - Politik
 ---
-
 ## Über die Quelle
 
 Anna Connelly ist eine US-amerikanische Content Creatorin und Social-Media-Persönlichkeit aus Minneapolis, Minnesota. Sie wurde vor allem durch kurze Videos auf Facebook, Instagram und YouTube bekannt, in denen sie politische Themen, gesellschaftliche Debatten und Alltagsfragen mit Humor, Sarkasmus und klarer Meinung kommentiert.

@@ -3,13 +3,12 @@ date: 2026-01-18
 lastScanned: 2026-01-18
 publishedOn: 2026-01-19
 name: Hessenschau
-description: Nachrichtenmagazin des Hessischen Rundfunks
+description: "Die Hessenschau ist das Nahrichtenmagazin des Hessischen Rundfunks."
 tags:
   - Journalist
   - Medien
   - ÖRR
 ---
-
 ## Über die Quelle
 
 Die Hessenschau ist das Nahrichtenmagazin des Hessischen Rundfunks.

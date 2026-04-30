@@ -3,13 +3,12 @@ date: 2026-01-16
 lastScanned: 2026-01-16
 publishedOn: 2026-01-11
 name: Europäisches Parlament
-description: Politische Organisation der EU
+description: "Das Europäische Parlament ist das direkt gewählte Parlament der Europäischen Union und vertritt die Interessen der Bürgerinnen und Bürger der EU."
 tags:
   - Staatlich
   - Arbeitsmarkt
   - Sozialsystem
 ---
-
 ## Über die Quelle
 
 Das Europäische Parlament ist das direkt gewählte Parlament der Europäischen Union und vertritt die Interessen der Bürgerinnen und Bürger der EU. Gemeinsam mit dem Rat der Europäischen Union beschließt es EU-Gesetze und den Haushalt und kontrolliert die Arbeit der Europäischen Kommission.

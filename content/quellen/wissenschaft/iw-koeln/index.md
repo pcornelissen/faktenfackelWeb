@@ -3,13 +3,12 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Institut der deutschen Wirtschaft
-description:  Wirtschaftsforschungsinstitut, Arbeitgeber-nah
+description: "Das Institut der deutschen Wirtschaft Köln e. V. (IW) mit Sitz in Köln und Büros in Berlin und Brüssel ist ein Arbeitgeber-nahes Wirtschaftsforschungsinstitut, das von Verbänden und Unternehmen der Wirtschaft finanziert wird."
 tags:
   - Forschung
   - Wirtschaft
   - Institut
 ---
-
 ## Über die Quelle
 
 Das Institut der deutschen Wirtschaft Köln e. V. (IW) mit Sitz in Köln und Büros in Berlin und Brüssel ist ein Arbeitgeber-nahes Wirtschaftsforschungsinstitut, das von Verbänden und Unternehmen der Wirtschaft finanziert wird.

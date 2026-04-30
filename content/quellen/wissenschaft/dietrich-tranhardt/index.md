@@ -3,14 +3,13 @@ date: 2026-01-16
 lastScanned: 2026-01-16
 publishedOn: 2026-01-16
 name: Prof. em. Dr. rer. soc. Dietrich Tränhardt
-description: Politikwissenschaftler und Migrationsforscher
+description: "Dietrich Thränhardt (*1941) ist ein deutscher Politikwissenschaftler und Migrationsforscher und war von 1980 bis 2008 Professor für Politikwissenschaft an der Universität Münster."
 imageAuthor: Stephan Röhl für Heinrich-Böll-Stiftung
 tags:
   - Wissenschaft
   - Politik
   - Migration
 ---
-
 ## Über die Quelle
 
 Dietrich Thränhardt (*1941) ist ein deutscher Politikwissenschaftler und Migrationsforscher und war von 1980 bis 2008 Professor für Politikwissenschaft an der Universität Münster. Er gilt als einer der führenden deutschen Experten für Migration, Integration und Ausländerpolitik und hat zahlreiche Bücher und Studien zu diesen Themen veröffentlicht. Thränhardt war Herausgeber der Reihe Studien zu Migration und Minderheiten und hat zu Integrationsprozessen, Arbeitsmarktintegration von Geflüchteten und vergleichender Migrationspolitik geforscht und beraten.

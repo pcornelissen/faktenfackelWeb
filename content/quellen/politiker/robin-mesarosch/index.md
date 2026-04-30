@@ -3,7 +3,7 @@ date: 2026-01-07
 lastScanned: 2026-01-07
 publishedOn: 2026-01-07
 name: Robin Mesarosch
-description: Ehemaliger SPD-Bundestagsabgeordneter und Journalist
+description: "Robin Mesarosch (*1. April 1991) ist ein ehemaliger Bundestagsabgeordneter der SPD (Ausschuss für Klimaschutz und Energie und Ausschuss für Digitales) und jetzt wieder aktiv als deutscher Journalist und Autor, der sich auf politische und …"
 tags:
   - SPD
   - Journalist
@@ -12,7 +12,6 @@ tags:
   - Antifaschist
   - Gesellschaft
 ---
-
 ## Über die Quelle
 
 **Robin Mesarosch** (*1. April 1991) ist ein ehemaliger Bundestagsabgeordneter der SPD (Ausschuss für Klimaschutz und Energie und Ausschuss für Digitales) und jetzt wieder aktiv als

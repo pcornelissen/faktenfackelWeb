@@ -3,14 +3,13 @@ date: 2026-04-03
 lastScanned: 2026-04-03
 publishedOn: 2026-04-14
 name: Fraunhofer ISE
-description: Fraunhofer-Institut für Solare Energiesysteme, Freiburg
+description: "Das Fraunhofer-Institut für Solare Energiesysteme (ISE) in Freiburg ist Europas größtes Solarforschungsinstitut und eines der führenden Institute für Energiesystemforschung."
 tags:
   - Wissenschaft
   - Energie
   - Klimaschutz
   - Deutschland
 ---
-
 ## Über die Quelle
 
 Das Fraunhofer-Institut für Solare Energiesysteme (ISE) in Freiburg ist Europas größtes Solarforschungsinstitut und eines der führenden Institute für Energiesystemforschung. Es veröffentlicht regelmäßig Studien zu Stromgestehungskosten (LCOE) für verschiedene Energieträger, darunter Photovoltaik, Wind, Biomasse und konventionelle Kraftwerke, und gilt als Referenz für die Energiekostendebatte in Deutschland.

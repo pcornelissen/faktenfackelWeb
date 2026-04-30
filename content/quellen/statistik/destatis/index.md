@@ -3,13 +3,12 @@ date: 2026-01-11
 lastScanned: 2026-01-11
 publishedOn: 2026-01-11
 name: Statistisches Bundesamt
-description: Bundesamt für Statistiken rund um Deutschland
+description: "Informationen, Daten und Statistiken für Wirtschaft und Wissenschaft zur Verfügung zu stellen, ist die Kernaufgabe des Statistischen Bundesamtes."
 tags:
   - Staatlich
   - Statistik
   - Gesellschaft
 ---
-
 ## Über die Quelle
 
 Informationen, Daten und Statistiken für  Wirtschaft und Wissenschaft zur Verfügung zu stellen, ist die Kernaufgabe des Statistischen Bundesamtes. Aktuelle Debatten und Entscheidungen werden mit belastbaren Daten, Analysen und der Expertise aus dem Statistischen Bundesamt getroffen und fließen in Gesetzgebungsverfahren und politische Entscheidungsprozesse ein. Das Bundesstatistikgesetz regelt dabei Aufgaben und die Durchführung statistischer Erhebungen nach den Grundsätzen der Neutralität, Objektivität und fachlichen Unabhängigkeit.

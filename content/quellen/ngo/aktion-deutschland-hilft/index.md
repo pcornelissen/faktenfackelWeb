@@ -3,13 +3,12 @@ date: 2026-01-14
 lastScanned: 2026-01-14
 publishedOn: 2026-01-14
 name: Aktion Deutschland Hilft
-description: Bündnis der Hilfsorganisationen
+description: "\"Aktion Deutschland Hilft\" ist ein Bündnis deutscher Hilfsorganisationen, das bei großen Katastrophen und Notlagen weltweit schnelle, koordinierte Nothilfe leistet."
 tags:
   - NGO
   - Migration
   - Hilfsorganisation
 ---
-
 ## Über die Quelle
 "Aktion Deutschland Hilft" ist ein Bündnis deutscher Hilfsorganisationen, das bei großen Katastrophen und Notlagen weltweit schnelle, koordinierte Nothilfe leistet. Die Mitgliedsorganisationen bündeln ihre Kräfte, um effektiv zu helfen und Spendengelder gemeinsam einzusetzen.
 

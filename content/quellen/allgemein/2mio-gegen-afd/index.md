@@ -3,14 +3,13 @@ date: 2026-02-13
 lastScanned: 2026-02-13
 publishedOn: 2026-03-08
 name: 2.000.000 Stimmen gegen die AfD
-description: Facebook-Gruppe gegen die AfD
+description: "\"2.000.000 Stimmen gegen die AfD\" ist eine große Facebook-Gruppe, die sich gegen die AfD positioniert. Die Gruppe dient als Sammelstelle für Nachrichten, Diskussionen und Meinungsbeiträge rund um die AfD und deren Politik."
 imageAuthor: Facebook/2millionenstimmen
 tags:
   - AfD
   - Antifaschismus
   - Demokratie
 ---
-
 ## Über die Quelle
 
 "2.000.000 Stimmen gegen die AfD" ist eine große Facebook-Gruppe, die sich gegen die AfD positioniert. Die Gruppe dient als Sammelstelle für Nachrichten, Diskussionen und Meinungsbeiträge rund um die AfD und deren Politik. Mitglieder teilen dort Artikel, Memes und persönliche Einschätzungen.

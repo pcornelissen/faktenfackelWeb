@@ -3,14 +3,13 @@ date: 2026-02-01
 lastScanned: 2026-02-01
 publishedOn: 2026-03-09
 name: SPD Thüringen
-description: SPD-Landesverband Thüringen, Social-Media-Kanal
+description: "Die SPD Thüringen ist der Landesverband der Sozialdemokratischen Partei Deutschlands in Thüringen."
 tags:
   - SPD
   - Thüringen
   - Deutschland
   - Landespolitik
 ---
-
 ## Über die Quelle
 
 Die SPD Thüringen ist der Landesverband der Sozialdemokratischen Partei Deutschlands in Thüringen. Die SPD war von 2014 bis 2024 als Koalitionspartner an der Thüringer Landesregierung unter Ministerpräsident Bodo Ramelow (Die Linke) beteiligt.

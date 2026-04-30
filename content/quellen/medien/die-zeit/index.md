@@ -3,13 +3,12 @@ date: 2026-01-24
 lastScanned: 2026-01-24
 publishedOn: 2026-01-24
 name: Die Zeit
-description: Wochenzeitung mit Online-Ausgabe, liberales Spektrum
+description: "Die Zeitschrift Die Zeit hat seit einiger Zeit eine Onlineausgabe unter zeit.de."
 tags:
   - Journalist
   - Zeitschrift
   - Medien
 ---
-
 ## Über die Quelle
 
 Die Zeitschrift Die Zeit hat seit einiger Zeit eine Onlineausgabe unter [zeit.de](https://www.zeit.de).

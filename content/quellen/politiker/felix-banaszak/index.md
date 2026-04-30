@@ -3,7 +3,7 @@ date: 2026-02-01
 lastScanned: 2026-02-01
 publishedOn: 2026-03-09
 name: Felix Banaszak
-description: Politiker, Grüne, MdB, Bundesvorsitzender der Grünen
+description: "Felix Banaszak (geb. 1990 in Duisburg) ist ein deutscher Politiker von Bündnis 90/Die Grünen. Seit 2021 ist er Mitglied des Bundestages und seit November 2023 gemeinsam mit Franziska Brantner Bundesvorsitzender der Grünen."
 imageAuthor: Dominik Butzmann
 tags:
   - Bündnis 90-Die Grünen
@@ -11,7 +11,6 @@ tags:
   - Deutschland
   - MdB
 ---
-
 ## Über die Quelle
 
 Felix Banaszak (geb. 1990 in Duisburg) ist ein deutscher Politiker von Bündnis 90/Die Grünen. Seit 2021 ist er Mitglied des Bundestages und seit November 2023 gemeinsam mit Franziska Brantner Bundesvorsitzender der Grünen. Zuvor war er von 2018 bis 2022 Landesvorsitzender der Grünen in Nordrhein-Westfalen.

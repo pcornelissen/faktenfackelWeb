@@ -3,13 +3,12 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-01-18
 name: "CORRECTIV"
-description: Recherchen für die Gesellschaft
+description: "CORRECTIV ist ein gemeinwohlorientiertes Medienhaus, das Demokratie stärkt. Als vielfach ausgezeichnete Redaktion stehen wir für investigativen Journalismus."
 tags:
   - Faktencheck
   - Journalismus
   - NGO
 ---
-
 ## Über die Quelle
 
 CORRECTIV ist ein gemeinwohlorientiertes Medienhaus, das Demokratie stärkt. Als vielfach ausgezeichnete Redaktion stehen wir für investigativen Journalismus. Wir lösen öffentliche Debatten aus, arbeiten mit Bürgerinnen und Bürgern an unseren Recherchen und fördern die Gesellschaft mit unseren Bildungsprogrammen. (Quelle: [Homepage](https://correctiv.org/ueber-uns/))

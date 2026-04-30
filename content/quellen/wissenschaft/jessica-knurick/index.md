@@ -3,7 +3,7 @@ date: 2026-03-08
 lastScanned: 2026-03-08
 publishedOn: 2026-03-08
 name: Jessica Knurick
-description: Ernährungswissenschaftlerin, PhD, RD
+description: "Jessica Knurick ist US-amerikanische Ernährungswissenschaftlerin (PhD, Registered Dietitian) und Content Erstellerin auf Facebook."
 tags:
   - Creator
   - Social Media
@@ -12,7 +12,6 @@ tags:
   - Ernährung
   - Faktencheck
 ---
-
 ## Über die Quelle
 
 Jessica Knurick ist US-amerikanische Ernährungswissenschaftlerin (PhD, Registered Dietitian) und Content Erstellerin auf Facebook. Sie klärt in ihren Videos über Fehlinformationen im Bereich Ernährung und Wissenschaft auf und setzt sich kritisch mit der Verbreitung von Pseudowissenschaft und Fehlinformationen in sozialen Medien auseinander.

@@ -3,14 +3,13 @@ date: 2026-01-15
 lastScanned: 2026-01-15
 publishedOn: 2026-03-10
 name: SWR Kultur
-description: Kulturkanal des Südwestrundfunks
+description: "SWR Kultur ist der Kulturkanal des Südwestrundfunks (SWR), einer der größten öffentlich-rechtlichen Rundfunkanstalten Deutschlands. Der Kanal berichtet über Kultur, Gesellschaft, Wissenschaft und Medien und bietet u.a."
 tags:
   - Medien
   - ÖRR
   - Deutschland
   - Kultur
 ---
-
 ## Über die Quelle
 
 SWR Kultur ist der Kulturkanal des Südwestrundfunks (SWR), einer der größten öffentlich-rechtlichen Rundfunkanstalten Deutschlands. Der Kanal berichtet über Kultur, Gesellschaft, Wissenschaft und Medien und bietet u.a. erklärendes und einordnendes Format zu aktuellen Themen auf Social Media.
