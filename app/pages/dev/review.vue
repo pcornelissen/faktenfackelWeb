@@ -35,14 +35,48 @@ function handleJump(text: string) {
   renderPane.value?.jumpTo(text)
 }
 
-async function copy(value: string, label: string) {
+function fallbackCopy(value: string): boolean {
   try {
-    await navigator.clipboard.writeText(value)
-    toast.add({ title: label, description: value.length > 80 ? value.slice(0, 80) + '…' : value, color: 'primary', icon: 'i-lucide-clipboard-check' })
+    const ta = document.createElement('textarea')
+    ta.value = value
+    ta.setAttribute('readonly', '')
+    ta.style.position = 'fixed'
+    ta.style.top = '0'
+    ta.style.left = '0'
+    ta.style.opacity = '0'
+    document.body.appendChild(ta)
+    ta.focus()
+    ta.select()
+    const ok = document.execCommand('copy')
+    document.body.removeChild(ta)
+    return ok
   } catch {
-    toast.add({ title: 'Kopieren fehlgeschlagen', color: 'orange' })
+    return false
   }
 }
+
+async function copy(value: string, label: string) {
+  let ok = false
+  try {
+    if (window.isSecureContext && navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(value)
+      ok = true
+    }
+  } catch {
+    ok = false
+  }
+  if (!ok) ok = fallbackCopy(value)
+  if (ok) {
+    toast.add({ title: label, description: value.length > 80 ? value.slice(0, 80) + '…' : value, color: 'primary', icon: 'i-lucide-clipboard-check' })
+  } else {
+    fallbackText.value = value
+    fallbackOpen.value = true
+    toast.add({ title: 'Clipboard blockiert', description: 'Manuelles Kopieren möglich.', color: 'orange' })
+  }
+}
+
+const fallbackOpen = ref(false)
+const fallbackText = ref('')
 
 function copyPath() {
   if (!projectRelPath.value) return
@@ -102,8 +136,19 @@ function buildPrompt() {
 
 async function submitComment() {
   const prompt = buildPrompt()
-  await copy(prompt, 'Prompt kopiert — in Claude Code einfügen')
+  fallbackText.value = prompt
   commentOpen.value = false
+  fallbackOpen.value = true
+  // Best-effort clipboard write; UI shows textarea regardless so user can verify/copy manually
+  try {
+    if (window.isSecureContext && navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(prompt)
+    } else {
+      fallbackCopy(prompt)
+    }
+  } catch {
+    fallbackCopy(prompt)
+  }
 }
 
 // Context menu
@@ -279,6 +324,38 @@ onUnmounted(() => {
               @click="submitComment"
             >
               Prompt kopieren
+            </UButton>
+          </div>
+        </div>
+      </template>
+    </UModal>
+
+    <UModal v-model:open="fallbackOpen">
+      <template #content>
+        <div class="space-y-3 p-5">
+          <div class="text-sm">
+            Prompt für Claude Code. Wir versuchen automatisch zu kopieren — falls dein Browser das blockiert, klicke in das Feld (selektiert alles) und kopiere mit Cmd/Ctrl+C.
+          </div>
+          <UTextarea
+            v-model="fallbackText"
+            :rows="14"
+            readonly
+            class="w-full font-mono text-xs"
+            @click="($event.target as HTMLTextAreaElement)?.select()"
+          />
+          <div class="flex justify-end gap-2">
+            <UButton
+              variant="ghost"
+              icon="i-lucide-clipboard-copy"
+              @click="copy(fallbackText, 'Prompt kopiert')"
+            >
+              Erneut kopieren
+            </UButton>
+            <UButton
+              color="primary"
+              @click="fallbackOpen = false"
+            >
+              Schließen
             </UButton>
           </div>
         </div>
