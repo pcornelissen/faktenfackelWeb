@@ -4,6 +4,7 @@ description: "Deutscher Neonazi-Aktivist (geb. 1982), ehemaliger Bundesvorsitzen
 date: 2026-04-19
 publishedOn: 2026-04-19
 lastScanned: 2026-04-19
+imageAuthor: https://www.recherche-nord.com/article/JN_Bundesvorstand/#/Michael_Schaefer
 tags:
   - rechtsextremismus
   - neonazi

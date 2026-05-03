@@ -1,6 +1,7 @@
 ---
 name: Gerrit Huy
 description: AfD-Bundestagsabgeordnete, arbeitsmarktpolitische Sprecherin der Fraktion
+imageAuthor: "abgeordnetenwatch.de"
 date: 2026-04-18
 publishedOn: 2026-04-18
 lastScanned: 2026-04-18

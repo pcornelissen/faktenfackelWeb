@@ -1,6 +1,7 @@
 ---
 name: Kanzlei Höcker
 description: Kölner Medienrechts-Kanzlei, bekannt für presserechtliche Verfahren gegen Medien
+imageAuthor: "Höcker Rechtsanwälte (Logo, hoecker.eu)"
 date: 2026-04-18
 publishedOn: 2026-04-18
 lastScanned: 2026-04-18

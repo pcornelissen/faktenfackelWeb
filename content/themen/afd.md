@@ -30,10 +30,13 @@ featured:
     - campact-rechtsextremer-angriff-bildungssystem
     - correctiv-afd-sachsen-anhalt-regierungsprogramm-2026
     - akzeptanz-aller-menschen-kleebank-afd-tricks
+    - kontext-goeppingen-1mai-afd-hilburger
+    - taz-essen-1mai-heimat-aufmarsch
   quellen:
     - /quellen/parteien/afd
     - /quellen/parteien/afd-bt-fraktion
     - /quellen/politiker/alice-weidel
+    - /quellen/personen/oliver-hilburger
 questions:
   - question: "Welche AfD-Inhalte sammelt dieser Hub?"
     answer: "Der Hub sammelt Faktenchecks, Analysen, Quellenlinks und Zitate zur AfD, vor allem zu überprüfbaren Behauptungen, Desinformation, Rechtsextremismus, Migration, Klima und Demokratie."

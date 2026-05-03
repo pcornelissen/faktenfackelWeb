@@ -34,8 +34,13 @@ featured:
     - campact-dogwhistling-rechtsextreme-codes-88-stadtbild
     - campact-rechtsextremer-angriff-bildungssystem
     - sebastian-bohrn-mena-afd-verbot-geschichtslektion-1933
+    - taz-essen-1mai-heimat-aufmarsch
+    - kontext-goeppingen-1mai-afd-hilburger
   quellen:
     - /quellen/staatlich/verfassungsschutz
+    - /quellen/parteien/die-heimat
+    - /quellen/politiker/claus-cremer
+    - /quellen/personen/oliver-hilburger
 questions:
   - question: "Was zählt auf Faktenfackel als rechtsextremer Kontext?"
     answer: "Relevant sind dokumentierte rechtsextreme Ideologie, Codes, Netzwerke, Gewalt, rechtsterroristische Bezüge und Aussagen, die demokratische oder menschenrechtliche Grundprinzipien angreifen."

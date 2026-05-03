@@ -1,6 +1,7 @@
 ---
 name: "Philip Stein"
 description: "Rechtsextremer Aktivist aus Dresden, Leiter des vom Verfassungsschutz beobachteten Kampagnenprojekts Ein Prozent und Inhaber des Jungeuropa Verlags."
+imageAuthor: "Thomas Witzgall / endstation-rechts.de"
 date: 2026-04-19
 publishedOn: 2026-04-19
 lastScanned: 2026-04-19

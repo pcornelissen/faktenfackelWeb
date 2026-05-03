@@ -4,6 +4,7 @@ lastScanned: 2026-03-26
 publishedOn: 2026-03-26
 name: "Michael Schwarzer"
 description: "Michael Schwarzer war Vorsitzender der AfD-Ratsfraktion in Siegen. Er trat am 6. September 2023 aus der AfD aus und gründete gemeinsam mit Annette Six die Fraktion \"Liberal-konservatives Bündnis\"."
+imageAuthor: https://www1.wdr.de/politik/politik-in-nrw/afd-siegen-schwarzer-100.html
 tags:
   - AfD
   - Aussteiger

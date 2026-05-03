@@ -4,6 +4,7 @@ publishedOn: 2026-04-20
 lastScanned: 2026-04-20
 name: "OECD"
 description: "Organisation für wirtschaftliche Zusammenarbeit und Entwicklung, 38 Mitgliedsstaaten"
+imageAuthor: "OECD (Logo via Wikimedia Commons)"
 tags:
   - Wirtschaft
   - International

@@ -4,6 +4,7 @@ publishedOn: 2026-04-20
 lastScanned: 2026-04-20
 name: "Bundesfinanzhof"
 description: "Oberstes Bundesgericht für Steuer- und Zollsachen mit Sitz in München"
+imageAuthor: "Bundesfinanzhof (Logo, bundesfinanzhof.de)"
 tags:
   - Justiz
   - Steuerrecht
