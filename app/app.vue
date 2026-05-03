@@ -5,17 +5,10 @@ const route = useRoute()
 
 const title = computed(() => (route.meta.title as string) || 'Faktenfackel')
 const description = computed(() => (route.meta.description as string) || 'Faktenfackel prüft Behauptungen, entlarvt Mythen und ordnet Aussagen aus Politik und Medien mit belastbaren Quellen ein.')
-const image = computed(() => (route.meta.image as string) || '/img/logo.webp')
-
 const { url: siteUrl } = useSiteConfig()
 const canonicalPath = computed(() => {
   const p = route.path
   return p
-})
-const absoluteImage = computed(() => {
-  const src = image.value
-  if (src.startsWith('http://') || src.startsWith('https://')) return src
-  return `${siteUrl}${src.startsWith('/') ? src : `/${src}`}`
 })
 
 const organizationJsonLd = {
@@ -64,13 +57,18 @@ useSeoMeta({
   description: () => description.value,
   ogTitle: () => title.value,
   ogDescription: () => description.value,
-  ogImage: () => absoluteImage.value,
   ogUrl: () => `${siteUrl}${canonicalPath.value}`,
   ogType: 'website',
   ogSiteName: 'Faktenfackel',
-  twitterImage: () => absoluteImage.value,
   twitterCard: 'summary_large_image',
   twitterSite: '@faktenfackel',
+})
+
+// Fallback-OG-Image für Seiten ohne eigenes defineOgImage (z.B. Hub-Seiten).
+// Detail-Seiten (Faktencheck/Quellenlink/Zitat/Lagerfeuer) setzen via
+// defineOgImage ihr eigenes Bild und überschreiben diesen Fallback.
+defineOgImage('Default', {
+  title: () => title.value,
 })
 </script>
 

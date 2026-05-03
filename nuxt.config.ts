@@ -266,7 +266,6 @@ export default defineNuxtConfig({
     fallbackToApi: false,
   },
   ogImage: {
-    zeroRuntime: true,
     defaults: {
       width: 1200,
       height: 630,
