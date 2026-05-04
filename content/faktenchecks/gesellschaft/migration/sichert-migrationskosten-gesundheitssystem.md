@@ -1,7 +1,7 @@
 ---
 publishedOn: 2026-05-02
 date: 2026-05-02
-title: "Verschweigt die Bundesregierung die Migrationskosten im Gesundheitssystem?"
+title: "Verschweigt der Bund die Migrationskosten im Gesundheitssystem?"
 subtitle: "Was Sicherts Kleine Anfrage tatsächlich belegt und was nicht"
 verdict: misleading
 claim: "Die Bundesregierung kennt die Migrationskosten im Gesundheitssystem nicht und verschweigt damit den Anteil der Migration an den explodierenden Gesundheitsausgaben."
@@ -26,7 +26,7 @@ tags:
   - GKV
   - AfD
   - Faktencheck
-description: "Martin Sichert wirft der Bundesregierung vor, Migrationskosten im Gesundheitssystem zu verschweigen. Die Destatis-Zahlen sind korrekt, der Frame ist es nicht: Die fehlende Aufschlüsselung ist methodisch bedingt, die echten Kostentreiber sind Demografie, Arzneimittel und Pflege."
+description: "Sichert (AfD) wirft dem Bund vor, Migrationskosten im Gesundheitssystem zu verschweigen. Destatis-Zahlen stimmen, die fehlende Aufschlüsselung ist methodisch."
 ---
 
 ## Behauptung

@@ -3,7 +3,7 @@ date: 2026-01-30
 lastScanned: 2026-01-30
 publishedOn: 2026-01-30
 name: Frag den Staat
-description: "FragDenStaat ist eine gemeinnützige Plattform für Informationsfreiheit. Sie hilft Bürgerinnen und Bürgern, ihr Recht auf Auskunft gegenüber Behörden durchzusetzen, und kämpft mit investigativen Recherchen und strategischen Klagen für staatliche Transparenz."
+description: "FragDenStaat ist eine gemeinnützige Plattform für Informationsfreiheit. Sie hilft Menschen bei Auskunftsanfragen an Behörden und kämpft mit Recherchen und Klagen für staatliche Transparenz."
 tags:
   - NGO
   - Informationsfreiheit

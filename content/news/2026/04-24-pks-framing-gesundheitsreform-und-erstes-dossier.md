@@ -1,7 +1,7 @@
 ---
 date: 2026-04-24
 title: "PKS-Framing, Gesundheitsreform und das erste Dossier"
-teaser: "Neue Faktenchecks zu Dobrindts PKS-Inszenierung und der 'Gratis-Kasse'-Kampagne, ein Lagerfeuer-Artikel zum AfD-Angriff auf Correctiv und ein neuer laufend aktualisierter Dossier-Typ zur Gewalt aus dem AfD-Milieu."
+teaser: "Neue Faktenchecks zu Dobrindts PKS-Inszenierung und der 'Gratis-Kasse'-Kampagne, ein Lagerfeuer-Artikel zum AfD-Angriff auf Correctiv und ein neuer Dossier-Typ zur Gewalt aus dem AfD-Milieu."
 publishedOn: 2026-04-24
 ---
 

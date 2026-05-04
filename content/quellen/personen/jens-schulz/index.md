@@ -3,7 +3,7 @@ date: 2026-04-30
 publishedOn: 2026-04-30
 lastScanned: 2026-05-01
 name: "Jens Schulz"
-description: "Influencer aus dem Kreis Cuxhaven, Selbstbezeichnung \"Digital Creator\", rund 29.000 Facebook-Follower. Laut Belltower.News und Tagesspiegel rassistische und AfD-affine Posts dokumentiert; im April 2026 Teil der privaten Rettungsinitiative für den Buckelwal \"Timmy\". Schulz bestreitet eine AfD-Mitgliedschaft, nicht jedoch den Inhalt der Posts; rechtliche Schritte angekündigt."
+description: "Influencer aus dem Kreis Cuxhaven, Selbstbezeichnung \"Digital Creator\", rund 29.000 Facebook-Follower. Laut Belltower.News und Tagesspiegel rassistische und AfD-affine Posts dokumentiert. Schulz bestreitet eine AfD-Mitgliedschaft."
 tags:
   - Rechte-Mobilisierung
   - Influencer

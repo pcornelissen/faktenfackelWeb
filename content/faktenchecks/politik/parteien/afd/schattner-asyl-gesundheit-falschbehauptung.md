@@ -1,7 +1,7 @@
 ---
 publishedOn: 2026-04-22
 date: 2026-04-28
-title: "AfD-MdB Schattner: 'Gratis-Kasse für Asylbewerber' und abgeschaffte Familienversicherung"
+title: "Schattner (AfD): 'Gratis-Kasse' und abgeschaffte Familienversicherung?"
 subtitle: Wie die AfD echte Reformdebatten mit falschen Migrationsbehauptungen verknüpft
 description: "Bernd Schattner behauptet, die Familienversicherung werde abgeschafft und Asylbewerber bekämen sofort volle Gesundheitsleistungen. Beides ist falsch."
 verdict: false

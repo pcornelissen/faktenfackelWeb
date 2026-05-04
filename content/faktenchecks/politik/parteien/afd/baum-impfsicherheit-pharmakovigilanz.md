@@ -1,9 +1,9 @@
 ---
 publishedOn: 2026-04-29
 date: 2026-04-29
-title: "AfD-MdB Baum: Pharmakovigilanz-Mängel als Beleg für 'unverminderte' COVID-Massenimpfung"
+title: "Baum (AfD): Beweisen Pharmakovigilanz-Mängel die COVID-Impfkritik?"
 subtitle: Wie eine technische Schwellenwert-Frage als nachträgliche Bestätigung der AfD-Impfkritik inszeniert wird
-description: "Christina Baum behauptet, das Pharmakovigilanz-System der COVID-Impfkampagne habe keine klaren Schwellenwerte gehabt und die Massenimpfung sei ohne Reaktion auf Warnsignale unvermindert weitergelaufen. Die Aussage ist irreführend: Es gab dokumentierte Risikoreaktionen, der wahre Kern liegt in einer technischen Detailfrage."
+description: "Christina Baum (AfD) behauptet, die COVID-Impfkampagne sei ohne Reaktion auf Warnsignale weitergelaufen. Tatsächlich gab es dokumentierte Risikoreaktionen."
 verdict: misleading
 claim: "Das Pharmakovigilanz-System der COVID-Impfkampagne hatte keine transparenten und klar messbaren Schwellenwerte für Sicherheitswarnungen, die Massenimpfung lief unvermindert weiter, ohne sofortige Reaktionen auf Warnsignale."
 claimAuthor: "Christina Baum (AfD)"

@@ -1,7 +1,7 @@
 ---
 publishedOn: 2026-04-15
 date: 2026-04-28
-title: Hat die AfD "schon immer" vor islamistischer Gewalt gegen Minderheiten gewarnt?
+title: 'AfD: "Schon immer" vor Gewalt gegen Minderheiten gewarnt?'
 subtitle: Wie eine echte BDK-Warnung zur AfD-Propaganda wird
 description: "Die AfD nutzt eine reale BDK-Warnung vor islamistischer Gewalt gegen Drusen, Alawiten und Kurden, um ihre pauschale Migrationspolitik zu rechtfertigen."
 verdict: misleading

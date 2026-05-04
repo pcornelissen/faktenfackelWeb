@@ -3,7 +3,7 @@ date: 2026-04-30
 publishedOn: 2026-04-30
 lastScanned: 2026-05-01
 name: "Danny Hilse"
-description: "Influencer aus dem Kreis Cuxhaven, Online-Name \"Danny Firstclass\". Laut Belltower.News ehemaliges Hells-Angels-Mitglied (Austritt nach eigenen Angaben Oktober 2024) und Mitorganisator der \"Gemeinsam für Deutschland\"-Demonstration in Hannover am 31. Mai 2025; im April 2026 Teil der privaten Wal-Rettungsinitiative für den Buckelwal \"Timmy\"."
+description: "Influencer aus dem Kreis Cuxhaven, Online-Name \"Danny Firstclass\". Laut Belltower.News ehemaliges Hells-Angels-Mitglied und Mitorganisator der \"Gemeinsam für Deutschland\"-Demo in Hannover (Mai 2025)."
 imageAuthor: "X (@le0nenrique)"
 tags:
   - Rechtsextreme-Mobilisierung

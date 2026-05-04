@@ -1,9 +1,9 @@
 ---
 publishedOn: 2026-05-03
 date: 2026-05-03
-title: "Weidel: Bürgergeld und 'Turbo-Einbürgerung' halten Syrer in Deutschland"
+title: "Weidel: Bürgergeld hält Syrer von der Rückkehr ab?"
 subtitle: Wie eine richtige Beobachtung mit einer empirisch widerlegten Kausalerklärung verkoppelt wird
-description: "Alice Weidel behauptet, Millionen Syrer seien in ihre Heimat zurückgekehrt, aber nicht aus Deutschland, weil Bürgergeld und Turbo-Einbürgerung übermächtige Anreize zur Einwanderung in das Sozialsystem seien. Irreführend: Die Beobachtung stimmt, die Kausalerklärung nicht."
+description: "Weidel behauptet, Bürgergeld und Einbürgerung hielten Syrer von der Rückkehr ab. Beobachtung stimmt, die Kausalerklärung ist empirisch widerlegt."
 verdict: misleading
 claim: "Bürgergeld und Turbo-Einbürgerung sind übermächtige Anreize zur Einwanderung in das Sozialsystem und hindern Syrer an der Rückkehr."
 claimAuthor: "Alice Weidel (AfD)"

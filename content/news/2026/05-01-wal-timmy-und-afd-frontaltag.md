@@ -1,7 +1,7 @@
 ---
 date: 2026-05-01
 title: "Wal Timmy als rechte Bühne, AfD-Frontaltag gegen Zivilgesellschaft"
-teaser: "Eine Woche, in der ein sterbender Buckelwal zum Vehikel für Russland-Apologetik und Staats-Delegitimierung wurde, am 30. April vier AfD-Pressemitteilungen parallel auf Falken, Publix, Schulen und Haushalt zielten und die Quellenbasis um zentrale Akteurinnen und Akteure dieser Frames gewachsen ist."
+teaser: "Ein sterbender Buckelwal wird zum Vehikel für Russland-Apologetik und Staats-Delegitimierung, während vier AfD-Pressemitteilungen am 30. April parallel auf Zivilgesellschaft und Schulen zielen."
 publishedOn: 2026-05-01
 ---
 

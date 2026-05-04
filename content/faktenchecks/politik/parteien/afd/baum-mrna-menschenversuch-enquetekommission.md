@@ -3,7 +3,7 @@ publishedOn: 2026-05-03
 date: 2026-05-03
 title: "AfD-MdB Baum: COVID-Impfkampagne war ein 'Menschenversuch'"
 subtitle: Wie die rhetorische Gleichsetzung mit verbotener Forschung am Menschen die regulatorische Realität auflöst
-description: "Christina Baum erklärt vor der Corona-Enquetekommission, die COVID-Impfkampagne sei ein 'Menschenversuch' gewesen. Falsch: Die mRNA-Impfstoffe durchliefen Phase-III-Studien mit über 70.000 Teilnehmenden, wurden von der EMA zugelassen und freiwillig verabreicht."
+description: "Christina Baum (AfD) nennt die COVID-Impfkampagne 'Menschenversuch'. Falsch: mRNA-Impfstoffe durchliefen Phase-III-Studien und reguläre EMA-Zulassung."
 verdict: false
 claim: "Die COVID-Impfkampagne war ein Menschenversuch. Die mRNA-Präparate wurden mit nur unzureichenden Tests in Rekordzeit zugelassen und an Milliarden von Menschen ausprobiert."
 claimAuthor: "Christina Baum (AfD)"

@@ -1,9 +1,9 @@
 ---
 publishedOn: 2026-04-29
 date: 2026-04-29
-title: "AfD-MdB Przygodda: 'Demografische Katastrophe' bei den Geburtenzahlen 2025"
+title: "Przygodda (AfD): 'Demografische Katastrophe' bei Geburten 2025?"
 subtitle: Wenn aus echten Statistik-Bundesamt-Zahlen ein ethnonationales Krisennarrativ wird
-description: "Kerstin Przygodda nennt die Geburtenzahlen 2025 'Schockzahlen' und eine 'demografische Katastrophe'. Die Zahlen stimmen, das Krisenframe nicht: Deutschland liegt im OECD-Vergleich im Mittelfeld, der Rückgang ist wissenschaftlich als Aufschub-Effekt mehrerer Krisen erklärbar."
+description: "Przygodda (AfD) nennt die Geburtenzahlen 2025 'Schockzahlen' und 'demografische Katastrophe'. Zahlen stimmen, Krisenframe nicht: OECD-Mittelfeld."
 verdict: misleading
 claim: "Die Geburtenzahlen 2025 sind Schockzahlen und belegen das Ausmaß der demografischen Katastrophe in Deutschland – eine Abwärtsspirale, die ohne sofortige Familienpolitikwende den gesellschaftlichen Bestand bedroht."
 claimAuthor: "Kerstin Przygodda (AfD)"

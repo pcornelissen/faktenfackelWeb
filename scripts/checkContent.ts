@@ -267,6 +267,12 @@ interface SeoCollectionRule {
   descMin: number
   descMax: number
   descRequired: boolean
+  /**
+   * Wenn true: descRequired wird geprueft, descMin/descMax aber NICHT.
+   * Sinnvoll fuer Felder, die inhaltlich (Originalzitat) und nicht als
+   * SEO-Metabeschreibung dienen, z.B. teaser bei zitate.
+   */
+  descSkipLengthValidation?: boolean
 }
 
 const SEO_COLLECTIONS: SeoCollectionRule[] = [
@@ -324,9 +330,12 @@ const SEO_COLLECTIONS: SeoCollectionRule[] = [
     titleMin: 8,
     titleMax: 90,
     descField: 'teaser',
-    descMin: 60,
-    descMax: 240,
+    // teaser bei zitate ist das Originalzitat, kein SEO-Description-Feld.
+    // descRequired bleibt aktiv (Teaser muss existieren), Laengen werden nicht geprueft.
+    descMin: 0,
+    descMax: Number.MAX_SAFE_INTEGER,
     descRequired: true,
+    descSkipLengthValidation: true,
   },
   {
     name: 'quellen',
@@ -389,11 +398,11 @@ function checkFrontmatterSeo(file: string, text: string, lines: string[], findin
   } else {
     if (titleVal.length < rule.titleMin) {
       addFinding(findings, file, text, lines, titleIdx, 'seo-title-short',
-        `Title zu kurz: ${titleVal.length} Zeichen (min ${rule.titleMin})`, 'warn')
+        `Title zu kurz: ${titleVal.length} Zeichen (min ${rule.titleMin})`, 'error')
     }
     if (titleVal.length > rule.titleMax) {
       addFinding(findings, file, text, lines, titleIdx, 'seo-title-long',
-        `Title zu lang: ${titleVal.length} Zeichen (max ${rule.titleMax}) - Google kürzt in den SERPs`, 'warn')
+        `Title zu lang: ${titleVal.length} Zeichen (max ${rule.titleMax}) - Google kürzt in den SERPs`, 'error')
     }
   }
 
@@ -412,15 +421,15 @@ function checkFrontmatterSeo(file: string, text: string, lines: string[], findin
       addFinding(findings, file, text, lines, descIdx, 'seo-desc-empty',
         `Weder "${rule.descField}"${rule.descFallbackField ? ` noch "${rule.descFallbackField}"` : ''} gesetzt - Meta-Description faellt auf Default zurueck`, 'warn')
     }
-    if (effective && effective.length < rule.descMin) {
+    if (!rule.descSkipLengthValidation && effective && effective.length < rule.descMin) {
       const which = descVal ? rule.descField : rule.descFallbackField
       addFinding(findings, file, text, lines, descIdx, 'seo-desc-short',
-        `Description ("${which}") zu kurz: ${effective.length} Zeichen (min ${rule.descMin})`, 'warn')
+        `Description ("${which}") zu kurz: ${effective.length} Zeichen (min ${rule.descMin})`, 'error')
     }
-    if (effective && effective.length > rule.descMax) {
+    if (!rule.descSkipLengthValidation && effective && effective.length > rule.descMax) {
       const which = descVal ? rule.descField : rule.descFallbackField
       addFinding(findings, file, text, lines, descIdx, 'seo-desc-long',
-        `Description ("${which}") zu lang: ${effective.length} Zeichen (max ${rule.descMax}) - Google kürzt`, 'warn')
+        `Description ("${which}") zu lang: ${effective.length} Zeichen (max ${rule.descMax}) - Google kürzt`, 'error')
     }
   }
 }
@@ -641,6 +650,38 @@ function checkDateNbsp(file: string, text: string, lines: string[], findings: Fi
   }
 }
 
+function checkFrontmatterColonInValue(file: string, text: string, lines: string[], findings: Finding[]) {
+  // Faengt unquotete YAML-Skalare ab, deren Wert ein ': ' (Doppelpunkt + Space) enthaelt.
+  // Solche Werte werden je nach Parser fehlerhaft als verschachtelter Mapping-Key gelesen.
+  const fmStart = text.startsWith('---\n') ? 4 : -1
+  if (fmStart < 0) return
+  const fmEnd = text.indexOf('\n---\n', fmStart)
+  if (fmEnd < 0) return
+  const fmText = text.slice(fmStart, fmEnd)
+  let lineStart = fmStart
+  for (const rawLine of fmText.split('\n')) {
+    const m = /^(\s*[-]?\s*)([A-Za-z_][A-Za-z0-9_]*):\s+(.*)$/.exec(rawLine)
+    if (m) {
+      const value = m[3]
+      const first = value.charAt(0)
+      const isQuoted = first === '"' || first === '\''
+      const isBlockScalar = first === '|' || first === '>'
+      const isFlow = first === '[' || first === '{'
+      const isAnchor = first === '&' || first === '*'
+      if (!isQuoted && !isBlockScalar && !isFlow && !isAnchor && value.length > 0) {
+        const colonSpace = value.indexOf(': ')
+        if (colonSpace >= 0) {
+          const valueStart = lineStart + rawLine.length - value.length
+          const idx = valueStart + colonSpace
+          addFinding(findings, file, text, lines, idx, 'yaml-unquoted-colon',
+            `Unquoteter YAML-Wert mit ': ' (Doppelpunkt + Leerzeichen): kann je nach Parser fehlerhaft als verschachtelter Key gelesen werden. Wert in "..." oder '...' setzen oder Formulierung ohne ': ' waehlen.`, 'error')
+        }
+      }
+    }
+    lineStart += rawLine.length + 1
+  }
+}
+
 function checkFrontmatterTags(file: string, text: string, lines: string[], findings: Finding[]) {
   const fm = extractFrontmatter(text)
   if (!fm) return
@@ -750,6 +791,7 @@ function checkFile(file: string, text: string, allowlist: Set<string>, findings:
   checkTypographicQuotes(file, text, lines, findings)
   checkDateNbsp(file, text, lines, findings)
   checkFrontmatterTags(file, text, lines, findings)
+  checkFrontmatterColonInValue(file, text, lines, findings)
   checkFrontmatterSeo(file, text, lines, findings)
 }
 

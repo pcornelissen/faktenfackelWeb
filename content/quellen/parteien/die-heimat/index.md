@@ -3,7 +3,7 @@ date: 2026-05-03
 publishedOn: 2026-05-03
 lastScanned: 2026-05-03
 name: "Die Heimat"
-description: "Rechtsextreme Kleinpartei, seit Juni 2023 umbenannte Nachfolgepartei der NPD. Vom Verfassungsschutz als gesichert rechtsextrem eingestuft, seit Januar 2024 per Bundesverfassungsgericht-Urteil sechs Jahre von staatlicher Parteienfinanzierung ausgeschlossen."
+description: "Rechtsextreme Kleinpartei, seit Juni 2023 Nachfolgepartei der NPD. Vom Verfassungsschutz als gesichert rechtsextrem eingestuft, seit Januar 2024 sechs Jahre von Parteienfinanzierung ausgeschlossen."
 tags:
   - Partei
   - Rechtsextremismus
