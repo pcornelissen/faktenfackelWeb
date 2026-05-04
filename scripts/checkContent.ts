@@ -594,8 +594,6 @@ function checkEmDash(file: string, text: string, lines: string[], findings: Find
 
 function checkTypographicQuotes(file: string, text: string, lines: string[], findings: Finding[]) {
   const bodyStart = getBodyStart(text)
-  const body = text.slice(bodyStart)
-  const codeMask = buildCodeMask(body)
   const map: Record<string, string> = {
     '\u201e': '„ (U+201E)',
     '\u201c': '" (U+201C)',
@@ -605,6 +603,21 @@ function checkTypographicQuotes(file: string, text: string, lines: string[], fin
     '\u2018': '\' (U+2018)',
     '\u2019': '\' (U+2019)',
   }
+  // Frontmatter: typografische Quotes brechen YAML-Strings (U+201C / U+201D besonders,
+  // weil sie visuell an das Schliessen einer "..."-Sequenz erinnern und Parser/Editor
+  // je nach Encoding stolpern). Hard error, kein Auto-Fix - autofix in YAML waere
+  // riskant und wuerde die kaputte Struktur nur verschieben.
+  const frontmatter = text.slice(0, bodyStart)
+  for (let i = 0; i < frontmatter.length; i++) {
+    const c = frontmatter[i]
+    if (map[c]) {
+      addFinding(findings, file, text, lines, i, 'typographic-quote-frontmatter',
+        `Typografisches Anfuehrungszeichen ${map[c]} in Frontmatter. Bricht YAML-Parsing oder verfaelscht Metadaten. Manuell durch gerade " ersetzen oder Formulierung umschreiben.`, 'error')
+    }
+  }
+  // Body: weiterhin warn + auto-fixbar. Typografische Quotes sind hier ein KI-Tell.
+  const body = text.slice(bodyStart)
+  const codeMask = buildCodeMask(body)
   for (let i = 0; i < body.length; i++) {
     if (codeMask[i]) continue
     const c = body[i]
