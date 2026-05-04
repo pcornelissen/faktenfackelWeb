@@ -31,7 +31,7 @@
     "test:smoke": "playwright test --project smoke"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.102",
+    "@iconify-json/lucide": "^1.2.105",
     "@iconify-json/mdi": "^1.2.3",
     "@nuxt/content": "^3.13.0",
     "@nuxt/fonts": "^0.14.0",
