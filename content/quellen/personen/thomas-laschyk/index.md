@@ -33,7 +33,7 @@ Im April 2024 entzog das Finanzamt dem Volksverpetzer die Gemeinnützigkeit rüc
 
 - Goldener Blogger 2019 (als "Blogger des Jahres 2019", verliehen März 2020)
 - Facts Hero Award 2022 in der Kategorie Medien & Blogs
-- Marion-Samuel-Preis 2025 der [Stiftung Erinnerung](https://stiftung-erinnerung.de/), verliehen am 9.&nbsp;April 2025 in Augsburg unter Schirmherrschaft der Stadt Augsburg
+- Marion-Samuel-Preis 2025 der [Stiftung Erinnerung](https://stiftung-erinnerung.de/), verliehen am 9. April 2025 in Augsburg unter Schirmherrschaft der Stadt Augsburg
 
 ## Links
 

@@ -14,7 +14,7 @@ tags:
 
 Das Ministerium des Innern und für Kommunales des Landes Brandenburg (MIK) ist die oberste Landesbehörde für innere Sicherheit, Kommunalpolitik, Verfassungsschutz und Katastrophenschutz in Brandenburg. Es wurde nach der Wiedervereinigung 1990 neu gegründet und hat seinen Sitz in Potsdam.
 
-Seit dem 18.&nbsp;März 2026 leitet Dr. Jan Redmann (CDU) das Ministerium. Redmann ist Jurist (Dr. jur., Universität zu Köln) und war von 2019 bis 2026 Vorsitzender der CDU-Landtagsfraktion sowie seit 2023 Landesvorsitzender der CDU Brandenburg. Davor war er 16 Jahre als Rechtsanwalt tätig. Staatssekretär ist Uwe Schüler (CDU), der das Amt bereits von 2019 bis 2023 innehatte. Das Ministerium ist Teil des fünften Kabinetts von Ministerpräsident Dietmar Woidke (SPD), gebildet aus einer Koalition von SPD, BSW und CDU nach der Landtagswahl 2024.
+Seit dem 18. März 2026 leitet Dr. Jan Redmann (CDU) das Ministerium. Redmann ist Jurist (Dr. jur., Universität zu Köln) und war von 2019 bis 2026 Vorsitzender der CDU-Landtagsfraktion sowie seit 2023 Landesvorsitzender der CDU Brandenburg. Davor war er 16 Jahre als Rechtsanwalt tätig. Staatssekretär ist Uwe Schüler (CDU), der das Amt bereits von 2019 bis 2023 innehatte. Das Ministerium ist Teil des fünften Kabinetts von Ministerpräsident Dietmar Woidke (SPD), gebildet aus einer Koalition von SPD, BSW und CDU nach der Landtagswahl 2024.
 
 Das MIK gliedert sich in sechs Abteilungen, die Bereiche von Verfassungsrecht bis Digitalisierung abdecken. Eine eigene Abteilung ist dem Verfassungsschutz gewidmet.
 

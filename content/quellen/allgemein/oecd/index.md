@@ -17,7 +17,7 @@ Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (Organisati
 
 Die OECD sammelt, analysiert und veröffentlicht umfangreiche statistische und analytische Daten zu Wirtschaftslage, Steuersystemen, Bildung, Arbeitsmarkt, Gesundheit und Umwelt. Wichtige regelmäßige Publikationen sind der [OECD Economic Outlook](https://www.oecd.org/economic-outlook/), die [Taxing Wages](https://www.oecd.org/tax/tax-policy/taxing-wages-20725124.htm)-Reihe, die [PISA-Studien](https://www.oecd.org/pisa/) sowie Länderberichte mit politischen Empfehlungen.
 
-Seit 2013 koordiniert die OECD im Auftrag der G20 den [BEPS-Aktionsplan](https://www.oecd.org/tax/beps/) (Base Erosion and Profit Shifting) gegen aggressive Steuergestaltung multinationaler Konzerne. Pillar&nbsp;1 (Neuverteilung von Besteuerungsrechten) und Pillar&nbsp;2 (globale Mindeststeuer von 15&nbsp;Prozent) sind direkte Nachfolgeprojekte. Das [Inclusive Framework on BEPS](https://www.oecd.org/tax/beps/beps-about.htm) mit mittlerweile über 145 Jurisdiktionen setzt diese Reform operativ um.
+Seit 2013 koordiniert die OECD im Auftrag der G20 den [BEPS-Aktionsplan](https://www.oecd.org/tax/beps/) (Base Erosion and Profit Shifting) gegen aggressive Steuergestaltung multinationaler Konzerne. Pillar 1 (Neuverteilung von Besteuerungsrechten) und Pillar 2 (globale Mindeststeuer von 15 Prozent) sind direkte Nachfolgeprojekte. Das [Inclusive Framework on BEPS](https://www.oecd.org/tax/beps/beps-about.htm) mit mittlerweile über 145 Jurisdiktionen setzt diese Reform operativ um.
 
 ## Links
 

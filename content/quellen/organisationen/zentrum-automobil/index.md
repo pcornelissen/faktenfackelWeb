@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Zentrum Automobil wurde Ende 2009 von :quelle-ref{name="oliver-hilburger"} im Daimler-Werk Stuttgart-Untertürkheim gegründet und am 23.&nbsp;November 2009 als Verein eingetragen. Seit 2022 tritt die Organisation unter dem verkürzten Namen "Zentrum" auf.
+Zentrum Automobil wurde Ende 2009 von :quelle-ref{name="oliver-hilburger"} im Daimler-Werk Stuttgart-Untertürkheim gegründet und am 23. November 2009 als Verein eingetragen. Seit 2022 tritt die Organisation unter dem verkürzten Namen "Zentrum" auf.
 
 Die Organisation positioniert sich als Gewerkschaftsalternative gegen "Monopolgewerkschaften" und Unternehmensglobalisierung, ist aber nach Einschätzung von Arbeitsrechtsexperten, etablierten Gewerkschaften und Verfassungsschutzbehörden keine tariffähige Gewerkschaft, sondern eine rechtsextreme Betriebsgruppe. Strategisch vollzog Zentrum Automobil ab 2015 eine Verschiebung hin zu populistischem "Oben gegen Unten"-Framing, begleitet von Kooperationen mit dem "Compact"-Magazin und der Organisation :quelle-ref{name="ein-prozent"}.
 
@@ -21,7 +21,7 @@ Gründer Hilburger hat laut :quelle-ref{name="verfassungsschutz"} Verbindungen z
 
 Bei Daimler-Betriebsratswahlen in Untertürkheim erzielte die Organisation 2018 13,2% (19 Mandate bundesweit) und 2022 15,8% (17 Mandate bundesweit). Der AfD-Politiker :quelle-ref{name="bjoern-hoecke"} setzte sich 2022 dafür ein, Zentrum von der AfD-Unvereinbarkeitsliste zu streichen, und bezeichnete die Organisation als notwendige "Vorfeldorganisation".
 
-Auch jenseits des Daimler-Werks tritt Hilburger als Bühnenfigur der AfD auf: Bei der AfD-Kundgebung zum 1.&nbsp;Mai 2026 in Göppingen war er <SourceRef code="kontext-goeppingen-1mai-afd-hilburger">Hauptredner unter dem Titel "Industriestandort retten, Heimat schützen"</SourceRef>.
+Auch jenseits des Daimler-Werks tritt Hilburger als Bühnenfigur der AfD auf: Bei der AfD-Kundgebung zum 1. Mai 2026 in Göppingen war er <SourceRef code="kontext-goeppingen-1mai-afd-hilburger">Hauptredner unter dem Titel "Industriestandort retten, Heimat schützen"</SourceRef>.
 
 ## Links
 

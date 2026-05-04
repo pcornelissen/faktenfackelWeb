@@ -35,7 +35,7 @@ tags:
 
 ## Was wird behauptet?
 
-Die demografiepolitische Sprecherin der AfD-Bundestagsfraktion, Kerstin Przygodda, hat am 28.&nbsp;April 2026 eine [Pressemitteilung](https://afdbundestag.de/schockzahlen-zur-geburtenrate-belegen-ausmass-der-demografischen-katastrophe/) veröffentlicht. Sie nennt die Geburtenzahlen 2025 "Schockzahlen", spricht von einer "demografischen Katastrophe", einer "demografischen Abwärtsspirale" und einer "hochgefährlichen Entwicklung". Ohne eine "sofortige Familienpolitikwende" sei der gesellschaftliche Bestand bedroht.
+Die demografiepolitische Sprecherin der AfD-Bundestagsfraktion, Kerstin Przygodda, hat am 28. April 2026 eine [Pressemitteilung](https://afdbundestag.de/schockzahlen-zur-geburtenrate-belegen-ausmass-der-demografischen-katastrophe/) veröffentlicht. Sie nennt die Geburtenzahlen 2025 "Schockzahlen", spricht von einer "demografischen Katastrophe", einer "demografischen Abwärtsspirale" und einer "hochgefährlichen Entwicklung". Ohne eine "sofortige Familienpolitikwende" sei der gesellschaftliche Bestand bedroht.
 
 Die expliziten Begriffe "Volkstod" oder "Bevölkerungsaustausch" werden vermieden. Das Katastrophen-Narrativ liegt aber strukturell auf der ethnonationalen Linie, die in der AfD seit Jahren das Demografiethema rahmt.
 
@@ -43,10 +43,10 @@ Die expliziten Begriffe "Volkstod" oder "Bevölkerungsaustausch" werden vermiede
 
 ### Die Eckzahlen sind korrekt
 
-Przygoddas Zahlen stammen aus der [Pressemitteilung Nr.&nbsp;146 des Statistischen Bundesamts](https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_146_126.html) vom 28.&nbsp;April 2026 und sind nicht zu beanstanden:
+Przygoddas Zahlen stammen aus der [Pressemitteilung Nr. 146 des Statistischen Bundesamts](https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_146_126.html) vom 28. April 2026 und sind nicht zu beanstanden:
 
 - rund 654.300 Geburten in Deutschland 2025
-- 3,4&nbsp;Prozent weniger als 2024 (677.117 Geburten)
+- 3,4 Prozent weniger als 2024 (677.117 Geburten)
 - niedrigster Stand seit 1946
 - Geburtendefizit von rund 352.000 (rund 1,01 Millionen Sterbefälle)
 - vierter Rückgang in Folge
@@ -77,7 +77,7 @@ Die irreführende Verschiebung passiert auf der Bedeutungsebene: Aus einer langf
 
 Demografiezahlen werden in AfD-Kommunikation seit Jahren als Krisensignal aufgeladen. Das Schema folgt dem [im Schattner-Faktencheck dokumentierten Pfropfungsprinzip](/faktenchecks/politik/parteien/afd/schattner-asyl-gesundheit-falschbehauptung): Eine reale statistische Entwicklung dient als Plausibilitätsanker, daran wird ein politisch aufgeladener Bedeutungsrahmen gehängt. In diesem Fall: Aus "Geburtenrate gesunken" wird "demografische Katastrophe", aus "Aufschub durch Wirtschaftskrise" wird "Familienzerstörung durch Regierungspolitik", aus dem europaweiten Trend wird ein deutscher Sonderfall.
 
-Eine ähnliche Linie hat die AfD-Fraktion am 27.&nbsp;April 2026 mit der Pressemitteilung von [Martin Sichert zu Pubertätsblockern](https://afdbundestag.de/sofortiges-moratorium-fuer-pubertaetsblocker-und-hormontherapien-bei-jugendlichen/) bedient (selektive Cass-Review-Rezeption als Beleg für Bundesregierungsversagen) und am 28.&nbsp;April 2026 mit [Christina Baums Impfsicherheits-Pressemitteilung](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz). Die Methode ist konsistent: amtliche Zahlen oder Antworten der Bundesregierung werden als Bestätigung eines AfD-Frames inszeniert, ohne die Daten in ihren wissenschaftlichen Kontext zu setzen.
+Eine ähnliche Linie hat die AfD-Fraktion am 27. April 2026 mit der Pressemitteilung von [Martin Sichert zu Pubertätsblockern](https://afdbundestag.de/sofortiges-moratorium-fuer-pubertaetsblocker-und-hormontherapien-bei-jugendlichen/) bedient (selektive Cass-Review-Rezeption als Beleg für Bundesregierungsversagen) und am 28. April 2026 mit [Christina Baums Impfsicherheits-Pressemitteilung](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz). Die Methode ist konsistent: amtliche Zahlen oder Antworten der Bundesregierung werden als Bestätigung eines AfD-Frames inszeniert, ohne die Daten in ihren wissenschaftlichen Kontext zu setzen.
 
 ## Fazit
 

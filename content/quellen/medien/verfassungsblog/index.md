@@ -9,7 +9,7 @@ tags:
   - wissenschaft
   - verfassungsrecht
 ---
-Der Verfassungsblog ist eine deutsche Online-Plattform für öffentliches Recht, Verfassungsrecht und Rechtspolitik, gegründet am 30.&nbsp;Juli 2009 von Maximilian Steinbeis und nach eigenen Angaben das erste deutschsprachige Blog zum Verfassungsrecht. Anfangs betrieb Steinbeis das Projekt allein; heute publizieren dort über 3.500 Wissenschaftler:innen, Richter:innen und Jurist:innen aus aller Welt.
+Der Verfassungsblog ist eine deutsche Online-Plattform für öffentliches Recht, Verfassungsrecht und Rechtspolitik, gegründet am 30. Juli 2009 von Maximilian Steinbeis und nach eigenen Angaben das erste deutschsprachige Blog zum Verfassungsrecht. Anfangs betrieb Steinbeis das Projekt allein; heute publizieren dort über 3.500 Wissenschaftler:innen, Richter:innen und Jurist:innen aus aller Welt.
 
 ## Über die Quelle
 

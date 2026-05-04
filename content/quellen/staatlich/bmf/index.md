@@ -34,7 +34,7 @@ Das BMF ist eine staatliche Behörde, deren Veröffentlichungen die offizielle P
 
 - **Haushaltspläne, Steuerstatistiken, Berichte zu Schuldenstand und Steuereinnahmen** sind verlässliche Primärquellen. Das BMF aggregiert Daten aus einer Vielzahl amtlicher Quellen und stellt sie transparent bereit. Die Zahlen sind methodisch dokumentiert und werden in der Fachwelt breit genutzt.
 - **Gesetzesentwürfe, FAQs zu Gesetzen und BMF-Schreiben** geben die Verwaltungsauffassung wieder. Sie sind für Unternehmen und Berater praktisch relevant, aber nicht mit einer unabhängigen Bewertung zu verwechseln. Kritik aus Wissenschaft oder Zivilgesellschaft wird im offiziellen BMF-Material selten gleichrangig abgebildet.
-- **Pressemitteilungen und Positionspapiere** zu finanzpolitischen Debatten sind Regierungsstandpunkt. Bei politisch aufgeladenen Themen (z.&nbsp;B. Schuldenbremse, Erbschaftsteuer, globale Mindestbesteuerung) sollte die parteipolitische Perspektive des jeweils amtierenden Ministers mitgedacht werden.
+- **Pressemitteilungen und Positionspapiere** zu finanzpolitischen Debatten sind Regierungsstandpunkt. Bei politisch aufgeladenen Themen (z. B. Schuldenbremse, Erbschaftsteuer, globale Mindestbesteuerung) sollte die parteipolitische Perspektive des jeweils amtierenden Ministers mitgedacht werden.
 
 Das BMF lässt zu zentralen Reformvorhaben regelmäßig externe Gutachten erstellen, etwa vom [ifo Institut](https://www.ifo.de) oder dem [Wissenschaftlichen Beirat beim BMF](https://www.bundesfinanzministerium.de/Web/DE/Themen/Schlaglichter/Wissenschaftlicher-Beirat/wissenschaftlicher-beirat.html). Diese Gutachten sind eigenständige wissenschaftliche Arbeiten und sollten als solche zitiert werden, nicht als BMF-Aussage.
 

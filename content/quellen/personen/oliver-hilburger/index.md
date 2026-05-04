@@ -25,7 +25,7 @@ Ende 2009 gründete er unter dem Namen "Zentrum Automobil" eine betriebliche Int
 
 Björn Höcke plädierte auf dem AfD-Parteitag im Juni 2022 dafür, Zentrum von der Unvereinbarkeitsliste der AfD zu streichen, und bezeichnete solche Organisationen als notwendige "Vorfeldorganisationen".
 
-Hilburger trat am 1.&nbsp;Mai 2026 als Hauptredner bei der AfD-Kundgebung in Göppingen auf.
+Hilburger trat am 1. Mai 2026 als Hauptredner bei der AfD-Kundgebung in Göppingen auf.
 
 ## Links
 

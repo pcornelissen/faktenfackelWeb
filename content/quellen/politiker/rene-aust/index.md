@@ -18,7 +18,7 @@ tags:
 
 ## Über die Quelle
 
-René Aust ist laut [Wikipedia](https://en.wikipedia.org/wiki/Ren%C3%A9_Aust) (geboren 1991 in Erfurt) seit der Europawahl 2024 Abgeordneter des Europäischen Parlaments für die AfD. Er leitet die AfD-Delegation im EP und ist Vorsitzender der im Sommer 2024 gegründeten Fraktion "Europe of Sovereign Nations" (ESN), in der die AfD nach ihrem Ausschluss aus der Identität-und-Demokratie-Fraktion eine Sammlungsbewegung am rechten Rand des Parlaments aufbaut. Politisch wird Aust dem völkisch-nationalen Flügel um Björn Höcke zugerechnet; vor seinem EP-Mandat war er u.&nbsp;a. Geschäftsführer der AfD Thüringen und Landtagsabgeordneter.
+René Aust ist laut [Wikipedia](https://en.wikipedia.org/wiki/Ren%C3%A9_Aust) (geboren 1991 in Erfurt) seit der Europawahl 2024 Abgeordneter des Europäischen Parlaments für die AfD. Er leitet die AfD-Delegation im EP und ist Vorsitzender der im Sommer 2024 gegründeten Fraktion "Europe of Sovereign Nations" (ESN), in der die AfD nach ihrem Ausschluss aus der Identität-und-Demokratie-Fraktion eine Sammlungsbewegung am rechten Rand des Parlaments aufbaut. Politisch wird Aust dem völkisch-nationalen Flügel um Björn Höcke zugerechnet; vor seinem EP-Mandat war er u. a. Geschäftsführer der AfD Thüringen und Landtagsabgeordneter.
 
 ## Links
 

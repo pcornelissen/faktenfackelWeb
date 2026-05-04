@@ -44,7 +44,7 @@ tags:
 
 ## Was wird behauptet?
 
-Am 20.&nbsp;März 2026 trat :quelle-ref{name="christina-baum"} (AfD-Bundestagsabgeordnete, Mitglied im Gesundheitsausschuss) in einer Anhörung der Corona-Enquetekommission des Bundestags auf und schloss sich der Aussage des von der AfD-Fraktion benannten Sachverständigen Helmut Sterz an, der die COVID-Impfkampagne der Bundesregierung als "Menschenversuch" bezeichnet hatte. Im Anschluss veröffentlichte die :quelle-ref{name="afd-bt-fraktion"} eine [Pressemitteilung](https://afdbundestag.de/lauterbachs-impftragoedie-darf-nicht-vertuscht-werden/) unter der Schlagzeile "Lauterbachs Impftragödie darf nicht vertuscht werden!", in der Baum wörtlich zitiert wird:
+Am 20. März 2026 trat :quelle-ref{name="christina-baum"} (AfD-Bundestagsabgeordnete, Mitglied im Gesundheitsausschuss) in einer Anhörung der Corona-Enquetekommission des Bundestags auf und schloss sich der Aussage des von der AfD-Fraktion benannten Sachverständigen Helmut Sterz an, der die COVID-Impfkampagne der Bundesregierung als "Menschenversuch" bezeichnet hatte. Im Anschluss veröffentlichte die :quelle-ref{name="afd-bt-fraktion"} eine [Pressemitteilung](https://afdbundestag.de/lauterbachs-impftragoedie-darf-nicht-vertuscht-werden/) unter der Schlagzeile "Lauterbachs Impftragödie darf nicht vertuscht werden!", in der Baum wörtlich zitiert wird:
 
 > "Das war ein Menschenversuch. Die mRNA-Präparate wurden mit nur unzureichenden Tests in Rekordzeit zugelassen und an Milliarden von Menschen ausprobiert."
 
@@ -65,7 +65,7 @@ Der Begriff "Menschenversuch" ist nicht beliebig. Seit dem Nürnberger Kodex (19
 
 Die COVID-Impfkampagne erfüllt keines der Merkmale eines Menschenversuchs in diesem Sinne:
 
-- **Freiwilligkeit:** Es gab in Deutschland keine allgemeine Impfpflicht. Die [einrichtungsbezogene Impfpflicht](https://www.bundesgesundheitsministerium.de/themen/gesundheitswesen/impfpflicht-corona/begriffe-zur-impfpflicht.html) für Pflege- und Gesundheitsbereich galt von März bis Dezember&nbsp;2022 in einem klar abgegrenzten Sektor und wurde nach Bundestagsbeschluss vom 16.&nbsp;Dezember 2022 wieder aufgehoben. Jede Impfung erforderte vorherige Aufklärung und Einwilligung.
+- **Freiwilligkeit:** Es gab in Deutschland keine allgemeine Impfpflicht. Die [einrichtungsbezogene Impfpflicht](https://www.bundesgesundheitsministerium.de/themen/gesundheitswesen/impfpflicht-corona/begriffe-zur-impfpflicht.html) für Pflege- und Gesundheitsbereich galt von März bis Dezember 2022 in einem klar abgegrenzten Sektor und wurde nach Bundestagsbeschluss vom 16. Dezember 2022 wieder aufgehoben. Jede Impfung erforderte vorherige Aufklärung und Einwilligung.
 - **Vorklinische Grundlage:** Die mRNA-Plattform wird seit den 1990er Jahren erforscht; der erste Übersichtsartikel zur mRNA-Impfung in *Nature Reviews Drug Discovery* erschien 2018, also vor SARS-CoV-2.
 - **Ethische Standards:** Die klinischen Studien wurden von Ethikkommissionen geprüft und liefen nach den Regeln der Good Clinical Practice ab.
 
@@ -75,15 +75,15 @@ Wer die regulär zugelassene Impfkampagne mit dem Begriff "Menschenversuch" bele
 
 Die mRNA-Impfstoffe wurden vor der Zulassung in randomisierten, placebokontrollierten Phase-III-Studien geprüft, die zu den größten der Pharmakologie-Geschichte zählen.
 
-**BNT162b2 (Comirnaty, BioNTech/Pfizer).** Die Phase-III-Studie [Polack et&nbsp;al.](https://www.nejm.org/doi/full/10.1056/NEJMoa2034577) (NEJM, 31.&nbsp;Dezember 2020) umfasste 43.448 Probandinnen und Probanden, die randomisiert entweder den Impfstoff oder ein Placebo erhielten. Primärer Endpunkt war die Verhinderung symptomatischer COVID-19-Erkrankungen ab sieben Tagen nach der zweiten Dosis. Wirksamkeit: 95 Prozent. Sicherheitsprofil: überwiegend leichte bis moderate Reaktionen, keine schwerwiegenden Langzeit-Nebenwirkungen während der Studienlaufzeit.
+**BNT162b2 (Comirnaty, BioNTech/Pfizer).** Die Phase-III-Studie [Polack et al.](https://www.nejm.org/doi/full/10.1056/NEJMoa2034577) (NEJM, 31. Dezember 2020) umfasste 43.448 Probandinnen und Probanden, die randomisiert entweder den Impfstoff oder ein Placebo erhielten. Primärer Endpunkt war die Verhinderung symptomatischer COVID-19-Erkrankungen ab sieben Tagen nach der zweiten Dosis. Wirksamkeit: 95 Prozent. Sicherheitsprofil: überwiegend leichte bis moderate Reaktionen, keine schwerwiegenden Langzeit-Nebenwirkungen während der Studienlaufzeit.
 
-**mRNA-1273 (Spikevax, Moderna).** Die COVE-Studie [Baden et&nbsp;al.](https://www.nejm.org/doi/full/10.1056/NEJMoa2035389) (NEJM, 4.&nbsp;Februar 2021) umfasste 30.420 Teilnehmende. Wirksamkeit: 94,1 Prozent. Auch hier keine in der Studie aufgetretenen Sicherheitssignale, die der Zulassung entgegenstanden.
+**mRNA-1273 (Spikevax, Moderna).** Die COVE-Studie [Baden et al.](https://www.nejm.org/doi/full/10.1056/NEJMoa2035389) (NEJM, 4. Februar 2021) umfasste 30.420 Teilnehmende. Wirksamkeit: 94,1 Prozent. Auch hier keine in der Studie aufgetretenen Sicherheitssignale, die der Zulassung entgegenstanden.
 
 Zusammen umfassten die Phase-III-Studien beider Impfstoffe über 73.000 Teilnehmende. Zum Vergleich: Eine durchschnittliche Phase-III-Zulassungsstudie eines Arzneimittels umfasst typischerweise 1.000 bis 5.000 Personen. Die Behauptung "unzureichende Tests" ist quantitativ und qualitativ nicht belegbar.
 
 ### "Rekordzeit" beschreibt eine reguläre Zulassung im beschleunigten Verfahren
 
-Die EMA erteilte am [21.&nbsp;Dezember 2020](https://www.ema.europa.eu/en/news/ema-recommends-first-covid-19-vaccine-authorisation-eu) für Comirnaty und am 6.&nbsp;Januar 2021 für Spikevax die Conditional Marketing Authorization (CMA). Die [CMA](https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/conditional-marketing-authorisation) ist ein seit 2006 etablierter regulärer Zulassungspfad der EU für Arzneimittel mit dringendem medizinischem Bedarf. Sie unterscheidet sich von der Standardzulassung in zwei Punkten:
+Die EMA erteilte am [21. Dezember 2020](https://www.ema.europa.eu/en/news/ema-recommends-first-covid-19-vaccine-authorisation-eu) für Comirnaty und am 6. Januar 2021 für Spikevax die Conditional Marketing Authorization (CMA). Die [CMA](https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/conditional-marketing-authorisation) ist ein seit 2006 etablierter regulärer Zulassungspfad der EU für Arzneimittel mit dringendem medizinischem Bedarf. Sie unterscheidet sich von der Standardzulassung in zwei Punkten:
 
 - Die Zulassung erfolgt auf Basis "weniger umfassender" Daten als bei der vollen Zulassung, allerdings nur, wenn das Nutzen-Risiko-Verhältnis positiv ist und der Hersteller verpflichtet ist, weitere Daten nachzuliefern.
 - Sie ist auf ein Jahr befristet und wird nach Datennachreichung jährlich überprüft.
@@ -92,16 +92,16 @@ Comirnaty wurde 2022 in eine Standardzulassung überführt, nachdem die nachgere
 
 ### "An Milliarden ausprobiert" verdreht Pharmakovigilanz in Menschenversuch
 
-Nach der Zulassung wurden weltweit über 13&nbsp;Milliarden Dosen COVID-19-Impfstoffe verabreicht. Die Formulierung "ausprobiert" suggeriert, das sei eine Fortsetzung der Forschung. Tatsächlich beschreibt sie zwei reguläre Phasen der Arzneimittelversorgung:
+Nach der Zulassung wurden weltweit über 13 Milliarden Dosen COVID-19-Impfstoffe verabreicht. Die Formulierung "ausprobiert" suggeriert, das sei eine Fortsetzung der Forschung. Tatsächlich beschreibt sie zwei reguläre Phasen der Arzneimittelversorgung:
 
 - **Pharmakovigilanz nach Zulassung.** Das [Paul-Ehrlich-Institut](https://www.pei.de/DE/newsroom/dossier/coronavirus/sicherheitsbericht-covid-19-impfstoffe-aktuell.html) und die EMA überwachen seit der Zulassung systematisch Verdachtsfallmeldungen, sammeln Real-World-Daten und passen Anwendungsempfehlungen an. Diese Überwachung ist kein "Versuch", sondern Standard für jedes zugelassene Arzneimittel.
-- **Reagieren auf Risikosignale.** Wo Signale auftraten, wurde reagiert: Aussetzung der AstraZeneca-Impfung am 15.&nbsp;März 2021, STIKO-Altersbeschränkung für AstraZeneca ab 1.&nbsp;April 2021, Myokarditis-Warnungen für mRNA-Impfstoffe bei jüngeren Männern. Die [vorhandene Faktenfackel-Bewertung](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz/) zur ersten Pharmakovigilanz-Pressemitteilung Baums dokumentiert diese Reaktionen im Detail.
+- **Reagieren auf Risikosignale.** Wo Signale auftraten, wurde reagiert: Aussetzung der AstraZeneca-Impfung am 15. März 2021, STIKO-Altersbeschränkung für AstraZeneca ab 1. April 2021, Myokarditis-Warnungen für mRNA-Impfstoffe bei jüngeren Männern. Die [vorhandene Faktenfackel-Bewertung](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz/) zur ersten Pharmakovigilanz-Pressemitteilung Baums dokumentiert diese Reaktionen im Detail.
 
 Die Gleichsetzung von "milliardenfacher Anwendung eines zugelassenen Arzneimittels unter laufender Sicherheitsüberwachung" mit "Versuchsdurchführung am Menschen" ist eine semantische Verschiebung, keine medizinische Beschreibung.
 
 ### Die "Lauterbach hat behauptet, die Impfung habe keine Nebenwirkungen"-Formulierung
 
-Im selben Statement behauptet Baum, der damalige Bundesgesundheitsminister Karl Lauterbach habe "dreist" erklärt, die Impfung habe "keine Nebenwirkungen". Das entspricht nicht der dokumentierten Faktenlage. Lauterbach hat in mehreren Interviews und Bundestagsreden auf Risiken und seltene Nebenwirkungen verwiesen. Die viral kursierende Tweet-Version vom 14.&nbsp;August 2021 ("Die Impfung ist nebenwirkungsfrei.") wurde später von Lauterbach selbst öffentlich als verkürzt und missverständlich bezeichnet, korrigiert und mit dem Hinweis versehen, dass natürlich Nebenwirkungen auftreten können. Diese Korrektur ist Teil der dokumentierten politischen Kommunikation und wird in der AfD-Pressemitteilung weggelassen.
+Im selben Statement behauptet Baum, der damalige Bundesgesundheitsminister Karl Lauterbach habe "dreist" erklärt, die Impfung habe "keine Nebenwirkungen". Das entspricht nicht der dokumentierten Faktenlage. Lauterbach hat in mehreren Interviews und Bundestagsreden auf Risiken und seltene Nebenwirkungen verwiesen. Die viral kursierende Tweet-Version vom 14. August 2021 ("Die Impfung ist nebenwirkungsfrei.") wurde später von Lauterbach selbst öffentlich als verkürzt und missverständlich bezeichnet, korrigiert und mit dem Hinweis versehen, dass natürlich Nebenwirkungen auftreten können. Diese Korrektur ist Teil der dokumentierten politischen Kommunikation und wird in der AfD-Pressemitteilung weggelassen.
 
 ## Wahrer Kern
 
@@ -115,13 +115,13 @@ Keiner dieser Punkte rechtfertigt das Wort "Menschenversuch".
 
 ## Wer ist Christina Baum?
 
-:quelle-ref{name="christina-baum"} ist Zahnärztin, AfD-Bundestagsabgeordnete (seit 2021) und gehört zum völkisch-rechten Flügel der AfD. Sie war bereits am 10.&nbsp;Oktober 2020 Hauptrednerin beim Auftakt der "Querdenken-722-Bühl"-Demonstration ([Badische Neueste Nachrichten](https://bnn.de/mittelbaden/buehl/die-gesellschaft-wird-entmenschlicht-bei-demo-in-buehl-gibt-es-heftige-kritik-an-der-corona-politik), [Kontext-Wochenzeitung](https://www.kontextwochenzeitung.de/gesellschaft/498/blaue-stunde-in-buehl-7042.html)) und trat im Januar&nbsp;2023 erneut bei einer Querdenker-Demo in Heidelberg auf ([Kommunalinfo Mannheim](https://kommunalinfo-mannheim.de/2023/01/13/heidelberg-protest-gegen-auftritt-von-afd-politikerin-christina-baum-bei-querdenker-demo/)). Im Verfassungsschutz-Gutachten zur AfD wird sie laut [Volksstimme](https://www.volksstimme.de/lokal/wernigerode/bundestagsabgeordnete-harz-christina-baum-verfassungsschutz-afd-rechtsextrem-4058417) nahezu so häufig zitiert wie Björn Höcke und Maximilian Krah.
+:quelle-ref{name="christina-baum"} ist Zahnärztin, AfD-Bundestagsabgeordnete (seit 2021) und gehört zum völkisch-rechten Flügel der AfD. Sie war bereits am 10. Oktober 2020 Hauptrednerin beim Auftakt der "Querdenken-722-Bühl"-Demonstration ([Badische Neueste Nachrichten](https://bnn.de/mittelbaden/buehl/die-gesellschaft-wird-entmenschlicht-bei-demo-in-buehl-gibt-es-heftige-kritik-an-der-corona-politik), [Kontext-Wochenzeitung](https://www.kontextwochenzeitung.de/gesellschaft/498/blaue-stunde-in-buehl-7042.html)) und trat im Januar 2023 erneut bei einer Querdenker-Demo in Heidelberg auf ([Kommunalinfo Mannheim](https://kommunalinfo-mannheim.de/2023/01/13/heidelberg-protest-gegen-auftritt-von-afd-politikerin-christina-baum-bei-querdenker-demo/)). Im Verfassungsschutz-Gutachten zur AfD wird sie laut [Volksstimme](https://www.volksstimme.de/lokal/wernigerode/bundestagsabgeordnete-harz-christina-baum-verfassungsschutz-afd-rechtsextrem-4058417) nahezu so häufig zitiert wie Björn Höcke und Maximilian Krah.
 
 Die jetzige "Menschenversuch"-Aussage ist die parlamentarische Eskalation der Querdenker-Rhetorik aus der Pandemiezeit: was in den Jahren 2020 bis 2023 auf Bühnen vor unmittelbarem Publikum gesagt wurde, wird nun im offiziellen Rahmen einer Bundestags-Enquetekommission und in der Pressemitteilung der :quelle-ref{name="afd-bt-fraktion"} reproduziert.
 
 ## Das Muster
 
-AfD-Pressemitteilungen rund um die COVID-Pandemie folgen einem Schema: Eine punktuelle Methodenkritik wird zur Generalanklage gegen die staatliche Pandemiebekämpfung umgedeutet, garniert mit einem Schwurwort aus dem Querdenker-Vokabular ("Menschenversuch", "Impftragödie", "Genozid"). Inhaltlich vergleichbare Verschiebungen finden sich in der [Pharmakovigilanz-Pressemitteilung Baums vom 28.&nbsp;April 2026](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz/) und in den [Pubertätsblocker-](/faktenchecks/politik/parteien/afd/sichert-pubertaetsblocker-moratorium/) und [Migrationskosten-](/faktenchecks/politik/parteien/afd/sichert-migrationskosten-gesundheit/)Pressemitteilungen Martin Sicherts.
+AfD-Pressemitteilungen rund um die COVID-Pandemie folgen einem Schema: Eine punktuelle Methodenkritik wird zur Generalanklage gegen die staatliche Pandemiebekämpfung umgedeutet, garniert mit einem Schwurwort aus dem Querdenker-Vokabular ("Menschenversuch", "Impftragödie", "Genozid"). Inhaltlich vergleichbare Verschiebungen finden sich in der [Pharmakovigilanz-Pressemitteilung Baums vom 28. April 2026](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz/) und in den [Pubertätsblocker-](/faktenchecks/politik/parteien/afd/sichert-pubertaetsblocker-moratorium/) und [Migrationskosten-](/faktenchecks/politik/parteien/afd/sichert-migrationskosten-gesundheit/)Pressemitteilungen Martin Sicherts.
 
 ## Fazit
 

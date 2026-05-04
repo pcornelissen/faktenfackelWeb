@@ -14,7 +14,7 @@ tags:
 
 `giessen.de` ist der offizielle Web-Auftritt der Universitätsstadt Gießen in Mittelhessen. Veröffentlicht werden vor allem Bürgerservices, Pressemitteilungen der Stadtverwaltung, Sitzungsprotokolle der Stadtverordnetenversammlung sowie Informationen zu Stadtentwicklung, Kultur und Veranstaltungen.
 
-Gießen hat rund 89.000 Einwohner (Stand 31. Dezember 2024) und ist damit die siebtgrößte Stadt Hessens. Sitz der Justus-Liebig-Universität, Verwaltungszentrum Mittelhessens, sowie Sitz des Regierungspräsidiums und des Landkreises Gießen.
+Gießen hat rund 89.000 Einwohner (Stand 31. Dezember 2024) und ist damit die siebtgrößte Stadt Hessens. Sitz der Justus-Liebig-Universität, Verwaltungszentrum Mittelhessens, sowie Sitz des Regierungspräsidiums und des Landkreises Gießen.
 
 ## Links
 

@@ -14,7 +14,7 @@ tags:
   - ein-prozent
 ---
 
-Michael Schäfer (geboren am 30.&nbsp;September 1982 in Wernigerode) ist ein deutscher Rechtsextremist mit langjähriger Kaderfunktion in der Neonazi-Szene Sachsen-Anhalts. Er war laut [Wikipedia](https://de.wikipedia.org/wiki/Michael_Sch%C3%A4fer_(Politiker,_1982)) von Oktober 2007 bis Oktober 2012 Bundesvorsitzender der "Jungen Nationaldemokraten" (JN), der Jugendorganisation der NPD, und gehört heute zum Personal des rechtsextremen Kampagnenvereins Ein Prozent.
+Michael Schäfer (geboren am 30. September 1982 in Wernigerode) ist ein deutscher Rechtsextremist mit langjähriger Kaderfunktion in der Neonazi-Szene Sachsen-Anhalts. Er war laut [Wikipedia](https://de.wikipedia.org/wiki/Michael_Sch%C3%A4fer_(Politiker,_1982)) von Oktober 2007 bis Oktober 2012 Bundesvorsitzender der "Jungen Nationaldemokraten" (JN), der Jugendorganisation der NPD, und gehört heute zum Personal des rechtsextremen Kampagnenvereins Ein Prozent.
 
 ## Herkunft und Werdegang
 
@@ -34,7 +34,7 @@ Nach eigener Angabe verließ Schäfer im Juni 2015 seine Partei. 2017 trat er al
 
 ## EU-Parlament März 2026
 
-Am 25.&nbsp;März 2026 wurde Schäfer gemeinsam mit Ein-Prozent-Chef Philip Stein von den AfD-Europaabgeordneten Mary Khan und Alexander Jungbluth ins Europäische Parlament eingeladen. Laut [Global Project Against Hate and Extremism (GPAHE)](https://globalextremism.org/post/ein-prozent/) präsentierten die beiden dort angebliche "linksextremistische Strukturen" und verbreiteten Verschwörungserzählungen über eine angebliche NGO-"Kartellbildung", antisemitische Narrative um George Soros sowie Behauptungen zur Wahlbeeinflussung. GPAHE wertet den Auftritt als Beleg dafür, dass die 2025 vom Verfassungsschutz als gesichert rechtsextrem eingestufte AfD offen mit Neonazi-Kadern und weißen Nationalisten kooperiert.
+Am 25. März 2026 wurde Schäfer gemeinsam mit Ein-Prozent-Chef Philip Stein von den AfD-Europaabgeordneten Mary Khan und Alexander Jungbluth ins Europäische Parlament eingeladen. Laut [Global Project Against Hate and Extremism (GPAHE)](https://globalextremism.org/post/ein-prozent/) präsentierten die beiden dort angebliche "linksextremistische Strukturen" und verbreiteten Verschwörungserzählungen über eine angebliche NGO-"Kartellbildung", antisemitische Narrative um George Soros sowie Behauptungen zur Wahlbeeinflussung. GPAHE wertet den Auftritt als Beleg dafür, dass die 2025 vom Verfassungsschutz als gesichert rechtsextrem eingestufte AfD offen mit Neonazi-Kadern und weißen Nationalisten kooperiert.
 
 ## Faktenfackel Bewertung
 

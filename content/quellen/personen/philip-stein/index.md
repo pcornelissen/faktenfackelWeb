@@ -12,7 +12,7 @@ tags:
   - identitäre-bewegung
 ---
 
-Philip Stein (geboren am 1.&nbsp;Juli 1991 in Fritzlar) ist ein deutscher rechtsextremer Aktivist, Verleger und Publizist. Er leitet seit 2015 das vom Verfassungsschutz als rechtsextrem eingestufte Kampagnenprojekt "Ein Prozent für unser Land" und betreibt seit 2016 den in Dresden ansässigen [Jungeuropa Verlag](https://de.wikipedia.org/wiki/Philip_Stein_(Aktivist)). Stein bezeichnet sich selbst öffentlich als "rechtsradikal" und gilt als einer der zentralen Netzwerker der "Neuen Rechten" in Deutschland.
+Philip Stein (geboren am 1. Juli 1991 in Fritzlar) ist ein deutscher rechtsextremer Aktivist, Verleger und Publizist. Er leitet seit 2015 das vom Verfassungsschutz als rechtsextrem eingestufte Kampagnenprojekt "Ein Prozent für unser Land" und betreibt seit 2016 den in Dresden ansässigen [Jungeuropa Verlag](https://de.wikipedia.org/wiki/Philip_Stein_(Aktivist)). Stein bezeichnet sich selbst öffentlich als "rechtsradikal" und gilt als einer der zentralen Netzwerker der "Neuen Rechten" in Deutschland.
 
 ## Biografie
 
@@ -34,7 +34,7 @@ Der 2016 in Dresden gegründete [Jungeuropa Verlag](https://www.t-online.de/regi
 
 Stein ist international in faschistische Netzwerke eingebunden. 2017 sprach er als Referent auf einem Kongress der italienischen neofaschistischen Organisation CasaPound in Rom, 2019 nahm er an einem CasaPound-Gedenkmarsch teil. 2018 war er Redner auf einer Veranstaltung der Identitären Bewegung in Dresden.
 
-Am 25.&nbsp;März 2026 wurde Stein von den AfD-Europaabgeordneten Mary Khan und Alexander Jungbluth ins Europäische Parlament eingeladen, wo er laut Recherchen des [Global Project Against Hate and Extremism](https://globalextremism.org/post/ein-prozent/) einen Vortrag über vermeintliche "linksextreme Strukturen" hielt.
+Am 25. März 2026 wurde Stein von den AfD-Europaabgeordneten Mary Khan und Alexander Jungbluth ins Europäische Parlament eingeladen, wo er laut Recherchen des [Global Project Against Hate and Extremism](https://globalextremism.org/post/ein-prozent/) einen Vortrag über vermeintliche "linksextreme Strukturen" hielt.
 
 ## Ideologische Einordnung
 

@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Die Heimat ist die seit Juni 2023 gültige Bezeichnung der ehemaligen Nationaldemokratischen Partei Deutschlands (NPD), gegründet am [28.&nbsp;November 1964](https://de.wikipedia.org/wiki/Die_Heimat) in Hannover. Sie ging wesentlich aus der Deutschen Reichspartei hervor. Auf einem außerordentlichen Bundesparteitag am 3.&nbsp;Juni 2023 in Riesa (Sachsen) stimmten [77 Prozent der Delegierten](https://de.wikipedia.org/wiki/Die_Heimat) für die Umbenennung, die sofort in Kraft trat. Ein Teil der Mitglieder, der den alten Namen bevorzugte, gründete daraufhin eine konkurrierende Splitterpartei.
+Die Heimat ist die seit Juni 2023 gültige Bezeichnung der ehemaligen Nationaldemokratischen Partei Deutschlands (NPD), gegründet am [28. November 1964](https://de.wikipedia.org/wiki/Die_Heimat) in Hannover. Sie ging wesentlich aus der Deutschen Reichspartei hervor. Auf einem außerordentlichen Bundesparteitag am 3. Juni 2023 in Riesa (Sachsen) stimmten [77 Prozent der Delegierten](https://de.wikipedia.org/wiki/Die_Heimat) für die Umbenennung, die sofort in Kraft trat. Ein Teil der Mitglieder, der den alten Namen bevorzugte, gründete daraufhin eine konkurrierende Splitterpartei.
 
 Die Umbenennung war ein Versuch eines Neustarts nach zwei gescheiterten Verbotsverfahren, internen Konflikten und dem kontinuierlichen Rückgang auf heute rund [2.500 Mitglieder](https://www.verfassungsschutz-bw.de/,Lde/Startseite/Arbeitsfelder/Die+Heimat+bisher+Nationaldemokratische+Partei+Deutschlands+_NPD_) bundesweit - verglichen mit 28.000 bis 50.000 in der Hochphase Ende der 1960er Jahre. Trotz nomineller Präsenz in allen 16 Bundesländern ist Die Heimat heute eine politisch bedeutungslose Kleinpartei ohne parlamentarische Vertretung auf Bundes- oder Landesebene.
 
@@ -23,7 +23,7 @@ Das [Bundesamt für Verfassungsschutz](https://www.verfassungsschutz.de/DE/verfa
 
 ### Bundesverfassungsgericht-Urteil 2024
 
-Am [23.&nbsp;Januar 2024](https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html) schloss das Bundesverfassungsgericht Die Heimat einstimmig für sechs Jahre von der staatlichen Parteienfinanzierung aus (Az. 2 BvB 1/19). Antragsteller waren Bundestag, Bundesrat und Bundesregierung gemeinsam. Das Gericht stützte den Beschluss auf Art.&nbsp;21 Abs.&nbsp;3 Satz&nbsp;1 Grundgesetz und benannte drei verfassungsfeindliche Schwerpunkte: erstens die Ablehnung elementarer Rechtsgleichheit durch das Volksgemeinschaftskonzept, zweitens den Ausschluss ethnisch Nichtdeutscher vom demokratischen Prozess, drittens "deutliche Parallelen zum Nationalsozialismus". Mit dem Ausschluss entfallen auch sämtliche steuerlichen Vergünstigungen auf Parteispenden. Es ist das erste Mal überhaupt, dass das Gericht einen Finanzierungsausschluss nach der 2017 neu eingeführten Verfassungsregelung anwendete.
+Am [23. Januar 2024](https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html) schloss das Bundesverfassungsgericht Die Heimat einstimmig für sechs Jahre von der staatlichen Parteienfinanzierung aus (Az. 2 BvB 1/19). Antragsteller waren Bundestag, Bundesrat und Bundesregierung gemeinsam. Das Gericht stützte den Beschluss auf Art. 21 Abs. 3 Satz 1 Grundgesetz und benannte drei verfassungsfeindliche Schwerpunkte: erstens die Ablehnung elementarer Rechtsgleichheit durch das Volksgemeinschaftskonzept, zweitens den Ausschluss ethnisch Nichtdeutscher vom demokratischen Prozess, drittens "deutliche Parallelen zum Nationalsozialismus". Mit dem Ausschluss entfallen auch sämtliche steuerlichen Vergünstigungen auf Parteispenden. Es ist das erste Mal überhaupt, dass das Gericht einen Finanzierungsausschluss nach der 2017 neu eingeführten Verfassungsregelung anwendete.
 
 ### Führung und Struktur
 
@@ -43,13 +43,13 @@ Bei der Europawahl 2024 erhielt Die Heimat bundesweit [41.006 Stimmen (0,1 Proze
 
 Die Partei fordert den Austritt aus EU und NATO, die Wiedereinführung der D-Mark, die ersatzlose Streichung des Asylrechts und "Remigration" auf Grundlage eines Abstammungsprinzips für die Staatsbürgerschaft. Die früheren "Vier-Säulen-Strategie" (Kampf um die Parlamente, die Straße, die Köpfe, die Organisierung) setzt Die Heimat laut Bundesverfassungsgericht [weiterhin fort](https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html), auch wenn die äußere Erscheinung durch die Umbenennung modernisiert wurde.
 
-Auf europäischer Ebene ist Die Heimat Mitglied der [Allianz für Frieden und Freiheit (APF)](https://www.bpb.de/themen/parteien/wer-steht-zur-wahl/europawahl-2024/548018/die-heimat/), einem rechtsextremen Zusammenschluss europäischer Parteien. Einzelne Funktionäre pflegen darüber hinaus Kontakte zur ungarischen Neonazi-Organisation [Légió Hungária](https://antifainfoblatt.de/tags/legio-hungaria): :quelle-ref{name="claus-cremer"} bestätigte, am 11.&nbsp;April 2026 an einem Gedenkmarsch der Légió Hungária im ungarischen Győr teilgenommen zu haben.
+Auf europäischer Ebene ist Die Heimat Mitglied der [Allianz für Frieden und Freiheit (APF)](https://www.bpb.de/themen/parteien/wer-steht-zur-wahl/europawahl-2024/548018/die-heimat/), einem rechtsextremen Zusammenschluss europäischer Parteien. Einzelne Funktionäre pflegen darüber hinaus Kontakte zur ungarischen Neonazi-Organisation [Légió Hungária](https://antifainfoblatt.de/tags/legio-hungaria): :quelle-ref{name="claus-cremer"} bestätigte, am 11. April 2026 an einem Gedenkmarsch der Légió Hungária im ungarischen Győr teilgenommen zu haben.
 
 ## Links
 
 - [Offizielle Website: die-heimat.de](https://die-heimat.de)
 - [Wikipedia: Die Heimat](https://de.wikipedia.org/wiki/Die_Heimat)
-- [BVerfG-Pressemitteilung: Finanzierungsausschluss (23.&nbsp;Januar 2024)](https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html)
+- [BVerfG-Pressemitteilung: Finanzierungsausschluss (23. Januar 2024)](https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html)
 - [Bundeszentrale für politische Bildung: Die Heimat zur Europawahl 2024](https://www.bpb.de/themen/parteien/wer-steht-zur-wahl/europawahl-2024/548018/die-heimat/)
 - [Verfassungsschutz Baden-Württemberg: Profil Die Heimat](https://www.verfassungsschutz-bw.de/,Lde/Startseite/Arbeitsfelder/Die+Heimat+bisher+Nationaldemokratische+Partei+Deutschlands+_NPD_)
 - [NRW-Verfassungsschutzbericht 2023 (PDF): Die Heimat](https://www.im.nrw/system/files/media/document/file/vsb2023_die_heimat.pdf)

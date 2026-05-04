@@ -46,7 +46,7 @@ questions:
   - question: "Was ist das Bürgergeld?"
     answer: "Das Bürgergeld ist die deutsche Grundsicherung für erwerbsfähige Leistungsberechtigte und löste 2023 das Arbeitslosengeld II (Hartz IV) ab. Es deckt das gesetzlich definierte Existenzminimum, beinhaltet Kosten für Unterkunft und Heizung und ist mit Mitwirkungspflichten und Sanktionsregeln verbunden."
   - question: "Lohnt sich Arbeit gegenüber Bürgergeld?"
-    answer: "Ja, in der Regel deutlich. Wer arbeitet, behält neben dem Lohn auch Erwerbsfreibeträge, Steuervorteile und Ansprüche aus Sozialversicherungen, die Bürgergeld-Empfänger nicht haben. Das vielfach behauptete „Lohnabstandsproblem\" entsteht meist nur durch isolierte Vergleiche von Bruttolöhnen zur Bürgergeldhöhe ohne diese Effekte."
+    answer: 'Ja, in der Regel deutlich. Wer arbeitet, behält neben dem Lohn auch Erwerbsfreibeträge, Steuervorteile und Ansprüche aus Sozialversicherungen, die Bürgergeld-Empfänger nicht haben. Das vielfach behauptete "Lohnabstandsproblem" entsteht meist nur durch isolierte Vergleiche von Bruttolöhnen zur Bürgergeldhöhe ohne diese Effekte.'
   - question: "Wer zahlt in Deutschland Steuern?"
     answer: "Die Steuerlast ist bei der Lohn- und Einkommensteuer progressiv, bei der Mehrwertsteuer und vielen Verbrauchssteuern aber regressiv: untere Einkommen geben einen größeren Anteil ihres Einkommens für sie aus. Unternehmen tragen nur einen kleinen Teil des Gesamtaufkommens, das Gros stammt aus Lohnsteuer und Mehrwertsteuer der Privathaushalte."
   - question: "Was ist die Schuldenbremse?"

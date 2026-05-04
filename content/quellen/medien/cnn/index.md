@@ -10,9 +10,9 @@ tags:
   - international
 ---
 
-CNN (Cable News Network) ist ein US-amerikanischer Nachrichtensender mit Sitz in Atlanta, gegründet am 1.&nbsp;Juni 1980 von Ted Turner und Reese Schonfeld. CNN war der erste Fernsehsender der Welt mit Rund-um-die-Uhr-Nachrichtenberichterstattung. Heute gehört CNN zu Warner Bros. Discovery.
+CNN (Cable News Network) ist ein US-amerikanischer Nachrichtensender mit Sitz in Atlanta, gegründet am 1. Juni 1980 von Ted Turner und Reese Schonfeld. CNN war der erste Fernsehsender der Welt mit Rund-um-die-Uhr-Nachrichtenberichterstattung. Heute gehört CNN zu Warner Bros. Discovery.
 
-Der internationale Ableger CNN International (CNNi) existiert seit 1.&nbsp;September 1985 und überträgt in über 212 Länder und Gebiete. Die Redaktion ist in London ansässig und deckt von dort den gesamten EMEA-Raum ab. CNN betreibt über 31 internationale Büros, darunter ein Büro in Berlin.
+Der internationale Ableger CNN International (CNNi) existiert seit 1. September 1985 und überträgt in über 212 Länder und Gebiete. Die Redaktion ist in London ansässig und deckt von dort den gesamten EMEA-Raum ab. CNN betreibt über 31 internationale Büros, darunter ein Büro in Berlin.
 
 ## Über die Quelle
 

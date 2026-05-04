@@ -13,7 +13,7 @@ tags:
 
 Der **DPA-Faktencheck** ist die Faktencheck-Redaktion der Deutschen Presse-Agentur (dpa), Deutschlands größter Nachrichtenagentur. Die Redaktion prüft virale Behauptungen aus Social Media und Politik, recherchiert Primärquellen und veröffentlicht ihre Bewertungen unter [dpa-factchecking.com](https://dpa-factchecking.com/). Die DPA ist [Verified Signatory des International Fact-Checking Network (IFCN)](https://www.ifcncodeofprinciples.poynter.org/profile/dpa-deutsche-presse-agentur-faktenchecking-team) und unterliegt damit den IFCN-Prinzipien zu Unparteilichkeit, Transparenz der Quellen und Methodik.
 
-DPA-Faktenchecks werden als Agenturmeldungen an Mitgliedshäuser ausgespielt und tauchen daher in zahlreichen deutschen und österreichischen Medien (Tagesspiegel, Welt, Kurier, Stuttgarter Zeitung, t-online u.&nbsp;a.) parallel auf. Die Redaktion arbeitet seit 2017 systematisch im Faktencheck-Bereich, ursprünglich als Teil des Facebook-Third-Party-Fact-Checking-Programms.
+DPA-Faktenchecks werden als Agenturmeldungen an Mitgliedshäuser ausgespielt und tauchen daher in zahlreichen deutschen und österreichischen Medien (Tagesspiegel, Welt, Kurier, Stuttgarter Zeitung, t-online u. a.) parallel auf. Die Redaktion arbeitet seit 2017 systematisch im Faktencheck-Bereich, ursprünglich als Teil des Facebook-Third-Party-Fact-Checking-Programms.
 
 ## Links
 

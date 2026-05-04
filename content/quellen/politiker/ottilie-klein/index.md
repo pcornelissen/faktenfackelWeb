@@ -14,7 +14,7 @@ tags:
 
 ## Über die Quelle
 
-Dr. Ottilie Paola Klein (* 14.&nbsp;Februar 1984 in Villingen-Schwenningen) ist seit Oktober 2021 Mitglied des Deutschen Bundestages für die CDU. Sie gehört der CDU/CSU-Fraktion an und ist dort **Sprecherin für Kultur und Medien**. Klein wuchs als Tochter russlanddeutscher Einwanderer im Schwarzwald auf und trat erst 2016 in Berlin der CDU bei.
+Dr. Ottilie Paola Klein (* 14. Februar 1984 in Villingen-Schwenningen) ist seit Oktober 2021 Mitglied des Deutschen Bundestages für die CDU. Sie gehört der CDU/CSU-Fraktion an und ist dort **Sprecherin für Kultur und Medien**. Klein wuchs als Tochter russlanddeutscher Einwanderer im Schwarzwald auf und trat erst 2016 in Berlin der CDU bei.
 
 ### Ausbildung und beruflicher Hintergrund
 

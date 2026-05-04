@@ -50,7 +50,7 @@ tags:
 
 ## Was wird behauptet?
 
-Am 3.&nbsp;Mai 2026 postete :quelle-ref{name="alice-weidel"} (AfD-Bundessprecherin und Vorsitzende der AfD-Bundestagsfraktion) auf [X](https://x.com/Alice_Weidel/status/2050867192808308763) folgenden Text, eingebettet in ein Foto, das laut Bildagentur picture alliance/ANP syrische Staatsangehörige beim Boarding eines Aviapartner-Flugzeugs in Rotterdam im September 2025 zeigt:
+Am 3. Mai 2026 postete :quelle-ref{name="alice-weidel"} (AfD-Bundessprecherin und Vorsitzende der AfD-Bundestagsfraktion) auf [X](https://x.com/Alice_Weidel/status/2050867192808308763) folgenden Text, eingebettet in ein Foto, das laut Bildagentur picture alliance/ANP syrische Staatsangehörige beim Boarding eines Aviapartner-Flugzeugs in Rotterdam im September 2025 zeigt:
 
 > "Millionen Syrer sind bereits in ihre Heimat zurückgekehrt – aber nicht aus Deutschland. Bürgergeld und Turbo-Einbürgerung sind übermächtige Anreize zur Einwanderung in das Sozialsystem. Eine AfD-Regierung wird diese Migrationsmagnete abstellen!"
 
@@ -64,7 +64,7 @@ Im Tweet verlinkt ist ein Welt-Plus-Artikel zur Ausreise-Statistik. Die Aussage 
 
 ### Behauptung 1: "Millionen Syrer zurückgekehrt"
 
-Die Größenordnung stimmt. Laut [UNHCR Operational Data Portal](https://data.unhcr.org/en/situations/syria) und [Berichten vom 2.&nbsp;Mai 2026](https://www.rnz.de/politik/nachrichten_artikel,-Nach-Ende-des-Buergerkriegs-163-Millionen-Syrer-zurueckgekehrt-wenige-aus-Deutschland-_arid,2282060.html) sind seit dem Sturz von Baschar al-Assad am 8.&nbsp;Dezember 2024 bis zum 16.&nbsp;April 2026 insgesamt rund 1,614 Millionen Syrer in ihr Heimatland zurückgekehrt.
+Die Größenordnung stimmt. Laut [UNHCR Operational Data Portal](https://data.unhcr.org/en/situations/syria) und [Berichten vom 2. Mai 2026](https://www.rnz.de/politik/nachrichten_artikel,-Nach-Ende-des-Buergerkriegs-163-Millionen-Syrer-zurueckgekehrt-wenige-aus-Deutschland-_arid,2282060.html) sind seit dem Sturz von Baschar al-Assad am 8. Dezember 2024 bis zum 16. April 2026 insgesamt rund 1,614 Millionen Syrer in ihr Heimatland zurückgekehrt.
 
 Wichtig ist, woher diese Rückkehrer kommen: 634.000 aus der Türkei, 621.000 aus dem Libanon, 284.000 aus Jordanien, weitere knapp 70.000 aus dem Irak und Ägypten. Deutschland und alle anderen europäischen Aufnahmeländer zusammen kommen nach UNHCR-Lesart auf rund 6.100 Rückkehrer und werden in der Sammelkategorie "Sonstige Länder" geführt.
 

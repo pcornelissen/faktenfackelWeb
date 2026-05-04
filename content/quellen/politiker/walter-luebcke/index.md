@@ -13,17 +13,17 @@ tags:
 
 ## Über die Quelle
 
-Walter Lübcke wurde am 22.&nbsp;August 1953 in Bad Wildungen (Hessen) geboren. Nach einer Ausbildung zum Bankkaufmann und dem Grundwehrdienst holte er den Abschluss als Personalfachkaufmann nach und arbeitete als Pressereferent bei der documenta 7 in Kassel. Später studierte er Volkswirtschaft an der Universität Kassel und promovierte 1991 mit einer Arbeit über frühe Wirtschaftsplanung in der Sowjetunion.
+Walter Lübcke wurde am 22. August 1953 in Bad Wildungen (Hessen) geboren. Nach einer Ausbildung zum Bankkaufmann und dem Grundwehrdienst holte er den Abschluss als Personalfachkaufmann nach und arbeitete als Pressereferent bei der documenta 7 in Kassel. Später studierte er Volkswirtschaft an der Universität Kassel und promovierte 1991 mit einer Arbeit über frühe Wirtschaftsplanung in der Sowjetunion.
 
 1986 trat Lübcke der CDU bei und übernahm rasch kommunalpolitische Ehrenämter: Er war stellvertretender Stadtverbandsvorsitzender in Wolfhagen, Kreisvorsitzender der CDU Kassel-Land und stellvertretender Regionsvorsitzender der CDU Kurhessen-Waldeck. Von 1989 bis 2009 gehörte er der Stadtversammlung Wolfhagen an. Von 1999 bis 2009 war er Mitglied des Hessischen Landtags, wo ihm 2003 das Kunststück gelang, den bis dahin SPD-dominierten Wahlkreis Kassel-Land I direkt für die CDU zu gewinnen.
 
-Am 20.&nbsp;Mai 2009 wurde er zum Regierungspräsidenten des Regierungsbezirks Kassel ernannt, das Amt behielt er bis zu seinem Tod.
+Am 20. Mai 2009 wurde er zum Regierungspräsidenten des Regierungsbezirks Kassel ernannt, das Amt behielt er bis zu seinem Tod.
 
 ### Ermordung
 
-In der Nacht zum 2.&nbsp;Juni 2019 wurde Walter Lübcke auf der Terrasse seines Wohnhauses im nordhessischen Wolfhagen-Istha durch einen Kopfschuss aus nächster Nähe getötet. Sein jüngerer Sohn entdeckte ihn am Morgen. Laut Staatsanwaltschaft und Urteil des Oberlandesgerichts Frankfurt am Main handelte es sich um den ersten rechtsextremistisch motivierten Mord an einem deutschen Politiker in der Nachkriegsgeschichte.
+In der Nacht zum 2. Juni 2019 wurde Walter Lübcke auf der Terrasse seines Wohnhauses im nordhessischen Wolfhagen-Istha durch einen Kopfschuss aus nächster Nähe getötet. Sein jüngerer Sohn entdeckte ihn am Morgen. Laut Staatsanwaltschaft und Urteil des Oberlandesgerichts Frankfurt am Main handelte es sich um den ersten rechtsextremistisch motivierten Mord an einem deutschen Politiker in der Nachkriegsgeschichte.
 
-Der Tatverdächtige Stephan Ernst wurde am 15.&nbsp;Juni 2019 festgenommen. Ernst war seit Jahrzehnten in der rechtsextremen Szene Nordhessens aktiv und hatte Verbindungen zur NPD und zum neonazistischen Netzwerk Combat 18. Er war dem Verfassungsschutz bekannt und galt bereits 2009 in einem internen Bericht als "äußerst gefährlich" - ohne dass eine dauerhafte Überwachung erfolgte. Am 28.&nbsp;Januar 2021 verurteilte das OLG Frankfurt am Main Stephan Ernst zu einer lebenslangen Freiheitsstrafe; das Gericht stellte die besondere Schwere der Schuld fest. Der Bundesgerichtshof bestätigte das Urteil später.
+Der Tatverdächtige Stephan Ernst wurde am 15. Juni 2019 festgenommen. Ernst war seit Jahrzehnten in der rechtsextremen Szene Nordhessens aktiv und hatte Verbindungen zur NPD und zum neonazistischen Netzwerk Combat 18. Er war dem Verfassungsschutz bekannt und galt bereits 2009 in einem internen Bericht als "äußerst gefährlich" - ohne dass eine dauerhafte Überwachung erfolgte. Am 28. Januar 2021 verurteilte das OLG Frankfurt am Main Stephan Ernst zu einer lebenslangen Freiheitsstrafe; das Gericht stellte die besondere Schwere der Schuld fest. Der Bundesgerichtshof bestätigte das Urteil später.
 
 ### Politischer Hintergrund
 
@@ -43,7 +43,7 @@ Der Mordfall löste eine breite gesellschaftliche Debatte über die Gefahren des
 
 Walter Lübcke ist keine Quelle im Sinne einer Nachrichtenquelle oder eines Meinungsmachers, sondern eine historische Person von hoher politischer Bedeutung. Als Regierungspräsident und CDU-Politiker vertrat er eine wertegebundene, humanistische Haltung und bezahlte diese mit seinem Leben.
 
-Der Mordfall steht exemplarisch für die reale Gefahr, die von rechtsextremen Netzwerken für demokratische Amts- und Mandatsträger ausgeht. Die Behördenversäumnisse - Stephan Ernst war dem Verfassungsschutz als gewaltbereit bekannt, wurde aber nicht dauerhaft überwacht - und die Rolle von Online-Hetze bei der Radikalisierung des Täters sind gut dokumentiert und durch das [OLG-Urteil vom 28.&nbsp;Januar 2021](https://www.hessenschau.de/panorama/urteil-im-luebcke-prozess-lebenslange-haftstrafe-fuer-stephan-ernst,urteil-stephan-ernst-100.html) gerichtlich festgestellt.
+Der Mordfall steht exemplarisch für die reale Gefahr, die von rechtsextremen Netzwerken für demokratische Amts- und Mandatsträger ausgeht. Die Behördenversäumnisse - Stephan Ernst war dem Verfassungsschutz als gewaltbereit bekannt, wurde aber nicht dauerhaft überwacht - und die Rolle von Online-Hetze bei der Radikalisierung des Täters sind gut dokumentiert und durch das [OLG-Urteil vom 28. Januar 2021](https://www.hessenschau.de/panorama/urteil-im-luebcke-prozess-lebenslange-haftstrafe-fuer-stephan-ernst,urteil-stephan-ernst-100.html) gerichtlich festgestellt.
 
 ### Fazit
 

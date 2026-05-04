@@ -19,9 +19,9 @@ tags:
 
 ## Über die Quelle
 
-Alexander Dobrindt (* 7.&nbsp;Juni 1970 in Peißenberg) ist ein Diplom-Soziologe und CSU-Politiker. Seit 1986 ist er Mitglied der Jungen Union, seit 1990 Mitglied der CSU. Sein Studium der Soziologie an der Ludwig-Maximilians-Universität München schloss er 1995 ab; anschließend war er bis 2005 Geschäftsführer in einem mittelständischen Maschinenbauunternehmen.
+Alexander Dobrindt (* 7. Juni 1970 in Peißenberg) ist ein Diplom-Soziologe und CSU-Politiker. Seit 1986 ist er Mitglied der Jungen Union, seit 1990 Mitglied der CSU. Sein Studium der Soziologie an der Ludwig-Maximilians-Universität München schloss er 1995 ab; anschließend war er bis 2005 Geschäftsführer in einem mittelständischen Maschinenbauunternehmen.
 
-Seit der Bundestagswahl 2002 ist Dobrindt ununterbrochen Mitglied des Deutschen Bundestages (Wahlkreis Weilheim). Von 2009 bis 2013 bekleidete er das Amt des CSU-Generalsekretärs. Unter Bundeskanzlerin Angela Merkel war er von 2013 bis 2017 Bundesminister für Verkehr und digitale Infrastruktur. Nach der Bundestagswahl 2017 übernahm er den Vorsitz der CSU-Landesgruppe im Bundestag, den er bis 2025 innehatte. Am 6.&nbsp;Mai 2025 wurde er im Kabinett :quelle-ref{name="friedrich-merz"} als Bundesminister des Innern und für Heimat vereidigt.
+Seit der Bundestagswahl 2002 ist Dobrindt ununterbrochen Mitglied des Deutschen Bundestages (Wahlkreis Weilheim). Von 2009 bis 2013 bekleidete er das Amt des CSU-Generalsekretärs. Unter Bundeskanzlerin Angela Merkel war er von 2013 bis 2017 Bundesminister für Verkehr und digitale Infrastruktur. Nach der Bundestagswahl 2017 übernahm er den Vorsitz der CSU-Landesgruppe im Bundestag, den er bis 2025 innehatte. Am 6. Mai 2025 wurde er im Kabinett :quelle-ref{name="friedrich-merz"} als Bundesminister des Innern und für Heimat vereidigt.
 
 ### Politische Linie
 

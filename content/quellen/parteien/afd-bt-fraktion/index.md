@@ -11,7 +11,7 @@ tags:
 ---
 ## Über die Quelle
 
-Die AfD-Fraktion im Deutschen Bundestag ist der parlamentarische Arm der Partei :quelle-ref{name="afd"} im Deutschen Bundestag. Nach der Bundestagswahl 2025 ist sie mit rund 152&nbsp;Abgeordneten die zweitstärkste Kraft im Parlament. Auf afdbundestag.de veröffentlicht die Fraktion Pressemitteilungen, Reden, Anträge und parlamentarische Initiativen ihrer Abgeordneten. Die AfD-Bundestagsfraktion ist organisatorisch und kommunikativ von der Bundespartei zu unterscheiden, auch wenn beide personell eng verflochten sind (u.&nbsp;a. Alice Weidel, Tino Chrupalla, Bernd Baumann).
+Die AfD-Fraktion im Deutschen Bundestag ist der parlamentarische Arm der Partei :quelle-ref{name="afd"} im Deutschen Bundestag. Nach der Bundestagswahl 2025 ist sie mit rund 152 Abgeordneten die zweitstärkste Kraft im Parlament. Auf afdbundestag.de veröffentlicht die Fraktion Pressemitteilungen, Reden, Anträge und parlamentarische Initiativen ihrer Abgeordneten. Die AfD-Bundestagsfraktion ist organisatorisch und kommunikativ von der Bundespartei zu unterscheiden, auch wenn beide personell eng verflochten sind (u. a. Alice Weidel, Tino Chrupalla, Bernd Baumann).
 
 ## Links
 

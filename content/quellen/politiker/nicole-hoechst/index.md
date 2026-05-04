@@ -23,7 +23,7 @@ Nicole Höchst ist laut ihrem [Bundestags-Profil](https://www.bundestag.de/webar
 ## Links
 
 - Offizielle Webseite: <https://hoechst-politisch.de/>
-- Bundestags-Profil (Archiv 20.&nbsp;WP): <https://www.bundestag.de/webarchiv/abgeordnete/biografien20/H/hoechst_nicole-857424>
+- Bundestags-Profil (Archiv 20. WP): <https://www.bundestag.de/webarchiv/abgeordnete/biografien20/H/hoechst_nicole-857424>
 - abgeordnetenwatch: <https://www.abgeordnetenwatch.de/profile/nicole-hoechst>
 - Wikipedia: <https://en.wikipedia.org/wiki/Nicole_H%C3%B6chst>
 

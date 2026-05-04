@@ -75,7 +75,7 @@ kontrolliert wird. Es gibt aber keine Datenbasis, mit der man all diese Effekte 
 kommt, dass <SourceRef code="monitor-herkunft-tatverda-2025">die Herkunft von Tatverdächtigen in den Medien häufiger thematisiert wird, als es ihrem tatsächlichen Anteil entspricht</SourceRef>, was das öffentliche Bild weiter verzerrt.
 
 Die <SourceRef code="bka-kriminalstatistik-2024">Aufklärungsquote</SourceRef>
-liegt in den vergangenen Jahren um 58&nbsp;% (PKS 2024: 58,0&nbsp;%; PKS 2025: 57,9&nbsp;%), also rund **42&nbsp;%** der erkannten Taten werden **nicht aufgeklärt**. <br/>
+liegt in den vergangenen Jahren um 58 % (PKS 2024: 58,0 %; PKS 2025: 57,9 %), also rund **42 %** der erkannten Taten werden **nicht aufgeklärt**. <br/>
 Da nicht zu jeder Tat die gleiche Zahl an Tatverdächtigen gemeldet werden, kann man hier wenig Rückschlüsse ziehen. Eine
 genauere Statistik, die den Schritt vom Tatverdächtigen zu überführten Tätern für diese Gruppen direkt zeigt, scheint es nicht zu geben.
 
@@ -110,7 +110,7 @@ Schauen wir uns die Verteilung von Tatverdächtigen über die Alterssegmente an 
 
 <TatverdaechtigeAlterGeschlecht></TatverdaechtigeAlterGeschlecht>
 
-Zum Vergleich: Die Gesamtzahl der Tatverdächtigen ohne Aufenthaltsdelikte ist von **1.967.731 (PKS 2024)** auf **1.908.383 (PKS 2025)** zurückgegangen, also um rund 3&nbsp;%. Der Rückgang verteilt sich auf nahezu alle Altersgruppen, besonders deutlich bei jungen Erwachsenen (14-20 Jahre).
+Zum Vergleich: Die Gesamtzahl der Tatverdächtigen ohne Aufenthaltsdelikte ist von **1.967.731 (PKS 2024)** auf **1.908.383 (PKS 2025)** zurückgegangen, also um rund 3 %. Der Rückgang verteilt sich auf nahezu alle Altersgruppen, besonders deutlich bei jungen Erwachsenen (14-20 Jahre).
 
 Quelle: <SourceRef code="bka-kriminalstatistik-excel-tatverdächtige-2024">Tatverdächtige insg. nach Alter und Geschlecht</SourceRef>
 
@@ -145,15 +145,15 @@ dass mehr Deutsche einer Tat verdächtigt werden als Ausländer.
 <TatverdaechtigenAnteilDtAusl></TatverdaechtigenAnteilDtAusl>
 
 Schaut man sich hier die relative Verteilung der Verdächtigen an, sieht man, dass im Bereich zwischen 21 und 29, wo
-es anteilig die meisten Ausländer gibt (knapp 24&nbsp;% der Bevölkerung), auch absolut mehr Tatverdächtige aus dieser Gruppe registriert werden.
+es anteilig die meisten Ausländer gibt (knapp 24 % der Bevölkerung), auch absolut mehr Tatverdächtige aus dieser Gruppe registriert werden.
 
 <TatverdaechtigenQuoteDtAusl></TatverdaechtigenQuoteDtAusl>
 
-Innerhalb der Gruppen sind es 2025 bei Deutschen zwischen 0,7&nbsp;% und 4,3&nbsp;%, die verdächtigt werden, bei Ausländern zwischen 1,7&nbsp;% und 10,9&nbsp;%. Durch die geringere Gruppengröße sind hier die Quoten bei Jugendlichen sehr hoch. Im Vergleich zur PKS 2024 sind die Spitzenwerte leicht gesunken (2024: Deutsche bis 4,7&nbsp;%, Ausländer bis 11,2&nbsp;%).
+Innerhalb der Gruppen sind es 2025 bei Deutschen zwischen 0,7 % und 4,3 %, die verdächtigt werden, bei Ausländern zwischen 1,7 % und 10,9 %. Durch die geringere Gruppengröße sind hier die Quoten bei Jugendlichen sehr hoch. Im Vergleich zur PKS 2024 sind die Spitzenwerte leicht gesunken (2024: Deutsche bis 4,7 %, Ausländer bis 11,2 %).
 
-Nicht vergessen darf man: selbst in der am stärksten belasteten Altersgruppe (14-17, Ausländer mit 10,7&nbsp;%) sind **rund 89&nbsp;%** der Menschen **nicht verdächtigt** worden. Für männliche ausländische Jugendliche liegt die Quote höher bei rund 15&nbsp;%, also auch dort wären 85&nbsp;% der Gruppe nicht in der Statistik vertreten.
+Nicht vergessen darf man: selbst in der am stärksten belasteten Altersgruppe (14-17, Ausländer mit 10,7 %) sind **rund 89 %** der Menschen **nicht verdächtigt** worden. Für männliche ausländische Jugendliche liegt die Quote höher bei rund 15 %, also auch dort wären 85 % der Gruppe nicht in der Statistik vertreten.
 
-Insgesamt sind im Jahr 2025 rund 1,7&nbsp;% der Deutschen einer Tat verdächtigt worden und bei Ausländern rund 5,5&nbsp;% (PKS 2024: 1,8&nbsp;% bzw. 5,6&nbsp;%). Die Quoten sind also leicht zurückgegangen
+Insgesamt sind im Jahr 2025 rund 1,7 % der Deutschen einer Tat verdächtigt worden und bei Ausländern rund 5,5 % (PKS 2024: 1,8 % bzw. 5,6 %). Die Quoten sind also leicht zurückgegangen
 (siehe [Auswertung](/files/faktenchecks/kriminalitaet/migration-straftaten-2025.xlsx)).
 
 Originaldaten: 
@@ -184,10 +184,10 @@ entscheidenden Rahmenbedingungen aus.
 
 ## Fazit
 
-An den Zahlen kann man sehen, dass selbst bei den 21-29-Jährigen nur gut 8&nbsp;% der Ausländer als Tatverdächtige
-registriert werden (PKS 2025: 8,2&nbsp;%; PKS 2024: 8,8&nbsp;%; rund 13&nbsp;%, wenn man nur die männlichen Personen zählt). Also sind **mehr als 91&nbsp;%** (oder 87&nbsp;%) dieser Personen **nicht verdächtigt** worden.
+An den Zahlen kann man sehen, dass selbst bei den 21-29-Jährigen nur gut 8 % der Ausländer als Tatverdächtige
+registriert werden (PKS 2025: 8,2 %; PKS 2024: 8,8 %; rund 13 %, wenn man nur die männlichen Personen zählt). Also sind **mehr als 91 %** (oder 87 %) dieser Personen **nicht verdächtigt** worden.
 
-Das Narrativ, dass "die Ausländer kriminell sind", ist also nicht haltbar, wenn insgesamt nur rund 5,5&nbsp;% (PKS 2025; 2024 waren es 5,6&nbsp;%) der Ausländer über alle Altersgruppen hinweg überhaupt einer Tat verdächtigt werden - mit leichtem Rückgang gegenüber dem Vorjahr. Daraus folgt vor allem: Rohzahlen über Tatverdächtige eignen sich nicht, um ganze Bevölkerungsgruppen pauschal als kriminell darzustellen.
+Das Narrativ, dass "die Ausländer kriminell sind", ist also nicht haltbar, wenn insgesamt nur rund 5,5 % (PKS 2025; 2024 waren es 5,6 %) der Ausländer über alle Altersgruppen hinweg überhaupt einer Tat verdächtigt werden - mit leichtem Rückgang gegenüber dem Vorjahr. Daraus folgt vor allem: Rohzahlen über Tatverdächtige eignen sich nicht, um ganze Bevölkerungsgruppen pauschal als kriminell darzustellen.
 
 Das wird auch vom <SourceRef code="ifo-migration-kriminalität-2025">ifo Institut</SourceRef> gestützt. <SourceRef code="mai-thi-nguyen-kim-migration-kriminalitaet-trugschluss">Mai Thi Nguyen-Kim erklärt den Trugschluss anschaulich</SourceRef>: Ohne Kontrolle der sozioökonomischen Faktoren wie Alter, Einkommen und Wohnverhältnisse ist der scheinbare Zusammenhang zwischen Herkunft und Kriminalität statistisch irreführend. Auch das verbreitete Narrativ der <SourceRef code="no-afd-kriminelle-clans-2026">"kriminellen Ausländer-Clans"</SourceRef> hält einem genaueren Blick nicht stand. Ebenso wenig der von der AfD behauptete Zusammenhang zwischen Migration und Kinderkriminalität, den <SourceRef code="correctiv-kinderkriminalitaet-migration-afd">CORRECTIV als falsch einordnet</SourceRef>.
 

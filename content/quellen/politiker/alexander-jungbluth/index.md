@@ -9,7 +9,7 @@ tags:
   - europaparlament
   - mdep
 ---
-Alexander Jungbluth (geboren am 7.&nbsp;Februar 1987 in Würselen) ist ein AfD-Politiker und seit dem 16.&nbsp;Juli 2024 Mitglied des [Europäischen Parlaments](https://www.europarl.europa.eu/meps/de/256941/ALEXANDER_JUNGBLUTH/home). Er gehört der AfD-Delegation in der rechtsextremen Fraktion "Europa der Souveränen Nationen" (ESN) an und ist stellvertretender Bundesschatzmeister der AfD.
+Alexander Jungbluth (geboren am 7. Februar 1987 in Würselen) ist ein AfD-Politiker und seit dem 16. Juli 2024 Mitglied des [Europäischen Parlaments](https://www.europarl.europa.eu/meps/de/256941/ALEXANDER_JUNGBLUTH/home). Er gehört der AfD-Delegation in der rechtsextremen Fraktion "Europa der Souveränen Nationen" (ESN) an und ist stellvertretender Bundesschatzmeister der AfD.
 
 ## Biografie
 
@@ -25,11 +25,11 @@ Jungbluth ist eng mit dem neurechten Milieu um das sogenannte "Zentrum Rheinhess
 
 Bei der Europawahl 2024 zog Jungbluth auf Listenplatz 5 der AfD ins Europäische Parlament ein. Im Parlament fungiert er als Koordinator seiner Fraktion im [Haushaltsausschuss](https://www.europarl.europa.eu/meps/de/256941/ALEXANDER_JUNGBLUTH/home) (BUDG) und ist zusätzlich stellvertretendes Mitglied im Haushaltskontrollausschuss (CONT) sowie im Ausschuss für Wirtschaft und Währung (ECON). Er gehört der Delegation für die Beziehungen zu den Maschrik-Ländern (DMAS) an.
 
-Politisch setzt Jungbluth Schwerpunkte in der Finanz-, Wirtschafts- und Familienpolitik. Er hat nach eigenen Angaben den finanzpolitischen Teil des AfD-Wahlprogramms wesentlich mitverfasst und unterstützt den Austritt Deutschlands aus der Europäischen Union ("Dexit"). Auf dem AfD-Bundesparteitag 2024 wurde er mit 74,15&nbsp;% zum stellvertretenden Bundesschatzmeister gewählt.
+Politisch setzt Jungbluth Schwerpunkte in der Finanz-, Wirtschafts- und Familienpolitik. Er hat nach eigenen Angaben den finanzpolitischen Teil des AfD-Wahlprogramms wesentlich mitverfasst und unterstützt den Austritt Deutschlands aus der Europäischen Union ("Dexit"). Auf dem AfD-Bundesparteitag 2024 wurde er mit 74,15 % zum stellvertretenden Bundesschatzmeister gewählt.
 
 ## Einladung Stein und Schäfer ins EU-Parlament (März 2026)
 
-Am 25.&nbsp;März 2026 lud Jungbluth gemeinsam mit der AfD-Abgeordneten Mary Khan [Philip Stein und Michael Schäfer ins Europäische Parlament](https://globalextremism.org/post/ein-prozent/) ein. Stein ist Geschäftsführer der neurechten Kampagnenplattform "Ein Prozent", Schäfer ein früherer Bundesvorsitzender der Jungen Nationalisten (JN) und Akteur der "Wertegemeinschaft Aktiver Familien" (WAF) mit langer Vergangenheit in gewaltbereiten Neonazi-Strukturen.
+Am 25. März 2026 lud Jungbluth gemeinsam mit der AfD-Abgeordneten Mary Khan [Philip Stein und Michael Schäfer ins Europäische Parlament](https://globalextremism.org/post/ein-prozent/) ein. Stein ist Geschäftsführer der neurechten Kampagnenplattform "Ein Prozent", Schäfer ein früherer Bundesvorsitzender der Jungen Nationalisten (JN) und Akteur der "Wertegemeinschaft Aktiver Familien" (WAF) mit langer Vergangenheit in gewaltbereiten Neonazi-Strukturen.
 
 In ihrer Präsentation behaupteten die Eingeladenen, ein "sehr komplexes Kartell" linker NGOs versuche die AfD "klein zu halten", und griffen Campact sowie den Philanthropen George Soros mit antisemitisch konnotierten Verschwörungserzählungen an. Beobachter wie die Global Project Against Hate and Extremism kritisierten, dass die AfD damit Akteure aus dem Neonazi- und Identitären-Spektrum in die zentralen Räume europäischer Institutionen trägt. Die Einladung fügt sich in Jungbluths seit Jahren gewachsenes Netzwerk zu Stein ein, dessen Vereinsvorsitz er 2020 in Mainz übernommen hatte.
 

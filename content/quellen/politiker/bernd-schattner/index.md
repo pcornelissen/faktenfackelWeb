@@ -14,7 +14,7 @@ tags:
 
 ## Über die Quelle
 
-Bernd Schattner (* 27.&nbsp;Juni 1968 in Annweiler am Trifels) ist Bundestagsabgeordneter der :quelle-ref{name="afd-bt-fraktion"} für den Wahlkreis&nbsp;211 (Südpfalz) in Rheinland-Pfalz. Er zog 2021 über die Landesliste Rheinland-Pfalz (Listenplatz 4) in den Deutschen Bundestag ein und wurde 2025 wiedergewählt. Beruflich ist Schattner Geschäftsführer eines Küchen- und Granitbetriebs in der Südpfalz; vor seiner Zeit als Unternehmer arbeitete er als Verwaltungsfachangestellter und Handelsvertreter. Innerhalb der AfD ist er seit 2019 stellvertretender Landesvorsitzender Rheinland-Pfalz.
+Bernd Schattner (* 27. Juni 1968 in Annweiler am Trifels) ist Bundestagsabgeordneter der :quelle-ref{name="afd-bt-fraktion"} für den Wahlkreis 211 (Südpfalz) in Rheinland-Pfalz. Er zog 2021 über die Landesliste Rheinland-Pfalz (Listenplatz 4) in den Deutschen Bundestag ein und wurde 2025 wiedergewählt. Beruflich ist Schattner Geschäftsführer eines Küchen- und Granitbetriebs in der Südpfalz; vor seiner Zeit als Unternehmer arbeitete er als Verwaltungsfachangestellter und Handelsvertreter. Innerhalb der AfD ist er seit 2019 stellvertretender Landesvorsitzender Rheinland-Pfalz.
 
 ## Links
 
@@ -33,7 +33,7 @@ Sein Kommunikationsstil auf Facebook und TikTok ist konfrontativ und auf maximal
 
 Im April 2026 dokumentierte [CORRECTIV.Faktencheck](https://correctiv.org/faktencheck/2026/04/21/gesundheitsreform-afd-politiker-streut-falschbehauptung-zu-asylbewerbern/) eine konkrete Falschbehauptung: Schattner verbreitete auf Facebook und TikTok, der Staat finanziere Asylbewerbern "sofort nach ihrer Ankunft alle Gesundheitsleistungen". Tatsächlich erhalten Asylsuchende erst nach 36 Monaten regulären Zugang zur gesetzlichen Krankenversicherung; davor sind nur akute Erkrankungen und Schmerzzustände abgedeckt, und die Kosten trägt das Sozialamt, nicht die Krankenkasse. CORRECTIV bewertete Schattners Behauptung als "größtenteils falsch". Auf eine Anfrage von CORRECTIV reagierte Schattner nicht.
 
-Nebentätigkeiten: Schattner ist weiterhin Geschäftsführer seines Küchen- und Granitbetriebs (Einnahmen 2025: ca.&nbsp;16.800&nbsp;Euro) sowie Gesellschafter der Rotbart Immobilien GmbH.
+Nebentätigkeiten: Schattner ist weiterhin Geschäftsführer seines Küchen- und Granitbetriebs (Einnahmen 2025: ca. 16.800 Euro) sowie Gesellschafter der Rotbart Immobilien GmbH.
 
 ### Fazit
 

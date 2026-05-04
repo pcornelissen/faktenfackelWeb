@@ -15,7 +15,7 @@ tags:
 
 ## Über die Quelle
 
-Kontext: Wochenzeitung wurde am 6.&nbsp;April 2011 von einer Gruppe Stuttgarter Journalistinnen und Journalisten um Josef-Otto Freudenreich gegründet, der zuvor langjähriger Chefreporter der Stuttgarter Zeitung war. Anlass war die polarisierende Berichterstattung rund um Stuttgart&nbsp;21 und den Schwarzen Donnerstag im Stuttgarter Schlossgarten am 30.&nbsp;September 2010, der als Wendepunkt für ein kritisches Gegenprojekt zur etablierten Regionalpresse wirkte.
+Kontext: Wochenzeitung wurde am 6. April 2011 von einer Gruppe Stuttgarter Journalistinnen und Journalisten um Josef-Otto Freudenreich gegründet, der zuvor langjähriger Chefreporter der Stuttgarter Zeitung war. Anlass war die polarisierende Berichterstattung rund um Stuttgart 21 und den Schwarzen Donnerstag im Stuttgarter Schlossgarten am 30. September 2010, der als Wendepunkt für ein kritisches Gegenprojekt zur etablierten Regionalpresse wirkte.
 
 Herausgeberin ist der gemeinnützige Verein "Kontext: Verein für ganzheitlichen Journalismus e.V.", der nach dem Fast-Aus im zweiten Jahr durch eine Spendenkampagne stabilisiert wurde. Chefredakteurin ist Anna Hunger, Stellvertreterin Gesa von Leesen. Der fünfköpfige Vereinsvorstand wird von Frank Böhringer geleitet.
 

@@ -50,7 +50,7 @@ questions:
   - question: "Sind Mini-Atomkraftwerke eine realistische Lösung?"
     answer: "Sogenannte Small Modular Reactors (SMR) existieren bisher fast nur als Konzept oder Prototyp. Sie lösen die Grundprobleme der Kernenergie wie Endlagerung, hohe Kosten und lange Bauzeiten nicht und sind im aktuellen Strommarkt nicht wirtschaftlich."
   - question: "Wird in Deutschland regelmäßig Strom weggeworfen?"
-    answer: "Wenn das Stromangebot den Bedarf übersteigt, kann es zu negativen Strompreisen kommen oder Anlagen werden abgeregelt, was als Redispatch entschädigt wird. Der oft kolportierte Wert von „drei Milliarden Euro weggeworfener Strom\" ist mehrfach als irreführend einordbar, weil er Redispatch-Kosten und tatsächlich abgeregelte Energiemengen vermischt."
+    answer: 'Wenn das Stromangebot den Bedarf übersteigt, kann es zu negativen Strompreisen kommen oder Anlagen werden abgeregelt, was als Redispatch entschädigt wird. Der oft kolportierte Wert von "drei Milliarden Euro weggeworfener Strom" ist mehrfach als irreführend einordbar, weil er Redispatch-Kosten und tatsächlich abgeregelte Energiemengen vermischt.'
   - question: "Ist der menschengemachte Klimawandel wissenschaftlich belegt?"
     answer: "Ja. Der Weltklimarat IPCC fasst tausende Studien zusammen und kommt seit Jahren mit hoher Sicherheit zu dem Schluss, dass die globale Erwärmung seit Mitte des 20. Jahrhunderts durch den menschlichen Ausstoß von Treibhausgasen verursacht ist. Diese Aussage gilt in der Klimaforschung als Konsens."
 ---

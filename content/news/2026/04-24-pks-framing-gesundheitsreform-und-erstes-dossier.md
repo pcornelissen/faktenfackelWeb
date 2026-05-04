@@ -5,13 +5,13 @@ teaser: "Neue Faktenchecks zu Dobrindts PKS-Inszenierung und der 'Gratis-Kasse'-
 publishedOn: 2026-04-24
 ---
 
-Seit dem letzten Update am 15.&nbsp;April ist viel passiert. Der 20.&nbsp;April und die Tage danach waren für die Redaktion ein Dauerlauf.
+Seit dem letzten Update am 15. April ist viel passiert. Der 20. April und die Tage danach waren für die Redaktion ein Dauerlauf.
 
 ## Neue Faktenchecks
 
 [Dobrindts PKS 2025](/faktenchecks/gesellschaft/kriminalitaet/dobrindt-pks-2025) nimmt die Bundespressekonferenz des Bundesinnenministers zur Polizeilichen Kriminalstatistik auseinander. Dobrindt betont sinkende Zahlen dort, wo sie in sein Narrativ passen, und blendet den starken Rückgang der Tatverdächtigenzahlen bei nichtdeutschen Staatsangehörigen aus. Der Faktencheck zerlegt das Framing Schritt für Schritt und zeigt, wo aus Primärquellen wie der [PKS 2025 des BKA](https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/pks_node.html) ein verzerrtes Bild wird.
 
-[Schattners "Gratis-Kasse"-Kampagne](/faktenchecks/politik/parteien/afd/schattner-asyl-gesundheit-falschbehauptung) zerpflückt die Behauptungen des AfD-Bundestagsabgeordneten [Bernd Schattner](/quellen/politiker/bernd-schattner), die Bundesregierung schaffe die Familienversicherung ab und Asylbewerber bekämen "sofort nach ihrer Ankunft alle Gesundheitsleistungen vom Staat finanziert". Beides ist falsch. Die Familienversicherung bleibt erhalten, und Asylbewerber erhalten nach §&nbsp;4 Asylbewerberleistungsgesetz in den ersten 36&nbsp;Monaten nur Behandlung akuter Erkrankungen und Schmerzzustände.
+[Schattners "Gratis-Kasse"-Kampagne](/faktenchecks/politik/parteien/afd/schattner-asyl-gesundheit-falschbehauptung) zerpflückt die Behauptungen des AfD-Bundestagsabgeordneten [Bernd Schattner](/quellen/politiker/bernd-schattner), die Bundesregierung schaffe die Familienversicherung ab und Asylbewerber bekämen "sofort nach ihrer Ankunft alle Gesundheitsleistungen vom Staat finanziert". Beides ist falsch. Die Familienversicherung bleibt erhalten, und Asylbewerber erhalten nach § 4 Asylbewerberleistungsgesetz in den ersten 36 Monaten nur Behandlung akuter Erkrankungen und Schmerzzustände.
 
 ## Neue Lagerfeuer-Artikel
 

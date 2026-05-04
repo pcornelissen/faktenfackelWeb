@@ -13,7 +13,7 @@ tags:
 
 ## Über die Quelle
 
-Andy Grote, geboren am 14.&nbsp;Juni 1968 in Erpen, ist Politiker der :quelle-ref{name="spd"} und seit dem 20.&nbsp;Januar 2016 Senator für Inneres und Sport der Freien und Hansestadt Hamburg. Er studierte Rechtswissenschaften an der Universität Hamburg (1990-1996), absolvierte sein Referendariat in Hamburg und Washington D.C. (1997-1999) und war danach als Rechtsanwalt mit Schwerpunkt Verwaltungsrecht tätig (2002-2012). Von April 2012 bis Januar 2016 leitete er das Bezirksamt Hamburg-Mitte als Bezirksamtsleiter.
+Andy Grote, geboren am 14. Juni 1968 in Erpen, ist Politiker der :quelle-ref{name="spd"} und seit dem 20. Januar 2016 Senator für Inneres und Sport der Freien und Hansestadt Hamburg. Er studierte Rechtswissenschaften an der Universität Hamburg (1990-1996), absolvierte sein Referendariat in Hamburg und Washington D.C. (1997-1999) und war danach als Rechtsanwalt mit Schwerpunkt Verwaltungsrecht tätig (2002-2012). Von April 2012 bis Januar 2016 leitete er das Bezirksamt Hamburg-Mitte als Bezirksamtsleiter.
 
 Seit 2016 gehört Grote ununterbrochen dem Hamburger Senat an, zuletzt in den Senatsmehrheiten unter Bürgermeister Peter Tschentscher. Im Jahr 2026 hat Hamburg den Vorsitz der Innenministerkonferenz (IMK) übernommen; Grote führt als IMK-Vorsitzender die Konferenzen aller 16 Länder-Innenressorts.
 
