@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { GitStatus, ReviewQueueItem, TagStatus } from '~/types/dev-review'
+import type { CollectionName, GitStatus, ReviewQueueItem, TagStatus } from '~/types/dev-review'
 
 const props = defineProps<{
   items: ReviewQueueItem[]
@@ -10,9 +10,11 @@ const emit = defineEmits<{ select: [path: string] }>()
 
 const allTagStatuses: TagStatus[] = ['needs-research', 'review-pending', 'clean']
 const allGitStatuses: GitStatus[] = ['untracked', 'modified', 'staged', 'clean']
+const allCollections: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'glossar', 'zitate', 'quellen', 'quellenlinks']
 
 const tagFilter = ref<Set<TagStatus>>(new Set(['needs-research', 'review-pending']))
 const gitFilter = ref<Set<GitStatus>>(new Set(['untracked', 'modified', 'staged']))
+const collectionFilter = ref<Set<CollectionName>>(new Set(allCollections))
 
 function toggleTag(value: TagStatus) {
   const next = new Set(tagFilter.value)
@@ -28,9 +30,18 @@ function toggleGit(value: GitStatus) {
   gitFilter.value = next
 }
 
+function toggleCollection(value: CollectionName) {
+  const next = new Set(collectionFilter.value)
+  if (next.has(value)) next.delete(value)
+  else next.add(value)
+  collectionFilter.value = next
+}
+
 const filtered = computed(() =>
   props.items.filter(i =>
-    tagFilter.value.has(i.tagStatus) && gitFilter.value.has(i.gitStatus),
+    tagFilter.value.has(i.tagStatus)
+    && gitFilter.value.has(i.gitStatus)
+    && collectionFilter.value.has(i.collection),
   ),
 )
 
@@ -64,6 +75,22 @@ const gitBadgeColor: Record<GitStatus, string> = {
             @click="toggleTag(s)"
           >
             {{ s }}
+          </button>
+        </div>
+      </div>
+      <div>
+        <div class="mb-1 font-mono uppercase text-[--muted]">
+          Collection
+        </div>
+        <div class="flex flex-wrap gap-1">
+          <button
+            v-for="c in allCollections"
+            :key="c"
+            class="rounded px-2 py-0.5 font-mono"
+            :class="collectionFilter.has(c) ? 'bg-white/10 text-[--paper]' : 'bg-transparent text-[--muted] ring-1 ring-[--fackel-border]/30'"
+            @click="toggleCollection(c)"
+          >
+            {{ c }}
           </button>
         </div>
       </div>
