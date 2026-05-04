@@ -1,7 +1,7 @@
 ---
 publishedOn: 2026-05-04
 date: 2026-05-04
-title: "AfD: Deutschland „schenkt" Südafrika 470 Millionen Euro"
+title: "AfD: Deutschland schenkt Südafrika 470 Millionen Euro"
 subtitle: Wie aus einem Kredit plus EU-Mischfinanzierung eine Steuergeld-Auszahlung gemacht wird
 description: "Apollo News, Alice Weidel und die AfD-Bundespartei behaupten, Deutschland verschenke 470 Millionen Euro Steuergeld an Südafrika für eine „gerechte Energiewende". Tatsächlich besteht die Summe aus einem zinsverbilligten 200-Millionen-Kredit und Global-Gateway-Mitteln aus deutschem und EU-Anteil – im Rahmen einer multilateralen Klimapartnerschaft."
 verdict: misleading
