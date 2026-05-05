@@ -202,6 +202,10 @@ export default defineNuxtConfig({
         content.coSources = [...new Set([...existing, ...sourceTags])]
       }
     },
+    async 'build:before'() {
+      const { execFileSync } = await import('node:child_process')
+      execFileSync('node', ['scripts/generateProfileImageManifest.mjs'], { stdio: 'inherit' })
+    },
   },
   eslint: {
     config: {

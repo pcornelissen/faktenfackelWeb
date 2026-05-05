@@ -45,6 +45,21 @@ function signalLabel(item: ReviewQueueItem): string {
   if (item.gitStatus !== 'clean') parts.push(item.gitStatus)
   return parts.join(' + ') || 'clean'
 }
+
+const collectionsWithPublishedOn: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'glossar', 'zitate']
+
+function expectsPublishedOn(item: ReviewQueueItem): boolean {
+  return collectionsWithPublishedOn.includes(item.collection)
+}
+
+function formatPublishedOn(value: string): string {
+  const d = new Date(value)
+  if (Number.isNaN(d.getTime())) return value
+  const now = new Date()
+  const future = d.getTime() > now.getTime()
+  const formatted = d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })
+  return future ? `${formatted} (geplant)` : formatted
+}
 </script>
 
 <template>
@@ -92,6 +107,15 @@ function signalLabel(item: ReviewQueueItem): string {
                 class="rounded px-1"
                 :class="signalClasses(item)"
               >{{ signalLabel(item) }}</span>
+              <span
+                v-if="item.publishedOn"
+                class="rounded bg-emerald-700/40 px-1 text-emerald-100"
+              >📅 {{ formatPublishedOn(item.publishedOn) }}</span>
+              <span
+                v-else-if="expectsPublishedOn(item)"
+                class="rounded bg-red-700 px-1 font-bold text-white"
+                title="publishedOn fehlt im Frontmatter — Beitrag wird nicht veröffentlicht"
+              >⚠ KEIN PUBLISHED-ON</span>
             </div>
             <div class="line-clamp-2 font-serif">
               {{ item.title }}

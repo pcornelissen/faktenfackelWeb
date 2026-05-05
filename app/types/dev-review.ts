@@ -17,6 +17,7 @@ export interface ReviewQueueItem {
   tagStatus: TagStatus
   gitStatus: GitStatus
   mtime: string
+  publishedOn: string | null
 }
 
 export interface FileDetail {

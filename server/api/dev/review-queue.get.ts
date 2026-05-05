@@ -75,6 +75,10 @@ export default defineEventHandler(async (): Promise<ReviewQueueItem[]> => {
     const title = (fm.title as string) ?? (fm.name as string) ?? rel
     const code = (fm.code as string) ?? null
     const mtimeIso = (await stat(abs)).mtime.toISOString()
+    const publishedRaw = fm.publishedOn
+    let publishedOn: string | null = null
+    if (publishedRaw instanceof Date) publishedOn = publishedRaw.toISOString()
+    else if (typeof publishedRaw === 'string' && publishedRaw.trim() !== '') publishedOn = publishedRaw
 
     items.push({
       code,
@@ -84,6 +88,7 @@ export default defineEventHandler(async (): Promise<ReviewQueueItem[]> => {
       tagStatus: tagStatusFromTags(tags),
       gitStatus: gitMap.get(rel) ?? 'clean',
       mtime: mtimeIso,
+      publishedOn,
     })
   }
 
