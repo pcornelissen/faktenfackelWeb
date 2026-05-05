@@ -1,5 +1,5 @@
 ---
-publishedOn: null
+publishedOn: 2026-05-05
 date: 2026-05-05
 title: "Solarrekord am 1. Mai: Hat die Energiewende versagt?"
 subtitle: "Warum negative Strompreise kein Beleg gegen Solar und Wind sind"

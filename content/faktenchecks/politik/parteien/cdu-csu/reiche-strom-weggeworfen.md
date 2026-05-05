@@ -1,5 +1,5 @@
 ---
-publishedOn: null
+publishedOn: 2026-04-28
 date: 2026-04-28
 title: "Strom für drei Milliarden Euro weggeworfen?"
 subtitle: Warum die Zahl irreführend ist

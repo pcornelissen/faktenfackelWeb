@@ -1,5 +1,5 @@
 ---
-publishedOn: null
+publishedOn: 2026-05-05
 date: 2026-05-05
 title: "AfD gegen die Energiewende: Bernhards und Schmidts Negativpreis-Trick"
 subtitle: "Zwei Pressemitteilungen der AfD-Bundestagsfraktion deuten den Negativpreisrekord vom 1. Mai 2026 zur Generaldiagnose 'Energiewende gescheitert' um"
