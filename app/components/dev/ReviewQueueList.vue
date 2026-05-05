@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CollectionName, GitStatus, ReviewQueueItem, TagStatus } from '~/types/dev-review'
+import type { CollectionName, ReviewQueueItem } from '~/types/dev-review'
 
 const props = defineProps<{
   items: ReviewQueueItem[]
@@ -8,144 +8,109 @@ const props = defineProps<{
 
 const emit = defineEmits<{ select: [path: string] }>()
 
-const allTagStatuses: TagStatus[] = ['needs-research', 'review-pending', 'clean']
-const allGitStatuses: GitStatus[] = ['untracked', 'modified', 'staged', 'clean']
-const allCollections: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'glossar', 'zitate', 'quellen', 'quellenlinks']
+const collectionOrder: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'glossar', 'zitate', 'quellen', 'quellenlinks']
 
-const tagFilter = ref<Set<TagStatus>>(new Set(['needs-research', 'review-pending']))
-const gitFilter = ref<Set<GitStatus>>(new Set(['untracked', 'modified', 'staged']))
-const collectionFilter = ref<Set<CollectionName>>(new Set(allCollections))
-
-function toggleTag(value: TagStatus) {
-  const next = new Set(tagFilter.value)
-  if (next.has(value)) next.delete(value)
-  else next.add(value)
-  tagFilter.value = next
-}
-
-function toggleGit(value: GitStatus) {
-  const next = new Set(gitFilter.value)
-  if (next.has(value)) next.delete(value)
-  else next.add(value)
-  gitFilter.value = next
-}
-
-function toggleCollection(value: CollectionName) {
-  const next = new Set(collectionFilter.value)
-  if (next.has(value)) next.delete(value)
-  else next.add(value)
-  collectionFilter.value = next
-}
+const showReviewTag = ref(true)
+const showGitWip = ref(true)
 
 const filtered = computed(() =>
-  props.items.filter(i =>
-    tagFilter.value.has(i.tagStatus)
-    && gitFilter.value.has(i.gitStatus)
-    && collectionFilter.value.has(i.collection),
-  ),
+  props.items.filter((i) => {
+    const hasReviewTag = i.tagStatus === 'review-pending'
+    const isGitWip = i.gitStatus !== 'clean'
+    return (showReviewTag.value && hasReviewTag) || (showGitWip.value && isGitWip)
+  }),
 )
 
-const tagBadgeColor: Record<TagStatus, string> = {
-  'needs-research': 'bg-[--ember] text-white',
-  'review-pending': 'bg-[--flame] text-[--ink]',
-  'clean': 'bg-[--muted]/30 text-[--muted]',
+const grouped = computed(() => {
+  const groups = new Map<CollectionName, ReviewQueueItem[]>()
+  for (const item of filtered.value) {
+    const list = groups.get(item.collection) ?? []
+    list.push(item)
+    groups.set(item.collection, list)
+  }
+  return collectionOrder
+    .filter(c => groups.has(c))
+    .map(c => ({ collection: c, items: groups.get(c)! }))
+})
+
+function signalClasses(item: ReviewQueueItem): string {
+  if (item.tagStatus === 'review-pending') return 'bg-[--flame] text-[--ink]'
+  if (item.gitStatus !== 'clean') return 'bg-amber-600/80 text-white'
+  return 'bg-[--muted]/30 text-[--muted]'
 }
 
-const gitBadgeColor: Record<GitStatus, string> = {
-  untracked: 'bg-emerald-600/80 text-white',
-  modified: 'bg-amber-600/80 text-white',
-  staged: 'bg-sky-600/80 text-white',
-  clean: 'bg-[--muted]/20 text-[--muted]',
+function signalLabel(item: ReviewQueueItem): string {
+  const parts: string[] = []
+  if (item.tagStatus === 'review-pending') parts.push('review')
+  if (item.gitStatus !== 'clean') parts.push(item.gitStatus)
+  return parts.join(' + ') || 'clean'
 }
 </script>
 
 <template>
   <aside class="flex h-full flex-col overflow-hidden">
-    <div class="space-y-2 border-b border-[--fackel-border]/20 p-3 text-xs">
-      <div>
-        <div class="mb-1 font-mono uppercase text-[--muted]">
-          Tag
-        </div>
-        <div class="flex flex-wrap gap-1">
-          <button
-            v-for="s in allTagStatuses"
-            :key="s"
-            class="rounded px-2 py-0.5 font-mono"
-            :class="tagFilter.has(s) ? tagBadgeColor[s] : 'bg-transparent text-[--muted] ring-1 ring-[--fackel-border]/30'"
-            @click="toggleTag(s)"
-          >
-            {{ s }}
-          </button>
-        </div>
+    <div class="border-b border-[--fackel-border]/20 p-3 text-xs">
+      <div class="mb-1 font-mono uppercase text-[--muted]">
+        Zeige
       </div>
-      <div>
-        <div class="mb-1 font-mono uppercase text-[--muted]">
-          Collection
-        </div>
-        <div class="flex flex-wrap gap-1">
-          <button
-            v-for="c in allCollections"
-            :key="c"
-            class="rounded px-2 py-0.5 font-mono"
-            :class="collectionFilter.has(c) ? 'bg-white/10 text-[--paper]' : 'bg-transparent text-[--muted] ring-1 ring-[--fackel-border]/30'"
-            @click="toggleCollection(c)"
-          >
-            {{ c }}
-          </button>
-        </div>
-      </div>
-      <div>
-        <div class="mb-1 font-mono uppercase text-[--muted]">
-          Git
-        </div>
-        <div class="flex flex-wrap gap-1">
-          <button
-            v-for="s in allGitStatuses"
-            :key="s"
-            class="rounded px-2 py-0.5 font-mono"
-            :class="gitFilter.has(s) ? gitBadgeColor[s] : 'bg-transparent text-[--muted] ring-1 ring-[--fackel-border]/30'"
-            @click="toggleGit(s)"
-          >
-            {{ s }}
-          </button>
-        </div>
+      <div class="flex flex-wrap gap-1">
+        <button
+          class="rounded px-2 py-0.5 font-mono"
+          :class="showReviewTag ? 'bg-[--flame] text-[--ink]' : 'bg-transparent text-[--muted] ring-1 ring-[--fackel-border]/30'"
+          @click="showReviewTag = !showReviewTag"
+        >
+          Review-Tag
+        </button>
+        <button
+          class="rounded px-2 py-0.5 font-mono"
+          :class="showGitWip ? 'bg-amber-600/80 text-white' : 'bg-transparent text-[--muted] ring-1 ring-[--fackel-border]/30'"
+          @click="showGitWip = !showGitWip"
+        >
+          Git WIP
+        </button>
       </div>
     </div>
-    <ul class="flex-1 overflow-y-auto">
-      <li
-        v-for="item in filtered"
-        :key="item.path"
-        class="cursor-pointer border-l-4 border-transparent px-3 py-2 text-sm hover:bg-white/5"
-        :class="item.path === selectedPath ? 'border-[--flame] bg-white/5' : ''"
-        @click="emit('select', item.path)"
+    <div class="flex-1 overflow-y-auto">
+      <div
+        v-for="group in grouped"
+        :key="group.collection"
       >
-        <div class="mb-1 flex flex-wrap items-center gap-1 font-mono text-[10px] uppercase">
-          <span class="rounded bg-white/10 px-1">{{ item.collection }}</span>
-          <span
-            class="rounded px-1"
-            :class="tagBadgeColor[item.tagStatus]"
-          >{{ item.tagStatus }}</span>
-          <span
-            class="rounded px-1"
-            :class="gitBadgeColor[item.gitStatus]"
-          >{{ item.gitStatus }}</span>
+        <div class="sticky top-0 z-10 flex items-center justify-between border-b border-[--fackel-border]/20 bg-[--ash] px-3 py-1.5 font-mono text-[11px] uppercase tracking-wide text-[--paper]">
+          <span>{{ group.collection }}</span>
+          <span class="text-[--muted]">{{ group.items.length }}</span>
         </div>
-        <div class="line-clamp-2 font-serif">
-          {{ item.title }}
-        </div>
-        <div
-          v-if="item.code"
-          class="font-mono text-[10px] text-[--muted]"
-        >
-          {{ item.code }}
-        </div>
-      </li>
-      <li
+        <ul>
+          <li
+            v-for="item in group.items"
+            :key="item.path"
+            class="cursor-pointer border-l-4 border-transparent px-3 py-2 text-sm hover:bg-white/5"
+            :class="item.path === selectedPath ? 'border-[--flame] bg-white/5' : ''"
+            @click="emit('select', item.path)"
+          >
+            <div class="mb-1 flex flex-wrap items-center gap-1 font-mono text-[10px] uppercase">
+              <span
+                class="rounded px-1"
+                :class="signalClasses(item)"
+              >{{ signalLabel(item) }}</span>
+            </div>
+            <div class="line-clamp-2 font-serif">
+              {{ item.title }}
+            </div>
+            <div
+              v-if="item.code"
+              class="font-mono text-[10px] text-[--muted]"
+            >
+              {{ item.code }}
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div
         v-if="filtered.length === 0"
         class="p-6 text-center text-xs text-[--muted]"
       >
         Keine Dateien im aktuellen Filter.
-      </li>
-    </ul>
+      </div>
+    </div>
   </aside>
 </template>
