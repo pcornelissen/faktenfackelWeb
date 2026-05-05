@@ -1,7 +1,7 @@
 ---
 publishedOn: 2026-05-05
 date: 2026-05-05
-title: "Kraftwerk Lubmin: Verschenkt die Regierung Infrastruktur, die wir brauchen?"
+title: "Kraftwerk Lubmin: Verschenkt Deutschland nötige Infrastruktur?"
 subtitle: "Ein stillgelegtes Spezialkraftwerk ohne Käufer wird zum Empörungsobjekt"
 description: "Weidel behauptet, die Regierung verschenke ein dringend benötigtes Kraftwerk an die Ukraine. Die Anlage war seit 2023 stillgelegt und fand keinen Käufer."
 verdict: misleading
