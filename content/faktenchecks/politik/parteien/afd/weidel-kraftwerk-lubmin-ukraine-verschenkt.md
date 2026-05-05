@@ -24,7 +24,6 @@ primarySources:
     url: https://www.t-online.de/nachrichten/ukraine/id_101230114/ukraine-news-deutsches-unternehmen-schenkt-der-ukraine-ein-kraftwerk-.html
 authors: ['patrick-cornelissen']
 tags:
-  - research-done-review-pending
   - AfD
   - Energie
   - Ukraine
