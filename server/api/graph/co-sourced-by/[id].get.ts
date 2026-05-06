@@ -14,7 +14,7 @@ export default defineEventHandler(async (event) => {
   const { limit } = getQuery(event) as { limit?: string }
   const safeLimit = Math.min(Math.max(Number.parseInt(limit ?? '100', 10) || 100, 1), 200)
 
-  const db = useGraphDb(event)
+  const db = await useGraphDb(event)
 
   const sql = `
     SELECT

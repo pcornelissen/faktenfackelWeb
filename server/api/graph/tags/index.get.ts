@@ -7,7 +7,7 @@ const META_TAGS = new Set(['more-research-needed', 'research-done-review-pending
  * Replaces the 6-collection scan on /tags.
  */
 export default defineEventHandler(async (event) => {
-  const db = useGraphDb(event)
+  const db = await useGraphDb(event)
 
   // Count has_tag edges where the source node is published.
   const sql = `

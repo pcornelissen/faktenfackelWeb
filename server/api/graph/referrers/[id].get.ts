@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
   const validTypes = new Set(['source', 'link', 'quote', 'article'])
   const typeFilter = type && validTypes.has(type) ? type : null
 
-  const db = useGraphDb(event)
+  const db = await useGraphDb(event)
 
   const sql = `
     SELECT

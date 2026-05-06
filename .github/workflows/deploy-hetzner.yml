@@ -1,0 +1,151 @@
+name: Deploy (Hetzner)
+
+# Triggers:
+#   - push to main: build + deploy to Hetzner (parallel to ci.yml during
+#     cutover phase; after cutover, ci.yml's wrangler steps are removed).
+#   - workflow_dispatch: manual re-deploy without code change (e.g. to
+#     refresh DB content from latest sources).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Avoid concurrent deploys to the same host
+concurrency:
+  group: deploy-hetzner-faktenfackel
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    env:
+      HOST: ${{ secrets.HETZNER_HOST }}
+      SSH_USER: deploy
+      PROJECT: faktenfackel
+      SMOKE_URL: ${{ secrets.HETZNER_SMOKE_URL }}
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Compute git sha (short)
+        id: sha
+        run: |
+          SHORT_SHA=$(git rev-parse --short=12 HEAD)
+          echo "short=${SHORT_SHA}" >> "$GITHUB_OUTPUT"
+
+      # ------------------------------------------------------------------
+      # Build the Docker image. We rely on the Dockerfile multi-stage build
+      # to: (a) run `pnpm build` with NITRO_PRESET=node_server, (b) run
+      # generateSourceIndex.ts to produce .data/graph.sqlite, (c) bundle
+      # both content+graph SQLite files into the runtime image.
+      # ------------------------------------------------------------------
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build image to tar
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+        run: |
+          docker buildx build \
+            --file Dockerfile \
+            --tag "faktenfackel:${SHA}" \
+            --tag "faktenfackel:latest" \
+            --output "type=docker,dest=image.tar" \
+            .
+
+      - name: Compute image SHA-256
+        id: image
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+        run: |
+          TAR_NAME="faktenfackel-${SHA}.tar"
+          mv image.tar "${TAR_NAME}"
+          sha256sum "${TAR_NAME}" > "${TAR_NAME}.sha256"
+          SIZE_MB=$(du -m "${TAR_NAME}" | cut -f1)
+          echo "size_mb=${SIZE_MB}" >> "$GITHUB_OUTPUT"
+          echo "tar_name=${TAR_NAME}" >> "$GITHUB_OUTPUT"
+          echo "Image size: ${SIZE_MB} MB"
+
+      # ------------------------------------------------------------------
+      # SSH setup: HETZNER_SSH_KEY secret holds the private key paired
+      # with the public key in /home/deploy/.ssh/authorized_keys.
+      # ------------------------------------------------------------------
+      - name: Configure SSH
+        env:
+          SSH_KEY: ${{ secrets.HETZNER_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          umask 077
+          printf '%s\n' "${SSH_KEY}" > ~/.ssh/hetzner
+          ssh-keyscan -H "${HOST}" >> ~/.ssh/known_hosts
+
+      # ------------------------------------------------------------------
+      # Upload tar + sha sidecar, then trigger deploy.sh on the host.
+      # ------------------------------------------------------------------
+      - name: SCP image to host
+        env:
+          TAR_NAME: ${{ steps.image.outputs.tar_name }}
+        run: |
+          scp -i ~/.ssh/hetzner \
+            "${TAR_NAME}" \
+            "${TAR_NAME}.sha256" \
+            "${SSH_USER}@${HOST}:/opt/${PROJECT}/incoming/"
+
+      - name: Run deploy.sh on host
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+        run: |
+          ssh -i ~/.ssh/hetzner \
+            "${SSH_USER}@${HOST}" \
+            "/opt/${PROJECT}/bin/deploy.sh ${SHA}"
+
+      # ------------------------------------------------------------------
+      # Smoke tests against staging URL (or production after cutover).
+      # SMOKE_URL secret can be flipped without code changes.
+      # ------------------------------------------------------------------
+      - name: Install Playwright (chromium)
+        run: npx playwright install --with-deps chromium
+
+      - name: Smoke tests
+        env:
+          SMOKE_TEST_URL: ${{ env.SMOKE_URL }}
+        run: pnpm test:smoke
+
+      - name: Notify IndexNow (only on production cutover)
+        if: env.SMOKE_URL == 'https://faktenfackel.de'
+        run: node scripts/indexnow.mjs
+
+      - name: Summary
+        if: always()
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+          SIZE: ${{ steps.image.outputs.size_mb }}
+        run: |
+          {
+            echo "### Deploy summary"
+            echo "- SHA: \`${SHA}\`"
+            echo "- Image size: ${SIZE} MB"
+            echo "- Smoke target: ${SMOKE_URL}"
+          } >> "$GITHUB_STEP_SUMMARY"

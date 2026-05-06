@@ -40,7 +40,7 @@ export default defineEventHandler(async (event) => {
   const page = Number.isFinite(rawPage) ? Math.max(Math.trunc(rawPage), 1) : 1
   const offset = (page - 1) * limit
 
-  const db = useGraphDb(event)
+  const db = await useGraphDb(event)
 
   const tagPlaceholders = tags.map(() => '?').join(', ')
   const groupClause = group ? 'AND n.group_ = ?' : ''

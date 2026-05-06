@@ -1,0 +1,48 @@
+# --- Build outputs (recreated in container) ---
+.output
+.nuxt
+.data
+dist
+
+# --- Dev artefacts ---
+node_modules
+.pnpm-store
+.vscode
+.idea
+
+# --- VCS / CI / OS ---
+.git
+.github
+.githooks
+.DS_Store
+*.log
+
+# --- Test artefacts ---
+playwright-report
+test-results
+coverage
+
+# --- Local secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Project-internal stuff that doesn't need to ship ---
+docs
+features
+videos
+assets
+design
+social
+ops
+knowledge-mcp
+scripts/social
+.claude
+.agents
+
+# --- Wrangler legacy artefacts (not needed in Node image) ---
+.wrangler
+.graph-d1.sql
+
+# --- Random local junk ---
+.playwright-mcp

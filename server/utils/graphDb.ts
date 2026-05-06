@@ -1,7 +1,9 @@
 import type { H3Event } from 'h3'
 
-// Minimal D1 interface — matches the subset we use. Avoids the
-// @cloudflare/workers-types dependency for type-check environments.
+// Minimal D1 interface — matches the subset of bindings we use across the
+// /api/graph/* handlers. Avoids depending on @cloudflare/workers-types in
+// type-check environments and lets the Node-runtime path expose the same
+// shape on top of better-sqlite3.
 export interface D1PreparedStatement {
   bind: (...values: unknown[]) => D1PreparedStatement
   all: <T = Record<string, unknown>>() => Promise<{ results: T[] }>
@@ -28,15 +30,40 @@ export interface GraphNode {
 export type GraphRelation = 'has_tag' | 'from_source' | 'co_source' | 'references_link' | 'references_quote'
 export type GraphNodeType = GraphNode['type']
 
+// Lazy singleton for the Node-runtime graph DB. The dynamic import keeps
+// `better-sqlite3` out of the Workers bundle (the binding path is taken
+// before the import is ever reached on Cloudflare).
+let nodeGraphDbPromise: Promise<D1Database> | null = null
+
+async function ensureNodeGraphDb(): Promise<D1Database> {
+  if (!nodeGraphDbPromise) {
+    nodeGraphDbPromise = import('./graphDb.node').then(m => m.openLocalGraphDb())
+  }
+  return nodeGraphDbPromise
+}
+
 /**
- * Access the GRAPHDB D1 binding. Throws if the binding is not available
- * (e.g. when running in environments without Cloudflare bindings).
+ * Resolve the GRAPHDB driver for the current request.
+ *
+ *   - On Cloudflare: returns the GRAPHDB D1 binding from the Worker env.
+ *   - On Node (Hetzner): opens a local better-sqlite3 connection backed
+ *     by the SQLite file at GRAPH_DB_PATH (defaults to .data/graph.sqlite).
+ *
+ * Throws a 500 if neither path is available.
  */
-export function useGraphDb(event: H3Event): D1Database {
+export async function useGraphDb(event: H3Event): Promise<D1Database> {
   const env = (event.context.cloudflare?.env ?? {}) as { GRAPHDB?: D1Database }
-  const db = env.GRAPHDB
-  if (!db) throw createError({ statusCode: 500, statusMessage: 'GRAPHDB binding not available' })
-  return db
+  if (env.GRAPHDB) return env.GRAPHDB
+
+  try {
+    return await ensureNodeGraphDb()
+  } catch (err) {
+    throw createError({
+      statusCode: 500,
+      statusMessage: 'GRAPHDB binding not available',
+      data: { cause: err instanceof Error ? err.message : String(err) },
+    })
+  }
 }
 
 /** Return "now" as ISO string — matches contentUtils.nowIso() used on the client. */

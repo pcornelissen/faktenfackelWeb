@@ -10,7 +10,7 @@ export default defineEventHandler(async (event) => {
   const tag = getRouterParam(event, 'tag')
   if (!tag) throw createError({ statusCode: 400, statusMessage: 'Missing tag' })
 
-  const db = useGraphDb(event)
+  const db = await useGraphDb(event)
 
   const sql = `
     SELECT

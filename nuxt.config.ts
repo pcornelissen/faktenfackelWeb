@@ -7,7 +7,16 @@ const isDevCommand = lifecycleEvent === 'dev' || process.argv.includes('dev')
 const contentDatabaseFile = isDevCommand
   ? './.data/content/dev.sqlite'
   : './.data/content/build.sqlite'
-const nitroPreset = isDevCommand ? 'node_server' : 'cloudflare_module'
+
+// Preset selection:
+//   - dev → always node_server
+//   - build with NITRO_PRESET set → honor that (e.g. "node_server" for Hetzner)
+//   - build without NITRO_PRESET → cloudflare_module (current default,
+//     stays so during the parallel cutover phase; flip to node_server
+//     once Workers is decommissioned)
+const nitroPreset = isDevCommand
+  ? 'node_server'
+  : (process.env.NITRO_PRESET ?? 'cloudflare_module')
 
 export default defineNuxtConfig({
   modules: [
