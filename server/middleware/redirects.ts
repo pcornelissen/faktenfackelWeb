@@ -83,6 +83,10 @@ const linkRedirects: Record<string, string> = {
   '/news/quellenlinks-vervollstaendigt': '/news/2026/03-26-quellenlinks-vervollstaendigt',
   '/news/wahl-desinformation-klimaleugnung': '/news/2026/04-01-wahl-desinformation-klimaleugnung',
   '/news/updates-april-2026': '/news/2026/04-03-updates-april-2026',
+
+  // Lagerfeuer/blog → News (moved posts)
+  '/lagerfeuer/blog/2026-05-05/update-mai': '/news/2026/05-05-update-mai',
+  '/lagerfeuer/blog/2026-05-06/update-mai-2': '/news/2026/05-06-amokfahrt-leipzig-afd-entlastung',
 }
 
 // ─── Prefix redirects (source-level, applies to all sub-paths) ─────────────

@@ -1,13 +1,8 @@
 ---
-publishedOn: 2026-05-05
 date: 2026-05-05
 title: "Mai-Update: Elf Faktenchecks, vier Analysen, neue Struktur"
-subtitle: "Was sich seit dem letzten Update getan hat"
-description: "Elf neue Faktenchecks von AfD bis CDU, vier Hintergrundartikel, Themen-Hubs mit FAQ, SEO-Audit und technische Verbesserungen unter der Haube."
-tags:
-  - Blog
-  - Faktenfackel
-  - Allgemeines
+teaser: "Elf neue Faktenchecks von AfD bis CDU, vier Hintergrundartikel, Themen-Hubs mit FAQ, SEO-Audit und technische Verbesserungen unter der Haube."
+publishedOn: 2026-05-05
 ---
 
 Zweieinhalb Wochen seit dem letzten Update, und es ist einiges passiert. Allein elf neue Faktenchecks, dazu vier längere Analysen und ein kompletter Umbau unter der Haube.
