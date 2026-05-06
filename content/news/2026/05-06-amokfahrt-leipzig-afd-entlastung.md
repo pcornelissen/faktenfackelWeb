@@ -1,17 +1,11 @@
 ---
-publishedOn: 2026-05-06
 date: 2026-05-06
 title: "Amokfahrt Leipzig, AfD-Entlastungskampagne und sechs neue Quellenlinks"
-subtitle: "Was heute auf Faktenfackel dazugekommen ist"
-description: "Zwei neue Faktenchecks zur Leipziger Amokfahrt und zur AfD-Kampagne 'Deutschland entlasten', sechs Quellenlinks und die Leipziger Zeitung als neue Quelle."
-tags:
-  - Blog
-  - Faktenfackel
-  - Allgemeines
-  - research-done-review-pending
+teaser: "Zwei neue Faktenchecks zur Leipziger Amokfahrt und zur AfD-Kampagne 'Deutschland entlasten', sechs Quellenlinks und die Leipziger Zeitung als neue Quelle."
+publishedOn: 2026-05-06
 ---
 
-Einen Tag nach dem großen Mai-Update gibt es schon wieder Nachschub. Zwei neue Faktenchecks, sechs Quellenlinks und eine neue Quelle.
+Zwei neue Faktenchecks, sechs Quellenlinks und eine neue Quelle.
 
 ## Zwei neue Faktenchecks
 
