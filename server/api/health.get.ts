@@ -1,7 +1,8 @@
 // Health endpoint used by Caddy upstream probes and by deploy.sh to gate
 // blue-green swaps. Verifies that:
 //   - the server is alive (trivially true if this handler runs)
-//   - @nuxt/content can read the content collection (cheap query)
+//   - @nuxt/content has seeded all collections (touches each one once,
+//     forcing first-request seeding before Caddy switches traffic)
 //   - the GraphDB driver is reachable (cheap PRAGMA)
 //
 // Returns 200 only when everything is healthy. Any failure returns 503 so
@@ -13,13 +14,36 @@ import { queryCollection } from '@nuxt/content/server'
 const APP_VERSION = process.env.APP_VERSION || 'unknown'
 const APP_COLOR = process.env.APP_COLOR || 'unknown'
 
-export default defineEventHandler(async (event) => {
-  const checks = { content: 'unknown', graphdb: 'unknown' } as Record<string, string>
+const COLLECTIONS = [
+  'faktenchecks',
+  'lagerfeuer',
+  'glossar',
+  'quellen',
+  'quellenlinks',
+  'zitate',
+  'news',
+  'themen',
+] as const
 
-  // --- Content DB ---
+export default defineEventHandler(async (event) => {
+  const checks: Record<string, string> = { content: 'unknown', graphdb: 'unknown' }
+
+  // --- Content DB: touch every collection so the SQLite gets fully seeded
+  //     before Caddy is told to switch upstream. Otherwise the first
+  //     request hitting /lagerfeuer etc. still pays the seed cost. ---
   try {
-    const row = await queryCollection(event, 'faktenchecks').limit(1).first()
-    checks.content = row ? 'ok' : 'empty'
+    const results = await Promise.allSettled(
+      COLLECTIONS.map(c => queryCollection(event, c).limit(1).first()),
+    )
+    const failed = results
+      .map((r, i) => ({ r, name: COLLECTIONS[i] }))
+      .filter(({ r }) => r.status === 'rejected')
+    if (failed.length === 0) {
+      checks.content = 'ok'
+    } else {
+      const names = failed.map(({ name }) => name).join(',')
+      checks.content = `error: failed=${names}`
+    }
   } catch (err) {
     checks.content = err instanceof Error ? `error: ${err.message}` : 'error'
   }

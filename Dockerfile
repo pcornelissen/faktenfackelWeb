@@ -65,13 +65,19 @@ RUN pnpm build
 # Build Graph SQLite. GRAPH_DB pins the output path; KNOWLEDGE_MCP_DIR is
 # a throw-away because its JSON cache is build-only and not needed in
 # the runtime image.
+#
+# Content DB is NOT built here. @nuxt/content writes seed data as
+# .output/public/__nuxt_content/<collection>/sql_dump.txt and seeds the
+# local SQLite on first request. The first /api/health hit triggers the
+# seed; deploy.sh has a 60s healthcheck window for that.
 RUN mkdir -p .data && \
     GRAPH_DB=$(pwd)/.data/graph.sqlite \
     KNOWLEDGE_MCP_DIR=$(mktemp -d) \
     pnpm exec tsx scripts/generateSourceIndex.ts
 
-# Fail-fast if either DB didn't materialise
-RUN test -s .data/content/build.sqlite && test -s .data/graph.sqlite
+# Fail-fast if graph DB didn't materialise (content DB is runtime-seeded)
+RUN test -s .data/graph.sqlite \
+    && test -s .output/public/__nuxt_content/faktenchecks/sql_dump.txt
 
 # ---------------------------------------------------------------------------
 # Stage 3: runtime
@@ -92,8 +98,11 @@ WORKDIR /app
 # built for this same linux/glibc/x64 in the builder stage).
 COPY --from=builder --chown=node:node /app/.output ./.output
 
-# Both SQLite databases at fixed runtime paths
+# .data/ holds the prebuilt graph.sqlite. The content/ subdir is created
+# empty here; @nuxt/content seeds .data/content/build.sqlite on first
+# request from .output/public/__nuxt_content/*/sql_dump.txt.
 COPY --from=builder --chown=node:node /app/.data ./.data
+RUN mkdir -p .data/content && chown -R node:node .data
 
 ENV NODE_ENV=production
 ENV NITRO_PORT=3000
