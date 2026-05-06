@@ -2,12 +2,11 @@ name: CI
 
 on:
   push:
-    branches: [main]
   pull_request:
     branches: [main]
 
 jobs:
-  build-and-deploy:
+  verify:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,89 +22,22 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm run lint
+        run: pnpm lint
 
       - name: Typecheck
-        run: pnpm run typecheck
+        run: pnpm typecheck
+
+      - name: Content lint
+        run: pnpm check:content
 
       - name: Build
         run: pnpm build
 
-      - name: Collect commit messages
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        id: commits
-        env:
-          COMMITS_JSON: ${{ toJSON(github.event.commits.*.message) }}
-        run: |
-          MESSAGES=$(echo "$COMMITS_JSON" | jq -r '.[]' | head -1 | sed 's/Co-Authored-By:.*//' | tr -d '\n' | tr -dc 'a-zA-Z0-9 _.,:;!?()/-' | cut -c1-60)
-          echo "messages=${MESSAGES:-deploy}" >> "$GITHUB_OUTPUT"
+      - name: Verify dev routes are excluded
+        run: pnpm verify:dev-excluded
 
-      - name: Deploy to Cloudflare Workers
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: npx wrangler --cwd .output deploy --message "$DEPLOY_MESSAGE"
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          DEPLOY_MESSAGE: ${{ steps.commits.outputs.messages }}
-
-      - name: Deploy Graph to D1
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: pnpm run deploy:graph
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          # generateSourceIndex.ts schreibt Cache und Index nach KNOWLEDGE_MCP_DIR;
-          # lokal ist das ein Schwesterverzeichnis, in CI ein Wegwerf-Pfad unter RUNNER_TEMP.
-          # Das produktiv relevante Artefakt ist ohnehin nur website/.graph-d1.sql.
-          KNOWLEDGE_MCP_DIR: ${{ runner.temp }}/knowledge-mcp
-
-      - name: Notify IndexNow
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: node scripts/indexnow.mjs
-
-      - name: D1 Warm-up (warte auf Seed-Abschluss)
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          # Stößt für jede @nuxt/content-Collection den D1-Seed an und wartet,
-          # bis die Seite tatsächlich 200 liefert. Wenn der Seed mitten drin
-          # abbricht ("ready=0"), bleiben sonst alle DB-Seiten in einem
-          # Init-Lock hängen ("Database integrity check timed out").
-          set -u
-          urls=(
-            "https://faktenfackel.de/faktenchecks/"
-            "https://faktenfackel.de/lagerfeuer/"
-            "https://faktenfackel.de/quellen/"
-            "https://faktenfackel.de/themen/desinformation"
-            "https://faktenfackel.de/glossar/"
-          )
-          fail=0
-          for url in "${urls[@]}"; do
-            ok=0
-            for attempt in 1 2 3 4; do
-              code=$(curl -s -o /dev/null --max-time 90 -w "%{http_code}" "${url}?warmup=$(date +%s)${attempt}" || echo "000")
-              echo "warmup attempt ${attempt} for ${url} -> ${code}"
-              if [ "${code}" = "200" ]; then ok=1; break; fi
-              sleep 5
-            done
-            if [ "${ok}" -eq 0 ]; then
-              echo "::warning::Warm-up fuer ${url} hat nach 4 Versuchen kein 200 geliefert"
-              fail=$((fail+1))
-            fi
-          done
-          if [ "${fail}" -gt 0 ]; then
-            echo "::warning::${fail} von ${#urls[@]} Warm-up-URLs wurden nicht erfolgreich aufgewaermt"
-          fi
-
-      - name: Install Playwright
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: npx playwright install --with-deps chromium
-
-      - name: Smoke Tests
-
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: pnpm test:smoke
-        env:
-          SMOKE_TEST_URL: https://faktenfackel.de
+      - name: Check built HTML
+        run: pnpm check:build

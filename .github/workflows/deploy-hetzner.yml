@@ -1,13 +1,14 @@
 name: Deploy (Hetzner)
 
 # Triggers:
-#   - push to main: build + deploy to Hetzner (parallel to ci.yml during
-#     cutover phase; after cutover, ci.yml's wrangler steps are removed).
+#   - successful CI on main: build + deploy to Hetzner.
 #   - workflow_dispatch: manual re-deploy without code change (e.g. to
 #     refresh DB content from latest sources).
 
 on:
-  push:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
     branches: [main]
   workflow_dispatch:
 
@@ -18,6 +19,7 @@ concurrency:
 
 jobs:
   build-deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
@@ -30,6 +32,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.sha }}
           fetch-depth: 1
 
       - uses: pnpm/action-setup@v6
@@ -57,7 +60,7 @@ jobs:
 
       # ------------------------------------------------------------------
       # Build the Docker image. We rely on the Dockerfile multi-stage build
-      # to: (a) run `pnpm build` with NITRO_PRESET=node_server, (b) run
+      # to: (a) run `pnpm build` with NITRO_PRESET=node-server, (b) run
       # generateSourceIndex.ts to produce .data/graph.sqlite, (c) bundle
       # both content+graph SQLite files into the runtime image.
       # ------------------------------------------------------------------
