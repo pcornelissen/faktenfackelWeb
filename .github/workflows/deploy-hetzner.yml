@@ -108,7 +108,10 @@ jobs:
         env:
           TAR_NAME: ${{ steps.image.outputs.tar_name }}
         run: |
-          scp -i ~/.ssh/hetzner \
+          # -O forces legacy scp protocol (server-side `scp -t`) which our
+          # ci-restricted wrapper allow-lists. Modern scp defaults to SFTP
+          # subsystem, which is intentionally NOT allowed by the wrapper.
+          scp -O -i ~/.ssh/hetzner \
             "${TAR_NAME}" \
             "${TAR_NAME}.sha256" \
             "${SSH_USER}@${HOST}:/opt/${PROJECT}/incoming/"
