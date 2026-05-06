@@ -9,14 +9,14 @@ const contentDatabaseFile = isDevCommand
   : './.data/content/build.sqlite'
 
 // Preset selection:
-//   - dev → always node_server
-//   - build with NITRO_PRESET set → honor that (e.g. "node_server" for Hetzner)
-//   - build without NITRO_PRESET → cloudflare_module (current default,
-//     stays so during the parallel cutover phase; flip to node_server
+//   - dev → always node-server
+//   - build with NITRO_PRESET set → honor that (e.g. "node-server" for Hetzner)
+//   - build without NITRO_PRESET → cloudflare-module (current default,
+//     stays so during the parallel cutover phase; flip to node-server
 //     once Workers is decommissioned)
 const nitroPreset = isDevCommand
-  ? 'node_server'
-  : (process.env.NITRO_PRESET ?? 'cloudflare_module')
+  ? 'node-server'
+  : (process.env.NITRO_PRESET ?? 'cloudflare-module')
 
 export default defineNuxtConfig({
   modules: [

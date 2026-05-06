@@ -56,7 +56,7 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-ENV NITRO_PRESET=node_server
+ENV NITRO_PRESET=node-server
 ENV NODE_ENV=production
 
 # Build Nuxt + Nitro. Writes .output/ and .data/content/build.sqlite.
