@@ -1,14 +1,18 @@
 <script setup lang="ts">
 import Header from '~/components/layout/Header.vue'
 import Footer from '~/components/layout/Footer.vue'
+
+withDefaults(defineProps<{ hideFooter?: boolean }>(), { hideFooter: false })
 </script>
 
 <template>
-  <Header />
-  <main class="main-content">
-    <NuxtPage />
-  </main>
-  <Footer />
+  <div :class="hideFooter ? 'flex h-screen flex-col overflow-hidden' : 'flex min-h-screen flex-col'">
+    <Header />
+    <main :class="hideFooter ? 'flex-1 min-h-0 overflow-hidden' : 'main-content flex-1'">
+      <NuxtPage />
+    </main>
+    <Footer v-if="!hideFooter" />
+  </div>
 </template>
 
 <style>

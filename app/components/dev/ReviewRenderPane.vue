@@ -153,7 +153,7 @@ async function markReviewDone() {
 </script>
 
 <template>
-  <section class="flex h-full flex-col overflow-hidden bg-[--paper] text-[--ink]">
+  <section class="flex h-full min-h-0 flex-col overflow-hidden bg-[--paper] text-[--ink]">
     <header class="flex items-center justify-between border-b border-[--fackel-border] px-3 py-2">
       <div class="font-mono text-xs text-[--muted]">
         Rendered

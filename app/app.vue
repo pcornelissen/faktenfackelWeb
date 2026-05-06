@@ -74,7 +74,7 @@ defineOgImage('Default', {
 
 <template>
   <UApp>
-    <Layout>
+    <Layout :hide-footer="route.meta.layout === false">
       <NuxtPage />
     </Layout>
   </UApp>

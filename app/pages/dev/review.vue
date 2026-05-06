@@ -194,7 +194,7 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="full-bleed flex h-screen flex-col bg-[--ash] text-[--paper]"
+    class="full-bleed flex h-full flex-col bg-[--ash] text-[--paper]"
     @contextmenu="onContextMenu"
   >
     <header class="flex items-center justify-between border-b border-[--fackel-border]/20 px-4 py-2">
