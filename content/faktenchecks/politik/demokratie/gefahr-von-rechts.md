@@ -19,7 +19,7 @@ primarySources:
   - label: "Amadeu Antonio Stiftung: Todesopfer rechter Gewalt"
     code: amadeu-antonio-todesopfer-rechter-gewalt
   - label: "ZDF zum Prozess gegen Sächsische Separatisten"
-    code: zdf-saechsische-separatisten-prozess-2026
+    code: zdf-saechsische-separatisten-prozessauftakt-2026
 authors: ['patrick-cornelissen']
 tags:
   - Rechtsextremismus
@@ -52,7 +52,7 @@ Rund 62 Prozent der rechts motivierten Straftaten sind Propagandadelikte. Die Za
 
 Rechtsextremer Terrorismus ist kein abstraktes Risiko, sondern Gegenstand zahlreicher laufender und abgeschlossener Strafverfahren.
 
-**Sächsische Separatisten (OLG Dresden, seit Januar 2026):** Acht Männer stehen wegen Mitgliedschaft in einer terroristischen Vereinigung und Vorbereitung eines hochverräterischen Unternehmens vor Gericht. Die Gruppe wurde im November 2024 bei Razzien zerschlagen. Sie bestand aus 15 bis 20 Personen, die laut Generalbundesanwaltschaft <SourceRef code="zdf-saechsische-separatisten-prozess-2026">einen bewaffneten Umsturz in Sachsen planten</SourceRef>, um einen an der NS-Ideologie orientierten Staat zu errichten. Drei der Angeklagten waren zuvor in der AfD kommunalpolitisch aktiv. Das Gericht hat bis Mitte Dezember 2026 fast 70 Verhandlungstage angesetzt.
+**Sächsische Separatisten (OLG Dresden, seit Januar 2026):** Acht Männer stehen wegen Mitgliedschaft in einer terroristischen Vereinigung und Vorbereitung eines hochverräterischen Unternehmens vor Gericht. Die Gruppe wurde im November 2024 bei Razzien zerschlagen. Sie bestand aus 15 bis 20 Personen, die laut Generalbundesanwaltschaft <SourceRef code="zdf-saechsische-separatisten-prozessauftakt-2026">einen bewaffneten Umsturz in Sachsen planten</SourceRef>, um einen an der NS-Ideologie orientierten Staat zu errichten. Drei der Angeklagten waren zuvor in der AfD kommunalpolitisch aktiv. Das Gericht hat bis Mitte Dezember 2026 fast 70 Verhandlungstage angesetzt.
 
 **Letzte Verteidigungswelle (OLG Hamburg, seit März 2026):** Acht junge Männer stehen wegen Mitgliedschaft in einer terroristischen Vereinigung, versuchten Mordes und gefährlicher Körperverletzung vor Gericht. <SourceRef code="amadeu-antonio-lvw-jugendradikalisierung">Die Amadeu Antonio Stiftung analysiert</SourceRef>, wie die im April 2024 gegründete Gruppe über TikTok und Instagram bis zu 130 Mitglieder rekrutierte. Der jüngste Angeklagte war zur Tatzeit 14 Jahre alt. Der Gruppe werden unter anderem der <SourceRef code="lto-lvw-razzia-jugendliche-festgenommen">Brandanschlag auf ein Kulturzentrum in Altdöbern</SourceRef> (Oktober 2024) und ein Angriff auf eine Geflüchtetenunterkunft in Schmölln (Januar 2025) zugerechnet.
 
@@ -78,7 +78,7 @@ Rechtsextreme Gewalt richtet sich zunehmend gegen politische Akteure und demokra
 
 **Walter Lübcke, 2. Juni 2019:** Der CDU-Regierungspräsident von Kassel wurde vom Rechtsextremisten Stephan Ernst auf seiner Terrasse erschossen, weil Lübcke 2015 die Aufnahme von Flüchtlingen verteidigt hatte. Ernst wurde zu <SourceRef code="hessenschau-urteil-stephan-ernst-luebcke">lebenslanger Haft mit besonderer Schwere der Schuld</SourceRef> verurteilt. Es war der erste rechtsextreme Mord an einem Politiker in der Geschichte der Bundesrepublik.
 
-**Halle, 9. Oktober 2019:** Am höchsten jüdischen Feiertag Jom Kippur versuchte der Rechtsextremist Stephan Balliet, in die Synagoge im Paulusviertel einzudringen, um einen Massenmord zu begehen. Als ihm das nicht gelang, erschoss er zwei Menschen: eine Passantin und einen Gast in einem nahegelegenen Imbiss. 68 weitere gelten als Überlebende eines Mordversuchs. Balliet wurde zu <SourceRef code="taz-halle-anschlag-synagoge-urteil">lebenslanger Haft mit Sicherungsverwahrung</SourceRef> verurteilt.
+**Halle, 9. Oktober 2019:** Am höchsten jüdischen Feiertag Jom Kippur versuchte der Rechtsextremist Stephan Balliet, in die Synagoge im Paulusviertel einzudringen, um einen Massenmord zu begehen. Als ihm das nicht gelang, erschoss er zwei Menschen: eine Passantin und einen Gast in einem nahegelegenen Imbiss. 68 weitere gelten als Überlebende eines Mordversuchs. Balliet wurde zu <SourceRef code="taz-halle-anschlag-urteil-2020">lebenslanger Haft mit Sicherungsverwahrung</SourceRef> verurteilt.
 
 **Hanau, 19. Februar 2020:** Der Rechtsextremist Tobias Rathjen erschoss in zwei Bars neun junge Menschen mit Migrationsbiografie, bevor er seine Mutter und sich selbst tötete. Das BKA stufte die Tat als <SourceRef code="bpb-hanau-anschlag-hintergrund">rassistisch und rechtsextrem motiviert</SourceRef> ein.
 

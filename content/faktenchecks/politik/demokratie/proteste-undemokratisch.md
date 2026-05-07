@@ -14,11 +14,11 @@ keyEvidence:
   - "Polizei und lokale Berichte beschrieben den Protesttag insgesamt nicht als flächendeckend gewalttätig."
 primarySources:
   - label: "Grundgesetz Artikel 5 zur Meinungsfreiheit"
-    code: gii-gg-5
+    code: gii-gg-art-5-meinungsfreiheit
   - label: "Grundgesetz Artikel 8 zur Versammlungsfreiheit"
-    code: gii-gg-8
+    code: gii-gg-art-8-versammlungsfreiheit
   - label: "Grundgesetz Artikel 21 zur Rolle politischer Parteien"
-    code: gii-gg-21
+    code: gii-gg-art-21-parteien-parteiverbot
   - label: "Bundeszentrale für politische Bildung: Demokratie"
     code: bpb-junges-lexikon-demokratie
 authors: ['patrick-cornelissen']
@@ -157,17 +157,17 @@ Aktivitäten fortsetzen kann, wird ihre Meinungsfreiheit nicht eingeschränkt.
 > allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung
 > durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.  
 > ...  
-> <cite><SourceRef code="gii-gg-5">Grundgesetz Artikel 5, Meinungsfreiheit</SourceRef></cite>
+> <cite><SourceRef code="gii-gg-art-5-meinungsfreiheit">Grundgesetz Artikel 5, Meinungsfreiheit</SourceRef></cite>
 
 > (1) Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln.  
 (2) Für Versammlungen unter freiem Himmel kann dieses Recht durch Gesetz oder auf Grund eines Gesetzes beschränkt
 > werden.  
-> <cite><SourceRef code="gii-gg-8">Grundgesetz Artikel 8, Versammlungsfreiheit</SourceRef></cite>
+> <cite><SourceRef code="gii-gg-art-8-versammlungsfreiheit">Grundgesetz Artikel 8, Versammlungsfreiheit</SourceRef></cite>
 
 > (1) **Die Parteien wirken bei der politischen Willensbildung des Volkes mit.** Ihre Gründung ist frei. Ihre innere
 > Ordnung muss demokratischen Grundsätzen entsprechen. Sie müssen über die Herkunft und Verwendung ihrer Mittel sowie über
 > ihr Vermögen öffentlich Rechenschaft geben.  
-> <cite><SourceRef code="gii-gg-21">Grundgesetz Artikel 21, Parteien</SourceRef></cite>
+> <cite><SourceRef code="gii-gg-art-21-parteien-parteiverbot">Grundgesetz Artikel 21, Parteien</SourceRef></cite>
 
 > Demokratie ist eine Herrschaftsform, in der das Volk die oberste Macht ausübt. Wesentliche Merkmale der Demokratie
 > sind die Wahlen, die Meinungsfreiheit, die Versammlungsfreiheit und die Gewaltenteilung.  

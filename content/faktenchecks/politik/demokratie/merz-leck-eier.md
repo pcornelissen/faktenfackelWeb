@@ -14,7 +14,7 @@ keyEvidence:
   - "Bekannte Merz-Anzeigen wie der Pinocchio- und der 'Drecks Suffkopf'-Fall zeigen die notwendige Einzelfallabwägung und Verhältnismäßigkeitsfragen."
 primarySources:
   - label: "Grundgesetz Artikel 5"
-    code: gii-gg-5
+    code: gii-gg-art-5-meinungsfreiheit
   - label: "Strafgesetzbuch §185"
     code: gii-stgb-185
   - label: "Strafgesetzbuch §188"
@@ -46,7 +46,7 @@ dahintersteckt, ist öffentlich nicht bekannt.
 
 ### Art. 5 GG: Meinungsfreiheit
 
-<SourceRef code="gii-gg-5">Artikel 5 des Grundgesetzes</SourceRef> schützt die freie Äußerung von
+<SourceRef code="gii-gg-art-5-meinungsfreiheit">Artikel 5 des Grundgesetzes</SourceRef> schützt die freie Äußerung von
 Meinungen in Wort, Schrift und Bild, ohne Zensur und ohne Genehmigungsvorbehalt. Diese Freiheit endet dort, wo allgemeine
 Gesetze anfangen. Und zu den allgemeinen Gesetzen gehört das Strafgesetzbuch.
 

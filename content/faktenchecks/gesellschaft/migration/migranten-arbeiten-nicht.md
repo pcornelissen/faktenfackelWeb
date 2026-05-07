@@ -49,7 +49,7 @@ In die erste Gruppe fallen z. B. viele Geflüchtete aus der Ukraine. Für Asyls
 
 Eine Arbeitsaufnahme kann <SourceRef code="bmas-arbeitsmarktzugang-geflüchtete">nicht sofort erfolgen</SourceRef>. Es gilt:
 
-- **Generelles Arbeitsverbot** für Asylsuchende (<SourceRef code="gii-asylg-61">§61 Asyl Gesetz</SourceRef>)
+- **Generelles Arbeitsverbot** für Asylsuchende (<SourceRef code="gii-asylg-61-erwerbstaetigkeit">§61 Asyl Gesetz</SourceRef>)
   - **in den ersten 3 Monaten** 
   - wenn eine **Ausweisung bevorsteht**
   - wenn der Asylantrag abgelehnt wurde und kein Duldungsstatus vorliegt
