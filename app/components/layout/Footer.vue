@@ -90,7 +90,7 @@ onMounted(() => {
           <li><a href="https://mein.online-impressum.de/faktenfackel/">Social Hub</a></li>
           <li>
             <a
-              href="https://stats.uptimerobot.com/1acWwgvR7E"
+              href="https://status.faktenfackel.de"
               rel="noopener"
               target="_blank"
             >Statusseite</a>

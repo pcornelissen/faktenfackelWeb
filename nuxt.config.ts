@@ -8,15 +8,7 @@ const contentDatabaseFile = isDevCommand
   ? './.data/content/dev.sqlite'
   : './.data/content/build.sqlite'
 
-// Preset selection:
-//   - dev → always node-server
-//   - build with NITRO_PRESET set → honor that (e.g. "node-server" for Hetzner)
-//   - build without NITRO_PRESET → cloudflare-module (current default,
-//     stays so during the parallel cutover phase; flip to node-server
-//     once Workers is decommissioned)
-const nitroPreset = isDevCommand
-  ? 'node-server'
-  : (process.env.NITRO_PRESET ?? 'cloudflare-module')
+const nitroPreset = process.env.NITRO_PRESET ?? 'node-server'
 
 export default defineNuxtConfig({
   modules: [
@@ -133,31 +125,6 @@ export default defineNuxtConfig({
     esbuild: {
       options: {
         logOverride: { 'duplicate-object-key': 'silent' },
-      },
-    },
-    cloudflare: {
-      deployConfig: true,
-      wrangler: {
-        observability: {
-          logs: {
-            enabled: true,
-            head_sampling_rate: 1,
-            invocation_logs: true,
-          },
-        },
-        d1_databases: [
-          {
-            binding: 'DB',
-            database_name: 'fackel1',
-            database_id: '6dc09d29-36fe-4193-8dbd-7479b5ade6ae',
-          },
-          {
-            binding: 'GRAPHDB',
-            database_name: 'fackelgraph',
-            database_id: '423018a4-853f-41b5-b2d9-bfda8dcd93cf',
-          },
-        ],
-        name: 'faktenfackel',
       },
     },
   },

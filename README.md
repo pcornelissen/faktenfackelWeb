@@ -9,7 +9,7 @@ Faktenfackel ist eine deutschsprachige Faktencheck- und Blog-Plattform. Diese Re
 | Framework | [Nuxt 4](https://nuxt.com) mit `app/`-Verzeichnisstruktur |
 | Content | [@nuxt/content v3](https://content.nuxt.com) — Markdown-Kollektionen, SQLite/D1 |
 | UI | [@nuxt/ui v4](https://ui.nuxt.com) + Tailwind CSS v4 |
-| Deployment | [Cloudflare Workers](https://workers.cloudflare.com) + D1-Datenbank |
+| Deployment | GitHub Actions → Hetzner Docker-Deploy |
 | Paketmanager | [pnpm](https://pnpm.io) |
 
 ## Lokale Entwicklung
@@ -40,7 +40,7 @@ pnpm dev
 
 ```bash
 pnpm dev          # Entwicklungsserver
-pnpm build        # Produktions-Build (Cloudflare Workers)
+pnpm build        # Produktions-Build
 pnpm generate     # Statische Seiten generieren
 pnpm preview      # Produktions-Build lokal vorschauen
 pnpm lint         # ESLint prüfen (kein Output = OK)
@@ -52,23 +52,19 @@ pnpm typecheck    # TypeScript-Prüfung
 
 Vor jedem Push laufen automatisch Lint und Typecheck (via `.githooks/pre-push`). Der Push wird abgebrochen, wenn einer der Checks fehlschlägt.
 
+In GitHub Actions läuft der `CI`-Workflow auf Branch-Pushes, Pull Requests gegen `main` und Pushes auf `main`. Er deployt nichts, sondern prüft nur: Lint, Typecheck, Content-Lint, Build, Ausschluss der Dev-Routen und Build-HTML.
+
 Manuell ausführen:
 
 ```bash
-pnpm lint && pnpm typecheck
+pnpm lint && pnpm typecheck && pnpm check:content
 ```
 
 ## Deployment
 
-Die Seite läuft auf Cloudflare Workers mit einer D1-Datenbank (`fackel1`). Das Deployment erfolgt über Wrangler:
+Das Produktions-Deployment läuft über den GitHub-Actions-Workflow `Deploy (Hetzner)`. Er startet automatisch erst dann, wenn der `CI`-Workflow auf `main` erfolgreich abgeschlossen wurde. Der Deploy-Workflow baut das Docker-Image, überträgt es auf den Hetzner-Host, führt dort `deploy.sh` aus und startet anschließend Smoke-Tests.
 
-```bash
-pnpm build
-npx wrangler deploy
-```
-
-Cloudflare Builder werden eingesetzt zum Deployment.
-Es gibt auch Builds in Github, die werden aber nirgendwo deployed.
+Zusätzlich kann `Deploy (Hetzner)` manuell per `workflow_dispatch` erneut gestartet werden, zum Beispiel für einen Redeploy ohne Codeänderung.
 
 
 ## Projektstruktur
@@ -89,7 +85,7 @@ website/
 ├── server/
 │   ├── api/              # Nitro API-Routen (Sitemap etc.)
 │   └── middleware/       # redirects.ts — HTTP-301-Weiterleitungen
-├── .githooks/            # Git-Hooks (pre-push: lint + typecheck)
+├── .githooks/            # Git-Hooks (pre-push: lint + typecheck + Content-Lint für geänderte Dateien)
 ├── content.config.ts     # Zod-Schemas für alle Content-Kollektionen
 └── nuxt.config.ts        # Nuxt-Konfiguration, Route Rules, Feeds, Sitemap
 ```

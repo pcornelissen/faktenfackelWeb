@@ -16,8 +16,6 @@
     "check:content": "tsx scripts/checkContent.ts",
     "check:content:fix": "tsx scripts/checkContent.ts --fix",
     "check:build": "tsx scripts/checkBuild.ts",
-    "deploy": "wrangler deploy && node scripts/indexnow.mjs",
-    "deploy:graph": "npx tsx scripts/generateSourceIndex.ts && wrangler d1 execute fackelgraph --file=.graph-d1.sql --remote",
     "indexnow": "node scripts/indexnow.mjs",
     "indexnow:all": "node scripts/indexnow.mjs --all",
     "indexnow:dry": "node scripts/indexnow.mjs --dry-run",
@@ -75,8 +73,7 @@
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "unplugin-icons": "^23.0.1",
-    "vue-tsc": "^3.2.6",
-    "wrangler": "^4.80.0"
+    "vue-tsc": "^3.2.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -85,8 +82,7 @@
       "esbuild",
       "sharp",
       "unrs-resolver",
-      "vue-demi",
-      "workerd"
+      "vue-demi"
     ],
     "overrides": {
       "serialize-javascript@<=7.0.2": ">=7.0.3"

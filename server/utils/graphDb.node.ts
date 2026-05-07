@@ -1,9 +1,6 @@
-// Node-runtime implementation of the GraphDB driver.
-//
-// Only loaded when the Cloudflare GRAPHDB binding is absent — see the
-// dynamic import in graphDb.ts. Wraps better-sqlite3 (synchronous) in
-// the same shape that the D1 binding exposes, so handlers don't need
-// to know which runtime they're on.
+// Node-runtime GraphDB driver.
+// Wraps better-sqlite3 (synchronous) in the D1-compatible interface
+// that graphDb.ts exposes to server handlers.
 
 import { existsSync } from 'node:fs'
 import Database from 'better-sqlite3'

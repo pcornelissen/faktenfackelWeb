@@ -8,17 +8,14 @@
 
 import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
-import { buildGraph, writeGraphD1Sql } from './buildGraph.ts'
+import { buildGraph } from './buildGraph.ts'
 
 /**
  * Pfad zum knowledge-mcp-Verzeichnis. Lokal liegt es als Schwester des Website-Repos
  * unter `../../knowledge-mcp`. In CI existiert dieser Pfad nicht — dort kann mit
  * `KNOWLEDGE_MCP_DIR` ein temporärer Ort gesetzt werden (z.B. `$RUNNER_TEMP/knowledge-mcp`).
  * Falls die Variable nicht gesetzt ist, fällt der Pfad auf den lokalen Default zurück.
- *
- * Für CI-Builds, bei denen nur das D1-SQL-Dump gebraucht wird, reicht es, dass dieser
- * Ort schreibbar ist; die hier abgelegten Caches und Indizes werden lokal vom MCP-Server
- * konsumiert, nicht in Produktion.
+ * Die hier abgelegten Caches und Indizes werden vom MCP-Server konsumiert.
  */
 const KNOWLEDGE_MCP_DIR = process.env.KNOWLEDGE_MCP_DIR
   ?? join(import.meta.dirname, '..', '..', 'knowledge-mcp')
@@ -412,10 +409,6 @@ async function main() {
   await mkdir(dirname(graphDbPath), { recursive: true })
   buildGraph({ sources, links, quotes, articles }, graphDbPath)
   console.log(`  Graph written to ${graphDbPath}`)
-
-  const d1SqlPath = join(import.meta.dirname, '..', '.graph-d1.sql')
-  const d1Stats = writeGraphD1Sql({ sources, links, quotes, articles }, d1SqlPath)
-  console.log(`  D1 SQL dump written to ${d1SqlPath} (${d1Stats.nodes} nodes, ${d1Stats.edges} edges)`)
 }
 
 main().catch(console.error)

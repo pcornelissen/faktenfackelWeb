@@ -30,7 +30,6 @@ logs
 #temp files
 **/~$*
 
-.graph-d1.sql
 public/dev/
 
 # Git worktrees
