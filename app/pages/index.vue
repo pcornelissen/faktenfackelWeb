@@ -197,7 +197,7 @@ defineOgImage('Default', {
 .section-link {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 0.8rem;
-  color: var(--ember);
+  color: var(--ember-text);
   text-decoration: none;
   letter-spacing: 0.08em;
   text-transform: uppercase;
