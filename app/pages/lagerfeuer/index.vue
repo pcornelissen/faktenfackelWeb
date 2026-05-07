@@ -92,7 +92,7 @@ const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith
   font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--flame);
+  color: var(--flame-text);
   font-weight: 600;
   margin-bottom: 0.45rem;
 }

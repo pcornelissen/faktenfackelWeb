@@ -97,6 +97,7 @@ export default defineNuxtConfig({
       '/mehr': staticPage,
       '/news': staticPage,
       '/themen': staticPage,
+      '/img/**': { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } },
       '/**/_info': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
       '/**/_info/': { headers: { 'X-Robots-Tag': 'noindex, follow' } },
     }

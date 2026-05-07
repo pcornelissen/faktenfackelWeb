@@ -100,7 +100,7 @@ function filter(list: Post[]) {
   font-size: 0.7rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--flame);
+  color: var(--flame-text);
   font-weight: 600;
 }
 

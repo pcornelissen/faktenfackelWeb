@@ -180,7 +180,7 @@ defineOgImage('Default', {
   font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--flame);
+  color: var(--flame-text);
   font-weight: 600;
 }
 
