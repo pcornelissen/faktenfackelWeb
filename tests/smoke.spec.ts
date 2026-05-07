@@ -261,31 +261,33 @@ test.describe('Graph API', () => {
     const res = await request.get('/api/graph/tags')
     expect(res.status()).toBe(200)
     const data = await res.json()
-    expect(data.length).toBeGreaterThan(0)
-    expect(data[0]).toHaveProperty('tag')
-    expect(data[0]).toHaveProperty('count')
+    expect(data.results.length).toBeGreaterThan(0)
+    expect(data.results[0]).toHaveProperty('tag')
+    expect(data.results[0]).toHaveProperty('count')
   })
 
   test('tag-Detail liefert Knoten', async ({ request }) => {
     const res = await request.get('/api/graph/tags/AfD')
     expect(res.status()).toBe(200)
     const data = await res.json()
-    expect(data.length).toBeGreaterThan(0)
-    expect(data[0]).toHaveProperty('type')
+    expect(data.results.length).toBeGreaterThan(0)
+    expect(data.results[0]).toHaveProperty('type')
   })
 
   test('referrers liefert Verweise', async ({ request }) => {
     const res = await request.get('/api/graph/referrers/correctiv')
     expect(res.status()).toBe(200)
     const data = await res.json()
-    expect(Array.isArray(data)).toBe(true)
+    expect(data.results).toBeDefined()
+    expect(data.count).toBeGreaterThanOrEqual(0)
   })
 
   test('co-sourced-by liefert Co-Quellen', async ({ request }) => {
     const res = await request.get('/api/graph/co-sourced-by/correctiv')
     expect(res.status()).toBe(200)
     const data = await res.json()
-    expect(Array.isArray(data)).toBe(true)
+    expect(data.results).toBeDefined()
+    expect(data.count).toBeGreaterThanOrEqual(0)
   })
 })
 
