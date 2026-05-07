@@ -38,6 +38,7 @@ useHead(computed(() => ({
   ],
   htmlAttrs: {
     lang: 'de-DE',
+    class: 'light',
   },
   script: [
     {
