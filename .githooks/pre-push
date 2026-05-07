@@ -10,4 +10,7 @@ pnpm typecheck || { echo "Typecheck failed — push aborted."; exit 1; }
 echo "Running content lint (changed files only)..."
 pnpm check:content --changed --quiet || { echo "Content-Lint fehlgeschlagen. Voll-Check: 'pnpm check:content'. Auto-Fix: 'pnpm check:content:fix' — push aborted."; exit 1; }
 
+echo "Building and checking HTML..."
+pnpm build --quiet 2>/dev/null && pnpm check:build || { echo "Build or HTML check failed — push aborted."; exit 1; }
+
 echo "All checks passed."
