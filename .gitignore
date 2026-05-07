@@ -30,6 +30,9 @@ logs
 #temp files
 **/~$*
 
+# Playwright test results
+test-results/
+
 public/dev/
 
 # Git worktrees
