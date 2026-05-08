@@ -32,6 +32,7 @@ tags:
   - Propaganda
   - Vortäuschung falscher Tatsachen
   - Rechte Gewalt
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Was ist passiert?

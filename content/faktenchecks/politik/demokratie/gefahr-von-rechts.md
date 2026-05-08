@@ -28,6 +28,7 @@ tags:
   - AfD
   - Gewalt
 description: "Es gebe keine Gefahr von rechts, heißt es oft. BKA-Zahlen, laufende Terrorprozesse und Opferdokumentationen zeigen das Gegenteil. Belege im Überblick."
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Behauptung

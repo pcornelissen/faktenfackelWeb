@@ -29,6 +29,7 @@ tags:
   - Die Linke
   - Antifaschismus
 description: "Linke Gewalt existiert, ist aber nicht mit rechter Gewalt gleichzusetzen. Ein Vergleich von PMK-Zahlen, Gewalttaten, Todesopfern und Organisationsformen."
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Behauptung

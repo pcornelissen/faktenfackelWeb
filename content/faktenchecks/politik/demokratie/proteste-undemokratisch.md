@@ -27,6 +27,7 @@ tags:
   - Generation-Deutschland
   - Demokratie
   - Protest
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Was ist passiert?

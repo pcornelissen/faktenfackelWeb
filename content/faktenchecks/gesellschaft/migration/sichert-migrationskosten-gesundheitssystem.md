@@ -27,6 +27,7 @@ tags:
   - AfD
   - Faktencheck
 description: "Sichert (AfD) wirft dem Bund vor, Migrationskosten im Gesundheitssystem zu verschweigen. Destatis-Zahlen stimmen, die fehlende Aufschlüsselung ist methodisch."
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Behauptung

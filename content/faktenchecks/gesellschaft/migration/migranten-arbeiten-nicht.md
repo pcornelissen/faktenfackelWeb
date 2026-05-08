@@ -25,6 +25,7 @@ tags:
   - Migranten
   - Arbeit
   - Stadtbild
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Was ist passiert?
