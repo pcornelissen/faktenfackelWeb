@@ -27,7 +27,7 @@ primarySources:
   - label: "junge Welt: Deutschland und Südafrika vertiefen Sicherheitszusammenarbeit (Reuters, 14. April 2026)"
     url: "https://www.jungewelt.de/artikel/521228.deutschland-und-s%C3%BCdafrika-vertiefen-sicherheitszusammenarbeit.html"
   - label: "Just Energy Transition Partnership: Politische Erklärung Glasgow 2021 (Bundesregierung)"
-    url: "https://www.bundesregierung.de/breg-de/aktuelles/g7-suedafrika-jetp-1985212"
+    url: "https://www.gtai.de/de/trade/welt/specials/just-energy-transition-partnerships-fuer-globale-energiewende-1025786"
   - label: "Europäische Kommission: Global Gateway"
     url: "https://international-partnerships.ec.europa.eu/policies/global-gateway_en"
 tags:
@@ -38,6 +38,7 @@ tags:
   - Entwicklungspolitik
   - JETP
   - Außenpolitik
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Was wird behauptet?
@@ -65,7 +66,7 @@ Die Pressemitteilung selbst spricht durchgängig von "Investitionen" und "Kredit
 
 ### Was ist die Just Energy Transition Partnership?
 
-Die [Just Energy Transition Partnership](https://www.bundesregierung.de/breg-de/aktuelles/g7-suedafrika-jetp-1985212) wurde 2021 auf der Weltklimakonferenz in Glasgow geschlossen. Beteiligt sind Südafrika und auf der Geberseite Deutschland, Frankreich, Großbritannien, die USA und die EU. Ziel ist die Unterstützung Südafrikas beim Ausstieg aus der Kohleverstromung – Südafrika erzeugt rund 80 Prozent seines Stroms aus Kohle und ist damit einer der weltweit größten CO2-Emittenten pro Kopf.
+Die [Just Energy Transition Partnership](https://www.gtai.de/de/trade/welt/specials/just-energy-transition-partnerships-fuer-globale-energiewende-1025786) wurde 2021 auf der Weltklimakonferenz in Glasgow geschlossen. Beteiligt sind Südafrika und auf der Geberseite Deutschland, Frankreich, Großbritannien, die USA und die EU. Ziel ist die Unterstützung Südafrikas beim Ausstieg aus der Kohleverstromung – Südafrika erzeugt rund 80 Prozent seines Stroms aus Kohle und ist damit einer der weltweit größten CO2-Emittenten pro Kopf.
 
 Die deutsche Zusage vom 13. April 2026 ist damit keine spontane CDU-Initiative von Bundesaußenminister Wadephul, sondern die Umsetzung einer bestehenden vertraglichen Verpflichtung im multilateralen Rahmen. Dass die Sitzung durch einen CDU-Außenminister geleitet wurde, ändert nichts am Charakter der Zusage. Die JETP wurde unter der Vorgängerregierung Merkel/Scholz geschlossen und seither von wechselnden Bundesregierungen umgesetzt.
 

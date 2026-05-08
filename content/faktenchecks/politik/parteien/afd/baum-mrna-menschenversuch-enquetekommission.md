@@ -40,6 +40,7 @@ tags:
   - Querdenker
   - Desinformation
   - Enquetekommission
+linkcheck: 2026-05-08T16:00:00Z
 ---
 
 ## Was wird behauptet?
@@ -65,7 +66,7 @@ Der Begriff "Menschenversuch" ist nicht beliebig. Seit dem Nürnberger Kodex (19
 
 Die COVID-Impfkampagne erfüllt keines der Merkmale eines Menschenversuchs in diesem Sinne:
 
-- **Freiwilligkeit:** Es gab in Deutschland keine allgemeine Impfpflicht. Die [einrichtungsbezogene Impfpflicht](https://www.bundesgesundheitsministerium.de/themen/gesundheitswesen/impfpflicht-corona/begriffe-zur-impfpflicht.html) für Pflege- und Gesundheitsbereich galt von März bis Dezember 2022 in einem klar abgegrenzten Sektor und wurde nach Bundestagsbeschluss vom 16. Dezember 2022 wieder aufgehoben. Jede Impfung erforderte vorherige Aufklärung und Einwilligung.
+- **Freiwilligkeit:** Es gab in Deutschland keine allgemeine Impfpflicht. Die einrichtungsbezogene Impfpflicht für Pflege- und Gesundheitsbereich galt von März bis Dezember 2022 in einem klar abgegrenzten Sektor und wurde nach Bundestagsbeschluss vom 16. Dezember 2022 wieder aufgehoben. Jede Impfung erforderte vorherige Aufklärung und Einwilligung.
 - **Vorklinische Grundlage:** Die mRNA-Plattform wird seit den 1990er Jahren erforscht; der erste Übersichtsartikel zur mRNA-Impfung in *Nature Reviews Drug Discovery* erschien 2018, also vor SARS-CoV-2.
 - **Ethische Standards:** Die klinischen Studien wurden von Ethikkommissionen geprüft und liefen nach den Regeln der Good Clinical Practice ab.
 
