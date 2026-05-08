@@ -3,7 +3,7 @@ publishedOn: 2026-05-08
 date: 2026-05-08
 title: "Entlastet der Tankrabatt die Bevölkerung?"
 subtitle: "Die Bundesregierung senkte die Energiesteuer um 14 Cent. Beim Verbraucher kommen laut ifo-Institut nur 4 bis 12 Cent an."
-description: "Der Tankrabatt (14,04 Cent/Liter Energiesteuersenkung seit 1. Mai 2026) erreicht die Verbraucher nur teilweise. Laut ifo-Institut kamen bei Benzin 12 Cent, bei Diesel nur 4 Cent an. Das Öloligopol aus fünf Konzernen, die 65 Prozent des deutschen Marktes kontrollieren, absorbiert einen Großteil der Entlastung. Alle befragten Wirtschaftsinstitute bewerten den Rabatt als verfehlt."
+description: "Der Tankrabatt senkt die Energiesteuer um 14 Cent, doch beim Verbraucher kommen laut ifo-Institut nur 4 bis 12 Cent an. Das Oligopol absorbiert den Rest."
 verdict: misleading
 claim: "Der Tankrabatt senkt die Spritpreise und entlastet die Verbraucher."
 claimAuthor: "Bundesregierung"
@@ -36,7 +36,7 @@ tags:
 
 ## Was wird behauptet?
 
-Die Bundesregierung senkte zum 1.&nbsp;Mai 2026 die Energiesteuer auf Kraftstoffe temporär um 14,04 Cent pro Liter, befristet bis zum 30.&nbsp;Juni 2026. Finanzminister Kukies und Wirtschaftsministerin :quelle-ref{name="katharina-reiche"} begründeten die Maßnahme als spürbare Entlastung für Autofahrer angesichts gestiegener Ölpreise. Der Brent-Preis hatte Ende April ein Vier-Jahres-Hoch über 125 Dollar pro Barrel erreicht.
+Die Bundesregierung senkte zum 1. Mai 2026 die Energiesteuer auf Kraftstoffe temporär um 14,04 Cent pro Liter, befristet bis zum 30. Juni 2026. Finanzminister Kukies und Wirtschaftsministerin :quelle-ref{name="katharina-reiche"} begründeten die Maßnahme als spürbare Entlastung für Autofahrer angesichts gestiegener Ölpreise. Der Brent-Preis hatte Ende April ein Vier-Jahres-Hoch über 125 Dollar pro Barrel erreicht.
 
 ## Faktencheck
 
@@ -48,7 +48,7 @@ Nur teilweise. Laut [ifo-Institut Tankrabatt-Tracker](https://www.ifo.de/en/fuel
 
 Das Bundeskartellamt hat den deutschen Kraftstoffmarkt bereits 2011 als [Oligopol ohne wesentlichen Wettbewerb](https://www.bundeskartellamt.de/SharedDocs/Publikation/DE/Sektoruntersuchungen/Sektoruntersuchung%20Kraftstoffe%20-%20Abschlussbericht.html) eingestuft. Fünf Konzerne (BP/Aral, Shell, ExxonMobil/Esso, TotalEnergies, Phillips 66/Jet) kontrollieren rund 65 Prozent des deutschen Kraftstoffabsatzes. Diese Marktstruktur ermöglicht es den Anbietern, Steuersenkungen nicht vollständig weiterzugeben, sondern als zusätzliche Marge einzubehalten.
 
-Erschwerend kam hinzu, dass das OLG Düsseldorf am 30.&nbsp;April 2026, einen Tag vor Inkrafttreten des Tankrabatts, ein [Auskunftsersuchen des Bundeskartellamts](https://www.handelsblatt.com/politik/deutschland/benzin-und-diesel-gericht-stoppt-sprit-ueberpruefung-des-kartellamts-vorerst/100221501.html) gegen die Preisinformationsdienste Argus Media und S&P Global im Eilverfahren stoppte. Damit fehlt der Behörde ein zentrales Instrument zur Marktmachtkontrolle.
+Erschwerend kam hinzu, dass das OLG Düsseldorf am 30. April 2026, einen Tag vor Inkrafttreten des Tankrabatts, ein [Auskunftsersuchen des Bundeskartellamts](https://www.handelsblatt.com/politik/deutschland/benzin-und-diesel-gericht-stoppt-sprit-ueberpruefung-des-kartellamts-vorerst/100221501.html) gegen die Preisinformationsdienste Argus Media und S&P Global im Eilverfahren stoppte. Damit fehlt der Behörde ein zentrales Instrument zur Marktmachtkontrolle.
 
 ### Was sagen die Wirtschaftsinstitute?
 
