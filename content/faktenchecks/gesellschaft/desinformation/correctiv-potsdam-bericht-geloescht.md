@@ -3,7 +3,7 @@ publishedOn: 2026-05-09
 date: 2026-05-09
 title: "Hat Correctiv den Potsdam-Bericht gelöscht?"
 subtitle: "In rechten Kanälen heißt es, Correctiv habe den Bericht über das Potsdamer Treffen gelöscht, weil sie vor Gericht verloren haben. Was wirklich passiert ist."
-description: "Die Behauptung, Correctiv habe den Potsdam-Bericht 'Geheimplan gegen Deutschland' gelöscht, ist irreführend. Ein Berliner Gericht untersagte zwei Formulierungen, der Artikel ist weiterhin online. Das Landgericht Hamburg urteilte in Parallelverfahren gegenteilig. Die Kernrecherche über das Treffen, Sellners Vortrag und die Teilnehmer ist juristisch unangefochten."
+description: "Correctiv hat den Potsdam-Bericht nicht gelöscht. Ein Gericht beanstandete zwei Formulierungen, der Artikel ist online. Die Kernrecherche ist unangefochten."
 verdict: misleading
 claim: "Correctiv hat den Potsdam-Bericht gelöscht, weil sie vor Gericht verloren haben"
 claimAppearance: "https://www.facebook.com/reel/1299288085728867"
