@@ -9,9 +9,9 @@ Zwei neue Faktenchecks, sechs Quellenlinks und eine neue Quelle.
 
 ## Zwei neue Faktenchecks
 
-**[Gefälschte Demo-Videos nach der Amokfahrt in Leipzig](/faktenchecks/gesellschaft/desinformation/manipulierte-afd-demo-videos-leipzig/)** -- Nach der Amokfahrt am 4. Mai tauchten auf TikTok vier Videos auf, die angeblich 50.000 Pro-AfD-Demonstranten in Leipzig zeigen. CORRECTIV hat nachgewiesen: Die Aufnahmen stammen aus Nürnberg, München, Kassel und Hamburg, die Tonspur ist recyceltes Archivmaterial. Urteil: falsch.
+**[Gefälschte Demo-Videos nach der Amokfahrt in Leipzig](/faktenchecks/gesellschaft/desinformation/manipulierte-afd-demo-videos-leipzig/)** -- Nach der Amokfahrt am 4. Mai tauchten auf TikTok vier Videos auf, die angeblich 50.000 Pro-AfD-Demonstranten in Leipzig zeigen. CORRECTIV hat nachgewiesen: Die Aufnahmen stammen aus Nürnberg, München, Kassel und Hamburg, die Tonspur ist recyceltes Archivmaterial. Urteil: falsch.
 
-**[AfD "Deutschland entlasten": Was die Vorschläge wirklich bringen](/faktenchecks/politik/parteien/afd/deutschland-entlasten-kampagne-faktencheck/)** -- Die AfD-Bundestagsfraktion bewirbt ihre Kampagne mit der Zahl, 60 Prozent des Kraftstoffpreises seien Steuern und Abgaben. Die Zahl war vor der Energiesteuersenkung vom 1. Mai annähernd korrekt, ist jetzt aber überholt. Die Gegenfinanzierung bleibt vage oder haushaltlich unrealistisch. Urteil: irreführend.
+**[AfD "Deutschland entlasten": Was die Vorschläge wirklich bringen](/faktenchecks/politik/parteien/afd/deutschland-entlasten-kampagne-faktencheck/)** -- Die AfD-Bundestagsfraktion bewirbt ihre Kampagne mit der Zahl, 60 Prozent des Kraftstoffpreises seien Steuern und Abgaben. Die Zahl war vor der Energiesteuersenkung vom 1. Mai annähernd korrekt, ist jetzt aber überholt. Die Gegenfinanzierung bleibt vage oder haushaltlich unrealistisch. Urteil: irreführend.
 
 ## Neue Quelle: Leipziger Zeitung
 

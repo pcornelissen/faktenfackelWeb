@@ -69,14 +69,16 @@ if (!fmMatch) {
 const body = fmMatch[2]
 
 // Frontmatter: image-Pfad extrahieren
-const imageMatch = fmMatch[1].match(/^image:\s*(.+)$/m)
-const imageName = imageMatch ? imageMatch[1].trim() : null
+const imageMatch = fmMatch[1].match(/^image:[ \t]+(\S.+)$/m)
+const rawImageName = imageMatch ? imageMatch[1].trim() : null
+const imageName = (rawImageName && rawImageName !== 'null') ? rawImageName : null
 const draftDir = dirname(resolve(draftPath))
 const imagePath = imageName ? resolve(draftDir, imageName) : null
 
 // Frontmatter: article-Pfad zu voller Faktenfackel-URL zusammensetzen (fuer FB-Kommentar)
-const articleMatch = fmMatch[1].match(/^article:\s*(.+)$/m)
-const articlePath = articleMatch ? articleMatch[1].trim() : null
+const articleMatch = fmMatch[1].match(/^article:[ \t]+(\S.+)$/m)
+const rawArticlePath = articleMatch ? articleMatch[1].trim() : null
+const articlePath = (rawArticlePath && rawArticlePath !== 'null') ? rawArticlePath : null
 const articleUrl = articlePath
   ? `https://faktenfackel.de${articlePath.startsWith('/') ? '' : '/'}${articlePath}${articlePath.endsWith('/') ? '' : '/'}`
   : null
