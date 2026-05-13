@@ -12,14 +12,18 @@
  *   - Typografische Anführungszeichen („ " « »)
  *   - Datum ohne NBSP vor Monatsname
  *   - URL-unsichere Zeichen in Frontmatter-Tags
+ *   - Broken internal links (gegen Content-Routen + statische Seiten)
+ *   - Broken external links (HTTP HEAD/GET Erreichbarkeitscheck)
  *
  * Usage:
  *   pnpm check:content           # nur prüfen
  *   pnpm check:content --fix     # auto-fix für NBSP-Entity + typogr. Quotes
  *   pnpm check:content --quiet   # nur Zusammenfassung
+ *   pnpm check:content --no-external  # ohne externe Link-Checks
  */
 
 import { execFile } from 'node:child_process'
+import { existsSync } from 'node:fs'
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { join, relative, resolve } from 'node:path'
 import { promisify } from 'node:util'
@@ -135,6 +139,278 @@ async function collectComponentNames(root: string): Promise<Set<string>> {
   }
   await walk(root)
   return names
+}
+
+// -- Link-Linter: Bekannte Routen --
+
+const PUBLIC_DIR = join(PROJECT_ROOT, 'public')
+
+function contentPathToRoute(filepath: string): string {
+  const route = '/' + relative(CONTENT_ROOT, filepath)
+    .replace(/\.md$/, '')
+    .replace(/\\/g, '/')
+  return route.replace(/\/index$/, '').replace(/\/$/, '') || '/'
+}
+
+async function buildKnownRoutes(): Promise<Set<string>> {
+  const routes = new Set<string>()
+  const allFiles = await collectMarkdownFiles(CONTENT_ROOT)
+  for (const f of allFiles) {
+    const route = contentPathToRoute(f)
+    routes.add(route)
+    routes.add(route + '/')
+  }
+  const staticPages = [
+    '/', '/impressum', '/datenschutz', '/kontakt', '/faq',
+    '/about', '/bewertungsmasstab', '/mehr',
+    '/faktenchecks', '/lagerfeuer', '/glossar', '/quellen', '/zitate',
+    '/news', '/themen', '/tags',
+  ]
+  for (const p of staticPages) {
+    routes.add(p)
+    routes.add(p + '/')
+  }
+  return routes
+}
+
+interface RedirectIndex {
+  exact: Set<string>
+  prefixes: string[]
+}
+
+async function buildRedirectSources(): Promise<RedirectIndex> {
+  const exact = new Set<string>()
+  const prefixes: string[] = []
+  try {
+    const redirectsPath = join(PROJECT_ROOT, 'server', 'middleware', 'redirects.ts')
+    const content = await readFile(redirectsPath, 'utf-8')
+
+    // Exact link redirects (linkRedirects object)
+    const linkSection = content.match(/const linkRedirects[^{]*\{([\s\S]*?)\n\}/)?.[1] ?? ''
+    const linkRe = /^\s*'([^']+)':/gm
+    let m: RegExpExecArray | null
+    while ((m = linkRe.exec(linkSection)) !== null) {
+      exact.add(m[1].replace(/\/$/, ''))
+    }
+
+    // Prefix redirects (prefixRedirects object)
+    const prefixSection = content.match(/const prefixRedirects[^{]*\{([\s\S]*?)\n\}/)?.[1] ?? ''
+    const prefixRe = /^\s*'([^']+)':/gm
+    while ((m = prefixRe.exec(prefixSection)) !== null) {
+      prefixes.push(m[1].replace(/\/$/, ''))
+    }
+  } catch { /* file not found, no problem */ }
+  return { exact, prefixes }
+}
+
+// -- Link-Linter: Links extrahieren --
+
+interface ExtractedLink {
+  url: string
+  resolvedUrl: string
+  line: number
+  source: 'markdown' | 'frontmatter'
+}
+
+function extractLinks(text: string, lines: string[]): ExtractedLink[] {
+  const links: ExtractedLink[] = []
+  const fm = extractFrontmatter(text)
+  const bodyStartLine = fm ? text.slice(0, fm.end).split('\n').length : 0
+
+  // Frontmatter: uri field
+  if (fm?.fields.uri) {
+    const uri = fm.fields.uri
+    const fmLines = fm.raw.split('\n')
+    let uriLine = 1
+    for (let i = 0; i < fmLines.length; i++) {
+      if (fmLines[i].match(/^uri:\s/)) {
+        uriLine = i + 2
+        break
+      }
+    }
+    links.push({
+      url: uri,
+      resolvedUrl: uri.split('#')[0].split('?')[0],
+      line: uriLine,
+      source: 'frontmatter',
+    })
+  }
+
+  // Body: Markdown links [text](url) and ![alt](url)
+  const mdLinkRegex = /\[([^\]]*)\]\(([^)]+)\)/g
+  for (let i = bodyStartLine; i < lines.length; i++) {
+    const line = lines[i]
+    let match: RegExpExecArray | null
+    mdLinkRegex.lastIndex = 0
+    while ((match = mdLinkRegex.exec(line)) !== null) {
+      const rawUrl = match[2].split('#')[0].split('?')[0].trim()
+      if (!rawUrl) continue
+      if (!rawUrl.startsWith('/') && !rawUrl.startsWith('http://') && !rawUrl.startsWith('https://')) continue
+      links.push({
+        url: match[2],
+        resolvedUrl: rawUrl,
+        line: i + 1,
+        source: 'markdown',
+      })
+    }
+  }
+
+  return links
+}
+
+// -- Link-Linter: Interne Links pruefen --
+
+function checkInternalLinkSync(
+  url: string,
+  knownRoutes: Set<string>,
+  redirects: RedirectIndex,
+): { severity: Severity, message: string } | null {
+  const normalized = url.replace(/\/$/, '')
+  if (url.startsWith('#')) return null
+  if (url.startsWith('mailto:') || url.startsWith('tel:')) return null
+
+  if (
+    url.startsWith('/images/') || url.startsWith('/fonts/')
+    || url.startsWith('/favicon') || url.startsWith('/files/')
+    || url.startsWith('/robots') || url.startsWith('/sitemap')
+  ) {
+    if (!existsSync(join(PUBLIC_DIR, url))) {
+      return { severity: 'error', message: `Asset nicht gefunden: ${url}` }
+    }
+    return null
+  }
+
+  if (url.startsWith('/api/')) return null
+  if (url.startsWith('/dev/')) return null
+  if (url.startsWith('/rss') || url.startsWith('/feed') || url.startsWith('/_nuxt/')) return null
+
+  // Exact redirect sources
+  if (redirects.exact.has(normalized)) return null
+  // Prefix redirect sources (dissolved sources whose sub-paths are all redirected)
+  if (redirects.prefixes.some(p => normalized === p || normalized.startsWith(p + '/'))) return null
+
+  if (normalized.startsWith('/tags/')) return null
+  if (normalized.startsWith('/autoren/')) return null
+
+  if (knownRoutes.has(normalized) || knownRoutes.has(normalized + '/')) return null
+
+  return { severity: 'error', message: `Interner Link zeigt ins Leere: ${url}` }
+}
+
+// -- Link-Linter: Externe Links pruefen --
+
+const externalLinkCache = new Map<string, string | null>()
+
+async function checkExternalLink(url: string): Promise<string | null> {
+  if (!url.startsWith('http://') && !url.startsWith('https://')) return null
+  const cacheKey = url.split('#')[0].split('?')[0]
+  if (externalLinkCache.has(cacheKey)) return externalLinkCache.get(cacheKey) ?? null
+
+  try {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 10_000)
+
+    let response = await fetch(url, {
+      method: 'HEAD',
+      signal: controller.signal,
+      redirect: 'follow',
+      headers: { 'User-Agent': 'Faktenfackel-LinkChecker/1.0', 'Accept': 'text/html,*/*' },
+    })
+
+    if (response.status === 405 || response.status === 403) {
+      response = await fetch(url, {
+        method: 'GET',
+        signal: controller.signal,
+        redirect: 'follow',
+        headers: { 'User-Agent': 'Faktenfackel-LinkChecker/1.0', 'Accept': 'text/html,*/*' },
+      })
+    }
+
+    clearTimeout(timeout)
+
+    if (response.status >= 400) {
+      const result = `HTTP ${response.status}: ${url}`
+      externalLinkCache.set(cacheKey, result)
+      return result
+    }
+    externalLinkCache.set(cacheKey, null)
+    return null
+  } catch (err: unknown) {
+    const e = err as { name?: string, message?: string }
+    const msg = e.name === 'AbortError'
+      ? `Timeout (10s): ${url}`
+      : `Nicht erreichbar: ${url} (${e.message ?? 'unbekannt'})`
+    externalLinkCache.set(cacheKey, msg)
+    return msg
+  }
+}
+
+// -- Link-Linter: Orchestrierung --
+
+async function checkBrokenLinks(
+  files: string[],
+  texts: Map<string, string>,
+  findings: Finding[],
+  quiet: boolean,
+  noExternal: boolean,
+): Promise<void> {
+  if (!quiet) console.log(`${GRAY}Baue Routen-Index auf ...${RESET}`)
+  const knownRoutes = await buildKnownRoutes()
+  const redirects = await buildRedirectSources()
+  if (!quiet) console.log(`${GRAY}${knownRoutes.size} bekannte Routen, ${redirects.exact.size} exakte + ${redirects.prefixes.length} Prefix-Redirects${RESET}`)
+
+  const externalChecks: Array<{ url: string, file: string, line: number }> = []
+  const linesCache = new Map<string, string[]>()
+
+  for (const file of files) {
+    const text = texts.get(file)
+    if (!text) continue
+    const fileLines = splitLines(text)
+    linesCache.set(file, fileLines)
+    const links = extractLinks(text, fileLines)
+
+    for (const link of links) {
+      if (link.resolvedUrl.startsWith('http://') || link.resolvedUrl.startsWith('https://')) {
+        externalChecks.push({ url: link.url.split('#')[0], file, line: link.line })
+      } else if (link.resolvedUrl.startsWith('/')) {
+        const result = checkInternalLinkSync(link.resolvedUrl, knownRoutes, redirects)
+        if (result) {
+          findings.push({
+            file,
+            line: link.line,
+            col: 1,
+            rule: 'broken-internal-link',
+            message: result.message,
+            snippet: snippetAt(fileLines, link.line),
+            severity: result.severity,
+          })
+        }
+      }
+    }
+  }
+
+  if (externalChecks.length > 0 && !noExternal) {
+    if (!quiet) console.log(`${GRAY}Pruefe ${externalChecks.length} externe Links ...${RESET}`)
+    const CONCURRENCY = 5
+    for (let i = 0; i < externalChecks.length; i += CONCURRENCY) {
+      const batch = externalChecks.slice(i, i + CONCURRENCY)
+      await Promise.all(batch.map(async (check) => {
+        const error = await checkExternalLink(check.url)
+        if (error) {
+          const fileLines = linesCache.get(check.file) ?? []
+          findings.push({
+            file: check.file,
+            line: check.line,
+            col: 1,
+            rule: 'broken-external-link',
+            message: error,
+            snippet: snippetAt(fileLines, check.line),
+            severity: 'warn',
+          })
+        }
+      }))
+    }
+  }
 }
 
 function splitLines(text: string): string[] {
@@ -834,6 +1110,7 @@ async function main() {
   const fix = args.includes('--fix')
   const quiet = args.includes('--quiet')
   const changedOnly = args.includes('--changed')
+  const noExternal = args.includes('--no-external')
   const allowlist = await collectComponentNames(COMPONENTS_ROOT)
   if (!quiet) console.log(`${GRAY}Component-Allowlist: ${allowlist.size} Namen${RESET}`)
 
@@ -847,12 +1124,16 @@ async function main() {
   }
 
   const findings: Finding[] = []
+  const texts = new Map<string, string>()
+
   for (const file of files) {
     const text = await readFile(file, 'utf-8')
+    texts.set(file, text)
     if (fix) {
       const fixed = autofix(text)
       if (fixed !== text) {
         await writeFile(file, fixed)
+        texts.set(file, fixed)
         checkFile(file, fixed, allowlist, findings)
       } else {
         checkFile(file, text, allowlist, findings)
@@ -861,6 +1142,9 @@ async function main() {
       checkFile(file, text, allowlist, findings)
     }
   }
+
+  // Link-Linter (async, HTTP)
+  await checkBrokenLinks(files, texts, findings, quiet, noExternal)
 
   const errorCount = report(findings, quiet)
   process.exit(errorCount > 0 ? 1 : 0)
