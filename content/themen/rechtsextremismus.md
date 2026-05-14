@@ -19,7 +19,6 @@ matchTags:
     - Faschismus
   exclude:
     - more-research-needed
-    - research-done-review-pending
 featured:
   faktenchecks:
     - /faktenchecks/politik/demokratie/gefahr-von-rechts

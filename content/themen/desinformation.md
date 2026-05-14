@@ -18,7 +18,6 @@ matchTags:
     - KI
   exclude:
     - more-research-needed
-    - research-done-review-pending
 featured:
   faktenchecks:
     - /faktenchecks/politik/parteien/afd/klimaleugnung

@@ -4,6 +4,7 @@ publishedOn: 2026-04-30
 lastScanned: 2026-05-01
 name: "Jens Schulz"
 description: "Influencer aus dem Kreis Cuxhaven, Selbstbezeichnung \"Digital Creator\", rund 29.000 Facebook-Follower. Laut Belltower.News und Tagesspiegel rassistische und AfD-affine Posts dokumentiert. Schulz bestreitet eine AfD-Mitgliedschaft."
+imageAuthor: "Privatperson ohne Bild"
 tags:
   - Rechte-Mobilisierung
   - Influencer

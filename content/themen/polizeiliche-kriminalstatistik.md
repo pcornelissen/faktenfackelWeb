@@ -16,7 +16,6 @@ matchTags:
     - Tatverdächtigenbelastungszahl
   exclude:
     - more-research-needed
-    - research-done-review-pending
 featured:
   faktenchecks:
     - /faktenchecks/gesellschaft/kriminalitaet/dobrindt-pks-2025

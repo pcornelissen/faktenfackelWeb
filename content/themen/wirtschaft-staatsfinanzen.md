@@ -22,7 +22,6 @@ matchTags:
     - Rente
   exclude:
     - more-research-needed
-    - research-done-review-pending
 featured:
   lagerfeuer:
     - /lagerfeuer/wirtschaft/wer-gewinnt-wer-verliert
