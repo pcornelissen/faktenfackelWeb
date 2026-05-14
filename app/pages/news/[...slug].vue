@@ -2,8 +2,10 @@
 import { useAsyncData, useRoute } from 'nuxt/app'
 import { definePageData, nowIso } from '~/utils/contentUtils'
 import { resolveAuthors } from '~/utils/authors'
+import { useReferencesStore } from '~/utils/referenceData'
 
 const route = useRoute()
+const referencesStore = useReferencesStore()
 const basePath = route.path
 
 const { data: surround } = await useAsyncData(`${route.path}-news-surround`, () => {
@@ -46,6 +48,8 @@ const modifiedLabel = modifiedIso ? dateString(modifiedIso) : ''
 const showModifiedDate = publishedIso !== modifiedIso
 const { url: siteUrl } = useSiteConfig()
 const author = resolveAuthors(undefined)[0]!
+
+await referencesStore.fetchFor(page.value)
 
 useHead({
   script: [

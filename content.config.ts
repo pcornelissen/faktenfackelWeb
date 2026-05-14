@@ -102,6 +102,8 @@ export default defineContentConfig({
         title: z.string(),
         teaser: z.string().optional(),
         publishedOn: z.date().or(z.null()),
+        referenceCodes: z.array(z.string()).optional(),
+        quoteCodes: z.array(z.string()).optional(),
       }).strict(),
     }),
     themen: defineCollection({
