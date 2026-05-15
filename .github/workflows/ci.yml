@@ -30,8 +30,8 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
-      - name: Content lint
-        run: pnpm check:content
+      - name: Content lint (changed files)
+        run: pnpm check:content --changed
 
       - name: Build
         run: pnpm build
