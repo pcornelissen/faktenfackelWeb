@@ -122,7 +122,7 @@ Die jetzige "Menschenversuch"-Aussage ist die parlamentarische Eskalation der Qu
 
 ## Das Muster
 
-AfD-Pressemitteilungen rund um die COVID-Pandemie folgen einem Schema: Eine punktuelle Methodenkritik wird zur Generalanklage gegen die staatliche Pandemiebekämpfung umgedeutet, garniert mit einem Schwurwort aus dem Querdenker-Vokabular ("Menschenversuch", "Impftragödie", "Genozid"). Inhaltlich vergleichbare Verschiebungen finden sich in der [Pharmakovigilanz-Pressemitteilung Baums vom 28. April 2026](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz/) und in den [Pubertätsblocker-](/faktenchecks/politik/parteien/afd/sichert-pubertaetsblocker-moratorium/) und [Migrationskosten-](/faktenchecks/politik/parteien/afd/sichert-migrationskosten-gesundheit/)Pressemitteilungen Martin Sicherts.
+AfD-Pressemitteilungen rund um die COVID-Pandemie folgen einem Schema: Eine punktuelle Methodenkritik wird zur Generalanklage gegen die staatliche Pandemiebekämpfung umgedeutet, garniert mit einem Schwurwort aus dem Querdenker-Vokabular ("Menschenversuch", "Impftragödie", "Genozid"). Inhaltlich vergleichbare Verschiebungen finden sich in der [Pharmakovigilanz-Pressemitteilung Baums vom 28. April 2026](/faktenchecks/politik/parteien/afd/baum-impfsicherheit-pharmakovigilanz/) und in der [Migrationskosten-Pressemitteilung Martin Sicherts](/faktenchecks/gesellschaft/migration/sichert-migrationskosten-gesundheitssystem).
 
 ## Fazit
 

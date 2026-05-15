@@ -11,4 +11,4 @@ tags: []
 
 Nicht jede Falschinformation ist zufällig oder unabsichtlich entstanden. Dieser Bereich analysiert gezielte Desinformationskampagnen: wer dahintersteckt, welche Muster sie nutzen und wie sie erkannt werden können. Themen sind staatliche Akteure wie Russland und China, aber auch interne Netzwerke: AfD-Propaganda, Springer-Presse, NIUS und ähnliche Strukturen.
 
-[Was dieser Bereich macht und warum: Einführung lesen](/lagerfeuer/desinformation/einfuehrung)
+[Was dieser Bereich macht und warum: Einführung lesen](/lagerfeuer/desinformation/2026-04-16.einfuehrung)

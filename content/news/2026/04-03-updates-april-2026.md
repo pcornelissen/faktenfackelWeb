@@ -7,7 +7,7 @@ publishedOn: 2026-04-03
 
 Heute gibt es gleich mehrere Ergänzungen auf Faktenfackel.
 
-Neu im Lagerfeuer ist ein ausführlicher Artikel über [Xavier Naidoos Weg vom gefeierten Popstar zum Verschwörungsredner](/lagerfeuer/perspektiven/xavier-naidoo-vom-popstar-zum-verschwoerungsredner/). Reichsbürger-Auftritt 2014, QAnon-Phase, DSDS-Rauswurf, Volksverhetzungs-Anklagen und die Demos 2026 mit KI-generierten Teilnehmerbildern, alles chronologisch und mit Quellen belegt.
+Neu im Lagerfeuer ist ein ausführlicher Artikel über [Xavier Naidoos Weg vom gefeierten Popstar zum Verschwörungsredner](/lagerfeuer/perspektiven/2026-04-03.xavier-naidoo-vom-popstar-zum-verschwoerungsredner). Reichsbürger-Auftritt 2014, QAnon-Phase, DSDS-Rauswurf, Volksverhetzungs-Anklagen und die Demos 2026 mit KI-generierten Teilnehmerbildern, alles chronologisch und mit Quellen belegt.
 
 Passend dazu haben wir den [Correctiv-Faktencheck zum KI-generierten Luftbild](/quellen/faktenchecks/correctiv/links/20260402.naidoo-demo-ki-luftbild/) der Naidoo-Demo als Quellenlink aufgenommen. Das Bild, das angeblich eine riesige Menschenmenge zeigt, wurde durch ein eingebettetes Google-Gemini-Logo und typische KI-Artefakte als Fälschung entlarvt.
 
