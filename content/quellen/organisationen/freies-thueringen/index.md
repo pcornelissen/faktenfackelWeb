@@ -17,7 +17,7 @@ tags:
 
 "Freies Thüringen" ist eines der zentralen rechtsextremen Protestnetzwerke in Thüringen. Es trat zunächst vor allem im Kontext der Corona-Proteste und sogenannten Montagsspaziergänge in Erscheinung. Die [Mobile Beratung gegen Rechtsextremismus in Thüringen (MOBIT)](https://mobit.org/reichsburger-in-thuringen/) ordnet das Netzwerk als zentralen Knotenpunkt zwischen Reichsbürger-Szene, Neonazi-Spektrum und AfD ein. Über den Telegram-Kanal des Netzwerks wurden 2023 unter anderem Werbeflyer für die "Wahlkommissionen" des Reichsbürger-Umsturzplaners Heinrich XIII. Prinz Reuß verbreitet (Quelle: MOBIT).
 
-Zentrale Mobilisierungsfigur ist der Reichsbürger :quelle-ref{name="frank-haussner"}[Frank Haußner] aus Zeulenroda. Das Netzwerk tritt regelmäßig gemeinsam mit der :quelle-ref{name="afd"}[AfD Thüringen] auf, etwa bei der Anti-Windkraft-Demonstration in Linda (Saale-Orla-Kreis) am 25.&nbsp;April 2026.
+Zentrale Mobilisierungsfigur ist der Reichsbürger :quelle-ref{name="frank-haussner"}[Frank Haußner] aus Zeulenroda. Das Netzwerk tritt regelmäßig gemeinsam mit der :quelle-ref{name="afd"}[AfD Thüringen] auf, etwa bei der Anti-Windkraft-Demonstration in Linda (Saale-Orla-Kreis) am 25. April 2026.
 
 ## Faktenfackel Bewertung
 

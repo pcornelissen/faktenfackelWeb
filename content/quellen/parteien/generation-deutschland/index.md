@@ -27,7 +27,7 @@ Mehrere Funktionäre haben dokumentierte Verbindungen zur Identitären Bewegung,
 
 ## Faktenfackel Bewertung
 
-Die GD ist keine vertrauenswürdige Informationsquelle. Eigene Verlautbarungen der Organisation enthalten regelmäßig Geschichtsrevisionismus (etwa die Bezeichnung des 8.&nbsp;Mai 1945 als "größte Tragödie" des deutschen Volkes durch die AfD-Jugend Bayern) sowie offene Bezüge auf die "Identitäre Bewegung". Statements von GD-Funktionären sind als Aussagen einer rechtsextremen Jugendorganisation einzuordnen, die personell und ideologisch in direkter Fortsetzung der gesichert rechtsextremen Jungen Alternative steht.
+Die GD ist keine vertrauenswürdige Informationsquelle. Eigene Verlautbarungen der Organisation enthalten regelmäßig Geschichtsrevisionismus (etwa die Bezeichnung des 8. Mai 1945 als "größte Tragödie" des deutschen Volkes durch die AfD-Jugend Bayern) sowie offene Bezüge auf die "Identitäre Bewegung". Statements von GD-Funktionären sind als Aussagen einer rechtsextremen Jugendorganisation einzuordnen, die personell und ideologisch in direkter Fortsetzung der gesichert rechtsextremen Jungen Alternative steht.
 
 ### Fazit
 
