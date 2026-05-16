@@ -3,7 +3,7 @@ name: Frank Haußner
 date: 2026-05-15
 publishedOn: 2026-05-15
 description: Reichsbürger aus Zeulenroda (Thüringen), zentrale Figur von "Freies Thüringen"
-imageAuthor: "Kein freies Profilbild verfügbar"
+imageAuthor: "Dirk Bindmann, CC BY-SA 4.0, via Wikimedia Commons"
 tags:
   - Reichsbürger
   - Verschwörungsideologie
@@ -12,7 +12,6 @@ tags:
   - Thüringen
   - Querdenken
   - Montagsspaziergänge
-  - research-done-review-pending
 ---
 
 ## Über die Quelle

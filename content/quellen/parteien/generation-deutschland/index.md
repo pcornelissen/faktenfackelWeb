@@ -9,7 +9,6 @@ tags:
   - rechtsextremismus
   - AfD
   - Jugendorganisation
-  - research-done-review-pending
 ---
 
 Die Generation Deutschland (GD) ist die 2025 in Gießen gegründete Jugendorganisation der :quelle-ref{name="afd"}[AfD]. Sie folgt der Anfang 2025 aufgelösten "Jungen Alternative" (JA) nach, die zuvor vom Bundesverfassungsschutz als gesichert rechtsextrem eingestuft worden war.

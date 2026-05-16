@@ -11,7 +11,6 @@ tags:
   - Querdenken
   - Montagsspaziergänge
   - Verschwörungsideologie
-  - research-done-review-pending
 ---
 
 ## Über die Quelle
