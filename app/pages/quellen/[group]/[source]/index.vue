@@ -240,8 +240,6 @@ await referencesStore.fetchFor(sourceInfo.value)
               :src="calculateSourceImg(sourceInfo)"
               :title="calculateSourceImgAuthor(sourceInfo)"
               :alt="calculateSourceImgAuthor(sourceInfo)"
-              width="180"
-              height="180"
               fetchpriority="high"
               class="img"
               @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
