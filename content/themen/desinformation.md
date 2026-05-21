@@ -56,3 +56,7 @@ questions:
   - question: "Was kann man gegen Desinformation tun?"
     answer: "Wirksam sind Quellenprüfung vor dem Teilen, das Konsultieren von Faktencheck-Plattformen wie Faktenfackel oder Correctiv, das Melden irreführender Inhalte auf Plattformen und Korrekturen im persönlichen Umfeld. Plattformregulierung wie der EU Digital Services Act adressiert die strukturelle Ebene."
 ---
+
+## Änderungshistorie
+
+- **29. April 2026:** FAQ-Bereich mit sieben häufigen Fragen ergänzt.

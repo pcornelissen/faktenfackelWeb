@@ -62,3 +62,7 @@ questions:
   - question: "Wie äußert sich rechtsextreme Gewalt heute?"
     answer: "Sie reicht von Angriffen auf Geflüchtetenunterkünfte über Übergriffe auf migrantisch gelesene Personen, jüdische Einrichtungen und Politiker bis zu Drohungen gegen Engagierte gegen Rechts. Eine Häufung gibt es in ostdeutschen Bundesländern, dokumentiert u.a. in den Lagebildern von Bundes- und Landeskriminalämtern."
 ---
+
+## Änderungshistorie
+
+- **30. April 2026:** FAQ-Bereich mit sieben häufigen Fragen ergänzt.

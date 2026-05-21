@@ -53,3 +53,7 @@ questions:
   - question: "Welche Faktoren erklären Unterschiede in der Kriminalstatistik?"
     answer: "Sozioökonomische Lage, Altersstruktur, Geschlechterverteilung, Wohnform (Gemeinschaftsunterkunft vs. eigene Wohnung), Kontrolldichte und Anzeigeverhalten erklären den großen Teil der Unterschiede. Wer diese Variablen kontrolliert, sieht meist keinen oder einen sehr kleinen migrationsspezifischen Effekt."
 ---
+
+## Änderungshistorie
+
+- **29. April 2026:** FAQ-Bereich mit sieben häufigen Fragen ergänzt.

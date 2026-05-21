@@ -58,3 +58,7 @@ questions:
   - question: "Welche Skandale gab es um AfD-Politiker?"
     answer: "Mehrere prominente AfD-Politiker stehen im Fokus: Björn Höcke wurde 2024 zweimal rechtskräftig wegen Verwendung einer verbotenen SA-Parole verurteilt. Maximilian Krah war wegen Aussagen zur SS und mutmaßlicher China-Russland-Verbindungen umstritten, Petr Bystron wurde 2024 die Immunität wegen Verdachts russischer Geldflüsse entzogen."
 ---
+
+## Änderungshistorie
+
+- **29. April 2026:** FAQ-Bereich mit sieben häufigen Fragen ergänzt.

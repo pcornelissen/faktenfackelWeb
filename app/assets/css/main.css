@@ -98,6 +98,42 @@
 .content h4 { margin-top: 1rem; margin-bottom: 0.4rem; }
 .content h5 { margin-top: 0.75rem; margin-bottom: 0.3rem; }
 
+/* FF-13: Änderungshistorie als dezente Metainfo am Artikelende absetzen.
+   Trifft den Markdown-Abschnitt "## Änderungshistorie" über die generierte
+   heading-id (Substring-Match, robust gegen Umlaut-Slug-Varianten).
+   Der Abschnitt steht konventionsgemäß immer als letzter im Artikel,
+   daher erfasst der Geschwister-Selektor zuverlässig die Eintragsliste. */
+.content h2[id*="nderungshistorie"] {
+  margin-top: 2.75rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--fackel-border);
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--flame);
+}
+
+.content h2[id*="nderungshistorie"] ~ ul {
+  list-style: none;
+  padding-left: 0;
+  max-width: 80ch;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.content h2[id*="nderungshistorie"] ~ ul li {
+  margin-bottom: 0.4rem;
+  line-height: 1.55;
+}
+
+.content h2[id*="nderungshistorie"] ~ ul strong {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
 .content p,
 .content ul,
 .content ol,

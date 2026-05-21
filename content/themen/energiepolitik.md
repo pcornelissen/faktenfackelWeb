@@ -53,3 +53,7 @@ questions:
   - question: "Ist der menschengemachte Klimawandel wissenschaftlich belegt?"
     answer: "Ja. Der Weltklimarat IPCC fasst tausende Studien zusammen und kommt seit Jahren mit hoher Sicherheit zu dem Schluss, dass die globale Erwärmung seit Mitte des 20. Jahrhunderts durch den menschlichen Ausstoß von Treibhausgasen verursacht ist. Diese Aussage gilt in der Klimaforschung als Konsens."
 ---
+
+## Änderungshistorie
+
+- **30. April 2026:** FAQ-Bereich mit sieben häufigen Fragen ergänzt.

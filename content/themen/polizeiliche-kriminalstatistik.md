@@ -53,3 +53,7 @@ questions:
   - question: "Was sind die Schwächen der PKS?"
     answer: "Die PKS bildet nur das Hellfeld ab, ist abhängig vom Anzeigeverhalten und der Kontrollintensität, zählt unbereinigte Tatverdächtige inklusive später freigesprochener Personen und vermischt aufgrund der Erfassungslogik manche Deliktarten. Politische Aussagen, die einzelne Werte ohne diese Einordnung zitieren, sind regelmäßig irreführend."
 ---
+
+## Änderungshistorie
+
+- **30. April 2026:** FAQ-Bereich mit sieben häufigen Fragen ergänzt.

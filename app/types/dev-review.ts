@@ -4,6 +4,7 @@ export type GitStatus = 'untracked' | 'modified' | 'staged' | 'clean'
 export type CollectionName
   = 'faktenchecks'
     | 'lagerfeuer'
+    | 'themen'
     | 'glossar'
     | 'zitate'
     | 'quellen'

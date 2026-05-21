@@ -39,6 +39,7 @@ export function tagStatusFromTags(tags: Iterable<string> | null | undefined): Ta
 export function collectionFromPath(path: string): CollectionName | null {
   if (path.startsWith('faktenchecks/')) return 'faktenchecks'
   if (path.startsWith('lagerfeuer/')) return 'lagerfeuer'
+  if (path.startsWith('themen/')) return 'themen'
   if (path.startsWith('glossar/')) return 'glossar'
   if (path.startsWith('quellen/')) {
     if (/^quellen\/[^/]+\/[^/]+\/links\//.test(path)) return 'quellenlinks'

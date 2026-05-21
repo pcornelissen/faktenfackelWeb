@@ -8,7 +8,7 @@ const props = defineProps<{
 
 const emit = defineEmits<{ select: [path: string] }>()
 
-const collectionOrder: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'glossar', 'zitate', 'quellen', 'quellenlinks']
+const collectionOrder: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'themen', 'glossar', 'zitate', 'quellen', 'quellenlinks']
 
 const showReviewTag = ref(true)
 const showGitWip = ref(true)
@@ -46,7 +46,7 @@ function signalLabel(item: ReviewQueueItem): string {
   return parts.join(' + ') || 'clean'
 }
 
-const collectionsWithPublishedOn: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'glossar', 'zitate']
+const collectionsWithPublishedOn: CollectionName[] = ['faktenchecks', 'lagerfeuer', 'themen', 'glossar', 'zitate']
 
 function expectsPublishedOn(item: ReviewQueueItem): boolean {
   return collectionsWithPublishedOn.includes(item.collection)

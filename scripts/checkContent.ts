@@ -926,6 +926,84 @@ function checkDateNbsp(file: string, text: string, lines: string[], findings: Fi
   }
 }
 
+// FF-13: Format eines vorhandenen "## Änderungshistorie"-Abschnitts pruefen.
+// WEICHE Kopplung: erzwingt keinen Abschnitt, prueft nur falls vorhanden.
+// (Die NBSP-Pflicht im Datum deckt bereits checkDateNbsp ab.)
+function checkChangelogFormat(file: string, text: string, lines: string[], findings: Finding[]) {
+  const bodyStart = getBodyStart(text)
+  const body = text.slice(bodyStart)
+
+  const heading = body.match(/^##[ \t]+Änderungshistorie[ \t]*$/m)
+
+  if (!heading || heading.index === undefined) {
+    // Nahe-Varianten erkennen und auf die kanonische Ueberschrift hinweisen.
+    const variant = body.match(/^##[ \t]+(Changelog|Änderungen|Änderungsverlauf|Aktualisierungen|Versionshistorie)[ \t]*$/im)
+    if (variant && variant.index !== undefined) {
+      addFinding(findings, file, text, lines, bodyStart + variant.index, 'changelog-format',
+        `Changelog-Abschnitt sollte exakt "## Änderungshistorie" heissen (gefunden: "## ${variant[1]}").`, 'warn')
+    }
+    return
+  }
+
+  // Abschnitt muss der letzte sein: keine weitere h2-Ueberschrift danach.
+  const sectionStart = heading.index + heading[0].length
+  const after = body.slice(sectionStart)
+  const nextHeading = after.match(/^##[ \t]+\S/m)
+  if (nextHeading && nextHeading.index !== undefined) {
+    addFinding(findings, file, text, lines, bodyStart + sectionStart + nextHeading.index, 'changelog-format',
+      `"## Änderungshistorie" muss der letzte Abschnitt im Artikel sein.`, 'warn')
+  }
+  const sectionBody = nextHeading && nextHeading.index !== undefined ? after.slice(0, nextHeading.index) : after
+
+  const entryLines = sectionBody.split('\n').filter(l => /^[ \t]*-[ \t]+\S/.test(l))
+  if (entryLines.length === 0) {
+    addFinding(findings, file, text, lines, bodyStart + heading.index, 'changelog-format',
+      `"## Änderungshistorie" enthaelt keine Eintraege.`, 'warn')
+    return
+  }
+
+  // Eintrag: "- **<Datum>:** <Text>", Datum = "D.<sep>Monat YYYY".
+  const monthAlt = MONTHS_DE.join('|')
+  const dateInBold = new RegExp(`^(\\d{1,2})\\.(?:\\u00A0|&nbsp;|[ \\t])(${monthAlt})[ \\t]+(\\d{4})$`)
+  const parsedDates: Array<{ y: number, m: number, d: number } | null> = []
+
+  for (const raw of entryLines) {
+    const entryIdx = body.indexOf(raw, sectionStart)
+    const entry = raw.trim().replace(/^-[ \t]+/, '')
+    const boldMatch = entry.match(/^\*\*(.+?):\*\*[ \t]+\S/)
+    if (!boldMatch) {
+      addFinding(findings, file, text, lines, bodyStart + (entryIdx >= 0 ? entryIdx : sectionStart), 'changelog-format',
+        `Changelog-Eintrag muss dem Format "- **DD. Monat YYYY:** Beschreibung." folgen.`, 'warn')
+      parsedDates.push(null)
+      continue
+    }
+    const dm = boldMatch[1].trim().match(dateInBold)
+    if (!dm) {
+      addFinding(findings, file, text, lines, bodyStart + (entryIdx >= 0 ? entryIdx : sectionStart), 'changelog-format',
+        `Changelog-Datum "${boldMatch[1].trim()}" entspricht nicht dem Format "DD. Monat YYYY".`, 'warn')
+      parsedDates.push(null)
+      continue
+    }
+    parsedDates.push({ d: Number(dm[1]), m: MONTHS_DE.indexOf(dm[2]), y: Number(dm[3]) })
+  }
+
+  // Reihenfolge: neueste zuerst (absteigend).
+  for (let i = 1; i < parsedDates.length; i++) {
+    const prev = parsedDates[i - 1]
+    const cur = parsedDates[i]
+    if (!prev || !cur) continue
+    const prevVal = prev.y * 10000 + prev.m * 100 + prev.d
+    const curVal = cur.y * 10000 + cur.m * 100 + cur.d
+    if (curVal > prevVal) {
+      const raw = entryLines[i]
+      const entryIdx = body.indexOf(raw, sectionStart)
+      addFinding(findings, file, text, lines, bodyStart + (entryIdx >= 0 ? entryIdx : sectionStart), 'changelog-format',
+        `Changelog-Eintraege muessen neueste zuerst stehen (absteigendes Datum).`, 'warn')
+      break
+    }
+  }
+}
+
 function checkFrontmatterColonInValue(file: string, text: string, lines: string[], findings: Finding[]) {
   // Faengt unquotete YAML-Skalare ab, deren Wert ein ': ' (Doppelpunkt + Space) enthaelt.
   // Solche Werte werden je nach Parser fehlerhaft als verschachtelter Mapping-Key gelesen.
@@ -1066,6 +1144,7 @@ function checkFile(file: string, text: string, allowlist: Set<string>, findings:
   checkEmDash(file, text, lines, findings)
   checkTypographicQuotes(file, text, lines, findings)
   checkDateNbsp(file, text, lines, findings)
+  checkChangelogFormat(file, text, lines, findings)
   checkFrontmatterTags(file, text, lines, findings)
   checkFrontmatterColonInValue(file, text, lines, findings)
   checkFrontmatterSeo(file, text, lines, findings)

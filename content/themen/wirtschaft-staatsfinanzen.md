@@ -55,3 +55,7 @@ questions:
   - question: "Was ist die Vermögensteuer und gibt es sie noch?"
     answer: "Die Vermögensteuer war eine jährliche Abgabe auf den Bestand großer Vermögen. Sie wird in Deutschland seit 1997 nicht mehr erhoben, weil das Bundesverfassungsgericht 1995 eine Gleichbehandlung von Immobilien und Geldvermögen verlangte und der Gesetzgeber kein neues Bewertungsverfahren beschloss. Eine Wiedererhebung wäre verfassungsrechtlich möglich, ist aber politisch umstritten."
 ---
+
+## Änderungshistorie
+
+- **30. April 2026:** FAQ-Bereich mit sieben häufigen Fragen ergänzt.
