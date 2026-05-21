@@ -12,7 +12,7 @@ tags:
 
 ## Über die Quelle
 
-Nius ist ein deutsches Online-Nachrichtenportal, das 2023 von Julian Reichelt gegründet wurde. Reichelt war bis 2021 Chefredakteur der Bild-Zeitung, von der er nach Vorwürfen wegen Machtmissbrauchs und privater Verfehlungen im Amt abberufen wurde. Nius ist Teil der Hubert Burda Media Group.
+Nius ist ein deutsches Online-Nachrichtenportal, das 2023 von Julian Reichelt als Chefredakteur gestartet wurde. Reichelt war bis 2021 Chefredakteur der Bild-Zeitung, von der er nach Vorwürfen wegen Machtmissbrauchs und privater Verfehlungen im Amt abberufen wurde. Nius wird von der Vius SE & Co. KGaA betrieben, an der der Softwareunternehmer und CompuGroup-Gründer Frank Gotthardt mit rund 87 Prozent beteiligt ist. Gotthardt finanziert das Portal seit dessen Gründung 2022 aus eigenen Mitteln und hatte bis Ende 2024 rund 37,4 Millionen Euro als Kapitalrücklage eingebracht.
 
 Das Portal positioniert sich als Alternative zu etablierten Medien und betont Themen wie Migration, innere Sicherheit und vermeintliche Meinungsfreiheitsdebatte. Die redaktionelle Linie ist deutlich rechtspopulistisch. Berichte über Einwanderer und Kriminalität werden häufig so gerahmt, dass sie Ressentiments verstärken, ohne den nötigen Kontext zu liefern. Inhalte werden oft emotional und reißerisch aufbereitet, ähnlich dem Bild-Stil unter Reichelt.
 
