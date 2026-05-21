@@ -64,9 +64,11 @@ jobs:
       - name: Build image to tar
         env:
           SHA: ${{ steps.sha.outputs.short }}
+          OG_IMAGE_SECRET: ${{ secrets.NUXT_OG_IMAGE_SECRET }}
         run: |
           docker buildx build \
             --file Dockerfile \
+            --build-arg "NUXT_OG_IMAGE_SECRET=${OG_IMAGE_SECRET}" \
             --tag "faktenfackel:${SHA}" \
             --tag "faktenfackel:latest" \
             --output "type=docker,dest=image.tar" \

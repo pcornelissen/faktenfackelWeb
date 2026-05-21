@@ -59,8 +59,14 @@ COPY . .
 ENV NITRO_PRESET=node-server
 ENV NODE_ENV=production
 
+# nuxt-og-image signing secret. The module resolves
+# process.env.NUXT_OG_IMAGE_SECRET during build and freezes it into the
+# Nitro runtimeConfig — the running container never re-reads the env var,
+# so the secret must be present here at build time, not at runtime.
+ARG NUXT_OG_IMAGE_SECRET=""
+
 # Build Nuxt + Nitro. Writes .output/ and .data/content/build.sqlite.
-RUN pnpm build
+RUN NUXT_OG_IMAGE_SECRET="${NUXT_OG_IMAGE_SECRET}" pnpm build
 
 # Build Graph SQLite. GRAPH_DB pins the output path; KNOWLEDGE_MCP_DIR is
 # a throw-away because its JSON cache is build-only and not needed in
