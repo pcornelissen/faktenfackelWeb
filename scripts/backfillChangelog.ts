@@ -39,26 +39,10 @@ const args = process.argv.slice(2)
 const WRITE = args.includes('--write')
 const pathFilters = args.filter(a => !a.startsWith('--'))
 
-// Commit-Message-Praefixe / Schluesselwoerter, die eine Aenderung als trivial markieren.
-const TRIVIAL_PREFIX = /^(chore|style|lint|format|ci|build|refactor|test)(\(|:|!)/i
-const TRIVIAL_KEYWORDS = new RegExp([
-  // Typografie / Formatierung / Style
-  'tippfehler', 'typo', 'typografie', 'typographic', 'quotes?', 'em[- ]?dash', 'gedankenstrich',
-  'nbsp', 'whitespace', 'umlaut', 'formatierung', 'reformat', '\\bstyle\\b', 'styling', 'polish',
-  // Lint / technische Wartung / Referenz-Stabilisierung
-  '\\blint\\b', '\\bfix(es|ed)?\\b broken', 'broken (internal |external |source)?(link|ref|code)',
-  'sourceref', 'quotereference', 'reference tag', 'reference code', '\\breferences?\\b', 'stabili[sz]e',
-  // SEO / Meta / A11y / Build (leserunabhaengig)
-  '\\bseo\\b', 'meta[- ]?(titel|title|description)', 'descriptions? (ueber|über)arbeitet', 'snippet',
-  'canonical', 'orphan', 'heading-hierarch', 'a11y', 'accessibility', 'security header',
-  'font-display', 'sitemap', 'redirect', 'smoke[- ]?test', 'build-check', 'ssr', 'e2e',
-  // Technische Infrastruktur / Frontmatter / Tooling
-  'rss', 'feed', 'redesign', 'abh(ae|ä)ngigk', 'dependenc', 'upgrade', 'normalisier',
-  'frontmatter', 'yaml', '\\bfeld\\b', 'umbenannt', 'authors-frontmatter', 'claim und claimauthor',
-  'glossar eingebaut', 'technik', 'scan-links', 'summary cache', 'link-audit', 'linkcheck',
-  // Redaktioneller Workflow / Frontmatter-Pflege
-  'review-tag', 'research-done', 'lastscanned', 'rename', 'verschoben', 'moved', 'staging',
-].join('|'), 'i')
+// Hinweis: Signifikanz wird ausschliesslich am konsolidierten Cluster-Diff
+// gemessen (siehe analyzeCluster), nicht mehr an Commit-Messages. Damit fallen
+// Batch-Wartungs-Commits automatisch raus, wenn sie an dieser Datei nichts
+// inhaltlich Substanzielles geaendert haben.
 
 interface Proposal {
   date: { y: number, m: number, d: number }
@@ -66,6 +50,8 @@ interface Proposal {
   note: string
   uncertain: boolean
   sha: string
+  messages: string[] // Commit-Messages des Clusters (Hinweis)
+  added: string[] // hinzugefuegte Prosa-Zeilen aus dem konsolidierten Cluster-Diff (zum Lesen)
 }
 
 async function git(gitArgs: string[]): Promise<string> {
@@ -118,31 +104,30 @@ function looksLikeProse(line: string): boolean {
   return false
 }
 
-async function classifyCommit(sha: string, file: string, subject: string): Promise<{ significant: boolean }> {
-  if (TRIVIAL_PREFIX.test(subject) || TRIVIAL_KEYWORDS.test(subject)) {
-    return { significant: false }
-  }
+// Analysiert den KONSOLIDIERTEN Diff eines Clusters (Netto-Effekt base..head).
+// Signifikanz wird am tatsaechlich geaenderten Inhalt gemessen, NICHT an der
+// Commit-Message. So entlarvt der Diff Batch-Messages: ein "Research 200+"-Commit,
+// der an dieser Datei nur ein Status-Banner ergaenzt, faellt durch.
+async function analyzeCluster(base: string, head: string, file: string): Promise<{ significant: boolean, added: string[] }> {
   let diff = ''
   try {
-    diff = await git(['show', '--format=', '--unified=0', sha, '--', file])
+    diff = await git(['diff', '--unified=0', `${base}..${head}`, '--', file])
   } catch {
-    return { significant: false }
+    return { significant: false, added: [] }
   }
-  let addedProse = 0
+  const added: string[] = []
   let removedProse = 0
   for (const raw of diff.split('\n')) {
     if (raw.startsWith('+++') || raw.startsWith('---')) continue
     if (raw.startsWith('+')) {
-      if (looksLikeProse(raw.slice(1))) addedProse++
+      const content = raw.slice(1)
+      if (looksLikeProse(content)) added.push(content.trim())
     } else if (raw.startsWith('-')) {
       if (looksLikeProse(raw.slice(1))) removedProse++
     }
   }
-  // Netto neu hinzugefuegte Prosa. Reines Umformatieren (Quotes/Dashes/Lint)
-  // schreibt Zeilen um, addiert aber kaum NETTO neue Prosa und faellt damit raus.
-  // Ein neuer Abschnitt o.ae. fuegt mehrere Zeilen netto hinzu.
-  const netProse = addedProse - removedProse
-  return { significant: netProse >= 3 }
+  const netProse = added.length - removedProse
+  return { significant: netProse >= 3, added }
 }
 
 function cleanSubject(subject: string): { note: string, uncertain: boolean } {
@@ -165,28 +150,90 @@ function formatEntry(p: Proposal): string {
   return `- **${datum}:**${flag} ${p.note}`
 }
 
+// Cluster-Grenze: Liegen zwischen zwei Commits mehr als 30 Stunden, beginnt ein
+// neues Bearbeitungs-Ereignis. Commits dichter beieinander (import/research/
+// reviewer/scan-links/linkcheck in einem Schwung) gehoeren zu EINEM Ereignis.
+const CLUSTER_GAP_SECONDS = 30 * 3600
+
+interface CommitRow { sha: string, at: number, ad: string, subject: string }
+
 async function buildProposals(file: string): Promise<Proposal[]> {
-  // Aelteste zuerst, damit der erste Commit (= Veroeffentlichung) ausgelassen wird.
+  // Aelteste zuerst, damit das erste Cluster (= Anlage/Veroeffentlichung) ausgelassen wird.
   let log = ''
   try {
-    log = await git(['log', '--follow', '--reverse', '--date=short', '--format=%H%x1f%ad%x1f%s', '--', file])
+    log = await git(['log', '--follow', '--reverse', '--date=short', '--format=%H%x1f%at%x1f%ad%x1f%s', '--', file])
   } catch {
     return []
   }
-  const rows = log.split('\n').filter(Boolean).map((l) => {
-    const [sha, ad, subject] = l.split('\x1f')
-    return { sha, ad, subject: subject ?? '' }
+  const rows: CommitRow[] = log.split('\n').filter(Boolean).map((l) => {
+    const [sha, at, ad, subject] = l.split('\x1f')
+    return { sha, at: Number(at), ad, subject: subject ?? '' }
   })
-  if (rows.length <= 1) return [] // nur Veroeffentlichung, keine Aenderung
+  if (rows.length === 0) return []
+
+  // In zeitliche Cluster gruppieren.
+  const clusters: CommitRow[][] = []
+  for (const row of rows) {
+    const last = clusters[clusters.length - 1]
+    if (!last || row.at - last[last.length - 1].at > CLUSTER_GAP_SECONDS) {
+      clusters.push([row])
+    } else {
+      last.push(row)
+    }
+  }
+  if (clusters.length <= 1) return [] // nur das Anlage-Cluster, keine spaetere Aenderung
+
+  // Anker bestimmen: das Cluster, in dem die Anlage/Fertigstellung abgeschlossen ist.
+  // Signal: erstes Cluster, dessen End-Zustand "research-done-review-pending" traegt
+  // (= Quelle/Artikel fertig recherchiert/veroeffentlicht). Import-Stub (more-research-
+  // needed) + spaeteres Research zaehlen damit BEIDE noch zur Anlage.
+  // Faellt das Tag-Signal aus (z.B. Faktenchecks ohne dieses Tag), bleibt der Anker bei 0,
+  // d.h. nur das erste Cluster gilt als Anlage.
+  const relPath = relative(PROJECT_ROOT, file)
+  let anchor = 0
+  for (let c = 0; c < clusters.length; c++) {
+    const endSha = clusters[c][clusters[c].length - 1].sha
+    let content: string | null = null
+    try {
+      content = await git(['show', `${endSha}:${relPath}`])
+    } catch {
+      content = null
+    }
+    if (content && /research-done-review-pending/.test(content)) {
+      anchor = c
+      break
+    }
+  }
 
   const proposals: Proposal[] = []
-  for (let i = 1; i < rows.length; i++) {
-    const { sha, ad, subject } = rows[i]
-    const { significant } = await classifyCommit(sha, file, subject)
+  // Alle Cluster bis einschliesslich Anker (Anlage/Fertigstellung) ueberspringen.
+  for (let c = anchor + 1; c < clusters.length; c++) {
+    const cluster = clusters[c]
+    const base = clusters[c - 1][clusters[c - 1].length - 1].sha // Ende des Vorgaenger-Clusters
+    const head = cluster[cluster.length - 1].sha // Ende dieses Clusters
+    const { significant, added } = await analyzeCluster(base, head, file)
     if (!significant) continue
-    const [y, m, d] = ad.split('-').map(Number)
-    const { note, uncertain } = cleanSubject(subject)
-    proposals.push({ date: { y, m: m - 1, d }, iso: ad, note, uncertain, sha })
+    // Hinweis-Note aus der aussagekraeftigsten Message des Clusters (final schreibe ICH aus dem Diff).
+    let best = cluster[0]
+    let bestLen = cleanSubject(best.subject).note.length
+    for (const row of cluster.slice(1)) {
+      const len = cleanSubject(row.subject).note.length
+      if (len > bestLen) {
+        best = row
+        bestLen = len
+      }
+    }
+    const { note, uncertain } = cleanSubject(best.subject)
+    const [y, m, d] = best.ad.split('-').map(Number)
+    proposals.push({
+      date: { y, m: m - 1, d },
+      iso: best.ad,
+      note,
+      uncertain,
+      sha: best.sha,
+      messages: cluster.map(r => r.subject),
+      added,
+    })
   }
   // neueste zuerst
   proposals.sort((a, b) => b.iso.localeCompare(a.iso))
@@ -220,7 +267,11 @@ async function main() {
     console.log(`\n${rel}${exists ? '  (Abschnitt existiert bereits)' : ''}`)
     for (const p of proposals) {
       if (p.uncertain) uncertainCount++
-      console.log(`  ${formatEntry(p)}`)
+      const datum = `${p.date.d}.${NBSP}${MONTHS_DE[p.date.m]} ${p.date.y}`
+      console.log(`  [${datum}] Commit-Hinweis: ${p.messages.join(' | ')}`)
+      const sample = p.added.slice(0, 8)
+      for (const line of sample) console.log(`      + ${line.slice(0, 160)}`)
+      if (p.added.length > sample.length) console.log(`      … (+${p.added.length - sample.length} weitere Prosa-Zeilen)`)
     }
 
     if (WRITE) {
