@@ -1,6 +1,6 @@
 ---
 publishedOn: 2026-05-05
-date: 2026-05-05
+date: 2026-05-22
 title: "Kraftwerk Lubmin: Verschenkt Deutschland nötige Infrastruktur?"
 subtitle: "Ein stillgelegtes Spezialkraftwerk ohne Käufer wird zum Empörungsobjekt"
 description: "Weidel behauptet, die Regierung verschenke ein dringend benötigtes Kraftwerk an die Ukraine. Die Anlage war seit 2023 stillgelegt und fand keinen Käufer."
@@ -22,6 +22,8 @@ primarySources:
     url: https://www.nordkurier.de/regional/mecklenburg-vorpommern/absurd-funktionsfaehiges-kraftwerk-aus-nord-stream-zeit-soll-an-die-ukraine-verschenkt-werden-4533879
   - label: "t-online: Deutsches Unternehmen schenkt der Ukraine ein Kraftwerk"
     url: https://www.t-online.de/nachrichten/ukraine/id_101230114/ukraine-news-deutsches-unternehmen-schenkt-der-ukraine-ein-kraftwerk-.html
+  - label: "Bundestag: Antrag der AfD-Fraktion 'Erhalt des Gaskraftwerks am Standort Lubmin' (Drucksache 21/6030)"
+    url: https://www.bundestag.de/dokumente/textarchiv/2026/kw21-de-lubmin-1178606
 authors: ['patrick-cornelissen']
 tags:
   - AfD
@@ -73,6 +75,16 @@ Es handelt sich um eine einzelne Anlage. Der Plural in Weidels Tweet suggeriert,
 
 Die Ukraine hat durch systematische russische Luftangriffe auf ihre Energieinfrastruktur einen erheblichen Teil ihrer Stromerzeugungskapazität verloren. KWK-Anlagen können dort sowohl Strom als auch Fernwärme liefern. Die Schenkung wurde von SEFE als "humanitäre Hilfe" eingestuft. Der ukrainische Betreiber übernimmt die Kosten für Demontage und Transport.
 
+### Mai 2026: Aus dem Empörungs-Post wird ein Bundestags-Antrag
+
+Was im Januar als Tweet begann, hat die :quelle-ref{name="afd-bt-fraktion"} im Mai 2026 zu einem parlamentarischen Vorstoß gemacht. Unter dem Titel "Erhalt des Gaskraftwerks am Standort Lubmin und Integration in die deutsche Energieinfrastruktur" (Drucksache 21/6030) forderte die Fraktion einen "sofortigen Stopp der geplanten, unentgeltlichen Übertragung" der Anlage an die Ukraine. Der [Antrag wurde am 22.&nbsp;Mai 2026 im Bundestag debattiert](https://www.bundestag.de/dokumente/textarchiv/2026/kw21-de-lubmin-1178606).
+
+Die Begründung des Antrags ist aufschlussreicher als Weidels ursprünglicher Post. Die AfD argumentiert, die Anlage müsse erhalten bleiben, weil sie der Anlandepunkt für Nord-Stream-1-Gas war und ein Abbau eine spätere Reaktivierung von Nord Stream 2 über Jahre erschweren würde. Damit benennt die Fraktion selbst den einzigen Zweck, den das Kraftwerk je hatte: die Verarbeitung von russischem Pipeline-Gas. Genau dieser Zweck ist mit dem Ende der russischen Lieferungen weggefallen. Der Antrag bestätigt also unfreiwillig die Kernaussage dieses Faktenchecks, dass die Anlage ohne russisches Gas keine Funktion hat. Die Forderung, sie für eine mögliche Rückkehr zu russischem Gas vorzuhalten, ist eine energiepolitische Position, kein Beleg dafür, dass Deutschland das Kraftwerk "dringend selbst benötigt".
+
 ## Fazit
 
 Weidels Behauptung ist irreführend. Der Kern stimmt: Ein staatseigenes Unternehmen verschenkt eine Anlage an die Ukraine. Aber die Darstellung als Verschleuderung dringend benötigter Infrastruktur ist falsch. Das Kraftwerk war eine tote Investition: gebaut für einen einzigen Zweck (Nord-Stream-Gasvorwärmung), der dauerhaft weggefallen ist, seit 2023 stillgelegt, ohne Käufer, ohne Betriebszweck, mit einer elektrischen Leistung, die für Deutschlands Energieversorgung irrelevant ist. Die Empörung lebt davon, dass dieser Kontext weggelassen wird.
+
+## Änderungshistorie
+
+- **22.&nbsp;Mai 2026:** Abschnitt zum Bundestags-Antrag der AfD-Fraktion (Drucksache 21/6030, debattiert am 22.&nbsp;Mai 2026) ergänzt. Die Antragsbegründung benennt das Nord-Stream-Gas als einzigen Zweck der Anlage und bestätigt damit die Kernaussage des Faktenchecks.
