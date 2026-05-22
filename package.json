@@ -47,7 +47,7 @@
     "d3-sankey": "^0.12.3",
     "d3-shape": "^3.2.0",
     "minimark": "^1.0.0",
-    "nuxt": "^4.4.2",
+    "nuxt": "^4.4.6",
     "nuxt-feedme": "2.1.0",
     "nuxt-og-image": "^6.5.1",
     "satori": "^0.26.0",
