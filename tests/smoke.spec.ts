@@ -171,7 +171,7 @@ test.describe('SEO', () => {
 test.describe('OG-Image-Rendering', () => {
   // Faktencheck- und Quellenlink-Seiten erzeugen ihr Vorschaubild zur Laufzeit
   // unter /_og/d/ (Satori-Renderer im node-server). Die og:image-Meta-URL muss
-  // tatsaechlich ein PNG liefern, sonst zeigen Facebook/X kein Vorschaubild.
+  // tatsächlich ein PNG liefern, sonst zeigen Facebook/X kein Vorschaubild.
 
   async function firstArticleHref(page: import('@playwright/test').Page, indexPath: string): Promise<string | null> {
     await page.goto(indexPath)
@@ -181,23 +181,33 @@ test.describe('OG-Image-Rendering', () => {
     return hrefs[0] ?? null
   }
 
+  async function expectOgImageOk(
+    request: import('@playwright/test').APIRequestContext,
+    ogImage: string | null,
+  ): Promise<void> {
+    expect(ogImage, 'og:image fehlt').toBeTruthy()
+    expect(ogImage, 'erwartet dynamische /_og/d/-URL').toContain('/_og/d/')
+    // og:image ist eine absolute site.url-URL; gegen die getestete Origin (baseURL)
+    // prüfen, damit wir denselben Server treffen, der die Seite lieferte. Großzügiger
+    // Timeout: der erste Render nach einem Container-Cutover ist kalt (Satori-Init)
+    // und darf nicht am 30s-Test-Timeout scheitern und Folgetests mitreißen.
+    const ogPath = new URL(ogImage!).pathname
+    const res = await request.get(ogPath, { timeout: 60_000 })
+    expect(res.status(), `OG-Image ${ogPath} lieferte ${res.status()}`).toBe(200)
+    expect(res.headers()['content-type'] || '').toContain('image/png')
+  }
+
   test('Faktencheck rendert dynamisches OG-Image (200, image/png)', async ({ page, request }) => {
+    test.setTimeout(75_000)
     const href = await firstArticleHref(page, '/faktenchecks/')
     expect(href, 'kein Faktencheck-Artikel gefunden').toBeTruthy()
     await page.goto(href!)
     const ogImage = await page.locator('meta[property="og:image"]').getAttribute('content')
-    expect(ogImage, 'og:image fehlt').toBeTruthy()
-    expect(ogImage, 'erwartet dynamische /_og/d/-URL').toContain('/_og/d/')
-
-    // og:image ist eine absolute site.url-URL; gegen die getestete Origin
-    // (baseURL) pruefen, damit wir denselben Server treffen, der die Seite lieferte.
-    const ogPath = new URL(ogImage!).pathname
-    const res = await request.get(ogPath)
-    expect(res.status(), `OG-Image ${ogPath} lieferte ${res.status()}`).toBe(200)
-    expect(res.headers()['content-type'] || '').toContain('image/png')
+    await expectOgImageOk(request, ogImage)
   })
 
   test('Quellenlink rendert dynamisches OG-Image (200, image/png)', async ({ page, request }) => {
+    test.setTimeout(75_000)
     await page.goto('/quellen/')
     const sourceHrefs = await page.locator('a[href^="/quellen/"]').evaluateAll(
       els => els.map(el => el.getAttribute('href')!).filter(h => h.split('/').length > 3),
@@ -210,13 +220,7 @@ test.describe('OG-Image-Rendering', () => {
     expect(linkHrefs.length, 'kein Quellenlink gefunden').toBeGreaterThan(0)
     await page.goto(linkHrefs[0]!)
     const ogImage = await page.locator('meta[property="og:image"]').getAttribute('content')
-    expect(ogImage, 'og:image fehlt').toBeTruthy()
-    expect(ogImage, 'erwartet dynamische /_og/d/-URL').toContain('/_og/d/')
-
-    const ogPath = new URL(ogImage!).pathname
-    const res = await request.get(ogPath)
-    expect(res.status(), `OG-Image ${ogPath} lieferte ${res.status()}`).toBe(200)
-    expect(res.headers()['content-type'] || '').toContain('image/png')
+    await expectOgImageOk(request, ogImage)
   })
 })
 
