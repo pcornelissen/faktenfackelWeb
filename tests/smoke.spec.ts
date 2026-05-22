@@ -166,6 +166,60 @@ test.describe('SEO', () => {
   })
 })
 
+// --- OG-Image-Rendering (dynamisch) ----------------------------------------
+
+test.describe('OG-Image-Rendering', () => {
+  // Faktencheck- und Quellenlink-Seiten erzeugen ihr Vorschaubild zur Laufzeit
+  // unter /_og/d/ (Satori-Renderer im node-server). Die og:image-Meta-URL muss
+  // tatsaechlich ein PNG liefern, sonst zeigen Facebook/X kein Vorschaubild.
+
+  async function firstArticleHref(page: import('@playwright/test').Page, indexPath: string): Promise<string | null> {
+    await page.goto(indexPath)
+    const hrefs = await page.locator(`a[href^="${indexPath.replace(/\/$/, '')}"]`).evaluateAll(
+      els => els.map(el => el.getAttribute('href')!).filter(h => h.split('/').length > 3),
+    )
+    return hrefs[0] ?? null
+  }
+
+  test('Faktencheck rendert dynamisches OG-Image (200, image/png)', async ({ page, request }) => {
+    const href = await firstArticleHref(page, '/faktenchecks/')
+    expect(href, 'kein Faktencheck-Artikel gefunden').toBeTruthy()
+    await page.goto(href!)
+    const ogImage = await page.locator('meta[property="og:image"]').getAttribute('content')
+    expect(ogImage, 'og:image fehlt').toBeTruthy()
+    expect(ogImage, 'erwartet dynamische /_og/d/-URL').toContain('/_og/d/')
+
+    // og:image ist eine absolute site.url-URL; gegen die getestete Origin
+    // (baseURL) pruefen, damit wir denselben Server treffen, der die Seite lieferte.
+    const ogPath = new URL(ogImage!).pathname
+    const res = await request.get(ogPath)
+    expect(res.status(), `OG-Image ${ogPath} lieferte ${res.status()}`).toBe(200)
+    expect(res.headers()['content-type'] || '').toContain('image/png')
+  })
+
+  test('Quellenlink rendert dynamisches OG-Image (200, image/png)', async ({ page, request }) => {
+    await page.goto('/quellen/')
+    const sourceHrefs = await page.locator('a[href^="/quellen/"]').evaluateAll(
+      els => els.map(el => el.getAttribute('href')!).filter(h => h.split('/').length > 3),
+    )
+    expect(sourceHrefs.length, 'keine Quelle gefunden').toBeGreaterThan(0)
+    await page.goto(sourceHrefs[0]!)
+    const linkHrefs = await page.locator('a[href*="/links/"]').evaluateAll(
+      els => els.map(el => el.getAttribute('href')!),
+    )
+    expect(linkHrefs.length, 'kein Quellenlink gefunden').toBeGreaterThan(0)
+    await page.goto(linkHrefs[0]!)
+    const ogImage = await page.locator('meta[property="og:image"]').getAttribute('content')
+    expect(ogImage, 'og:image fehlt').toBeTruthy()
+    expect(ogImage, 'erwartet dynamische /_og/d/-URL').toContain('/_og/d/')
+
+    const ogPath = new URL(ogImage!).pathname
+    const res = await request.get(ogPath)
+    expect(res.status(), `OG-Image ${ogPath} lieferte ${res.status()}`).toBe(200)
+    expect(res.headers()['content-type'] || '').toContain('image/png')
+  })
+})
+
 // --- Security Headers ------------------------------------------------------
 
 test.describe('Security Headers', () => {
