@@ -263,6 +263,14 @@ export default defineNuxtConfig({
       width: 1200,
       height: 630,
     },
+    // Der node-server-Renderer lädt Font-Assets zur Laufzeit per Fetch gegen die
+    // eigene Origin. Hinter Cloudflare ist diese Origin aus dem Container nicht
+    // erreichbar; nuxt-og-image fällt dann auf den internen event.$fetch zurück.
+    // Kurzer Timeout, damit der (zum Scheitern verurteilte) externe Versuch beim
+    // kalten Erst-Render schnell aufgibt und die Event-Loop nicht lange blockiert.
+    security: {
+      imageFetchTimeout: 500,
+    },
   },
   sitemap: {
     sitemapName: 'sitemap.xml',
