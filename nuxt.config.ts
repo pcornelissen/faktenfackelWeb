@@ -142,6 +142,18 @@ export default defineNuxtConfig({
     },
   },
   hooks: {
+    // Plugins like @tailwindcss/vite transform files without emitting a sourcemap, producing a
+    // noisy "Sourcemap is likely to be incorrect" warning on every build. Wrap Nuxt's Vite logger
+    // (set up before this hook fires) to drop that one harmless message.
+    'vite:extendConfig'(config) {
+      const logger = config.customLogger
+      if (!logger) return
+      const baseWarn = logger.warn.bind(logger)
+      logger.warn = (msg, options) => {
+        if (typeof msg === 'string' && msg.includes('Sourcemap is likely to be incorrect')) return
+        baseWarn(msg, options)
+      }
+    },
     'content:file:afterParse'(ctx) {
       const { file, content } = ctx
 
