@@ -59,7 +59,7 @@ jobs:
       # both content+graph SQLite files into the runtime image.
       # ------------------------------------------------------------------
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
 
       - name: Build image to tar
         env:
@@ -115,6 +115,16 @@ jobs:
             "${TAR_NAME}.sha256" \
             "${SSH_USER}@${HOST}:/opt/${PROJECT}/incoming/"
 
+      # Pausiert die faktenfackel-Monitore, damit der kurze DOWN→UP-Flip beim
+      # Container-Cutover keinen Falsch-Alarm auslöst. Gezielt per Tag, damit
+      # andere Sites auf demselben UptimeRobot-Account unberührt bleiben.
+      # Best effort: ein API-Fehler darf den Deploy nicht blockieren.
+      - name: Pause UptimeRobot monitors
+        continue-on-error: true
+        env:
+          UPTIMEROBOT_API_KEY: ${{ secrets.UPTIMEROBOT_API_KEY }}
+        run: node scripts/uptimerobot-monitors.mjs pause
+
       - name: Run deploy.sh on host
         env:
           SHA: ${{ steps.sha.outputs.short }}
@@ -134,6 +144,15 @@ jobs:
         env:
           SMOKE_TEST_URL: ${{ env.SMOKE_URL }}
         run: pnpm test:smoke
+
+      # Monitore wieder aktivieren – auch wenn Deploy oder Smoke-Test scheitern,
+      # sonst bliebe die Überwachung dauerhaft pausiert (blind). Schlägt dieser
+      # Step fehl, ist der Job rot: stecken gebliebene Pause muss auffallen.
+      - name: Resume UptimeRobot monitors
+        if: always()
+        env:
+          UPTIMEROBOT_API_KEY: ${{ secrets.UPTIMEROBOT_API_KEY }}
+        run: node scripts/uptimerobot-monitors.mjs start
 
       - name: Notify IndexNow (only on production cutover)
         if: env.SMOKE_URL == 'https://faktenfackel.de'
