@@ -51,7 +51,7 @@
     "nuxt-feedme": "2.1.0",
     "nuxt-og-image": "^6.5.1",
     "satori": "^0.26.0",
-    "vue": "^3.5.32",
+    "vue": "^3.5.34",
     "vue-router": "^5.0.4",
     "zod": "^4.3.6",
     "zod-to-json-schema": "^3.25.2"
