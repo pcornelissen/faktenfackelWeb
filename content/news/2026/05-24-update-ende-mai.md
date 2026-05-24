@@ -1,6 +1,6 @@
 ---
 date: 2026-05-24
-title: "Update Ende Mai: Vier Faktenchecks, Klimaleugnung und neue Quellenprofile"
+title: "Update Ende Mai: Faktenchecks, Klimaleugnung und neue Quellen"
 teaser: "Faktenchecks zu Tankrabatt, Nord-Stream, Springer und dem angeblich gelöschten Correctiv-Bericht, dazu der RCP-8.5-Klimaleugnungs-Komplex und zwei neue Quellenprofile."
 publishedOn: 2026-05-24
 ---
