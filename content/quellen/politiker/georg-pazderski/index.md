@@ -10,7 +10,7 @@ tags:
 
 ## Über die Quelle
 
-Georg Pazderski, geboren 1951, ist ein ehemaliger Berufsoffizier der Bundeswehr (Brigadegeneral a.D.) und Ex-Politiker der :quelle-ref{name="afd"}. Er war von 2016 bis 2019 Landesvorsitzender der AfD Berlin und von 2017 bis 2019 stellvertretender Bundessprecher der Partei. Pazderski gehörte dem gemäßigteren Flügel an und verließ die AfD im Mai 2024, laut [Tagesspiegel (14.&nbsp;Mai 2024)](https://www.tagesspiegel.de/berlin/ex-spitzenkandidat-furs-abgeordnetenhaus-fruherer-berliner-afd-chef-pazderski-verlasst-partei-11656559.html), weil sich die Partei von seinen Überzeugungen entfernt habe.
+Georg Pazderski, geboren 1951, ist ein ehemaliger Berufsoffizier der Bundeswehr (Brigadegeneral a.D.) und Ex-Politiker der :quelle-ref{name="afd"}. Er war von 2016 bis 2019 Landesvorsitzender der AfD Berlin und von 2017 bis 2019 stellvertretender Bundessprecher der Partei. Pazderski gehörte dem gemäßigteren Flügel an und verließ die AfD im Mai 2024, laut [Tagesspiegel (14. Mai 2024)](https://www.tagesspiegel.de/berlin/ex-spitzenkandidat-furs-abgeordnetenhaus-fruherer-berliner-afd-chef-pazderski-verlasst-partei-11656559.html), weil sich die Partei von seinen Überzeugungen entfernt habe.
 
 ## Links
 

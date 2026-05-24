@@ -17,7 +17,7 @@ tags:
 
 ## Über die Quelle
 
-Sascha Lensing, geboren am 13.&nbsp;September 1973 in Duisburg, ist seit dem 25.&nbsp;März 2025 Mitglied des Deutschen Bundestages für die :quelle-ref{name="afd"}[AfD]. Er gewann den Wahlkreis 115 (Duisburg II) und zog zusätzlich über Listenplatz 7 der AfD NRW in den Bundestag ein. Im Parlament ist er ordentliches Mitglied des Innenausschusses sowie stellvertretendes Mitglied im Ausschuss für die Angelegenheiten der Europäischen Union und im Ausschuss für Recht und Verbraucherschutz.
+Sascha Lensing, geboren am 13. September 1973 in Duisburg, ist seit dem 25. März 2025 Mitglied des Deutschen Bundestages für die :quelle-ref{name="afd"}[AfD]. Er gewann den Wahlkreis 115 (Duisburg II) und zog zusätzlich über Listenplatz 7 der AfD NRW in den Bundestag ein. Im Parlament ist er ordentliches Mitglied des Innenausschusses sowie stellvertretendes Mitglied im Ausschuss für die Angelegenheiten der Europäischen Union und im Ausschuss für Recht und Verbraucherschutz.
 
 Lensing ist seit April 1997 Polizeibeamter des Landes NRW, zuletzt im Rang eines Kriminalhauptkommissars. Er absolvierte sein Abitur 1994 am Landfermann-Gymnasium Duisburg und trat 2019 in die AfD ein. Politisch engagierte er sich vor dem Einzug in den Bundestag als stellvertretender Fraktionsvorsitzender im Duisburger Stadtrat sowie als Schatzmeister des AfD-Kreisverbands Duisburg.
 
@@ -27,7 +27,7 @@ Lensing betreibt einen Onlineshop auf seiner persönlichen Website, der laut [t-
 
 ### Disziplinarverfahren wegen Höcke-Nähe
 
-Gegen Lensing läuft seit dem 14.&nbsp;Mai 2024 eine Disziplinarklage des Polizeipräsidiums Duisburg vor dem Verwaltungsgericht Düsseldorf, [wie t-online berichtete](https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_100906080/disziplinarklage-gegen-sascha-lensing-afd-wegen-hoecke-naehe-.html). Eine eigene Pressemitteilung oder ein Aktenzeichen hat das Gericht dazu nicht veröffentlicht; belegt ist das Verfahren durch die Berichterstattung und durch Lensings eigene Bestätigung. Dem Bericht zufolge betrifft es Posts in sozialen Medien, die Zweifel an Lensings Verfassungstreue aufwarfen; dabei soll die Nähe zu :quelle-ref{name="bjoern-hoecke"} eine Rolle spielen, und Lensing habe einige dieser Beiträge inzwischen gelöscht. Im Falle eines Unterliegens drohen ihm Degradierung oder Entlassung aus dem Beamtenverhältnis. Lensing selbst bestätigte das laufende Verfahren und erklärte, er vertraue "in unseren Rechtsstaat", wollte sich inhaltlich aber nicht äußern.
+Gegen Lensing läuft seit dem 14. Mai 2024 eine Disziplinarklage des Polizeipräsidiums Duisburg vor dem Verwaltungsgericht Düsseldorf, [wie t-online berichtete](https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_100906080/disziplinarklage-gegen-sascha-lensing-afd-wegen-hoecke-naehe-.html). Eine eigene Pressemitteilung oder ein Aktenzeichen hat das Gericht dazu nicht veröffentlicht; belegt ist das Verfahren durch die Berichterstattung und durch Lensings eigene Bestätigung. Dem Bericht zufolge betrifft es Posts in sozialen Medien, die Zweifel an Lensings Verfassungstreue aufwarfen; dabei soll die Nähe zu :quelle-ref{name="bjoern-hoecke"} eine Rolle spielen, und Lensing habe einige dieser Beiträge inzwischen gelöscht. Im Falle eines Unterliegens drohen ihm Degradierung oder Entlassung aus dem Beamtenverhältnis. Lensing selbst bestätigte das laufende Verfahren und erklärte, er vertraue "in unseren Rechtsstaat", wollte sich inhaltlich aber nicht äußern.
 
 ### Nähe zum Höcke-Flügel
 

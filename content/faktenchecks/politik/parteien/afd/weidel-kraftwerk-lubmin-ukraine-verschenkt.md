@@ -77,7 +77,7 @@ Die Ukraine hat durch systematische russische Luftangriffe auf ihre Energieinfra
 
 ### Mai 2026: Aus dem Empörungs-Post wird ein Bundestags-Antrag
 
-Was im Januar als Tweet begann, hat die :quelle-ref{name="afd-bt-fraktion"} im Mai 2026 zu einem parlamentarischen Vorstoß gemacht. Unter dem Titel "Erhalt des Gaskraftwerks am Standort Lubmin und Integration in die deutsche Energieinfrastruktur" (Drucksache 21/6030) forderte die Fraktion einen "sofortigen Stopp der geplanten, unentgeltlichen Übertragung" der Anlage an die Ukraine. Der [Antrag wurde am 22.&nbsp;Mai 2026 im Bundestag debattiert](https://www.bundestag.de/dokumente/textarchiv/2026/kw21-de-lubmin-1178606).
+Was im Januar als Tweet begann, hat die :quelle-ref{name="afd-bt-fraktion"} im Mai 2026 zu einem parlamentarischen Vorstoß gemacht. Unter dem Titel "Erhalt des Gaskraftwerks am Standort Lubmin und Integration in die deutsche Energieinfrastruktur" (Drucksache 21/6030) forderte die Fraktion einen "sofortigen Stopp der geplanten, unentgeltlichen Übertragung" der Anlage an die Ukraine. Der [Antrag wurde am 22. Mai 2026 im Bundestag debattiert](https://www.bundestag.de/dokumente/textarchiv/2026/kw21-de-lubmin-1178606).
 
 Die Begründung des Antrags ist aufschlussreicher als Weidels ursprünglicher Post. Die AfD argumentiert, die Anlage müsse erhalten bleiben, weil sie der Anlandepunkt für Nord-Stream-1-Gas war und ein Abbau eine spätere Reaktivierung von Nord Stream 2 über Jahre erschweren würde. Damit benennt die Fraktion selbst den einzigen Zweck, den das Kraftwerk je hatte: die Verarbeitung von russischem Pipeline-Gas. Genau dieser Zweck ist mit dem Ende der russischen Lieferungen weggefallen. Der Antrag bestätigt also unfreiwillig die Kernaussage dieses Faktenchecks, dass die Anlage ohne russisches Gas keine Funktion hat. Die Forderung, sie für eine mögliche Rückkehr zu russischem Gas vorzuhalten, ist eine energiepolitische Position, kein Beleg dafür, dass Deutschland das Kraftwerk "dringend selbst benötigt".
 
@@ -87,4 +87,4 @@ Weidels Behauptung ist irreführend. Der Kern stimmt: Ein staatseigenes Unterneh
 
 ## Änderungshistorie
 
-- **22.&nbsp;Mai 2026:** Abschnitt zum Bundestags-Antrag der AfD-Fraktion (Drucksache 21/6030, debattiert am 22.&nbsp;Mai 2026) ergänzt. Die Antragsbegründung benennt das Nord-Stream-Gas als einzigen Zweck der Anlage und bestätigt damit die Kernaussage des Faktenchecks.
+- **22. Mai 2026:** Abschnitt zum Bundestags-Antrag der AfD-Fraktion (Drucksache 21/6030, debattiert am 22. Mai 2026) ergänzt. Die Antragsbegründung benennt das Nord-Stream-Gas als einzigen Zweck der Anlage und bestätigt damit die Kernaussage des Faktenchecks.

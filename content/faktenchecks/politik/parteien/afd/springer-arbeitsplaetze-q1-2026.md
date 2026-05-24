@@ -27,11 +27,11 @@ tags:
 
 ## Die Behauptung
 
-Der arbeitsmarktpolitische Sprecher der AfD-Fraktion, :quelle-ref{name="rene-springer"}, erklärte in einer [Pressemitteilung vom 20.&nbsp;Mai 2026](https://afdbundestag.de/deutschlands-industriearbeitsplaetze-werden-durch-merz-regierung-zerstoert/), in Deutschland seien laut Statistischem Bundesamt im ersten Quartal 2026 "486.000 Arbeitsplätze verloren gegangen", davon "171.000 Stellen" in der Industrie. Verantwortlich sei die Wirtschafts- und Energiepolitik der "Merz-Regierung".
+Der arbeitsmarktpolitische Sprecher der AfD-Fraktion, :quelle-ref{name="rene-springer"}, erklärte in einer [Pressemitteilung vom 20. Mai 2026](https://afdbundestag.de/deutschlands-industriearbeitsplaetze-werden-durch-merz-regierung-zerstoert/), in Deutschland seien laut Statistischem Bundesamt im ersten Quartal 2026 "486.000 Arbeitsplätze verloren gegangen", davon "171.000 Stellen" in der Industrie. Verantwortlich sei die Wirtschafts- und Energiepolitik der "Merz-Regierung".
 
 ## Was stimmt
 
-Beide Zahlen tauchen tatsächlich in der amtlichen Statistik auf. Die [Destatis-Pressemitteilung vom 19.&nbsp;Mai 2026](https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_167_13321.html) weist für das erste Quartal 2026 einen Rückgang der Erwerbstätigkeit aus, und das Verarbeitende Gewerbe hat im Jahresvergleich rund 171.000 Beschäftigte verloren (-2,1 %). Dass die deutsche Industrie unter Druck steht, ist unstrittig und ein reales wirtschaftspolitisches Problem.
+Beide Zahlen tauchen tatsächlich in der amtlichen Statistik auf. Die [Destatis-Pressemitteilung vom 19. Mai 2026](https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_167_13321.html) weist für das erste Quartal 2026 einen Rückgang der Erwerbstätigkeit aus, und das Verarbeitende Gewerbe hat im Jahresvergleich rund 171.000 Beschäftigte verloren (-2,1 %). Dass die deutsche Industrie unter Druck steht, ist unstrittig und ein reales wirtschaftspolitisches Problem.
 
 ## Was irreführend ist
 
@@ -41,7 +41,7 @@ Die ehrlichere Kennzahl ist der Vorjahresvergleich: Gegenüber dem ersten Quarta
 
 **Die Industrie-Zahl unterschlägt die Gegenbewegung.** Die 171.000 verlorenen Industriestellen sind korrekt, doch im selben Zeitraum stieg die Beschäftigung in öffentlichen Diensten, Erziehung und Gesundheit um rund 181.000 (+1,5 %). Der deutsche Arbeitsmarkt verschiebt sich strukturell, er bricht nicht flächendeckend ein. Springer zitiert nur die schrumpfende Seite.
 
-**Die Kausalität passt zeitlich nicht.** Die Bundesregierung unter Friedrich Merz wurde am 14.&nbsp;Mai 2025 vereidigt. Der Rückgang der Industriebeschäftigung läuft aber laut [Bundesagentur für Arbeit](https://www.arbeitsagentur.de/presse/2025-16-beschaeftigungsrueckgang-in-der-deutschen-industrie-nimmt-zu) bereits seit August 2023 "Monat für Monat", also über anderthalb Jahre vor Merz' Amtsantritt und noch unter der Ampel-Koalition. Das [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://iab.de/presseinfo/iab-prognose-fuer-2026-fiskalpolitischer-rueckenwind-trifft-auf-geopolitischen-gegenwind/) nennt als Belastungsfaktoren die industrielle Transformation, geopolitische Verwerfungen (darunter der Iran-Krieg und höhere Energiepreise) und den demografischen Wandel. Die deutsche Wirtschaft entwickle sich "seit vier Jahren schwach". Diese Faktoren kann keine Regierung in einem einzigen Quartal auslösen oder beheben.
+**Die Kausalität passt zeitlich nicht.** Die Bundesregierung unter Friedrich Merz wurde am 14. Mai 2025 vereidigt. Der Rückgang der Industriebeschäftigung läuft aber laut [Bundesagentur für Arbeit](https://www.arbeitsagentur.de/presse/2025-16-beschaeftigungsrueckgang-in-der-deutschen-industrie-nimmt-zu) bereits seit August 2023 "Monat für Monat", also über anderthalb Jahre vor Merz' Amtsantritt und noch unter der Ampel-Koalition. Das [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://iab.de/presseinfo/iab-prognose-fuer-2026-fiskalpolitischer-rueckenwind-trifft-auf-geopolitischen-gegenwind/) nennt als Belastungsfaktoren die industrielle Transformation, geopolitische Verwerfungen (darunter der Iran-Krieg und höhere Energiepreise) und den demografischen Wandel. Die deutsche Wirtschaft entwickle sich "seit vier Jahren schwach". Diese Faktoren kann keine Regierung in einem einzigen Quartal auslösen oder beheben.
 
 ## Fazit
 

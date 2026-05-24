@@ -19,7 +19,7 @@ tags:
 
 ## Über die Quelle
 
-**Karl Lauterbach** (geboren am 21.&nbsp;Februar 1963 in Düren, Nordrhein-Westfalen) ist ein deutscher Arzt, Epidemiologe und SPD-Politiker. Er studierte Humanmedizin an der RWTH Aachen und der Universität Düsseldorf und absolvierte von 1989 bis 1992 ein Postgraduiertenstudium an der Harvard School of Public Health in Boston, das er mit einem Doctor of Science (Sc.D.) in Gesundheitspolitik und Epidemiologie abschloss. Von 1992 bis 1993 hielt er anschließend ein Stipendium an der Harvard Medical School. Seit 1996 ist er Gastdozent, seit 2008 Adjunct Professor an der Harvard School of Public Health.
+**Karl Lauterbach** (geboren am 21. Februar 1963 in Düren, Nordrhein-Westfalen) ist ein deutscher Arzt, Epidemiologe und SPD-Politiker. Er studierte Humanmedizin an der RWTH Aachen und der Universität Düsseldorf und absolvierte von 1989 bis 1992 ein Postgraduiertenstudium an der Harvard School of Public Health in Boston, das er mit einem Doctor of Science (Sc.D.) in Gesundheitspolitik und Epidemiologie abschloss. Von 1992 bis 1993 hielt er anschließend ein Stipendium an der Harvard Medical School. Seit 1996 ist er Gastdozent, seit 2008 Adjunct Professor an der Harvard School of Public Health.
 
 Von 1998 bis 2005 leitete er das Institut für Gesundheitsökonomie und Klinische Epidemiologie (IGKE) der Universität Köln. Er war Mitglied des Sachverständigenrats zur Begutachtung der Entwicklung im Gesundheitswesen sowie der Rürup-Kommission, die 2003 ein Reformkonzept für die Sozialversicherungssysteme vorlegte.
 
