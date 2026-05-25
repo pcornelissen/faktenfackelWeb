@@ -50,7 +50,7 @@ useHead(computed(() => ({
 })))
 
 if (!import.meta.dev) {
-  useScriptCloudflareWebAnalytics({ token: '23276c83d792476c91e176f0dad589fa' })
+  useScriptCloudflareWebAnalytics({ token: '5ba71acf1aac4d6f8f2e20713e8db66b' })
 }
 
 useSeoMeta({
