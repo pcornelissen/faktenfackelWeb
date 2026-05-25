@@ -1,6 +1,6 @@
 ---
 publishedOn: 2026-05-09
-date: 2026-05-09
+date: 2026-05-25
 title: "Hat Correctiv den Potsdam-Bericht gelöscht?"
 subtitle: "In rechten Kanälen heißt es, Correctiv habe den Bericht über das Potsdamer Treffen gelöscht, weil sie vor Gericht verloren haben. Was wirklich passiert ist."
 description: "Correctiv hat den Potsdam-Bericht nicht gelöscht. Ein Gericht beanstandete zwei Formulierungen, der Artikel ist online. Die Kernrecherche ist unangefochten."
@@ -69,8 +69,14 @@ Die Klagen gegen Correctiv werden von der Kanzlei Höcker geführt. Nachdem das 
 
 Das Potsdamer Treffen selbst ist unbestritten. Martin Sellner stellte dort sein "Remigrationskonzept" vor, das nach seinem eigenen Bekunden auch deutsche Staatsbürger mit Migrationshintergrund umfasst, über "Anpassungsdruck" und "maßgeschneiderte Gesetze". Mehrere Gerichte haben dieses Konzept unabhängig von den Correctiv-Verfahren als menschenwürdewidrig eingestuft: das [Bundesverwaltungsgericht Leipzig im Compact-Urteil (Az. 6 A 4.24, Punkt 103)](https://www.bverwg.de/de/240625U6A4.24.0) und das [Oberverwaltungsgericht Münster in der AfD-Entscheidung (Az. 5 A 1218/22)](https://www.ovg.nrw.de/behoerde/presse/pressemitteilungen/01_archiv/2024/33_240702/5-A-1218_22-_AfD_.pdf).
 
+Auch die scharfe Charakterisierung des Treffens hält vor Gericht stand. Das Kammergericht Berlin entschied am 8. Mai 2026 (Az. 10 U 1/26), dass das Treffen als "Deportationskonferenz" bezeichnet werden darf: Die Begriffe "Ausweisung" und "Remigration" trügen "im Kern das Element der erzwungenen Ausreise". Der unterlegene Antragsteller Ulrich Vosgerau trägt die Kosten, das Verfahren ist rechtskräftig (<SourceRef code="correctiv-kammergericht-deportationskonferenz-2026">CORRECTIV, 19. Mai 2026</SourceRef>).
+
 ## Bewertung: Irreführend
 
 Die Behauptung "Correctiv hat den Bericht gelöscht, weil sie vor Gericht verloren haben" enthält zwei falsche Prämissen: Der Bericht wurde nicht gelöscht, und die Gerichtslage ist nicht eindeutig. Wer aus einem nicht rechtskräftigen Teilurteil über zwei Formulierungen eine Gesamtwiderlegung der Recherche konstruiert, betreibt gezielte Desinformation.
 
 <SourceRef code="correctiv-geheimplan-rechtliche-einordnung-2026-04">Correctiv hat im April 2026 alle vier Gerichtsverfahren erstmals vollständig nebeneinander gestellt</SourceRef> und damit die Darstellung korrigiert, die rechte Medien durch selektives Zitieren des Berliner Urteils erzeugt hatten.
+
+## Änderungshistorie
+
+- **25. Mai 2026:** Kontext um das Kammergericht-Urteil vom 8. Mai 2026 ergänzt, wonach das Potsdamer Treffen als "Deportationskonferenz" bezeichnet werden darf.
