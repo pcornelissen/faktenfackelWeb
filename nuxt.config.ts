@@ -24,6 +24,7 @@ export default defineNuxtConfig({
   ],
   $production: {
     routeRules: {
+      '/**': { headers: { 'Content-Security-Policy': `default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://cloudflareinsights.com https://*.cloudflareinsights.com; frame-src 'self' https://www.youtube-nocookie.com https://www.youtube.com; media-src 'self'`, 'Permissions-Policy': 'camera=(), microphone=(), geolocation=()' } },
       '/faktenchecks/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
       '/lagerfeuer/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
       '/zitate/**': { swr: 3600, headers: { 'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=86400' } },
