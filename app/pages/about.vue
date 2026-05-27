@@ -60,6 +60,13 @@ defineOgImage('Default', {
         <a href="https://correctiv.org/projekte/lokal/">CORRECTIV.local</a>.
       </li>
     </ul>
+    <p>
+      Warum wir bewusst auf belegte Fakten und ein nachvollziehbares Urteil setzen und nicht auf eine pauschale
+      Qualitätsnote, haben wir am Beispiel des Democracy-Score
+      <NuxtLink to="/lagerfeuer/desinformation/2026-05-27.democracy-score-warum-wir-ihn-nicht-nutzen">
+        ausführlich erklärt
+      </NuxtLink>.
+    </p>
 
     <h2>Warum gibt es die Faktenfackel?</h2>
     <p>
