@@ -124,6 +124,22 @@ export default defineNuxtConfig({
           },
         ],
     preset: nitroPreset,
+    // Der SWR-Route-Cache, die nuxt-og-image-PNGs und der Sitemap-Cache landen
+    // alle unter dem Storage-Mount `/cache`. Ohne expliziten Treiber nutzt Nitro
+    // dafür den Default-In-Memory-Treiber OHNE Eviction: jede neue URL legt einen
+    // dauerhaften Eintrag im JS-Heap an, der nie wieder freigegeben wird. Über
+    // Stunden Crawler-Traffic wächst der Old-Space-Heap so unbegrenzt bis zum
+    // V8-Limit (~2 GB) → "Reached heap limit". Ein byte-budgetierter LRU deckelt
+    // den Cache: heiße Seiten bleiben im RAM, kalte Long-Tail-Einträge werden
+    // verdrängt (Cloudflare cached die ohnehin am Edge).
+    storage: {
+      cache: {
+        driver: 'lruCache',
+        max: 1000, // Backstop: max. Anzahl Einträge
+        maxSize: 256 * 1024 * 1024, // 256 MB Byte-Budget für den gesamten Cache
+        maxEntrySize: 5 * 1024 * 1024, // einzelne Antworten > 5 MB nicht cachen
+      },
+    },
     esbuild: {
       options: {
         logOverride: { 'duplicate-object-key': 'silent' },
