@@ -1,6 +1,6 @@
 ---
 publishedOn: 2026-05-30
-date: 2026-05-30
+date: 2026-06-01
 title: "Migranten: häufiger angezeigt, nicht 2000 Prozent häufiger verurteilt"
 subtitle: "Warum 'sie werden ja häufiger verurteilt' die Statistik falsch liest"
 description: "Ausländer werden nicht 2000 Prozent häufiger verurteilt, die Überrepräsentanz ist einstellig. Dass Migranten häufiger angezeigt werden, belegen KFN-Studien."
@@ -12,13 +12,18 @@ claimAppearance: "https://bsky.app/profile/leoro.bsky.social/post/3mmy4aixw6k2q"
 summary: "In einem Bluesky-Thread wurde bezweifelt, dass Migranten häufiger angezeigt werden, und entgegengehalten, sie würden 'zum Teil 2000 Prozent häufiger verurteilt'. Der höhere Anzeige-Effekt ist durch KFN-Studien belegt. Die 2000-Prozent-Zahl ist frei erfunden: Die reale Überrepräsentanz liegt im einstelligen Faktor und erklärt sich durch dieselben Verzerrungen wie bei den Tatverdächtigen."
 keyEvidence:
   - "Das Bundeskriminalamt schreibt in der PKS 2024 selbst, dass als 'migrantisch' oder 'fremd' wahrgenommene Menschen merklich häufiger angezeigt werden."
-  - "Bei Jugendgewalt werden Taten mit deutschem Opfer und nichtdeutschem Täter zu 22,4 Prozent angezeigt, mit deutschem Täter nur zu 7,9 Prozent (KFN)."
+  - "Bei Jugendgewalt werden Taten mit deutschem Opfer und nichtdeutschem Täter zu 22,4 Prozent angezeigt, mit deutschem Täter nur zu 7,9 Prozent (Polizeiakademie Niedersachsen, mit Verweis auf das KFN)."
+  - "Eine im Auftrag des Bundesfamilienministeriums erstellte KFN-Studie zeigt: fremde Täter werden rund doppelt so häufig angezeigt, ein Täter aus der eigenen Gruppe sogar seltener als bei deutsch-auf-deutsch. Der Effekt hängt an der Fremdheit, nicht am Ausländer-Sein."
   - "Rund 90 Prozent aller in der PKS erfassten Straftaten kommen über Anzeigen aus der Bevölkerung in die Statistik."
   - "Eine 2000-Prozent-Überrepräsentanz (20-fach) bildet keine Statistik ab: Selbst der höchste offizielle Ausländeranteil (Tatverdächtige) liegt bei rund 35 bis 42 Prozent, nicht bei 77 Prozent."
   - "Die PKS zählt Tatverdächtige, nicht Verurteilte: 2024 wurden rund 60 Prozent der Ermittlungsverfahren eingestellt."
 primarySources:
   - label: "Bundeskriminalamt: Polizeiliche Kriminalstatistik 2024"
     code: bka-kriminalstatistik-2024
+  - label: "Susann Prätor (Polizeiakademie Niedersachsen) im LTO-Interview zur PKS"
+    code: lto-praetor-anzeigeverhalten-pks-2026
+  - label: "Pfeiffer, Baier & Kliem (KFN): Zur Entwicklung der Gewalt in Deutschland (2018)"
+    code: kfn-entwicklung-gewalt-deutschland-2018
   - label: "Mediendienst Integration: Begehen Ausländer öfter Straftaten als Deutsche?"
     code: mdi-auslaender-straftaten-kontrolldelikte
   - label: "CORRECTIV: Polizeiliche Kriminalstatistik, fünf Behauptungen im Faktencheck"
@@ -56,12 +61,16 @@ Das ist also kein Argument einer Lobbygruppe, sondern die Einordnung der oberste
 
 Warum dieser Effekt so stark ins Gewicht fällt: Rund **90 Prozent** aller in der PKS erfassten Straftaten werden durch Anzeigen aus der Bevölkerung bekannt, nicht durch eigene Ermittlungen der Polizei. Wer häufiger angezeigt wird, taucht häufiger auf, unabhängig davon, wie viel tatsächlich passiert ist.
 
-Wie groß der Effekt ist, zeigen Studien des Kriminologischen Forschungsinstituts Niedersachsen (KFN). In einer großen Befragung zur Jugendgewalt wurde dieselbe Art von Tat sehr unterschiedlich oft angezeigt, je nachdem, wer als Täter wahrgenommen wurde:
+Wie groß der Effekt ist, zeigen gleich mehrere kriminologische Erhebungen, und zwar keine aus dem aktivistischen Lager. Prof. Susann Prätor, Professorin an der **Polizeiakademie Niedersachsen**, verweist im <SourceRef code="lto-praetor-anzeigeverhalten-pks-2026">Interview mit der Legal Tribune Online</SourceRef> auf eine Befragung des KFN: Dieselbe Jugendgewalt-Tat wurde sehr unterschiedlich oft angezeigt, je nachdem, wer als Täter wahrgenommen wurde.
 
 - deutsches Opfer, **deutscher** Täter: **7,9 Prozent** der Fälle angezeigt
 - deutsches Opfer, **nichtdeutscher** Täter: **22,4 Prozent** der Fälle angezeigt
 
-Die Anzeigebereitschaft liegt also rund **doppelt bis dreifach** so hoch, wenn der Täter als fremd wahrgenommen wird. Derselbe Befund zeigt sich quer durch die Deliktarten und wird vom <SourceRef code="mdi-auslaender-straftaten-kontrolldelikte">Mediendienst Integration</SourceRef> mit Verweis auf die KFN-Forschung (Pfeiffer, Baier u.a.) dokumentiert. Eine kompakte kriminologische Aufbereitung der Zahlen findet sich bei [soztheo.de](https://soztheo.de/kriminologie/kriminalitaet-nichtdeutscher/).
+Die Anzeigebereitschaft liegt also rund **doppelt bis dreifach** so hoch, wenn der Täter als fremd wahrgenommen wird. Die <SourceRef code="kfn-entwicklung-gewalt-deutschland-2018">KFN-Studie von Pfeiffer, Baier und Kliem</SourceRef>, erstellt im Auftrag des Bundesfamilienministeriums, kommt am Beispiel der Flüchtlingsgewalt zum selben Bild: Eine Gewalttat durch einen nichtdeutschen Täter wird etwa doppelt so häufig angezeigt (**27,2 Prozent**) wie dieselbe Tat unter Deutschen (**13,0 Prozent**).
+
+Ein Detail dieser Studie entkräftet die Lesart, hier werde nur ein Effekt herbeigeredet: Es geht nicht um "Ausländer", sondern um **Fremdheit**. Wird das Opfer von einem Täter aus der **eigenen** nichtdeutschen Gruppe angegriffen, sinkt die Anzeigerate auf **10,2 Prozent**, also unter den Wert für deutsch-auf-deutsch. Angezeigt wird nicht häufiger, weil jemand Ausländer ist, sondern weil ein fremder, unbekannter Täter eher angezeigt wird als einer aus dem eigenen Umfeld.
+
+Neu ist der Befund nicht. Schon 2003 stellte eine Studie des Instituts für Konflikt- und Gewaltforschung der Universität Bielefeld denselben [Anzeigeeffekt](https://de.wikipedia.org/wiki/Ausl%C3%A4nderkriminalit%C3%A4t) fest: Mansel und Albrecht fanden, dass deutsche Tatverdächtige in 38,6 Prozent der Fälle angezeigt wurden, nichtdeutsche in 52 Prozent. Auch das nüchterne [Konstanzer Inventar Kriminalitätsentwicklung](https://www.uni-konstanz.de/rtf/kik/Zur-Einordnung-der-Kriminalitaetsentwicklung-PKS2023.pdf) der Universität Konstanz hält schlicht fest: "Bekannt ist auch, dass gegen Nichtdeutsche häufiger Anzeige erstattet wird als gegen Deutsche." Denselben Befund dokumentiert der <SourceRef code="mdi-auslaender-straftaten-kontrolldelikte">Mediendienst Integration</SourceRef>; eine kompakte kriminologische Aufbereitung der Zahlen findet sich bei [soztheo.de](https://soztheo.de/kriminologie/kriminalitaet-nichtdeutscher/).
 
 Auch der <SourceRef code="correctiv-pks-faktencheck-fuenf-behauptungen-2026">CORRECTIV-Faktencheck zur PKS</SourceRef> kommt zum selben Schluss und zitiert die Kriminologin Gina Wollinger: Migrantisch gelesene Personen werden häufiger angezeigt, und bestimmte Tatkontexte, etwa ein Vorfall in einer Geflüchtetenunterkunft, werden öfter zur Anzeige gebracht als derselbe Vorfall in einer Privatwohnung.
 
@@ -106,3 +115,7 @@ Die beiden Aussagen ergänzen sich zu einem klassischen Muster: Erst wird ein be
 In der Summe ist die geprüfte Behauptung deshalb **irreführend**: Sie enthält einen wahren Kern (Ausländer sind in der Statistik überrepräsentiert), zieht daraus aber mit einer erfundenen Zahl und einem methodischen Kurzschluss eine Schlussfolgerung, die die Daten nicht hergeben.
 
 Wer tiefer einsteigen will: Die methodischen Grundlagen stehen ausführlich in unseren Faktenchecks [Kriminalität bei Ausländern und Deutschen](/faktenchecks/gesellschaft/kriminalitaet/anteil-migranten) und [Dobrindts PKS-Framing](/faktenchecks/gesellschaft/kriminalitaet/dobrindt-pks-2025). Zur Einordnung der Belastungszahl hilft unser Glossareintrag zur <GlossarRef name="tatverdaechtigenbelastungszahl">Tatverdächtigenbelastungszahl</GlossarRef>.
+
+## Änderungshistorie
+
+- **1. Juni 2026:** Aussage 1 mit weiteren Primärquellen untermauert: die im Auftrag des Bundesfamilienministeriums erstellte KFN-Studie von Pfeiffer, Baier und Kliem (mit den Anzeigeraten je Opfer-Täter-Konstellation und dem Befund, dass der Effekt an der wahrgenommenen Fremdheit hängt, nicht am Ausländer-Sein), das Interview mit Prof. Susann Prätor von der Polizeiakademie Niedersachsen als Beleg für die 22,4/7,9-Prozent-Zahlen sowie ergänzende Einordnungen des Konstanzer Inventars Kriminalitätsentwicklung (Universität Konstanz) und der Bielefelder Studie von Mansel und Albrecht (2003).

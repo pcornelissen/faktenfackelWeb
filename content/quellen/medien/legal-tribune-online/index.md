@@ -4,6 +4,9 @@ description: "Legal Tribune Online (LTO) ist das führende deutsche Onlinefachme
 date: 2026-04-18
 publishedOn: 2026-04-18
 lastScanned: 2026-04-18
+sameAs:
+  - "https://www.lto.de/"
+  - "https://de.wikipedia.org/wiki/Legal_Tribune_Online"
 tags:
   - Fachmedium
   - Recht
