@@ -1,52 +1,105 @@
-import { defineEventHandler, setHeader } from 'h3'
-import { queryCollection, queryCollectionNavigation, queryCollectionSearchSections } from '@nuxt/content/server'
+import { defineEventHandler, getQuery, setHeader } from 'h3'
+import { getFtsDb } from '../utils/ftsDb.node'
+import { stemTokens } from '../../shared/fts/stem'
 
-export default defineEventHandler(async (e) => {
-  setHeader(e, 'Cache-Control', 'public, max-age=300, s-maxage=3600, stale-while-revalidate=86400')
+interface Hit {
+  path: string
+  title: string
+  excerpt: string
+  collection: string
+}
 
-  const [
-    navigation,
-    files,
-    fcFm,
-    glFm,
-    qlFm,
-    lfFm,
-    quFm,
-    ziFm,
-  ] = await Promise.all([
-    Promise.all([
-      queryCollectionNavigation(e, 'faktenchecks'),
-      queryCollectionNavigation(e, 'glossar'),
-      queryCollectionNavigation(e, 'quellen'),
-      queryCollectionNavigation(e, 'quellenlinks'),
-      queryCollectionNavigation(e, 'lagerfeuer'),
-      queryCollectionNavigation(e, 'zitate'),
-    ]).then(r => r.flat()),
-    Promise.all([
-      queryCollectionSearchSections(e, 'faktenchecks'),
-      queryCollectionSearchSections(e, 'glossar'),
-      queryCollectionSearchSections(e, 'quellen'),
-      queryCollectionSearchSections(e, 'quellenlinks'),
-      queryCollectionSearchSections(e, 'lagerfeuer'),
-      queryCollectionSearchSections(e, 'zitate'),
-    ]).then(r => r.flat()),
-    queryCollection(e, 'faktenchecks').select('path', 'subtitle', 'tags').all(),
-    queryCollection(e, 'glossar').select('path', 'subject', 'tags').all(),
-    queryCollection(e, 'quellenlinks').select('path', 'tags').all(),
-    queryCollection(e, 'lagerfeuer').select('path', 'subtitle', 'tags').all(),
-    queryCollection(e, 'quellen').select('path', 'description', 'tags').all(),
-    queryCollection(e, 'zitate').select('path', 'teaser', 'tags').all(),
-  ])
+interface FtsRow {
+  path: string
+  o_title: string
+  o_excerpt: string
+  collection: string
+  breadcrumb: string
+}
 
-  const frontMatter: Record<string, string> = {}
-  for (const item of [...fcFm, ...glFm, ...qlFm, ...lfFm, ...quFm, ...ziFm]) {
-    const r = item as Record<string, unknown>
-    const tags = (r.tags as string[] | undefined)?.join(' ')
-    const extra = [r.subtitle, r.subject, r.description, r.teaser, tags]
-      .filter(Boolean)
-      .join(' ')
-    if (extra) frontMatter[item.path] = extra
+interface CountRow {
+  collection: string
+  c: number
+}
+
+const ALLOWED_COLLECTIONS = ['faktenchecks', 'glossar', 'quellen', 'quellenlinks', 'lagerfeuer', 'zitate'] as const
+
+export default defineEventHandler((event) => {
+  const q = String(getQuery(event).q ?? '').trim()
+  const typeParam = String(getQuery(event).type ?? '').trim()
+  setHeader(event, 'Cache-Control', 'public, max-age=300, s-maxage=86400, stale-while-revalidate=604800')
+
+  if (q.length < 2) return { results: [] as Hit[], counts: {} as Record<string, number> }
+
+  const tokens = stemTokens(q)
+  if (!tokens.length) return { results: [] as Hit[], counts: {} as Record<string, number> }
+
+  // Jedes gestemmte Token als Prefix-MATCH, AND-verknüpft (Typeahead-tauglich).
+  // Doppelte Anführungszeichen im Token werden entfernt, um MATCH-Syntax nicht zu brechen.
+  const match = tokens.map(t => `"${t.replace(/"/g, '')}"*`).join(' ')
+  const today = new Date().toISOString().slice(0, 10)
+
+  const validType = (ALLOWED_COLLECTIONS as readonly string[]).includes(typeParam) ? typeParam : ''
+
+  const db = getFtsDb()
+
+  const baseParams: Record<string, string> = { match, today }
+
+  // Counts-Query laeuft ohne Type-Filter, damit alle Chips immer ihre echten Gesamtzahlen
+  // fuer den aktuellen Suchbegriff zeigen (unabhaengig vom aktiven Filter).
+  const countRows = db.prepare(`
+    SELECT collection, COUNT(DISTINCT path) AS c
+    FROM fts
+    WHERE fts MATCH @match
+      AND (published_on = '' OR published_on <= @today)
+    GROUP BY collection
+  `).all(baseParams) as CountRow[]
+
+  const counts: Record<string, number> = {}
+  let total = 0
+  for (const row of countRows) {
+    counts[row.collection] = row.c
+    total += row.c
+  }
+  counts.all = total
+
+  const params: Record<string, string> = { ...baseParams }
+  let typeFilter = ''
+  if (validType) {
+    typeFilter = 'AND collection = @type'
+    params.type = validType
   }
 
-  return { navigation, files, frontMatter }
+  // Mehr Kandidaten laden, dann per path deduplizieren.
+  // Der FTS-Index hat eine Zeile pro Abschnitt (Heading), daher koennen mehrere Zeilen
+  // auf dasselbe Dokument verweisen. bm25-Reihenfolge bleibt erhalten; die erste
+  // (best-ranked) Zeile je path gewinnt.
+  // Dokumenttitel: breadcrumb || o_title — bei Top-Abschnitten ist breadcrumb='',
+  // o_title = Dokumenttitel; bei Heading-Abschnitten ist breadcrumb = Dokumenttitel.
+  const rows = db.prepare(`
+    SELECT path AS path, o_title AS o_title, o_excerpt AS o_excerpt,
+           collection AS collection, breadcrumb AS breadcrumb
+    FROM fts
+    WHERE fts MATCH @match
+      AND (published_on = '' OR published_on <= @today)
+      ${typeFilter}
+    ORDER BY bm25(fts, 10.0, 5.0, 1.0)
+    LIMIT 200
+  `).all(params) as FtsRow[]
+
+  const seen = new Set<string>()
+  const results: Hit[] = []
+  for (const row of rows) {
+    if (seen.has(row.path)) continue
+    seen.add(row.path)
+    results.push({
+      path: row.path,
+      title: row.breadcrumb || row.o_title,
+      excerpt: row.o_excerpt,
+      collection: row.collection,
+    })
+    if (results.length === 30) break
+  }
+
+  return { results, counts }
 })
