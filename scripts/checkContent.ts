@@ -14,6 +14,7 @@
  *   - URL-unsichere Zeichen in Frontmatter-Tags
  *   - Broken internal links (gegen Content-Routen + statische Seiten)
  *   - Broken external links (HTTP HEAD/GET Erreichbarkeitscheck)
+ *   - Doppelt angelegte Quellen (zwei Profile mit gleicher sameAs-Domain)
  *
  * Usage:
  *   pnpm check:content           # nur prüfen
@@ -1134,6 +1135,86 @@ function autofix(text: string): string {
   return frontmatter + bodyFixed
 }
 
+/**
+ * Hosts, die legitim von mehreren Quellen geteilt werden: Plattformen (jede Quelle hat
+ * dort ein Profil) und Referenz-/Institutionsseiten (Wikipedia, Bundestag, abgeordnetenwatch).
+ * Eine geteilte sameAs-Domain ausserhalb dieser Liste ist ein starkes Duplikat-Signal.
+ */
+const SHARED_HOST_ALLOWLIST = new Set<string>([
+  'facebook.com', 'm.facebook.com', 'fb.watch', 'youtube.com', 'youtu.be', 'm.youtube.com',
+  'x.com', 'twitter.com', 'mobile.twitter.com', 'tiktok.com', 'vm.tiktok.com', 'instagram.com',
+  'bsky.app', 't.me', 'threads.net', 'vimeo.com', 'open.spotify.com', 'soundcloud.com',
+  'mastodon.social', 'de.wikipedia.org', 'en.wikipedia.org', 'wikipedia.org',
+  'abgeordnetenwatch.de', 'bundestag.de', 'dip.bundestag.de', 'europarl.europa.eu',
+  'archive.org', 'web.archive.org',
+])
+
+function normalizeHost(url: string): string | null {
+  try {
+    const h = new URL(url.trim()).hostname.toLowerCase()
+    return h.startsWith('www.') ? h.slice(4) : h
+  } catch {
+    return null
+  }
+}
+
+function extractSameAsHosts(text: string): string[] {
+  const m = text.match(/\nsameAs:\n((?:[ \t]+-[^\n]*\n?)+)/)
+  if (!m) return []
+  const hosts: string[] = []
+  for (const line of m[1].split('\n')) {
+    const u = line.match(/^[ \t]+-\s+(.+?)\s*$/)
+    if (!u) continue
+    const host = normalizeHost(u[1].replace(/^["']|["']$/g, ''))
+    if (host) hosts.push(host)
+  }
+  return hosts
+}
+
+/**
+ * Cross-File-Check: Zwei Quellen-Profile, die dieselbe offizielle `sameAs`-Domain
+ * deklarieren, sind mit hoher Wahrscheinlichkeit dieselbe Quelle, die versehentlich
+ * doppelt angelegt wurde (z.B. medien/lto vs. medien/legal-tribune-online, beide lto.de).
+ * Plattform-/Referenzhosts (SHARED_HOST_ALLOWLIST) werden ignoriert. Liest immer alle
+ * Quellen-index.md, meldet aber nur Fundstellen im aktuell geprueften Datei-Set (--changed-tauglich).
+ */
+async function checkDuplicateSourceDomains(scopeFiles: Set<string>, findings: Finding[]) {
+  const quellenRoot = join(CONTENT_ROOT, 'quellen')
+  if (!existsSync(quellenRoot)) return
+  const indexFiles = (await collectMarkdownFiles(quellenRoot)).filter(f => f.endsWith('/index.md'))
+  const hostToSources = new Map<string, { dir: string, file: string, line: number }[]>()
+  for (const file of indexFiles) {
+    const text = await readFile(file, 'utf-8')
+    const hosts = extractSameAsHosts(text)
+    if (hosts.length === 0) continue
+    const dir = relative(quellenRoot, file).split('/').slice(0, 2).join('/')
+    const sameAsLine = splitLines(text).findIndex(l => /^sameAs:/.test(l)) + 1
+    for (const host of hosts) {
+      if (SHARED_HOST_ALLOWLIST.has(host)) continue
+      const arr = hostToSources.get(host) ?? []
+      arr.push({ dir, file, line: sameAsLine || 1 })
+      hostToSources.set(host, arr)
+    }
+  }
+  for (const [host, sources] of hostToSources) {
+    const dirs = [...new Set(sources.map(s => s.dir))]
+    if (dirs.length < 2) continue
+    for (const s of sources) {
+      if (!scopeFiles.has(resolve(s.file))) continue
+      const others = dirs.filter(d => d !== s.dir)
+      findings.push({
+        file: s.file,
+        line: s.line,
+        col: 1,
+        rule: 'duplicate-source-domain',
+        message: `sameAs-Domain ${host} wird auch von ${others.join(', ')} deklariert - wahrscheinlich dieselbe Quelle doppelt angelegt. Quellen zusammenfuehren oder den Host in SHARED_HOST_ALLOWLIST aufnehmen.`,
+        snippet: '',
+        severity: 'error',
+      })
+    }
+  }
+}
+
 function checkFile(file: string, text: string, allowlist: Set<string>, findings: Finding[]) {
   const lines = splitLines(text)
   checkTagMismatch(file, text, lines, findings)
@@ -1224,6 +1305,9 @@ async function main() {
 
   // Link-Linter (async, HTTP)
   await checkBrokenLinks(files, texts, findings, quiet, noExternal)
+
+  // Cross-File: doppelt angelegte Quellen anhand geteilter sameAs-Domain
+  await checkDuplicateSourceDomains(new Set(files.map(f => resolve(f))), findings)
 
   const errorCount = report(findings, quiet)
   process.exit(errorCount > 0 ? 1 : 0)
