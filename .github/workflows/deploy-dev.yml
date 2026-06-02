@@ -1,0 +1,152 @@
+name: Deploy (dev)
+
+# Triggers:
+#   - push auf dev: build + deploy nach dev.faktenfackel.de.
+#   - workflow_dispatch: manueller Re-Deploy ohne Code-Aenderung.
+#
+# Bewusst KEIN workflow_run-Trigger (anders als prod-Deploy): der feuert in GitHub
+# nur, wenn die Workflow-Datei im Default-Branch (main) liegt. dev soll aber direkt
+# vom dev-Branch deployen. Gates hier: der Image-Build (bricht bei fehlerhaftem Code
+# ab, bevor SSH laeuft) und der Blue/Green-Health-Check in deploy.sh.
+on:
+  push:
+    branches: [dev]
+  workflow_dispatch:
+
+# Avoid concurrent deploys to the dev tenant (separate group from prod)
+concurrency:
+  group: deploy-hetzner-faktenfackel-dev
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    env:
+      HOST: ${{ secrets.HETZNER_HOST }}
+      SSH_USER: deploy
+      PROJECT: faktenfackel-dev
+      SMOKE_URL: https://dev.faktenfackel.de
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Compute git sha (short)
+        id: sha
+        run: |
+          SHORT_SHA=$(git rev-parse --short=12 HEAD)
+          echo "short=${SHORT_SHA}" >> "$GITHUB_OUTPUT"
+
+      # ------------------------------------------------------------------
+      # Build the Docker image. We rely on the Dockerfile multi-stage build
+      # to: (a) run `pnpm build` with NITRO_PRESET=node-server, (b) run
+      # generateSourceIndex.ts to produce .data/graph.sqlite, (c) bundle
+      # both content+graph SQLite files into the runtime image.
+      # Image tag remains faktenfackel:<sha> — same image name for both
+      # tenants; the dev-specific env (NUXT_PUBLIC_SITE_ENV=dev) is injected
+      # at container start time by deploy.sh, not baked into the image.
+      # ------------------------------------------------------------------
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Build image to tar
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+          OG_IMAGE_SECRET: ${{ secrets.NUXT_OG_IMAGE_SECRET }}
+        run: |
+          docker buildx build \
+            --file Dockerfile \
+            --build-arg "NUXT_OG_IMAGE_SECRET=${OG_IMAGE_SECRET}" \
+            --tag "faktenfackel:${SHA}" \
+            --tag "faktenfackel:latest" \
+            --output "type=docker,dest=image.tar" \
+            .
+
+      - name: Compute image SHA-256
+        id: image
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+        run: |
+          TAR_NAME="faktenfackel-dev-${SHA}.tar"
+          mv image.tar "${TAR_NAME}"
+          sha256sum "${TAR_NAME}" > "${TAR_NAME}.sha256"
+          SIZE_MB=$(du -m "${TAR_NAME}" | cut -f1)
+          echo "size_mb=${SIZE_MB}" >> "$GITHUB_OUTPUT"
+          echo "tar_name=${TAR_NAME}" >> "$GITHUB_OUTPUT"
+          echo "Image size: ${SIZE_MB} MB"
+
+      # ------------------------------------------------------------------
+      # SSH setup: HETZNER_SSH_KEY secret holds the private key paired
+      # with the public key in /home/deploy/.ssh/authorized_keys.
+      # ------------------------------------------------------------------
+      - name: Configure SSH
+        env:
+          SSH_KEY: ${{ secrets.HETZNER_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          umask 077
+          printf '%s\n' "${SSH_KEY}" > ~/.ssh/hetzner
+          ssh-keyscan -H "${HOST}" >> ~/.ssh/known_hosts
+
+      # ------------------------------------------------------------------
+      # Upload tar + sha sidecar to the dev tenant's incoming dir, then
+      # trigger deploy.sh with the faktenfackel-dev tenant argument.
+      # ------------------------------------------------------------------
+      - name: SCP image to host
+        env:
+          TAR_NAME: ${{ steps.image.outputs.tar_name }}
+        run: |
+          # -O forces legacy scp protocol (server-side `scp -t`) which our
+          # ci-restricted wrapper allow-lists. Modern scp defaults to SFTP
+          # subsystem, which is intentionally NOT allowed by the wrapper.
+          scp -O -i ~/.ssh/hetzner \
+            "${TAR_NAME}" \
+            "${TAR_NAME}.sha256" \
+            "${SSH_USER}@${HOST}:/opt/${PROJECT}/incoming/"
+
+      - name: Run deploy.sh on host
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+        run: |
+          ssh -i ~/.ssh/hetzner \
+            "${SSH_USER}@${HOST}" \
+            "/opt/faktenfackel/bin/deploy.sh ${SHA} faktenfackel-dev"
+
+      # ------------------------------------------------------------------
+      # Smoke tests against dev URL.
+      # ------------------------------------------------------------------
+      - name: Install Playwright (chromium)
+        run: npx playwright install --with-deps chromium
+
+      - name: Smoke tests
+        env:
+          SMOKE_TEST_URL: ${{ env.SMOKE_URL }}
+        run: pnpm test:smoke
+
+      - name: Summary
+        if: always()
+        env:
+          SHA: ${{ steps.sha.outputs.short }}
+          SIZE: ${{ steps.image.outputs.size_mb }}
+        run: |
+          {
+            echo "### Deploy summary (dev)"
+            echo "- SHA: \`${SHA}\`"
+            echo "- Image size: ${SIZE} MB"
+            echo "- Smoke target: ${SMOKE_URL}"
+          } >> "$GITHUB_STEP_SUMMARY"
