@@ -7,9 +7,9 @@ const slots = useSlots()
 
 function simplify(txt: string) {
   return txt.toLowerCase()
-    .replace(' ', '-')
-    .replace('\n', '-')
-    .replaceAll('/-+/', '-')
+    .replaceAll(' ', '-')
+    .replaceAll('\n', '-')
+    .replace(/-+/g, '-')
 }
 
 function extractTextFromVNodes(vnodes: VNode[]) {

@@ -81,7 +81,7 @@ function stripMdc(text: string): string {
   out = out.replace(/[*_]+([^*_]+)[*_]+/g, '$1')
   // &nbsp; -> echtes NBSP, NICHT regulärer Space (sonst splittet splitSentences bei "13. April")
   out = out.replace(/&nbsp;/g, NBSP)
-  out = out.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#x27;/g, '\'')
+  out = out.replace(/&quot;/g, '"').replace(/&#x27;/g, '\'').replace(/&amp;/g, '&')
   out = out.replace(/\s+/g, ' ').trim()
   // Restore NBSP nach \s+/g collapse — \s matched NBSP. Re-insert where date+month patterns are.
   out = out.replace(/(\d+)\.\s(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)/g, `$1.${NBSP}$2`)
@@ -191,7 +191,7 @@ function pickDescription(intro: string): string {
 }
 
 function injectDescription(fmRaw: string, description: string): string {
-  const escaped = description.replace(/"/g, '\\"')
+  const escaped = description.replace(/\\/g, '\\\\').replace(/"/g, '\\"')
   const newLine = `description: "${escaped}"`
   if (/^description:/m.test(fmRaw)) {
     return fmRaw.replace(/^description:.*$/m, newLine)
