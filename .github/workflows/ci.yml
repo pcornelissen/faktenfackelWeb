@@ -30,6 +30,9 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: Verify no client-side content queries
+        run: pnpm verify:no-client-queries
+
       - name: Content lint (changed files)
         run: pnpm check:content --changed
 

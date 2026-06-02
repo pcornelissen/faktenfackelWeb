@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "verify:dev-excluded": "scripts/verify-dev-excluded.sh",
+    "verify:no-client-queries": "scripts/verify-no-client-queries.sh",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",

@@ -7,6 +7,9 @@ pnpm lint || { echo "Lint failed — push aborted."; exit 1; }
 echo "Running typecheck..."
 pnpm typecheck || { echo "Typecheck failed — push aborted."; exit 1; }
 
+echo "Verifying no client-side content queries..."
+pnpm verify:no-client-queries || { echo "Client-seitige Content-Queries gefunden (FF-19) — push aborted."; exit 1; }
+
 echo "Running content lint (changed files only)..."
 pnpm check:content --changed --quiet || { echo "Content-Lint fehlgeschlagen. Voll-Check: 'pnpm check:content'. Auto-Fix: 'pnpm check:content:fix' — push aborted."; exit 1; }
 
