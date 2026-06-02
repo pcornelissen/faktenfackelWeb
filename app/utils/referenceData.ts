@@ -1,6 +1,6 @@
 import { useNuxtApp } from 'nuxt/app'
 import { reactive } from 'vue'
-import { nowIso } from '~/utils/contentUtils'
+import type { Quote } from '~/utils/contentUtils'
 
 export type Source = {
   date: string
@@ -25,6 +25,7 @@ export type SourceLink = {
 }
 
 type PageWithCodes = {
+  path?: string
   referenceCodes?: string[]
   quoteCodes?: string[]
   primarySources?: {
@@ -73,62 +74,17 @@ function createReferencesStore() {
       }
     },
     async fetchFor(page: PageWithCodes | null | undefined) {
-      const referenceCodes = [
-        ...(page?.referenceCodes || []),
-        ...(page?.primarySources || []).map(source => source.code).filter((code): code is string => Boolean(code)),
-      ]
-      const quoteCodes = page?.quoteCodes || []
-      const sourceLinks: SourceLink[] = referenceCodes.length
-        ? await queryCollection('quellenlinks')
-          .where('publishedOn', '<=', nowIso())
-          .orWhere((q) => {
-            for (const code of referenceCodes) {
-              q.where('code', '=', code)
-            }
-            return q
-          })
-          .all() as SourceLink[]
-        : []
-
-      const quotes: Quote[] = quoteCodes.length
-        ? await queryCollection('zitate')
-          .where('publishedOn', '<=', nowIso())
-          .orWhere((q) => {
-            for (const code of quoteCodes) {
-              q.where('code', '=', code)
-            }
-            return q
-          })
-          .all() as Quote[]
-        : []
-
       this.links.clear()
       this.quotes.clear()
       this.sources.clear()
-
-      for (const link of sourceLinks) {
-        this.links.set(link.code, link)
-      }
-      for (const quote of quotes) {
-        this.quotes.set(quote.code, quote)
-      }
-      await this.updateSources()
-    },
-
-    async updateSources() {
-      const sourcePaths = [
-        ...new Set([
-          ...this.links.values().map(l => buildSourcePath(l.path)),
-          ...this.quotes.values().map(l => buildSourcePath(l.path)),
-        ]),
-      ]
-      if (this.links.size + this.quotes.size === 0) return
-
-      const sources = await queryCollection('quellen').where('path', 'IN', sourcePaths).all() as Source[]
-
-      for (const source of sources) {
-        this.sources.set(source.path, source)
-      }
+      const path = page?.path
+      if (!path) return
+      const data = await $fetch<{ links: SourceLink[], quotes: Quote[], sources: Source[] }>('/api/references', {
+        query: { path },
+      })
+      for (const link of data.links) this.links.set(link.code, link)
+      for (const quote of data.quotes) this.quotes.set(quote.code, quote)
+      for (const source of data.sources) this.sources.set(source.path, source)
     },
   })
 }
