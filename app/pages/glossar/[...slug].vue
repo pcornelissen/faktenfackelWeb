@@ -1,18 +1,29 @@
 <script setup lang="ts">
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
+
+interface GlossarDoc {
+  title?: string
+  subject?: string
+  description?: string
+  date?: string
+  publishedOn?: string
+  body?: unknown
+  [key: string]: unknown
+}
 
 const route = useRoute()
 const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('glossar', basePath, {}).where('publishedOn', '<=', nowIso())
+const { data: surround } = await useFetch<unknown[]>('/api/content/surround', {
+  key: `${route.path}-surround`,
+  query: { collection: 'glossar', path: basePath },
 })
 
-const { data: page } = await useAsyncData(
-  `glossar-${slug}`,
-  () => queryCollection('glossar').path(basePath).where('publishedOn', '<=', nowIso()).first(),
-)
+const { data: page } = await useFetch<GlossarDoc | null>('/api/content/doc', {
+  key: `glossar-${slug}`,
+  query: { collection: 'glossar', path: basePath },
+})
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Glossar-Eintrag nicht gefunden' })

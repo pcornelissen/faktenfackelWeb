@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Heading from '~/components/layout/Heading.vue'
 import PostsList from '~/components/content/PostsList.vue'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 import type { Post } from '~/utils/contentUtils'
 import CategoriesOverview from '~/components/lagerfeuer/CategoriesOverview.vue'
 
@@ -16,13 +16,14 @@ await definePageData({
 
 defineOgImage('Default', { title: 'Analysen, Hintergründe und Blog', label: 'LAGERFEUER' })
 
-const { data: recentList } = await useAsyncData('lagerfeuer-recent-overview', () =>
-  queryCollection('lagerfeuer')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all(),
-)
+const { data: recentList } = await useFetch<Post[]>('/api/content/list', {
+  key: 'lagerfeuer-recent-overview',
+  query: {
+    collection: 'lagerfeuer',
+    scope: 'all',
+    fields: 'title,subtitle,path,publishedOn,tags,date,description',
+  },
+})
 // Filter out _info pages (they have no date and won't survive the date filter, but filter client-side too)
 const recent = ((recentList.value || []) as Post[]).filter(p => !p.path.endsWith('/_info'))
 </script>

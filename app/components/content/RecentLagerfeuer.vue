@@ -1,14 +1,16 @@
 <script setup lang="ts">
-import { nowIso, type Post } from '~/utils/contentUtils'
+import type { Post } from '~/utils/contentUtils'
 
-const { data: listRaw } = await useAsyncData('/lagerfeuer', () => {
-  return queryCollection('lagerfeuer')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all()
+const { data: listRaw } = await useFetch<Post[]>('/api/content/list', {
+  key: '/lagerfeuer',
+  query: {
+    collection: 'lagerfeuer',
+    scope: 'recent',
+    fields: 'title,subtitle,path,publishedOn,tags,date',
+    limit: 4,
+  },
 })
-const list = listRaw.value as Post[]
+const list = (listRaw.value || []) as Post[]
 
 function filter(list: Post[]) {
   return list.filter(post => !post.path.endsWith('/_info')).slice(0, 4)

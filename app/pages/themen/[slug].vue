@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { dateString } from '~/utils/stringUtils'
-import { definePageData, nowIso, type Post, type Quote } from '~/utils/contentUtils'
+import { definePageData, type Post, type Quote } from '~/utils/contentUtils'
 import type { Source, SourceLink } from '~/utils/referenceData'
 
 type MatchTags = {
@@ -43,7 +43,7 @@ const slug = route.params.slug as string
 const basePath = `/themen/${slug}`
 
 const { data: page } = await useAsyncData(`thema-${slug}`, () =>
-  queryCollection('themen').path(basePath).where('publishedOn', '<=', nowIso()).first(),
+  $fetch('/api/content/doc', { query: { collection: 'themen', path: basePath } }),
 )
 
 if (!page.value) {
@@ -116,34 +116,13 @@ function mergeFeaturedByCode<T extends TaggedItem>(items: T[], codes: string[] |
 
 const { data: hubData } = await useAsyncData(`thema-${slug}-content`, async () => {
   const [faktenchecks, lagerfeuer, glossar, zitate, quellenlinks, quellen, themen] = await Promise.all([
-    queryCollection('faktenchecks')
-      .select('title', 'subtitle', 'description', 'path', 'publishedOn', 'tags', 'date', 'verdict')
-      .where('publishedOn', '<=', nowIso())
-      .all(),
-    queryCollection('lagerfeuer')
-      .select('title', 'subtitle', 'description', 'path', 'publishedOn', 'tags', 'date')
-      .where('publishedOn', '<=', nowIso())
-      .all(),
-    queryCollection('glossar')
-      .select('title', 'subject', 'description', 'path', 'publishedOn', 'tags', 'date')
-      .where('publishedOn', '<=', nowIso())
-      .all(),
-    queryCollection('zitate')
-      .select('title', 'teaser', 'path', 'publishedOn', 'tags', 'date', 'code')
-      .where('publishedOn', '<=', nowIso())
-      .all(),
-    queryCollection('quellenlinks')
-      .select('title', 'uri', 'type', 'path', 'publishedOn', 'tags', 'date', 'sourceDate', 'code', 'coSources')
-      .where('publishedOn', '<=', nowIso())
-      .all(),
-    queryCollection('quellen')
-      .select('date', 'name', 'description', 'path', 'tags', 'imageAuthor', 'publishedOn')
-      .where('publishedOn', '<=', nowIso())
-      .all(),
-    queryCollection('themen')
-      .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date')
-      .where('publishedOn', '<=', nowIso())
-      .all(),
+    $fetch('/api/content/list', { query: { collection: 'faktenchecks', scope: 'all', fields: 'title,subtitle,description,path,publishedOn,tags,date,verdict' } }),
+    $fetch('/api/content/list', { query: { collection: 'lagerfeuer', scope: 'all', fields: 'title,subtitle,description,path,publishedOn,tags,date' } }),
+    $fetch('/api/content/list', { query: { collection: 'glossar', scope: 'all', fields: 'title,subject,description,path,publishedOn,tags,date' } }),
+    $fetch('/api/content/list', { query: { collection: 'zitate', scope: 'all', fields: 'title,teaser,path,publishedOn,tags,date,code' } }),
+    $fetch('/api/content/list', { query: { collection: 'quellenlinks', scope: 'all', fields: 'title,uri,type,path,publishedOn,tags,date,sourceDate,code,coSources' } }),
+    $fetch('/api/content/list', { query: { collection: 'quellen', scope: 'all', fields: 'date,name,description,path,tags,imageAuthor,publishedOn' } }),
+    $fetch('/api/content/list', { query: { collection: 'themen', scope: 'all', fields: 'title,subtitle,path,publishedOn,tags,date' } }),
   ])
 
   return {

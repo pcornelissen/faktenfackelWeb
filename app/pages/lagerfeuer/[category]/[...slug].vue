@@ -1,7 +1,24 @@
 <script setup lang="ts">
-import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { useRoute } from 'nuxt/app'
+import { definePageData } from '~/utils/contentUtils'
 import { useReferencesStore } from '~/utils/referenceData'
+
+interface LagerfeuerDoc {
+  path?: string
+  title?: string
+  subtitle?: string
+  description?: string
+  date?: string
+  publishedOn?: string
+  part?: number
+  authors?: string[]
+  tags?: string[]
+  body?: unknown
+  referenceCodes?: string[]
+  quoteCodes?: string[]
+  primarySources?: { code?: string }[]
+  [key: string]: unknown
+}
 
 definePageMeta({ key: route => route.fullPath })
 
@@ -25,40 +42,46 @@ function chapterLabel(part: number | undefined): string {
 
 // Global surround only for non-series articles
 const { data: surround } = isSeries
-  ? { data: ref(null) }
-  : await useAsyncData(`${route.path}-surround`, () => {
-      return queryCollectionItemSurroundings('lagerfeuer', basePath, {
-        fields: ['subtitle'],
-      }).where('path', 'NOT LIKE', '%_info').where('publishedOn', '<=', nowIso())
+  ? { data: ref<unknown[] | null>(null) }
+  : await useFetch<unknown[]>('/api/content/surround', {
+      key: `${route.path}-surround`,
+      query: { collection: 'lagerfeuer', path: basePath, prefix: categoryPath },
     })
 
 // Series chapter navigation
 type SeriesChapter = { title: string, path: string, part: number }
 const { data: seriesChapters } = isSeries
-  ? await useAsyncData(`series-${seriesPath}`, () =>
-      queryCollection('lagerfeuer')
-        .where('path', 'LIKE', seriesPath + '/%')
-        .where('publishedOn', '<=', nowIso())
-        .order('part', 'ASC')
-        .all() as Promise<SeriesChapter[]>,
-    )
+  ? await useFetch<SeriesChapter[]>('/api/content/list', {
+      key: `series-${seriesPath}`,
+      query: {
+        collection: 'lagerfeuer',
+        scope: 'prefix',
+        value: seriesPath!,
+        fields: 'title,path,part,publishedOn',
+      },
+    })
   : { data: ref<SeriesChapter[] | null>(null) }
 
+const sortedSeriesChapters = computed(() => {
+  const chapters = seriesChapters.value as SeriesChapter[] | null
+  if (!chapters) return null
+  return [...chapters].sort((a, b) => (a.part ?? 0) - (b.part ?? 0))
+})
 const currentSeriesIndex = computed(() =>
-  seriesChapters.value?.findIndex(c => c.path === basePath) ?? -1,
+  sortedSeriesChapters.value?.findIndex(c => c.path === basePath) ?? -1,
 )
-const firstChapter = computed(() => seriesChapters.value?.[0] ?? null)
+const firstChapter = computed(() => sortedSeriesChapters.value?.[0] ?? null)
 const prevChapter = computed(() =>
-  currentSeriesIndex.value > 0 ? (seriesChapters.value?.[currentSeriesIndex.value - 1] ?? null) : null,
+  currentSeriesIndex.value > 0 ? (sortedSeriesChapters.value?.[currentSeriesIndex.value - 1] ?? null) : null,
 )
 const nextChapter = computed(() =>
-  seriesChapters.value?.[currentSeriesIndex.value + 1] ?? null,
+  sortedSeriesChapters.value?.[currentSeriesIndex.value + 1] ?? null,
 )
 
-const { data: page } = await useAsyncData(
-  `lagerfeuer-${slug}`,
-  () => queryCollection('lagerfeuer').path(basePath).where('publishedOn', '<=', nowIso()).first(),
-)
+const { data: page } = await useFetch<LagerfeuerDoc | null>('/api/content/doc', {
+  key: `lagerfeuer-${slug}`,
+  query: { collection: 'lagerfeuer', path: basePath },
+})
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Beitrag nicht gefunden' })
@@ -188,7 +211,7 @@ await referencesStore.fetchFor(page.value)
           <ArticleCorrectionNotice />
 
           <!-- Series navigation for chapter articles -->
-          <template v-if="isSeries && seriesChapters?.length">
+          <template v-if="isSeries && sortedSeriesChapters?.length">
             <USeparator class="my-8" />
             <nav class="series-nav">
               <NuxtLink

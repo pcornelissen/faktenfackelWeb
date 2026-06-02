@@ -2,7 +2,14 @@
 import { capitalize } from '~/utils/stringUtils'
 import PostsList from '~/components/content/PostsList.vue'
 import type { Post } from '~/utils/contentUtils'
-import { definePageData, filter, nowIso } from '~/utils/contentUtils'
+import { definePageData, filter } from '~/utils/contentUtils'
+
+interface CategoryDoc {
+  title?: string
+  description?: string
+  date?: string
+  [key: string]: unknown
+}
 
 const route = useRoute()
 
@@ -11,29 +18,25 @@ const LAGERFEUER_CATEGORY_PAGE_SIZE = 100
 const category = route.params.category as string
 const basePath = route.path
 
-const { data: categoryInfo }
-  = await
-  useAsyncData(
-    `lagerfeuer-${category}-info`,
-    () => {
-      return queryCollection('lagerfeuer').path(`${basePath}/_info`).first()
-    })
-const { data: post }
-  = await
-  useAsyncData(
-    `lagerfeuer-${category}`,
-    () => {
-      return queryCollection('lagerfeuer').path(`${basePath}`).first()
-    })
-
-const { data: list1 } = await useAsyncData(route.path, () => {
-  return queryCollection('lagerfeuer')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'description')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all()
+const { data: categoryInfo } = await useFetch<CategoryDoc | null>('/api/content/doc', {
+  key: `lagerfeuer-${category}-info`,
+  query: { collection: 'lagerfeuer', path: `${basePath}/_info` },
 })
-const list = computed(() => (list1.value || []) as Post[])
+const { data: post } = await useFetch<CategoryDoc | null>('/api/content/doc', {
+  key: `lagerfeuer-${category}`,
+  query: { collection: 'lagerfeuer', path: basePath },
+})
+
+const { data: list1 } = await useFetch<Post[]>('/api/content/list', {
+  key: route.path,
+  query: {
+    collection: 'lagerfeuer',
+    scope: 'prefix',
+    value: basePath,
+    fields: 'title,subtitle,path,publishedOn,tags,date,description',
+  },
+})
+const list = computed(() => list1.value || [])
 const categoryPosts = computed(() => filter(list.value, category, 'lagerfeuer'))
 const isIndexableCategory = computed(() => Boolean(categoryInfo.value) && categoryPosts.value.length >= 4)
 const title = categoryInfo.value?.title || `Lagerfeuer Beiträge im Bereich ${capitalize(category)}`

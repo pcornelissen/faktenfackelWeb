@@ -1,14 +1,20 @@
 <script setup lang="ts">
-import { nowIso } from '~/utils/contentUtils'
+interface NewsTickerItem {
+  title: string
+  path: string
+  date: string
+  publishedOn: string
+}
 
-const { data: recentNewsData } = await useAsyncData('hero-news', () =>
-  queryCollection('news')
-    .select('title', 'path', 'date', 'publishedOn')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .limit(3)
-    .all(),
-)
+const { data: recentNewsData } = await useFetch<NewsTickerItem[]>('/api/content/list', {
+  key: 'hero-news',
+  query: {
+    collection: 'news',
+    scope: 'recent',
+    fields: 'title,path,date,publishedOn',
+    limit: 3,
+  },
+})
 
 const recentNews = computed(() => recentNewsData.value || [])
 
