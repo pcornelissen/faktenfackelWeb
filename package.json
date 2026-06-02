@@ -32,7 +32,7 @@
     "build:fts": "tsx scripts/buildFts.ts"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.109",
+    "@iconify-json/lucide": "^1.2.111",
     "@iconify-json/mdi": "^1.2.3",
     "@nuxt/content": "^3.14.0",
     "@nuxt/fonts": "^0.14.0",
