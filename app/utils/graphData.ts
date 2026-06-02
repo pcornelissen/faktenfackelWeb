@@ -21,6 +21,17 @@ export interface GraphNode {
 }
 
 /**
+ * @nuxt/content strippt ein numerisches Order-Präfix (z.B. "20260415.") aus jedem
+ * Pfad-Segment für die Route — aus `links/20260415.berlin-...` wird `links/berlin-...`.
+ * Der Graph speichert aber den rohen Dateipfad (mit Datum). Damit die erzeugte URL der
+ * echten Route entspricht, hier dasselbe Stripping anwenden.
+ * Nur reine Ziffern + Punkt werden entfernt: "20260415." ja, "2026-04-24." (Bindestriche) nein.
+ */
+function stripOrderPrefix(path: string): string {
+  return path.split('/').map(seg => seg.replace(/^\d+\./, '')).join('/')
+}
+
+/**
  * Turn a graph node's stored `path` into the public site URL.
  *   source   → /quellen/{path}
  *   link     → /quellen/{path}
@@ -29,8 +40,9 @@ export interface GraphNode {
  */
 export function nodeToHref(node: Pick<GraphNode, 'type' | 'path'>): string {
   if (!node.path) return '#'
-  if (node.type === 'article') return '/' + node.path.replace(/^\/+/, '')
-  return '/quellen/' + node.path.replace(/^\/+/, '')
+  const path = stripOrderPrefix(node.path.replace(/^\/+/, ''))
+  if (node.type === 'article') return '/' + path
+  return '/quellen/' + path
 }
 
 /**
