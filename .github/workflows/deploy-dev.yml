@@ -13,6 +13,10 @@ on:
     branches: [dev]
   workflow_dispatch:
 
+# Least privilege: nur Code lesen (Checkout). Kein Schreibzugriff aufs Repo noetig.
+permissions:
+  contents: read
+
 # Avoid concurrent deploys to the dev tenant (separate group from prod)
 concurrency:
   group: deploy-hetzner-faktenfackel-dev
