@@ -12,6 +12,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Least privilege: nur Code lesen (Checkout). Kein Schreibzugriff aufs Repo noetig.
+permissions:
+  contents: read
+
 # Avoid concurrent deploys to the same host
 concurrency:
   group: deploy-hetzner-faktenfackel

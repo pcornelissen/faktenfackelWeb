@@ -5,6 +5,10 @@ on:
   pull_request:
     branches: [main]
 
+# Least privilege: nur Code lesen (Checkout). Kein Schreibzugriff aufs Repo noetig.
+permissions:
+  contents: read
+
 jobs:
   verify:
     runs-on: ubuntu-latest

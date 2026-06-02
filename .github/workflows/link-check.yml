@@ -5,6 +5,12 @@ on:
     - cron: "0 5 * * *"
   workflow_dispatch:
 
+# Least privilege: Code lesen (Checkout) + Issues schreiben (gh issue create/comment
+# bei fehlgeschlagenem Link-Check). Kein weiterer Schreibzugriff noetig.
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   link-check:
     runs-on: ubuntu-latest
