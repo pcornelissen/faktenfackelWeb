@@ -186,11 +186,11 @@ function onGlobalKey(e: KeyboardEvent) {
               :aria-pressed="activeType === chip.key"
               @click="selectType(chip.key)"
             >
-              {{ chip.label }}<sup
+              {{ chip.label }}<span
                 v-if="hasActiveCounts"
                 class="chip-count"
                 :class="{ 'chip-count--active': activeType === chip.key }"
-              >{{ chipCount(chip.key) }}</sup>
+              >{{ chipCount(chip.key) }}</span>
             </button>
           </div>
 
@@ -351,11 +351,12 @@ function onGlobalKey(e: KeyboardEvent) {
 
 .chip-count {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-style: normal;
   color: var(--muted);
-  margin-left: 0.2em;
-  vertical-align: super;
+  margin-left: 0.35em;
+  vertical-align: baseline;
+  opacity: 0.85;
   line-height: 1;
 }
 
