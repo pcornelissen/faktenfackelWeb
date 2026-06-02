@@ -1,21 +1,35 @@
 <script setup lang="ts">
-import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { useRoute } from 'nuxt/app'
+import { definePageData } from '~/utils/contentUtils'
 import { resolveAuthors } from '~/utils/authors'
 import { useReferencesStore } from '~/utils/referenceData'
+
+interface NewsDoc {
+  path?: string
+  title: string
+  teaser?: string
+  date?: string
+  publishedOn?: string
+  body?: unknown
+  referenceCodes?: string[]
+  quoteCodes?: string[]
+  primarySources?: { code?: string }[]
+  [key: string]: unknown
+}
 
 const route = useRoute()
 const referencesStore = useReferencesStore()
 const basePath = route.path
 
-const { data: surround } = await useAsyncData(`${route.path}-news-surround`, () => {
-  return queryCollectionItemSurroundings('news', basePath, {}).where('publishedOn', '<=', nowIso())
+const { data: surround } = await useFetch<unknown[]>('/api/content/surround', {
+  key: `${route.path}-news-surround`,
+  query: { collection: 'news', path: basePath },
 })
 
-const { data: page } = await useAsyncData(
-  `news-${basePath}`,
-  () => queryCollection('news').path(basePath).where('publishedOn', '<=', nowIso()).first(),
-)
+const { data: page } = await useFetch<NewsDoc | null>('/api/content/doc', {
+  key: `news-${basePath}`,
+  query: { collection: 'news', path: basePath },
+})
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'News-Eintrag nicht gefunden' })

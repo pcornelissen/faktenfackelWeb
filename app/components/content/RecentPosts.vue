@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { nowIso } from '~/utils/contentUtils'
-
-const { data: list1 } = await useAsyncData('/faktenchecks', () => {
-  return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all()
+const { data: list1 } = await useFetch<Post[]>('/api/content/list', {
+  key: '/faktenchecks',
+  query: {
+    collection: 'faktenchecks',
+    scope: 'recent',
+    fields: 'title,subtitle,path,publishedOn,tags,date,verdict',
+    limit: 6,
+  },
 })
-const list = list1.value as Post[]
+const list = (list1.value || []) as Post[]
 
 function filter(list: Post[]) {
   return list.filter(post => !post.path.endsWith('/_info')).slice(0, 6)

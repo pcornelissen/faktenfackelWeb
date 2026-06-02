@@ -6,6 +6,10 @@ const route = useRoute()
 const title = computed(() => (route.meta.title as string) || 'Faktenfackel')
 const description = computed(() => (route.meta.description as string) || 'Faktenfackel prüft Behauptungen, entlarvt Mythen und ordnet Aussagen aus Politik und Medien mit belastbaren Quellen ein.')
 const { url: siteUrl } = useSiteConfig()
+// Auf dev (dev.faktenfackel.de) global noindex — greift auch in prerenderten Seiten,
+// die die Server-Middleware umgehen. Zusammen mit robots.txt Disallow: / und dem
+// X-Robots-Tag-Header der Middleware.
+const isDevEnv = useRuntimeConfig().public.siteEnv === 'dev'
 const canonicalPath = computed(() => {
   const p = route.path
   return p
@@ -29,6 +33,7 @@ useHead(computed(() => ({
   title: title.value,
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    ...(isDevEnv ? [{ name: 'robots', content: 'noindex, nofollow' }] : []),
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' },

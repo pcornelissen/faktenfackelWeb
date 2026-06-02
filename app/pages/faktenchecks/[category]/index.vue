@@ -2,29 +2,34 @@
 import { capitalize } from '~/utils/stringUtils'
 import PostsList from '~/components/content/PostsList.vue'
 import type { Post } from '~/utils/contentUtils'
-import { definePageData, filter, nowIso } from '~/utils/contentUtils'
+import { definePageData, filter } from '~/utils/contentUtils'
+
+interface CategoryInfo {
+  title?: string
+  description?: string
+  [key: string]: unknown
+}
 
 const route = useRoute()
 
 const category = route.params.category as string
-const basePath = route.path// `/faktencheck/${category}`;
+const basePath = route.path
 
-const { data: categoryInfo }
-  = await
-  useAsyncData(
-    `faktencheck-${category}-info`,
-    () => {
-      return queryCollection('faktenchecks').path(`${basePath}/_info`).first()
-    })
-
-const { data: list1 } = await useAsyncData(route.path, () => {
-  return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all()
+const { data: categoryInfo } = await useFetch<CategoryInfo | null>('/api/content/doc', {
+  key: `faktencheck-${category}-info`,
+  query: { collection: 'faktenchecks', path: `${basePath}/_info` },
 })
-const list = computed(() => (list1.value || []) as Post[])
+
+const { data: list1 } = await useFetch<Post[]>('/api/content/list', {
+  key: route.path,
+  query: {
+    collection: 'faktenchecks',
+    scope: 'prefix',
+    value: basePath,
+    fields: 'title,subtitle,path,publishedOn,tags,date,verdict',
+  },
+})
+const list = computed(() => list1.value || [])
 const categoryPosts = computed(() => filter(list.value, category))
 const isIndexableCategory = computed(() => Boolean(categoryInfo.value) && categoryPosts.value.length >= 4)
 const title = categoryInfo.value?.title || `Faktenchecks im Bereich ${capitalize(category)}`

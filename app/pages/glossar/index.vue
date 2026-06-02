@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import PostsList from '~/components/content/PostsList.vue'
 import Heading from '~/components/layout/Heading.vue'
-import { definePageData, nowIso, type Post } from '~/utils/contentUtils'
+import { definePageData, type Post } from '~/utils/contentUtils'
 
 const route = useRoute()
 
@@ -14,13 +14,15 @@ await definePageData({
 
 defineOgImage('Default', { title: 'Begriffe aus Politik und Faktencheck', label: 'GLOSSAR' })
 
-const { data: list1 } = await useAsyncData(route.path, () => {
-  return queryCollection('glossar')
-    .select('title', 'subject', 'description', 'path', 'publishedOn', 'tags', 'date')
-    .where('publishedOn', '<=', nowIso())
-    .all()
+const { data: list1 } = await useFetch<Post[]>('/api/content/list', {
+  key: route.path,
+  query: {
+    collection: 'glossar',
+    scope: 'all',
+    fields: 'title,subject,description,path,publishedOn,tags,date',
+  },
 })
-const list = list1.value as Post[]
+const list = (list1.value || []) as Post[]
 
 const { url: siteUrl } = useSiteConfig()
 

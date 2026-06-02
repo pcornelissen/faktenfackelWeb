@@ -1,7 +1,44 @@
 <script setup lang="ts">
-import { useAsyncData, useRoute } from 'nuxt/app'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { useRoute } from 'nuxt/app'
+import { definePageData } from '~/utils/contentUtils'
 import { useReferencesStore } from '~/utils/referenceData'
+
+type VerdictType = 'false' | 'misleading' | 'complex' | 'true'
+
+interface FactcheckPrimarySource {
+  label: string
+  code?: string
+  url?: string
+}
+
+interface FaktencheckDoc {
+  path?: string
+  title?: string
+  subtitle?: string
+  description?: string
+  date?: string
+  publishedOn?: string
+  verdict?: VerdictType | null
+  authors?: string[]
+  claim?: string
+  claimAuthor?: string
+  claimAppearance?: string
+  summary?: string
+  keyEvidence?: string[]
+  primarySources?: FactcheckPrimarySource[]
+  tags?: string[]
+  body?: unknown
+  referenceCodes?: string[]
+  quoteCodes?: string[]
+  [key: string]: unknown
+}
+
+interface SurroundItem {
+  path: string
+  title?: string
+  subtitle?: string
+  [key: string]: unknown
+}
 
 const route = useRoute()
 const referencesStore = useReferencesStore()
@@ -12,16 +49,15 @@ const slug = (route.params.slug as string[]).join('/')
 const categoryPath = `/faktenchecks/${category}`
 const basePath = route.path
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('faktenchecks', basePath, {
-    fields: ['subtitle'],
-  }).where('path', 'NOT LIKE', '%_info').where('publishedOn', '<=', nowIso())
+const { data: surround } = await useFetch<[SurroundItem | null, SurroundItem | null]>('/api/content/surround', {
+  key: `${route.path}-surround`,
+  query: { collection: 'faktenchecks', path: basePath, prefix: categoryPath },
 })
 
-const { data: page } = await useAsyncData(
-  `faktencheck-${slug}`,
-  () => queryCollection('faktenchecks').path(basePath).where('publishedOn', '<=', nowIso()).first(),
-)
+const { data: page } = await useFetch<FaktencheckDoc | null>('/api/content/doc', {
+  key: `faktencheck-${slug}`,
+  query: { collection: 'faktenchecks', path: basePath },
+})
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Faktencheck nicht gefunden' })

@@ -1,7 +1,15 @@
 <script setup lang="ts">
 import Heading from '~/components/layout/Heading.vue'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 import { dateString } from '~/utils/stringUtils'
+
+interface NewsItem {
+  title: string
+  path: string
+  date: string
+  publishedOn: string
+  teaser?: string
+}
 
 await definePageData({
   title: 'Neuigkeiten und Ergänzungen auf Faktenfackel',
@@ -12,13 +20,14 @@ await definePageData({
 
 defineOgImage('Default', { title: 'Neuigkeiten und Ergänzungen', label: 'NEUIGKEITEN' })
 
-const { data: allNews } = await useAsyncData('news-list', () =>
-  queryCollection('news')
-    .select('title', 'path', 'date', 'publishedOn', 'teaser')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all(),
-)
+const { data: allNews } = await useFetch<NewsItem[]>('/api/content/list', {
+  key: 'news-list',
+  query: {
+    collection: 'news',
+    scope: 'all',
+    fields: 'title,path,date,publishedOn,teaser',
+  },
+})
 
 const newsList = computed(() => allNews.value || [])
 

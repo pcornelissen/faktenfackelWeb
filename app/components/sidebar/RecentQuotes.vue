@@ -1,16 +1,9 @@
 <script setup lang="ts">
-import { nowIso } from '~/utils/contentUtils'
-
-const { data: recentQuotesRaw } = await useAsyncData('recent-zitate', () =>
-  queryCollection('zitate')
-    .select('path', 'title', 'teaser', 'date')
-    .where('path', 'NOT LIKE', '%/_info')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .limit(3)
-    .all(),
-)
-const recentQuotes = recentQuotesRaw.value as Quote[]
+const { data: recentQuotesRaw } = await useFetch('/api/content/list', {
+  query: { collection: 'zitate', scope: 'recent', limit: 3 },
+  key: 'recent-zitate',
+})
+const recentQuotes = (recentQuotesRaw.value ?? []) as Quote[]
 </script>
 
 <template>

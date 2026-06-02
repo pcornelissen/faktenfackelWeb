@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { useAsyncData, useFetch, useRoute } from 'nuxt/app'
-import { definePageData, getSourceFromPath, nowIso, type Post } from '~/utils/contentUtils'
+import type { QuellenCollectionItem, ZitateCollectionItem } from '@nuxt/content'
+import { useFetch, useRoute } from 'nuxt/app'
+import { definePageData, getSourceFromPath, type Post } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import { useReferencesStore } from '~/utils/referenceData'
 import { type GraphNode, nodeToPost } from '~/utils/graphData'
@@ -12,19 +13,20 @@ const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path
 const sourcePath = getSourceFromPath(route.path)
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('zitate', basePath).where('path', 'LIKE', sourcePath + '/%').where('publishedOn', '<=', nowIso())
+const { data: surround } = await useFetch<(ZitateCollectionItem | null)[]>('/api/content/surround', {
+  query: { collection: 'zitate', path: basePath, prefix: sourcePath },
+  key: `${route.path}-surround`,
 })
 
-const { data: source } = await useAsyncData(
-  `zitate-quelle-${slug}`,
-  () => queryCollection('quellen').path(sourcePath).first(),
-)
+const { data: source } = await useFetch<QuellenCollectionItem | null>('/api/content/doc', {
+  query: { collection: 'quellen', path: sourcePath },
+  key: `zitate-quelle-${slug}`,
+})
 
-const { data: page } = await useAsyncData(
-  `zitate-${slug}`,
-  () => queryCollection('zitate').path(basePath).where('publishedOn', '<=', nowIso()).first(),
-)
+const { data: page } = await useFetch<ZitateCollectionItem | null>('/api/content/doc', {
+  query: { collection: 'zitate', path: basePath },
+  key: `zitate-${slug}`,
+})
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Zitat nicht gefunden' })
@@ -46,7 +48,7 @@ defineOgImage('Zitat', {
   source: sourceNameForDesc,
 })
 
-const lastChangeStr = page.value?.date as string | null || ''
+const lastChangeStr = (page.value?.date as unknown as string | null) || ''
 const lastChange = dateString(lastChangeStr)
 
 await referencesStore.fetchFor(page.value)

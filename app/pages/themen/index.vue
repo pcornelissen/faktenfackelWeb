@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 
 type ThemePage = {
   title: string
@@ -20,15 +20,16 @@ await definePageData({
 
 defineOgImage('Default', { title: 'Faktenchecks, Quellen und Einordnung', label: 'THEMEN' })
 
-const { data: themesRaw } = await useAsyncData('themen-index', () =>
-  queryCollection('themen')
-    .select('title', 'subtitle', 'description', 'intro', 'path', 'date', 'publishedOn', 'tags')
-    .where('publishedOn', '<=', nowIso())
-    .order('title', 'ASC')
-    .all(),
-)
+const { data: themesRaw } = await useFetch('/api/content/list', {
+  query: { collection: 'themen', scope: 'all', fields: 'title,subtitle,description,intro,path,date,publishedOn,tags' },
+  key: 'themen-index',
+})
 
-const themes = computed(() => (themesRaw.value || []) as unknown as ThemePage[])
+const themes = computed(() =>
+  [...((themesRaw.value || []) as unknown as ThemePage[])].sort((a, b) =>
+    a.title.localeCompare(b.title, 'de'),
+  ),
+)
 </script>
 
 <template>

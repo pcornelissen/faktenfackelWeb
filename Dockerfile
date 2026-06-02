@@ -81,8 +81,16 @@ RUN mkdir -p .data && \
     KNOWLEDGE_MCP_DIR=$(mktemp -d) \
     pnpm exec tsx scripts/generateSourceIndex.ts
 
-# Fail-fast if graph DB didn't materialise (content DB is runtime-seeded)
+# Build FTS SQLite aus der Content-Build-DB. CONTENT_DB: im Docker-Builder
+# schreibt pnpm build immer build.sqlite. Lokal ist build.sqlite oft leer
+# (nur contents.sqlite befüllt) — daher robuster Fallback per Shell-Conditional.
+RUN _cdb=$(pwd)/.data/content/build.sqlite; \
+    [ -s "$_cdb" ] || _cdb=$(pwd)/.data/content/contents.sqlite; \
+    CONTENT_DB="$_cdb" FTS_DB=$(pwd)/.data/fts.sqlite pnpm build:fts
+
+# Fail-fast if graph DB or FTS DB didn't materialise (content DB is runtime-seeded)
 RUN test -s .data/graph.sqlite \
+    && test -s .data/fts.sqlite \
     && test -s .output/public/__nuxt_content/faktenchecks/sql_dump.txt
 
 # ---------------------------------------------------------------------------
@@ -115,6 +123,7 @@ ENV NITRO_PORT=3000
 ENV NITRO_HOST=0.0.0.0
 ENV CONTENT_DB_PATH=/app/.data/content/build.sqlite
 ENV GRAPH_DB_PATH=/app/.data/graph.sqlite
+ENV FTS_DB_PATH=/app/.data/fts.sqlite
 
 EXPOSE 3000
 USER node

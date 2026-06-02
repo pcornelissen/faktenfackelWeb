@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Heading from '~/components/layout/Heading.vue'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 
 const route = useRoute()
 
@@ -13,9 +13,11 @@ await definePageData({
 
 defineOgImage('Default', { title: 'Aussagen mit Kontext und Quellen', label: 'ZITATE' })
 
-const { data: list1, pending } = useLazyAsyncData(route.path, () => {
-  return queryCollection('zitate').where('publishedOn', '<=', nowIso()).order('date', 'DESC').all()
-}, { server: false })
+const { data: list1, pending } = useLazyFetch('/api/content/list', {
+  query: { collection: 'zitate', scope: 'all' },
+  key: route.path,
+  server: false,
+})
 
 const search = ref('')
 

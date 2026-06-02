@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 import Heading from '~/components/layout/Heading.vue'
 
 await definePageData({
@@ -14,12 +14,9 @@ defineOgImage('Default', { title: 'Personen, Medien und Belege', label: 'QUELLEN
 const route = useRoute()
 const basePath = route.path
 
-const { data: list1, pending } = await useAsyncData(basePath, () => {
-  return queryCollection('quellen')
-    .select('date', 'name', 'description', 'path', 'tags', 'imageAuthor')
-    .where('publishedOn', '<=', nowIso())
-    .order('name', 'ASC')
-    .all()
+const { data: list1, pending } = await useFetch('/api/content/list', {
+  query: { collection: 'quellen', scope: 'all' },
+  key: basePath,
 })
 
 const filter = ref('')
@@ -35,7 +32,7 @@ function matches(path: string, f: string) {
   return f === '' || path.toLowerCase().startsWith('/quellen/' + f.toLowerCase() + '/')
 }
 
-const all = computed(() => (list1.value || []) as Source[])
+const all = computed(() => ((list1.value ?? []) as Source[]).slice().sort((a, b) => (a.name ?? '').localeCompare(b.name ?? '', 'de')))
 
 const searchFiltered = computed(() => {
   const q = search.value.trim().toLowerCase()

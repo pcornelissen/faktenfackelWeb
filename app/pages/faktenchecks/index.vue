@@ -2,7 +2,7 @@
 import SectionsOverview from '~/components/overview/SectionsOverview.vue'
 import Heading from '~/components/layout/Heading.vue'
 import PostsList from '~/components/content/PostsList.vue'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 import type { Post } from '~/utils/contentUtils'
 
 await definePageData({
@@ -14,12 +14,13 @@ await definePageData({
 
 defineOgImage('Default', { title: 'Geprüfte Behauptungen', label: 'FAKTENCHECKS' })
 
-const { data: recentList } = await useAsyncData('faktenchecks-recent-overview', () => {
-  return queryCollection('faktenchecks')
-    .select('title', 'subtitle', 'path', 'publishedOn', 'tags', 'date', 'verdict')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .all()
+const { data: recentList } = await useFetch<Post[]>('/api/content/list', {
+  key: 'faktenchecks-recent-overview',
+  query: {
+    collection: 'faktenchecks',
+    scope: 'all',
+    fields: 'title,subtitle,path,publishedOn,tags,date,verdict',
+  },
 })
 const recent = (recentList.value || []) as Post[]
 </script>

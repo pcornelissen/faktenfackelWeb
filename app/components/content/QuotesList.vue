@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { Quote } from '~/utils/contentUtils'
 import QuoteListItem from '~/components/content/QuoteListItem.vue'
-import { useAsyncData } from '#app'
 import SourceShortInfo from '~/components/sources/SourceShortInfo.vue'
 
 const props = defineProps<{
@@ -12,12 +11,16 @@ const props = defineProps<{
 
 const { currentPage, totalPages, pageItems, goTo } = usePagination(() => props.list, props.pageSize ?? 10000)
 
-const sourcesRaw
+const sourcesRaw: Source[]
   = (props.showSource === true && props.list.length > 0
-    ? (await useAsyncData('fetch-quote-sources', () => {
-        const sourcePaths = [...new Set(props.list.map(i => buildSourcePath(i.path)))]
-        return queryCollection('quellen').where('path', 'IN', sourcePaths).all()
-      }))?.data?.value
+    ? ((await useFetch<Source[]>('/api/content/list', {
+        query: {
+          collection: 'quellen',
+          scope: 'paths',
+          value: [...new Set(props.list.map(i => buildSourcePath(i.path)))].join(','),
+        },
+        key: 'fetch-quote-sources',
+      }))?.data?.value ?? [])
     : null) || []
 const sources = new Map<string, Source>()
 sourcesRaw.forEach(s => sources.set(buildSourcePath(s.path), s))

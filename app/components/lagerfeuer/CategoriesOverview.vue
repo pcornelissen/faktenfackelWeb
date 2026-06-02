@@ -3,15 +3,26 @@ import SectionsItem from '~/components/overview/SectionsItem.vue'
 import Sections from '~/components/overview/Sections.vue'
 import { useSlots } from 'vue'
 
+interface CategoryItem {
+  path: string
+  title: string
+  subtitle?: string
+  description?: string
+  icon?: string
+  iconTxt?: string
+}
+
 const slots = useSlots()
 
-const { data: categories } = await useAsyncData('lagerfeuer-categories', () =>
-  queryCollection('lagerfeuer')
-    .where('path', 'LIKE', '/lagerfeuer/%/_info')
-    .select('title', 'subtitle', 'description', 'path', 'icon', 'iconTxt')
-    .order('title', 'ASC')
-    .all(),
-)
+const { data: categories } = await useFetch<CategoryItem[]>('/api/content/list', {
+  key: 'lagerfeuer-categories',
+  query: {
+    collection: 'lagerfeuer',
+    scope: 'infos',
+    value: '/lagerfeuer',
+    fields: 'title,subtitle,description,path,icon,iconTxt',
+  },
+})
 </script>
 
 <template>
