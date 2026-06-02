@@ -1,11 +1,9 @@
-import { defineEventHandler, getQuery, setHeader } from 'h3'
+import { defineEventHandler, getQuery } from 'h3'
 import { queryCollection } from '@nuxt/content/server'
 import { isCollection } from '~~/server/utils/contentRoutes'
-import { isPreview, todayIso } from '~~/server/utils/published'
+import { isPreview, todayIso, setContentCache } from '~~/server/utils/published'
 
 export default defineEventHandler(async (event) => {
-  setHeader(event, 'Cache-Control', 'public, max-age=300, s-maxage=86400, stale-while-revalidate=604800')
-
   const query = getQuery(event)
   const collection = String(query.collection ?? '').trim()
   const scope = String(query.scope ?? '').trim()
@@ -15,9 +13,12 @@ export default defineEventHandler(async (event) => {
   const fields = fieldsRaw ? fieldsRaw.split(',').map(f => f.trim()).filter(Boolean) : null
 
   if (!isCollection(collection)) return []
+  // LIKE-Wildcards (% _ \) kommen in echten Content-Pfaden/Slugs nicht vor. Werte mit
+  // solchen Zeichen abweisen, statt sie als Wildcards die LIKE-Matches ausweiten zu lassen.
+  if (value && /[%_\\]/.test(value)) return []
 
-  const siteEnv = String(useRuntimeConfig(event).public.siteEnv ?? '')
-  const preview = isPreview(siteEnv)
+  const preview = isPreview(String(useRuntimeConfig(event).public.siteEnv ?? ''))
+  setContentCache(event, preview)
   const t = todayIso()
 
   function applySelect(q: ReturnType<typeof queryCollection>) {

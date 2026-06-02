@@ -1,7 +1,7 @@
-import { defineEventHandler, getQuery, setHeader } from 'h3'
+import { defineEventHandler, getQuery } from 'h3'
 import { getFtsDb } from '../utils/ftsDb.node'
 import { stemTokens } from '../../shared/fts/stem'
-import { isPreview, todayIso } from '../utils/published'
+import { isPreview, todayIso, setContentCache } from '../utils/published'
 
 interface Hit {
   path: string
@@ -26,21 +26,23 @@ interface CountRow {
 const ALLOWED_COLLECTIONS = ['faktenchecks', 'glossar', 'quellen', 'quellenlinks', 'lagerfeuer', 'zitate'] as const
 
 export default defineEventHandler((event) => {
-  const q = String(getQuery(event).q ?? '').trim()
+  // Eingabe deckeln: schuetzt vor billigem L7-DoS — jede zufaellige lange Query ist
+  // ein Cache-Miss und erzeugt eine teure FTS-Auswertung. 100 Zeichen / 10 Tokens
+  // reichen fuer eine Typeahead-Suche bei weitem.
+  const q = String(getQuery(event).q ?? '').trim().slice(0, 100)
   const typeParam = String(getQuery(event).type ?? '').trim()
-  setHeader(event, 'Cache-Control', 'public, max-age=300, s-maxage=86400, stale-while-revalidate=604800')
+  const preview = isPreview(String(useRuntimeConfig(event).public.siteEnv ?? ''))
+  setContentCache(event, preview)
 
   if (q.length < 2) return { results: [] as Hit[], counts: {} as Record<string, number> }
 
-  const tokens = stemTokens(q)
+  const tokens = stemTokens(q).slice(0, 10)
   if (!tokens.length) return { results: [] as Hit[], counts: {} as Record<string, number> }
 
   // Jedes gestemmte Token als Prefix-MATCH, AND-verknüpft (Typeahead-tauglich).
   // Doppelte Anführungszeichen im Token werden entfernt, um MATCH-Syntax nicht zu brechen.
   const match = tokens.map(t => `"${t.replace(/"/g, '')}"*`).join(' ')
   const today = todayIso()
-  const siteEnv = String(useRuntimeConfig(event).public.siteEnv ?? '')
-  const preview = isPreview(siteEnv)
 
   const validType = (ALLOWED_COLLECTIONS as readonly string[]).includes(typeParam) ? typeParam : ''
 

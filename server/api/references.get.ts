@@ -1,6 +1,6 @@
-import { defineEventHandler, getQuery, setHeader } from 'h3'
+import { defineEventHandler, getQuery } from 'h3'
 import { queryCollection } from '@nuxt/content/server'
-import { isPreview, todayIso } from '../utils/published'
+import { isPreview, todayIso, setContentCache } from '../utils/published'
 
 // Server-lokaler Minimaltyp: hier wird nur `path` verwendet; die vollständigen
 // Records gehen als JSON raus und werden client-seitig typisiert. App-Typen
@@ -28,7 +28,8 @@ function buildSourcePath(path: string): string {
 }
 
 export default defineEventHandler(async (event) => {
-  setHeader(event, 'Cache-Control', 'public, max-age=300, s-maxage=86400, stale-while-revalidate=604800')
+  const preview = isPreview(String(useRuntimeConfig(event).public.siteEnv ?? ''))
+  setContentCache(event, preview)
   const path = String(getQuery(event).path ?? '').trim()
   const empty = { links: [] as PathItem[], quotes: [] as PathItem[], sources: [] as PathItem[] }
   if (!path.startsWith('/')) return empty
@@ -36,8 +37,6 @@ export default defineEventHandler(async (event) => {
   const collection = collectionForPath(path)
   if (!collection) return empty
 
-  const siteEnv = String(useRuntimeConfig(event).public.siteEnv ?? '')
-  const preview = isPreview(siteEnv)
   const today = todayIso()
 
   // `as never` is the established project pattern for dynamic collection names
