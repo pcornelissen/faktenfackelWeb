@@ -162,7 +162,14 @@ test.describe('SEO', () => {
     const res = await request.get('/robots.txt')
     expect(res.status()).toBe(200)
     const body = await res.text()
-    expect(body).toContain('Sitemap:')
+    // dev.faktenfackel.de ist noindex: robots.txt sperrt alles (Disallow: /),
+    // keine Sitemap-Zeile. Prod listet die Sitemap.
+    const isDev = (process.env.SMOKE_TEST_URL || '').includes('dev.faktenfackel.de')
+    if (isDev) {
+      expect(body).toContain('Disallow: /')
+    } else {
+      expect(body).toContain('Sitemap:')
+    }
   })
 })
 
