@@ -3,11 +3,13 @@ const props = defineProps<{
   name: string
 }>()
 
-const { data: source } = useAsyncData(
-  `source-${props.name}`,
-  () => queryCollection('quellen')
-    .where('path', 'LIKE', `%/${props.name}`)
-    .first(),
+const { data: quelleList } = await useFetch('/api/content/list', {
+  query: { collection: 'quellen', scope: 'slug', value: props.name },
+  key: 'quelle-' + props.name,
+})
+
+const source = computed(() =>
+  ((quelleList.value ?? []) as Source[])[0] ?? null,
 )
 </script>
 

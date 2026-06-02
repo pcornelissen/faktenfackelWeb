@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { useAsyncData, useFetch, useRoute } from 'nuxt/app'
-import { definePageData, getSourceFromPath, nowIso } from '~/utils/contentUtils'
+import type { QuellenlinksCollectionItem, QuellenCollectionItem } from '@nuxt/content'
+import { useFetch, useRoute } from 'nuxt/app'
+import { definePageData, getSourceFromPath } from '~/utils/contentUtils'
 import Tags from '~/components/sources/Tags.vue'
 import SourceLinkIcon from '~/components/sources/SourceLinkIcon.vue'
 import { useReferencesStore } from '~/utils/referenceData'
@@ -15,19 +16,21 @@ const slug = (route.params.slug as string[]).join('/')
 const basePath = route.path
 const sourcePath = getSourceFromPath(route.path)
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('quellenlinks', basePath).where('path', 'LIKE', sourcePath + '/%').where('publishedOn', '<=', nowIso())
+const { data: surround } = await useFetch<(QuellenlinksCollectionItem | null)[]>('/api/content/surround', {
+  query: { collection: 'quellenlinks', path: basePath, prefix: sourcePath },
+  key: `${route.path}-surround`,
 })
 
-const { data: source } = await useAsyncData(
-  `quelle-${slug}`,
-  () => queryCollection('quellen').path(sourcePath).first(),
-)
+const { data: sourceRaw } = await useFetch<QuellenCollectionItem | null>('/api/content/doc', {
+  query: { collection: 'quellen', path: sourcePath },
+  key: `quelle-${slug}`,
+})
+const source = computed(() => sourceRaw.value as Source | null)
 
-const { data: page } = await useAsyncData(
-  `quellenlink-${slug}`,
-  () => queryCollection('quellenlinks').path(basePath).where('publishedOn', '<=', nowIso()).first(),
-)
+const { data: page } = await useFetch<QuellenlinksCollectionItem | null>('/api/content/doc', {
+  query: { collection: 'quellenlinks', path: basePath },
+  key: `quellenlink-${slug}`,
+})
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Quellenlink nicht gefunden' })
@@ -51,7 +54,7 @@ defineOgImage('Quellenlink', {
   verdict: page.value?.verdict || '',
 })
 
-const lastChangeStr = page.value?.date as string | null || ''
+const lastChangeStr = (page.value?.date as unknown as string | null) || ''
 const lastChange = dateString(lastChangeStr)
 
 useSeoMeta({
@@ -69,19 +72,14 @@ useClaimReview({
   claimAppearance: page.value?.uri,
 })
 
-const coSources = new Set(page.value?.coSources == null ? [] : page.value.coSources)
+const coSources = page.value?.coSources ?? []
+const coSourcesValue = coSources.join(',')
 
-const { data: coList } = (coSources == null || coSources.size == 0)
-  ? { data: [] }
-  : await useAsyncData(basePath + '-coSources', () => {
-      return queryCollection('quellen')
-        .orWhere((q) => {
-          for (const s of coSources.values()) {
-            q.where('path', 'LIKE', '/quellen/%/' + s)
-          }
-          return q
-        })
-        .select('name', 'path').all()
+const { data: coList } = coSources.length === 0
+  ? { data: ref([] as Pick<QuellenCollectionItem, 'name' | 'path'>[]) }
+  : await useFetch<Pick<QuellenCollectionItem, 'name' | 'path'>[]>('/api/content/list', {
+      query: { collection: 'quellen', scope: 'slugs', value: coSourcesValue },
+      key: basePath + '-coSources',
     })
 
 await referencesStore.fetchFor(page.value)

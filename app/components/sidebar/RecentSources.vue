@@ -1,15 +1,9 @@
 <script setup lang="ts">
-import { nowIso } from '~/utils/contentUtils'
-
-const { data: recentLinksRaw } = await useAsyncData('recent-quellenlinks', () =>
-  queryCollection('quellenlinks')
-    .select('path', 'title', 'date', 'tags')
-    .where('publishedOn', '<=', nowIso())
-    .order('date', 'DESC')
-    .limit(3)
-    .all(),
-)
-const recentLinks = recentLinksRaw.value as SourceLink[]
+const { data: recentLinksRaw } = await useFetch('/api/content/list', {
+  query: { collection: 'quellenlinks', scope: 'recent', limit: 3 },
+  key: 'recent-quellenlinks',
+})
+const recentLinks = (recentLinksRaw.value ?? []) as SourceLink[]
 </script>
 
 <template>

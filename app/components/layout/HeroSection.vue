@@ -12,27 +12,18 @@ const { data: recentNewsData } = await useAsyncData('hero-news', () =>
 
 const recentNews = computed(() => recentNewsData.value || [])
 
-const [
-  { data: faktenchecksCount },
-  { data: lagerfeuerCount },
-  { data: quellenlinksCount },
-  { data: quellenCount },
-] = await Promise.all([
-  useAsyncData('stat-faktenchecks', () =>
-    queryCollection('faktenchecks').where('path', 'NOT LIKE', '%_info%').count()),
-  useAsyncData('stat-lagerfeuer', () =>
-    queryCollection('lagerfeuer').where('path', 'NOT LIKE', '%_info%').count()),
-  useAsyncData('stat-quellenlinks', () =>
-    queryCollection('quellenlinks').count()),
-  useAsyncData('stat-quellen', () =>
-    queryCollection('quellen').count()),
-])
+const { data: stats } = await useFetch('/api/content/stats', { key: 'hero-stats' })
+
+const faktenchecksCount = computed(() => stats.value?.faktenchecks ?? 0)
+const lagerfeuerCount = computed(() => stats.value?.lagerfeuer ?? 0)
+const quellenlinksCount = computed(() => stats.value?.quellenlinks ?? 0)
+const quellenCount = computed(() => stats.value?.quellen ?? 0)
 
 const totalCount = computed(
-  () => (faktenchecksCount.value ?? 0)
-    + (lagerfeuerCount.value ?? 0)
-    + (quellenlinksCount.value ?? 0)
-    + (quellenCount.value ?? 0),
+  () => faktenchecksCount.value
+    + lagerfeuerCount.value
+    + quellenlinksCount.value
+    + quellenCount.value,
 )
 </script>
 

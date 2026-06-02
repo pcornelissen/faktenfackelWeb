@@ -1,6 +1,7 @@
 <script setup lang="ts">
+import type { QuellenCollectionItem } from '@nuxt/content'
 import { capitalize } from '~/utils/stringUtils'
-import { definePageData, nowIso } from '~/utils/contentUtils'
+import { definePageData } from '~/utils/contentUtils'
 import { useReferencesStore, type SourceLink } from '~/utils/referenceData'
 import SourceLinksList from '~/components/sources/SourceLinksList.vue'
 import { calculateSourceImg, calculateSourceImgAuthor, extractNameFromPath } from '~/pages/quellen/[group]/sources'
@@ -27,13 +28,11 @@ const group = route.params.group as string
 const basePath = route.path
 const { url: siteUrl } = useSiteConfig()
 
-const { data: sourceInfo }
-  = await
-  useAsyncData(
-    `quellen-${source}`,
-    () => {
-      return queryCollection('quellen').path(`${basePath}`).first()
-    })
+const { data: sourceInfoRaw } = await useFetch<QuellenCollectionItem | null>('/api/content/doc', {
+  query: { collection: 'quellen', path: basePath },
+  key: `quellen-${source}`,
+})
+const sourceInfo = computed(() => sourceInfoRaw.value as (QuellenCollectionItem & Source) | null)
 
 const title = sourceInfo.value?.name || capitalize(source)
 const shortSeoTitle = `${title} - Faktenfackel`
@@ -183,15 +182,11 @@ useHead(computed(() => ({
     : [],
 })))
 
-const { data: list1 } = await useAsyncData(basePath + '/links/', () => {
-  return queryCollection('quellenlinks')
-    .where('path', 'LIKE', basePath + '/links/%')
-    .where('publishedOn', '<=', nowIso())
-    .select('date', 'title', 'uri', 'type', 'tags', 'path')
-    .all()
-    .catch(() => [])
+const { data: list1 } = await useFetch('/api/content/list', {
+  query: { collection: 'quellenlinks', scope: 'prefix', value: basePath },
+  key: basePath + '/links/',
 })
-const list = (list1.value || []) as SourceLink[]
+const list = (list1.value ?? []) as SourceLink[]
 
 const coSource = extractNameFromPath(basePath) ?? source
 
@@ -205,12 +200,11 @@ const coList = computed(() =>
     .map(n => nodeToSourceLink(n) as unknown as SourceLink),
 )
 
-const { data: quotesRaw }
-  = await useAsyncData(basePath + '-quotes', () =>
-    queryCollection('zitate').where('path', 'LIKE', basePath + '/%').where('publishedOn', '<=', nowIso())
-      .all()
-      .catch(() => []))
-const quotes = (quotesRaw.value || []) as Quote[]
+const { data: quotesRaw } = await useFetch('/api/content/list', {
+  query: { collection: 'zitate', scope: 'prefix', value: basePath },
+  key: basePath + '-quotes',
+})
+const quotes = (quotesRaw.value ?? []) as Quote[]
 
 await referencesStore.fetchFor(sourceInfo.value)
 </script>
