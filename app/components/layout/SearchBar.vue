@@ -133,7 +133,7 @@ function onGlobalKey(e: KeyboardEvent) {
     <!-- Trigger button: same visual style as the old UContentSearchButton via app.config.ts -->
     <button
       class="search-trigger"
-      aria-label="Suche öffnen"
+      aria-label="Suchen"
       @click="openModal"
     >
       <UIcon
@@ -165,7 +165,7 @@ function onGlobalKey(e: KeyboardEvent) {
             size="lg"
             :ui="{
               root: 'w-full',
-              base: 'bg-[var(--paper)] text-[var(--ink)] placeholder:text-[var(--muted)] ring-1 ring-inset ring-[var(--fackel-border)] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[var(--flame)]',
+              base: 'bg-[var(--paper-raised)] text-[var(--ink)] placeholder:text-[var(--muted)] ring-1 ring-inset ring-[var(--fackel-border)] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[var(--flame)]',
             }"
           />
 
