@@ -1,6 +1,7 @@
 import { defineEventHandler, getQuery, setHeader } from 'h3'
 import { getFtsDb } from '../utils/ftsDb.node'
 import { stemTokens } from '../../shared/fts/stem'
+import { isPreview, todayIso } from '../utils/published'
 
 interface Hit {
   path: string
@@ -37,13 +38,17 @@ export default defineEventHandler((event) => {
   // Jedes gestemmte Token als Prefix-MATCH, AND-verknüpft (Typeahead-tauglich).
   // Doppelte Anführungszeichen im Token werden entfernt, um MATCH-Syntax nicht zu brechen.
   const match = tokens.map(t => `"${t.replace(/"/g, '')}"*`).join(' ')
-  const today = new Date().toISOString().slice(0, 10)
+  const today = todayIso()
+  const siteEnv = String(useRuntimeConfig(event).public.siteEnv ?? '')
+  const preview = isPreview(siteEnv)
 
   const validType = (ALLOWED_COLLECTIONS as readonly string[]).includes(typeParam) ? typeParam : ''
 
   const db = getFtsDb()
 
   const baseParams: Record<string, string> = { match, today }
+  // On dev (preview) all index rows are shown regardless of published_on.
+  const publishedFilter = preview ? '' : 'AND (published_on = \'\' OR published_on <= @today)'
 
   // Counts-Query laeuft ohne Type-Filter, damit alle Chips immer ihre echten Gesamtzahlen
   // fuer den aktuellen Suchbegriff zeigen (unabhaengig vom aktiven Filter).
@@ -51,7 +56,7 @@ export default defineEventHandler((event) => {
     SELECT collection, COUNT(DISTINCT path) AS c
     FROM fts
     WHERE fts MATCH @match
-      AND (published_on = '' OR published_on <= @today)
+      ${publishedFilter}
     GROUP BY collection
   `).all(baseParams) as CountRow[]
 
@@ -81,7 +86,7 @@ export default defineEventHandler((event) => {
            collection AS collection, breadcrumb AS breadcrumb
     FROM fts
     WHERE fts MATCH @match
-      AND (published_on = '' OR published_on <= @today)
+      ${publishedFilter}
       ${typeFilter}
     ORDER BY bm25(fts, 10.0, 5.0, 1.0)
     LIMIT 200

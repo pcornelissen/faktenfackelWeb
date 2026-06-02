@@ -1,9 +1,10 @@
 import { defineEventHandler, getQuery, setHeader } from 'h3'
 import { queryCollection } from '@nuxt/content/server'
+import { isPreview, todayIso } from '../utils/published'
 
 // Server-lokaler Minimaltyp: hier wird nur `path` verwendet; die vollständigen
 // Records gehen als JSON raus und werden client-seitig typisiert. App-Typen
-// (referenceData/contentUtils) werden bewusst NICHT importiert — ein `import type`
+// (referenceData/contentUtils) werden bewusst NICHT importiert -- ein `import type`
 // von dort zöge das Page-Macro `definePageMeta` ins Server-Typprogramm und bricht
 // den Typecheck (contentUtils.definePageData ruft definePageMeta auf).
 type PathItem = { path: string }
@@ -35,7 +36,9 @@ export default defineEventHandler(async (event) => {
   const collection = collectionForPath(path)
   if (!collection) return empty
 
-  const today = new Date().toISOString().slice(0, 10)
+  const siteEnv = String(useRuntimeConfig(event).public.siteEnv ?? '')
+  const preview = isPreview(siteEnv)
+  const today = todayIso()
 
   // `as never` is the established project pattern for dynamic collection names
   // (see server/api/health.get.ts). The doc-lookup only needs referenceCodes/quoteCodes/primarySources;
@@ -52,27 +55,27 @@ export default defineEventHandler(async (event) => {
   ]
   const quoteCodes = doc.quoteCodes || []
 
-  const links: PathItem[] = referenceCodes.length
-    ? await queryCollection(event, 'quellenlinks')
-      .where('publishedOn', '<=', today)
-      .orWhere((q) => {
-        for (const code of referenceCodes) q.where('code', '=', code)
-        return q
-      })
-      .select('date', 'sourceDate', 'publishedOn', 'title', 'code', 'uri', 'type', 'path', 'tags', 'coSources')
-      .all() as unknown as PathItem[]
-    : []
+  let linksQ = referenceCodes.length
+    ? queryCollection(event, 'quellenlinks')
+        .orWhere((q) => {
+          for (const code of referenceCodes) q.where('code', '=', code)
+          return q
+        })
+        .select('date', 'sourceDate', 'publishedOn', 'title', 'code', 'uri', 'type', 'path', 'tags', 'coSources')
+    : null
+  if (linksQ && !preview) linksQ = linksQ.where('publishedOn', '<=', today)
+  const links: PathItem[] = linksQ ? await linksQ.all() as unknown as PathItem[] : []
 
   // zitate records are small; skip select() to avoid field-narrowing issues with the cast
-  const quotes: PathItem[] = quoteCodes.length
-    ? await queryCollection(event, 'zitate')
-      .where('publishedOn', '<=', today)
-      .orWhere((q) => {
-        for (const code of quoteCodes) q.where('code', '=', code)
-        return q
-      })
-      .all() as unknown as PathItem[]
-    : []
+  let quotesQ = quoteCodes.length
+    ? queryCollection(event, 'zitate')
+        .orWhere((q) => {
+          for (const code of quoteCodes) q.where('code', '=', code)
+          return q
+        })
+    : null
+  if (quotesQ && !preview) quotesQ = quotesQ.where('publishedOn', '<=', today)
+  const quotes: PathItem[] = quotesQ ? await quotesQ.all() as unknown as PathItem[] : []
 
   const sourcePaths = [
     ...new Set([

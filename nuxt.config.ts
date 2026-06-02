@@ -82,6 +82,9 @@ export default defineNuxtConfig({
       // ?v=<buildId> an /api/*-Requests gehängt → neuer Deploy = neue Cloudflare-
       // Cache-Keys, alte verfallen per TTL (kein manueller Purge nötig). FF-19 Stufe 0.
       buildId: process.env.GITHUB_SHA || String(Date.now()),
+      // 'dev' am dev-Container (Env NUXT_PUBLIC_SITE_ENV=dev) → noindex + Preview von
+      // Unveröffentlichtem. Auf prod (default) greift der publishedOn-Filter normal.
+      siteEnv: process.env.NUXT_PUBLIC_SITE_ENV || 'prod',
     },
   },
   ignore: process.env.NODE_ENV === 'production'

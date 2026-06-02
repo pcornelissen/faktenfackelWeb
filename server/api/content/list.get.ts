@@ -1,6 +1,7 @@
 import { defineEventHandler, getQuery, setHeader } from 'h3'
 import { queryCollection } from '@nuxt/content/server'
-import { isCollection, today } from '~~/server/utils/contentRoutes'
+import { isCollection } from '~~/server/utils/contentRoutes'
+import { isPreview, todayIso } from '~~/server/utils/published'
 
 export default defineEventHandler(async (event) => {
   setHeader(event, 'Cache-Control', 'public, max-age=300, s-maxage=86400, stale-while-revalidate=604800')
@@ -15,7 +16,9 @@ export default defineEventHandler(async (event) => {
 
   if (!isCollection(collection)) return []
 
-  const t = today()
+  const siteEnv = String(useRuntimeConfig(event).public.siteEnv ?? '')
+  const preview = isPreview(siteEnv)
+  const t = todayIso()
 
   function applySelect(q: ReturnType<typeof queryCollection>) {
     return fields ? q.select(...(fields as [never, ...never[]])) : q
@@ -23,29 +26,29 @@ export default defineEventHandler(async (event) => {
 
   if (scope === 'recent') {
     const limit = Number(limitRaw) || 6
-    const q = queryCollection(event, collection as never)
-      .where('publishedOn', '<=', t)
+    let q = queryCollection(event, collection as never)
       .where('path', 'NOT LIKE', '%_info%')
       .order('date', 'DESC')
       .limit(limit)
+    if (!preview) q = q.where('publishedOn', '<=', t)
     return await applySelect(q).all()
   }
 
   if (scope === 'prefix') {
     if (!value) return []
-    const q = queryCollection(event, collection as never)
+    let q = queryCollection(event, collection as never)
       .where('path', 'LIKE', value + '/%')
       .where('path', 'NOT LIKE', '%_info%')
-      .where('publishedOn', '<=', t)
       .order('date', 'DESC')
+    if (!preview) q = q.where('publishedOn', '<=', t)
     return await applySelect(q).all()
   }
 
   if (scope === 'all') {
-    const q = queryCollection(event, collection as never)
-      .where('publishedOn', '<=', t)
+    let q = queryCollection(event, collection as never)
       .where('path', 'NOT LIKE', '%_info%')
       .order('date', 'DESC')
+    if (!preview) q = q.where('publishedOn', '<=', t)
     return await applySelect(q).all()
   }
 
@@ -73,9 +76,9 @@ export default defineEventHandler(async (event) => {
 
   if (scope === 'slug') {
     if (!value) return []
-    const q = queryCollection(event, collection as never)
+    let q = queryCollection(event, collection as never)
       .where('path', 'LIKE', '%/' + value)
-      .where('publishedOn', '<=', t)
+    if (!preview) q = q.where('publishedOn', '<=', t)
     return await applySelect(q).all()
   }
 
@@ -83,14 +86,14 @@ export default defineEventHandler(async (event) => {
     if (!value) return []
     const slugList = value.split(',').map(s => s.trim()).filter(Boolean)
     if (!slugList.length) return []
-    const q = queryCollection(event, collection as never)
+    let q = queryCollection(event, collection as never)
       .orWhere((q) => {
         for (const s of slugList) {
           q.where('path', 'LIKE', '%/' + s)
         }
         return q
       })
-      .where('publishedOn', '<=', t)
+    if (!preview) q = q.where('publishedOn', '<=', t)
     return await applySelect(q).all()
   }
 

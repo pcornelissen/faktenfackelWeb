@@ -1,6 +1,7 @@
 import { defineEventHandler, getQuery, setHeader } from 'h3'
 import { queryCollection } from '@nuxt/content/server'
-import { isCollection, today } from '~~/server/utils/contentRoutes'
+import { isCollection } from '~~/server/utils/contentRoutes'
+import { isPreview, todayIso } from '~~/server/utils/published'
 
 export default defineEventHandler(async (event) => {
   setHeader(event, 'Cache-Control', 'public, max-age=300, s-maxage=86400, stale-while-revalidate=604800')
@@ -17,8 +18,10 @@ export default defineEventHandler(async (event) => {
 
   if (!doc) return null
 
-  // Scheduled publishing: if publishedOn is set and in the future, treat as not found
-  if (doc.publishedOn && typeof doc.publishedOn === 'string' && doc.publishedOn > today()) {
+  // Scheduled publishing: if publishedOn is set and in the future, treat as not found.
+  // On dev (siteEnv='dev') this filter is skipped so drafts/future items are visible.
+  const siteEnv = String(useRuntimeConfig(event).public.siteEnv ?? '')
+  if (!isPreview(siteEnv) && doc.publishedOn && typeof doc.publishedOn === 'string' && doc.publishedOn > todayIso()) {
     return null
   }
 
