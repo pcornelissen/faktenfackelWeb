@@ -117,8 +117,8 @@ function snippetFromMatch(html: string, index: number): string {
 // gleicher Laenge, damit Positionen erhalten bleiben aber Inhalt nicht gescannt wird.
 function stripNonContent(html: string): string {
   return html
-    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, m => ' '.repeat(m.length))
-    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, m => ' '.repeat(m.length))
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, m => ' '.repeat(m.length))
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, m => ' '.repeat(m.length))
     .replace(/<!--[\s\S]*?-->/g, m => ' '.repeat(m.length))
 }
 

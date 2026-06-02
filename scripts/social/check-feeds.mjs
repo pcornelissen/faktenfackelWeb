@@ -93,14 +93,20 @@ function matchesTopic(text) {
 }
 
 function stripHtml(html) {
-  return html
-    .replace(/<\/(p|br)>/gi, ' ')
-    .replace(/<[^>]+>/g, '')
-    .replace(/&amp;/g, '&')
+  let out = html.replace(/<\/(p|br)>/gi, ' ')
+  // Tags vollstaendig strippen (Schleife gegen verschachtelte/zerstueckelte Tags)
+  let prev
+  do {
+    prev = out
+    out = out.replace(/<[^>]+>/g, '')
+  } while (out !== prev)
+  // Entities aufloesen; &amp; ganz zuletzt (sonst Double-Unescape von z.B. &amp;lt;)
+  return out
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, '\'')
+    .replace(/&amp;/g, '&')
     .replace(/\s+/g, ' ')
     .trim()
 }

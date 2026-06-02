@@ -90,7 +90,7 @@ function stripMdc(text: string): string {
   out = out.replace(/^::[a-z][\w-]*[^\n]*\n[\s\S]*?^::\s*$/gm, '')
   out = out.replace(/[*_]+([^*_]+)[*_]+/g, '$1')
   out = out.replace(/&nbsp;/g, NBSP)
-  out = out.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#x27;/g, '\'')
+  out = out.replace(/&quot;/g, '"').replace(/&#x27;/g, '\'').replace(/&amp;/g, '&')
   out = out.replace(/\s+/g, ' ').trim()
   out = out.replace(/(\d+)\.\s(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)/g, `$1.${NBSP}$2`)
   return out
@@ -191,7 +191,7 @@ function pickDescription(intro: string): string {
 }
 
 function injectDescription(fmRaw: string, description: string): string {
-  const escaped = description.replace(/"/g, '\\"')
+  const escaped = description.replace(/\\/g, '\\\\').replace(/"/g, '\\"')
   const newLine = `description: "${escaped}"`
   if (/^description:/m.test(fmRaw)) {
     return fmRaw.replace(/^description:.*$/m, newLine)

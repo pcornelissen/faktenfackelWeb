@@ -138,8 +138,12 @@ function extractSummary(content: string): string | undefined {
   // Strip markdown links [text](url) → text
   summary = summary.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
 
-  // Strip remaining HTML tags
-  summary = summary.replace(/<[^>]+>/g, '')
+  // Strip remaining HTML tags (Schleife gegen verschachtelte/zerstueckelte Tags)
+  let prevSummary: string
+  do {
+    prevSummary = summary
+    summary = summary.replace(/<[^>]+>/g, '')
+  } while (summary !== prevSummary)
 
   // Collapse whitespace
   summary = summary.replace(/\s+/g, ' ').trim()
