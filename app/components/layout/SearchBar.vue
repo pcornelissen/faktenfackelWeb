@@ -165,7 +165,7 @@ function onGlobalKey(e: KeyboardEvent) {
             size="lg"
             :ui="{
               root: 'w-full',
-              base: 'bg-[var(--ash)] text-[var(--paper)] placeholder:text-[var(--muted)]',
+              base: 'bg-[var(--paper)] text-[var(--ink)] placeholder:text-[var(--muted)] ring-1 ring-inset ring-[var(--fackel-border)] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[var(--flame)]',
             }"
           />
 
