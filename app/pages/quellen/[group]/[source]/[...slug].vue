@@ -188,8 +188,6 @@ const usedInQuellenlinks = computed(() =>
                     :src="calculateSourceImg(source)"
                     :title="calculateSourceImgAuthor(source)"
                     :alt="calculateSourceImgAuthor(source)"
-                    width="80"
-                    height="80"
                     loading="lazy"
                     class="source-img"
                     @error="(e) => ((e.target as HTMLImageElement).src = '/default-profile.webp')"
@@ -375,9 +373,13 @@ const usedInQuellenlinks = computed(() =>
 }
 
 .source-img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
+  /* Flexibel: Logos (breit, mit Text) und Hochformat-Porträts behalten ihr
+     Seitenverhältnis und werden nur in die max-Box hineinskaliert, nie verzerrt. */
+  max-width: 12rem;
+  max-height: 5rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   display: inline-block;
   vertical-align: middle;
   margin-right: 1rem;
