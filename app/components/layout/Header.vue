@@ -37,6 +37,9 @@ function isActive(href: string) {
           height="44"
           width="44"
           class="logo-img"
+          preload
+          loading="eager"
+          fetchpriority="high"
         />
         <span class="logo-text">Fakten<em>fackel</em></span>
       </NuxtLink>

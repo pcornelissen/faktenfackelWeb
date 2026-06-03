@@ -2,7 +2,7 @@
 import { definePageData } from '~/utils/contentUtils'
 
 await definePageData({
-  title: 'Über uns: Wer hinter Faktenfackel steckt und wie wir arbeiten',
+  title: 'Wer hinter Faktenfackel steckt und wie wir arbeiten',
   pageHeading: 'Faktenfackel - Mehr zu uns',
   pageSubHeading: 'Obligatorische Selbstdarstellung',
   description: 'Wer steckt hinter Faktenfackel? Unser Ziel, unsere Arbeitsweise und warum wir glauben, dass gute Faktenprüfung für eine mündige Gesellschaft unverzichtbar ist.',
