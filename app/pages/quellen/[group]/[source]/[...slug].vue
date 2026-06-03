@@ -375,9 +375,11 @@ const usedInQuellenlinks = computed(() =>
 }
 
 .source-img {
-  max-width: 15rem;
-  max-height: 5rem;
-  display: inline;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  display: inline-block;
+  vertical-align: middle;
   margin-right: 1rem;
   border-radius: 0.5rem;
 }
