@@ -126,23 +126,61 @@ const totalResults = computed(() =>
 
 const hasResults = computed(() => totalResults.value > 0)
 
+// Typ-Filter (FF-21): Ansicht auf genau einen Inhaltstyp einschränken
+const TYPE_DEFS = [
+  { key: 'faktenchecks', label: 'Faktenchecks', icon: 'i-lucide:check-circle' },
+  { key: 'lagerfeuer', label: 'Lagerfeuer', icon: 'i-lucide:flame' },
+  { key: 'glossar', label: 'Glossar', icon: 'i-lucide:book-open' },
+  { key: 'zitate', label: 'Zitate', icon: 'i-lucide:quote' },
+  { key: 'quellen', label: 'Quellen', icon: 'i-lucide:building-2' },
+] as const
+
+const typeCounts = computed<Record<string, number>>(() => ({
+  faktenchecks: filteredFaktenchecks.value.length,
+  lagerfeuer: filteredLagerfeuer.value.length,
+  glossar: filteredGlossar.value.length,
+  zitate: filteredZitate.value.length,
+  quellen: sourcesGrouped.value.length,
+}))
+
+const availableTypes = computed(() => TYPE_DEFS.filter(t => typeCounts.value[t.key]! > 0))
+
+const selectedTyp = computed(() => {
+  const t = (route.query.typ as string | undefined)?.toLowerCase()
+  if (t && (typeCounts.value[t] ?? 0) > 0) return t
+  return 'alle'
+})
+
+function showType(key: string) {
+  return selectedTyp.value === 'alle' || selectedTyp.value === key
+}
+
+function setTyp(key: string) {
+  const query = { ...route.query }
+  if (key === 'alle') delete query.typ
+  else query.typ = key
+  navigateTo({ path: route.path, query })
+}
+
 const totalSourceLinks = computed(() =>
   sourcesGrouped.value.reduce((sum, entry) => sum + entry.links.length, 0),
 )
 
 const resultSummary = computed(() => {
   const parts: string[] = []
+  const sel = selectedTyp.value
+  const include = (key: string) => sel === 'alle' || sel === key
   const fc = filteredFaktenchecks.value.length
   const lf = filteredLagerfeuer.value.length
   const gl = filteredGlossar.value.length
   const zi = filteredZitate.value.length
   const qu = sourcesGrouped.value.length
   const ql = totalSourceLinks.value
-  if (fc > 0) parts.push(`${fc} Faktencheck${fc !== 1 ? 's' : ''}`)
-  if (lf > 0) parts.push(`${lf} Lagerfeuer-Beitrag${lf !== 1 ? 'e' : ''}`)
-  if (gl > 0) parts.push(`${gl} Glossar-Eintrag${gl !== 1 ? 'e' : ''}`)
-  if (zi > 0) parts.push(`${zi} Zitat${zi !== 1 ? 'e' : ''}`)
-  if (qu > 0) {
+  if (include('faktenchecks') && fc > 0) parts.push(`${fc} Faktencheck${fc !== 1 ? 's' : ''}`)
+  if (include('lagerfeuer') && lf > 0) parts.push(`${lf} Lagerfeuer-Beitrag${lf !== 1 ? 'e' : ''}`)
+  if (include('glossar') && gl > 0) parts.push(`${gl} Glossar-Eintrag${gl !== 1 ? 'e' : ''}`)
+  if (include('zitate') && zi > 0) parts.push(`${zi} Zitat${zi !== 1 ? 'e' : ''}`)
+  if (include('quellen') && qu > 0) {
     const linkPart = ql > 0 ? ` mit insg. ${ql} Link${ql !== 1 ? 's' : ''}` : ''
     parts.push(`${qu} Quelle${qu !== 1 ? 'n' : ''}${linkPart}`)
   }
@@ -234,6 +272,35 @@ function removeTag(tagToRemove: string) {
     </div>
 
     <div
+      v-if="!anyPending && availableTypes.length >= 2"
+      class="type-filter"
+    >
+      <span class="type-label">Typ:</span>
+      <button
+        class="type-btn"
+        :class="{ active: selectedTyp === 'alle' }"
+        @click="setTyp('alle')"
+      >
+        Alle
+        <span class="type-count">{{ totalResults }}</span>
+      </button>
+      <button
+        v-for="t in availableTypes"
+        :key="t.key"
+        class="type-btn"
+        :class="{ active: selectedTyp === t.key }"
+        @click="setTyp(t.key)"
+      >
+        <Icon
+          :name="t.icon"
+          class="type-btn-icon"
+        />
+        {{ t.label }}
+        <span class="type-count">{{ typeCounts[t.key] }}</span>
+      </button>
+    </div>
+
+    <div
       v-if="!anyPending && relatedTags.length > 0 && activeTags.length < 5"
       class="related-tags"
     >
@@ -265,7 +332,7 @@ function removeTag(tagToRemove: string) {
       class="results-layout"
     >
       <ContentSection
-        v-if="filteredFaktenchecks.length > 0"
+        v-if="filteredFaktenchecks.length > 0 && showType('faktenchecks')"
         icon="i-lucide:check-circle"
         title="Faktenchecks"
       >
@@ -273,7 +340,7 @@ function removeTag(tagToRemove: string) {
       </ContentSection>
 
       <ContentSection
-        v-if="filteredLagerfeuer.length > 0"
+        v-if="filteredLagerfeuer.length > 0 && showType('lagerfeuer')"
         icon="i-lucide:flame"
         title="Lagerfeuer"
       >
@@ -281,7 +348,7 @@ function removeTag(tagToRemove: string) {
       </ContentSection>
 
       <ContentSection
-        v-if="filteredGlossar.length > 0"
+        v-if="filteredGlossar.length > 0 && showType('glossar')"
         icon="i-lucide:book-open"
         title="Glossar"
       >
@@ -289,7 +356,7 @@ function removeTag(tagToRemove: string) {
       </ContentSection>
 
       <ContentSection
-        v-if="filteredZitate.length > 0"
+        v-if="filteredZitate.length > 0 && showType('zitate')"
         icon="i-lucide:quote"
         title="Zitate"
       >
@@ -300,7 +367,7 @@ function removeTag(tagToRemove: string) {
       </ContentSection>
 
       <ContentSection
-        v-if="sourcesGrouped.length > 0"
+        v-if="sourcesGrouped.length > 0 && showType('quellen')"
         icon="i-lucide:building-2"
         title="Quellen"
       >
@@ -448,6 +515,59 @@ function removeTag(tagToRemove: string) {
   font-size: 0.7rem;
   opacity: 0.6;
   margin-left: 0.2rem;
+}
+
+.type-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.type-label {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: 0.2rem;
+}
+
+.type-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.82rem;
+  color: var(--ink);
+  background: white;
+  border: 1px solid var(--fackel-border);
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.type-btn:hover {
+  border-color: var(--flame);
+  color: var(--flame);
+}
+
+.type-btn.active {
+  background: var(--flame);
+  border-color: var(--flame);
+  color: white;
+}
+
+.type-btn-icon {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+.type-count {
+  font-size: 0.72rem;
+  opacity: 0.7;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .loading {
