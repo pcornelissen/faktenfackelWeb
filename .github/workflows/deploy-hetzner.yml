@@ -65,6 +65,18 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v4
 
+      # Exposes ACTIONS_RUNTIME_TOKEN/-URL into the env so `buildx` can read
+      # and write the GitHub Actions cache backend (type=gha). Without this,
+      # --cache-to/--cache-from type=gha cannot reach the cache service.
+      - name: Expose GitHub Actions runtime for buildx cache
+        uses: crazy-max/ghaction-github-runtime@v3
+
+      # The deps stage (apt + better-sqlite3 native build + pnpm install) is
+      # stable across deploys as long as pnpm-lock.yaml is unchanged, so we
+      # cache it via the GHA backend. mode=max also caches intermediate
+      # (deps/builder) layers, not just the final image. ignore-error keeps a
+      # cache-export hiccup from ever failing the deploy. The builder stage
+      # (COPY . . + pnpm build) still re-runs on any content change.
       - name: Build image to tar
         env:
           SHA: ${{ steps.sha.outputs.short }}
@@ -73,6 +85,8 @@ jobs:
           docker buildx build \
             --file Dockerfile \
             --build-arg "NUXT_OG_IMAGE_SECRET=${OG_IMAGE_SECRET}" \
+            --cache-from "type=gha" \
+            --cache-to "type=gha,mode=max,ignore-error=true" \
             --tag "faktenfackel:${SHA}" \
             --tag "faktenfackel:latest" \
             --output "type=docker,dest=image.tar" \
@@ -141,6 +155,15 @@ jobs:
       # Smoke tests against staging URL (or production after cutover).
       # SMOKE_URL secret can be flipped without code changes.
       # ------------------------------------------------------------------
+      # Cache the downloaded browser binary keyed on the lockfile (which pins
+      # the Playwright version). On a hit, the install step skips the ~120 MB
+      # chromium download and only ensures the apt system libs are present.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+
       - name: Install Playwright (chromium)
         run: npx playwright install --with-deps chromium
 
