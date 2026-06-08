@@ -69,7 +69,7 @@ jobs:
       # and write the GitHub Actions cache backend (type=gha). Without this,
       # --cache-to/--cache-from type=gha cannot reach the cache service.
       - name: Expose GitHub Actions runtime for buildx cache
-        uses: crazy-max/ghaction-github-runtime@v3
+        uses: crazy-max/ghaction-github-runtime@v4
 
       # The deps stage (apt + better-sqlite3 native build + pnpm install) is
       # stable across deploys as long as pnpm-lock.yaml is unchanged, so we
