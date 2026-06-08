@@ -159,7 +159,7 @@ jobs:
       # the Playwright version). On a hit, the install step skips the ~120 MB
       # chromium download and only ensures the apt system libs are present.
       - name: Cache Playwright browsers
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
