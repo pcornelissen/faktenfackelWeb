@@ -18,7 +18,7 @@ tags:
 
 Eberhardt Alexander Gauland (* 20. Februar 1941 in Chemnitz) ist ein deutscher Politiker, Jurist und Publizist. Er ist Mitgründer der :quelle-ref{name="afd"}, war von 2017 bis 2021 Vorsitzender der AfD-Bundestagsfraktion und von 2017 bis 2019 zusammen mit Alice Weidel Bundessprecher der Partei. Seit 2021 ist er Ehrenvorsitzender sowohl der Partei als auch der Bundestagsfraktion. Bei der Bundestagswahl 2025 zog er erneut in den Bundestag ein, diesmal über seinen Heimatwahlkreis Chemnitz.
 
-Gauland war vor der AfD-Gründung jahrzehntelang CDU-Mitglied und zeitweise Staatssekretär im hessischen Innenministerium. Er gilt als einer der Hauptarchitekten der nationalistischen und revisionistischen Ausrichtung der AfD.
+Gauland war vor der AfD-Gründung jahrzehntelang CDU-Mitglied und zeitweise Staatssekretär im hessischen Innenministerium. Politische Beobachter und Medien ordnen ihn als einen der Hauptarchitekten der nationalistischen und revisionistischen Ausrichtung der AfD ein.
 
 ## Faktenfackel Bewertung
 
@@ -30,4 +30,4 @@ Gauland ist außerdem bekannt für die Aussage, Boateng sei "als Fußballspieler
 
 ### Fazit
 
-Keine glaubwürdige Quelle. Gauland betreibt systematisch Geschichtsrevisionismus und Verharmlosung des Nationalsozialismus. Seine Aussagen sind nicht als politische Einschätzungen zu bewerten, sondern als gezielte Delegitimierung der deutschen Erinnerungskultur.
+Keine glaubwürdige Quelle. Mit der "Vogelschiss-Rede" und dem gerichtlich als Beleidigung verurteilten Boateng-Satz hat Gauland Aussagen gemacht, die von Holocaust-Gedenkstätten, Opferverbänden und allen demokratischen Parteien als Verharmlosung des Nationalsozialismus und Geschichtsrevisionismus verurteilt wurden. Seine Aussagen sind nach dieser einhelligen Bewertung nicht als sachliche politische Einschätzungen zu verstehen, sondern als gezielte Delegitimierung der deutschen Erinnerungskultur.

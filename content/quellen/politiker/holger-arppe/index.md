@@ -25,7 +25,7 @@ Quellen: [Tagesspiegel, 01.09.2017](https://www.tagesspiegel.de/politik/afd-frak
 
 Die Chatprotokolle Arppes wurden durch seinen Parteiausschluss und die rechtskräftige Verurteilung wegen Volksverhetzung de facto bestätigt. Arppe hat die Protokolle zwar nicht explizit anerkannt, aber auch nicht wirksam bestritten.
 
-Die Chats zeigen einen Mann, der politische Gegner nicht als Bürger mit anderen Ansichten betrachtet, sondern als Feinde, die man nach einer Machtübernahme physisch vernichten solle. Diese Haltung stand offenbar nicht im Widerspruch zur damaligen AfD-Fraktionskultur in Mecklenburg-Vorpommern: Andere Abgeordnete nahmen an den Chats teil oder widersprachen zumindest nicht.
+Die Chats zeigen einen Mann, der politische Gegner nicht als Bürger mit anderen Ansichten betrachtet, sondern als Feinde, die man nach einer Machtübernahme physisch vernichten solle. Diese Haltung stand offenbar nicht im Widerspruch zur damaligen AfD-Fraktionskultur in Mecklenburg-Vorpommern: Laut [taz-Recherche (01.09.2017)](https://taz.de/Chatprotokolle-der-AfD/!5441138/) beteiligte sich damaliger AfD-Abgeordneter Thomas Jesus de Fernandes an den Chats, indem er Arppes gewaltverherrlichende Aussagen mit "Recht hat er!" kommentierte; auch der Name von Sandro Hersel erscheint in den Protokollen.
 
 ### Fazit
 

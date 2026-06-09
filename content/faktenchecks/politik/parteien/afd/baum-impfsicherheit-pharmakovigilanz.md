@@ -87,7 +87,7 @@ Der einzige tragfähige Punkt aus Baums Pressemitteilung ist, dass passive Spont
 
 ## Wer ist Christina Baum?
 
-:quelle-ref{name="christina-baum"} ist Zahnärztin, AfD-Bundestagsabgeordnete (seit 2021 über Baden-Württemberg, seit 2025 mit Direktmandat im Wahlkreis Harz) und gehört zum völkisch-rechten Flügel ihrer Partei. Dokumentiert sind unter anderem:
+:quelle-ref{name="christina-baum"} ist Zahnärztin, AfD-Bundestagsabgeordnete (seit 2021 über Baden-Württemberg, seit 2025 mit Direktmandat im Wahlkreis Harz) und wird laut [Tagesspiegel](https://www.tagesspiegel.de/politik/scharfmacherin-christina-baum-die-schlusselfigur-des-afd-gutachtens-13718242.html) dem völkisch-rechten Flügel der AfD zugerechnet; im Verfassungsschutz-Gutachten zur AfD wird sie nahezu so häufig zitiert wie Björn Höcke und Maximilian Krah. Dokumentiert sind unter anderem:
 
 - Dezember 2014 Teilnahme an einer Demonstration des Pegida-Ablegers "Wügida" in Würzburg ([Mosbach gegen Rechts](https://mosbach-gegen-rechts.de/keine-wahlempfehlung-christina-baum/))
 - Januar 2015 Vorwurf eines "schleichenden Genozids am deutschen Volk" durch die Migrationspolitik der Grünen, gefallen auf einem AfD-Landesparteitag in Karlsruhe ([Stuttgarter Zeitung](https://www.stuttgarter-zeitung.de/inhalt.politikerin-aus-baden-wuerttemberg-sie-spricht-vom-genozid-am-deutschen-volk-die-gefaehrlichste-frau-der-afd.f85821d9-0beb-4aed-9614-c40be4292d22.html), [Tagesspiegel](https://www.tagesspiegel.de/politik/scharfmacherin-christina-baum-die-schlusselfigur-des-afd-gutachtens-13718242.html))

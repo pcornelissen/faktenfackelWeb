@@ -25,7 +25,7 @@ Sie ist auch die Antisemitismusbeauftragte der AfD Bundestagsfraktion.
 
 Beatrix von Storch ist als Juristin ausgebildet und weiß, wie sie ihre Argumente verpacken muss. Sie ist eine der Führungspersönlichkeiten der AfD und vertritt deren Positionen konsequent.
 
-Wie leider so oft, müssen alle Aussagen intensiv recherchiert werden, da sie häufig Fakten erfindet oder verzerrt bzw. die AfD Positionen weitergibt, für die selbiges gilt. 
+Wie leider so oft, müssen alle Aussagen intensiv recherchiert werden, da sie nach Einschätzung von Faktencheckern wiederholt falsche oder irreführende Aussagen verbreitet bzw. AfD-Positionen weitergibt, für die selbiges gilt. 
 
 ### Fazit
 

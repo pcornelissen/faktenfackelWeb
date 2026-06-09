@@ -40,4 +40,4 @@ Die Reaktion seiner Vorgesetzten, keine Konsequenzen, stattdessen Verharmlosung 
 
 ### Fazit
 
-Marcel Grauf steht für das rechtsextreme Milieu, aus dem die AfD in ihrer Frühphase Personal rekrutierte. Seine Chat-Äußerungen sind gerichtlich verifiziert; sie sind nicht als Meinungsäußerungen am Rand einzuordnen, sondern als Ausdruck einer NS-verherrlichenden, offen eliminatorischen Gesinnung.
+Marcel Grauf steht für das rechtsextreme Milieu, aus dem Personen in der Frühphase der AfD als Parlamentsmitarbeiter tätig wurden. Seine Chat-Äußerungen sind durch ein rechtskräftiges Urteil des Oberlandesgerichts Karlsruhe als authentisch bestätigt; das Oberlandesgericht stellte fest, eine Manipulation von 40 Stellen in 17.000 Seiten Chat-Material sei "sehr unwahrscheinlich". Der Inhalt der Protokolle, NS-Verherrlichung, Gewaltfantasien und rassistische Äußerungen, ist damit gerichtlich festgestellter Befund, keine ungesicherte Behauptung.

@@ -11,7 +11,7 @@ tags:
 ---
 ## Über die Quelle
 
-Alice Elisabeth Weidel (* 6. Februar 1979 in Gütersloh) ist eine deutsche Politikerin (AfD). Sie ist seit 2017 Mitglied des Deutschen Bundestags. Weidel war zunächst ab September 2017 gemeinsam mit Alexander Gauland und ist seit September 2021 gemeinsam mit Tino Chrupalla Co-Vorsitzende der Bundestagsfraktion der rechtspopulistischen und rechtsextremen Partei Alternative für Deutschland (AfD). Seit Juni 2022 ist sie zudem zusammen mit Chrupalla Bundessprecherin der Partei. Darüber hinaus war sie von Februar 2020 bis Juli 2022 Landessprecherin der AfD Baden-Württemberg. Bei der Bundestagswahl 2017 bildete sie mit Gauland das Spitzenkandidaten-Duo für die AfD. Bei der Bundestagswahl 2021 kandidierte sie in gleicher Funktion gemeinsam mit Chrupalla. Bei der Bundestagswahl 2025 war sie Kanzlerkandidatin ihrer Partei, die damit erstmals eine solche aufstellte. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Alice_Weidel))
+Alice Elisabeth Weidel (* 6. Februar 1979 in Gütersloh) ist eine deutsche Politikerin (AfD). Sie ist seit 2017 Mitglied des Deutschen Bundestags. Weidel war zunächst ab September 2017 gemeinsam mit Alexander Gauland und ist seit September 2021 gemeinsam mit Tino Chrupalla Co-Vorsitzende der Bundestagsfraktion der Alternative für Deutschland (AfD), die vom Bundesamt für Verfassungsschutz als gesichert rechtsextremistische Bestrebung eingestuft wurde (das Verfahren vor dem VG Köln läuft noch). Seit Juni 2022 ist sie zudem zusammen mit Chrupalla Bundessprecherin der Partei. Darüber hinaus war sie von Februar 2020 bis Juli 2022 Landessprecherin der AfD Baden-Württemberg. Bei der Bundestagswahl 2017 bildete sie mit Gauland das Spitzenkandidaten-Duo für die AfD. Bei der Bundestagswahl 2021 kandidierte sie in gleicher Funktion gemeinsam mit Chrupalla. Bei der Bundestagswahl 2025 war sie Kanzlerkandidatin ihrer Partei, die damit erstmals eine solche aufstellte. (Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Alice_Weidel))
 
 ## Links
 
@@ -21,11 +21,11 @@ Alice Elisabeth Weidel (* 6. Februar 1979 in Gütersloh) ist eine deutsche Poli
 
 ## Faktenfackel Bewertung
 
-Alice Weidel fällt regelmäßig durch sehr populistische und faktenfreie Aussagen auf. Sie weiß, wie sie mediale Aufmerksamkeit erreicht, und nutzt dieses Instrument, um ihre Partei konstant in den Medien zu halten.
+Alice Weidel fällt regelmäßig durch sehr populistische Aussagen auf, die Faktenchecker wiederholt als unzutreffend oder irreführend eingestuft haben. Sie weiß, wie sie mediale Aufmerksamkeit erreicht, und nutzt dieses Instrument, um ihre Partei konstant in den Medien zu halten.
 
 Die promovierte Ökonomin vertritt EU-kritische, migrationspolitisch restriktive und nationalkonservative Positionen und zählt zu den führenden Köpfen der Partei.
 
-Sie ist in einer homophoben Partei und selbst durch homophobe Aussagen aufgefallen, lebt aber selber mit einer Frau in der Schweiz zusammen und zieht zwei Söhne mit ihr auf. Nach eigenen Angaben wäre sie nicht "lesbisch". Dazu ist ihre Partnerin in der Schweiz politisch in einer progressiven linken Partei aktiv. Die kognitive Dissonanz auf so vielen Ebenen ist relativ offensichtlich.
+Sie ist Mitglied einer Partei, der nach Einschätzung vieler Beobachter eine homophobe Grundhaltung attestiert wird, und ist laut Medienberichten selbst durch Aussagen aufgefallen, die als homophob kritisiert wurden. Weidel lebt jedoch mit einer Frau in der Schweiz zusammen und zieht zwei Söhne mit ihr auf. Nach eigenen Angaben wäre sie nicht "lesbisch". Dazu ist ihre Partnerin in der Schweiz politisch in einer progressiven linken Partei aktiv. Die kognitive Dissonanz auf so vielen Ebenen ist relativ offensichtlich.
 
 Alice Weidel ist streitsam und nutzt selber regelmäßig Anzeigen als Mittel der Meinungsmache. Sie hat aber auch einige Rechtsstreitigkeiten verloren.
 

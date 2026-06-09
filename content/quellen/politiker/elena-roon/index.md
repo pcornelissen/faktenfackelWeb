@@ -42,7 +42,7 @@ Im März 2024 reiste Roon gemeinsam mit den AfD-Landtagsabgeordneten Andreas Jur
 
 ## Faktenfackel Bewertung
 
-Elena Roon ist eine AfD-Politikerin, die dem rechten Flügel ihrer Partei zuzurechnen ist. Die dokumentierten Vorfälle, beginnend mit dem Hitler-Posting von 2016/2017, den Verbindungen zum ARMINIUS-Bund und der Russland-Reise zur Legitimierung einer Scheinwahl, zeigen ein konsistentes Muster. Ihre Äußerungen zu gesellschaftspolitischen Themen sind als parteiliche Positionierungen einzuordnen und sollten entsprechend kritisch eingeordnet werden. Die Verfassungsschutzbeobachtung unterstreicht die behördliche Einschätzung ihrer politischen Verortung.
+Die dokumentierten Vorfälle zeigen ein konsistentes Muster, das Elena Roon dem rechten Rand der AfD zuordnet: das Hitler-Posting von 2016/2017, die Verbindungen zum ARMINIUS-Bund (laut [Endstation Rechts](https://www.endstation-rechts.de/news/afd-funktionaerin-elena-roon-extrem-rechts-oder-extrem-naiv) in der ideologischen Tradition des Nationalsozialismus stehend), die Verfassungsschutzbeobachtung und die Russland-Reise zur Legitimierung einer Scheinwahl. Ihre Äußerungen zu gesellschaftspolitischen Themen sind als parteiliche Positionierungen einzuordnen und sollten entsprechend kritisch eingeordnet werden. Die Verfassungsschutzbeobachtung unterstreicht die behördliche Einschätzung ihrer politischen Verortung.
 
 ### Fazit
 

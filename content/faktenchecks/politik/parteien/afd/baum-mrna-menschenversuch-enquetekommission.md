@@ -70,7 +70,7 @@ Die COVID-Impfkampagne erfüllt keines der Merkmale eines Menschenversuchs in di
 - **Vorklinische Grundlage:** Die mRNA-Plattform wird seit den 1990er Jahren erforscht; der erste Übersichtsartikel zur mRNA-Impfung in *Nature Reviews Drug Discovery* erschien 2018, also vor SARS-CoV-2.
 - **Ethische Standards:** Die klinischen Studien wurden von Ethikkommissionen geprüft und liefen nach den Regeln der Good Clinical Practice ab.
 
-Wer die regulär zugelassene Impfkampagne mit dem Begriff "Menschenversuch" belegt, setzt sie rhetorisch mit den Verbrechen gleich, gegen die der Nürnberger Kodex überhaupt erst verfasst wurde. Das ist eine bewusste Delegitimierung der ärztlich verantworteten Pandemiebekämpfung.
+Wer die regulär zugelassene Impfkampagne mit dem Begriff "Menschenversuch" belegt, setzt sie rhetorisch mit den Verbrechen gleich, gegen die der Nürnberger Kodex überhaupt erst verfasst wurde. Die Wirkung ist eine Delegitimierung der ärztlich verantworteten Pandemiebekämpfung, die mit keinem der juristischen oder medizinischen Merkmale des Begriffs begründet werden kann.
 
 ### Die Tests waren nicht "unzureichend", sondern größer als bei den meisten Zulassungen
 
@@ -126,4 +126,4 @@ AfD-Pressemitteilungen rund um die COVID-Pandemie folgen einem Schema: Eine punk
 
 ## Fazit
 
-Baums Aussage ist **falsch**. Die COVID-Impfkampagne in Deutschland war kein Menschenversuch im Sinne des Nürnberger Kodex: Die mRNA-Impfstoffe wurden in Phase-III-Studien mit über 73.000 Teilnehmenden randomisiert und placebokontrolliert geprüft, von der EMA per regulärem CMA-Verfahren zugelassen, freiwillig nach Aufklärung verabreicht und seither unter laufender öffentlicher Pharmakovigilanz angewendet. Das Wort "Menschenversuch" stellt eine bewusste Gleichsetzung mit medizinischen Verbrechen her, gegen die der Nürnberger Kodex überhaupt erst verfasst wurde. Diese Gleichsetzung ist sachlich nicht haltbar.
+Baums Aussage ist **falsch**. Die COVID-Impfkampagne in Deutschland war kein Menschenversuch im Sinne des Nürnberger Kodex: Die mRNA-Impfstoffe wurden in Phase-III-Studien mit über 73.000 Teilnehmenden randomisiert und placebokontrolliert geprüft, von der EMA per regulärem CMA-Verfahren zugelassen, freiwillig nach Aufklärung verabreicht und seither unter laufender öffentlicher Pharmakovigilanz angewendet. Das Wort "Menschenversuch" setzt die COVID-Impfkampagne rhetorisch mit medizinischen Verbrechen gleich, gegen die der Nürnberger Kodex überhaupt erst verfasst wurde. Diese Gleichsetzung ist sachlich nicht haltbar.

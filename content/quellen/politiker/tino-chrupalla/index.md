@@ -24,7 +24,7 @@ Chrupalla gehört zum rechtsnationalen Flügel der AfD und steht für eine funda
 
 ## Faktenfackel Bewertung
 
-Tino Chrupalla ist als Sprecher der AfD integraler Bestandteil der vielen Narrative, die von der AfD faktenfrei verbreitet werden. Daher ist es wichtig, jegliche Aussagen zu kontrollieren auf Verfälschungen oder bewusste Auslassungen.
+Tino Chrupalla ist als Sprecher der AfD integraler Bestandteil vieler Narrative, die von unabhängigen Faktencheckern wiederholt als unzutreffend bewertet wurden. Daher ist es wichtig, jegliche Aussagen auf Verfälschungen oder Auslassungen zu überprüfen.
 
 ### Fazit
 

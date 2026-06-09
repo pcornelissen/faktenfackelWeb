@@ -92,7 +92,7 @@ Sicherts Variante ist subtiler: Er behauptet keine konkrete Zahl, sondern macht 
 
 Sicherts Pressemitteilung ist ein Lehrbeispiel dafür, wie korrekte Einzelzahlen in einen irreführenden Gesamtschluss überführt werden. Die Destatis-Zahlen werden korrekt zitiert, die methodische Beschaffenheit der Statistik wird aber unterschlagen. Aus "die Daten existieren so nicht" wird "die Daten werden verschwiegen", und damit ein politischer Skandalisierungsanlass, wo es nur eine technische Realität gibt.
 
-Das ist kein Versehen, sondern ein wiederkehrendes Muster der AfD-Bundestagsfraktion in gesundheits- und migrationspolitischen Anfragen. Eine ehrliche Auseinandersetzung mit den tatsächlichen Kostentreibern (Demografie, Arzneimittelpreise, Pflegepersonal) wäre möglich, würde aber den migrationspolitischen Frame entkräften.
+Das Ergebnis ist ein wiederkehrendes Muster in gesundheits- und migrationspolitischen Anfragen der AfD-Bundestagsfraktion: Eine inhaltlich belegbare Datenlücke wird als politischer Vertuschungsvorwurf umgerahmt. Eine ehrliche Auseinandersetzung mit den tatsächlichen Kostentreibern (Demografie, Arzneimittelpreise, Pflegepersonal) wäre möglich, würde aber den migrationspolitischen Frame entkräften.
 
 ### Methodische Grenzen
 
