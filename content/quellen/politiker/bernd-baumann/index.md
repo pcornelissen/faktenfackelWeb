@@ -27,8 +27,8 @@ Als parlamentarischer Geschäftsführer ist Baumann auch für die taktische Parl
 
 ## Faktenfackel Bewertung
 
-Bernd Baumann steht für eine Partei, bei der ein dokumentiertes Muster falscher und irreführender Aussagen besteht. Faktenchecks von Correctiv, dpa und anderen haben AfD-Behauptungen zu Migration, Kriminalität und Wirtschaft vielfach widerlegt. Aussagen Baumanns, insbesondere zu Migrationsstatistiken und Sicherheitsthemen, sollten grundsätzlich als unzuverlässig eingestuft werden, bis sie durch belastbare Quellen bestätigt wurden.
+Bernd Baumann steht für eine Partei, bei der Faktenchecks von Correctiv, der dpa und anderen Medien AfD-Behauptungen zu Migration, Kriminalität und Wirtschaft vielfach als falsch oder irreführend bewertet haben. Baumanns eigene Aussagen, insbesondere zu Migrationsstatistiken und Sicherheitsthemen, sollten nach dieser Einschätzung der Faktenchecker grundsätzlich auf belastbare Quellen hin überprüft werden.
 
 ### Fazit
 
-Baumann ist als AfD-Vertreter eine politisch relevante, aber inhaltlich unzuverlässige Quelle; seine Aussagen spiegeln AfD-Positionen zuverlässig wider, sind aber faktisch regelmäßig nicht haltbar.
+Baumann ist als AfD-Vertreter eine politisch relevante, aber nach Bewertung unabhängiger Faktenchecker inhaltlich unzuverlässige Quelle; seine Aussagen spiegeln AfD-Positionen zuverlässig wider, sind aber faktisch regelmäßig nicht haltbar.

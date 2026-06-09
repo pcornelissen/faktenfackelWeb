@@ -50,7 +50,7 @@ Wolfs Schwiegervater Ralph Schröder war laut [AfD-Watch Hamburg](https://afd-wa
 
 ### Einordnung
 
-Alexander Wolf gilt innerhalb der AfD als einer der intellektuell versiertesten Vertreter des völkisch-nationalistischen Flügels. Sein juristisches Hintergrundwissen erlaubt es ihm, Positionen rechtsextremer Provenienz sprachlich so zu verpacken, dass sie auf den ersten Blick moderater klingen als etwa die Reden von Björn Höcke. Inhaltlich bleibt er aber im Kernbestand rechtspopulistischer AfD-Positionen: Migrationspolitik als Hauptthema, Ablehnung von "Multikulti", Kritik an angeblicher "politischer Korrektheit".
+Alexander Wolf wird aufgrund seiner Mitgliedschaft in der vom Bayerischen Landesamt für Verfassungsschutz als rechtsextrem eingestuften Burschenschaft Danubia sowie seiner langjährigen Tätigkeit für die *Junge Freiheit* dem völkisch-nationalistischen Spektrum der AfD zugerechnet. Sein juristisches Hintergrundwissen erlaubt es ihm, Positionen rechtsextremer Provenienz sprachlich so zu verpacken, dass sie auf den ersten Blick moderater klingen als etwa die Reden von Björn Höcke. Inhaltlich bleibt er aber im Kernbestand rechtspopulistischer AfD-Positionen: Migrationspolitik als Hauptthema, Ablehnung von "Multikulti", Kritik an angeblicher "politischer Korrektheit".
 
 Besonders auffällig ist Wolfs Umgang mit der Geschichte des Nationalsozialismus und verwandten Themen. Bei der Bundestagsdebatte zum 30. Jahrestag des Völkermords von Srebrenica am 11. Juli 2025 erklärte Wolf laut [Bundestag-Protokoll](https://www.bundestag.de/dokumente/textarchiv/2025/kw28-de-srebrenica-1097384), die UN-Völkermordklassifikation sei "keine historische, sondern eine politische Entscheidung" und "sehr unklug". CDU-Außenpolitiker Jürgen Hardt warf ihm daraufhin direkt Genozidleugnung vor; Außenminister Johann David Wadephul intervenierte ebenfalls. Die Behauptung, die Klassifikation als Völkermord sei primär politisch motiviert, widerspricht dem Urteil des Internationalen Gerichtshofs und dem wissenschaftlichen Konsens.
 
@@ -58,4 +58,4 @@ Wolfs öffentliche Auftritte sind weniger durch überprüfbare Faktenbehauptunge
 
 ### Fazit
 
-Wolf ist eine politisch relevante, aber inhaltlich unzuverlässige Quelle, die AfD-Positionen mit juristischer Rhetorik unterfüttert. Seine Nähe zu völkisch-nationalistischen Netzwerken und sein öffentliches Relativieren des Völkermords von Srebrenica sind durch Quellen belegt.
+Wolf ist eine politisch relevante, aber inhaltlich unzuverlässige Quelle, die AfD-Positionen mit juristischer Rhetorik unterfüttert. Seine Zugehörigkeit zu völkisch-nationalistischen Netzwerken (Burschenschaft Danubia, laut BayVS rechtsextrem) und sein öffentliches Relativieren des Völkermords von Srebrenica sind durch Quellen belegt.

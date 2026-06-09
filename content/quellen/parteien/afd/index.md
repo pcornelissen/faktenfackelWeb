@@ -24,8 +24,8 @@ Politisch wird die AfD rechts der politischen Mitte eingeordnet. Teile der Parte
 
 ## Faktenfackel Bewertung
 
-Die AfD arbeitet intensiv mit Polemik und frei von Fakten. Sie verbreitet häufig falsche Informationen, die komplette ausgedacht sind oder sinnentstellend zitieren.
+Wie die auf dieser Seite dokumentierten Faktenchecks zeigen, arbeitet die AfD intensiv mit Polemik und verbreitet nach Einschätzung unabhängiger Faktenchecker wiederholt falsche oder sinnentstellend zitierte Informationen.
 
 ### Fazit
 
-Absolut keine glaubwürdige Quelle, definitiv alles durch weitere Quellen absichern.
+Keine belastbare Quelle für faktische Aussagen; Behauptungen von AfD-Politikern und -Kanälen sollten grundsätzlich mit unabhängigen Quellen gegengeprüft werden.

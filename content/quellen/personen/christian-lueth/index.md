@@ -12,11 +12,11 @@ tags:
 ---
 ## Über die Quelle
 
-Christian Lüth (* 1976) ist ein ehemaliger Pressesprecher der :quelle-ref{name="afd"} und rechtsextremer deutscher Politiker. Von 2013 bis 2017 war er Leiter der Kommunikationsabteilung der Partei, anschließend bis 2020 Leiter der Pressestelle der AfD-Bundestagsfraktion. Er galt als enger Vertrauter von Fraktionsvorsitzendem Alexander Gauland.
+Christian Lüth (* 1976) ist ein ehemaliger Pressesprecher der :quelle-ref{name="afd"}. Von 2013 bis 2017 war er Leiter der Kommunikationsabteilung der Partei, anschließend bis 2020 Leiter der Pressestelle der AfD-Bundestagsfraktion. Er galt als enger Vertrauter von Fraktionsvorsitzendem Alexander Gauland.
 
 Im April 2020 wurde er zunächst freigestellt, nachdem er sich selbst als Faschist bezeichnet hatte. Im September 2020 entließ ihn der Fraktionsvorstand einstimmig fristlos, nachdem eine ProSieben-Dokumentation ("Rechts. Deutsch. Radikal.") Äußerungen von ihm bekannt gemacht hatte, in denen er über das Erschießen und Vergasen von Migranten sprach.
 
-Lüth hatte zuvor unter Journalisten den Spitznamen "Lügen-Lüth" erworben und wurde von Kollegen als "unprofessionell" und "selbstherrlich" beschrieben. Die frühere AfD-Vorsitzende Frauke Petry hatte bereits 2016 versucht, ihn loszuwerden, ohne Erfolg.
+Lüth hatte zuvor von Journalisten den Spitznamen "Lügen-Lüth" erhalten und wurde von Kollegen als "unprofessionell" und "selbstherrlich" beschrieben. Die frühere AfD-Vorsitzende Frauke Petry hatte bereits 2016 versucht, ihn loszuwerden, ohne Erfolg.
 
 Im August 2020 wurde er wegen Körperverletzung vor dem Amtsgericht Tiergarten verurteilt. Seit Juni 2024 ist er wieder als Referent für einen AfD-Bundestagsabgeordneten tätig.
 

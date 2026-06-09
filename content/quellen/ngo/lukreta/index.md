@@ -37,4 +37,4 @@ Einordnungen stammen unter anderem von :quelle-ref{name="amadeu-antonio-stiftung
 
 ### Fazit
 
-Lukreta ist keine feministische oder frauenrechtliche Initiative, sondern eine rechtsextreme Vorfeldorganisation der AfD. Die Gruppe nutzt weibliche Ästhetik und Lifestyle-Content als strategisches Rekrutierungswerkzeug für rechtsextreme Ideologie und ist Teil eines wachsenden europäischen Netzwerks extrem rechter Frauengruppen.
+Lukreta ist keine feministische oder frauenrechtliche Initiative. Laut NRW-Verfassungsschutz und der Rechtsextremismusforscherin Juliane Lang (Universität Gießen) handelt es sich um eine rechtsextreme Vorfeldorganisation der AfD. Die Gruppe nutzt weibliche Ästhetik und Lifestyle-Content als strategisches Rekrutierungswerkzeug für rechtsextreme Ideologie und ist Teil eines wachsenden europäischen Netzwerks extrem rechter Frauengruppen.

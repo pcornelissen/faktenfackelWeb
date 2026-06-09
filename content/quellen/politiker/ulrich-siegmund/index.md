@@ -25,9 +25,9 @@ Quellen zu einigen problematischen Aussagen:
 
 ## Faktenfackel Bewertung
 
-Ulrich Siegmund hat eine Reihe von problematischen Aussagen und geschichtlich haltlosen "Fakten" in seinen Reden verwendet.
+Ulrich Siegmund hat eine Reihe von problematischen Aussagen gemacht, darunter nach Recherchen von [Campact](https://www.campact.de/blog/2025/12/ulrich-siegmund-spitzenkandidat-afd-sachsen-anhalt/) sachlich haltlose Behauptungen in Reden, sowie laut [Berichterstattung der Welt](https://www.welt.de/politik/deutschland/article6920450111659bc99870910f/afd-distanziert-sich-von-siegmunds-aeusserung-holocaust-ist-das-schlimmste-menschheitsverbrechen.html) Außerungen, von denen sich die AfD selbst distanzieren musste.
 
-Wie leider so oft, müssen alle Aussagen intensiv recherchiert werden, da er häufig Fakten erfindet oder verzerrt bzw. die AfD Positionen weitergibt, für die selbiges gilt. 
+Alle Aussagen müssen sorgfältig recherchiert werden, da Siegmund nach den genannten Quellen Fakten verzerrt oder AfD-Positionen weitergibt, die unabhängig davon als falsch bewertet wurden.
 
 ### Fazit
 

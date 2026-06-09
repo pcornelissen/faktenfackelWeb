@@ -25,7 +25,7 @@ Das Bundesamt für [Verfassungsschutz stuft Äußerungen Krahs](https://netzpoli
 
 ## Faktenfackel Bewertung
 
-Maximilian Krah ist eine weitere sehr problematische Figur der AfD. Er hat diverse Skandale hinter sich, die von rassistischen Äußerungen bis hin zu Verbindungen zu rechtsextremen Kreisen reichen. Er ist nicht nur als Politiker, sondern auch als Jurist äußerst fragwürdig.
+Maximilian Krah ist eine weitere sehr problematische Figur der AfD. Er hat diverse Skandale hinter sich, die von Äußerungen, die das Bundesamt für Verfassungsschutz als völkisch-nationalistisch, islamfeindlich und fremdenfeindlich eingestuft hat, bis hin zu Verbindungen zu rechtsextremen Kreisen reichen.
 
 Wie leider so oft, müssen alle Aussagen intensiv recherchiert werden, da er häufig Fakten erfindet oder verzerrt bzw. die AfD Positionen weitergibt, für die selbiges gilt. 
 

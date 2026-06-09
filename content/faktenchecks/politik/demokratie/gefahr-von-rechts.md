@@ -101,7 +101,7 @@ Der Verfassungsschutz stuft die AfD als "Verdachtsfall" im Bereich Rechtsextremi
 
 ### Personelle Überschneidungen
 
-Die Grenzen zwischen AfD und rechtsextremen Strukturen sind fließend. Bei den Sächsischen Separatisten waren drei Angeklagte zuvor in der AfD kommunalpolitisch aktiv. Der aufgelöste "Flügel" um Björn Höcke war vor allem in den ostdeutschen Landesverbänden tief verankert. Die Junge Alternative (JA) mit rund 4.300 Mitgliedern (2024) wird vom Verfassungsschutz als eigenständige rechtsextremistische Bestrebung geführt.
+Bei den Sächsischen Separatisten waren drei Angeklagte zuvor in der AfD kommunalpolitisch aktiv. Der aufgelöste "Flügel" um Björn Höcke war vor allem in den ostdeutschen Landesverbänden tief verankert. Die Junge Alternative (JA) mit rund 4.300 Mitgliedern (2024) wird vom Verfassungsschutz als eigenständige rechtsextremistische Bestrebung geführt. Aus diesen dokumentierten Überschneidungen ergibt sich, dass die Grenzen zwischen AfD und rechtsextremen Strukturen in Teilen fließend sind.
 
 ### Relativierung als Strategie
 

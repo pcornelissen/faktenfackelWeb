@@ -58,12 +58,12 @@ Mandic ist spezialisiert auf die Verteidigung von Personen aus dem rechtsextreme
 
 ## Faktenfackel Bewertung
 
-Dubravko Mandic ist kein neutraler Beobachter oder unabhängiger Jurist, sondern ein politischer Aktivist des rechtsextremen Lagers. Seine öffentlichen Äußerungen, seine Vernetzung mit der Identitären Bewegung und sein Auftritt beim NPD-Netzwerktag "Deutsche Stimme" zeigen ein konsistentes Bild: Mandic bewegt sich ideologisch an der Grenze zwischen AfD-Rechtsaußen und organisiertem Rechtsextremismus, die er selbst in seinem NPD-Vergleich von 2014 als kaum existent beschrieb.
+Dubravko Mandic ist kein neutraler Beobachter oder unabhängiger Jurist. Seine öffentlichen Äußerungen, seine Vernetzung mit der Identitären Bewegung und sein Auftritt beim NPD-Netzwerktag "Deutsche Stimme" zeigen ein konsistentes Bild: Mandic bewegt sich ideologisch an der Grenze zwischen AfD-Rechtsaußen und organisiertem Rechtsextremismus, die er selbst in seinem NPD-Vergleich von 2014 als kaum existent beschrieb.
 
 Als Rechtsanwalt vertritt er gezielt Personen aus dem rechtsextremen Spektrum, darunter den vom :quelle-ref{name="verfassungsschutz"} als rechtsextrem eingestuften Aktivisten Martin Sellner. Seine öffentlichen Kommentare zu laufenden Verfahren sind regelmäßig politisch aufgeladen. Aussagen, die Mandic in seiner Funktion als Anwalt oder politischer Kommentator tätigt, sind vor diesem Hintergrund zu bewerten: Sie verfolgen eine aktivistische, nicht eine neutrale oder faktenbasierte Agenda.
 
-Rechtskräftige Verurteilungen wegen Nötigung einer Journalistin und gefährlicher Körperverletzung lassen zusätzlich Rückschlüsse auf seine Bereitschaft zu, politische Ziele mit illegalen Mitteln durchzusetzen.
+Hinzu kommen rechtskräftige Verurteilungen wegen Nötigung einer Journalistin und gefährlicher Körperverletzung, dokumentiert durch Amts-, Land- und Oberlandesgericht.
 
 ### Fazit
 
-Dubravko Mandic ist als Quelle für politische oder rechtliche Einschätzungen nicht belastbar: Er ist ein parteipolitisch motivierter Rechtsaußen-Aktivist mit dokumentierten Verbindungen zur organisierten Rechtsextremismus-Szene und mehreren rechtskräftigen Verurteilungen. Aussagen von ihm sollten stets kritisch eingeordnet und mit unabhängigen Quellen gegengeprüft werden.
+Dubravko Mandic ist als Quelle für politische oder rechtliche Einschätzungen nicht belastbar: Seine dokumentierten Verbindungen zur organisierten Rechtsextremismus-Szene sowie mehrere rechtskräftige Verurteilungen zeigen, dass er als parteipolitisch motivierter Aktivist auftritt, nicht als unabhängiger Jurist. Aussagen von ihm sollten stets kritisch eingeordnet und mit unabhängigen Quellen gegengeprüft werden.
